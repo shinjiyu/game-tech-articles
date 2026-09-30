@@ -1,0 +1,65 @@
+{
+  "topic": "game technology: physics simulation, real-time rendering, global illumination",
+  "min_year": 2022,
+  "max_year": 2026,
+  "title_must_match_any": [
+    "physics",
+    "simulation",
+    "cloth",
+    "fluid",
+    "mpm",
+    "xpbd",
+    "position-based",
+    "contact",
+    "elastodynamic",
+    "global illumination",
+    "ray tracing",
+    "radiance",
+    "reflectance",
+    "neural rendering",
+    "gaussian",
+    "nanite",
+    "lumen"
+  ],
+  "keywords": [
+    "material point method cloth",
+    "\"position based\" dynamics cloth",
+    "incremental potential contact",
+    "real-time fluid simulation graphics",
+    "global illumination real-time",
+    "ray tracing global illumination",
+    "MLS-MPM",
+    "projective dynamics cloth"
+  ],
+  "sources": {
+    "arxiv": {
+      "enabled": true,
+      "max_results_per_keyword": 12,
+      "sort_by": "submittedDate",
+      "sort_order": "descending",
+      "note": "export.arxiv.org；注意限流"
+    },
+    "crossref": {
+      "enabled": false,
+      "max_results_per_keyword": 8,
+      "rows": 8
+    },
+    "semanticscholar": {
+      "enabled": true,
+      "max_results_per_keyword": 10,
+      "fields": "paperId,externalIds,title,authors,abstract,publicationDate,url,year"
+    },
+    "dblp": {
+      "enabled": true,
+      "max_results_per_keyword": 8
+    },
+    "pubmed": {
+      "enabled": false,
+      "max_results_per_keyword": 5
+    }
+  },
+  "dedupe": {
+    "against_index": true,
+    "against_watchlist": true
+  }
+}

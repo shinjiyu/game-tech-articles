@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>游戏技术知识网络</title>
+  <meta name="description" content="物理模拟 × 实时渲染知识网络：PBD 到 IPC/MPM，球谐到 Lumen，附论文分档与日更候选项。" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <button id="menuToggle" class="menu-toggle" type="button" aria-label="菜单">☰</button>
+    <a class="brand" href="#home">
+      <span class="brand-mark">GT</span>
+      <span class="brand-text">游戏技术知识网络</span>
+    </a>
+    <div class="topbar-spacer"></div>
+    <span id="buildStamp" class="build-stamp"></span>
+    <input id="search" class="search" type="search" placeholder="搜索章节 / 论文…" aria-label="搜索" />
+  </header>
+
+  <div class="layout">
+    <nav id="sidebar" class="sidebar" aria-label="章节导航"></nav>
+    <div id="overlay" class="overlay" hidden></div>
+    <main class="content">
+      <article id="chapter" class="chapter"></article>
+      <div class="pager">
+        <button id="prevBtn" class="pager-btn" type="button">← 上一章</button>
+        <button id="nextBtn" class="pager-btn pager-next" type="button">下一章 →</button>
+      </div>
+      <footer class="page-footer">
+        <p>游戏技术知识网络 · 教程知识点 × 论文索引 · 数据来自 <code>indexes/game-tech</code></p>
+        <p class="footer-links">
+          <a href="https://github.com/shinjiyu/game-tech-articles" target="_blank" rel="noopener noreferrer">GitHub</a>
+          ·
+          <a href="https://github.com/shinjiyu/agent-harness-articles" target="_blank" rel="noopener noreferrer">姊妹库 agent-harness-articles</a>
+        </p>
+      </footer>
+    </main>
+  </div>
+
+  <script src="content.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

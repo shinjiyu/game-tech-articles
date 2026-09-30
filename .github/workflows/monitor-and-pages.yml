@@ -1,0 +1,69 @@
+name: Monitor papers and deploy Pages
+
+on:
+  schedule:
+    # 每天 09:00 UTC+8 ≈ 01:00 UTC
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: monitor-and-pages
+  cancel-in-progress: false
+
+jobs:
+  monitor-build-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch new papers
+        run: python scripts/monitor_papers.py
+
+      - name: Detect watchlist changes
+        id: diff
+        shell: bash
+        run: |
+          if git diff --quiet -- indexes/game-tech/watchlist.json indexes/game-tech/inbox; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+          NEW=$(python -c "import json; print(json.load(open('indexes/game-tech/watchlist.json',encoding='utf-8')).get('last_run',{}).get('new',0))")
+          echo "new_count=$NEW" >> "$GITHUB_OUTPUT"
+
+      - name: Commit watchlist / inbox
+        if: steps.diff.outputs.changed == 'true'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add indexes/game-tech/watchlist.json indexes/game-tech/inbox
+          git commit -m "chore(monitor): ${{ steps.diff.outputs.new_count }} new paper candidates"
+          git push
+
+      - name: Build site (includes watchlist chapter)
+        run: python scripts/build_site.py
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - id: deployment
+        name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4

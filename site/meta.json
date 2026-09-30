@@ -1,0 +1,18 @@
+{
+  "built_from_index_updated_at": "2026-09-30T15:00:00+08:00",
+  "paper_counts": {
+    "A": 4,
+    "B": 8,
+    "C": 3,
+    "total": 15
+  },
+  "watchlist_count": 0,
+  "chapter_count": 13,
+  "site": {
+    "title": "游戏技术知识网络",
+    "brand": "GT",
+    "brand_text": "游戏技术知识网络",
+    "footer": "游戏技术知识网络 · 物理 × 渲染 × 其它支柱 · 论文持续入库",
+    "description": "从 PBD / 球谐等既有储备出发，梳理物理模拟、光照渲染与相邻分支的时间脉络、落地应用与论文索引。"
+  }
+}

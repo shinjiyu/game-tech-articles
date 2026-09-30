@@ -1,0 +1,162 @@
+{
+  "site": {
+    "title": "游戏技术知识网络",
+    "brand": "GT",
+    "brand_text": "游戏技术知识网络",
+    "footer": "游戏技术知识网络 · 物理 × 渲染 × 其它支柱 · 论文持续入库",
+    "description": "从 PBD / 球谐等既有储备出发，梳理物理模拟、光照渲染与相邻分支的时间脉络、落地应用与论文索引。"
+  },
+  "modules": [
+    {
+      "id": "intro",
+      "title": "导论",
+      "chapters": ["home", "how-to-use", "learning-stance"]
+    },
+    {
+      "id": "physics",
+      "title": "物理模拟",
+      "chapters": ["physics-map", "physics-timeline", "physics-realtime-fem"]
+    },
+    {
+      "id": "rendering",
+      "title": "渲染与光照",
+      "chapters": ["lighting-timeline", "pbr-rt-lumen", "nanite-geometry"]
+    },
+    {
+      "id": "pillars",
+      "title": "其它支柱",
+      "chapters": ["other-pillars"]
+    },
+    {
+      "id": "papers",
+      "title": "论文索引",
+      "chapters": ["paper-index", "watchlist", "tier-a-reading"]
+    }
+  ],
+  "chapters": [
+    {
+      "id": "home",
+      "module": "导论",
+      "title": "知识网络首页",
+      "file": "home.md",
+      "keywords": "home 地图 物理 渲染 PBD 球谐 Lumen",
+      "tags": [],
+      "papers_mode": "none"
+    },
+    {
+      "id": "how-to-use",
+      "module": "导论",
+      "title": "怎么用这套知识库",
+      "file": "how-to-use.md",
+      "keywords": "阅读路径 分档 A B C 监控 watchlist",
+      "tags": [],
+      "papers_mode": "none"
+    },
+    {
+      "id": "learning-stance",
+      "module": "导论",
+      "title": "学习姿态：能读能调即可",
+      "file": "learning-stance.md",
+      "keywords": "AI 编码 调试 读代码 验收",
+      "tags": ["learning"],
+      "papers_mode": "none"
+    },
+    {
+      "id": "physics-map",
+      "module": "物理模拟",
+      "title": "物理家族地图",
+      "file": "physics-map.md",
+      "keywords": "PBD XPBD FEM MPM SPH IPC ABD PD",
+      "tags": ["physics", "pbd", "mpm", "ipc", "fem"],
+      "papers_mode": "related",
+      "papers_limit": 12
+    },
+    {
+      "id": "physics-timeline",
+      "module": "物理模拟",
+      "title": "物理时间脉络与落地",
+      "file": "physics-timeline.md",
+      "keywords": "Jakobsen PBD Frozen MPM XPBD IPC 时间线",
+      "tags": ["physics", "pbd", "mpm", "ipc"],
+      "papers_mode": "related",
+      "papers_limit": 12
+    },
+    {
+      "id": "physics-realtime-fem",
+      "module": "物理模拟",
+      "title": "实时有限元在 ACG 的进展",
+      "file": "physics-realtime-fem.md",
+      "keywords": "FEM FEA IPC GPU 降阶 软体",
+      "tags": ["fem", "ipc", "physics"],
+      "papers_mode": "related",
+      "papers_limit": 8
+    },
+    {
+      "id": "lighting-timeline",
+      "module": "渲染与光照",
+      "title": "光照时间脉络（球谐之后）",
+      "file": "lighting-timeline.md",
+      "keywords": "SH PRT SSAO SSR 探针 VXGI RT Lumen",
+      "tags": ["lighting", "gi", "sh", "lumen"],
+      "papers_mode": "related",
+      "papers_limit": 12
+    },
+    {
+      "id": "pbr-rt-lumen",
+      "module": "渲染与光照",
+      "title": "PBR · 光追 · Lumen",
+      "file": "pbr-rt-lumen.md",
+      "keywords": "PBR ray tracing Lumen DLSS 混合渲染",
+      "tags": ["pbr", "raytracing", "lumen", "lighting"],
+      "papers_mode": "related",
+      "papers_limit": 10
+    },
+    {
+      "id": "nanite-geometry",
+      "module": "渲染与光照",
+      "title": "Nanite 与几何线",
+      "file": "nanite-geometry.md",
+      "keywords": "Nanite LOD 虚拟几何 可见性",
+      "tags": ["nanite", "geometry", "rendering"],
+      "papers_mode": "related",
+      "papers_limit": 6
+    },
+    {
+      "id": "other-pillars",
+      "module": "其它支柱",
+      "title": "动画 / 网络 / 开世界等",
+      "file": "other-pillars.md",
+      "keywords": "animation networking streaming ECS motion matching rollback",
+      "tags": ["animation", "networking", "streaming"],
+      "papers_mode": "related",
+      "papers_limit": 8
+    },
+    {
+      "id": "paper-index",
+      "module": "论文索引",
+      "title": "分档论文总表",
+      "file": "paper-index.md",
+      "keywords": "论文 index tier",
+      "tags": [],
+      "papers_mode": "all_by_tier"
+    },
+    {
+      "id": "watchlist",
+      "module": "论文索引",
+      "title": "每日候选项",
+      "file": "watchlist.md",
+      "keywords": "watchlist inbox monitor 日更",
+      "tags": [],
+      "papers_mode": "none"
+    },
+    {
+      "id": "tier-a-reading",
+      "module": "论文索引",
+      "title": "A 档精读",
+      "file": "tier-a-reading.md",
+      "keywords": "A档 核心介绍",
+      "tags": [],
+      "papers_mode": "tier_a"
+    }
+  ]
+}
