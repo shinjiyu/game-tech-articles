@@ -1,0 +1,595 @@
+{
+  "date": "2026-10-01",
+  "run": {
+    "at": "2026-10-01T14:50:40+08:00",
+    "sources": [
+      "arxiv",
+      "semanticscholar",
+      "dblp"
+    ],
+    "keywords": [
+      "material point method cloth",
+      "\"position based\" dynamics cloth",
+      "incremental potential contact",
+      "real-time fluid simulation graphics",
+      "global illumination real-time",
+      "ray tracing global illumination",
+      "MLS-MPM",
+      "projective dynamics cloth"
+    ],
+    "fetched": 102,
+    "merged": 27,
+    "new": 21
+  },
+  "new_candidates": [
+    {
+      "source": "arxiv",
+      "arxiv_id": "2609.40349",
+      "arxiv_version": "v1",
+      "title": "Efficient Calculation of Equilibrium Correlation Functions",
+      "authors": [
+        "Yizhi Shen",
+        "Roel Van Beeumen",
+        "Wibe A. de Jong",
+        "Efekan Kökcü"
+      ],
+      "published": "2026-09-30",
+      "url": "https://arxiv.org/abs/2609.40349",
+      "abstract": "A majority of measurable dynamic quantities of a physical system is described as an equilibrium correlation function of the form $G_{AB}(t-t') = \\left<A(t)B(t')\\right>$, where $t'$ represents the impact time and $t$ represents the response time. Conventional quantum algorithms to compute such quantities via Hamiltonian simulation such as the Hadamard test, variational methods, or linear-response-based algorithms share one feature in common: each time point $t-t'$ is calculated by a different quantum circuit, leading to at least $O(N_t)$ total shots, and at least $O(N_t^2)$ total quantum gates. Here, we provide a different approach: utilizing $O(\\log N_t)$ ancilla qubits to store time as a quantum variable, and effectively parallelize the computation of an equilibrium correlation function by requiring only a single quantum circuit for all time points. We show that this circuit needs to be run only $O(\\log N_t)$ times, which in total requires $O(N_t \\log N_t)$ quantum resources in the large system size limits. We prove that this scaling is optimal, and demonstrate our algorithm calculating the Green's function of a one-dimensional spinless Hubbard model.",
+      "external_ids": [
+        "arxiv:2609.40349"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-01T14:50:40+08:00",
+      "last_seen_at": "2026-10-01T14:50:40+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2609.40337",
+      "arxiv_version": "v1",
+      "title": "Quantization through Dissipation and the Optical Quantum Hall Effect",
+      "authors": [
+        "Zhenisbek Tagay",
+        "Ahmed Abouelkomsan",
+        "Yugo Onishi",
+        "Adbhut Gupta",
+        "Loren Pfeiffer",
+        "Liang Fu",
+        "N. P. Armitage"
+      ],
+      "published": "2026-09-30",
+      "url": "https://arxiv.org/abs/2609.40337",
+      "abstract": "The integer quantum Hall effect remains the most paradigmatic and remarkable example of exact quantization in condensed matter physics. Its Hall conductivity $σ_{xy}$ is fixed to $e^2/h$ times an integer to a precision limited only by measurement and independent of disorder or interactions. This robustness has several explanations, each capturing a strikingly different piece of the physics. In Laughlin's gauge argument, flux insertion pumps an integer charge between edges, so quantization follows from gauge invariance alone. The edge-channel picture instead attributes transport to chiral, ballistic 1D channels at the sample boundary, one per filled Landau level. Bulk arguments tie $σ_{xy}$ to a topological invariant of the disordered system, with extended states compensating exactly for the current not carried by localized ones. Here we demonstrate an additional route to understanding quantization, rooted in the finite-frequency dissipative electrodynamics of the bulk. Using high-precision terahertz Faraday rotation and numerics, we show that the cyclotron resonance alone does not give quantized plateaus under Kramers-Kronig transformation. Quantization is recovered only once a faint, low-frequency, topologically enforced dissipative contribution from impurity states is included. This dynamical mechanism, hiding in plain sight within the dissipative response, ties the DC value to the finite-frequency optical response and offers a new route to quantization through the optical Hall effect.",
+      "external_ids": [
+        "arxiv:2609.40337"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-01T14:50:40+08:00",
+      "last_seen_at": "2026-10-01T14:50:40+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2609.40328",
+      "arxiv_version": "v1",
+      "title": "Bath-assisted cooling without resets",
+      "authors": [
+        "Xie-Hang Yu",
+        "Zherui Chen",
+        "Lin Lin"
+      ],
+      "published": "2026-09-30",
+      "url": "https://arxiv.org/abs/2609.40328",
+      "abstract": "Cooling an arbitrary mixed state to a pure ground state requires transferring its entropy to an environment. Can a single coherent bath contact accomplish this without repeated bath resets? We develop a new cooling mechanism that transfers the input information into bath degrees of freedom that subsequently decouple, while the system and the remaining bath follow a ground-state path. The bath is discarded only at the end, and the system Hamiltonian remains on and unmodified throughout. We rigorously realize this mechanism for a class of weakly interacting, gapped fermionic systems with local interactions. Starting from any mixed state, our protocol prepares the interacting ground state in total physical time polylogarithmic in the system size and inverse global trace-norm error. It uses two initially empty bath modes per system mode and a single pulse shared across all onsite system--bath couplings. The same pulse prepares each admissible system's own ground state without knowledge of its microscopic parameters. The guarantees follow directly from a non-Markovian system--bath dynamics without an effective Lindbladian description.",
+      "external_ids": [
+        "arxiv:2609.40328"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "incremental potential contact",
+        "global illumination real-time",
+        "ray tracing global illumination",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-01T14:50:40+08:00",
+      "last_seen_at": "2026-10-01T14:50:40+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2609.40283",
+      "arxiv_version": "v1",
+      "title": "Distinguishing Coherent Crosstalk from Calibration Drift via Pauli-Transfer Signatures and Quantum Edge Detection",
+      "authors": [
+        "Syed Emad Uddin Shubha",
+        "Tasnuva Farheen"
+      ],
+      "published": "2026-09-30",
+      "url": "https://arxiv.org/abs/2609.40283",
+      "abstract": "Multi-tenant quantum processors expose a pulse-level attack surface in which coherent crosstalk can mimic benign calibration drift at matched average gate infidelity. We present a structural verification and detection framework based on the residual Pauli transfer matrix (PTM). We prove that products of local unital, trace-preserving channels cannot mix weight-1 and weight-2 Pauli operators, even under coherent drift of arbitrary strength or axis. Building on established PTM-to-Hamiltonian relations, we prove that, for any specified qubit pair in an arbitrarily large system, the first-order map from its nine interaction coefficients to the antisymmetric cross-weight feature is an isometry up to scale. Thus, every interaction direction is locally observable near the identity. We also exhibit cancellation of this feature under large local rotations and prove that the full cross-weight norm is invariant under local unitary composition, providing a structural countermeasure. For calibrated small local rotations, shared randomized-Pauli measurements support periodic verification using the evaluated antisymmetric detector. In simulation, $16{,}384$ randomized settings yield a detection threshold of $λ_{\\min}\\approx0.13$ at a $5\\%$ calibrated false-positive target, with approximately $M^{-1/2}$ scaling in the number of settings $M$. Further experiments characterize detection under relaxation, depolarization, native ZZ fluctuations, and time-dependent pulse dynamics. Finally, an FRQI encoding with Pauli-graph quantum Hadamard edge detection reproduces the classical structural edge score to numerical precision.",
+      "external_ids": [
+        "arxiv:2609.40283"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-01T14:50:40+08:00",
+      "last_seen_at": "2026-10-01T14:50:40+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2609.40272",
+      "arxiv_version": "v1",
+      "title": "Skill-Based AI Agents for Power-System Studies",
+      "authors": [
+        "Pavel Etingov",
+        "Shuchismita Biswas"
+      ],
+      "published": "2026-09-30",
+      "url": "https://arxiv.org/abs/2609.40272",
+      "abstract": "This paper describes a skill-based agentic framework for power-system studies using Model Context Protocol (MCP)-connected engineering tools. A custom MCP server was developed to expose Siemens PTI PSSE functions for power-flow analysis, dynamic simulation, result extraction, and model-validation workflows. Two implementation pathways built on a programmable OpenAI Agents software development kit (SDK) and a Claude Code command-line interface (CLI) were evaluated, both using reusable skills, subagents, MCP tools, data-repository connections, and local shell/Python execution. Both frontier-model-based implementations successfully executed representative study tasks. Success was evaluated based on task completion, output accuracy, and the need for human expert interventions. Results based on public datasets show that agentic systems can greatly accelerate power system dynamic simulation process for transmission planning studies leveraging industry-grade simulation platforms. This points toward a shift in transmission planning practice, where agentic systems could handle routine simulation setup and result extraction, allowing engineers to focus expert judgment on scenario design and interpretation rather than tool operation.",
+      "external_ids": [
+        "arxiv:2609.40272"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-01T14:50:40+08:00",
+      "last_seen_at": "2026-10-01T14:50:40+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2609.40296",
+      "arxiv_version": "v1",
+      "title": "Open Capacity Pooling in Agentic Supply Chains: Coordination-Directed LLM Discovery and Distributed Re-optimization",
+      "authors": [
+        "Yujia Xu",
+        "Walid Klibi",
+        "Benoit Montreuil"
+      ],
+      "published": "2026-09-30",
+      "url": "https://arxiv.org/abs/2609.40296",
+      "abstract": "Disruptions can exhaust a supply chain network's capacity, yet outside capacity is hard to use: incumbent models are private, provider profiles are unstructured, and offers stay hidden until costly engagement. We formulate open capacity pooling, making network membership a disruption-response decision. The alternating direction method of multipliers (ADMM) coordinates incumbents without sharing models, and residual capacity gaps direct search over profiles indexed by a large language model (LLM). Verification reveals offers, reduced-cost screening admits them, and warm-started ADMM re-optimizes. The procedure is optimal if every eligible offer is revealed at exact prices, heuristic otherwise. Across 200 synthetic episodes, full-information opening recovers 24.6% of capacity-scarcity cost. With 40 contacts, coordination-directed need selection and LLM ranking capture 32.0% of this value, versus 4.7% for undirected, unranked contact. LLM reading of all profiles performs within five points of a complete structured registry and error-free extraction and finds four times as many compatible providers as keyword search among 10,000 records. What profiles omit is the exact capacity each provider's single offer covers, and requests for other capacity fail; registering offers in the same index raises captured value without a contact limit from 46.8% to 98.6%, keeping net value positive at every tested contact charge.",
+      "external_ids": [
+        "arxiv:2609.40296"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-01T14:50:40+08:00",
+      "last_seen_at": "2026-10-01T14:50:40+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2609.40256",
+      "arxiv_version": "v1",
+      "title": "Nonrelativistic expansions of Dirac-Coulomb energy and first order relativistic Breit potential corrections for light Atomic and molecular systems",
+      "authors": [
+        "Wanping Zhou",
+        "Sanjiang Yang",
+        "Chen Tong"
+      ],
+      "published": "2026-09-30",
+      "url": "https://arxiv.org/abs/2609.40256",
+      "abstract": "The nonrelativistic expansion method is applied to the Dirac-Coulomb energy and first order relativistic Breit potential corrections for light atomic and molecular systems to derive high-order effective energy correction operators for few-body systems. It is found that effective operators at the $mα^8$ order contain incompletely separable divergences. These divergences must be canceled jointly with divergences arising from second- and third-order perturbations of lower-order energy correction operators, and such cancellation can be accomplished automatically by the nonrelativistic numerical expansion approach. Using Gaussian basis sets, we numerically compute contributions to the Dirac-Coulomb energy and relativistic Breit potential corrections up to order $mα^8$ for the ground states of the hydrogen atom, hydrogen molecular ion, helium atom, and hydrogen molecule. These results confirm the reliability of the present method and enable its extension to more complex systems.",
+      "external_ids": [
+        "arxiv:2609.40256"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-01T14:50:40+08:00",
+      "last_seen_at": "2026-10-01T14:50:40+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2609.40250",
+      "arxiv_version": "v1",
+      "title": "An (almost) efficient classical algorithm for sampling from typical Gibbs states",
+      "authors": [
+        "Saleh Naghdi",
+        "Eric R. Anschuetz"
+      ],
+      "published": "2026-09-30",
+      "url": "https://arxiv.org/abs/2609.40250",
+      "abstract": "Gibbs state preparation has emerged as a potential avenue for quantum advantage in the study of physical systems. Although there is known advantage for computing local properties of worst-case Gibbs states, recent results suggest a different picture for average-case local systems: at temperatures where their Gibbs states can be efficiently prepared quantumly, quasi-polynomial time classical algorithms can also compute local expectation values. Yet this leaves open the possibility of an advantage under a stronger notion of simulation: sampling. Gibbs sampling underlies Boltzmann machine-based quantum learning algorithms and quantum supremacy proposals, but its classical average-case complexity for physically relevant models remains unresolved. Here, we give strong evidence against an exponential quantum advantage in Gibbs sampling for an ensemble of local systems known as the quantum $p$-spin model. We describe a classical algorithm for sampling from the Gibbs state to any polynomially small error in total variation distance. Our algorithm is based on a meta-algorithm known as algorithmic stochastic localization (ASL). Our main technical result is a generalized convergence theorem for ASL which reduces approximate sampling from any distribution on the hypercube to estimating the mean of a related \"tilted distribution\" to sufficiently low additive error. We then extend known quasi-polynomial time algorithms for computing local expectation values of a related disordered model to compute these \"tilted means\" for the quantum $p$-spin model. Finally, we give a non-rigorous physics argument that this mean-estimation algorithm works down to the spin glass transition temperature. As efficient quantum algorithms also fail at this transition, this suggests they cannot Gibbs sample the quantum $p$-spin model at temperatures below that for which classical algorithms are also (almost) efficient.",
+      "external_ids": [
+        "arxiv:2609.40250"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-01T14:50:40+08:00",
+      "last_seen_at": "2026-10-01T14:50:40+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2609.40206",
+      "arxiv_version": "v1",
+      "title": "On the Compatibility of DEIM Subspaces for Nonlinear Forces Reduction in Projective Dynamics",
+      "authors": [
+        "Shaimaa Monem Abdelhafez",
+        "Igor Pontes Duff",
+        "Peter Benner"
+      ],
+      "published": "2026-09-30",
+      "url": "https://arxiv.org/abs/2609.40206",
+      "abstract": "In physics-based simulations, the evaluation of nonlinear constraint forces represents a primary source of computational complexity. Within the framework of projective dynamics, the solver alternates between estimating these forces and updating vertex positions for the subsequent frame. This work investigates the potential of snapshot-based subspace methods to accelerate the computation of constraint terms while maintaining the fidelity of nonlinear dynamics. We focus specifically on the Discrete Empirical Interpolation Method (DEIM), examining whether it can identify a reduced set of constrained mesh elements that enable accurate interpolation and approximation of forces across the full system. Our experiments demonstrate that DEIM is neither intuitive nor consistently effective for constraint projection reduction. In particular, its performance degrades when constraints involve multiple vertices. To validate these observations, we present comparisons between full-order and reduced-order simulations on both surface meshes embedded in three dimensions and volumetric meshes. Furthermore, we report reconstruction errors for various classes of constraints, providing quantitative evidence of the method limitations in this context.",
+      "external_ids": [
+        "arxiv:2609.40206"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-01T14:50:40+08:00",
+      "last_seen_at": "2026-10-01T14:50:40+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2609.40363",
+      "arxiv_version": "v1",
+      "title": "Probing the Reionization History and Bubble Sizes with JWST Lyman-$α$ Fraction Measurements",
+      "authors": [
+        "Aritra Kundu",
+        "Adam Lidz",
+        "Guochao Sun"
+      ],
+      "published": "2026-09-30",
+      "url": "https://arxiv.org/abs/2609.40363",
+      "abstract": "Recent James Webb Space Telescope (JWST) measurements quantify the fraction of ultraviolet-selected galaxies showing detectable Lyman-alpha (Ly-$α$) lines at $z \\sim 6-14$. These Ly-$α$ fractions are partly shaped by Ly-$α$ scattering from neutral hydrogen in the surrounding intergalactic medium (IGM), and so the observed Ly-$α$ fraction evolution can inform our understanding of the reionization history and the size distribution of ionized bubbles during reionization. We compare the JWST measurements with Ly-$α$ transmission calculations based on both the THESAN reionization simulations and a flexible semi-analytic model. In each case, we calibrate a sub-grid model for the intrinsic Ly-$α$ emission lines emerging from the interstellar medium (ISM) and circumgalactic medium (CGM) of the host galaxies using empirical estimates of the Ly-$α$ equivalent width (EW) distributions at $z \\sim 6$. We find that the reionization history and bubble sizes in THESAN yield good agreement with current JWST Ly-$α$ fraction observations, with a reduced $χ^2_ν= 0.4-1.2$. Our semi-analytic models and THESAN Ly-$α$ transmission calculations agree well, allowing us to explore a wide range of reionization models. We derive $1σ$ bounds on the average mass-weighted neutral fractions of: $\\langle x_{\\mathrm{HI}} \\rangle$ = $0.38^{+0.14}_{-0.38}$ ($0.52^{+0.09}_{-0.21}$), $0.57^{+0.23}_{-0.57}$ ($0.68^{+0.12}_{-0.39}$), and $0.93^{+0.05}_{-0.17}$ ($0.89^{+0.11}_{-0.15}$) at $z \\sim$ 7, 8, and 11, based on the Ly-$α$ fraction measurements with EW $>25\\,\\mathring{\\rm A}$ ($>10\\,\\mathring{\\rm A}$).",
+      "external_ids": [
+        "arxiv:2609.40363"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-01T14:50:40+08:00",
+      "last_seen_at": "2026-10-01T14:50:40+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2609.40309",
+      "arxiv_version": "v1",
+      "title": "Decoupling of the QAOA into independent spin-boson systems and high-depth performance on pure and mixed spin glasses",
+      "authors": [
+        "Sami Boulebnane",
+        "Abid Khan",
+        "Pragna Subrahmanya",
+        "Dylan Herman",
+        "Edward Farhi",
+        "Benjamin Villalonga",
+        "Ruslan Shaydulin"
+      ],
+      "published": "2026-09-30",
+      "url": "https://arxiv.org/abs/2609.40309",
+      "abstract": "The Quantum Approximate Optimization Algorithm (QAOA) is regarded as a promising candidate for near-term quantum advantage in combinatorial optimization, yet our ability to study it at scale is limited. Exact recursive formulas have been introduced for predicting QAOA performance on large spin glasses, but the computational cost of evaluating them grows exponentially with the number of QAOA layers, preventing the study of QAOA in the promising high-depth regime. In this work, we show that for the task of computing QAOA energy on any mixed dense spin glass problem, spins approximately decouple into independent spin-boson systems. In the infinite-size limit, the decoupling becomes exact, establishing the spin-boson mapping as a natural framework for the many-body physics of QAOA. This generalized spin-boson mapping gives a recursive procedure for computing QAOA energies that can be executed at modest cost using tensor networks. As a numerical application, we optimize QAOA on pure and mixed spin glasses at depths intractable for prior techniques, observing that higher-degree problems require more layers for a comparable approximation ratio while angle optimization becomes more challenging. While decoupling enables the evaluations of QAOA energies at large size and depth, it does not enable strong simulation of QAOA; a quantum computer is required to sample the bitstring corresponding to the predicted energy.",
+      "external_ids": [
+        "arxiv:2609.40309"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-01T14:50:40+08:00",
+      "last_seen_at": "2026-10-01T14:50:40+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2609.40308",
+      "arxiv_version": "v1",
+      "title": "Phase-Field Modeling of Liquid Phases with Ordering",
+      "authors": [
+        "Yanzhou Ji",
+        "Chengyin Wu"
+      ],
+      "published": "2026-09-30",
+      "url": "https://arxiv.org/abs/2609.40308",
+      "abstract": "A strong negative enthalpy of mixing can lead to ordering in liquid solutions. To describe ordering in liquids, different thermodynamic descriptions of liquid phases have been developed in the CALPHAD approach, including the associate model and the modified quasichemical model. In this study, we show that the key to directly incorporate these liquid phase models and their corresponding CALPHAD-type free energy formulations in phase-field simulations, is to identify the internal processes and to properly define the internal thermodynamic variables. The free energy of the liquid phase can then be converted to a function of component compositions and internal variables, and the evolution of the internal variables will be determined via Allen-Cahn-type relaxation equations. We demonstrate this modeling strategy using the formation of stoichiometric phases from liquid phases in Na-Sb and Na-Sn systems. This study will pave the way for predicting microstructure evolution in liquids with ordering using phase-field simulations.",
+      "external_ids": [
+        "arxiv:2609.40308"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-01T14:50:40+08:00",
+      "last_seen_at": "2026-10-01T14:50:40+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2609.40297",
+      "arxiv_version": "v1",
+      "title": "GPU-Accelerated Path-Dependent Marginal Information Gain for Autonomous Exploration",
+      "authors": [
+        "João Félix Mendes",
+        "Rodrigo Ventura",
+        "Meysam Basiri"
+      ],
+      "published": "2026-09-30",
+      "url": "https://arxiv.org/abs/2609.40297",
+      "abstract": "Autonomous exploration demands that robots continuously evaluate candidate viewpoints based on their expected information gain and execution cost. Sampling-based planners estimate this gain by volumetric raycasting and, due to its computational cost, evaluate candidates under an assumption of mutual independence, ignoring the overlap between viewpoints along the same path. This work presents a GPU-accelerated method for computing path-dependent marginal information gain, where instead of storing and merging the observed unknown voxels along each candidate path, previous observations are represented using depth buffers. Candidate rays are projected into the depth buffers of their ancestors to identify observation overlap and exclude regions expected to be observed. The planning tree is evaluated in depth order to maintain the dependency between viewpoints and their optimized yaws, while candidate nodes and rays at each level are processed in parallel on the GPU. The proposed method stays within 5-10% of the exact marginal gain computed using voxel hash maps, with speed-ups of up to 118x on a desktop GPU and 28x on an NVIDIA Jetson Orin NX. The method was integrated into two sampling-based exploration planners and evaluated in three simulation environments, where marginal gain reduced the time to 95% coverage in five of the six evaluated planner-environment combinations. Real-world experiments also showed a 30% reduction in the time to 95% coverage, as well as earlier exploration termination times.",
+      "external_ids": [
+        "arxiv:2609.40297"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics",
+        "global illumination real-time",
+        "ray tracing global illumination",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-01T14:50:40+08:00",
+      "last_seen_at": "2026-10-01T14:50:40+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2609.40279",
+      "arxiv_version": "v1",
+      "title": "Classical simulation of coherent crosstalk in surface codes",
+      "authors": [
+        "Andrew S. Darmawan",
+        "Yelyzaveta Kolesnyk",
+        "Robert Koenig"
+      ],
+      "published": "2026-09-30",
+      "url": "https://arxiv.org/abs/2609.40279",
+      "abstract": "We give a polynomial-time classical algorithm which samples from the syndrome distribution of a surface code state corrupted by coherent nearest-neighbor $ZZ$ crosstalk. Our algorithm complements the known efficient simulation algorithms for coherent single-qubit errors in the surface code. When both single-qubit coherent noise and coherent crosstalk are present, we find a complexity-theoretic obstruction to efficient simulation: unless the polynomial hierarchy collapses, there is no efficient classical algorithm for sampling from the syndrome distribution, even up to a constant multiplicative error. This is obtained by connecting the syndrome distribution under coherent noise to the output distribution of certain IQP circuits associated with a non-planar graph.",
+      "external_ids": [
+        "arxiv:2609.40279"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-01T14:50:40+08:00",
+      "last_seen_at": "2026-10-01T14:50:40+08:00"
+    },
+    {
+      "source": "semanticscholar",
+      "arxiv_id": "2511.23131",
+      "doi": "10.48550/arXiv.2511.23131",
+      "title": "Towards Generalized Position-Based Dynamics",
+      "authors": [
+        "Manas Chaudhary",
+        "Chandradeep Pokhariya",
+        "Rahul Narain"
+      ],
+      "published": "2025-11-28",
+      "url": "https://arxiv.org/abs/2511.23131",
+      "abstract": "The position-based dynamics (PBD) algorithm is a popular and versatile technique for real-time simulation of deformable bodies, but is only applicable to forces that can be expressed as linearly compliant constraints. In this work, we explore a generalization of PBD that is applicable to arbitrary nonlinear force models. We do this by reformulating the implicit time integration equations in terms of the individual forces in the system, to which applying Gauss-Seidel iterations naturally leads to a PBD-type algorithm. As we demonstrate, our method allows simulation of data-driven cloth models [Sperl et al. 2020] that cannot be represented by existing variations of position-based dynamics, enabling performance improvements over the baseline Newton-based solver for high mesh resolutions. We also show our method's applicability to volumetric neo-Hookean elasticity with an inversion barrier.",
+      "external_ids": [
+        "s2:cccdd4316d84426bab542c2da6e35e241e768549",
+        "arxiv:2511.23131",
+        "doi:10.48550/arxiv.2511.23131"
+      ],
+      "sources": [
+        "semanticscholar"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-01T14:50:40+08:00",
+      "last_seen_at": "2026-10-01T14:50:40+08:00"
+    },
+    {
+      "source": "semanticscholar",
+      "arxiv_id": "",
+      "doi": "10.7148/2025-0199",
+      "title": "Efficient Deformable Body Simulation In Logistics: Position-Based Dynamics For Non-Rigid Packages",
+      "authors": [
+        "Gabriel Leitner",
+        "A. Ortner-Pichler",
+        "Christian Landschützer"
+      ],
+      "published": "2025-06-24",
+      "url": "https://www.semanticscholar.org/paper/6ca1a7e1ddcfef7412612e7107b4b536745dbf74",
+      "abstract": "This study presents a novel simulation approach using Position-Based Dynamics (PBD) to model the behaviour of deformable bodies, in particular non-rigid consignments. While high-fidelity methods such as Multi-Flexible Body Dynamics (MFBD) achieve superior accuracy, their computational inefficiency is a significant barrier to large-scale applications. To address this limitation, we present a PBD-based framework that emphasizes computational efficiency without sacrificing essential physical accuracy.\n\nUsing GPU-accelerated simulations via NVIDIA PhysX and IsaacSim, this study investigates the deformation and motion characteristics of non-rigid consignments using a particle-based cloth model. Experimental validation shows that PBD reduces computation time by 75% compared to MFBD for single-consignment simulations, demonstrating its efficiency.\n\nThese results position PBD as a promising tool for optimizing logistics operations, particularly in automated sorting and conveyor-based handling of flexible packages. Future work will explore scalability for bulk simulations and the integration of Finite Element Method (FEM)-based models within PBD for improved accuracy.",
+      "external_ids": [
+        "s2:6ca1a7e1ddcfef7412612e7107b4b536745dbf74",
+        "doi:10.7148/2025-0199"
+      ],
+      "sources": [
+        "semanticscholar"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-01T14:50:40+08:00",
+      "last_seen_at": "2026-10-01T14:50:40+08:00"
+    },
+    {
+      "source": "semanticscholar",
+      "arxiv_id": "",
+      "doi": "10.3390/app15126611",
+      "title": "Real-Time Cloth Simulation in Extended Reality: Comparative Study Between Unity Cloth Model and Position-Based Dynamics Model with GPU",
+      "authors": [
+        "Taeheon Kim",
+        "Jun Ma",
+        "Min Hong"
+      ],
+      "published": "2025-06-12",
+      "url": "https://www.semanticscholar.org/paper/08f556a5d7ae5664bd3baffe0867b9987712630a",
+      "abstract": "This study proposes a GPU-accelerated Position-Based Dynamics (PBD) system for realistic and interactive cloth simulation in Extended Reality (XR) environments, and comprehensively evaluates its performance and functional capabilities on standalone XR devices, such as the Meta Quest 3. To overcome the limitations of traditional CPU-based physics simulations, we designed and optimized highly parallelized algorithms utilizing Unity’s Compute Shader framework. The proposed system achieves real-time performance by implementing efficient collision detection and response handling with complex environmental meshes (RoomMesh) and dynamic hand meshes (HandMesh), as well as capsule colliders based on hand skeleton tracking (OVRSkeleton). Performance evaluations were conducted for both single-sided and double-sided cloth configurations across multiple resolutions. At a 32 × 32 resolution, both configurations maintained stable frame rates of approximately 72 FPS. At a 64 × 64 resolution, the single-sided cloth achieved around 65 FPS, while the double-sided configuration recorded approximately 40 FPS, demonstrating scalable quality adaptation depending on application requirements. Functionally, the GPU-PBD system significantly surpasses Unity’s built-in Cloth component by supporting double-sided cloth rendering, fine-grained constraint control, complex mesh-based collision handling, and real-time interaction with both hand meshes and capsule colliders. These capabilities enable immersive and physically plausible XR experiences, including natural cloth draping, grasping, and deformation behaviors during user interactions. The technical advantages of the proposed system suggest strong applicability in various XR fields, such as virtual clothing fitting, medical training simulations, educational content, and interactive art installations. Future work will focus on extending the framework to general deformable body simulation, incorporating advanced material modeling, self-collision response, and dynamic cutting simulation, thereby enhancing both realism and scalability in XR environments.",
+      "external_ids": [
+        "s2:08f556a5d7ae5664bd3baffe0867b9987712630a",
+        "doi:10.3390/app15126611"
+      ],
+      "sources": [
+        "semanticscholar"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-01T14:50:40+08:00",
+      "last_seen_at": "2026-10-01T14:50:40+08:00"
+    },
+    {
+      "source": "semanticscholar",
+      "arxiv_id": "",
+      "doi": "10.9708/jksci.2026.31.02.123",
+      "title": "Stable SDF-Based Collision Handling for Cloth-Solid Interaction in Position-Based Dynamics",
+      "authors": [
+        "Jong-Hyun Kim"
+      ],
+      "published": "2025-02-28",
+      "url": "https://www.semanticscholar.org/paper/823639694c56db0c8734857673a2a14e0c90dd85",
+      "abstract": "",
+      "external_ids": [
+        "s2:823639694c56db0c8734857673a2a14e0c90dd85",
+        "doi:10.9708/jksci.2026.31.02.123"
+      ],
+      "sources": [
+        "semanticscholar"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-01T14:50:40+08:00",
+      "last_seen_at": "2026-10-01T14:50:40+08:00"
+    },
+    {
+      "source": "semanticscholar",
+      "arxiv_id": "",
+      "doi": "10.3390/app142311072",
+      "title": "Performance Comparison of Vertex Block Descent and Position Based Dynamics Algorithms Using Cloth Simulation in Unity",
+      "authors": [
+        "Jun Ma",
+        "Nak-Jun Sung",
+        "Min-Hyung Choi",
+        "Min Hong"
+      ],
+      "published": "2024-11-28",
+      "url": "https://www.semanticscholar.org/paper/f947849a4900c4cd1853e05e28e090aaf7d1aff3",
+      "abstract": "This paper presents a comparative study of the Vertex Block Descent (VBD) and Position-Based Dynamics (PBD) algorithms, focusing on their performance in physical simulation tasks. Unity, a versatile physics engine, served as the simulation platform for the experiments. Among various types of physical simulations of deformable objects, fluids, and cloth dynamics, cloth simulations were chosen for implementation with both algorithms. The experimental setup ensured identical parameters, including time steps and movement behavior, for both algorithms across scenarios involving hanging, object-to-object collisions, and self-collisions. The results indicate that while the performance difference in frames per second (fps) between the two algorithms is negligible for simulations with a small number of nodes, the VBD algorithm consistently outperforms the PBD algorithm as the node count increases. Furthermore, this study provides practical guidelines for maintaining real-time performance, detailing the maximum node count each algorithm can support, while sustaining a minimum threshold of 30 fps, which is necessary for real-time applications. The comparison was conducted using CPU-based computation to establish a baseline for future studies in GPU-accelerated environments, where parallel processing is expected to further highlight the performance advantages of VBD. Future work will extend this research by evaluating additional physical simulation models, including the Mass-Spring System and Extended Position-Based Dynamics (XPBD), and developing optimizations to enhance the efficiency and scalability of these algorithms.",
+      "external_ids": [
+        "s2:f947849a4900c4cd1853e05e28e090aaf7d1aff3",
+        "doi:10.3390/app142311072"
+      ],
+      "sources": [
+        "semanticscholar"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-01T14:50:40+08:00",
+      "last_seen_at": "2026-10-01T14:50:40+08:00"
+    },
+    {
+      "source": "semanticscholar",
+      "arxiv_id": "",
+      "doi": "10.3390/s24020549",
+      "title": "Video Classification of Cloth Simulations: Deep Learning and Position-Based Dynamics for Stiffness Prediction",
+      "authors": [
+        "Makara Mao",
+        "Hongly Va",
+        "Min Hong"
+      ],
+      "published": "2024-01-01",
+      "url": "https://www.semanticscholar.org/paper/417661e2655483816acc8f5cb562a8312881b2cc",
+      "abstract": "In virtual reality, augmented reality, or animation, the goal is to represent the movement of deformable objects in the real world as similar as possible in the virtual world. Therefore, this paper proposed a method to automatically extract cloth stiffness values from video scenes, and then they are applied as material properties for virtual cloth simulation. We propose the use of deep learning (DL) models to tackle this issue. The Transformer model, in combination with pre-trained architectures like DenseNet121, ResNet50, VGG16, and VGG19, stands as a leading choice for video classification tasks. Position-Based Dynamics (PBD) is a computational framework widely used in computer graphics and physics-based simulations for deformable entities, notably cloth. It provides an inherently stable and efficient way to replicate complex dynamic behaviors, such as folding, stretching, and collision interactions. Our proposed model characterizes virtual cloth based on softness-to-stiffness labels and accurately categorizes videos using this labeling. The cloth movement dataset utilized in this research is derived from a meticulously designed stiffness-oriented cloth simulation. Our experimental assessment encompasses an extensive dataset of 3840 videos, contributing to a multi-label video classification dataset. Our results demonstrate that our proposed model achieves an impressive average accuracy of 99.50%. These accuracies significantly outperform alternative models such as RNN, GRU, LSTM, and Transformer.",
+      "external_ids": [
+        "s2:417661e2655483816acc8f5cb562a8312881b2cc",
+        "doi:10.3390/s24020549"
+      ],
+      "sources": [
+        "semanticscholar"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-01T14:50:40+08:00",
+      "last_seen_at": "2026-10-01T14:50:40+08:00"
+    },
+    {
+      "source": "semanticscholar",
+      "arxiv_id": "",
+      "doi": "10.12677/mos.2023.126454",
+      "title": "A Review of Cloth Simulation Research Based on Position-Based Dynamics",
+      "authors": [
+        "W. Xiong"
+      ],
+      "published": "2023",
+      "url": "https://www.semanticscholar.org/paper/83bf1f71136189cf6968c054cd46843c2712b038",
+      "abstract": "",
+      "external_ids": [
+        "s2:83bf1f71136189cf6968c054cd46843c2712b038",
+        "doi:10.12677/mos.2023.126454"
+      ],
+      "sources": [
+        "semanticscholar"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-01T14:50:40+08:00",
+      "last_seen_at": "2026-10-01T14:50:40+08:00"
+    }
+  ]
+}
