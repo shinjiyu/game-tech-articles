@@ -1,0 +1,434 @@
+{
+  "date": "2026-10-02",
+  "run": {
+    "at": "2026-10-02T14:39:23+08:00",
+    "sources": [
+      "arxiv",
+      "semanticscholar",
+      "dblp"
+    ],
+    "keywords": [
+      "material point method cloth",
+      "\"position based\" dynamics cloth",
+      "incremental potential contact",
+      "real-time fluid simulation graphics",
+      "global illumination real-time",
+      "ray tracing global illumination",
+      "MLS-MPM",
+      "projective dynamics cloth"
+    ],
+    "fetched": 92,
+    "merged": 20,
+    "new": 14
+  },
+  "new_candidates": [
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.02207",
+      "arxiv_version": "v1",
+      "title": "One Basis to Animate Them All: Gaussian Blendshape Distillation for Real-Time Avatars",
+      "authors": [
+        "Ramazan Fazylov",
+        "Stamatis Lefkimmiatis",
+        "Ivan Laptev"
+      ],
+      "published": "2026-10-01",
+      "url": "https://arxiv.org/abs/2610.02207",
+      "abstract": "3D Gaussian avatars support fast rendering, however, their real-time animation is often challenged by the costly neural inference. We address this bottleneck and show that the animation of pretrained avatar models can be closely approximated by a linear combination of identity-independent blendshapes. Building on this finding, we introduce GALA (Gaussian Animation via Linear Approximation), a distillation method that replaces per-frame heavy neural decoding with a shallow coefficient predictor and a linear blend. To improve fidelity and reduce memory requirements, we propose to construct the basis using block-local PCA under a rendering-aware metric and a memory budget. Our method learns a shallow MLP network to predict blendshape coefficients and applies to various animation architectures without retraining original models. We validate GALA by accelerating the inference of three distinct avatar models for 3D animation of facial expressions and full-bodies with clothing dynamics. Across these models, our distillation generalizes to held-out identities and reduces CPU animation cost by up to three orders of magnitude while preserving most of the rendering quality. Excellent results of our method confirm the shared linear structure of learned avatar representations and enable highly efficient and accurate animation at frame rates reaching up to 60fps on mobile devices. Project page: https://ramazan793.github.io/gala/",
+      "external_ids": [
+        "arxiv:2610.02207"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics",
+        "global illumination real-time",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-02T14:39:23+08:00",
+      "last_seen_at": "2026-10-02T14:39:23+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.02197",
+      "arxiv_version": "v1",
+      "title": "HiPhy: Hierarchical Alignment for Physically-Plausible Multi-Principle Video Generation",
+      "authors": [
+        "Tahira Kazimi",
+        "Shubhankar Borse",
+        "Munawar Hayat",
+        "Fatih Porikli",
+        "Pinar Yanardag"
+      ],
+      "published": "2026-10-01",
+      "url": "https://arxiv.org/abs/2610.02197",
+      "abstract": "Video generation models have achieved remarkable visual fidelity and have strong potential to become general-purpose world simulators. Despite this progress, they still fail to generate videos which adhere to laws of physics. The problem becomes even more apparent in realistic settings where multiple physical principles must work together within the same video; for example, \"a balloon floating upward while steam rises from a pot\" requires buoyancy and fluid dynamics to unfold coherently and simultaneously. Yet existing methods largely ignore multi-principle interactions, focusing on a single principle per video. We propose HiPhy (Hierarchical Physical Alignment), a reinforcement learning framework that grounds video generation in physical laws through a dual-level objective: locally enforcing the temporal dynamics of individual physical principles, and globally ensuring the physical and semantic coherence of the entire scene. To support multi-principle generation, we construct a 50K-prompt dataset and introduce a prompt benchmark MultiPhyBench, spanning a diverse range of co-occurring physical events. Our experiments show that HiPhy significantly outperforms prior methods and baselines, improving physical commonsense and semantic alignment significantly across various benchmarks, with the largest gains on scenes involving multiple concurrent physical principles where competing methods degrade most sharply.",
+      "external_ids": [
+        "arxiv:2610.02197"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "\"position based\" dynamics cloth",
+        "incremental potential contact",
+        "real-time fluid simulation graphics",
+        "global illumination real-time",
+        "ray tracing global illumination",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-02T14:39:23+08:00",
+      "last_seen_at": "2026-10-02T14:39:23+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.02167",
+      "arxiv_version": "v1",
+      "title": "Polynomial-time classical and quantum simulation of quantum impurity models",
+      "authors": [
+        "Jiaqing Jiang",
+        "Nathan Ju",
+        "Ojas Parekh",
+        "Chaithanya Rayudu",
+        "Andrew Zhao"
+      ],
+      "published": "2026-10-01",
+      "url": "https://arxiv.org/abs/2610.02167",
+      "abstract": "Quantum impurity models are paradigmatic models of interacting quantum matter, as well as key computational primitives for modern electronic-structure methods. They describe a small subsystem of interacting fermions coupled to a large, noninteracting bath. We perform a comprehensive study of the computational complexity of simulating impurity models, delineating the boundary between classical and quantum tractability for this class of problems. Our main finding is that static properties of quantum impurity models can be calculated efficiently on a classical computer. Specifically, we give classical algorithms that (1) estimate the ground-state energy to additive precision $δ$ in time $\\mathrm{poly}(n,δ^{-1})$, and (2) estimate the partition function at inverse temperature $β$ to relative precision $δ$ in time $\\mathrm{poly}(n,β,δ^{-1})$, where $n$ is the system size. These results improve the previous best-known complexity for ground-state energy estimation from quasipolynomial to polynomial time, while establishing for the first time rigorous polynomial-time guarantees for simulating impurity models in thermal equilibrium. On the other hand, we find that simulating dynamical properties of impurity models is hard for classical computers but easy on a quantum computer. As a canonical example, we show that computing their nonequilibrium Green's functions captures the full power of quantum computation, even at finite temperature. Taken together, our results rule out superpolynomial quantum speedups for computing static properties, but provide an avenue for quantum advantage in simulating impurity physics out of equilibrium.",
+      "external_ids": [
+        "arxiv:2610.02167"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-02T14:39:23+08:00",
+      "last_seen_at": "2026-10-02T14:39:23+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.02139",
+      "arxiv_version": "v1",
+      "title": "Birth-Potential Multigroup Fluid Model for Ballistic Electrons: Breakdown and Cathode Sheath Regimes",
+      "authors": [
+        "Bernard Parent",
+        "Brendan Perry"
+      ],
+      "published": "2026-10-01",
+      "url": "https://arxiv.org/abs/2610.02139",
+      "abstract": "Fluid models of discharges fail where electron runaway dominates. On the left branch of the Paschen curve and in high-voltage cathode sheaths, the electron population splits into a thermal bulk and a ballistic beam that no single electron fluid can represent. We present a multigroup fluid model that divides ballistic electrons into groups indexed by their birth potential: the electrostatic potential at which they were liberated, offset by the forward kinetic energy they carried. Because the birth potential is a constant of ballistic motion, the electric field never moves electrons between groups and only collisions do. Each group requires a single continuity equation because its velocity follows algebraically from the local potential, and the number of groups is set by the energy resolution alone independently of the mesh. A runaway criterion based on the local field assigns each newly liberated electron to the bulk or a ballistic group, so the model applies even where no sheath exists. Benchmarked against a kinetic solver in argon, it reproduces the left branch of the Paschen curve---which local-field and local-energy models miss or misplace---and tracks the current--voltage characteristic of a cathode sheath to within a few percent at reduced fields exceeding $10^4$ Td, where the local-energy model overpredicts the current up to thirtyfold. Since as few as 10 to 30 groups suffice, depending on the field, the approach brings near-kinetic accuracy to multi-species computational fluid dynamics solvers at the cost of that many additional species, without added velocity-space dimensions or particle noise.",
+      "external_ids": [
+        "arxiv:2610.02139"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-02T14:39:23+08:00",
+      "last_seen_at": "2026-10-02T14:39:23+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.02196",
+      "arxiv_version": "v1",
+      "title": "InterEvolve: Test-Time Evolution of Reward Programs for Humanoid Loco-Manipulation",
+      "authors": [
+        "Zhuo Lin",
+        "Sirui Xu",
+        "Liuyu Bian",
+        "Yu-Xiong Wang",
+        "Liang-Yan Gui"
+      ],
+      "published": "2026-10-01",
+      "url": "https://arxiv.org/abs/2610.02196",
+      "abstract": "We study test-time evolution for humanoid loco-manipulation: solving tasks that a controller was never trained for by repurposing its existing skills, improving from its own attempts, and retaining what it learns, without retraining. Our key insight is that a broad controller already holds much of the competence a new task needs, and that this competence becomes accessible through an interface between planning and control that is expressive enough to specify contact-rich, multi-stage interactions, yet executable and measurable enough that execution feedback can guide planning from experience. InterEvolve realizes this interface with two components. First, we develop an object-aware forward-backward (FB) behavioral foundation model, whose object residuals on a frozen body prior turn a new reward about the body or objects into loco-manipulation behavior at test time. Second, we specify tasks as reward programs: staged rewards with completion conditions and tunable constants. A large language model (LLM) agent revises the program structure in context, drawing on execution feedback and a skill library of verified programs, while a numerical optimizer tunes its constants. With every candidate verified across parallel simulation scenarios, the program explores new ways to induce, repurpose, and compose the controller's existing motor competence for the task at hand, and thus improves over iterations. Experiments show that human-designed rewards leave much of the FB model's loco-manipulation competence untapped, whereas the programs InterEvolve evolves release it, sometimes through novel strategies. It further produces behaviors for diverse tasks, complex scenes, and long-horizon compositions in simulation, and evolved skills run autonomously on a physical Unitree G1 from egocentric onboard perception.",
+      "external_ids": [
+        "arxiv:2610.02196"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-02T14:39:23+08:00",
+      "last_seen_at": "2026-10-02T14:39:23+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.02126",
+      "arxiv_version": "v1",
+      "title": "Local Support Learning",
+      "authors": [
+        "Assaf Ben-Kish",
+        "Akarsh Kumar",
+        "James Glass",
+        "Raja Giryes"
+      ],
+      "published": "2026-10-01",
+      "url": "https://arxiv.org/abs/2610.02126",
+      "abstract": "We explore catastrophic forgetting in the context of large pre-trained models. By considering forgetting as a geometric problem in the input space of each weight matrix, we uncover a natural retention objective under which updates produced by gradient-based optimizers are suboptimal. Following this observation, we propose Local Support Learning (LSL), a general-purpose framework that augments gradient-based training for retention of prior capabilities without access to prior data. During a new learning phase, LSL pairs two components with distinct roles: a standard weight adapter, trained as usual to minimize the loss, and a gating function that enables the adapter only on input activations from its own training distribution, making the update local to that distribution. The key challenge is that this gate must route data from all learning phases while training only on data from the current one. We address this with a gate based on a Gaussian Mixture Model (GMM), whose likelihood decays rapidly away from its training data, giving it a natural tendency to stay closed on data from prior phases. We show that this post-training approach can resolve forgetting in LLMs of up to 7 billion parameters, retaining both pretrained and finetuned capabilities across multiple training phases, while being efficient in memory and compute, robust to hyperparameter choice, and showing scaling potential.",
+      "external_ids": [
+        "arxiv:2610.02126"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-02T14:39:23+08:00",
+      "last_seen_at": "2026-10-02T14:39:23+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.02084",
+      "arxiv_version": "v1",
+      "title": "Kolmogorov-Arnold Networks for Free-Boundary Partial Differential Equations",
+      "authors": [
+        "Tan Phuong Dong Le"
+      ],
+      "published": "2026-10-01",
+      "url": "https://arxiv.org/abs/2610.02084",
+      "abstract": "We study free-boundary problems within a physics-informed framework using Kolmogorov-Arnold network (KAN) approximations. The proposed approach incorporates obstacle constraints, partial differential equation (PDE) inequalities, complementarity conditions, and boundary conditions through residual-based loss functions. We consider a linear elliptic obstacle problem, a nonlinear $p$-Laplacian obstacle problem, and a time-dependent one-phase Stefan problem. The proposed KAN solver is compared with physics-informed neural network (PINN) and residual-network baselines. Numerical experiments show that KANs achieve low relative $L^2$ and $L^\\infty$ errors while accurately resolving contact regions and moving interfaces. The results indicate that KAN representations provide an effective alternative for solving free-boundary PDEs.",
+      "external_ids": [
+        "arxiv:2610.02084"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-02T14:39:23+08:00",
+      "last_seen_at": "2026-10-02T14:39:23+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.02082",
+      "arxiv_version": "v1",
+      "title": "Strong Simulation of 1D Quantum Circuits via Reduced Transition Matrices",
+      "authors": [
+        "Matilde Grassi",
+        "Stefano Carignano",
+        "Luca Tagliacozzo",
+        "Jacopo De Nardis"
+      ],
+      "published": "2026-10-01",
+      "url": "https://arxiv.org/abs/2610.02082",
+      "abstract": "Tensor networks are powerful tools for simulating quantum many-body systems, but the growth of spatial entanglement severely limits the direct evolution of pure states under chaotic unitary circuits. Here we consider a more targeted task: the approximate strong simulation of a specified output probability of a 1D chaotic brick-wall circuit at finite relative precision. Given input and output bit strings $\\by$ and $\\bx$, we evaluate $p(\\bx|\\by)=|\\bra{\\bx}U(T)\\ket{\\by}|^2$ using the Sweeping RTM algorithm, a transverse tensor-network contraction based on reduced transition matrices (RTMs). The algorithm compresses the left and right temporal boundary states jointly, seeking an output probability that converges across spatial cuts and as the bond dimension is increased. For chaotic one-dimensional brick-wall circuits at a fixed relative target precision, we find numerical evidence that the bond dimension required to obtain stable estimates grows subexponentially over the accessible time window. Our findings open a direct route to classical probability queries for chaotic quantum circuits, with potential applications to benchmarking and learning tasks.",
+      "external_ids": [
+        "arxiv:2610.02082"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-02T14:39:23+08:00",
+      "last_seen_at": "2026-10-02T14:39:23+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.02204",
+      "arxiv_version": "v1",
+      "title": "Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents",
+      "authors": [
+        "Yen-Jen Wang",
+        "Haozhe Jiang",
+        "Shuying Deng",
+        "Haoru Xue",
+        "Weirui Ye",
+        "Rocky Duan",
+        "Nika Haghtalab",
+        "S. Shankar Sastry",
+        "Pieter Abbeel",
+        "Haozhi Qi"
+      ],
+      "published": "2026-10-01",
+      "url": "https://arxiv.org/abs/2610.02204",
+      "abstract": "Building reliable robot capabilities across diverse tasks requires substantial human effort to develop and maintain skills, design rewards, and integrate perception with control. We present Reconstruct, Practice, Go Real (RPG), a framework for autonomous improvement of robot execution systems without updating model weights. RPG identifies manipulation capabilities in an offline dataset and constructs related practice tasks in simulation. During practice, RPG uses execution feedback, privileged simulator state, and available dataset videos to diagnose failures. It develops new reusable symbolic skills, refines existing skills, and revises the system prompt based on these diagnoses. Cross-task evaluation tests individual candidate changes and merged revisions before they are retained for reuse. At test time, a multimodal LLM uses the resulting system prompt and skill library to coordinate perception and robot control. On held-out initializations of 22 manipulation tasks, RPG improves task success from 28.6% after the first practice round to 95.0% after 15 rounds, outperforming all evaluated baselines, including ASPIRE (75.5%) and CaP-Agent0 powered by GPT-6 Astra Pro (60.0%). After a common calibration and hardware-adaptation procedure, the frozen system succeeds in all 30 physical trials, with ten trials on each of three tasks. Project Website: https://rpg-robot.github.io/",
+      "external_ids": [
+        "arxiv:2610.02204"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics",
+        "global illumination real-time",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-02T14:39:23+08:00",
+      "last_seen_at": "2026-10-02T14:39:23+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.02183",
+      "arxiv_version": "v1",
+      "title": "Single-Particle Spectral Estimation",
+      "authors": [
+        "Adrian Chapman",
+        "Charles Derby",
+        "Steven T. Flammia",
+        "Yeongwoo Hwang",
+        "Joel Klassen",
+        "Calum McCartney"
+      ],
+      "published": "2026-10-01",
+      "url": "https://arxiv.org/abs/2610.02183",
+      "abstract": "We study Hamiltonian learning in a novel setting, where we are promised a physical structure that is obfuscated by a global unitary. In particular, we consider the task of learning the weights $E_i$ of a Hamiltonian $H=U^{\\dagger}(\\sum_{i \\in I} E_i n_i + H_O)U$ comprised of a set of non-interacting modes $I$ and an arbitrary ``spectator'' $H_O$ acting on a disjoint set of modes $O$. The non-interacting structure is hidden by an unknown global unitary $U$, and our goal is to recover the $E_i$ without reconstructing $U$. Such Hamiltonians are well-motivated in the setting of materials modeling, where they find application for classical methods such as mean-field theory, Green's functions, and density functional theory. We show that this problem is DQC1-hard, despite the apparent simplification given by the non-interacting structure. We then introduce SPICES (single-particle inference via contour estimators), which combines a Hadamard test with a novel classical postprocessing procedure to efficiently recover the spectral distribution in Wasserstein distance under certain natural assumptions. The method exploits the correspondence between single-particle energies of the individual quasiparticles and the Fourier frequencies governing zeros of the partition function at complex inverse temperature. As quasiparticle spectra feature ubiquitously in downstream materials calculations, and with SPICES being simple and practical to execute, we expect that SPICES is a promising route to quantum applications in materials simulation.",
+      "external_ids": [
+        "arxiv:2610.02183"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics",
+        "global illumination real-time",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-02T14:39:23+08:00",
+      "last_seen_at": "2026-10-02T14:39:23+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.02180",
+      "arxiv_version": "v1",
+      "title": "Generative Cinematographer: Composing Camera and Object Motion in 3D",
+      "authors": [
+        "Jiahan Zhang",
+        "Chaohao Yang",
+        "Namitha Guruprasad",
+        "Vivekjyoti Banerjee",
+        "Trong-Tung Nguyen",
+        "Alan Yuille",
+        "Anand Bhattad"
+      ],
+      "published": "2026-10-01",
+      "url": "https://arxiv.org/abs/2610.02180",
+      "abstract": "Current controllable video generation systems often rely on 2D motion trajectories or sparse drag signals for object motion. These controls are ambiguous because the same 2D trajectory can correspond to different 3D motions, especially when the camera and objects move simultaneously. We present Generative Cinematographer (GenCine), a system that lifts a single image into an editable 3D scene scaffold where artists jointly author camera and foreground motion. Artists specify a camera path and move selected foreground regions using local 3D motion handles. Several handles can move different parts of a subject independently, providing a piecewise-rigid approximation to non-rigid motion without a physics simulator or category-specific prior. To communicate these controls to a pretrained video model, we project them into guidance maps. These maps record where the controlled regions appear in each frame, assign each handle a fixed color across frames and encode the current 3D positions of its controlled points in the same world coordinate system as the background. This lets us describe object motion relative to the scene even as the camera moves. For training, we recover controls from the motion observed in real videos and use ground-truth geometry and trajectories from synthetic videos. We train a lightweight guidance branch and LoRA adapters on a pretrained Wan model to follow these controls. Our experiments show consistent camera-relative motion, improved geometric consistency under viewpoint changes, and strong controllability across diverse real-world scenes.",
+      "external_ids": [
+        "arxiv:2610.02180"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-02T14:39:23+08:00",
+      "last_seen_at": "2026-10-02T14:39:23+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.02172",
+      "arxiv_version": "v1",
+      "title": "Robust exponential lower bounds for fermionic and bosonic Gaussian ranks",
+      "authors": [
+        "Fuchuan Wei",
+        "Kong-Wing Wu",
+        "Zhengwei Liu",
+        "Zi-Wen Liu"
+      ],
+      "published": "2026-10-01",
+      "url": "https://arxiv.org/abs/2610.02172",
+      "abstract": "The power and limitations of classical simulation are central to understanding quantum computational advantages. A leading simulation paradigm is based on coherent decomposition into classically tractable free states where the decomposition rank determines the simulation complexity. Proving strong lower bounds on this number is a notoriously difficult and mathematically rich problem, as exemplified by the qubit stabilizer rank problem. Here, we study the Gaussian version of this problem in both bosonic and fermionic systems and establish robust exponential lower bounds on Gaussian rank. In particular, we prove that for every pure non-Gaussian state on finitely many modes, with definite parity in the fermionic case, the approximate border Gaussian rank of its tensor powers grows at least exponentially at any fixed norm error below one. Our proofs combine reduction to four modes with Majorana spectral bounds for fermions, and Gaussian postselection with an entropy-based rank bound for bosons. As concrete examples, we derive explicit exponential lower bounds for the four-mode fermionic GHZ state and the bosonic single-photon state. The bosonic results require no assumption on the energy of the target state. Our results show that non-Gaussianity universally entails exponential Gaussian decomposition complexity, setting fundamental limitations on decomposition-based classical simulation of bosonic and fermionic systems.",
+      "external_ids": [
+        "arxiv:2610.02172"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-02T14:39:23+08:00",
+      "last_seen_at": "2026-10-02T14:39:23+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.02149",
+      "arxiv_version": "v1",
+      "title": "A New Framework for Modeling Solar Flares from MHD to Kinetic Processes",
+      "authors": [
+        "Joel C. Allred",
+        "Graham S. Kerr",
+        "Silvina E. Guidoni",
+        "Joel T. Dahlin",
+        "Marc Swisdak",
+        "Judith T. Karpen",
+        "Valeriy Tenishev"
+      ],
+      "published": "2026-10-01",
+      "url": "https://arxiv.org/abs/2610.02149",
+      "abstract": "Physical processes in solar flares span many orders of magnitude in spatiotemporal scales, so a single unified model accounting for all relevant processes remains computationally intractable. Instead, specialized codes have been developed, targeting specific domains that tackle specific aspects of the solar flare problem. Here, we present a comprehensive framework that links three models to capture flare initiation and energy release, the subsequent particle acceleration, the propagation and thermalization of those particles, and ultimately the heating of the lower solar atmosphere. We use the 2.5D ARMS magnetohydrodynamics (MHD) code to model stressing of the magnetic field in a simulated active region, the formation of a current sheet, magnetic reconnection, and the evolution of newly formed flare loops. We use the conditions in the ARMS' current sheet to initialize the kglobal model, which predicts time-dependent nonthermal electron and proton distributions. Finally, we use RADYN+FP to inject these distributions into a newly reconnected ARMS loop and compute subsequent particle transport, atmospheric heating, and radiative emissions. This is the first detailed presentation of a RADYN+FP simulation tracking nonthermal electrons and protons in the same loop. As well as discussing the interesting physics that takes place, we note how this results in white-light flare emission height consistent with observations. This work is a first step toward building a fully 3D flare modeling framework.",
+      "external_ids": [
+        "arxiv:2610.02149"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-02T14:39:23+08:00",
+      "last_seen_at": "2026-10-02T14:39:23+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.02121",
+      "arxiv_version": "v1",
+      "title": "Catscan: Visualizing Pipelines of CPU Performance Simulation",
+      "authors": [
+        "Aaron Lindsay",
+        "Nicholas Kelly",
+        "Scott Witscher",
+        "Mahesh Madhav"
+      ],
+      "published": "2026-10-01",
+      "url": "https://arxiv.org/abs/2610.02121",
+      "abstract": "Processor pipeline visualization tools are routine inside industry CPU teams, but few of them are described or released publicly. As a result, students, researchers, and other practitioners rarely see the tooling that processor architects use to debug performance before silicon. This paper describes two pieces of Ampere Computing's performance- analysis infrastructure that we have released to the community as open source: event streams, a simulator-output format, and Catscan, an interactive viewer built around that format. Event streams record microarchitectural activity as typed events connected by transaction relationships, so a user can move between a symptom and the instruction, uop, or memory transaction that explains it. Catscan uses that structure to support resource- and transaction-oriented views, persistent highlighting, domain-specific search, comparative trace synchronization, and other workflows used during product development. In this paper we report the design choices that survived production use, the limitations we encountered, and the lessons we think are useful for future microarchitectural visualization tools.",
+      "external_ids": [
+        "arxiv:2610.02121"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-02T14:39:23+08:00",
+      "last_seen_at": "2026-10-02T14:39:23+08:00"
+    }
+  ]
+}
