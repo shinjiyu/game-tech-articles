@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-03",
+  "run": {
+    "at": "2026-10-03T14:04:29+08:00",
+    "sources": [
+      "arxiv",
+      "semanticscholar",
+      "dblp"
+    ],
+    "keywords": [
+      "material point method cloth",
+      "\"position based\" dynamics cloth",
+      "incremental potential contact",
+      "real-time fluid simulation graphics",
+      "global illumination real-time",
+      "ray tracing global illumination",
+      "MLS-MPM",
+      "projective dynamics cloth"
+    ],
+    "fetched": 102,
+    "merged": 26,
+    "new": 0
+  },
+  "new_candidates": []
+}
