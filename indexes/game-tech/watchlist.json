@@ -1,6 +1,545 @@
 {
-  "updated_at": "2026-10-04T14:41:19+08:00",
+  "updated_at": "2026-10-05T14:35:06+08:00",
   "candidates": [
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.03714",
+      "arxiv_version": "v1",
+      "title": "SpiderCSS: Scalable Fault-Tolerant CSS State Preparation",
+      "authors": [
+        "Boldizsár Poór",
+        "Andrey Boris Khesin",
+        "Sarah Meng Li",
+        "Benjamin Rodatz",
+        "John van de Wetering",
+        "Richie Yeung"
+      ],
+      "published": "2026-10-02",
+      "url": "https://arxiv.org/abs/2610.03714",
+      "abstract": "Fault-tolerant preparation of logical states is a critical primitive for the realization of large-scale fault-tolerant quantum computing. This paper introduces SpiderCSS, a scalable compilation pipeline that generates highly-optimized, fault-tolerant state preparation circuits for arbitrary Calderbank-Shor-Steane (CSS) codes. Starting from an idealized specification of a CSS state, we use the ZX-calculus and fault-equivalent rewrites to construct a diagram that prepares the given state while preserving the fault tolerance of the initial ideal ZX-diagram. From this diagram, SpiderCSS constructs a fault-tolerant CSS-state preparation circuit using a modular construction that is CNOT-minimal both within each component and also in the way these components are connected together. By only using fault-equivalent rewrites, the final circuit is provably fault-tolerant without needing expensive verification. Monte Carlo simulations across a variety of CSS codes up to distance 15 show that SpiderCSS scales efficiently and constructs circuits with substantially reduced depth and qubit footprint compared to existing scalable and heuristic methods, while simultaneously achieving an average decrease of 33.7% in logical error rate and an increase of 9.5% in acceptance rate.",
+      "external_ids": [
+        "arxiv:2610.03714"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-05T14:35:06+08:00",
+      "last_seen_at": "2026-10-05T14:35:06+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.03703",
+      "arxiv_version": "v1",
+      "title": "Fractal dimension of critical Gaussian free field sign clusters",
+      "authors": [
+        "Alexander Drewitz",
+        "Alexis Prévost",
+        "Pierre-François Rodriguez"
+      ],
+      "published": "2026-10-02",
+      "url": "https://arxiv.org/abs/2610.03703",
+      "abstract": "We study metric graph sign clusters of the Gaussian free field on a large class of transient weighted graphs $G$ that are sufficiently low-dimensional, i.e. below the mean-field regime, and prove a macroscopic equivalence property: several natural ways to define macroscopic clusters - involving any of diameter, volume, or capacity functionals - are in fact the same. As a corollary, macroscopic clusters are characterized in low dimensions as those containing large loops in the corresponding loop soup picture, in contrast with the typical behavior in high dimensions. We then apply these results to the small-mesh scaling limit of critical clusters on $\\varepsilon\\mathbb{Z}^d$, $d=3,4,5$, as $\\varepsilon \\downarrow 0$. We prove that every subsequential scaling limit consists of sets with positive Brownian capacity whose Hausdorff and Minkowski dimensions are both equal to $1+\\tfrac d2$, as conjectured by Werner. We also derive two-point crossing estimates in the limit, and show that each limiting loop soup cluster is the closure of the union of the scaling limits of the macroscopic loops it contains. Remarkably, unlike with planar Bernoulli percolation for instance, the determination of the Hausdorff dimension does not emerge from direct calculations involving a limiting object (such as $\\text{SLE}_6$), but rather from the distinctive features of the discrete model itself.",
+      "external_ids": [
+        "arxiv:2610.03703"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-05T14:35:06+08:00",
+      "last_seen_at": "2026-10-05T14:35:06+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.03699",
+      "arxiv_version": "v1",
+      "title": "Exponential lower bounds on the fermionic Gaussian rank of magic states and the bosonic coherent state rank of Fock states",
+      "authors": [
+        "Oliver Reardon-Smith"
+      ],
+      "published": "2026-10-02",
+      "url": "https://arxiv.org/abs/2610.03699",
+      "abstract": "Recent algorithms for classical simulation of quantum mechanics have runtime whose superpolynomial component is given by a linear dependence on the number of terms required to write large tensor products of certain \"magic\" states as superpositions of \"free\" states (which may be stabilizer states, fermionic Gaussian states or others). Surprisingly little is known about the number of terms in such decompositions, called ranks (e.g. the stabilizer rank, fermionic-Gaussian rank etc.). For complexity theoretic reasons they are expected to grow exponentially in the number of tensor factors but, while exponential upper bounds are known for both the stabilizer and fermionic-Gaussian rank of magic states; the best known lower bounds on the stabiliser rank are quadratic, and no bounds on the fermionic-Gaussian rank are known beyond fixed constants. In this work we prove that any fermionic Gaussian decomposition of $\\lvert M\\rangle^{\\otimes k}$ consists of $Ω(1.4^k)$ terms. Here $\\lvert M\\rangle$ is the most standard magic state for fermionic linear optics: the $4$ qubit state that may be consumed to implement a swap gate. We also prove essentially matching bounds on the $δ$-approximate rank of the same state, lower bounding it by the same quantity that bounds the exact rank, multiplied by a factor of $1-δ^2$. Our results on exact fermionic Gaussian rank apply directly to any product of $k$ fixed parity non-Gaussian states, although the same is not true of the approximate rank. Finally, we prove that the coherent state border rank of an $n$-mode bosonic Fock state with $m_j$ bosons in mode $j$ is exactly $\\prod_{j}(1+m_j)$, answering a conjecture of Ref. [1] and obtain lower bounds on the approximate coherent state rank given by the same quantity multiplied by a function of the fidelity of the approximation, emphasizing the broad applicability of the method we employ.",
+      "external_ids": [
+        "arxiv:2610.03699"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-05T14:35:06+08:00",
+      "last_seen_at": "2026-10-05T14:35:06+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.03691",
+      "arxiv_version": "v1",
+      "title": "FlowHMR: Physically Plausible Motion Capture from Video",
+      "authors": [
+        "Zhanke Wang",
+        "Chengfeng Zhao",
+        "Qing Shuai",
+        "Jingzhong Lin",
+        "Heng Li",
+        "Zeyu Ling",
+        "Yuxin Wen",
+        "Jing Li",
+        "Di Kang",
+        "Chunchao Guo",
+        "Linchao Bao"
+      ],
+      "published": "2026-10-02",
+      "url": "https://arxiv.org/abs/2610.03691",
+      "abstract": "We present FlowHMR, a framework for recovering physically plausible global 3D human motion from monocular video. Previous learning-based methods typically regress human motion directly from video and train the network with geometric supervision. However, recovering human motion from monocular video is inherently ambiguous in depth, and direct regression tends to collapse toward an averaged solution. Moreover, the recovered motions are not guaranteed to be physically plausible, so physics-based tracking of them often fails. To address these challenges, we formulate video motion capture as a video-conditioned motion generation problem and first pretrain a flow matching model for this task. Given an input video, the pretrained model generates diverse motion candidates, but not all of them are faithful to the video or physically trackable. We therefore post-train the model using Group Relative Policy Optimization (GRPO) with two rewards. A fidelity reward encourages consistency with the input video. A tracking reward favors motions that a physics-based controller can track successfully. Together, these rewards shift the model's output preference, so the post-trained model stays faithful to the input video while producing more physically plausible motion. We further introduce Wild-4K, a large and diverse dataset of about 4K internet videos, for evaluating human motion recovery in the wild. Qualitative and quantitative experiments on Wild-4K show that our method outperforms state-of-the-art methods in overall motion fidelity and achieves a physical tracking success rate of 82.47%, compared with 62.82% for the strongest baseline, GVHMR.",
+      "external_ids": [
+        "arxiv:2610.03691"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "global illumination real-time",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-05T14:35:06+08:00",
+      "last_seen_at": "2026-10-05T14:35:06+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.03715",
+      "arxiv_version": "v1",
+      "title": "4DCodeBench: Benchmarking Agents on Inverse Graphics of Dynamic Scenes",
+      "authors": [
+        "Ruihong Shen",
+        "Žiga Kovačič",
+        "Peter Kulits",
+        "Xingrui Wang",
+        "Zizhang Li",
+        "Joshua B. Tenenbaum",
+        "Alan Yuille",
+        "Jieneng Chen",
+        "Jiajun Wu"
+      ],
+      "published": "2026-10-02",
+      "url": "https://arxiv.org/abs/2610.03715",
+      "abstract": "We introduce 4DCodeBench, a benchmark for 4D inverse graphics through code generation, in which agents reconstruct dynamic scenes from video as executable graphics programs. To accomplish this, agents must translate visual observations into compact representations of scene structure and dynamics, by implementing abstractions such as physical simulations to reproduce complex behavior. To evaluate this capability, we curate a set of real-world videos and construct synthetic scenes spanning diverse physical phenomena, including deformation, fluid flow, and fracture. We perform extensive benchmarking of frontier models, finding that strong static reconstruction capabilities do not yet translate into reliable reconstruction of complex dynamics. 4DCodeBench provides a testbed for tracking progress toward agents that can interpret the dynamics of the world through code. Our benchmark is available at https://github.com/4DCodeBench/4DCodeBench",
+      "external_ids": [
+        "arxiv:2610.03715"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-05T14:35:06+08:00",
+      "last_seen_at": "2026-10-05T14:35:06+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.03696",
+      "arxiv_version": "v1",
+      "title": "Maximum-Entropy Extension of Quantum Correlation Functions from Short Real-Time Dynamics",
+      "authors": [
+        "Filippo Maria Gambetta",
+        "Sabrina Yue Wang",
+        "Raul A. Santos"
+      ],
+      "published": "2026-10-02",
+      "url": "https://arxiv.org/abs/2610.03696",
+      "abstract": "Correlation functions are central to understanding the behavior of quantum systems, with their spectra giving direct access to quasiparticle and collective excitations. However, the long-time evolution required for sufficient spectral resolution is challenging to reach for both classical and quantum simulations. In this work, we introduce a principled approach for extending time series of quantum correlation functions and reconstructing their spectral densities, based on their connection with covariance sequences of stationary stochastic processes. This connection enables us to apply Burg's maximum-entropy principle to find the least-committal extension compatible with the measured values of the correlation function, which corresponds to an all-pole autoregressive model whose coefficients solve a set of Yule--Walker equations. The resulting extension is positive semi-definite by construction, guaranteeing the positivity of the spectrum and the automatic satisfaction of its total spectral weight sum rule. The approach applies to both scalar and matrix-valued correlation functions, including those with highly structured or continuous spectra. The generalization to the matrix case makes it possible to trade simulation time for additional measured correlation functions, enabling accurate time-series extension and spectral reconstruction from short-time data, even in the presence of noise.",
+      "external_ids": [
+        "arxiv:2610.03696"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics",
+        "global illumination real-time",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-05T14:35:06+08:00",
+      "last_seen_at": "2026-10-05T14:35:06+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.03679",
+      "arxiv_version": "v1",
+      "title": "Simulation-Free Learning of Population Dynamics with Wasserstein Lagrangian Residuals",
+      "authors": [
+        "Fedor Sergeev",
+        "Markus Heinonen",
+        "Daniel Waxman",
+        "Tim Cooijmans",
+        "Ricardo Baptista",
+        "Dmitry Batenkov",
+        "Eli Bingham"
+      ],
+      "published": "2026-10-02",
+      "url": "https://arxiv.org/abs/2610.03679",
+      "abstract": "The dynamics of cells, organisms, and fluids are often modeled as probability distributions evolving over time. Reconstructing and extrapolating this evolution from unpaired snapshots requires assumptions about the underlying process. Wasserstein gradient flows are a common choice, but they cannot describe conservative or periodic dynamics. Lagrangian mechanics in Wasserstein space covers both, but existing methods for learning it are simulation-based: they run a numerical solver at every training step, which makes training expensive. We propose Double-Stitch, a simulation-free method that learns these mechanics by penalizing the residual of the equation of motion along a learned population path. We derive this equation from a Clebsch variational principle that does not require gradient velocities, and show that the residual vanishes exactly when the equation holds. We test Double-Stitch on synthetic, single-cell and ocean vortex datasets and find that it matches or outperforms gradient-flow methods and simulation-based WLM on most tasks, while training $4$-$14$ times faster than WLM. We provide a JAX implementation of Double-Stitch at https://github.com/BasisResearch/stitching.",
+      "external_ids": [
+        "arxiv:2610.03679"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-05T14:35:06+08:00",
+      "last_seen_at": "2026-10-05T14:35:06+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.03678",
+      "arxiv_version": "v1",
+      "title": "Finite-momentum pairing and magnetic halos in a spin-imbalanced Holstein model",
+      "authors": [
+        "Chunhan Feng",
+        "George Batrouni",
+        "Richard Scalettar"
+      ],
+      "published": "2026-10-02",
+      "url": "https://arxiv.org/abs/2610.03678",
+      "abstract": "Fulde-Ferrell-Larkin-Ovchinnikov (FFLO) superconductivity, Cooper pairing at finite-momentum driven by spin imbalance, remains difficult to study numerically in two dimensions. The fermion sign problem in the spin-imbalanced attractive Hubbard model severely limits quantum Monte Carlo access to the low temperatures where pairing correlations are most pronounced. We show that the Holstein model, in which the effective attraction is retarded by phonon dynamics, strongly suppresses sign fluctuations under spin imbalance, enabling unbiased determinant quantum Monte Carlo simulations deep in this regime. With increasing magnetization, zero-momentum pairing evolves into finite-momentum FFLO pairing, evidenced by oscillating real-space pair correlations and a shift of the pairing susceptibility peak to finite $\\vec{Q}$. The finite-momentum susceptibility substantially exceeds its zero-momentum value. At high density $n \\sim 0.875$, near magnetization $m \\approx 1-n$ where the majority-spin density approaches half filling, FFLO pairing coexists with checkerboard charge-density-wave order at short range, while staggered longitudinal spin correlations emerge as a magnetic halo at larger distances. These spatial textures provide experimentally accessible signatures of finite-momentum pairing and motivate cold-atom realizations of FFLO physics.",
+      "external_ids": [
+        "arxiv:2610.03678"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-05T14:35:06+08:00",
+      "last_seen_at": "2026-10-05T14:35:06+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.03672",
+      "arxiv_version": "v1",
+      "title": "Ordering-Aware Theory of Trotter Error",
+      "authors": [
+        "Zhenning Liu",
+        "Zhi-Yuan Wei",
+        "Michael Foss-Feig",
+        "Alexey V. Gorshkov",
+        "Andrew M. Childs"
+      ],
+      "published": "2026-10-02",
+      "url": "https://arxiv.org/abs/2610.03672",
+      "abstract": "Product formulas are a basic tool for simulating quantum many-body dynamics, but a fundamental degree of freedom in their application---the ordering of Hamiltonian terms---has remained largely unexplored. Here we systematically study such ordering effects, quantifying their impact on simulation accuracy and exploiting them to design more accurate product-formula simulations. We develop an efficiently computable, ordering-sensitive bound on the finite-step-size Trotter error for geometrically local Hamiltonians for arbitrarily high-order product formulas. For translation-invariant one-dimensional chains, our bounds are close to exact second-, fourth-, and sixth-order Trotter errors in small-system tests, while on large-scale systems they improve on previous higher-order analytical bounds by orders of magnitude. We further use the local structure of the error bounds and estimates to optimize ordering efficiently, reducing the long-chain problem to a minimum-mean-weight-cycle problem on a weighted de Bruijn graph. For random translation-invariant chains, sequential (staircase-like) orderings consistently outperform standard brickwall circuits; when circuit depth is restricted, the optimizer instead favors wave-like parallel-sequential orderings, which preserve much of the accuracy advantage over brickwall circuits. These results establish ordering as a useful degree of freedom for both understanding and improving product-formula simulation.",
+      "external_ids": [
+        "arxiv:2610.03672"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-05T14:35:06+08:00",
+      "last_seen_at": "2026-10-05T14:35:06+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.03552",
+      "arxiv_version": "v1",
+      "title": "X-ray spectroscopy of hot dense plasmas using LLNL's upgraded Titan 2$ω$ short-pulse laser",
+      "authors": [
+        "A. J. Fairchild",
+        "D. T. Bishel",
+        "T. Cordova",
+        "H. Flores-Alimboyoguen",
+        "M. F. Gu",
+        "P. Hamilton",
+        "N. Hell",
+        "M. J. MacDonald",
+        "E. W. Magee",
+        "R. C. Mancini",
+        "E. V. Marley",
+        "R. Shepherd",
+        "G. V. Brown"
+      ],
+      "published": "2026-10-02",
+      "url": "https://arxiv.org/abs/2610.03552",
+      "abstract": "We are developing an experimental platform at Lawrence Livermore National Laboratory's Jupiter Laser Facility to characterize X-ray emission from highly charged ions in the high-density ($n_e > 10^{23}$ cm$^{-3}$), high-temperature ($T_e \\sim 1$ keV) regime, leveraging the recently upgraded frequency-doubled short-pulse Titan laser. These measurements will provide experimental benchmarks for high electron density effects on atomic structure, including Stark broadening, ionization potential depression, density-dependent line shifts, and suppression of dielectronic recombination, effects that are relevant to spectral modeling packages used by both the high-energy-density and astrophysics communities. Here, we describe the current status of the platform and present results from first experiments using the upgraded frequency-doubling capability, including calibrated K-shell spectra acquired from five time-integrated X-ray channels. Comparisons with MERL line shape calculations and with spectra recorded at AWE's Orion Laser Facility indicate that the upgraded Titan laser reliably produces the necessary plasma conditions, establishing a foundation for systematic benchmarking of high-density atomic physics in future campaigns.",
+      "external_ids": [
+        "arxiv:2610.03552"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-05T14:35:06+08:00",
+      "last_seen_at": "2026-10-05T14:35:06+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.03538",
+      "arxiv_version": "v1",
+      "title": "RATE: Risk-Aware Tactile Encoding for Contact-rich Robotic Manipulation",
+      "authors": [
+        "Yuyao Jiang",
+        "Haichao Liu",
+        "Jiarui Zheng",
+        "Zihan Ding",
+        "Weihao Yuan",
+        "Ziwei Wang"
+      ],
+      "published": "2026-10-02",
+      "url": "https://arxiv.org/abs/2610.03538",
+      "abstract": "Tactile sensing is particularly valuable for contact-rich robotic manipulation. Recent work has made substantial progress in tactile representation learning for robotic manipulation. However, similar tactile observations can arise from interaction conditions with very different task-risk implications, such as sensor noise, task-necessary variations, and emerging undesirable contact. Without context-grounded risk information, these cases can be ambiguous to downstream policies, leading to unnecessary corrections to benign variations or delayed responses to genuinely risky contact. To address this limitation, we propose Risk-Aware Tactile Encoding (RATE), which learns tactile representations that encode task-conditioned interaction risk. Specifically, history-conditioned prediction captures interaction context, while alert supervision associates this context with task-conditioned risk. The learned risk-aware representation complements conventional tactile features through a lightweight residual adapter. Experiments in both simulation and the real world demonstrate substantial improvements in task success, with controlled ablations confirming the complementary benefits of alert-guided learning and predictive temporal modeling.",
+      "external_ids": [
+        "arxiv:2610.03538"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-05T14:35:06+08:00",
+      "last_seen_at": "2026-10-05T14:35:06+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.03536",
+      "arxiv_version": "v1",
+      "title": "Migrating cell clusters as active droplets with asymmetric shape and contact angles",
+      "authors": [
+        "Hanno I. Hennighausen",
+        "Jaime A. Espina",
+        "Elias H. Barriga",
+        "Ricard Alert"
+      ],
+      "published": "2026-10-02",
+      "url": "https://arxiv.org/abs/2610.03536",
+      "abstract": "During embryonic development and cancer progression, clusters of cells migrate collectively following external cues. Such migrating cell clusters have been modeled as active droplets wetting a substrate. So far, this active wetting model assumed the cluster to take the symmetric shape of a spherical cap. Here, in contrast, we experimentally show that migrating clusters of frog neural crest cells have asymmetric height profiles, with a lower contact angle at the front than at the rear. We then extend the active wetting model by deriving an equation for the cluster shape, which becomes part of the solution rather than an assumption. Our model shows that shape asymmetry can arise from the asymmetric tractions that drive cluster migration: They generate a pressure gradient across the tissue which, via the Young-Laplace equation, leads to a curvature gradient on the cluster's upper surface. Finally, by fitting the theoretical predictions to the measured height profile, we estimate the tissue viscosity. Overall, our results provide a general mechanism for the emergence of asymmetric shapes in migrating cell clusters, understood as active droplets on a wettability gradient.",
+      "external_ids": [
+        "arxiv:2610.03536"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-05T14:35:06+08:00",
+      "last_seen_at": "2026-10-05T14:35:06+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.03682",
+      "arxiv_version": "v1",
+      "title": "Low-Overhead Quantum Error Correction with Boundary-Connected Planar Modules",
+      "authors": [
+        "Oscar Higgott",
+        "Hasan Sayginel",
+        "Francisco J. H. Heras",
+        "Zhiyang He",
+        "Tomas Jochym-O'Connor",
+        "Andrew W. Senior",
+        "Lei M. Zhang",
+        "Thomas Edlich",
+        "James S. Spencer",
+        "Matt McEwen",
+        "Craig Gidney",
+        "Johannes Bausch",
+        "Pushmeet Kohli",
+        "Hartmut Neven"
+      ],
+      "published": "2026-10-02",
+      "url": "https://arxiv.org/abs/2610.03682",
+      "abstract": "Realizing practical quantum computers requires quantum error correction, but the most widely implemented approach, the planar surface code, demands a substantial physical qubit overhead. Here, we demonstrate that partitioning quantum processors into manageable, flat modules with non-local inter-module connections provides a natural solution. By wiring sparse, static boundary connections between Euclidean planar modules, we construct modular hyperbolic surface and color codes, based on new families of semi-hyperbolic codes. Using modular syndrome extraction circuits and efficient neural network and matching decoders, our circuit-level simulations show that this modular memory design can reduce the physical qubit overhead by tenfold or more compared to the surface code, even under elevated inter-module seam error rates. Projecting to larger system sizes, we find modular codes with encoding rate $k/n=1/16$ and distance $d\\geq 22$, exceeding both the rate and distance of the $[[288,12,18]]$ two-gross bivariate bicycle code while using mostly nearest-neighbor gates within planar modules, and implying an over $30\\times$ overhead reduction relative to surface codes. We develop fault-tolerant walking circuits for implementing logic via code automorphisms, which we co-design with low-weight, highly symmetrical logical bases and a modular extractor system that is $\\approx 4.5\\times$ smaller than the code itself. Combining these methods, our modular memory can be used as dense storage in a universal fault-tolerant architecture, unlocking the efficiency of high-rate codes without sacrificing the fabrication advantages of planar modules.",
+      "external_ids": [
+        "arxiv:2610.03682"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-05T14:35:06+08:00",
+      "last_seen_at": "2026-10-05T14:35:06+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.03673",
+      "arxiv_version": "v1",
+      "title": "Quantum Simulation on Riemannian Manifolds",
+      "authors": [
+        "Dylan Herman",
+        "Jacob Watkins",
+        "Guneykan Ozgul",
+        "Jiayu Shen",
+        "Brandon Augustino",
+        "Junhyung Lyle Kim",
+        "Shouvanik Chakrabarti"
+      ],
+      "published": "2026-10-02",
+      "url": "https://arxiv.org/abs/2610.03673",
+      "abstract": "We investigate algorithms for the quantum simulation of the Schrödinger equation on a Riemannian manifold, where the kinetic operator is defined by the Laplace--Beltrami operator corresponding to the metric. Our first algorithms are based on a global spectral method based on the identification of an efficient transform to the eigenbasis of the Laplace--Beltrami operator. We use this method to provide explicit, efficient, quantum simulation algorithms for the Riemannian Schrödinger equation on tori and spheres with their standard metrics, simplices with the Wright--Fisher metric, truncated positive orthants and their invertible affine images with the log-barrier Hessian metric, and $\\ell_p$ balls with a metric induced by the Duffy map. Our second algorithm is based on a coherent simulation of local spectral methods on multiple charts, and is in principle applicable to any compact manifold. We first analyze this algorithm in the continuum and derive conditions under which a polynomial spectral cutoff suffices. We also provide a discretization analysis of a polynomial spectral cutoff for tensor-products of constant-dimensional manifolds. Finally, we consider applications of these methods to optimization and physical simulation. For optimization, we provide results including a generalization and convergence analysis of Quantum Hamiltonian Descent for geodesically convex functions that leads to explicit algorithms on the sphere and simplex, and a Riemannian generalization of the Real-Space Adiabatic Algorithm. For physical simulation, we show that our algorithms can simulate certain spatially discretized field theories, including a variant of the nonlinear sigma model.",
+      "external_ids": [
+        "arxiv:2610.03673"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics",
+        "global illumination real-time",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-05T14:35:06+08:00",
+      "last_seen_at": "2026-10-05T14:35:06+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.03671",
+      "arxiv_version": "v1",
+      "title": "Quantum simulation of field-tunable spin spectroscopy of the quantum magnet Cs2CoCl4 on a trapped-ion quantum computer",
+      "authors": [
+        "Elias Kokkas",
+        "Nora Bauer",
+        "Justin Provazza",
+        "Mark E. Nowakowski",
+        "Kathleen Hamilton",
+        "Gilles Buchs",
+        "Andrew Sornborger",
+        "Travis S. Humble",
+        "Ananth Kaushik",
+        "Martin Roetteler"
+      ],
+      "published": "2026-10-02",
+      "url": "https://arxiv.org/abs/2610.03671",
+      "abstract": "The collective excitation spectra of quantum magnets provide a direct test of quantum computers as tools for studying strongly correlated matter. Hardware noise limits the circuit depths available for these calculations, leaving the question of how much magnetic information can survive circuit compression. Using IonQ's 36 qubit Forte Enterprise processor, we simulate the magnetic excitation spectra and spin dynamics of a 36 site Heisenberg XXZ chain describing the quantum magnet Cs2CoCl4 in a transverse field using quantum circuits containing just 420 two qubit gates. The workflow combines an ancilla free local kick protocol with classical tensor network compression, encoding both ground state preparation and time evolution. The reconstructed dynamical structure factors capture the evolution from a broad two spinon continuum toward a dispersive branch with magnon character near the expected critical field. We observe an interesting field driven sign reversal of the nearest neighbor spin correlations which shows a complementary signature of this magnetic evolution. Our error mitigation methods bring the reconstructed total spectra into close agreement with density matrix renormalization group calculations, with Pearson correlation and structural similarity above 0.9 and normalized mean squared error below 0.15. We also perform comparisons with experimental inelastic neutron scattering measurements to connect the recovered excitations to the material's magnetic response. Our results demonstrate that circuit compression and error mitigation allow noisy quantum processors to recover both collective excitations and local magnetic correlations providing a quantitative benchmark for quantum spectroscopy and a basis for extending these methods to more complex magnetic systems.",
+      "external_ids": [
+        "arxiv:2610.03671"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-05T14:35:06+08:00",
+      "last_seen_at": "2026-10-05T14:35:06+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.03669",
+      "arxiv_version": "v1",
+      "title": "Optimal kernel functions for linear combination of Hamiltonian simulation",
+      "authors": [
+        "Harriet Apel",
+        "Bjorn K. Berntson"
+      ],
+      "published": "2026-10-02",
+      "url": "https://arxiv.org/abs/2610.03669",
+      "abstract": "Linear combination of Hamiltonian simulation (LCHS) provides an asymptotically optimal framework for the quantum simulation of linear non-unitary dynamics. The LCHS approach approximately implements the Peano--Baker propagator through an integral representation determined by a kernel function. We establish an LCHS approximation theorem for a broadened class of admissible kernel functions, defined by natural complex-analytic conditions. In the standard time-independent block-encoding access model, we explicitly construct, for each target error $\\varepsilon$, the unique kernel function in this class minimizing the query-cost functional and show that the minimum of this functional has the asymptotic expansion $\\tfrac{2\\mathrm{e}}π\\big(\\log\\frac{1}{\\varepsilon}-\\log\\log\\frac{1}{\\varepsilon}+o(1)\\big)$ as ${\\varepsilon\\downarrow0}$. The provably optimal leading coefficient $2\\mathrm{e}/π$ improves by a factor of approximately 2.1 on the coefficient obtained empirically by Low and Somma through numerical minimization over their family of optimally scaling kernel functions. We construct a spectrally convergent quadrature with explicit bounds on operator error and linear combination of unitaries (LCU) subnormalization, proving that this asymptotic improvement persists after discretization into a finite linear combination of unitaries suitable for implementation. Our results are based on Hardy space theory and convex analysis.",
+      "external_ids": [
+        "arxiv:2610.03669"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-05T14:35:06+08:00",
+      "last_seen_at": "2026-10-05T14:35:06+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.03616",
+      "arxiv_version": "v1",
+      "title": "LLA-MPC on Embedded Hardware: Rapid Adaptive Control with Thousands of Parallel Models",
+      "authors": [
+        "Henry Z. Liao",
+        "Maitham F. AL-Sunni",
+        "John M. Dolan"
+      ],
+      "published": "2026-10-02",
+      "url": "https://arxiv.org/abs/2610.03616",
+      "abstract": "We present a generalized implementation of Look-Back and Look-Ahead Adaptive Model Predictive Control (LLA-MPC), a learning-free framework for real-time, rapid adaptive system identification and control. The original formulation was demonstrated only in simulation, for autonomous racing with a fixed model structure. Our implementation has modular dynamics and integrators, and we validate it on the F1TENTH platform under constrained computation and noisy state estimation. The system identifies tire parameters online by evaluating thousands of candidate models in real time on an embedded computer. Experiments with low-friction tires across changing surfaces show that LLA-MPC completes high-speed tracking tasks where a fixed nominal model fails. Code, videos, and our related work are available at: https://lla-control.github.io.",
+      "external_ids": [
+        "arxiv:2610.03616"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "global illumination real-time"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-05T14:35:06+08:00",
+      "last_seen_at": "2026-10-05T14:35:06+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.03631",
+      "arxiv_version": "v1",
+      "title": "NeutronGym: Physics-Graded Neutron Instrument Design for LLM Agents",
+      "authors": [
+        "Lijie Ding",
+        "Changwoo Do"
+      ],
+      "published": "2026-10-02",
+      "url": "https://arxiv.org/abs/2610.03631",
+      "abstract": "Designing a scientific instrument tests whether language-model agents can do physics rather than recall it, provided the grading cannot be argued with. We introduce NeutronGym, to our knowledge the first executable environment for neutron instrument design: agents build instruments through validating tools, McStas ray-traces what they build, and a level-resolved ladder grades syntax, runtime, structure and science with no LLM judge. Procedural families supply unlimited instances of a fixed layout whose design parameters the agent must set, with held-out parameter regimes; a curated slice, McStasBench, adds 16 tasks from published instruments behind memorization probes and a sandbox. Seven models reproduce at most 7 of the 16, none retrieves a reference, and none meets an improvement target. The environment also trains. Reinforcement learning on its reward takes Qwen3-8B from 11% to 77% of held-out instances of a family whose targets come from a hidden design (69% at a second seed), past an untrained Qwen3-32B, and the recipe holds, at one seed each, on three further gated families. The analysis says what that gain is. Without the ladder's partial credit it collapses by 60 points. From reward alone the trained model reaches what a classical optimizer reaches, at the agent's simulation budget, only when handed the closed-form physics (77% against 81%, a gap that does not separate at this size), while frontier models still solve 98-99%. Getting a trustworthy result meant failing four task designs that no-model baselines could solve, and we release the probes that found them.",
+      "external_ids": [
+        "arxiv:2610.03631"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-05T14:35:06+08:00",
+      "last_seen_at": "2026-10-05T14:35:06+08:00"
+    },
     {
       "source": "arxiv",
       "arxiv_id": "2610.02207",
@@ -1566,7 +2105,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-04T14:41:19+08:00"
+      "last_seen_at": "2026-10-05T14:35:06+08:00"
     },
     {
       "source": "arxiv",
@@ -1599,7 +2138,7 @@
       "doi": "10.48550/arXiv.2601.06451",
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-04T14:41:19+08:00"
+      "last_seen_at": "2026-10-05T14:35:06+08:00"
     },
     {
       "source": "semanticscholar",
@@ -1628,7 +2167,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-09-30T16:12:32+08:00"
+      "last_seen_at": "2026-10-05T14:35:06+08:00"
     },
     {
       "source": "semanticscholar",
@@ -1713,7 +2252,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-09-30T16:12:32+08:00"
+      "last_seen_at": "2026-10-05T14:35:06+08:00"
     },
     {
       "source": "semanticscholar",
@@ -1800,7 +2339,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-04T14:41:19+08:00"
+      "last_seen_at": "2026-10-05T14:35:06+08:00"
     },
     {
       "source": "semanticscholar",
@@ -1831,7 +2370,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-09-30T16:12:32+08:00"
+      "last_seen_at": "2026-10-05T14:35:06+08:00"
     },
     {
       "source": "arxiv",
@@ -1861,7 +2400,7 @@
       "doi": "10.1145/3731155",
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-04T14:41:19+08:00"
+      "last_seen_at": "2026-10-05T14:35:06+08:00"
     },
     {
       "source": "semanticscholar",
@@ -1915,7 +2454,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-04T14:41:19+08:00"
+      "last_seen_at": "2026-10-05T14:35:06+08:00"
     },
     {
       "source": "semanticscholar",
@@ -1945,7 +2484,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-09-30T16:12:32+08:00"
+      "last_seen_at": "2026-10-05T14:35:06+08:00"
     },
     {
       "source": "semanticscholar",
@@ -1973,7 +2512,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-09-30T16:12:32+08:00"
+      "last_seen_at": "2026-10-05T14:35:06+08:00"
     },
     {
       "source": "semanticscholar",
@@ -1999,7 +2538,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-09-30T16:12:32+08:00"
+      "last_seen_at": "2026-10-05T14:35:06+08:00"
     },
     {
       "source": "arxiv",
@@ -2029,7 +2568,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-04T14:41:19+08:00"
+      "last_seen_at": "2026-10-05T14:35:06+08:00"
     },
     {
       "source": "semanticscholar",
@@ -2062,7 +2601,7 @@
     }
   ],
   "last_run": {
-    "at": "2026-10-04T14:41:19+08:00",
+    "at": "2026-10-05T14:35:06+08:00",
     "sources": [
       "arxiv",
       "semanticscholar",
@@ -2078,9 +2617,9 @@
       "MLS-MPM",
       "projective dynamics cloth"
     ],
-    "fetched": 92,
-    "merged": 20,
-    "new": 0
+    "fetched": 102,
+    "merged": 30,
+    "new": 18
   },
   "topic": "game technology: physics simulation, real-time rendering, global illumination",
   "schema_version": 1
