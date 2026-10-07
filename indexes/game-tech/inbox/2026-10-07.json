@@ -1,0 +1,407 @@
+{
+  "date": "2026-10-07",
+  "run": {
+    "at": "2026-10-07T14:53:16+08:00",
+    "sources": [
+      "arxiv",
+      "semanticscholar",
+      "dblp"
+    ],
+    "keywords": [
+      "material point method cloth",
+      "\"position based\" dynamics cloth",
+      "incremental potential contact",
+      "real-time fluid simulation graphics",
+      "global illumination real-time",
+      "ray tracing global illumination",
+      "MLS-MPM",
+      "projective dynamics cloth"
+    ],
+    "fetched": 92,
+    "merged": 19,
+    "new": 13
+  },
+  "new_candidates": [
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.08786",
+      "arxiv_version": "v1",
+      "title": "Energy-constrained two-way capacity bounds for noisy Gaussian channels",
+      "authors": [
+        "Stefano Pirandola"
+      ],
+      "published": "2026-10-06",
+      "url": "https://arxiv.org/abs/2610.08786",
+      "abstract": "A gap between achievable rates and converse bounds persists for energy-constrained bosonic communication in the presence of excess noise. We derive a unified adaptive weak-converse bound for thermal attenuation, noisy amplification, and additive Gaussian noise under an unconditional mean transmitted-photon-number constraint. The bound applies to arbitrary adaptive protocols with quantum memories and constrains the two-way quantum, entanglement-distribution, private, and secret-key capacities. It vanishes throughout the entanglement-breaking region and approaches the corresponding PLOB bound at infinite energy. At finite energy, it improves the evaluated Gaussian squashed-entanglement and PLOB bounds in relevant parameter regimes, while comparison with hashing rates quantifies the remaining gap to achievability. The result provides a common energy-dependent benchmark for noisy bosonic Gaussian channels and extends finite-energy converse methods beyond the quantum-limited setting.",
+      "external_ids": [
+        "arxiv:2610.08786"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-07T14:53:16+08:00",
+      "last_seen_at": "2026-10-07T14:53:16+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.08784",
+      "arxiv_version": "v1",
+      "title": "PEARS: Physical-Prior-Guided Efficient Adaptation via Failure Reasoning and Diffusion Steering for Tactile Manipulation",
+      "authors": [
+        "Kun Song",
+        "Yiming Wang",
+        "Yilin Chen",
+        "Tianyi Ding",
+        "Jiaxin Tian",
+        "Tianqi Gong",
+        "Daolin Ma",
+        "Jia Pan"
+      ],
+      "published": "2026-10-06",
+      "url": "https://arxiv.org/abs/2610.08784",
+      "abstract": "Pretrained robotic policies can suffer substantial performance degradation under out-of-distribution (OOD) conditions encountered during deployment, motivating post-training through real-world interaction. However, reinforcement-learning (RL)-based post-training typically requires substantial environment interactions, a burden that is especially significant in manipulation, where each trial can be slow, costly, or destructive. Therefore, we present PEARS, a physics-prior-guided hybrid RL framework for sample-efficient online adaptation of pretrained policies with tactile feedback. After each episode, its physics-guided force reasoning (PFR) module uses physical priors encoded in a vision-language model (VLM) to diagnose failures from the visual outcome and tactile interaction history and update task-appropriate contact-force bounds. A high-frequency hybrid force-position controller then enforces these bounds during contact. Complementarily, tactile-conditioned diffusion steering reinforcement learning adjusts the latent noise of the frozen flow-matching policy to correct errors in free-space motion and contact timing without updating the base model. In simulation, PEARS improves success rates by 12.4-37.4 percentage points over the strongest per-task baselines. PEARS also reduces the number of interaction episodes required for a certain success threshold by up to 53.2% relative to the fastest baseline. In real-world experiments, PEARS achieves success rates of 95% on Whiteboard Erasing and 90% on Pipette Liquid Aspiration. These results show that combining the PFR module with policy steering can accelerate adaptation while reducing costly interactions. The project website is available at https://song-kun.github.io/pears.",
+      "external_ids": [
+        "arxiv:2610.08784"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "incremental potential contact",
+        "real-time fluid simulation graphics",
+        "global illumination real-time",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-07T14:53:16+08:00",
+      "last_seen_at": "2026-10-07T14:53:16+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.08769",
+      "arxiv_version": "v1",
+      "title": "Observing the magic Mpemba effect in localized dynamics on a digital quantum computer",
+      "authors": [
+        "Han-Ze Li",
+        "Xianquan Yan",
+        "Yi-Rui Zhang",
+        "Jian-Xin Zhong",
+        "Shuo Liu",
+        "Ching Hua Lee"
+      ],
+      "published": "2026-10-06",
+      "url": "https://arxiv.org/abs/2610.08769",
+      "abstract": "The Mpemba effect challenges the intuition that states closer to equilibrium must relax faster. We ask whether an analogous magic-ordering reversal can occur in the generation of quantum magic (nonstabilizerness), a key resource for universal quantum computation: can a state with less initial magic overtake one with more and reach its asymptotic value sooner? Here, we uncover interaction-induced dephasing as a distinct mechanism for this magic Mpemba effect, requiring neither transport nor conventional thermalization. For tilted product states in an interacting $\\ell$-bit model, a random-phase analysis predicts a reversal of the magic ordering: states with less initial magic attain higher saturated magic, independent of their spatial pattern. Exact simulations of the $\\ell$-bit model and localized spin chains further show that these states also saturate earlier. We observe both features on IBM superconducting quantum processors. An effective $\\ell$-bit implementation accesses long dephasing times at fixed circuit depth by encoding time in gate angles, while a microscopic spin model exhibits the reversal universally across initial patterns in the localized regime but only selectively in the ergodic regime. These results establish interaction-induced dephasing as a route to anomalous quantum-resource relaxation beyond transport-driven thermalizing dynamics.",
+      "external_ids": [
+        "arxiv:2610.08769"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-07T14:53:16+08:00",
+      "last_seen_at": "2026-10-07T14:53:16+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.08765",
+      "arxiv_version": "v1",
+      "title": "LBA-CBF: Rapidly Adaptive Safety Filters via Parallel Dynamics Inference",
+      "authors": [
+        "Maitham F. AL-Sunni",
+        "Timeea-Andreea Radu",
+        "Hassan Almubarak",
+        "Henry Z. Liao",
+        "Michael Görner",
+        "Francesco Maurelli",
+        "John M. Dolan"
+      ],
+      "published": "2026-10-06",
+      "url": "https://arxiv.org/abs/2610.08765",
+      "abstract": "Control barrier functions (CBFs) certify commands through an assumed dynamics model, so an abrupt, unmeasured regime change can undermine the certificate exactly when safety matters most. We present Look-Back Adaptive Control Barrier Functions (LBA-CBF), which rank a finite bank of candidate dynamics by recent prediction error over a short look-back window and enforce the high-order CBF condition against every model within a tolerance of the best, spanning best-fit adaptation to full-bank robust filtering. The dynamics may depend nonlinearly on the unknown parameters, and no switching model or continuously parameterized estimator is required. We prove that any feasible filtered input satisfies the true CBF condition whenever a safety-representative candidate is retained. In quadrotor simulation with abrupt wind reversals and an unknown payload, LBA-CBF is safe and reaches the goal from all random initial conditions, matching an oracle, while adaptive and robust baselines achieve 0-88% success. Banks of up to 250,000 models run inside the control loop, and Crazyflie 2.1 and F1TENTH experiments demonstrate adaptation to wind, payload release, and varying tire-road friction. Code, videos, and project details are available at: https://lla-control.github.io",
+      "external_ids": [
+        "arxiv:2610.08765"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-07T14:53:16+08:00",
+      "last_seen_at": "2026-10-07T14:53:16+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.08728",
+      "arxiv_version": "v1",
+      "title": "When, Why, and How CMB Compression Fails",
+      "authors": [
+        "Davide Pedrotti",
+        "William Giarè",
+        "Hanyu Cheng",
+        "Eleonora Di Valentino"
+      ],
+      "published": "2026-10-06",
+      "url": "https://arxiv.org/abs/2610.08728",
+      "abstract": "We test when compressed CMB likelihoods can be reliably used to constrain new physics beyond $Λ$CDM, formulating concrete criteria for \\textit{when}, \\textit{why}, and \\textit{how} CMB compression fails. We derive our conclusions by exploring a broad set of models that modify different aspects of the cosmological evolution, including late-time dark-energy dynamics, non-standard late-time dark-matter evolution through interactions or decay, and dark-matter models with persistently non-standard redshift evolution. For each case, we compare the results obtained from data combinations based on the full Planck-CMB likelihood with their counterparts based on a compressed CMB likelihood calibrated in $Λ$CDM. We find that the compression remains accurate for late-time dark-energy extensions that preserve the dark-matter background evolution and do not introduce significant additional perturbative effects. By contrast, modifying the dark-matter evolution breaks the mapping between the present-day matter density and the matter density at the epochs relevant to the CMB, causing the compressed constraints to fail even when the modification acts exclusively at late times. In these cases, the compressed likelihood can drastically alter the geometry of the multidimensional posterior distributions, shifting their centers, producing strongly anisotropic deformations, reordering principal modes, and generating genuine mixing and rotation of their eigendirections. These multidimensional distortions propagate into substantially incorrect marginalized constraints on cosmological parameters, with differences between the full and compressed analyses reaching nearly an order of magnitude in some of the cases studied here.",
+      "external_ids": [
+        "arxiv:2610.08728"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-07T14:53:16+08:00",
+      "last_seen_at": "2026-10-07T14:53:16+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.08721",
+      "arxiv_version": "v1",
+      "title": "Thermal fluctuations and electronic readout using a moving-coil movement",
+      "authors": [
+        "Angelo Maria Sabatini"
+      ],
+      "published": "2026-10-06",
+      "url": "https://arxiv.org/abs/2610.08721",
+      "abstract": "The moving-coil meter provides a simple context in which to model deterministic electromechanical dynamics, thermal fluctuations, and electronic readout. The movement is a linear electromechanical system in which electrical resistance and intrinsic mechanical damping act as two independent dissipative channels, each accompanied by thermal fluctuations. The stored energy provides a Lyapunov function for stability, and the algebraic Lyapunov equation yields the stationary covariance in closed form. The result exhibits equipartition among the energy terms; damping is shown to reshape the temporal memory of the fluctuations without changing their steady-state variance, giving a thermal floor of a few picoamperes for a representative movement. Exact stochastic integration reproduces the stationary covariance and autocorrelation structure; the covariance is also recovered by spectral integration. Embedding the movement in an active current-drive readout shifts attention to the noise of the complete readout, which a design-stage estimate expresses as a few parts per million of full scale, growing as the input sensitivity increases. The example illustrates that measurement sensitivity and resolution cannot be considered independently. The treatment is aimed at master's-level students in physics with some background in statistical physics and stochastic processes, and basic familiarity with analog electronics.",
+      "external_ids": [
+        "arxiv:2610.08721"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-07T14:53:16+08:00",
+      "last_seen_at": "2026-10-07T14:53:16+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.08720",
+      "arxiv_version": "v1",
+      "title": "WorldSolver: Can LLM Agents Simulate the Physical Dynamics via Solver Generation?",
+      "authors": [
+        "Siru Jiang",
+        "Yongzhe Lyu",
+        "Shuo Lu",
+        "Yubin Wang",
+        "Yuxiang Zhang",
+        "Yue Liao",
+        "Bin Wang",
+        "Jian Liang",
+        "Tieniu Tan"
+      ],
+      "published": "2026-10-06",
+      "url": "https://arxiv.org/abs/2610.08720",
+      "abstract": "LLM-based agents are increasingly advancing scientific and engineering problem solving, with physics simulation emerging as a challenging yet practical testbed for reproducing complex physical phenomena with application in embodied AI, games and films. As the workhorse of such simulation, a solver computes how the state of a dynamic system evolves over time. Building such solvers requires physical understanding to identify appropriate models, mathematical reasoning to formulate the underlying dynamics, and software engineering to implement them as executable code, yet this capability of LLM agents remains underexplored. To this end, we introduce WorldSolver, a benchmark of 168 simulation tasks derived from physical phenomena in 61 classic computer graphics papers, spanning 7 physical domains. Each task contains a code scaffold that provides a fixed simulation environment for the scene, with the solver implementation left for the agent to complete. Specifically, we evaluate them along three dimensions: Execution Checks for successful execution, Visual Fidelity for reproducing the intended dynamic behavior in the rendered simulation, and Physical Plausibility for physics-grounded verification of the generated dynamics. Experiments on frontier agents reveal that producing executable solvers is difficult itself, and satisfying visual and physical correctness is even harder. GPT-5.6-Sol and Claude-Opus-5 perform comparatively better than the other evaluated agents, yet achieve overall scores of only 48.7% and 46.7%, respectively. WorldSolver is an early step toward agentic solver generation, and we hope it helps drive progress toward agents that can faithfully simulate the dynamic physical world. Code is available at https://github.com/sirujiang/WorldSolver.",
+      "external_ids": [
+        "arxiv:2610.08720"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-07T14:53:16+08:00",
+      "last_seen_at": "2026-10-07T14:53:16+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.08734",
+      "arxiv_version": "v1",
+      "title": "Sliced Wasserstein Barycenters: The Analysis Approach within the Barycentric Coding Model in the Wasserstein Space",
+      "authors": [
+        "Rocío Díaz Martín",
+        "James M. Murphy"
+      ],
+      "published": "2026-10-06",
+      "url": "https://arxiv.org/abs/2610.08734",
+      "abstract": "We study sliced Wasserstein barycenters from a variational perspective in Wasserstein space, with emphasis on the analysis problem in the barycentric coding model: given a query measure and a finite dictionary of probability measures, recover simplex-constrained barycentric coordinates. We derive an explicit first-variation formula for the sliced Wasserstein barycenter functional with respect to the classical 2-Wasserstein geometry. The resulting gradient is expressed as an average of 1D monotone transport displacements over the sphere. The stationarity equation yields a Gram-matrix criterion for estimating barycentric coordinates through a quadratic program, while its fixed-point form leads to a synthesis iteration to new barycentric measures. For Gaussian templates, we show that every global sliced Wasserstein barycenter is Gaussian; however, the functional may admit non-Gaussian critical points. We also provide a certificate for global optimality built from the 1D transport potentials. Numerical experiments demonstrate accurate coordinate recovery on synthesized queries and illustrate the use of these coordinates for data representation and stationarity residuals for reliability assessment.",
+      "external_ids": [
+        "arxiv:2610.08734"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact",
+        "global illumination real-time",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-07T14:53:16+08:00",
+      "last_seen_at": "2026-10-07T14:53:16+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.08667",
+      "arxiv_version": "v1",
+      "title": "Fault-tolerant resource estimation for ground-state preparation via Lindblad simulation",
+      "authors": [
+        "Marius Bothe",
+        "Patrick Schoepf",
+        "Nick S. Blunt"
+      ],
+      "published": "2026-10-06",
+      "url": "https://arxiv.org/abs/2610.08667",
+      "abstract": "Recent advances in algorithms for simulating Lindblad dynamics have clarified their theoretical potential for state preparation, but their practicality in the early fault-tolerant regime and beyond remains uncertain. In this work, we address this by investigating the cost of preparing ground states of the fermionic Hubbard model, following the single-ancilla approach of [Phys. Rev. Research 6, 033147 (2024)]. We derive rigorous error bounds including constant prefactors, and compare to empirical error behavior and practical convergence parameters obtained from circuit-level simulations. We find that empirically chosen parameters can reduce the required resources by orders of magnitude, resulting in an estimated $7.7 \\times 10^8$ T gates to perform one unit of time evolution targeting the low-energy subspace of a 36-site fermionic Hubbard model. We identify the accurate filtering of energy transitions as the main source of this cost.",
+      "external_ids": [
+        "arxiv:2610.08667"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-07T14:53:16+08:00",
+      "last_seen_at": "2026-10-07T14:53:16+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.08656",
+      "arxiv_version": "v1",
+      "title": "Minkowski Tensors of Planar Anisotropic Voronoi Diagrams",
+      "authors": [
+        "Nicolas Venkovic",
+        "Hartwig Anzt"
+      ],
+      "published": "2026-10-06",
+      "url": "https://arxiv.org/abs/2610.08656",
+      "abstract": "Anisotropic Voronoi diagrams, in which each cell is the region first reached by an ellipse growing from its site, generate non-convex cells whose integral geometry can be described using Minkowski tensors of arbitrary order. In this work, we derive semi-analytical formulas for Minkowski tensors of arbitrary order of the 0th, 1st and 2nd kind for planar anisotropic Voronoi cells that are star convex at their nucleation point. The resulting formulas involve integrals of contact functions, which describe the cell boundary through a diffeomorphic transformation. This transformation renders the geometry amenable to analytical treatment, enabling us to obtain expressions for the desired Minkowski tensors. Although most of the integrals lack closed-form solutions, they can be efficiently approximated numerically once the contact function and its derivatives are known along the boundary of the cell of interest.",
+      "external_ids": [
+        "arxiv:2610.08656"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-07T14:53:16+08:00",
+      "last_seen_at": "2026-10-07T14:53:16+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.08642",
+      "arxiv_version": "v1",
+      "title": "HygieneRoboBench: Benchmarking Hygiene-Aware Planning for Household Robots",
+      "authors": [
+        "Yurun Chen",
+        "Josh Qixuan Sun",
+        "Jason Qin",
+        "Chengtai Li",
+        "Tianyi Wang",
+        "Mark Crowley",
+        "Wentao Zhu"
+      ],
+      "published": "2026-10-06",
+      "url": "https://arxiv.org/abs/2610.08642",
+      "abstract": "Contact with contaminated objects can spread hazards through a household robot's grippers, tools, and shared surfaces, while new contacts can make an existing plan unsafe. Existing benchmarks do not jointly assess how planners identify hygiene risks from contact history and plan safe continuations after new contact events. Planners must do so within time and resource limits while respecting user priorities. We introduce HygieneRoboBench, with 624 instances across 134 task families, to evaluate safe resolution of household tasks from a given execution history. Tasks capture contamination through two grippers and shared objects, treatment costs, and user priorities. We combine controlled history, profile, and event comparisons with independent plan evaluation. These assess safe resolution, cost efficiency under user priorities, and responses to contact events. Evaluation of LLM-based and symbolic planners shows that safely completing a task does not guarantee the lowest execution costs under the user's priorities. To address this problem, we introduce Hygiene-NSP. It combines LLM-based grounding, contact-history reconstruction, and CP-SAT to jointly plan hygiene treatment and task execution under user priorities. Hygiene-NSP achieves safe resolution and optimal safe resolution rates of 94.4% and 90.4%, respectively. Both rates are higher than those of the evaluated baseline planners on the full dataset. Project page: https://euron-zc.github.io/HygieneRoboBench/.",
+      "external_ids": [
+        "arxiv:2610.08642"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-07T14:53:16+08:00",
+      "last_seen_at": "2026-10-07T14:53:16+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.08791",
+      "arxiv_version": "v1",
+      "title": "World Models' Last Exam in Physics",
+      "authors": [
+        "Mingju Gao",
+        "Qingle Liu",
+        "Yuzhao Peng",
+        "Xinjie Lin",
+        "Ziming Qin",
+        "Zheng Jiang",
+        "Wenyi Li",
+        "Calvin Xiao",
+        "Youjie Zheng",
+        "Kaisen Yang",
+        "Qinhuai Na"
+      ],
+      "published": "2026-10-06",
+      "url": "https://arxiv.org/abs/2610.08791",
+      "abstract": "Video world models can produce visually convincing yet physically inconsistent sequences, raising concerns about their reliability for prediction and planning in embodied AI systems. Existing evaluations often rely on model-based judgments or reference videos, while direct physical tests largely focus on mechanics. We introduce World Models' Last Exam in Physics, a measurement-based benchmark for evaluating physical consistency in video world models. The benchmark comprises 40 controlled tasks spanning mechanics, optics, fluids, thermal and phase-change phenomena, electromagnetism, and surface tension. Each task pairs an initial image and a generation prompt with predefined physical criteria, enabling interpretable tests of observable physical relationships without requiring reference videos. Its evaluator combines task-observability screening with task-specific quantitative physical measurements. Experiments on eight video generation models across 1,280 videos reveal persistent physical inconsistencies and substantial variation across tasks, with the best model achieving an overall score of 57.76 out of 100. Evaluation on synthetic videos with known physical relationships provides evidence for the validity of the measurement module under controlled conditions. The evaluator also achieves higher agreement with human judgments than a direct vision-language model baseline in both within-task rankings and pairwise comparisons. By combining coverage across physical domains with scores grounded in measurable evidence and explicit measurement limitations, the benchmark provides an interpretable basis for diagnosing physical inconsistencies and tracking progress toward physically consistent video world models.",
+      "external_ids": [
+        "arxiv:2610.08791"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-07T14:53:16+08:00",
+      "last_seen_at": "2026-10-07T14:53:16+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.08726",
+      "arxiv_version": "v1",
+      "title": "EgoLAP: Learning from Egocentric Human Data through Language-Action Reasoning",
+      "authors": [
+        "Lihan Zha",
+        "Shresth Grover",
+        "Tenny Yin",
+        "Samuel M. Bateman",
+        "Hengkai Pan",
+        "Mengchao Zhang",
+        "Aykut Onol",
+        "Allen Z. Ren",
+        "Dhruv Shah",
+        "Anirudha Majumdar"
+      ],
+      "published": "2026-10-06",
+      "url": "https://arxiv.org/abs/2610.08726",
+      "abstract": "Egocentric human data offer a path to scaling robot learning beyond costly robot demonstrations, yet the embodiment gap makes raw human trajectories a poor supervisory target for control. Our key insight is that, although low-level actions are embodiment-specific, their underlying motion intent can capture task-relevant structure that transfers across humans and robots. We introduce EgoLAP, a VLA pre-training framework that jointly learns from human and robot trajectories through a shared language-based action chain-of-thought. EgoLAP expresses motion intent as structured, temporally abstracted language actions and pairs them with motion-level reasoning grounded in scene geometry, physics, and object affordances. Across extensive real-world and simulated experiments, EgoLAP transfers human experience to robot control more effectively than alternative action representations and reaches 80.1% mean real-world task progress, a 2.3x performance gain over alternative action representations. Motion-level reasoning also outperforms a composite reasoning format that combines subtask, object-box, and visual-trace reasoning.",
+      "external_ids": [
+        "arxiv:2610.08726"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-07T14:53:16+08:00",
+      "last_seen_at": "2026-10-07T14:53:16+08:00"
+    }
+  ]
+}
