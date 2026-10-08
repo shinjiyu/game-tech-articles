@@ -1,6 +1,372 @@
 {
-  "updated_at": "2026-10-07T14:53:16+08:00",
+  "updated_at": "2026-10-08T15:02:45+08:00",
   "candidates": [
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.10539",
+      "arxiv_version": "v1",
+      "title": "Tetris3D: 3D Scene Generation With Objects That Fit Together",
+      "authors": [
+        "Jaeyeong Kim",
+        "Jinhyuk Jang",
+        "Jongmin Lee",
+        "Kyehong Park",
+        "Seungryong Kim"
+      ],
+      "published": "2026-10-07",
+      "url": "https://arxiv.org/abs/2610.10539",
+      "abstract": "We propose Tetris3D, a generative framework for single-image 3D scene reconstruction that recovers objects which are physically and geometrically coherent as a scene. Existing methods often generate objects independently or couple them implicitly, providing limited guidance for ensuring fine-grained spatial compatibility between neighboring objects that interact with one another. To address this, we explicitly condition the generation of each object on the geometry of surrounding objects and their physical relationships, guiding its shape and pose to remain geometrically and physically plausible within the scene. Moreover, we introduce ComOb, a physics simulation-based dataset of 1.2M scenes featuring physical interactions across diverse object categories, with per-object meshes and pairwise physical relation annotations. Comprehensive experiments on synthetic and realworld scenes show that Tetris3D recovers coherent object shapes and poses even when interacting regions are occluded, and achieves state-of-the-art performance in both generation quality and physical stability.",
+      "external_ids": [
+        "arxiv:2610.10539"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-08T15:02:45+08:00",
+      "last_seen_at": "2026-10-08T15:02:45+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.10531",
+      "arxiv_version": "v1",
+      "title": "Efficient Estimation of Logical Sensitivities Through Fault-Counting",
+      "authors": [
+        "Winston Fu",
+        "J. Wilson Staples",
+        "Jeff D. Thompson"
+      ],
+      "published": "2026-10-07",
+      "url": "https://arxiv.org/abs/2610.10531",
+      "abstract": "Quantum error-correcting circuits are affected by multiple physical noise mechanisms, whose contributions to logical failure must be understood to evaluate code performance and guide improvements in hardware. The individual error budget contributions for an error type $i$ can be characterized by its logical sensitivity $ν_i = \\frac{\\partial p_L}{\\partial p_i}$, which measures the response of the logical error rate $p_L$ to each physical noise parameter $p_i$. Normally, $ν_i$ is measured using linear fits such as finite differences, where $p_L$ is measured at two or more values of $p_i$ to calculate partial derivatives. In this paper, we develop a differentiable estimator to obtain all components of $\\nabla_{\\mathbf p}p_L$ simultaneously from a single Monte Carlo data set at one noise configuration, using information about the underlying fault configurations. In surface code simulations with circuit-level noise, the estimator agrees with conventional finite differences while requiring one to two orders of magnitude fewer shots to achieve the same variance. We apply this technique to quantify error budgets, resolve sensitivities at the individual qubit level, and infer effective code distance. Finally, we incorporate the sensitivities into Newton root finding to locate and trace threshold contours in multidimensional noise models. These results provide an efficient method for extracting and applying logical sensitivity information from standard quantum error correction simulations.",
+      "external_ids": [
+        "arxiv:2610.10531"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "real-time fluid simulation graphics",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-08T15:02:45+08:00",
+      "last_seen_at": "2026-10-08T15:02:45+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.10523",
+      "arxiv_version": "v1",
+      "title": "Landau Theory for Non-relativistic Magnetism Beyond Altermagnetism",
+      "authors": [
+        "Hana Schiff",
+        "Judit Romhányi",
+        "Paul McClarty",
+        "Jeffrey G. Rau"
+      ],
+      "published": "2026-10-07",
+      "url": "https://arxiv.org/abs/2610.10523",
+      "abstract": "In this work we study phenomenological Landau theories of non-relativistic magnetic systems, generalizing work on the collinear case to coplanar and non-coplanar orders. Focusing on zero-wavevector ($\\boldsymbol{k}=0$) magnetic orders described by a single irreducible representation of the crystallographic point group, we construct the symmetry-allowed free energies to quartic order for all possible multi-dimensional irreducible ordering channels. We find distinct Landau theories for tetragonal, trigonal/hexagonal, and cubic symmetry. Similar to the case of spin-nematic fluids, we find two natural outcomes: a collapse to a lower-symmetry collinear phase or a genuinely coplanar or non-coplanar order where the order parameters form a mutually orthogonal set in spin space -- reminiscent of the $A$ and $B$ phases in ${}^3$He. We show in general that this symmetry-broken phase realizes the spin space group associated with the spatial representation of the order parameter sharing the same parent space group as the paramagnetic phase. This provides a direct link between the Landau and spin space group approaches. We calculate key observables using this Landau approach, including net magnetization, spin conductivity, multipolar moments, and piezomagnetism, connecting our results to constraints from the underlying spin space group. Examples of coplanar and non-coplanar magnetic orders for each case are worked out in detail. Finally, we discuss the relationship of the lower-symmetry collinear phases to the usual collinear spin groups, as well as connections to atomic altermagnetism, superfluid ${}^3$He and electronic nematic phases.",
+      "external_ids": [
+        "arxiv:2610.10523"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-08T15:02:45+08:00",
+      "last_seen_at": "2026-10-08T15:02:45+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.10472",
+      "arxiv_version": "v1",
+      "title": "Robotic Boomerang Throwing via Model-Based Release Design",
+      "authors": [
+        "Yang Liu",
+        "Colin Jones",
+        "Aude Billard"
+      ],
+      "published": "2026-10-07",
+      "url": "https://arxiv.org/abs/2610.10472",
+      "abstract": "Throwing objects that generate aerodynamic lift can greatly extend robot throwing beyond ballistic flight. A returning boomerang is a challenging example because its flight depends strongly on the release velocity, attitude, and spin, while robotic manipulators cannot readily reproduce the rapid motions used in human throwing. We present a model-based framework for robotic boomerang throwing centered on the release state. We identify the boomerang flight dynamics in stages to predict how flight changes across design variations. To systematically design the robot throwing motion, we screen candidate parameters according to how strongly and consistently they control release spin under uncertain contact conditions. These models are then used to design the throwing motion and boomerang for a 6-DoF manipulator with limited joint speeds. To our knowledge, this is the first robotic manipulator to generate a returning boomerang flight. In the demonstrated returning trial, the boomerang is released at 51 rad/s (8.1 rev/s), reaches 2.03 m from the robot base, and returns to touch down 0.31 m from the base. The successful release differs significantly from the measured human throws, showing that a robot need not imitate human throwing motion to achieve a returning flight. The project page is available at https://robot-boomerang.github.io",
+      "external_ids": [
+        "arxiv:2610.10472"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-08T15:02:45+08:00",
+      "last_seen_at": "2026-10-08T15:02:45+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.10465",
+      "arxiv_version": "v1",
+      "title": "LLA-MPPI: Rapidly Adaptive Whole-body Control of Legged Robots with GPU-Accelerated Parallel Simulations",
+      "authors": [
+        "Sebin Jung",
+        "Maitham F. AL-Sunni",
+        "Juan Alvarez-Padilla",
+        "Zachary Manchester",
+        "Changliu Liu",
+        "John M. Dolan"
+      ],
+      "published": "2026-10-07",
+      "url": "https://arxiv.org/abs/2610.10465",
+      "abstract": "Real-time whole-body controllers for legged robots typically plan through a fixed nominal model and degrade when the deployed dynamics change. Adaptive methods typically require a model structure that contact dynamics do not provide, or they need offline training for each anticipated condition. We present Look-back and Look-ahead Adaptive Model Predictive Path Integral control (LLA-MPPI). The method converts whole-body adaptation into selection over a bank of GPU-batched contact simulators with different physical or structural parameters. Windowed prediction errors select the simulator that best explains recent motion. A whole-body MPPI planner optimizes controls through the selected model. The framework requires no offline training, and its selected hypotheses are physically interpretable. Across four simulated tasks, it achieves 97.5% success while the strongest baseline reaches 74% and an oracle with the true model reaches 98.5%. Hardware validation on a Unitree Go2 shows the robot walking under a payload added mid-run, walking after one leg is disabled, and pushing a box to its goal while increasing its mass on the fly. Code, videos, and project details are available at: https://lla-control.github.io",
+      "external_ids": [
+        "arxiv:2610.10465"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "incremental potential contact",
+        "global illumination real-time"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-08T15:02:45+08:00",
+      "last_seen_at": "2026-10-08T15:02:45+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.10525",
+      "arxiv_version": "v1",
+      "title": "A Hawkes Microfoundation for Multitype Inverse Gaussian Subordinators",
+      "authors": [
+        "Yingli Wang",
+        "Wei Xu",
+        "Lingjiong Zhu"
+      ],
+      "published": "2026-10-07",
+      "url": "https://arxiv.org/abs/2610.10525",
+      "abstract": "We provide an event-level Hawkes microfoundation for a multitype inverse-Gaussian stochastic clock. We show that the event counts and integrated intensities of nearly critical multivariate linear Hawkes processes converge jointly to a multivariate pure-jump subordinator when reproduction delays have finite mean and immigration is balanced so that rare large families remain visible. The dependence among the limiting coordinates is inherited from microscopic cross-excitation, and the limit admits a Brownian additive-field first-passage representation. We call this process the multitype inverse-Gaussian subordinator. Its diagonal case consists of independent classical inverse-Gaussian subordinators, with the univariate model as a further special case. The square-root specialization recovers the inverse-Gaussian clock obtained at the boundary of hyper-rough square-root models by Abi Jaber--Attal--Rosenbaum (\\textit{Ann. Appl. Probab.} \\textbf{36}(4): 3635--3660, 2026). Our cluster proof exposes the underlying mechanism: finite-variance near-critical branching creates rare but macroscopic families, while their internal timing disappears on the observation scale, so each family becomes a jump. We also clarify the relation with the multivariate Hawkes scaling theory of Xu (arXiv:2412.14459): its diagonal-atom condition yields the diagonal specialization, whereas the genuinely coupled limit requires a separate uniqueness argument. In addition, under a common tilted-stability condition, we replace the high-intensity assumption in that theory by a weaker accumulated-activity condition and provide the Riccati identification needed when the potential has an atom. We strengthen convergence of the count and compensator and extend the scalar conclusion to finite-variance age-dependent branching clusters.",
+      "external_ids": [
+        "arxiv:2610.10525"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-08T15:02:45+08:00",
+      "last_seen_at": "2026-10-08T15:02:45+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.10510",
+      "arxiv_version": "v1",
+      "title": "Factorized Tactile Representation and Control for Sim-to-Real Manipulation",
+      "authors": [
+        "Siqi Shang",
+        "Bianca Aumann",
+        "Tye Brady",
+        "Joshua Migdal",
+        "Taskin Padir"
+      ],
+      "published": "2026-10-07",
+      "url": "https://arxiv.org/abs/2610.10510",
+      "abstract": "Tactile sim-to-real learning must bridge simulated contact and device-specific sensor responses while preserving information needed for control. We propose a factorized tactile representation and control framework that maps normal force and contact patch to an effective contact response recoverable from sensor readings. The response is separated into contact geometry, force distribution, and temporal contact change, with representation-specific encoding and randomization. A Tactile Gated Policy preserves these representations separately through control and operates over all mask configurations without retraining. We evaluate the approach through response reconstruction, spatial alignment, force regulation, and contact-rich adversarial peg insertion in simulation and the real world, enabling the utility and transfer reliability of different tactile representations to be assessed independently. The approach achieves <1 mm contact localization, 1.69 N force-tracking error on unseen geometries, and a 35% improvement in real-world adversarial peg insertion over the unfactorized response, with different tactile representations benefiting different interactions.",
+      "external_ids": [
+        "arxiv:2610.10510"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-08T15:02:45+08:00",
+      "last_seen_at": "2026-10-08T15:02:45+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.10487",
+      "arxiv_version": "v1",
+      "title": "LOCAA: An Agentic System for Automated Lossy Compressor Tuning",
+      "authors": [
+        "Khondoker Mirazul Mumenin",
+        "Dong Dai",
+        "Sheng Di",
+        "Franck Cappello",
+        "Jinzhen Wang"
+      ],
+      "published": "2026-10-07",
+      "url": "https://arxiv.org/abs/2610.10487",
+      "abstract": "Large-scale scientific simulations generate substantial data volumes, making lossy compression essential for reducing storage and data movement costs. However, users configure compressors through numerical error bounds (EBs) while often evaluating results using quality metrics and end-to-end performance. Because the relationship between an EB and these outcomes varies across datasets and compressors, identifying a suitable configuration typically requires exhaustive search, which can be time-consuming and computationally demanding. We present LOCAA, an Large language model-based scientific lossy compression auto-tuning agent that performs compression-in-the-loop search using tool-integrated execution, compressor-aware guidance, and persistent memory. LOCAA supports user-defined objectives and constraints without requiring a specialized search strategy. We evaluate LOCAA across three scientific applications, five compressors, and three use cases: fixed-ratio compression, compression tuning under multiple quality constraints, and compression tuning under quality and time constraints. For fixed-ratio search across twelve fields from two applications, LOCAA requires 1.98x fewer evaluation trials than binary search and 5.03x fewer than FRaZ on average. For compression ratio maximization under joint Peak Signal-to-Noise Ratio (PSNR) and Structural Similarity Index Measure constraints across six fields from the Community Earth System Model application, LOCAA reduces the average evaluation trials from 61.5 using binary search to 17, corresponding to a 72.4% reduction. Persistent memory further reduces the average number of trials by 27.9% across multiple timesteps of the same field. These results demonstrate the potential of tool-augmented LLM agents to provide flexible and efficient compressor tuning across diverse scientific data and user-defined objectives.",
+      "external_ids": [
+        "arxiv:2610.10487"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-08T15:02:45+08:00",
+      "last_seen_at": "2026-10-08T15:02:45+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.10419",
+      "arxiv_version": "v1",
+      "title": "A hat function based positive contact discontinuity capturing Boltzmann scheme",
+      "authors": [
+        "Balwinder Singh",
+        "S. V. Raghurama Rao"
+      ],
+      "published": "2026-10-07",
+      "url": "https://arxiv.org/abs/2610.10419",
+      "abstract": "The suitable moments of the Maxwell velocity distribution function recover the conserved variable and flux vectors of the Euler equations of gas dynamics. However, the Maxwellian has infinite support in velocity space, which poses challenges for the numerical analysis of kinetic schemes based on it. Although Maxwellian is a natural choice, it is not the only distribution function that preserves these key moments. In his seminal paper, Perthame (1990) introduced a compactly supported hat function as an alternative. This paper presents the formulation and analysis of a contact discontinuity capturing Boltzmann scheme based on peculiar velocity, constructed using the hat function. Owing to the compact support of the hat function in velocity space, the numerical analysis of the proposed scheme is considerably simplified, allowing for a direct proof of its positivity. The scheme, extended to second-order accuracy without compromising the positivity-preserving property of its first-order counterpart, is tested on several benchmark inviscid flow problems in one- and two-dimensions.",
+      "external_ids": [
+        "arxiv:2610.10419"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-08T15:02:45+08:00",
+      "last_seen_at": "2026-10-08T15:02:45+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.10521",
+      "arxiv_version": "v1",
+      "title": "Trend formation with sparse global sampling",
+      "authors": [
+        "Sarath Sankar",
+        "Abhijit Sinha",
+        "Shankar Ghosh",
+        "Vikram Tripathi",
+        "Amitava Bhattacharya"
+      ],
+      "published": "2026-10-07",
+      "url": "https://arxiv.org/abs/2610.10521",
+      "abstract": "Achieving global coordination without a central controller or dense global communication is a defining challenge for both biological collectives and engineered swarms. We introduce and analyze a minimal model in which self-propelled agents in a bounded domain periodically reorient their motions toward the centroid of a small, randomly chosen subset of their peers, with no direct sensing of any individual neighbor's position or heading. We show that this sparse, non-local sampling rule reliably drives an initially disordered population to a globally aligned, nematic state, and that shrinking the sampled subset -- down to the minimum of two agents -- accelerates ordering rather than impeding it: the resulting estimation noise, filtered through a geometric turning rule, is itself the engine of symmetry breaking. We derive an analytical criterion, in quantitative agreement with simulation, that predicts when this ordering succeeds as a function of the sampling size and sampling frequency. We confirm the mechanism experimentally in a swarm of up to fifteen differential-drive robots. These results identify sparse random sampling as an information-efficient route to collective coordination, with implications for understanding animal collectives and for designing communication-limited robotic swarms.",
+      "external_ids": [
+        "arxiv:2610.10521"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics",
+        "global illumination real-time",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-08T15:02:45+08:00",
+      "last_seen_at": "2026-10-08T15:02:45+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.10490",
+      "arxiv_version": "v1",
+      "title": "Standard estimators cannot represent fault-tolerant workloads at measured error rates: evaluated, evidence-based uncertainty for quantum resource estimation",
+      "authors": [
+        "Furqan Nasir",
+        "Sher Jeel Ahmad"
+      ],
+      "published": "2026-10-07",
+      "url": "https://arxiv.org/abs/2610.10490",
+      "abstract": "Estimates of the quantum resources needed to run fault-tolerant algorithms are almost always reported as single numbers, even though they rest on uncertain hardware parameters and on cost models that disagree. We present an open, tool-agnostic framework that propagates evidence-based priors over fault-tolerant hardware parameters through five surface-code cost models, adds correlated-input sensitivity analysis, and evaluates the resulting intervals with a pre-registered three-layer protocol. Applied to RSA-2048, ECC-256, AES-256, and a Hubbard-model simulation on a superconducting surface-code architecture, it produces three coupled findings that together undermine the single-number convention. Propagating the error rates hardware has actually demonstrated, whose median across five large-array devices is about 4 x 10^-3 rather than the conventional 10^-3, widens the 90% physical-qubit interval to roughly forty times and lifts its median about 4.6 times above the conventional point estimate. Against the same inputs, five independently structured cost models, including two third-party estimators (the Azure Quantum Resource Estimator and Qualtran) that agree with each other to within about ten percent, disagree by a stable factor of two, a structural uncertainty that no single tool reveals. Most consequentially, both third-party estimators exceed their representable envelope for 80 to 100 percent of the evidence-based parameter space, and the AES-256 gate count overflows one tool's counter outright, so these workloads cannot be represented at measured error rates at all. The optimistic convention conceals every one of these effects. The uncertainty machinery we use is standard. The contribution is its evidence-based application, the pre-registered evaluation, and the finding that standard tools break down precisely where hardware operates.",
+      "external_ids": [
+        "arxiv:2610.10490"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-08T15:02:45+08:00",
+      "last_seen_at": "2026-10-08T15:02:45+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.10479",
+      "arxiv_version": "v1",
+      "title": "Agentic RSR: Real-to-Sim-to-Real through Scene Reconstruction and Execution-Grounded Robot Policies",
+      "authors": [
+        "Yihan Li",
+        "Yating Feng",
+        "Shengjiu Sun",
+        "Jianing Chen",
+        "Hao Ren",
+        "Bowen Yang",
+        "Weisheng Xu",
+        "Qiwei Wu",
+        "Hui Cheng",
+        "Renjing Xu"
+      ],
+      "published": "2026-10-07",
+      "url": "https://arxiv.org/abs/2610.10479",
+      "abstract": "A simulation of a real robot workspace must preserve task-relevant interactions, while policies developed in it must operate on observations available to the real robot. Yet scene reconstruction and policy development are often treated separately. We present Agentic Real-to-Sim-to-Real (Agentic RSR), a framework that links scene reconstruction, policy development, and real-robot execution through the same manipulation task. Given a workspace video, a task description, and a known robot model, an agent recovers metric scale, iteratively refines the scene using visual feedback, and checks task-relevant interactions in MuJoCo. A coding agent then develops an executable policy, progressing from privileged object poses to visual observations and randomized simulation. The policy can interleave multiple observations and actions within one invocation, while the agent uses execution feedback to continue, retry, or revise its approach. A shared task-level interface carries the policy and accumulated experience to the real robot, where fresh observations and safety checks guide execution. Across 18 reconstructed scenes involving two robots, the mean four-view Depth MAE against reference depth estimates is 0.1057 m, the mean Lab $ΔE_{76}$ is 11.04, and the mean grayscale SSIM is 0.6990. In real-robot experiments, the aggregate task success rate reaches 80% of the simulation task success rate, indicating substantial retention of simulated performance on hardware. Code and reconstructed scene data will be made publicly available.",
+      "external_ids": [
+        "arxiv:2610.10479"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-08T15:02:45+08:00",
+      "last_seen_at": "2026-10-08T15:02:45+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.10477",
+      "arxiv_version": "v1",
+      "title": "Primal/Dual Method for the Grothendieck Constant",
+      "authors": [
+        "Steven Heilman",
+        "Chris Jones",
+        "Giulio Malavolta"
+      ],
+      "published": "2026-10-07",
+      "url": "https://arxiv.org/abs/2610.10477",
+      "abstract": "We determine the hundredths digit of the real Grothendieck constant by proving $1.773 \\leq K_G \\leq 1.7799$. Furthermore, numerical heuristics suggest the estimate $K_G \\approx 1.779$. We start by simplifying the Gaussian duality theory of $K_G$, based on Hermite projection games and Krivine rounding schemes. The bounds are obtained by a heuristic primal/dual search for these objects, followed by rigorous {\\em certification} of their values. The search and certification are performed using AI tools, and in particular the rigorous certificates are very large (analytical reductions to thousands of numerical inequalities).",
+      "external_ids": [
+        "arxiv:2610.10477"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-08T15:02:45+08:00",
+      "last_seen_at": "2026-10-08T15:02:45+08:00"
+    },
     {
       "source": "arxiv",
       "arxiv_id": "2610.08786",
@@ -2486,7 +2852,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-07T14:53:16+08:00"
+      "last_seen_at": "2026-10-08T15:02:45+08:00"
     },
     {
       "source": "arxiv",
@@ -2519,7 +2885,7 @@
       "doi": "10.48550/arXiv.2601.06451",
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-07T14:53:16+08:00"
+      "last_seen_at": "2026-10-08T15:02:45+08:00"
     },
     {
       "source": "semanticscholar",
@@ -2720,7 +3086,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-07T14:53:16+08:00"
+      "last_seen_at": "2026-10-08T15:02:45+08:00"
     },
     {
       "source": "semanticscholar",
@@ -2781,7 +3147,7 @@
       "doi": "10.1145/3731155",
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-07T14:53:16+08:00"
+      "last_seen_at": "2026-10-08T15:02:45+08:00"
     },
     {
       "source": "semanticscholar",
@@ -2835,7 +3201,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-07T14:53:16+08:00"
+      "last_seen_at": "2026-10-08T15:02:45+08:00"
     },
     {
       "source": "semanticscholar",
@@ -2949,7 +3315,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-07T14:53:16+08:00"
+      "last_seen_at": "2026-10-08T15:02:45+08:00"
     },
     {
       "source": "semanticscholar",
@@ -2982,7 +3348,7 @@
     }
   ],
   "last_run": {
-    "at": "2026-10-07T14:53:16+08:00",
+    "at": "2026-10-08T15:02:45+08:00",
     "sources": [
       "arxiv",
       "semanticscholar",
