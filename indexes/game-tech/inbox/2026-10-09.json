@@ -1,0 +1,223 @@
+{
+  "date": "2026-10-09",
+  "run": {
+    "at": "2026-10-09T15:17:46+08:00",
+    "sources": [
+      "arxiv",
+      "semanticscholar",
+      "dblp"
+    ],
+    "keywords": [
+      "material point method cloth",
+      "\"position based\" dynamics cloth",
+      "incremental potential contact",
+      "real-time fluid simulation graphics",
+      "global illumination real-time",
+      "ray tracing global illumination",
+      "MLS-MPM",
+      "projective dynamics cloth"
+    ],
+    "fetched": 12,
+    "merged": 7,
+    "new": 7
+  },
+  "new_candidates": [
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.12468",
+      "arxiv_version": "v1",
+      "title": "DreamTrue: Action-Faithful Robot World Model with Counterfactual Post-Training",
+      "authors": [
+        "Junyan Li",
+        "Ruizhi Li",
+        "Yu Liu",
+        "Xiangshuo Liu",
+        "Mingchao Sun",
+        "Hongyu Pan",
+        "Mu Xu",
+        "Lue Fan",
+        "Zhaoxiang Zhang"
+      ],
+      "published": "2026-10-08",
+      "url": "https://arxiv.org/abs/2610.12468",
+      "abstract": "We present DreamTrue, a multi-view, cross-embodiment robot world model for action-faithful and physically plausible video prediction. Training such a model on existing robot datasets faces two obstacles: imprecise calibration can impair action following, while limited coverage of unsuccessful interactions can bias predictions toward successful outcomes. To improve action following across embodiments, we render action trajectories into image-space conditions and introduce offline geometric calibration to align these conditions with the target videos. To broaden interaction coverage, we introduce counterfactual post-training, modifying recorded action trajectories and generating future videos under a wider range of actions and contact configurations. To provide feedback on these predictions without paired ground-truth futures, we construct a human-annotated video dataset covering robot, object, and interaction defects and use it to train an embodied video reward model. Its scores guide reinforcement-learning post-training toward more physically plausible interaction outcomes. On AgiBot, DreamTrue attains state-of-the-art action following, while reducing the human-assessed interaction defect rate from from 48.12% to 6.25%. Notably, our model ranks first in the world model track of the AgiBot World Challenge 2026. The project page can be found at https://brave-eai.github.io/DreamTrue.",
+      "external_ids": [
+        "arxiv:2610.12468"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-09T15:17:46+08:00",
+      "last_seen_at": "2026-10-09T15:17:46+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.12465",
+      "arxiv_version": "v1",
+      "title": "A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control",
+      "authors": [
+        "Octi Zhang",
+        "Mateo Guaman Castro",
+        "Patrick Yin",
+        "Ignacio Dagnino",
+        "Abhishek Gupta",
+        "Rosario Scalise",
+        "Byron Boots"
+      ],
+      "published": "2026-10-08",
+      "url": "https://arxiv.org/abs/2610.12465",
+      "abstract": "General-purpose robots must perform a wide range of tasks from agile locomotion to dexterous manipulation. While sim-to-real reinforcement learning (RL) has proven to be a useful tool for this goal, current RL pipelines depend on engineering-heavy, per-task structural priors such as shaped rewards and demonstrations. Recent work has shown that diverse simulator resets, combined with massively parallel simulation, can alleviate much of this engineering burden on several manipulation problems. However, we find that naively scaling this paradigm to more precise or dynamic problems remains non-trivial. While simulator resets can help with exploration, uniformly sampling over this distribution wastes a growing fraction of learning experience on task configurations the policy has already mastered or cannot yet attempt. This makes it challenging to see the expected benefits of scaling parallel environments for RL, since much of the learning signal in a batch is wasted during learning. To mitigate this, we introduce Success Guided Sampling (SGS), a simple adaptive sampler that concentrates RL training on task configurations around the frontier of the policy's capabilities. Doing so allows large-scale simulated RL to make the most out of the experience in a batch, enabling much more effective scaling to large-scale parallel simulation. Across experiments using up to $2^{20}$ (over one million) parallel environments, SGS enables RL to solve challenging multi-terrain quadruped locomotion and contact-rich assembly tasks that prior methods fail to solve. Finally, we distill the learned manipulation policies into RGB-based policies and demonstrate zero-shot transfer to several challenging assembly tasks on real hardware. Project website: https://sgs-rl.github.io/.",
+      "external_ids": [
+        "arxiv:2610.12465"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-09T15:17:46+08:00",
+      "last_seen_at": "2026-10-09T15:17:46+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.12447",
+      "arxiv_version": "v1",
+      "title": "Entanglement entropy and magic of ZX-diagrams",
+      "authors": [
+        "Marcin Szyniszewski",
+        "Razin A. Shaikh",
+        "Aleks Kissinger"
+      ],
+      "published": "2026-10-08",
+      "url": "https://arxiv.org/abs/2610.12447",
+      "abstract": "Entanglement and non-stabilizerness are complementary resources underlying the complexity of quantum states, yet extracting either quantity from large quantum circuits generally requires exponentially scaling resources. In diagrammatic approaches to quantum computation, such as the ZX-calculus, both quantities likewise typically require expensive tensor contractions that are not native to graphical rewriting. Here we show that both entanglement and magic can be efficiently estimated directly from ZX-diagrams. Flow enables efficient extraction of a normal form separating a potentially extensively entangled graph-state backbone from non-Clifford Pauli gadgets. This structure yields additive upper and lower bounds on bipartite entanglement entropy, which we further tighten through a preprocessing procedure that removes or merges redundant non-Clifford contributions. The same normal form gives an upper bound on logarithmic stabilizer extent. We benchmark these methods in random unitary and monitored circuits, and a circuit combining Trotterized Hamiltonian evolution with Clifford layers, finding that the resulting bounds remain informative even at large qubit numbers, circuit depths, and internal spider counts. Our results provide scalable probes of entanglement and non-stabilizerness of ZX-diagrams and establish a bridge between ZX-calculus and quantum many-body resource characterization, with applications across quantum computing, quantum information, and condensed-matter physics.",
+      "external_ids": [
+        "arxiv:2610.12447"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-09T15:17:46+08:00",
+      "last_seen_at": "2026-10-09T15:17:46+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.12440",
+      "arxiv_version": "v1",
+      "title": "Generative Neural Retargeting for Human-to-Robot Dexterous Manipulation",
+      "authors": [
+        "Dechen Gao",
+        "Yue Yang",
+        "Ben Abbatematteo",
+        "Nathan Godwin",
+        "Pengcheng Wang",
+        "Roger Boldu",
+        "Steven Man",
+        "Zhiyang Dou",
+        "Chuan Qin",
+        "Sho Nakagome",
+        "Eric Whitmire"
+      ],
+      "published": "2026-10-08",
+      "url": "https://arxiv.org/abs/2610.12440",
+      "abstract": "Human demonstrations are a scalable data source for learning dexterous manipulation, but the embodiment gap prevents human motion from being executed directly on robots. Inverse kinematics (IK) retargets human motion to robots efficiently but ignores dynamics, often producing infeasible motions. Reinforcement learning (RL) and sampling-based model predictive control (MPC) are commonly employed to yield dynamically feasible motions, but both are sample-inefficient and sensitive to hyperparameters. RL suffers from costly and unstable training and tedious reward engineering; MPC avoids policy optimization, yet retargets each trajectory in isolation, and solving one does not make the next easier. Sampling cost grows rapidly with dataset size and task difficulty. We hypothesize that dynamically feasible trajectories concentrate near a low-dimensional manifold shared across demonstrations, so that retargeting can be reduced to sampling from that manifold, conditioned on human motion, rather than solving a fresh optimization problem for every demonstration. We propose \\textbf{Generative Neural Retargeting} (GNR), which uses a flow matching model to sample feasible trajectories. GNR outperforms MPC with only $8.5\\%$ of the samples required by MPC, achieving a success rate of $56.20\\%$ compared to $27.20\\%$ for MPC. GNR can be used for scalable and efficient retargeting of large-scale, long-horizon, and millimeter precision human demonstrations: by applying GNR within a real-to-sim data engine, we produce a dexterous manipulation dataset with dense contact-force labels, spanning $223$k demonstrations and $3.3$k object geometries.",
+      "external_ids": [
+        "arxiv:2610.12440"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-09T15:17:46+08:00",
+      "last_seen_at": "2026-10-09T15:17:46+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.12430",
+      "arxiv_version": "v1",
+      "title": "Estimates on Fully Nonlinear Elliptic Equations with Unrectifiable Exceptional Gradient Sets",
+      "authors": [
+        "Tuoc Phan"
+      ],
+      "published": "2026-10-08",
+      "url": "https://arxiv.org/abs/2610.12430",
+      "abstract": "We study fully nonlinear uniformly elliptic equations that are imposed only when the gradients of solutions lie outside a closed ball and a closed purely one-unrectifiable set that can be unbounded. We prove Harnack inequalities and Hölder regularity estimates for viscosity solutions, with constants independent of the exceptional set. The proofs use the geometry of the contact sets in the cusp and barrier arguments to exclude exceptional gradients. We also provide examples and counterexamples showing the role of pure one-unrectifiability. Materials and proofs are presented in detail to ensure the paper is fully self-contained and accessible to a broad audience.",
+      "external_ids": [
+        "arxiv:2610.12430"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-09T15:17:46+08:00",
+      "last_seen_at": "2026-10-09T15:17:46+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.12429",
+      "arxiv_version": "v1",
+      "title": "Listening to the Horizon: Probing Near-Horizon Reflectivity with GW250114",
+      "authors": [
+        "R. Prasad",
+        "Subhodeep Sarkar",
+        "Sudipta Sarkar"
+      ],
+      "published": "2026-10-08",
+      "url": "https://arxiv.org/abs/2610.12429",
+      "abstract": "Testing the horizon properties of astrophysical black holes is a central goal of gravitational-wave astronomy. The recently identified Direct Wave (DW), a prompt non-quasinormal component of GW250114, provides a new probe of near-horizon physics. While it remains unclear whether the DW itself carries horizon information, we show that it enables a novel null test of horizon reflectivity. If the remnant is an exotic compact object (ECO) with a partially reflecting surface, inward plunge radiation is reflected and leaks back through the gravitational potential barrier, producing a delayed DW echo whose amplitude is set by the surface reflectivity ($|\\mathcal{R}_s|$). We construct the corresponding echo template, normalized by the observed DW, and search for it in quasinormal-mode-filtered data. We find no evidence for an echo ($\\ln\\mathcal{B}=-2.9$) and obtain the 90\\% credible bound $|\\mathcal{R}_s|<0.06$, corresponding to a reflected energy fraction below $0.4\\%$, for surfaces from $0.1\\, M_f$ to a Planck length from the would-be horizon. Our method thus turns the prompt ringdown signal into a direct test of horizon reflectivity.",
+      "external_ids": [
+        "arxiv:2610.12429"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-09T15:17:46+08:00",
+      "last_seen_at": "2026-10-09T15:17:46+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.12389",
+      "arxiv_version": "v1",
+      "title": "A Pairwise Surrogate for Gravitational-Wave Spectra from Highly Relativistic Vacuum Bubble Collisions",
+      "authors": [
+        "Malte Buschmann",
+        "Toby Opferkuch"
+      ],
+      "published": "2026-10-08",
+      "url": "https://arxiv.org/abs/2610.12389",
+      "abstract": "Gravitational waves from vacuum first-order phase transitions probe the nonlinear dynamics of relativistic bubble collisions. Predicting their spectrum requires resolving Lorentz-contracted scalar bubble walls throughout a volume containing many bubbles, making the large-boost regime prohibitively expensive for direct lattice simulations. We develop a simulation-based pairwise surrogate that separates the microscopic collision dynamics from the geometry of the multi-bubble transition. This utilizes symmetry-reduced $(1+1)$-dimensional scalar-field simulations to build a library of two-bubble gravitational-wave spectra, including the nonlinear post-collision evolution. These spectra are combined with geometric weights that account for screening by other bubbles. We test the two-bubble spectra and the reconstructed spectra of three- and many-bubble systems against full $(3+1)$-dimensional lattice simulations. Not only can the surrogate be orders of magnitude cheaper computationally, but it also provides access to highly relativistic collisions beyond the practical reach of direct many-bubble simulations. This provides a route to studying how the spectral amplitude and shape depend on the collision boost and scalar potential.",
+      "external_ids": [
+        "arxiv:2610.12389"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-09T15:17:46+08:00",
+      "last_seen_at": "2026-10-09T15:17:46+08:00"
+    }
+  ]
+}
