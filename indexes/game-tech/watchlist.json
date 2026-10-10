@@ -1,6 +1,343 @@
 {
-  "updated_at": "2026-10-09T15:17:46+08:00",
+  "updated_at": "2026-10-10T14:42:28+08:00",
   "candidates": [
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.12470",
+      "arxiv_version": "v1",
+      "title": "Dex-One2Many: Learning Dexterous Manipulation from a Single Human Demonstration",
+      "authors": [
+        "Jusuk Lee",
+        "Sungha Kim",
+        "Yeonsoo Park",
+        "Jonguk Cheon",
+        "Yoonkyo Jung",
+        "Yongjun You",
+        "H. Jin Kim",
+        "Jia-Bin Huang",
+        "Furong Huang",
+        "Youngseok Jang",
+        "Seungjae Lee"
+      ],
+      "published": "2026-10-08",
+      "url": "https://arxiv.org/abs/2610.12470",
+      "abstract": "While learning dexterous manipulation from a single human video offers a promising alternative to costly robot demonstrations, many recent methods predominantly imitate demonstrated motions. Such strict motion matching often limits generalization to initial object poses, goal poses, and grasps not shown in the video. Alternatively, discovering a policy via reinforcement learning (RL) allows for broad generalization, but without prior guidance, it struggles with high-dimensional exploration in complex, multi-stage tasks. To address these coupled generalization and exploration challenges, we present Dex-One2Many, a real-to-sim-to-real framework that learns a generalizable dexterous manipulation policy from a single human video. Our key insight is to abstract the video into sequential scene graphs that guide RL, enabling efficient exploration while preserving broad generalizability. The graphs serve as generative constraints for sampling diverse reset states and provide dense rewards for each stage. Because the graphs constrain relations rather than exact poses, these reset states cover object poses and grasps beyond the video, while initializing each stage from them with dense rewards keeps exploration short and guided. Trained entirely in simulation, Dex-One2Many transfers zero-shot to a real multi-fingered hand. Across five tool-use and manipulation tasks, Dex-One2Many exceeds baselines by 6.5% in seen configurations, while its robust generalization widens this gap to 71% in unseen scenarios.",
+      "external_ids": [
+        "arxiv:2610.12470"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-10T14:42:28+08:00",
+      "last_seen_at": "2026-10-10T14:42:28+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.12464",
+      "arxiv_version": "v1",
+      "title": "What 30,000 Hours of Ego-centric Video Does Not Teach",
+      "authors": [
+        "Jiahua Dong",
+        "Anurag Bagchi",
+        "Yash Jangir",
+        "Muhammad Zubair Irshad",
+        "Sergey Zakharov",
+        "Martial Hebert",
+        "Homanga Bharadhwaj",
+        "Yu-Xiong Wang",
+        "Vitor Campagnolo Guizilini",
+        "Pavel Tokmakov"
+      ],
+      "published": "2026-10-08",
+      "url": "https://arxiv.org/abs/2610.12464",
+      "abstract": "World models offer a promising alternative to physics-based simulators, yet remain far from practical deployment. We ask how far scaling ego-centric human video takes them, using a dataset of 30,000 hours spanning over 1,000 scene types and 14,000 contributors. Rather than relying on opaque downstream metrics, we directly evaluate agent and object-interaction fidelity on a challenging out-of-distribution benchmark. Increasing training data by 100x improves both, but unevenly: the agent is modeled well, while object fidelity remains far lower and improves slowly. We show that the agent gains need not come from data, and a careful visual conditioning design saturates fidelity with a fraction of it, which lets us measure object fidelity on its own and discover its saturation point. We then introduce a supervision scheme that shifts capacity from scene appearance toward object dynamics, improving object fidelity though a substantial gap remains. Finally, our conclusions transfer to downstream humanoid modeling. Overall, our results suggest that scaling ego-centric data brings agent modeling close to its limit while leaving its effects on the world far behind, and that closing this gap will depend on how models are trained, not only on how much data they see.",
+      "external_ids": [
+        "arxiv:2610.12464"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-10T14:42:28+08:00",
+      "last_seen_at": "2026-10-10T14:42:28+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.12461",
+      "arxiv_version": "v1",
+      "title": "OuroWorld: Bringing Any 3D World Alive as Diverse, Endlessly Looping 3D Cinemagraphs",
+      "authors": [
+        "You-Zhe Xie",
+        "Ting-Wei Chou",
+        "Yu-Hsuan Li",
+        "Kaipeng Zhang",
+        "Zhixiang Wang",
+        "Yu-Lun Liu"
+      ],
+      "published": "2026-10-08",
+      "url": "https://arxiv.org/abs/2610.12461",
+      "abstract": "Recent 3D world models generate photorealistic, explorable scenes that remain frozen in time. OuroWorld is a mask-free framework that turns any static 3D Gaussian Splatting scene into a 3D cinemagraph: a dynamic scene with vivid, diverse motion looping seamlessly from any viewpoint. A vision-language model infers plausible dynamics and guides a video model to synthesize a reference video, which we lift and complete into multi-view videos. To learn from this imperfect supervision, we propose Inconsistency-Robust Periodic 4DGS: a Fourier-series deformation field guarantees looping by construction, while a Grounded Drift Field anchored at the reference view absorbs cross-view inconsistency. Unlike prior Eulerian methods limited to fluid-like motion, we capture general deformation, object motion, and illumination change. We introduce a ground-truth-free evaluation covering vividness, naturalness, loop seam coherence, and scene quality. On 39 reconstructed and generated scenes, OuroWorld outperforms all baselines and wins 70.8%-99.0% of user-study comparisons. Project page: https://ouroworld.userwei.com",
+      "external_ids": [
+        "arxiv:2610.12461"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics",
+        "global illumination real-time",
+        "ray tracing global illumination",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-10T14:42:28+08:00",
+      "last_seen_at": "2026-10-10T14:42:28+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.12449",
+      "arxiv_version": "v1",
+      "title": "Bi-FORK: Generative Modeling of High-Dimensional Bifurcating Systems",
+      "authors": [
+        "Anna Zimmel",
+        "Fleur Hendriks",
+        "Markus Holzleitner",
+        "Florian Sestak",
+        "Martin Weichselbaumer",
+        "Vlado Menkovski",
+        "Johannes Brandstetter"
+      ],
+      "published": "2026-10-08",
+      "url": "https://arxiv.org/abs/2610.12449",
+      "abstract": "Bifurcations are ubiquitous in physical systems, from structural buckling to fluid and climate dynamics, yet they remain largely unexplored in deep learning. At a symmetry-breaking bifurcation, a single input admits multiple equally valid solutions, violating the one-to-one assumption underlying most learned physical surrogates. We introduce Bi-FORK, a generative framework for learning these one-to-many solution maps in high-dimensional systems. Bi-FORK generates complete trajectories through latent flow matching, preserving space and time coherence, and uses repulsion-guided sampling to recover distinct solution branches in a single amortized pass. We evaluate Bi-FORK on buckling beams, mechanical metamaterials, and Allen-Cahn phase separation, spanning continuous, discrete, and field-valued bifurcations with discretizations up to 260,000 points. Bi-FORK recovers the multimodal solution structure while scaling several orders of magnitude beyond prior approaches, opening generative modeling to high-dimensional bifurcating physical systems.",
+      "external_ids": [
+        "arxiv:2610.12449"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-10T14:42:28+08:00",
+      "last_seen_at": "2026-10-10T14:42:28+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.12437",
+      "arxiv_version": "v1",
+      "title": "Density Ratio Estimation with Stein Displacement Fields",
+      "authors": [
+        "Song Liu"
+      ],
+      "published": "2026-10-08",
+      "url": "https://arxiv.org/abs/2610.12437",
+      "abstract": "Density ratios quantify distribution shift from a probability-mass point of view, whereas displacement fields describe, from a dynamical point of view, how one distribution is transported onto another. Although both offer complementary insights, they are usually estimated separately, and converting one into the other requires post-processing. In this paper, we estimate the density ratio between a target and a base distribution by parametrizing it through a displacement field acting on the base: the log-ratio is modeled as minus the Stein operator of the base applied to the field, up to a normalizing constant. This gives both statistical and dynamical descriptions of the distribution shift through a single convex optimization problem. Iterating this estimate-and-move step gives two inference algorithms: push-forward moves the model and corrects a pretrained sampler without retraining it, whereas pull-back moves the data closer to the base and fits a transformation model one layer at a time. Applications to distribution shift in simulation-based inference and to nonlinear independent component analysis illustrate the benefits and limitations of the approach.",
+      "external_ids": [
+        "arxiv:2610.12437"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-10T14:42:28+08:00",
+      "last_seen_at": "2026-10-10T14:42:28+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.12462",
+      "arxiv_version": "v1",
+      "title": "Disk Structure May Determine AGN Variability and Explain the Accretion Disk Size Problem: No Broad Line Region Required",
+      "authors": [
+        "Amy Secunda",
+        "Yan-Fei Jiang",
+        "Jenny E. Greene"
+      ],
+      "published": "2026-10-08",
+      "url": "https://arxiv.org/abs/2610.12462",
+      "abstract": "Variability is a crucial probe of active galactic nuclei (AGN) disks, but the impact of the structure and internal physics of the disk on this variability is poorly understood. We perform 3D multi-frequency radiation magnetohydrodynamic simulations of the $1300-5940~\\rmÅ$ emitting region of an AGN disk. This turbulent disk simulation happens to stochastically have different disk thickness above and below the midplane. Light curves emitted from the thin top of the disk are broadly consistent with traditional variability models, where the X-ray irradiation emitted from the corona is the main driver of variability in UV-optical light curves. Conversely, the UV-optical light curves emitted from the thicker bottom of the disk are not strongly correlated with the X-ray light curve and have disk continuum reverberation mapping lags that are $3-5\\times$ longer than the light travel time. While these features are inconsistent with traditional variability models, they are in good agreement with numerous recent observations. Our simulations allow us to interpret these recent observations with a new model for AGN disks, where the thicker disk leads to greater X-ray absorption, less X-ray reprocessing at larger disk radii, and a stronger signal from intrinsic variability driven by fluctuations in the AGN disk. In our simulations, we can measure the inflow timescale of these fluctuations as a long lag between light curves emitted from different disk radii. Understanding how disk structure impacts AGN variability and reverberation mapping can allow us to predict the thickness of AGN disks using UV-optical AGN light curves.",
+      "external_ids": [
+        "arxiv:2610.12462"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-10T14:42:28+08:00",
+      "last_seen_at": "2026-10-10T14:42:28+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.12450",
+      "arxiv_version": "v1",
+      "title": "Discovery of Hidden Extragalactic Pulsars in the Parkes Archival Data",
+      "authors": [
+        "Rahul Sengar",
+        "Laila Vleeschower",
+        "Matthew Bailes",
+        "Fronefield Crawford",
+        "Duncan R. Lorimer",
+        "Joshua P. Ridley"
+      ],
+      "published": "2026-10-08",
+      "url": "https://arxiv.org/abs/2610.12450",
+      "abstract": "Just over 1% of the known radio pulsar population resides in the Large and Small Magellanic Clouds (MCs), the satellite galaxies that are 50-62 kpc distant from the Milky Way. These pulsars are important for constraining the peak of the pulsar luminosity function, and may give insights into neutron star populations formed from stars of different metallicities than the Milky Way. Using search techniques that have proven highly effective at discovering a large number of pulsars in archival data by folding candidates near the noise floor at high harmonic folds, we reprocessed the original Parkes Multibeam MC surveys and discovered six pulsars. Five of these pulsars are located in the Large Magellanic Cloud (LMC), including one with a spin period of 3.8s, making it the slowest pulsar known in the MCs. The remaining pulsar was detected toward the Small Magellanic Cloud (SMC), and is associated with the Milky Way foreground. Four of the newly discovered pulsars exhibit scintillation, with one showing clear nulling and others showing possible nulling behavior. These discoveries bring the total number of radio pulsars known in the LMC to 49. A luminosity function and duty cycle analysis of all current MC pulsars shows that they are consistent with Galactic canonical pulsars. Population synthesis simulations suggest that deeper surveys would reveal many more pulsars in the MCs, including up to handful of millisecond pulsars, based on the adopted upper limits for their parent populations. Finally, this reprocessing demonstrates the continued importance of reanalyzing archival data, both to improve the completeness of pulsar surveys and detect scientifically valuable objects.",
+      "external_ids": [
+        "arxiv:2610.12450"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-10T14:42:28+08:00",
+      "last_seen_at": "2026-10-10T14:42:28+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.12431",
+      "arxiv_version": "v1",
+      "title": "Control-Ready Uncertainty for Trajectory Diffusion",
+      "authors": [
+        "Zhiwei Xue",
+        "Jia Yue Kam",
+        "Jinhang Qiu",
+        "Yifeng Cheng",
+        "Ege Gursoy",
+        "Jiaming Wang",
+        "Vincent Bonnet",
+        "Harold Soh"
+      ],
+      "published": "2026-10-08",
+      "url": "https://arxiv.org/abs/2610.12431",
+      "abstract": "Diffusion models can represent complex, multimodal trajectory distributions, but extracting uncertainty from them typically requires costly Monte Carlo sampling. This limits their use in real-time control, where robots must rapidly assess risk and maintain safety margins. We introduce Score-Curvature for Online Precision Estimation (SCOPE), a lightweight module that augments diffusion trajectory models with control-ready uncertainty. SCOPE learns a structured precision matrix around each nominal trajectory by distilling score-curvature information and producing calibrated Gaussian tubes with low overhead and without repeated Monte Carlo sampling. These tubes provide per-timestep covariance estimates that can be used both as predicted occupancy for moving agents and as adaptive exploration guides for robot control. We evaluate SCOPE with mode-conditioned multimodal diffusion backbones in pedestrian forecasting, crowd navigation, Maze2D control, and real-world Franka Panda manipulation. Across these settings, SCOPE provides fast uncertainty estimation, which leads to better closed-loop performance. Project page: https://zackaxue.github.io/SCOPE-project-page/",
+      "external_ids": [
+        "arxiv:2610.12431"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "global illumination real-time"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-10T14:42:28+08:00",
+      "last_seen_at": "2026-10-10T14:42:28+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.12404",
+      "arxiv_version": "v1",
+      "title": "A Physics-Informed Collision Learning Framework for Collaborative Robot Motion Generation",
+      "authors": [
+        "Chen Cai",
+        "Steven Liu"
+      ],
+      "published": "2026-10-08",
+      "url": "https://arxiv.org/abs/2610.12404",
+      "abstract": "Close-proximity multi-arm manipulation requires collision models that are both geometrically accurate and differentiable enough for real-time optimization. Classical geometry checkers provide reliable distances but are difficult to use inside gradient-based model predictive control, while conservative proxy models can restrict tightly coupled motion. We present PI-UDF, a physics-informed unified differentiable framework for body-to-body collision distance prediction between articulated robots. PI-UDF combines analytical forward kinematics with learnable link-geometry embeddings and a shared residual network to predict pairwise inter-arm distances directly from robot configurations. To improve safety-critical fidelity, we combine quota-driven boundary mining with an asymmetric boundary-crossing penalty that emphasizes false-safe sign errors near the collision boundary. The learned distance field is integrated into nonlinear MPC as a differentiable inter-arm clearance term. We validate the framework on a real dual-Franka platform through high-speed close-proximity 14-DoF dual-arm swapping, sustained single-arm dynamic evasion, and dynamic-evasion planning configurations with frozen, predicted, and target-switching treatments of the moving arm. Hardware experiments and offline Drake/FCL replay show that PI-UDF provides a differentiable inter-arm clearance estimate suitable for closed-loop collision-aware collaborative robot motion generation.",
+      "external_ids": [
+        "arxiv:2610.12404"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "global illumination real-time"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-10T14:42:28+08:00",
+      "last_seen_at": "2026-10-10T14:42:28+08:00"
+    },
+    {
+      "source": "semanticscholar",
+      "arxiv_id": "2503.11999",
+      "doi": "10.48550/arXiv.2503.11999",
+      "title": "Diffusion Dynamics Models with Generative State Estimation for Cloth Manipulation",
+      "authors": [
+        "Tongxuan Tian",
+        "Hao-Yang Li",
+        "Bo Ai",
+        "Xiao Yuan",
+        "Zhiao Huang",
+        "Hao Su"
+      ],
+      "published": "2025-03-15",
+      "url": "https://arxiv.org/abs/2503.11999",
+      "abstract": "Cloth manipulation is challenging due to its highly complex dynamics, near-infinite degrees of freedom, and frequent self-occlusions, which complicate both state estimation and dynamics modeling. Inspired by recent advances in generative models, we hypothesize that these expressive models can effectively capture intricate cloth configurations and deformation patterns from data. Therefore, we propose a diffusion-based generative approach for both perception and dynamics modeling. Specifically, we formulate state estimation as reconstructing full cloth states from partial observations and dynamics modeling as predicting future states given the current state and robot actions. Leveraging a transformer-based diffusion model, our method achieves accurate state reconstruction and reduces long-horizon dynamics prediction errors by an order of magnitude compared to prior approaches. We integrate our dynamics models with model predictive control and show that our framework enables effective cloth folding on real robotic systems, demonstrating the potential of generative models for deformable object manipulation under partial observability and complex dynamics.",
+      "external_ids": [
+        "s2:8c2109522143ba79facad73ea6b106debee5e6b3",
+        "arxiv:2503.11999",
+        "doi:10.48550/arxiv.2503.11999"
+      ],
+      "sources": [
+        "semanticscholar"
+      ],
+      "matched_keywords": [
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-10T14:42:28+08:00",
+      "last_seen_at": "2026-10-10T14:42:28+08:00"
+    },
+    {
+      "source": "semanticscholar",
+      "arxiv_id": "",
+      "doi": "10.1145/3610548.3618157",
+      "title": "Subspace-Preconditioned GPU Projective Dynamics with Contact for Cloth Simulation",
+      "authors": [
+        "Xuan Li",
+        "Yu Fang",
+        "Lei Lan",
+        "Huamin Wang",
+        "Yin Yang",
+        "Min-Chen Li",
+        "Chenfanfu Jiang"
+      ],
+      "published": "2023-12-10",
+      "url": "https://www.semanticscholar.org/paper/de6efd0a8972ead0f9a69ac7087aad4456c05185",
+      "abstract": "We propose an efficient cloth simulation method that combines the merits of two drastically different numerical procedures, namely the subspace integration and parallelizable iterative relaxation. We show those two methods can be organically coupled within the framework of projective dynamics (PD), where both low- and high-frequency cloth motions are effectively and efficiently computed. Our method works seamlessly with the state-of-the-art contact handling algorithm, the incremental potential contact (IPC), to offer the non-penetration guarantee of the resulting animation. Our core ingredient centers around the utilization of subspace for the expedited convergence of Jacobi-PD. This involves solving the reduced global system and smartly employing its precomputed factorization. In addition, we incorporate a time-splitting strategy to handle the frictional self-contacts. Specifically, during the PD solve, we employ a quadratic proxy to approximate the contact barrier. The prefactorized subspace system matrix is exploited in a reduced-space LBFGS. The LBFGS method starts with the reduced system matrix of the rest shape as the initial Hessian approximation, incorporating contact information into the reduced system progressively, while the full-space Jacobi iteration captures high-frequency details. Furthermore, we address penetration issues through a penetration correction step. It minimizes an incremental potential without elasticity using Newton-PCG. Our method can be efficiently executed on modern GPUs. Experiments show significant performance improvements over existing GPU solvers for high-resolution cloth simulation.",
+      "external_ids": [
+        "s2:de6efd0a8972ead0f9a69ac7087aad4456c05185",
+        "doi:10.1145/3610548.3618157"
+      ],
+      "sources": [
+        "semanticscholar"
+      ],
+      "matched_keywords": [
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-10T14:42:28+08:00",
+      "last_seen_at": "2026-10-10T14:42:28+08:00"
+    },
     {
       "source": "arxiv",
       "arxiv_id": "2610.12468",
@@ -31,7 +368,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-09T15:17:46+08:00",
-      "last_seen_at": "2026-10-09T15:17:46+08:00"
+      "last_seen_at": "2026-10-10T14:42:28+08:00"
     },
     {
       "source": "arxiv",
@@ -61,7 +398,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-09T15:17:46+08:00",
-      "last_seen_at": "2026-10-09T15:17:46+08:00"
+      "last_seen_at": "2026-10-10T14:42:28+08:00"
     },
     {
       "source": "arxiv",
@@ -87,7 +424,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-09T15:17:46+08:00",
-      "last_seen_at": "2026-10-09T15:17:46+08:00"
+      "last_seen_at": "2026-10-10T14:42:28+08:00"
     },
     {
       "source": "arxiv",
@@ -121,7 +458,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-09T15:17:46+08:00",
-      "last_seen_at": "2026-10-09T15:17:46+08:00"
+      "last_seen_at": "2026-10-10T14:42:28+08:00"
     },
     {
       "source": "arxiv",
@@ -145,7 +482,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-09T15:17:46+08:00",
-      "last_seen_at": "2026-10-09T15:17:46+08:00"
+      "last_seen_at": "2026-10-10T14:42:28+08:00"
     },
     {
       "source": "arxiv",
@@ -171,7 +508,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-09T15:17:46+08:00",
-      "last_seen_at": "2026-10-09T15:17:46+08:00"
+      "last_seen_at": "2026-10-10T14:42:28+08:00"
     },
     {
       "source": "arxiv",
@@ -196,7 +533,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-09T15:17:46+08:00",
-      "last_seen_at": "2026-10-09T15:17:46+08:00"
+      "last_seen_at": "2026-10-10T14:42:28+08:00"
     },
     {
       "source": "arxiv",
@@ -3049,7 +3386,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-08T15:02:45+08:00"
+      "last_seen_at": "2026-10-10T14:42:28+08:00"
     },
     {
       "source": "arxiv",
@@ -3082,7 +3419,7 @@
       "doi": "10.48550/arXiv.2601.06451",
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-08T15:02:45+08:00"
+      "last_seen_at": "2026-10-10T14:42:28+08:00"
     },
     {
       "source": "semanticscholar",
@@ -3283,7 +3620,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-08T15:02:45+08:00"
+      "last_seen_at": "2026-10-10T14:42:28+08:00"
     },
     {
       "source": "semanticscholar",
@@ -3344,7 +3681,7 @@
       "doi": "10.1145/3731155",
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-08T15:02:45+08:00"
+      "last_seen_at": "2026-10-10T14:42:28+08:00"
     },
     {
       "source": "semanticscholar",
@@ -3398,7 +3735,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-08T15:02:45+08:00"
+      "last_seen_at": "2026-10-10T14:42:28+08:00"
     },
     {
       "source": "semanticscholar",
@@ -3512,7 +3849,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-08T15:02:45+08:00"
+      "last_seen_at": "2026-10-10T14:42:28+08:00"
     },
     {
       "source": "semanticscholar",
@@ -3545,7 +3882,7 @@
     }
   ],
   "last_run": {
-    "at": "2026-10-09T15:17:46+08:00",
+    "at": "2026-10-10T14:42:28+08:00",
     "sources": [
       "arxiv",
       "semanticscholar",
@@ -3561,9 +3898,9 @@
       "MLS-MPM",
       "projective dynamics cloth"
     ],
-    "fetched": 12,
-    "merged": 7,
-    "new": 7
+    "fetched": 102,
+    "merged": 25,
+    "new": 11
   },
   "topic": "game technology: physics simulation, real-time rendering, global illumination",
   "schema_version": 1
