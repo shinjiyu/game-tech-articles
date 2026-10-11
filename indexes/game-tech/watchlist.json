@@ -1,6 +1,64 @@
 {
-  "updated_at": "2026-10-10T14:42:28+08:00",
+  "updated_at": "2026-10-11T14:50:02+08:00",
   "candidates": [
+    {
+      "source": "semanticscholar",
+      "arxiv_id": "",
+      "doi": "10.1109/TVCG.2026.3732692",
+      "title": "Particle Transformer: A Physics-Informed Transformer for Real-Time Fluid-Structure Interaction Simulation.",
+      "authors": [
+        "Qi-Tong Wu",
+        "Bo Li",
+        "Shi-Guang Liu"
+      ],
+      "published": "2026-09-11",
+      "url": "https://www.semanticscholar.org/paper/2acd08852147c314f3c2d39d32cc12deaebf3e8e",
+      "abstract": "Recently, the use of data-driven approaches to accelerate physical simulation has emerged as a prominent research frontier. However, existing methodologies often grapple with limitations such as constrained generalization capabilities, a lack of physical consistency, and performance that falls significantly short of real-time requirements. In this paper, we propose the Particle Transformer, a Physics-Informed Neural Network (PINN) designed to substitute the core computational steps of the Material Point Method (MPM), aiming to enhance efficiency while maintaining physical fidelity. Our proposed simulator takes the complete physical state of the particle system as input to predict the subsequent state of the system. This predicted output is then directly utilized as the input for the following time step without incorporating any supplementary numerical solvers, thereby enabling solver-free, low-latency simulation. Our approach fully leverages the contextual understanding capabilities of Transformers to learn complex physical laws. Simultaneously, it employs a hierarchical, block-based network architecture, allowing it to handle intricate scenarios involving large-scale particle systems. Furthermore, by exploiting the intrinsic properties of the MPM framework, we perform a single-step physical iteration on the predicted particles. This allows for the seamless formulation of physical loss terms, thereby constructing an integrated MPM-Transformer PINN framework. This design ensures that our simulator maintains high physical accuracy while achieving real-time performance. Experimental results demonstrate that the proposed method is effective across various fluid-solid coupling scenarios, supports real-time simulation, and exhibits robust stability. Moreover, the architecture is highly scalable and well-suited for integration into larger or more complex physical systems. This work identifies a promising direction toward scalable, real-time neural simulation of MPM-style coupled materials.",
+      "external_ids": [
+        "s2:2acd08852147c314f3c2d39d32cc12deaebf3e8e",
+        "doi:10.1109/tvcg.2026.3732692"
+      ],
+      "sources": [
+        "semanticscholar"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-11T14:50:02+08:00",
+      "last_seen_at": "2026-10-11T14:50:02+08:00"
+    },
+    {
+      "source": "semanticscholar",
+      "arxiv_id": "",
+      "doi": "10.1145/3731180",
+      "title": "Leapfrog Flow Maps for Real-Time Fluid Simulation",
+      "authors": [
+        "Yu-Chen Sun",
+        "Junlin Li",
+        "Ruicheng Wang",
+        "Si-Nan Wang",
+        "Zhi-Qi Li",
+        "B. G. van Bloemen Waanders",
+        "Bo Zhu"
+      ],
+      "published": "2025-08-01",
+      "url": "https://www.semanticscholar.org/paper/802de2110230e009ed81b312bb85337c99e1604f",
+      "abstract": "We propose Leapfrog Flow Maps (LFM) to simulate incompressible fluids with rich vortical flows in real time. Our key idea is to use a hybrid velocityimpulse scheme enhanced with leapfrog method to reduce the computational workload of impulse-based flow map methods, while possessing strong ability to preserve vortical structures and fluid details. In order to accelerate the impulse-to-velocity projection, we develop a fast matrix-free Algebraic Multigrid Preconditioned Conjugate Gradient (AMGPCG) solver with customized GPU optimization, which makes projection comparable with impulse evolution in terms of time cost. We demonstrate the performance of our method and its efficacy in a wide range of examples and experiments, such as real-time simulated burning fire ball and delta wingtip vortices.",
+      "external_ids": [
+        "s2:802de2110230e009ed81b312bb85337c99e1604f",
+        "doi:10.1145/3731180"
+      ],
+      "sources": [
+        "semanticscholar"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-11T14:50:02+08:00",
+      "last_seen_at": "2026-10-11T14:50:02+08:00"
+    },
     {
       "source": "arxiv",
       "arxiv_id": "2610.12470",
@@ -34,7 +92,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-10T14:42:28+08:00",
-      "last_seen_at": "2026-10-10T14:42:28+08:00"
+      "last_seen_at": "2026-10-11T14:50:02+08:00"
     },
     {
       "source": "arxiv",
@@ -70,7 +128,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-10T14:42:28+08:00",
-      "last_seen_at": "2026-10-10T14:42:28+08:00"
+      "last_seen_at": "2026-10-11T14:50:02+08:00"
     },
     {
       "source": "arxiv",
@@ -104,7 +162,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-10T14:42:28+08:00",
-      "last_seen_at": "2026-10-10T14:42:28+08:00"
+      "last_seen_at": "2026-10-11T14:50:02+08:00"
     },
     {
       "source": "arxiv",
@@ -137,7 +195,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-10T14:42:28+08:00",
-      "last_seen_at": "2026-10-10T14:42:28+08:00"
+      "last_seen_at": "2026-10-11T14:50:02+08:00"
     },
     {
       "source": "arxiv",
@@ -162,7 +220,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-10T14:42:28+08:00",
-      "last_seen_at": "2026-10-10T14:42:28+08:00"
+      "last_seen_at": "2026-10-11T14:50:02+08:00"
     },
     {
       "source": "arxiv",
@@ -189,7 +247,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-10T14:42:28+08:00",
-      "last_seen_at": "2026-10-10T14:42:28+08:00"
+      "last_seen_at": "2026-10-11T14:50:02+08:00"
     },
     {
       "source": "arxiv",
@@ -218,7 +276,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-10T14:42:28+08:00",
-      "last_seen_at": "2026-10-10T14:42:28+08:00"
+      "last_seen_at": "2026-10-11T14:50:02+08:00"
     },
     {
       "source": "arxiv",
@@ -249,7 +307,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-10T14:42:28+08:00",
-      "last_seen_at": "2026-10-10T14:42:28+08:00"
+      "last_seen_at": "2026-10-11T14:50:02+08:00"
     },
     {
       "source": "arxiv",
@@ -274,7 +332,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-10T14:42:28+08:00",
-      "last_seen_at": "2026-10-10T14:42:28+08:00"
+      "last_seen_at": "2026-10-11T14:50:02+08:00"
     },
     {
       "source": "semanticscholar",
@@ -368,7 +426,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-09T15:17:46+08:00",
-      "last_seen_at": "2026-10-10T14:42:28+08:00"
+      "last_seen_at": "2026-10-11T14:50:02+08:00"
     },
     {
       "source": "arxiv",
@@ -398,7 +456,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-09T15:17:46+08:00",
-      "last_seen_at": "2026-10-10T14:42:28+08:00"
+      "last_seen_at": "2026-10-11T14:50:02+08:00"
     },
     {
       "source": "arxiv",
@@ -424,7 +482,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-09T15:17:46+08:00",
-      "last_seen_at": "2026-10-10T14:42:28+08:00"
+      "last_seen_at": "2026-10-11T14:50:02+08:00"
     },
     {
       "source": "arxiv",
@@ -458,7 +516,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-09T15:17:46+08:00",
-      "last_seen_at": "2026-10-10T14:42:28+08:00"
+      "last_seen_at": "2026-10-11T14:50:02+08:00"
     },
     {
       "source": "arxiv",
@@ -482,7 +540,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-09T15:17:46+08:00",
-      "last_seen_at": "2026-10-10T14:42:28+08:00"
+      "last_seen_at": "2026-10-11T14:50:02+08:00"
     },
     {
       "source": "arxiv",
@@ -508,7 +566,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-09T15:17:46+08:00",
-      "last_seen_at": "2026-10-10T14:42:28+08:00"
+      "last_seen_at": "2026-10-11T14:50:02+08:00"
     },
     {
       "source": "arxiv",
@@ -533,7 +591,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-09T15:17:46+08:00",
-      "last_seen_at": "2026-10-10T14:42:28+08:00"
+      "last_seen_at": "2026-10-11T14:50:02+08:00"
     },
     {
       "source": "arxiv",
@@ -2637,7 +2695,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-01T14:50:40+08:00",
-      "last_seen_at": "2026-10-01T14:50:40+08:00"
+      "last_seen_at": "2026-10-11T14:50:02+08:00"
     },
     {
       "source": "semanticscholar",
@@ -2664,7 +2722,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-01T14:50:40+08:00",
-      "last_seen_at": "2026-10-01T14:50:40+08:00"
+      "last_seen_at": "2026-10-11T14:50:02+08:00"
     },
     {
       "source": "semanticscholar",
@@ -2691,7 +2749,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-01T14:50:40+08:00",
-      "last_seen_at": "2026-10-01T14:50:40+08:00"
+      "last_seen_at": "2026-10-11T14:50:02+08:00"
     },
     {
       "source": "semanticscholar",
@@ -2716,7 +2774,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-01T14:50:40+08:00",
-      "last_seen_at": "2026-10-01T14:50:40+08:00"
+      "last_seen_at": "2026-10-11T14:50:02+08:00"
     },
     {
       "source": "semanticscholar",
@@ -2744,7 +2802,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-01T14:50:40+08:00",
-      "last_seen_at": "2026-10-01T14:50:40+08:00"
+      "last_seen_at": "2026-10-11T14:50:02+08:00"
     },
     {
       "source": "semanticscholar",
@@ -2771,7 +2829,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-01T14:50:40+08:00",
-      "last_seen_at": "2026-10-01T14:50:40+08:00"
+      "last_seen_at": "2026-10-11T14:50:02+08:00"
     },
     {
       "source": "semanticscholar",
@@ -2796,7 +2854,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-01T14:50:40+08:00",
-      "last_seen_at": "2026-10-01T14:50:40+08:00"
+      "last_seen_at": "2026-10-11T14:50:02+08:00"
     },
     {
       "source": "arxiv",
@@ -3386,7 +3444,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-10T14:42:28+08:00"
+      "last_seen_at": "2026-10-11T14:50:02+08:00"
     },
     {
       "source": "arxiv",
@@ -3419,7 +3477,7 @@
       "doi": "10.48550/arXiv.2601.06451",
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-10T14:42:28+08:00"
+      "last_seen_at": "2026-10-11T14:50:02+08:00"
     },
     {
       "source": "semanticscholar",
@@ -3620,7 +3678,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-10T14:42:28+08:00"
+      "last_seen_at": "2026-10-11T14:50:02+08:00"
     },
     {
       "source": "semanticscholar",
@@ -3681,7 +3739,7 @@
       "doi": "10.1145/3731155",
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-10T14:42:28+08:00"
+      "last_seen_at": "2026-10-11T14:50:02+08:00"
     },
     {
       "source": "semanticscholar",
@@ -3735,7 +3793,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-10T14:42:28+08:00"
+      "last_seen_at": "2026-10-11T14:50:02+08:00"
     },
     {
       "source": "semanticscholar",
@@ -3849,7 +3907,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-10T14:42:28+08:00"
+      "last_seen_at": "2026-10-11T14:50:02+08:00"
     },
     {
       "source": "semanticscholar",
@@ -3882,7 +3940,7 @@
     }
   ],
   "last_run": {
-    "at": "2026-10-10T14:42:28+08:00",
+    "at": "2026-10-11T14:50:02+08:00",
     "sources": [
       "arxiv",
       "semanticscholar",
@@ -3898,9 +3956,9 @@
       "MLS-MPM",
       "projective dynamics cloth"
     ],
-    "fetched": 102,
-    "merged": 25,
-    "new": 11
+    "fetched": 112,
+    "merged": 31,
+    "new": 2
   },
   "topic": "game technology: physics simulation, real-time rendering, global illumination",
   "schema_version": 1
