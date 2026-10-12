@@ -1,6 +1,455 @@
 {
-  "updated_at": "2026-10-11T14:50:02+08:00",
+  "updated_at": "2026-10-12T14:57:52+08:00",
   "candidates": [
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.13947",
+      "arxiv_version": "v1",
+      "title": "Towards Physically Grounded Articulated 3D Assets: A Multi-Agent Pipeline and Benchmark",
+      "authors": [
+        "Xudong Cai",
+        "Ruijie Zhu",
+        "Haoliang Shang",
+        "Ruining Li",
+        "Marc Pollefeys",
+        "Shangzhe Wu",
+        "Andrea Vedaldi",
+        "Chuanxia Zheng"
+      ],
+      "published": "2026-10-09",
+      "url": "https://arxiv.org/abs/2610.13947",
+      "abstract": "In this paper, we study physically grounded articulated 3D asset generation---moving the goal from reproducing how objects look to capturing how they move and function. Inspired by the literature on procedural and agentic generation, we present Artisan, a system that extends the latest method Articraft by introducing a multi-agent pipeline with physical simulation feedback, enabling comprehensive attributes beyond geometry, appearance, and physically plausible articulation, such as collision-free motion, stability under gravity, and accurate mass and material properties. Furthermore, we construct a unified benchmark spanning four key aspects: spatial fidelity, physical plausibility, downstream task performance, and overall quality. The benchmark encompasses 100 reference assets from ArtVIP and LightWheel, 50 stability prompts, and 50 ABO objects with reference masses, with protocols evaluating various metrics. Through extensive evaluation of more than 10 representative models, Artisan achieves competitive spatial fidelity while attaining the lowest collision rates and highest stability rates among the evaluated methods. Together, our system and benchmark establish insights for advancing 3D generation towards physically plausible, functionally usable assets.",
+      "external_ids": [
+        "arxiv:2610.13947"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-12T14:57:52+08:00",
+      "last_seen_at": "2026-10-12T14:57:52+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.13903",
+      "arxiv_version": "v1",
+      "title": "Maximally antiflat fixed-particle-number fermionic states",
+      "authors": [
+        "Rahul Gupta",
+        "Arya Haghighian",
+        "James D. Whitfield"
+      ],
+      "published": "2026-10-09",
+      "url": "https://arxiv.org/abs/2610.13903",
+      "abstract": "Fermionic Gaussian states are completely characterized by their two-point correlations, making the covariance matrix a natural reference for quantifying non-Gaussian structure. Motivated by fermionic antiflatness, we study its extremal form for pure number-conserving states and ask which states can be maximally antiflat and how they can be constructed. We show that, at fixed particle number, maximal first antiflatness is equivalent to a completely flat one-body reduced density matrix, and we obtain a complete existence classification together with explicit block and cyclic-orbit constructions of all allowed sectors. We then investigate the structure that appears beyond the covariance level. Maximally antiflat states with identical one-body data can exhibit distinct connected four-point correlations, which we characterize through the four-point Majorana Wick error and, equivalently, the connected two-body reduced density matrix cumulant. We show that this quartic structure is necessarily nonzero and formulate its extremization as a two-body reduced density matrix (2RDM) purity problem. Combining this framework with a Hilbert--Schmidt estimate of Christiansen for truncated two-body correlations, we obtain an upper bound on the connected quartic structure in terms of first antiflatness. Our results establish both a complete characterization of maximal fermionic antiflatness at fixed particle number and a constrained hierarchy linking covariance-level flatness to higher-order non-Gaussian correlations.",
+      "external_ids": [
+        "arxiv:2610.13903"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-12T14:57:52+08:00",
+      "last_seen_at": "2026-10-12T14:57:52+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.13929",
+      "arxiv_version": "v1",
+      "title": "Chronos Policy: Learning Robot Policies on Physical Time",
+      "authors": [
+        "Changhao Wang",
+        "Jaden Clark",
+        "Shuran Song"
+      ],
+      "published": "2026-10-09",
+      "url": "https://arxiv.org/abs/2610.13929",
+      "abstract": "Robot policies often convert sensing and control into fixed-rate observation-action sequences, leaving physical time implicit in sequence position. This assumption breaks when observation rates or delays vary, or when inference latency changes. We introduce Chronos Policy, which makes physical time explicit by conditioning on observation capture times and desired action execution times. We study two ways to incorporate time into a diffusion transformer: adding timestamp embeddings to token features, or encoding physical time in positional encoding through time-aware rotary positional encodings (time-aware RoPE). We find that time-aware RoPE is more robust, allowing attention to depend directly on physical time while keeping token content unchanged. During training, we temporally randomize which observations are sampled and when the action chunk begins, exposing the policy to a wider range of sensing and execution schedules that may occur during deployments. This also enables learning from asynchronous, multi-rate data without forcing all measurements onto a fixed temporal grid. Across simulation and real-world experiments, Chronos Policy improves performance on dynamic tasks, where observation-to-action timing is critical, and on multisensory tasks, where the relative timing between observations matters. On standard quasi-static tasks, it preserves nominal performance while improving robustness to changes in sensing and inference timing.",
+      "external_ids": [
+        "arxiv:2610.13929"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics",
+        "global illumination real-time",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-12T14:57:52+08:00",
+      "last_seen_at": "2026-10-12T14:57:52+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.13926",
+      "arxiv_version": "v1",
+      "title": "Adiabatic evolution of hadronic neutron stars",
+      "authors": [
+        "Domenico Logoteta",
+        "Francesco Zeno Constanzo",
+        "Ignazio Bombaci",
+        "Sebastiano Bernuzzi",
+        "Albino Perego",
+        "David Radice"
+      ],
+      "published": "2026-10-09",
+      "url": "https://arxiv.org/abs/2610.13926",
+      "abstract": "In this paper we compute several structural properties of static and rotating neutron stars, considering both rigid and differential rotation. To this end, we use a finite-temperature beta-stable equation of state (EOS) extending the zero-temperature hadronic EOS derived by Fortin et al. (2017). We account for the formation of hyperons and the presence of a neutrino-trapped component. Our goal is to provide insights into the long-term evolution of a protoneutron star (PNS) formed after a core-collapse supernova (CCSN) or a remnant resulting from a binary neutron star merger (BNSM). The EOS is derived using a relativistic mean-field quantum many-body theory within the Hartree approximation. Coupling constants are determined using experimental data on hypernuclei and hypernuclear matter to better account for uncertainties in hyperon single-particle potentials. Our EOS models reproduce the typical features of cold neutron stars and PNSs for nucleonic and hyperonic compositions. In particular, they are consistent with measured masses (2.01 M_sun and 2.14 M_sun for PSR J0348+0432 and PSR J0740+6620) and dimensionless tidal deformabilities from GW170817. Thermal contributions act differently depending on composition and rotation state. Finally, our evolutionary scheme provides a simple way to interpret the long-term evolution of BNSM remnants or PNSs from CCSNe, complementing dynamical simulations unable to cover full evolutionary timescales.",
+      "external_ids": [
+        "arxiv:2610.13926"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "incremental potential contact",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-12T14:57:52+08:00",
+      "last_seen_at": "2026-10-12T14:57:52+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.13923",
+      "arxiv_version": "v1",
+      "title": "Goal-Oriented Bundle Management and Flow Control for Deep-Space Communications via Reinforcement Learning",
+      "authors": [
+        "Sajjad Baghaeea",
+        "Aimin Lib",
+        "Shanmugarajan Balasubramanian",
+        "Elif Uysal"
+      ],
+      "published": "2026-10-09",
+      "url": "https://arxiv.org/abs/2610.13923",
+      "abstract": "Deep-space communications operate under intermittent connectivity, long propagation delays, and relay storage constraints. In such networks, the Bundle Protocol enables store-carry-forward communication, requiring relay nodes to manage limited storage and scarce contact opportunities. Relay-side scheduling and dropping decisions are inherently goal-oriented: transmission resources should be allocated to bundles most valuable to downstream mission objectives. Conventional schedulers, such as FIFO, do not explicitly optimize task utility and may provide unfair service across heterogeneous planetary sources. This paper presents a closed-loop modeling and learning framework for relay-side bundle and flow management in a contact-driven deep-space network, where lunar and Martian updates are forwarded through a shared-buffer relay to Earth. We quantify destination-side information freshness using excess age $Δ_i^e(t)=[Δ_i(t)-d_i(t)]^+$, where $Δ_i(t)$ denotes the Age of Information of source $i$ and $d_i(t)$ is a source-dependent delay baseline. Based on this metric, we define a goal-oriented loss that supports source-dependent nonlinear penalties, allowing prioritization according to mission relevance. We formulate relay control as a constrained semi-Markov decision process (CSMDP) and solve it using masked Lagrangian Proximal Policy Optimization (PPO). Feasibility-aware action masking restricts transmissions to bundles that can complete within the remaining contact window. DTNSim simulations indicate improved age-based utility and inter-flow fairness compared with baseline schedulers. The proposed framework jointly optimizes relay-side bundle scheduling, dropping, and flow control under contact-driven dynamics with explicit fairness considerations across heterogeneous sources.",
+      "external_ids": [
+        "arxiv:2610.13923"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "incremental potential contact",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-12T14:57:52+08:00",
+      "last_seen_at": "2026-10-12T14:57:52+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.13860",
+      "arxiv_version": "v1",
+      "title": "Make It Flow: Animating Water in 3D Gaussian Splatting Scenes",
+      "authors": [
+        "Kjell Keune",
+        "Florian Hahlbohm",
+        "Jannis Möller",
+        "Susana Castillo",
+        "Martin Eisemann",
+        "Marcus Magnor"
+      ],
+      "published": "2026-10-09",
+      "url": "https://arxiv.org/abs/2610.13860",
+      "abstract": "Explicit 3D scene representations such as 3D Gaussian Splatting (3DGS) have recently enabled high-quality, real-time novel view synthesis. However, these methods assume static scenes, limiting realism in the presence of dynamic phenomena ubiquitous in real-world environments. While coherent motion (e.g., humans or vehicles) can be captured and reconstructed, high-frequency effects such as flowing water remain intractable under casual capture conditions, where dense multi-view, high-speed acquisition is not feasible. We present a method to animate water in static 3DGS scenes, enabling visually plausible motion without requiring dynamic capture or physical simulation. Our approach estimates 2D optical flow from reference images or model renderings and lifts it into a consistent 3D Eulerian motion field. We propose a cinemagraph-inspired algorithm that applies this motion field to deform Gaussian primitives, producing temporally seamless looping animations. The resulting representation retains real-time rendering performance, significantly enhances perceptual realism, and preserves free-viewpoint navigation within the scene. We evaluate our method on a newly captured dataset of in-the-wild waterfall scenes and demonstrate clear improvements over prior work in dynamic Gaussian splatting and 3D cinemagraph generation in visual quality and computational efficiency.",
+      "external_ids": [
+        "arxiv:2610.13860"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "global illumination real-time"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-12T14:57:52+08:00",
+      "last_seen_at": "2026-10-12T14:57:52+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.13927",
+      "arxiv_version": "v1",
+      "title": "On some rigidity results for high-dimensional confoliations",
+      "authors": [
+        "Fabio Gironella",
+        "Seungook Yu"
+      ],
+      "published": "2026-10-09",
+      "url": "https://arxiv.org/abs/2610.13927",
+      "abstract": "The main result is an obstruction to the presence of contact regions for c-symplectic confoliations in any odd ambient dimension. As a first application, we prove a 5-dimensional analogue (under stronger assumptions) of a Reeb stability theorem for confoliations in dimension 3 due to Eliashberg and Thurston. Refining work of the first author with Cardona, we further give two new notions of contact approximations of c-symplectic confoliations in any odd ambient dimension generalizing the 3-dimensional notion of Eliashberg-Thurston. As a second application of our main theorem, we then give an example, in any ambient odd dimension, of a c-symplectic (and in fact strong symplectic) foliation that cannot be contact approximated, in either of these two senses. This relies on the property, of independent interest, that contact structures approximating (in these senses) a weakly c-symplectic confoliation are also weakly fillable. The proofs of all these statements rely on pseudo-holomorphic curve theory. Lastly, we describe several natural classes of examples of these types of contact approximations of c-symplectic confoliations.",
+      "external_ids": [
+        "arxiv:2610.13927"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-12T14:57:52+08:00",
+      "last_seen_at": "2026-10-12T14:57:52+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.13918",
+      "arxiv_version": "v1",
+      "title": "DyssomniaNN: Multi-Scale Spiking Neural Modeling of Human Sleep Disorders and Perceived Restedness",
+      "authors": [
+        "Daniel Szelogowski"
+      ],
+      "published": "2026-10-09",
+      "url": "https://arxiv.org/abs/2610.13918",
+      "abstract": "Clinical sleep medicine repeatedly documents profound divergences between objective sleep duration and subjective daytime impairment, notably exemplified by sleep state misperception in paradoxical insomnia and boundary instability in narcolepsy type 1. Here, we present DyssomniaNN: a multi-scale biophysical computational framework coupling Borbély's two-process regulation of sleep homeostasis and circadian drive with Saper's hypothalamic reciprocal flip-flop circuit and a recurrent corticothalamic leaky integrate-and-fire spiking neural network. We formalize five clinical cohorts across an identical 72-hour photoperiod: healthy control, circadian rhythm sleep-wake disorder (delayed-phase), chronic insomnia, paradoxical insomnia, and narcolepsy type 1. The synthetic local field potential converges closely with empirical human electroencephalography spectra from the PhysioNet Sleep-EDF database across all canonical frequency bands (spectral mean absolute error of 0.33--0.35). Furthermore, we introduce the Well-Rested Index to quantify restorative efficacy. Simulations reveal that sleep duration fails to predict restorative recovery: paradoxical insomnia achieves normal total sleep time (21.15 h) yet yields low restoration (37.6%) from unsuppressed cortical beta-band intrusion, whereas hypocretin deficiency in narcolepsy produces severe nocturnal fragmentation (781 min of wake after sleep onset) and 35 sleep-onset rapid eye movement periods. DyssomniaNN provides an in silico platform for mechanistic sleep research and virtual neuropharmacology.",
+      "external_ids": [
+        "arxiv:2610.13918"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-12T14:57:52+08:00",
+      "last_seen_at": "2026-10-12T14:57:52+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.13892",
+      "arxiv_version": "v1",
+      "title": "Unifying spherical convolutions through lifting",
+      "authors": [
+        "J. D. McEwen"
+      ],
+      "published": "2026-10-09",
+      "url": "https://arxiv.org/abs/2610.13892",
+      "abstract": "We develop a unified description of convolution on the sphere by lifting to the rotation group. A number of definitions of spherical convolution have been proposed, differing in whether the kernel is axisymmetric or directional, whether the output is on the sphere or the rotation group, whether the signals carry spin, and in their computational cost. No unified treatment exists. Regarding the sphere as the homogeneous space $S^2 \\cong \\text{SO(3)}/\\text{SO(2)}$, we lift a spin $s$ field to the rotation group, convolve on $\\text{SO(3)}$, and project back to the sphere through the adjoint of the lift for a potentially different spin $s'$. We recover every rotation-equivariant convolution considered previously through constraints on the kernel, spin choices and inclusion or omission of the lift and projection. For maps between fields of fixed input and output spin, we prove that directional kernels, output on the sphere and equivariance cannot be achieved simultaneously. We make explicit that spin fields are sections of associated line bundles, linking the physics and bundle literatures, and express the spin rotation phase as the character of the twist of the section. We present harmonic-space algorithms for the exact and efficient computation of lifted spherical convolutions of band-limited fields by appealing to sampling theorems on the sphere and rotation group. All operators are implemented in the open-source s2conv code, and numerical experiments confirm the reductions and the equivariance of the operators to machine precision. Finally, we illustrate the operators on fields measured on the Earth and on the celestial sky.",
+      "external_ids": [
+        "arxiv:2610.13892"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-12T14:57:52+08:00",
+      "last_seen_at": "2026-10-12T14:57:52+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.13945",
+      "arxiv_version": "v1",
+      "title": "Splat2Act: From Captured Scenes to Personalized VLA Manipulation",
+      "authors": [
+        "Xiaomeng Ye",
+        "Krishna Jaganathan",
+        "Gyubeum Lim",
+        "Gunjan Chhablani",
+        "Muhammad Zubair Irshad",
+        "Zsolt Kira"
+      ],
+      "published": "2026-10-09",
+      "url": "https://arxiv.org/abs/2610.13945",
+      "abstract": "A user who brings a generalist manipulation policy into their home or office wants it to pick up their objects from their shelves, counters, and tables. Yet even a strong generalist like $π_{0.5}$ achieves 0% pickup success in our captured deployment scenes without adaptation, and collecting real demonstrations in every user's environment is prohibitively expensive. We present Splat2Act, an automated real-to-sim-to-real pipeline that personalizes a pretrained vision-language-action (VLA) policy to a specific scene and object set using only a handheld phone scan and images of the user's objects. Unlike prior real-to-sim work that reconstructs individual tabletops, Splat2Act operates on building-scale indoor environments: it builds a photorealistic digital twin with 3D Gaussian Splatting and collision geometry, automatically discovers tabletop and non-tabletop receptacles, constructs feasible pickup tasks, and generates successful demonstrations with a privileged simulation oracle, with only scene and object capture required from a human. Applied to 101 scanned campus environments with a median navigable area of 104.87 m$^2$ and 7 receptacles, the pipeline yields 852 receptacles and over 68,000 pickup demonstrations. We fine-tune $π_{0.5}$ in two stages: Stage 1 adapts to hundreds of public object assets, drawn either from the deployment scene alone or from all 101 scenes; Stage 2 personalizes to the user's own objects on the deployment scene's receptacles. Our strongest personalized policy reaches 62.5% aggregate pickup success in the target scene. Deployed on a real Stretch 3, the same policy achieves 63.9% success on a 12-task subset, closely tracking its 66.7% simulated success on those tasks. These results suggest that automated real-to-sim-to-real training can personalize VLA manipulation policies using only simulation-oracle data.",
+      "external_ids": [
+        "arxiv:2610.13945"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-12T14:57:52+08:00",
+      "last_seen_at": "2026-10-12T14:57:52+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.13936",
+      "arxiv_version": "v1",
+      "title": "A Warped Born Rule Turns an Observer into a Maxwell's Demon",
+      "authors": [
+        "Olumakinde Ogunnaike"
+      ],
+      "published": "2026-10-09",
+      "url": "https://arxiv.org/abs/2610.13936",
+      "abstract": "Quantum mechanics seems to be an incredibly delicate theory. Slight alterations to nearly any part of its structure can lead to huge qualitative differences and wildly unphysical predictions. Here, we explore the many-body consequences of replacing the Born rule $p(m)\\propto\\|P_m|ψ\\rangle|^2$ by a warped rule $p_b(m)\\propto\\|P_m|ψ\\rangle\\|^{2b}$. Specifically, in systems with conserved particle number, evolution punctuated by repeated local particle observations acquires a probabilistic bias over measurement histories with an effect controlled by the sign of $b-1$. For $b>1$, this bias generically drives the gas to collect into nearly frozen configurations. Similar to the action of Maxwell's demon, the simple act of observation seems to extract entropy from a closed system. For $b<1$, the bias is reversed, generically scouring out long-wavelength fluctuations to produce a hyperuniform gas. We study this effect in a one-dimensional quantum gas, where these two phases are derived analytically for a particular measurement scheme and corroborated numerically for more general procedures with discrete-time projective-measurement circuit models using matrix product state simulations. We additionally discuss how this bias manifests in a common technique that often employs this warped rule, the ``replica trick,'' implying qualitative differences between finite-replica and replica-limit calculations.",
+      "external_ids": [
+        "arxiv:2610.13936"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-12T14:57:52+08:00",
+      "last_seen_at": "2026-10-12T14:57:52+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.13893",
+      "arxiv_version": "v1",
+      "title": "Information-Weighted Distributed Kalman Filter for Multi-Target Tracking over Switching Sensor Networks",
+      "authors": [
+        "Tirthankar Chakraborty",
+        "Arnab Maity"
+      ],
+      "published": "2026-10-09",
+      "url": "https://arxiv.org/abs/2610.13893",
+      "abstract": "Target tracking over wide areas using a network of sensor agents is a challenging problem when agents have limited sensing coverage and communication topologies vary over time. Existing distributed filtering approaches commonly assume that each agent, or at least one of its neighbors, can directly observe the target, and further rely on fixed network topologies, global network parameters, or multiple consensus rounds per time step. These requirements limit their applicability in wide-area network deployments. In this paper, we propose an Information-Weighted Distributed Kalman Filter (IWDKF) that relaxes these assumptions through a weighted-consensus mechanism applicable to arbitrary switching topologies satisfying joint connectivity. The proposed approach requires no prior knowledge of global network properties and limits communication overhead to a single consensus exchange per time step, while enabling information fusion even when some agents lack direct target measurements. The weighted-consensus covariance matrix is shown to remain positive definite, and the resulting consensus update is proven to maintain estimate consistency. It is also established that the proposed weighting strategy preserves the asymptotic agreement property of the underlying consensus protocol under joint connectivity. Numerical simulations of a multi-target tracking scenario involving a network of sensor agents demonstrate the improved estimation accuracy of the proposed IWDKF under both fixed and switching network topologies. The performance of the proposed filter is close to that of the centralized Kalman filter, and is compared with three existing distributed filters.",
+      "external_ids": [
+        "arxiv:2610.13893"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics",
+        "global illumination real-time",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-12T14:57:52+08:00",
+      "last_seen_at": "2026-10-12T14:57:52+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.13842",
+      "arxiv_version": "v1",
+      "title": "Robust Golden Ratio universality as a consequence of a circulant symmetry",
+      "authors": [
+        "Luka Paljk",
+        "Johannes Schmidt",
+        "Vladislav Popkov"
+      ],
+      "published": "2026-10-09",
+      "url": "https://arxiv.org/abs/2610.13842",
+      "abstract": "We find a robust scenario for the emergence of the Golden Ratio (GR) dynamical universality class, characterized by the dynamical exponent $z \\equiv \\varphi=\\frac{1}{2}(1+\\sqrt{5})$. Previously, its emergence required fine-tuning of system parameters. Here, the GR universality class appears generically in a wide class of Markov processes as a consequence of a global, circulant symmetry of the flux Jacobian. This symmetry leads to GR universality in systems where the total number of conservation laws is odd and larger than three. We introduce a multilane exclusion process with Bernoulli stationary measure as a minimal, parameter-free model, which features GR universality for all conserved modes, most of which are doubly degenerate. Our predictions, based on mode-coupling theory generalized to treat degenerate conserved modes, are corroborated by large-scale Monte Carlo simulations.",
+      "external_ids": [
+        "arxiv:2610.13842"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "global illumination real-time",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-12T14:57:52+08:00",
+      "last_seen_at": "2026-10-12T14:57:52+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.13865",
+      "arxiv_version": "v1",
+      "title": "Perpendicular transport in isotropic magnetic turbulence. The role of stochastic drifts",
+      "authors": [
+        "F. Pucci",
+        "P. Blasi",
+        "O. Pezzi",
+        "C. Evoli",
+        "F. Malara"
+      ],
+      "published": "2026-10-09",
+      "url": "https://arxiv.org/abs/2610.13865",
+      "abstract": "In cosmic ray propagation through turbulent magnetic fields, transport perpendicular to the mean field plays an important role in various astrophysical environments. Numerical simulations have shown that parallel and perpendicular diffusion coefficients exhibit different energy scalings, causing their ratio to increase with energy, but a comprehensive theoretical explanation remains elusive. Here, we investigate perpendicular diffusion using test particle simulations in synthetic isotropic turbulence spanning 6-7 orders of magnitude in wavenumber, together with a theoretical extension of nonlinear guiding center theory that incorporates stochastic drifts. Our approach combines field line random walk and random guiding center drifts to describe perpendicular transport. We find that parallel and perpendicular diffusion coefficients exhibit the same energy scaling only for $r_L \\lesssim 10^{-2} L_c$, where $r_L$ is the particle Larmor radius and $L_c$ is the turbulence coherence length. At higher energies, perpendicular diffusion develops a stronger energy dependence, consistently across different turbulence levels. Our theoretical model suggests that this behavior arises from stochastic drifts induced by turbulent magnetic field components parallel to the mean field.",
+      "external_ids": [
+        "arxiv:2610.13865"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-12T14:57:52+08:00",
+      "last_seen_at": "2026-10-12T14:57:52+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.13859",
+      "arxiv_version": "v1",
+      "title": "Doubly Metastable Synthesis for Accelerated Quantum Materials Discovery",
+      "authors": [
+        "Kyuho Lee",
+        "Berit H. Goodge",
+        "Soonhyun Kwon",
+        "Yash Anand",
+        "Theo Manev",
+        "Maximilien F. Debbas",
+        "Weiliang Luo",
+        "Takehito Suzuki",
+        "Heather J. Kulik",
+        "Joseph G. Checkelsky"
+      ],
+      "published": "2026-10-09",
+      "url": "https://arxiv.org/abs/2610.13859",
+      "abstract": "New physics emerges from new materials, which in turn rely on the development of new synthesis techniques. Identifying the enlargement of metastable synthesis window as enabling for realizing novel materials, we develop diffusion-activated epitaxy, a technique which combines two metastable synthesis methods of diffusion and epitaxy. We observe that within a narrow window of investigated synthesis space we can experimentally identify the stabilization of four distinct phases, three of which show X-ray diffraction and scanning transmission electron microscopy characterization data that are incompatible with the crystal structures registered in experimental and computational inorganic structure databases. These results suggest an enlarged metastable synthesis window is enabled by this synthesis approach, identifying doubly metastable synthesis as a promising method for exploration of quantum materials.",
+      "external_ids": [
+        "arxiv:2610.13859"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-12T14:57:52+08:00",
+      "last_seen_at": "2026-10-12T14:57:52+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.13822",
+      "arxiv_version": "v1",
+      "title": "Physical-state supervision for design-only Gaussian process surrogates of implosion simulations",
+      "authors": [
+        "Chang Liu",
+        "Hao Shen",
+        "Chuanying Li"
+      ],
+      "published": "2026-10-09",
+      "url": "https://arxiv.org/abs/2610.13822",
+      "abstract": "Physical diagnostics recorded during simulation can organize a sharply varying response, but using them as surrogate inputs normally requires another calculation at prediction. We construct a physical-state-supervised Gaussian process surrogate that learns these diagnostics from design variables. Cross-fitted state estimates augment a retained design representation; a global Gaussian process and an optional soft mixture of response-band experts use identical inputs. On a database of 1,987 paired one-dimensional implosions, learned burn-weighted states from calculations without alpha-particle heating reduce mean squared log-response error by 60.25% and 52.98% for the global predictor on random holdout and design-space extrapolation. Random-projection and shuffled-state supervision do not reproduce these gains. For CH, matched-input comparisons show that experts help at smaller training budgets but contribute little at 1,000 designs with this representation. A thermal-feedback benchmark validates the complete learned-state procedure, while 3,000 newly calculated Be/Cocktail designs expose weaker extrapolation gains and cases where experts degrade accuracy. A conditional state-error bound separates encoding sensitivity from routing effects. An open Python implementation reproduces the archived predictions and is released with the data, per-design results, and measured costs. Physical-state supervision is thus a useful representation for finite-data surrogates, whereas expert specialization should be selected by validation.",
+      "external_ids": [
+        "arxiv:2610.13822"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-12T14:57:52+08:00",
+      "last_seen_at": "2026-10-12T14:57:52+08:00"
+    },
     {
       "source": "semanticscholar",
       "arxiv_id": "",
@@ -3444,7 +3893,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-11T14:50:02+08:00"
+      "last_seen_at": "2026-10-12T14:57:52+08:00"
     },
     {
       "source": "arxiv",
@@ -3477,7 +3926,7 @@
       "doi": "10.48550/arXiv.2601.06451",
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-11T14:50:02+08:00"
+      "last_seen_at": "2026-10-12T14:57:52+08:00"
     },
     {
       "source": "semanticscholar",
@@ -3678,7 +4127,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-11T14:50:02+08:00"
+      "last_seen_at": "2026-10-12T14:57:52+08:00"
     },
     {
       "source": "semanticscholar",
@@ -3739,7 +4188,7 @@
       "doi": "10.1145/3731155",
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-11T14:50:02+08:00"
+      "last_seen_at": "2026-10-12T14:57:52+08:00"
     },
     {
       "source": "semanticscholar",
@@ -3793,7 +4242,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-11T14:50:02+08:00"
+      "last_seen_at": "2026-10-12T14:57:52+08:00"
     },
     {
       "source": "semanticscholar",
@@ -3907,7 +4356,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-11T14:50:02+08:00"
+      "last_seen_at": "2026-10-12T14:57:52+08:00"
     },
     {
       "source": "semanticscholar",
@@ -3940,7 +4389,7 @@
     }
   ],
   "last_run": {
-    "at": "2026-10-11T14:50:02+08:00",
+    "at": "2026-10-12T14:57:52+08:00",
     "sources": [
       "arxiv",
       "semanticscholar",
@@ -3956,9 +4405,9 @@
       "MLS-MPM",
       "projective dynamics cloth"
     ],
-    "fetched": 112,
-    "merged": 31,
-    "new": 2
+    "fetched": 92,
+    "merged": 22,
+    "new": 16
   },
   "topic": "game technology: physics simulation, real-time rendering, global illumination",
   "schema_version": 1
