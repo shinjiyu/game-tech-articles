@@ -1,0 +1,166 @@
+{
+  "date": "2026-10-13",
+  "run": {
+    "at": "2026-10-13T15:24:18+08:00",
+    "sources": [
+      "arxiv",
+      "semanticscholar",
+      "dblp"
+    ],
+    "keywords": [
+      "material point method cloth",
+      "\"position based\" dynamics cloth",
+      "incremental potential contact",
+      "real-time fluid simulation graphics",
+      "global illumination real-time",
+      "ray tracing global illumination",
+      "MLS-MPM",
+      "projective dynamics cloth"
+    ],
+    "fetched": 102,
+    "merged": 27,
+    "new": 5
+  },
+  "new_candidates": [
+    {
+      "source": "semanticscholar",
+      "arxiv_id": "",
+      "doi": "10.21070/acopen.11.2026.13796",
+      "title": "Lagrange Multiplier Reduces Cloth Diaper Raw Material Inventory Cost",
+      "authors": [
+        "Z. Sari",
+        "S. Sumiati"
+      ],
+      "published": "2026-04-16",
+      "url": "https://www.semanticscholar.org/paper/26e493402ab9dfe99f50510b6ca6bedfb47e4124",
+      "abstract": "General Background The textile manufacturing industry requires efficient raw material inventory control to ensure production continuity and cost minimization. Specific Background CV ABC faces challenges in managing cloth diaper raw material inventory due to ordering policies that are not aligned with actual demand and warehouse capacity, leading to excess stock and increased costs. Knowledge Gap Previous studies often apply optimization methods separately and rarely integrate constrained optimization, reorder decision models, and demand forecasting within capacity-limited environments in small to medium textile industries. Aims This study aims to minimize total inventory costs by applying the Lagrange Multiplier method under warehouse capacity constraints and the Reorder Point (ROP) method to determine optimal reorder timing, supported by demand forecasting. Results The proposed approach yields a total inventory cost of IDR 22,194,689, lower than the company’s existing cost of IDR 23,965,625, resulting in savings of IDR 1,770,936 (7%) while achieving optimal warehouse utilization of 15.064 m³. Novelty This study demonstrates the integration of demand forecasting, Lagrange Multiplier, and ROP methods within a capacity-constrained inventory system for cloth diaper production. Implications The findings provide a practical inventory planning framework for small and medium textile manufacturers to determine optimal order quantities and reorder timing while considering storage limitations and cost efficiency.\nHighlights:\n\nProposed model reduced total expenditure by 7% compared to existing practice.\nStorage utilization achieved full alignment with available space limits.\nIntegrated approach determined optimal order quantity and reorder timing simultaneously.\n\nKeywords: Inventory, Lagrange Multiplier, Reorder Point",
+      "external_ids": [
+        "s2:26e493402ab9dfe99f50510b6ca6bedfb47e4124",
+        "doi:10.21070/acopen.11.2026.13796"
+      ],
+      "sources": [
+        "semanticscholar"
+      ],
+      "matched_keywords": [
+        "material point method cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-13T15:24:18+08:00",
+      "last_seen_at": "2026-10-13T15:24:18+08:00"
+    },
+    {
+      "source": "semanticscholar",
+      "arxiv_id": "2503.05046",
+      "doi": "10.1109/IROS60139.2025.11245821",
+      "title": "A Convex Formulation of Material Points and Rigid Bodies with GPU-Accelerated Async-Coupling for Interactive Simulation",
+      "authors": [
+        "Chang Yu",
+        "Wen-Xin Du",
+        "Ze-Shun Zong",
+        "Alejandro M. Castro",
+        "Chenfanfu Jiang",
+        "Xu-Chen Han"
+      ],
+      "published": "2025-03-06",
+      "url": "https://arxiv.org/abs/2503.05046",
+      "abstract": "We present a novel convex formulation that weakly couples the Material Point Method (MPM) with rigid body dynamics through frictional contact, optimized for efficient GPU parallelization. Our approach features an asynchronous time-splitting scheme to integrate MPM and rigid body dynamics under different time step sizes. We develop a globally convergent quasi-Newton solver tailored for massive parallelization, achieving up to 500× speedup over previous convex formulations without sacrificing stability. Our method enables interactive-rate simulations of robotic manipulation tasks with diverse deformable objects including granular materials and cloth, with strong convergence guarantees. We detail key implementation strategies to maximize performance and validate our approach through rigorous experiments, demonstrating superior speed, accuracy, and stability compared to state-of-the-art MPM simulators for robotics. We make our method available in the open-source robotics toolkit, Drake.",
+      "external_ids": [
+        "s2:6ac7e991c81d415de39986234aec84da552271ab",
+        "arxiv:2503.05046",
+        "doi:10.1109/iros60139.2025.11245821"
+      ],
+      "sources": [
+        "semanticscholar"
+      ],
+      "matched_keywords": [
+        "material point method cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-13T15:24:18+08:00",
+      "last_seen_at": "2026-10-13T15:24:18+08:00"
+    },
+    {
+      "source": "semanticscholar",
+      "arxiv_id": "",
+      "doi": "10.1145/3641519.3657449",
+      "title": "A Dynamic Duo of Finite Elements and Material Points",
+      "authors": [
+        "Xuan Li",
+        "Min-Chen Li",
+        "Xu-Chen Han",
+        "Huamin Wang",
+        "Yin Yang",
+        "Chenfanfu Jiang"
+      ],
+      "published": "2024-07-13",
+      "url": "https://www.semanticscholar.org/paper/5eef49e6d8d0a7ac04a1374d4802057340a70c73",
+      "abstract": "This paper presents a novel method to couple Finite Element Methods (FEM), typically employed for modeling Lagrangian solids such as flesh, cloth, hair, and rigid bodies, with Material Point Methods (MPM), which are well-suited for simulating materials undergoing substantial deformation and topology change, including Newtonian/non-Newtonian fluid, granular materials, and fracturing materials. The challenge of coupling these diverse methods arises from their contrasting computational needs: implicit FEM integration is often favored to enjoy stability and large timesteps, while explicit MPM integration benefits from its allowance for efficient GPU optimization and flexibility of applying different plasticity models, which only allows for moderate timesteps. To bridge this gap, a mixed implicit-explicit time integration (IMEX) approach is proposed, utilizing principles from time splitting for partial differential equations and optimization-based time integrators. This method adopts incremental potential contact (IPC) to define a variational frictional contact model between the two materials, serving as the primary coupling mechanism. Our method enables implicit FEM and explicit MPM to coexist with significantly different timestep sizes while preserving two-way coupling. Experimental results demonstrate the potential of our method as a strong foundation for future exploration and enhancement in the field of multi-material simulation.",
+      "external_ids": [
+        "s2:5eef49e6d8d0a7ac04a1374d4802057340a70c73",
+        "doi:10.1145/3641519.3657449"
+      ],
+      "sources": [
+        "semanticscholar"
+      ],
+      "matched_keywords": [
+        "material point method cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-13T15:24:18+08:00",
+      "last_seen_at": "2026-10-13T15:24:18+08:00"
+    },
+    {
+      "source": "semanticscholar",
+      "arxiv_id": "",
+      "doi": "10.1088/1742-6596/2528/1/012029",
+      "title": "Grinding Path Planning of Abrasive Cloth Wheel Based on Modified Preston Equation",
+      "authors": [
+        "Zhen-Chao Gao",
+        "Gang Zheng"
+      ],
+      "published": "2023-07-01",
+      "url": "https://www.semanticscholar.org/paper/cc1d15c7d724293a2996e5827f3cfc803236edfb",
+      "abstract": "As for the efficient and high-precision grinding of blades, it was studied that a flexible grinding path planning method of the abrasive cloth wheel of the blades. In the paper, based on modified Preston equation, the radial material removal depth model is supplemented, which provides theoretical support for the establishment of the flexible grinding path of the abrasive cloth wheel. After obtaining the abrasive cloth wheel envelope surface by the double parameter sphere family method, the deformation amount of the abrasive cloth wheel is used as the directed distance from the point of the designed surface to the envelope. The sequential linear optimization algorithm is used to optimize the directed distance. Then, the flexible grinding path for constant material removal is obtained. The results of the simulation show that the profile error of the blade processing is improved under the requirements of surface roughness.",
+      "external_ids": [
+        "s2:cc1d15c7d724293a2996e5827f3cfc803236edfb",
+        "doi:10.1088/1742-6596/2528/1/012029"
+      ],
+      "sources": [
+        "semanticscholar"
+      ],
+      "matched_keywords": [
+        "material point method cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-13T15:24:18+08:00",
+      "last_seen_at": "2026-10-13T15:24:18+08:00"
+    },
+    {
+      "source": "semanticscholar",
+      "arxiv_id": "",
+      "doi": "10.1002/cav.2073",
+      "title": "Efficient cloth simulation based on the material point method",
+      "authors": [
+        "Aoran Lv",
+        "Yuanpeng Zhu",
+        "Chuhua Xian"
+      ],
+      "published": "2022-06-01",
+      "url": "https://www.semanticscholar.org/paper/18ad7c16c4de466a3f4400dd6707ed186a0fd998",
+      "abstract": "In this article, we propose a novel cloth simulation method based on the material point method (abbr. MPM). The response to the cloth strain is characterized by three separated models: the continuous in‐plane hyperelasticity, the discrete bending elastoplasticity, and the continuous frictional contact elastoplasticity. We make use of the moving least squares MPM (abbr. MLS‐MPM) transfer scheme and a discrete bending model to reduce computation overhead. We further extend the hyperelastic bending model to be elastoplastic, which can be further used for the simulation of a wide range of thin shell materials, such as thin metal sheets. A fast and approximate signed distance field generation method for humanoid animation is also proposed. Experimental results demonstrate that our method can efficiently and robustly simulate high‐resolution challenging scenes with hundreds of thousands of triangles.",
+      "external_ids": [
+        "s2:18ad7c16c4de466a3f4400dd6707ed186a0fd998",
+        "doi:10.1002/cav.2073"
+      ],
+      "sources": [
+        "semanticscholar"
+      ],
+      "matched_keywords": [
+        "material point method cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-13T15:24:18+08:00",
+      "last_seen_at": "2026-10-13T15:24:18+08:00"
+    }
+  ]
+}
