@@ -1,0 +1,604 @@
+{
+  "date": "2026-10-14",
+  "run": {
+    "at": "2026-10-14T13:49:16+08:00",
+    "sources": [
+      "arxiv",
+      "semanticscholar",
+      "dblp"
+    ],
+    "keywords": [
+      "material point method cloth",
+      "\"position based\" dynamics cloth",
+      "incremental potential contact",
+      "real-time fluid simulation graphics",
+      "global illumination real-time",
+      "ray tracing global illumination",
+      "MLS-MPM",
+      "projective dynamics cloth"
+    ],
+    "fetched": 102,
+    "merged": 25,
+    "new": 17
+  },
+  "new_candidates": [
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.18872",
+      "arxiv_version": "v1",
+      "title": "EgoExplorer: A Vision-Motion-Touch Observatory for Human Loco-Manipulation In Situ",
+      "authors": [
+        "Yunsong Zhou",
+        "Xuekun Jiang",
+        "Haiqi Shen",
+        "Hangxu Liu",
+        "Chaojian Shi",
+        "Yujie Liu",
+        "Jingyuan Li",
+        "Haoran Yang",
+        "Jiafei Cao",
+        "Dongzhan Zhou",
+        "Dong Wang",
+        "Yao Mu",
+        "Chunhua Shen",
+        "Weinan Zhang"
+      ],
+      "published": "2026-10-13",
+      "url": "https://arxiv.org/abs/2610.18872",
+      "abstract": "Learning humanoid loco-manipulation from human demonstrations rests on observing how locomotion, posture, and object interaction evolve together as tasks unfold. Scaling collection across diverse environments, in turn, favors lightweight, portable capture systems. Yet, existing datasets provide only partial views of this coordination. Thus, we introduce EgoExplorer, a 100-hour vision-motion-touch observatory of human loco-manipulation built with a wearable system. With an emphasis on professional activities, its continuous recordings align egocentric video with reconstructed whole-body motion, fine-grained finger articulation, and tactile observations, accompanied by step-level descriptions. To achieve this coverage with sparse body sensing, we develop the Calibrate-Complete-Constrain pipeline. Concretely, reusable calibration fixes participant geometry and sensor attachments before motion inference to disentangle mounting offsets from articulation. A temporal prior then completes unobserved joint motion, while layered constraints promote measurement agreement, temporal continuity, and geometric consistency, properties that motion plausibility alone does not guarantee. Against tracker-fitted references, the method reduces body-point error by 71.9% relative to the strongest baseline; matched evaluations also show gains in hand stability and contact estimation. Preliminary studies explore multimodal generation and conditioning alongside humanoid retargeting with whole-body control in simulation.",
+      "external_ids": [
+        "arxiv:2610.18872"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "incremental potential contact",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-14T13:49:16+08:00",
+      "last_seen_at": "2026-10-14T13:49:16+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.18871",
+      "arxiv_version": "v1",
+      "title": "Cepheid: Decoupling Scale from Structure for Cross-Family Motion Completion",
+      "authors": [
+        "Chih-Hai Su",
+        "Tsung-Wei Ke",
+        "Yu-Lun Liu"
+      ],
+      "published": "2026-10-13",
+      "url": "https://arxiv.org/abs/2610.18871",
+      "abstract": "Sparse-to-dense motion completion recovers dense mesh motion from sparse vertex displacements. Residual priors trained on one geometry family frequently fail to beat parameter-free harmonic extension off-family. Moreover, cross-family training meets a scaling barrier: residual amplitude varies by more than an order of magnitude across geometry families and collapses as observations become denser. Since this scale depends on unknown target motion, it cannot be measured directly at test time. We decouple residual structure from physical scale by learning a dimensionless prior, estimating amplitude from observables and a lightweight correction fitted only on training sources. Our unified model surpasses harmonic extension across all evaluated families, including unseen cloth and legged bodies, without skeletons, registration, or cross-mesh correspondence. The same prior applies without retraining to point-tracked animal video and a robot grasping a soft body. Project page: https://su-terry.github.io/cepheid-website/",
+      "external_ids": [
+        "arxiv:2610.18871"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-14T13:49:16+08:00",
+      "last_seen_at": "2026-10-14T13:49:16+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.18867",
+      "arxiv_version": "v1",
+      "title": "EmbodiedEvo: Self-improving Coding Agents for Physical Intelligence",
+      "authors": [
+        "Wenyi Li",
+        "Yizhe Chi",
+        "Youjie Zheng",
+        "Chunyu Liu",
+        "Xiaoqiu Wang",
+        "Mingju Gao",
+        "Zheng Jiang",
+        "Deyao Hong",
+        "Calvin Xiao",
+        "Kaisen Yang",
+        "Qinhuai Na"
+      ],
+      "published": "2026-10-13",
+      "url": "https://arxiv.org/abs/2610.18867",
+      "abstract": "Bringing general-purpose agents into the physical world calls for an executable representation of physical intelligence. Compared with vision-language-action (VLA) models, which map observations and language instructions directly to actions, code makes control logic explicit and reusable. Code can serve not only as a policy representation but also as the workspace in which the agent solves a task. Rather than following a prescribed workflow of planning, execution, and verification, the agent can autonomously inspect the state, revise and execute code, and use feedback to choose the next step. The success of this SWE-style loop in digital environments motivates its extension to physical tasks. Yet physical execution remains prone to recurring failures. To retain and refine experience for later scenes, we introduce EmbodiedEvo, where a coding agent evolves reusable Skills and Lessons through feedback on a single Playground scene, then freezes the resulting harness for diverse new scenes. On RoboDojo-Sim, EmbodiedEvo achieves an average score of 44.48 and a success rate of 37.82\\%, surpassing all officially verified results. Paired tests show the largest gains on memory-dependent tasks and successful reuse of coordinated procedures, while fine contact control remains difficult. Experience from stronger models also improves weaker executors: Astra's experience raises Sol and Luna's success rates by 8.86 and 5.50 percentage points over no experience. Compared with raw interaction history, Skills and Lessons achieve comparable task performance at 53.0\\% lower execution cost.",
+      "external_ids": [
+        "arxiv:2610.18867"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-14T13:49:16+08:00",
+      "last_seen_at": "2026-10-14T13:49:16+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.18855",
+      "arxiv_version": "v1",
+      "title": "Interaction Latents as Actions for Contact-Rich Manipulation",
+      "authors": [
+        "Yuhang Zheng",
+        "Yujie Zang",
+        "Yuchen Liu",
+        "Yupeng Zheng",
+        "Zhennan Jiang",
+        "Zebin Xing",
+        "Shuai Tian",
+        "Songen Gu",
+        "Jingxiang Guo",
+        "Chen Gao",
+        "Zhongpu Xia",
+        "Shuicheng Yan"
+      ],
+      "published": "2026-10-13",
+      "url": "https://arxiv.org/abs/2610.18855",
+      "abstract": "Contact-rich manipulation requires robots to coordinate not only where to move, but also how contact and force should evolve throughout an interaction. Yet most robot policies represent actions primarily as motion trajectories, using tactile signals as inputs or auxiliary prediction targets without explicitly encoding contact dynamics in the action representation. We propose ILA (Interaction Latents as Actions), which uses decodable interaction latents that jointly capture the evolution of motion, contact, and force application as policy action units, providing a shared representation for action generation, evaluation, and offline improvement. We learn these latents through visually conditioned joint action-tactile reconstruction with a time-conditioned implicit decoder. Using them as flow-matching generation targets supports post-training of pretrained vision-language-action models (VLAs) and world action models (WAMs), as well as training flow-matching policies from scratch. A shared decoder maps generated latents to executable actions. For offline improvement, we learn a tactile-conditioned expert reference model from interaction latents encoded from expert demonstrations. The resulting expert-consistency rewards guide weighted learning from successful rollouts, while observation-compatible expert references guide correction of low-reward predictions from failed rollouts. Across three policy families, ILA improves success rates averaged over four real-world tasks by 21.0-36.5 percentage points relative to tactile-conditioned direct-action baselines. Ablations highlight the benefit of encoding contact evolution in action targets beyond tactile conditioning, while the same latent space supports expert-guided offline improvement. Project website: https://mrsecant.github.io/ILA/.",
+      "external_ids": [
+        "arxiv:2610.18855"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "incremental potential contact",
+        "real-time fluid simulation graphics",
+        "global illumination real-time",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-14T13:49:16+08:00",
+      "last_seen_at": "2026-10-14T13:49:16+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.18852",
+      "arxiv_version": "v1",
+      "title": "ForceWAM: Decoupling Future and Response Learning from Demo and Play Data for Contact-Rich Manipulation",
+      "authors": [
+        "Zijun Xu",
+        "Wendi Chen",
+        "Xinkai Wang",
+        "Jiachen Zou",
+        "Hongjin Chen",
+        "Hairuo Liu",
+        "Bokai Lin",
+        "Shihao Ma",
+        "Ke Ma",
+        "Zhiwei Zhang",
+        "Zhuohao Yan",
+        "Ke Wu",
+        "Haoming Song",
+        "Xueqi Li",
+        "Chuan Wen",
+        "Jieru Zhao",
+        "Wenchao Ding",
+        "Cewu Lu",
+        "Lixin Yang"
+      ],
+      "published": "2026-10-13",
+      "url": "https://arxiv.org/abs/2610.18852",
+      "abstract": "Expert demonstrations show how to complete contact-rich tasks, but provide limited coverage of how interaction forces respond to different actions. Task-agnostic play provides broader experience of contact dynamics without specifying task goals. To fully leverage these two types of data, we introduce ForceWAM, a force world action model that decouples knowledge of task-compatible interaction outcomes from knowledge of how local actions change contact. A world model learns from successful demonstrations to jointly predict future video and six-axis force/torque trajectories. Together, these futures describe the expected evolution of motion and contact during the task. A separate inverse dynamics model (IDM) learns from both task and play, mapping current observations and recorded visual-wrench futures to their associated robot actions. Play data thus provide knowledge of force responses for goal-directed execution. At deployment, the IDM reactively translates generated futures into actions, reusing them with fresh wrench feedback between world-model updates. Across real-robot force-regulated sliding, box flipping with and without disturbances, and ring placement, ForceWAM achieves $85$-$95\\%$ mean success, surpassing world-modeling and reactive baselines. Our experiments further show that adding task-agnostic play data improves success by $15$-$45$ percentage points, demonstrating its value for learning contact-rich execution. Project page and code are available at https://force-wam.github.io/.",
+      "external_ids": [
+        "arxiv:2610.18852"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "incremental potential contact",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-14T13:49:16+08:00",
+      "last_seen_at": "2026-10-14T13:49:16+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.18835",
+      "arxiv_version": "v1",
+      "title": "RoboSimStudio: An Interactive Toolkit for Rapid Real2Sim of Robot Manipulation Tasks",
+      "authors": [
+        "Kaiyuan Chen",
+        "Shuangyu Xie",
+        "Uksang Yoo",
+        "Xinyue Zhu",
+        "Cael Magner",
+        "Alvin Zhu",
+        "Daehwa Kim",
+        "Eric Heiden",
+        "Erwin Coumans",
+        "Miles Macklin",
+        "Spencer Huang",
+        "Ken Goldberg"
+      ],
+      "published": "2026-10-13",
+      "url": "https://arxiv.org/abs/2610.18835",
+      "abstract": "It is difficult to accurately model the physics of the interaction between a robot and the objects it manipulates, including contact mechanics, coupled contact dynamics, deformations, stiffness and friction. We present RoboSimStudio (RSS), an interactive toolkit that makes choices of solver, contact model, and physical parameters explicit and editable, allowing both humans and coding agents to iteratively refine simulations based on observed physical behavior. We implement RSS with the open Newton physics simulation system and describe experiments with human-guided real2sim using (1) visual evaluation, (2) force-feedback and (3) agentic Real2Sim2Real. Code, video and additional information can be found on the project website.",
+      "external_ids": [
+        "arxiv:2610.18835"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "incremental potential contact",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-14T13:49:16+08:00",
+      "last_seen_at": "2026-10-14T13:49:16+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.18869",
+      "arxiv_version": "v1",
+      "title": "What Matters in Quality-Aware VLA Pretraining: A Benchmark and Empirical Study",
+      "authors": [
+        "Mingxuan Yan",
+        "Litian Gong",
+        "Dihong Huang",
+        "Zhixu Li",
+        "Tianyu Zhang",
+        "Wenqian Zhang",
+        "Hefeifei Jiang",
+        "Peihao Li",
+        "Jian Zhang",
+        "Mengfei Zhao",
+        "Yikai Tang",
+        "Hai Zhai",
+        "Zehao Wang",
+        "Ruijian Liang",
+        "Yanjia Huang",
+        "Lin Shao",
+        "Changliu Liu",
+        "Kaiyu Hang",
+        "Zhiwen Fan",
+        "Masayoshi Tomizuka",
+        "Jianfei Yang",
+        "Jiachen Li"
+      ],
+      "published": "2026-10-13",
+      "url": "https://arxiv.org/abs/2610.18869",
+      "abstract": "How should demonstration quality be used during vision-language-action (VLA) pretraining to improve performance after target-task fine-tuning? We compare weighting, filtering, and conditioning across reward definitions and label granularities using 5,000 naturally suboptimal human demonstrations and 24 target tasks. Within each VLA, we match demonstrations and training budgets. Additional comparisons examine pretraining data size and the roles of quality tags during fine-tuning and inference. Across three VLAs, we find that approach-aware episode conditioning improves mean success over plain behavioral cloning; conditioning and filtering favor episode and chunk labels, respectively, on average, with model-dependent reversals; and constant-tag fine-tuning improves mean success after conditioned pretraining with either tagged or untagged inference. We introduce AXIS-Bench to support these controlled comparisons. Built on crowdsourced simulation demonstrations, it provides recorded object and contact states for recomputing quality labels on shared trajectories. Replayable trajectories support workspace-aligned rendering and user-defined real-world target tasks. In our real-world experiment, simulation pretraining raises success from 9.6\\% to 31.7\\%. Project page: https://axis-bench.github.io/.",
+      "external_ids": [
+        "arxiv:2610.18869"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-14T13:49:16+08:00",
+      "last_seen_at": "2026-10-14T13:49:16+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.18848",
+      "arxiv_version": "v1",
+      "title": "Contact Trajectory Prompting: In-Context Transfer of Contact-Rich Behaviors from a Single Demonstration",
+      "authors": [
+        "Xian Nie",
+        "Yujie Zang",
+        "Yuhang Zheng",
+        "Yupeng Zheng",
+        "Songen Gu",
+        "Wendi Chen",
+        "Chuan Wen",
+        "Cewu Lu",
+        "Wenchao Ding",
+        "Junchi Yan",
+        "Shuicheng Yan"
+      ],
+      "published": "2026-10-13",
+      "url": "https://arxiv.org/abs/2610.18848",
+      "abstract": "In-context robot learning enables robots to acquire new behaviors from demonstrations without test-time parameter updates. However, visual and kinematic specifications alone may not distinguish contact-rich behaviors that share similar motions but require different interaction intensities or patterns. We propose Contact Trajectory Prompting (CTP), a framework for one-shot transfer of contact-rich manipulation behaviors. CTP encodes motion and contact information from a single demonstration into an ordered contact trajectory prompt that captures their temporal evolution and specifies the desired physical interaction behavior. During execution, the policy uses online sensory feedback to retrieve interaction-relevant information from the prompt, conditioning closed-loop action generation on the demonstrated contact behavior. Across real-world wiping, rotation, and insertion tasks on objects excluded from training, CTP achieves 78.7% overall success, outperforming the strongest evaluated baseline by 13.0 percentage points. Changing only the reference demonstration enables CTP to follow contact specifications for both intensity and direction, including an intermediate wiping force level and clockwise or counterclockwise cap rotation. These results demonstrate that contact trajectories serve as effective behavioral specifications, extending in-context robot learning beyond motion imitation to physical interaction transfer. Project website: https://ctp-robotics.github.io/project_page.",
+      "external_ids": [
+        "arxiv:2610.18848"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact",
+        "real-time fluid simulation graphics",
+        "global illumination real-time",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-14T13:49:16+08:00",
+      "last_seen_at": "2026-10-14T13:49:16+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.18822",
+      "arxiv_version": "v1",
+      "title": "EgoMatrix: Physically Faithful Dexterous Robot Demonstrations from Egocentric Human Videos",
+      "authors": [
+        "Ziheng Wang",
+        "Yanming Shao",
+        "Ting Mao",
+        "Kaihan Chen",
+        "Yiqun Wang",
+        "Xuanye Wu",
+        "Yao Mu"
+      ],
+      "published": "2026-10-13",
+      "url": "https://arxiv.org/abs/2610.18822",
+      "abstract": "Egocentric human videos offer a scalable alternative to robot teleoperation for collecting dexterous manipulation data. However, two challenges limit their use as reliable training data: accurate hand-object interaction (HOI) reconstruction from monocular RGB and high-quality robot demonstrations, especially visual observations. We present EgoMatrix, an end-to-end data engine that converts monocular egocentric human videos into bimanual dexterous trajectories and paired robot observation videos, with the trajectories directly replayable on real robots. It reconstructs HOI with emphasis on relative geometry and contact rather than exact metric scene recovery, then uses retargeting and reinforcement learning (RL) to reproduce the demonstrated tasks in simulation. We jointly render robot hands and objects from these simulated trajectories to produce physically faithful observations synchronized with state and control records. Rendering the same trajectories in diverse, task-compatible backgrounds expands paired training data while preserving robot-object motion and contact. Across TACO, OakInk2, and self-collected data, EgoMatrix achieves 54.84% end-to-end success in simulation versus 14.52% for the strongest baseline. Reconstruction reaches state-of-the-art performance on most metrics of the two public benchmarks. Qualitative results show more faithful hand-object interactions than prior methods, while feature-space analysis shows closer alignment with real-robot observations than GPT-6 Astra.Our project page is available at https://spikew726.github.io/EgoMatrix/.",
+      "external_ids": [
+        "arxiv:2610.18822"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-14T13:49:16+08:00",
+      "last_seen_at": "2026-10-14T13:49:16+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.18864",
+      "arxiv_version": "v1",
+      "title": "Simulations of the Evolving Ozone Layer: Implications for the Early Earth, Exoplanets, and the Search For Life",
+      "authors": [
+        "Akhil Kumar",
+        "Gregory J. Cooke"
+      ],
+      "published": "2026-10-13",
+      "url": "https://arxiv.org/abs/2610.18864",
+      "abstract": "Over 4 billion years, Earth's atmosphere has been transformed from a composition devoid of molecular oxygen (O$_2$) to one where O$_2$ is now 21% of our modern atmosphere by volume. With high quantities of O$_2$, an ozone (O$_3$) layer can form and partially shield the surface from biologically harmful ultraviolet radiation (UV). The evolution of the O$_3$ layer has previously been simulated under the modern Sun by independent groups with separate models. Here, we present simulations of Earth's atmosphere from four open-source one-dimensional (1D) photochemical models and a 3D chemistry-climate model, focussing on O$_3$. We find that the O$_3$ layer thickness exhibits a clear deviation between the 1D models and the 3D model due to several factors, including treatments of O$_2$ photolysis, chemical networks, H$_2$O microphysics and 3D transport. We find that 1D models introduce a bias for unobserved climate states and show how these biases may propagate to calculations of biological UV damage and surface habitability. We show that when applied to specific exoplanet atmospheres, these discrepancies can become more pronounced, propagating through to observational predictions for the next generation of telescopes, such as HWO and LIFE, that will search for habitable and inhabited exoplanets.",
+      "external_ids": [
+        "arxiv:2610.18864"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-14T13:49:16+08:00",
+      "last_seen_at": "2026-10-14T13:49:16+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.18850",
+      "arxiv_version": "v1",
+      "title": "Collaborative Planning for UAV-UGV Teams under Operational Constraints via Masked Error-bounded Neuro-Symbolic Diffusion",
+      "authors": [
+        "Zihao Deng",
+        "Qianhuang Li",
+        "Maggie Wigness",
+        "John Rogers",
+        "Donghyun Kim",
+        "Hao Zhang"
+      ],
+      "published": "2026-10-13",
+      "url": "https://arxiv.org/abs/2610.18850",
+      "abstract": "Collaborative planning under operational constraints is essential for heterogeneous robot teams in large-scale missions. Unmanned Aerial Vehicles (UAVs) provide rapid area coverage but are limited by onboard energy, while Unmanned Ground Vehicles (UGVs) can serve as mobile recharging stations yet are constrained by road-network traversability. Effective collaboration must enforce operational constraints during execution while enabling parallel, coordinated actions. Masked Diffusion Models (MDMs) have shown promise through token unmasking but have two key limitations: entropy-guided scheduling assumes distributional alignment and reliance on differentiable constraints for diffusion-time optimization. We propose Masked Error-bounded Neuro-Symbolic Diffusion (MEND), which formulates collaborative planning as a conditional masked generative process to generate context-aware action sequences for UAV-UGV teams. MEND introduces a neuro-symbolic diffusion paradigm that constrains conditional masked diffusion policies at execution by reweighting the learned action distribution with a logic-induced admissibility indicator, thereby enforcing compliance with operational constraints. MEND introduces an error-bounded inference scheduling at execution that constructs the unmasking schedule by selecting positions with minimal predictive entropy over the constraint-aware action distribution, enhancing collaborative planning optimality under operational constraints. Extensive experimental results in simulation, on real-world maps, and with physical robot teams demonstrate that MEND advances UAV-UGV collaborative planning under operational constraints.",
+      "external_ids": [
+        "arxiv:2610.18850"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics",
+        "global illumination real-time"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-14T13:49:16+08:00",
+      "last_seen_at": "2026-10-14T13:49:16+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.18831",
+      "arxiv_version": "v1",
+      "title": "AegisAsync: Symbolic Async-Event Simulation for Risks in Python Asynchronous Programs",
+      "authors": [
+        "Baihong Chen",
+        "Wen Li"
+      ],
+      "published": "2026-10-13",
+      "url": "https://arxiv.org/abs/2610.18831",
+      "abstract": "Security and robustness risks in Python async programs depend on event order, object identity, and execution after exceptions or cancellation. Detecting these risks requires connecting related operations across function calls and tracking their effects along execution paths. We present AegisAsync, a bytecode-based analysis of Python async risks for CPython 3.10-3.14. Its Async Event Transition Graph combines bytecode control flow, resolved calls, async events, and symbolic object relations. Bounded path-local simulation tracks event order and object states and explores cancellation at await suspensions. Six detector plugins evaluate the resulting traces and states to produce candidates with supporting witnesses. On AsyncBench, our benchmark of 180 labeled risks, AegisAsync detects all labeled risks with zero false positives on each of the five versions. Across five path budgets on 2,500 PyPI package versions, source review confirms 457 of 910 AegisAsync candidate records (50.2%), representing 457 unique bugs; across three flake8-async samples, 70 of 2,187 review judgments are confirmed (3.2%). By submission, 166 PoCs reproduce AegisAsync findings, and we have reported 157 bugs to developers, of which 16 have been confirmed and fixed.",
+      "external_ids": [
+        "arxiv:2610.18831"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-14T13:49:16+08:00",
+      "last_seen_at": "2026-10-14T13:49:16+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.18830",
+      "arxiv_version": "v1",
+      "title": "A 4D $T^\\prime$-expanded lattice QCD equation of state with a multi-dimensional 3D-Ising-type critical contribution",
+      "authors": [
+        "Francesco Di Clemente",
+        "Prachi Garella",
+        "Johannes Jahan",
+        "Micheal Kahangirwe",
+        "Jamie M. Karthein",
+        "Jacquelyn Noronha-Hostler",
+        "Claudia Ratti",
+        "Mikhail Stephanov"
+      ],
+      "published": "2026-10-13",
+      "url": "https://arxiv.org/abs/2610.18830",
+      "abstract": "Inferring the possible existence and location of a critical point on the QCD phase diagram through experimental observations requires equations of state that include both lattice QCD constraints and critical behavior. In this manuscript, we present the first four-dimensional equation of state in the $(T,μ_B,μ_Q,μ_S)$ space combining the lattice 4D $T^\\prime$-Expansion Scheme with a critical contribution mapped from the 3D Ising model. We extend the earlier two-dimensional construction, the so-called Ising 2D-TExS in the $(T, μ_B)$ plane, promoting the critical point to a parametrizable critical surface in the full four-dimensional thermodynamic space. Our framework provides a family of equations of state to systematically study the effects of criticality in realistic hydrodynamic simulations with $BQS$ conserved charges, going beyond the case of strangeness neutrality, by varying the geometry of the critical surface and the strength of criticality at finite $μ_B$, $μ_Q$ and $μ_S$ separately.",
+      "external_ids": [
+        "arxiv:2610.18830"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-14T13:49:16+08:00",
+      "last_seen_at": "2026-10-14T13:49:16+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.18827",
+      "arxiv_version": "v1",
+      "title": "Gaussian entanglement and quantum communication: geodesic optimization and multimode bounds",
+      "authors": [
+        "Hemant K. Mishra",
+        "Mark M. Wilde"
+      ],
+      "published": "2026-10-13",
+      "url": "https://arxiv.org/abs/2610.18827",
+      "abstract": "Loss and noise limit the use of light to distribute entanglement, transmit quantum information, and establish secret keys. Gaussian states have a compact description in terms of means and covariance matrices, but their entanglement still requires global optimization. We develop a framework for computing Gaussian-restricted versions of the relative entropy of entanglement and Rains entanglement. An integral representation reveals a convex geometry under matrix geometric means and reduces Gaussian Rains entanglement to relative entropy minimized over Gaussian states with positive partial transpose. We obtain unique optimal reference states and additivity for independent Gaussian input states. Our convex-majorization algorithm has an explicit geometric convergence rate, uniform in the faithful regularization parameter and valid for pure input states. Controlled numerical integration and approximate convex subproblem solutions give a bit-complexity bound that is polynomial in accuracy bits for each fixed rational input covariance matrix, with explicit dependence on covariance size. These calculations bound extractable entanglement and, through the relative entropy of entanglement, extractable secret key. Teleportation simulation, energy allocation, and a convex optimization of passive-basis loss cores give bounds on quantum and private communication under an input-energy constraint, allowing arbitrary two-way classically assisted protocols. Two- and three-mode examples compare the bounds with achievable rates, including matching pure-loss benchmarks. Finally, we separate the Gaussian-restricted quantities from their unrestricted counterparts and give a photon-number truncation method with controlled error for computing the latter.",
+      "external_ids": [
+        "arxiv:2610.18827"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "global illumination real-time",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-14T13:49:16+08:00",
+      "last_seen_at": "2026-10-14T13:49:16+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.18825",
+      "arxiv_version": "v1",
+      "title": "Joint Neural Posterior Estimation and Model Selection for Chemical Reaction Networks",
+      "authors": [
+        "J. Arturo Esquivel",
+        "Jorge A. Campos-Gonzalez-Angulo",
+        "Sergio Pablo-García",
+        "Alán Aspuru-Guzik",
+        "Vianey Leos-Barajas"
+      ],
+      "published": "2026-10-13",
+      "url": "https://arxiv.org/abs/2610.18825",
+      "abstract": "Simulation-based Bayesian inference for Chemical Reaction Networks (CRNs) must simultaneously solve two computationally demanding problems: discriminating between overlapping reaction pathways and estimating reaction rate constants. Classical approaches, such as Sequential Monte Carlo ABC, rely on handcrafted summary statistics and scale poorly across large parameter spaces. To overcome this, we introduce a neural inference architecture. Our pipeline utilizes shared 1D-CNNs and a permutation-invariant Set Attention mechanism to learn low-dimensional summary statistics from variable-length, multi-experiment time-series data. These statistics simultaneously condition a model selection network to compute posterior model probabilities and model-specific conditional Invertible Neural Networks (cINNs) that estimate parameter posterior distributions. We demonstrate the practical utility of our approach on a real protodeboronation example, illustrating how it handles structural ambiguity and extracts kinetic parameters from competing catalyst deactivation pathways.",
+      "external_ids": [
+        "arxiv:2610.18825"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "global illumination real-time"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-14T13:49:16+08:00",
+      "last_seen_at": "2026-10-14T13:49:16+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.18840",
+      "arxiv_version": "v1",
+      "title": "Seeing Double: The Theory Defying Twin Flares of TDE 2022dbl",
+      "authors": [
+        "Xinze Guo",
+        "Ryan Chornock",
+        "Raffaella Margutti",
+        "Yuhan Yao",
+        "Erica Hammerstein",
+        "Natalie LeBaron",
+        "S. Bradley Cenko",
+        "Matthew J. Graham",
+        "Dina Ibrahimzade",
+        "Itai Sfaradi",
+        "Jean Somalwar",
+        "Robert Stein",
+        "Eli Wiston",
+        "Joahan Castaneda Jaimes",
+        "Mansi M. Kasliwal",
+        "Russ R. Laher"
+      ],
+      "published": "2026-10-13",
+      "url": "https://arxiv.org/abs/2610.18840",
+      "abstract": "Partial tidal disruption events, in which a star survives a close passage by a supermassive black hole and may be disrupted again on a subsequent encounter, provide a unique probe of supermassive black hole properties and accretion physics. We examine TDE 2022dbl, a partial tidal disruption event candidate that exhibits two separate UV/optical flares, using 11 new optical spectra, updated UV/optical photometry, and a Keck-II/ESI host-galaxy spectrum. We trace the evolution of the prominent blended N III + He II feature across both flares and find that the blend evolves from N III-dominated to He II-dominated emission, which may reflect changing ionization conditions and a declining efficiency of Bowen fluorescence. The two flares show similar thermal evolution and spectral features, supporting a partial-disruption scenario. The second flare exhibits a broader, plateau-like peak, a longer decline timescale, and less extreme line velocities than the first flare. We suggest that these differences arise from the interaction between debris from the second disruption and an accretion disk formed during the first flare. From the host-galaxy velocity dispersion, we infer a black hole mass of $\\log_{10}(M_{\\rm BH}/M_\\odot)=6.01\\pm0.45$. No third flare has been detected at the expected recurrence epoch, leading us to propose a new interpretation in which a positive-energy kick during ballistic core reformation delays the return of the surviving remnant.",
+      "external_ids": [
+        "arxiv:2610.18840"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-14T13:49:16+08:00",
+      "last_seen_at": "2026-10-14T13:49:16+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.18817",
+      "arxiv_version": "v1",
+      "title": "Single anyons and anyon binding in a quantum Hall dot",
+      "authors": [
+        "Marco Valentini",
+        "Will Wang",
+        "Amir Shapour Mohammadi",
+        "Noah Samuelson",
+        "Chengxuan Li",
+        "Liam Cohen",
+        "Mark Zakharyan",
+        "Jiechao Feng",
+        "Taige Wang",
+        "Takashi Taniguchi",
+        "Kenji Watanabe",
+        "Michael P. Zaletel",
+        "Andrea F. Young"
+      ],
+      "published": "2026-10-13",
+      "url": "https://arxiv.org/abs/2610.18817",
+      "abstract": "Anyons are particles with quantized fractional statistics. In theory, a single anyon can be stabilized as a localized fractional charge within the bulk of a topologically ordered two-dimensional insulator. However, experiments to date have focused on probing anyons in structures in which many anyonic excitations coexist and interact. Here, we demonstrate the trapping of a single anyon in a device consisting of a graphene-based quantum point contact with an embedded tunable quantum Hall dot. Benchmarking our device at v = 1, we demonstrate backscattering between Fermi liquid edge states mediated by the whole-electron Coulomb blockade of the dot. The cleanliness and control available in our device allow depletion of the dot to the last quasihole, and we observe spin blockade for transitions to the opposite-spin Landau level. At v = 1/3 and 2/3, we observe backscattering resonances with three times the frequency, consistent with resonant transmission of e/3 charges via a single anyon transistor. We demonstrate controlled depletion to the last quasiparticle to form a single anyon quantum dot. Tracing the charge addition spectrum for quasiparticle number Nqp = 1-5, we observe highly irregular addition energies, consistent with DMRG modeling showing a complex orbital shell-filling behavior. At higher Nqp = 10-20, the addition energies show a striking pattern: quasiholes at 1/3 (and quasiparticles at 2/3) show a regular addition spectrum while quasiparticles at 1/3 (and quasiholes at 2/3) do not. We trace the origin of this irregularity to an attractive component of the inter-anyon interaction: by experimentally tuning the confining energy, we observe complete suppression of alternating charge sectors, after which the dot charges in increments of twice the fundamental charge. This observation indicates the emergence of an anyon binding energy as large as the charging energy.",
+      "external_ids": [
+        "arxiv:2610.18817"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-14T13:49:16+08:00",
+      "last_seen_at": "2026-10-14T13:49:16+08:00"
+    }
+  ]
+}
