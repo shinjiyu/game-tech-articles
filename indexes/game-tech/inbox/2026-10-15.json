@@ -1,0 +1,401 @@
+{
+  "date": "2026-10-15",
+  "run": {
+    "at": "2026-10-15T13:33:34+08:00",
+    "sources": [
+      "arxiv",
+      "semanticscholar",
+      "dblp"
+    ],
+    "keywords": [
+      "material point method cloth",
+      "\"position based\" dynamics cloth",
+      "incremental potential contact",
+      "real-time fluid simulation graphics",
+      "global illumination real-time",
+      "ray tracing global illumination",
+      "MLS-MPM",
+      "projective dynamics cloth"
+    ],
+    "fetched": 112,
+    "merged": 24,
+    "new": 13
+  },
+  "new_candidates": [
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.20605",
+      "arxiv_version": "v1",
+      "title": "Nodal nematic superconductivity in moiré graphene",
+      "authors": [
+        "Shuwen Sun",
+        "Grgur Palle",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Rafael M. Fernandes",
+        "Pablo Jarillo-Herrero",
+        "Jeong Min Park"
+      ],
+      "published": "2026-10-14",
+      "url": "https://arxiv.org/abs/2610.20605",
+      "abstract": "Unconventional superconductivity can emerge in various forms in strongly correlated systems. Historically, the most extensively studied examples include nodal and triplet pairing, which were experimentally detected in cuprates and superfluid helium-3, respectively. Beyond these canonical cases, there are also nematic superconductors, in which the rotational symmetry of the lattice is broken in the superconducting state. While there are several examples of nematic superconductors whose pairing emerges inside a preexisting nematic normal state, experimental evidence for superconducting states that intrinsically break rotational symmetry on their own has been exceedingly scarce. Here, we report the experimental realization and identification of an intrinsic multi-component nodal nematic superconducting state in magic-angle twisted trilayer graphene (MATTG). By integrating tunneling spectroscopy with quantum transport measurements, we directly probe the symmetry of low-energy superconducting quasiparticles. Deep inside the superconducting state, we observe a pronounced two-fold anisotropy in the zero-bias tunneling conductance under an in-plane magnetic field, which is strongly suppressed together with superconductivity as the temperature or perpendicular magnetic field is increased. Remarkably, the major axis of anisotropy rotates by up to $90^{\\circ}$ across the superconducting dome, indicating an intrinsic, field- and density-tunable symmetry of the low-energy excitations. These behaviors imply a nodal superconducting state in MATTG that spontaneously breaks the six-fold rotational symmetry of the moiré superlattice. Our results establish moiré graphene as a versatile platform for realizing and interrogating nodal nematic superconductivity, opening a new avenue for exploring unconventional symmetry-breaking superconducting states in two-dimensional materials.",
+      "external_ids": [
+        "arxiv:2610.20605"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-15T13:33:34+08:00",
+      "last_seen_at": "2026-10-15T13:33:34+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.20590",
+      "arxiv_version": "v1",
+      "title": "Feed-Forward Multi-View Feature Coding for 3D Gaussian Splatting",
+      "authors": [
+        "Seungmi Choi",
+        "Ji-Hyoun Choi",
+        "Suhyun Jo",
+        "Tae-Gwon Park",
+        "Hui Yong Kim"
+      ],
+      "published": "2026-10-14",
+      "url": "https://arxiv.org/abs/2610.20590",
+      "abstract": "Feed-forward 3D Gaussian Splatting (3DGS) methods enable efficient reconstruction of 3D scenes from sparse multi-view images in a single forward pass, without scene-specific optimization. However, existing feed-forward scene-coding pipelines first generate a complete Gaussian representation and then encode its geometry and appearance attributes separately, often involving non-differentiable operations. The resulting 'generate-then-compress' pipeline requires complex attribute-specific codec designs and limits rate-distortion performance by restricting the exploitation of cross-attribute redundancy. We propose multi-view feature coding for Gaussian splatting (MFGS), an end-to-end feed-forward framework for scene coding. Instead of compressing an explicit Gaussian representation, MFGS extracts multi-view features from the input images and encodes them into a compact bitstream. Through end-to-end rate-distortion training, MFGS learns compact multi-view features that jointly represent geometry and appearance, enabling the receiver to predict Gaussian attributes from the decoded features. We further introduce importance-guided Gaussian selection to accommodate different rendering budgets, allowing the receiver to adjust the number of Gaussians used for rendering from the same bitstream. Across RE10K, ACID, and DL3DV, MFGS achieves 99.76-99.86% bitrate savings over the generate-then-compress pipeline, as measured by BD-rate, while reducing total GMACs by 52-55% and providing an approximately 12 times end-to-end speedup.",
+      "external_ids": [
+        "arxiv:2610.20590"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-15T13:33:34+08:00",
+      "last_seen_at": "2026-10-15T13:33:34+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.20560",
+      "arxiv_version": "v1",
+      "title": "PhySGA: A Physics-Space Grounded Agentic Framework for Generalizable and Interactive 3D Composition",
+      "authors": [
+        "Weichen Lyu",
+        "Chong Xia",
+        "Mingyu Dong",
+        "Long Xu",
+        "Shengjun Zhang",
+        "Yueqi Duan"
+      ],
+      "published": "2026-10-14",
+      "url": "https://arxiv.org/abs/2610.20560",
+      "abstract": "3D object composition is pivotal to digital content creation and robot simulation, while also serving as a critical testbed for physical intelligence in foundation models. Previous methods either leverage large language models to directly predict object coordinates, or utilize generative diffusion priors to synthesize composite images for visual alignment, both of which rely on static priors in digital spaces. However, these methods consistently struggle with complex compositions such as precise hanging, gravity-driven settling and hidden containment, as these tasks require interactive construction processes involving global planning, fine-grained alignment, and physical simulation. To address these challenges, we propose PhySGA, a Physics-Space Grounded Agentic Framework for 3D composition via agent exploration and physical simulation, enabling the universal interactive assembly of rigid, articulated, and deformable objects. Directly applying vanilla LLMs or VLMs to this task proves insufficient, as current models inherently lack grounded physical understanding and interactive construction experience. To overcome this limitation, we design a collaborative feedforward-feedback architecture: an Assembly Agent focuses on geometric and kinematic reasoning for global step planning and coarse adjustment, while a Critic Agent reasons over contact dynamics for simulator state diagnosis and fine-grained closed-loop correction. Furthermore, Action Routers map semantic planning and analysis onto executable physical primitives within the simulator, while a task-specific Self-Evolving Skill Library distills historical trial-and-error feedback into reusable experiences, boosting success rates and minimizing exploration attempts. Extensive experiments within Isaac Sim demonstrate that PhySGA significantly surpasses existing methods in relation fidelity, physical plausibility, and visual quality.",
+      "external_ids": [
+        "arxiv:2610.20560"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "incremental potential contact",
+        "real-time fluid simulation graphics",
+        "global illumination real-time",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-15T13:33:34+08:00",
+      "last_seen_at": "2026-10-15T13:33:34+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.20546",
+      "arxiv_version": "v1",
+      "title": "Dynamics of a switchback-like magnetic deflection induced by a propagating coronal jet",
+      "authors": [
+        "Jade Touresse",
+        "Etienne Pariat",
+        "Clara Froment",
+        "Peter F. Wyper"
+      ],
+      "published": "2026-10-14",
+      "url": "https://arxiv.org/abs/2610.20546",
+      "abstract": "Parker Solar Probe (PSP) revealed the ubiquity of switchbacks (SBs), sharp, localised magnetic deflections in the nascent solar wind, renewing interest in their origin. One proposed mechanism involves solar jets: collimated, impulsive features driven by magnetic reconnection that launch Alfvénic torsional wavefronts into the heliosphere. We test whether realistic spacecraft sampling of a propagating solar jet produces in-situ signatures consistent with PSP observations. We also examine the 3D magnetic topology of the resulting structures and how deflection amplitudes evolve with the ambient plasma environment. We perform a 3D magnetohydrodynamic simulation of a solar jet in the ambient solar wind, embedding a virtual spacecraft trajectory based on PSP's actual 22nd-perihelion orbit to generate synthetic measurements. The simulation reproduces SB-like signatures with durations and profiles consistent with PSP observations, confirming earlier results from simplified trajectories. We visualise the fully 3D magnetic topology of a jet-driven SB region, identifying two field-line families: one with a single deflection and another with two sequential deflections along the same field line. Both are outward-propagating Alfvénic structures. Deflection amplitudes depend strongly on background plasma $β$, increasing substantially in low-$β$ regions and evolving more moderately where $β\\sim 1$. These results show that solar jets can produce Alfvénic, SB-like structures along realistic spacecraft trajectories. Their topology is inherently 3D and structurally diverse, and their evolution depends on ambient plasma $β$. Complete magnetic reversals would require longer residence times in low-$β$ environments. Our findings support a solar origin for a fraction of SBs and constrain interpretations of their underlying magnetic structure.",
+      "external_ids": [
+        "arxiv:2610.20546"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-15T13:33:34+08:00",
+      "last_seen_at": "2026-10-15T13:33:34+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.20579",
+      "arxiv_version": "v1",
+      "title": "PingpongDuo: Agile Humanoid Table Tennis Doubles with Safe Team Coordination",
+      "authors": [
+        "Haoran Jiang",
+        "Yichao Zhong",
+        "Kai Zhang",
+        "Cheng Liu",
+        "Yixuan Pan",
+        "Zhenjie Yang",
+        "Jingbo Wang",
+        "Tianyu Li",
+        "Li Chen"
+      ],
+      "published": "2026-10-14",
+      "url": "https://arxiv.org/abs/2610.20579",
+      "abstract": "Unlike singles, humanoid table tennis doubles requires teammates to strike in strict alternation while sharing a confined workspace. Rapid repositioning can compromise striking accuracy, while uncoordinated teammate movements introduce collision risks. We present PingpongDuo, a hierarchical framework for agile humanoid doubles with safe team coordination. At the team level, a planner jointly selects positioning targets and uses learned risk estimates to filter risky proposals, preferentially preserving the current striker's target. At the individual level, separate footwork and striking skills combine agile movement with precise racket control. The skills are guided by human motion references, including footwork collected from human doubles play, and trained from states produced by one another to support rapid transitions. A racket-arm residual further refines strikes after movement using return feedback from a simulator calibrated with real ball-flight and contact measurements. In simulation, PingpongDuo improves the ball-return success rate by 13.2% over the state-of-the-art baseline, while achieving approximately 2 cm positioning error during clearance. In real-world experiments, a robot completes a 2.15 m clearance-and-recovery cycle in 2.4 s with a peak speed of 2.23 m/s, while two robots sustain more than 10 consecutive strikes in strict alternation.",
+      "external_ids": [
+        "arxiv:2610.20579"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-15T13:33:34+08:00",
+      "last_seen_at": "2026-10-15T13:33:34+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.20552",
+      "arxiv_version": "v1",
+      "title": "KinoGen: Customizable Humanoid Loco-Manipulation References via Kinematically Grounded Video Generation",
+      "authors": [
+        "Qi Wu",
+        "Lulu Zhao",
+        "Sanghyun Hahn",
+        "Rishi Yennu",
+        "Emmy Yang",
+        "Dingqi Zhang",
+        "Tao Pang",
+        "Jiuguang Wang",
+        "Kuan Fang"
+      ],
+      "published": "2026-10-14",
+      "url": "https://arxiv.org/abs/2610.20552",
+      "abstract": "We present KinoGen, a framework that synthesizes customizable humanoid loco-manipulation references through kinematically grounded video generation. KinoGen conditions a pretrained video generator on calibrated renders of the target robot and object in a simulated task instance and recovers the reference by fitting the same models to the generated two-view video, so that the reference lies in the robot configuration space by construction without a human body proxy or retargeting. Body, hand, and object priors initialize the reconstruction, and direct optimization against cross-view evidence refines it. Since an edited keyframe is simply another rendered state, a user can prescribe a goal object pose, regenerate the video around the edited keyframe, and obtain a reference that satisfies the pose exactly. Across eight loco-manipulation tasks, KinoGen yields lower penetration and foot skating than video-based baselines and preserves over 90% of annotated contacts, and its customized references satisfy every prescribed target with substantially less penetration than direct interpolation. Tracking policies trained on the synthesized references are deployed on a Unitree G1 humanoid with dexterous hands. Project webpage: https://kinogen-humanoid.github.io/.",
+      "external_ids": [
+        "arxiv:2610.20552"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-15T13:33:34+08:00",
+      "last_seen_at": "2026-10-15T13:33:34+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.20535",
+      "arxiv_version": "v1",
+      "title": "Thermal AdS two-point functions and loop induced effective one-point vertices",
+      "authors": [
+        "Astha Kakkar"
+      ],
+      "published": "2026-10-14",
+      "url": "https://arxiv.org/abs/2610.20535",
+      "abstract": "We present a study of thermal two-point functions from Witten diagrams in thermal AdS$_{d+1}$, defined with the conformal boundary $S_β^1 \\times \\mathbb{R}^{d-1}$, with an aim to establish a connection between thermal CFT data and perturbative bulk dynamics. We analyze one-loop tadpole and bench diagrams arising from the cubic $φφχ$ interaction in the bulk, segregating the different relative thermal winding sectors for the bench, and also extend the analysis to include quartic scalar contact diagrams with and without derivative interactions. We also analyze the spinning exchange thermal two-point function. Utilizing the split representation of bulk propagators and the method of images we reorganize the thermal Witten diagrams into the standard AdS integrals and obtain spectral and image-sum representations that make KMS periodicity of the correlators manifest. Additionally, we show possible position dependent effective one-point vertices of scalar and spinning fields in the bulk arising from the reduction of the coincident- point thermal bulk to bulk propagator loop, allowing tadpole-type diagrams to be reconstructed from effective local bulk interactions. The bench diagram however retains an intrinsically bi-local structure. We further investigate the thermal one-point coefficients and perturbative OPE data encoded in these thermal correlators, including contributions associated with anomalous dimensions. Finally, we examine their relation to thermal dispersion relations and the role of contributions that are not determined by discontinuity data alone. Our results provide a set of explicit bulk constructions for exploring the analytic structure of thermal CFT correlators and their connection to the thermal conformal bootstrap.",
+      "external_ids": [
+        "arxiv:2610.20535"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-15T13:33:34+08:00",
+      "last_seen_at": "2026-10-15T13:33:34+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.20591",
+      "arxiv_version": "v1",
+      "title": "Logical CCZ state cultivation",
+      "authors": [
+        "Yuta Hirasaki",
+        "Jong Yeon Lee"
+      ],
+      "published": "2026-10-14",
+      "url": "https://arxiv.org/abs/2610.20591",
+      "abstract": "Logical CCZ states enable Toffoli gates, a central building block of fault-tolerant quantum arithmetic. We introduce an end-to-end protocol for direct CCZ-state preparation on bivariate tricycle and bicycle (BT/BB) codes. Our factory combines the cup-product CCZ gates native to BT codes with two novel ingredients, both enabled by engineering the logical coupling between BT and BB codes through projection-preserving lifts. Index-2 lifted BB ancillas enable selective $Z$-basis initialization, allowing the native cup-product gates to directly prepare two disjoint logical CCZ states. The prepared CCZ states are faithfully transferred to index-3 lifted BB memories with high code distance. We use decoder-based postselection to obtain high-fidelity output states with low overhead. We perform exact simulations of our factory under a circuit-level noise model motivated by neutral-atom hardware, obtaining joint infidelities of $1.84\\times10^{-5}$ at $21.94\\%$ acceptance and $4.10\\times10^{-7}$ at $8.89\\%$ acceptance for single-qubit, CZ, and CCZ error rates of $0.01\\%$, $0.1\\%$, and $0.5\\%$, respectively. At the output-infidelity target of our smallest factory, its estimated spacetime cost per CCZ state is lower than that of $T$-state cultivation followed by CCZ conversion, providing an efficient route to logical CCZ states for fault-tolerant quantum computation.",
+      "external_ids": [
+        "arxiv:2610.20591"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-15T13:33:34+08:00",
+      "last_seen_at": "2026-10-15T13:33:34+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.20567",
+      "arxiv_version": "v1",
+      "title": "Prioritizing Microservice Requests via Retries",
+      "authors": [
+        "Ofek Lavi",
+        "Jhonatan Tavori",
+        "Hanoch Levy",
+        "Anat Bremler-Barr"
+      ],
+      "published": "2026-10-14",
+      "url": "https://arxiv.org/abs/2610.20567",
+      "abstract": "Cloud services rapidly shift towards independently-managed microservices architectures. This independence may lead to temporary microservices miscoordination, resulting in overloads and rejections of valuable transactions. This weakness may further be exploited by attackers to launch overload attacks inflicting performance and cost damages. Retry operations are a key machinery aiming at overcoming seldom rejections. However, during overload periods they: a) Fail protecting valuable transactions from rejections, and b) Trigger large-scale performance-degrading retry storms. We propose simple modifications in retry operations, overcoming these deficiencies by transforming retries into a rejection prioritization mechanism, DiffTry (Differential Retries). It is based on a simple, lightweight, distributed and stateless design and requires neither overload sensing nor microservices coordination. We develop an analytical model capturing DiffTry's effectiveness for two services in tandem, then generalize it to networks of services. Our theoretical framework lets practitioners quantify, for a given network, the resulting prioritization and rejection rates, and yields formal guarantees that DiffTry substantially reduces the impact of both incidental and adversarial orchestrated overloads. We validate these predictions in simulation and on a live Kubernetes deployment, where DiffTry is a simple drop-in service-mesh plugin requiring no application changes; the measured rejection closely matches the analysis.",
+      "external_ids": [
+        "arxiv:2610.20567"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-15T13:33:34+08:00",
+      "last_seen_at": "2026-10-15T13:33:34+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.20561",
+      "arxiv_version": "v1",
+      "title": "A$^3$PreCore: Robust Rigid Registration for Native FLAIR-Space Brain-Mask Transfer",
+      "authors": [
+        "Elmira Mirzabeigi",
+        "Zahra Khalilzad",
+        "Taylor Snowden-Richardson",
+        "Jesus Eduardo Lugo Arce",
+        "Jodie R. Gawryluk",
+        "Brian R. Christie",
+        "Jocelyn Faubert"
+      ],
+      "published": "2026-10-14",
+      "url": "https://arxiv.org/abs/2610.20561",
+      "abstract": "Reliable brain-mask transfer into native fluid-attenuated inversion recovery (FLAIR) space can fail when T1-to-FLAIR rigid registration is unstable. We developed A$^3$PreCore, a six-degree-of-freedom rigid-registration strategy that aligns the full bias-corrected T1-weighted image to native FLAIR using normalized mutual information while preserving the established T1-space anatomical mask. We also introduced extended quantitative quality control (E-QC), which characterizes mask extent, field-of-view-relative position, FLAIR intensity support, boundary support, inferior morphology, and pairwise geometric disagreement. In 78 participants with paired T1-weighted and FLAIR imaging, A$^3$PreCore was compared with fsl_anat and the Brain Extraction Tool (BET). Gross rigid-body misregistration occurred in 21/78 fsl_anat outputs (26.9%) and 0/78 A$^3$PreCore outputs (exact two-sided McNemar p=9.54 x 10^-7). Among 57 participants without gross fsl_anat misregistration, A$^3$PreCore preserved close agreement (median Dice=0.993; median paired Delta NMI=-0.00007, p=0.429). A$^3$PreCore remained broadly concordant with BET (median Dice=0.955), with less inferior and extracranial extension in representative comparisons. Method-blinded neuroscientists ranked A$^3$PreCore first in 35/40 participants (87.5%). E-QC additionally exposed severe orientation-related disagreement not evident from global descriptors or centroid displacement alone. These findings support A$^3$PreCore as a robust native-FLAIR brain-mask transfer strategy and E-QC as a complementary framework for multidimensional mask characterization and participant-specific geometric quality control.",
+      "external_ids": [
+        "arxiv:2610.20561"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics",
+        "global illumination real-time",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-15T13:33:34+08:00",
+      "last_seen_at": "2026-10-15T13:33:34+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.20540",
+      "arxiv_version": "v1",
+      "title": "Fast separation of Euler and Navier--Stokes flows in two dimensions",
+      "authors": [
+        "Siming He",
+        "Yupei Huang",
+        "Jincheng Yang"
+      ],
+      "published": "2026-10-14",
+      "url": "https://arxiv.org/abs/2610.20540",
+      "abstract": "We study the long-time validity of the inviscid limit problem by measuring when the two-dimensional ideal fluid ceases to accurately approximate a slightly viscous fluid with the same initial datum. We construct a stationary solution of the Euler equation from which the Navier--Stokes solution separates at a time scale proportional to the logarithm of the inverse viscosity, achieving the fastest separation from Euler steady states.",
+      "external_ids": [
+        "arxiv:2610.20540"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-15T13:33:34+08:00",
+      "last_seen_at": "2026-10-15T13:33:34+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.20539",
+      "arxiv_version": "v1",
+      "title": "A Decomposition-Based Data-Driven Branch-and-Bound Approach for Black-Box Global Optimization",
+      "authors": [
+        "Damilola Fasiku",
+        "Wentao Tang"
+      ],
+      "published": "2026-10-14",
+      "url": "https://arxiv.org/abs/2610.20539",
+      "abstract": "Many scientific and engineering applications require the global optimization of expensive black-box functions. In high-dimensional settings, however, achieving computational scalability is a major challenge. To address this challenge, we propose a distributed spatial branch-and-bound framework that exploits partially separable structure for the global optimization of box-constrained black-box problems. The proposed framework adopts a two-layer structure in which branching is performed only on a lower-dimensional set of coupling variables in an outer layer. Within each outer node, the remaining non-overlapping (private) variables, which appear independently across blocks, have their domains partitioned and explored in parallel within an inner layer, resulting in a naturally parallelizable framework that is well suited for implementation on multi-core CPU architectures. At each node, valid upper bounds are obtained via sampling, with optional refinement using a local solver, while lower bounds are computed using data-driven convex underestimators constructed over partitions of the private variables. A residual-based correction and finite-sample validity analysis provide conditions under which the partitionwise underestimators are valid lower bounds, while the proposed branching and refinement mechanism establishes convergence to an $ε$-global optimum. Numerical studies on benchmark and ODE-constrained parameter-estimation problems demonstrate improvements in both sampling efficiency and computational performance relative to monolithic approaches.",
+      "external_ids": [
+        "arxiv:2610.20539"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "global illumination real-time",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-15T13:33:34+08:00",
+      "last_seen_at": "2026-10-15T13:33:34+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.20519",
+      "arxiv_version": "v1",
+      "title": "Probabilistic AI models outperform numerical weather prediction models on record breaking heat extremes",
+      "authors": [
+        "Jakob Benjamin Wessel",
+        "Fiona Spuler",
+        "Christopher A. T. Ferro",
+        "Marlene Kretschmer",
+        "Sebastian Sippel"
+      ],
+      "published": "2026-10-14",
+      "url": "https://arxiv.org/abs/2610.20519",
+      "abstract": "AI weather prediction (AIWP) models have emerged as a key complement to physics-based numerical weather prediction (NWP) models, and now often outperform them on aggregate skill. Yet, several studies report that physics-based models still forecast extreme events better, in particular record-breaking extremes, based on the evaluation of deterministic forecasts. Here we evaluate heat extreme forecasts from probabilistic AIWP models over global land and show that they clearly outperform the ECMWF IFS ensemble, both raw and post-processed, including for record-breaking events, in all regions and at all lead times considered. AIWP models better forecast the occurrence and intensity of extremes, are better calibrated in the tail and miss fewer records. Station observations confirm these results. We argue that many reported AIWP limitations stem from unsuitable verification choices, specifically comparing deterministic forecasts that target different quantities. Instead, a fair evaluation of extremes necessitates probabilistic verification.",
+      "external_ids": [
+        "arxiv:2610.20519"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "global illumination real-time",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-15T13:33:34+08:00",
+      "last_seen_at": "2026-10-15T13:33:34+08:00"
+    }
+  ]
+}
