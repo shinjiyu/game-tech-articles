@@ -1,6 +1,473 @@
 {
-  "updated_at": "2026-10-15T13:33:34+08:00",
+  "updated_at": "2026-10-16T13:26:42+08:00",
   "candidates": [
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.22368",
+      "arxiv_version": "v1",
+      "title": "Value as Memory: Online Value-Guided Post-training for General Robot Policies",
+      "authors": [
+        "Wenye Yu",
+        "Yijin Chen",
+        "Kaiyi Xiong",
+        "Wenbo Han",
+        "Wendi Chen",
+        "Yang Jin",
+        "Han Xue",
+        "Jun Lv",
+        "Cewu Lu",
+        "Chuan Wen"
+      ],
+      "published": "2026-10-15",
+      "url": "https://arxiv.org/abs/2610.22368",
+      "abstract": "Real-world post-training of generalist robot policies faces two challenges: partial observability makes action selection ambiguous, while offline post-training methods delay feedback from deployment experience. We present Value as Memory (VaM), a framework that addresses these challenges through value caching and online real-world reinforcement learning (RL). Value caching conditions actions on recent value predictions as task-progress memory, while online updates enable timely policy improvement by combining offline demonstrations, off-policy interventions, and on-policy rollouts for sample-efficient adaptation. As a result, VaM transitions from offline RL warmup to online autonomous learning with sparse rewards. Across long-horizon tasks involving deformable objects and contact-rich manipulation, VaM yields a mean absolute success-rate gain of $29.4\\%$ with value caching, while achieving a $32.8\\%$ gain with online autonomous learning over matched offline training. The evaluated online schedule performs $8\\times$ as many policy iterations under the same gradient-step budget, with more than $2\\times$ lower recorded time per gradient step with concurrent data collection and training.",
+      "external_ids": [
+        "arxiv:2610.22368"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "incremental potential contact",
+        "real-time fluid simulation graphics",
+        "global illumination real-time"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-16T13:26:42+08:00",
+      "last_seen_at": "2026-10-16T13:26:42+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.22362",
+      "arxiv_version": "v1",
+      "title": "CoDA: Co-Evolution of Data Engines and Action Policies",
+      "authors": [
+        "Tianjiao Yu",
+        "Zhilin Ou",
+        "Yifan Shen",
+        "Xinzhuo Li",
+        "Yuanzhe Liu",
+        "Onkar Kishor Susladkar",
+        "Fan Wang",
+        "Ismini Lourentzou"
+      ],
+      "published": "2026-10-15",
+      "url": "https://arxiv.org/abs/2610.22362",
+      "abstract": "Generative simulation can automate robot environment construction, but physically valid environments are not necessarily useful for training. The challenge is to identify environments that address a policy's failures and supervision that helps it overcome them. We introduce CoDA, a framework in which a simulation data engine and an action policy co-evolve through a shared heterogeneous memory of environment construction, policy failures, and learning progress. The memory compiles validated diagnoses from a vision-language critic into generation programs that recreate difficulties and training programs that help the policy overcome them. We further propose Text2potential to convert these diagnoses into staged potentials for action-chunk value learning, providing dense supervision for policy updates while preserving the task's optimal policy under standard shaping assumptions. Measured learning progress guides further generation and program refinement. Across four manipulation task families, CoDA improves out-of-distribution success from 5.3% after supervised fine-tuning to 27.6%, exceeding the strongest closed-loop baseline by 9.5 percentage points with the same generation budget. On LIBERO-Pro, 15 rounds of generation and training raise success from 25% to 84% under position perturbations and from 1% to 76% under instruction perturbations.",
+      "external_ids": [
+        "arxiv:2610.22362"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "incremental potential contact",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-16T13:26:42+08:00",
+      "last_seen_at": "2026-10-16T13:26:42+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.22354",
+      "arxiv_version": "v1",
+      "title": "LSST and Keck characterization of outer Main Belt comet P/2026 N2",
+      "authors": [
+        "Bryce Bolin",
+        "Leo Alcorn",
+        "Max Brodheim",
+        "Alexa Gordon",
+        "Lordrick Kahinga",
+        "Michael Lundquist",
+        "Rita Morris",
+        "J. Xavier Prochaska"
+      ],
+      "published": "2026-10-15",
+      "url": "https://arxiv.org/abs/2610.22354",
+      "abstract": "We characterize comet P/2026 N2, whose outer Main Belt orbit has $a=3.07$ au, $e=0.21$, and $i=2.25^\\circ$, using optical observations, archival imaging, and dynamical integrations. Observations from the Legacy Survey of Space and Time (LSST) at NSF-DOE Vera C. Rubin Observatory in 2026 June-July and Keck/LRIS imaging on October 7 show active morphology across perihelion over 102 days. Within a projected aperture radius of approximately 1,000 km, Keck colors of $g-r=0.50\\pm0.05$ and $r-i=0.06\\pm0.06$ mag are consistent with nearly neutral B/C-complex reflectance. Phase-corrected $a(0^\\circ)fρ=3.66\\pm0.12$ cm in derived $r$ and $3.46\\pm0.17$ cm in $i$ are comparable to LSST measurements. The geometry-corrected $i$-band aperture brightness changes by $0.07\\pm0.07$ mag between July 9 and October 7; the 2,000 km $r$-band aperture measurements are also consistent between epochs. These results support sustained observable activity, consistent with prolonged or recurrent dust production. Archival DECam images recover N2 on 2021 July 4, but its activity state is inconclusive. A 5,000-particle forward integration retains a concentrated outer Main Belt core throughout 50 Myr. We hypothesize that volatile sublimation, possibly of water ice, sustains activity near perihelion.",
+      "external_ids": [
+        "arxiv:2610.22354"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-16T13:26:42+08:00",
+      "last_seen_at": "2026-10-16T13:26:42+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.22325",
+      "arxiv_version": "v1",
+      "title": "Dense4D: Pixel-Level 4D Human Correspondence",
+      "authors": [
+        "Rıza Alp Güler"
+      ],
+      "published": "2026-10-15",
+      "url": "https://arxiv.org/abs/2610.22325",
+      "abstract": "Reconstructing human motion in 4D requires identifying the same surface points through articulation, deformation and changes in visibility. We introduce Dense4D, to our knowledge the first feed-forward model dedicated to dense 4D correspondence across the body, clothing and hair from a set of monocular RGB images, without a body template. Trained specifically for human geometry, Dense4D jointly processes person-centred crops with known image-to-crop transforms to predict Human Point Maps (HPMs) and depth for each image. An HPM assigns each person pixel the 3D position of its observed surface point at a common reference time. These maps support amodal correspondence: points hidden in the reference image can be localised from observations in other frames. Matching HPM coordinates across crops establishes correspondence without predicting camera poses or large scene displacements; per-image depth then lifts the matches into 3D tracks. Experiments on real people demonstrate substantially higher tracking accuracy and closer agreement with scanned surfaces than the evaluated baselines. Points from different frames assemble into coherent human geometry in the reference pose, providing visible evidence of consistent dense correspondence through articulation and clothing deformation. Additional qualitative results, videos, and an interactive viewer are available at https://alpguler.com/dense4d.",
+      "external_ids": [
+        "arxiv:2610.22325"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "global illumination real-time"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-16T13:26:42+08:00",
+      "last_seen_at": "2026-10-16T13:26:42+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.22318",
+      "arxiv_version": "v1",
+      "title": "Magic in quantum trajectory unravelings of noisy random quantum circuits",
+      "authors": [
+        "Sara Santos",
+        "Alessio Paviglianiti",
+        "Vincenzo Savona"
+      ],
+      "published": "2026-10-15",
+      "url": "https://arxiv.org/abs/2610.22318",
+      "abstract": "The quantum-trajectory description of a noisy quantum circuit is not unique: every Kraus representation of the noise channel defines a different unraveling, i.e., a different ensemble of pure states that averages to the same density matrix. While all unravelings share the same expectation values of observables, they generally differ in the amount of quantum resources carried by the individual trajectories. Here we study non-stabilizerness, or magic, quantified by the stabilizer Rényi entropy, in quantum-trajectory unravelings of Haar-random and $T$-doped random Clifford brickwork circuits subject to local dephasing noise of strength $p$. The canonical unraveling in terms of Pauli jumps is Clifford and leaves magic untouched, so that trajectories retain the Haar-random value of non-stabilizerness. Exploring the full two-parameter family of minimal unravelings, we find that the trajectory-averaged magic can be substantially reduced by a state-independent choice of Kraus operators, and that the optimal choice is not in general the projective-measurement unraveling, but a two-outcome generalized measurement in which the Kraus operators correspond to a weak measurement of the noisy qubit. The optimal unraveling reduces the extensive magic density of the trajectories by a $p$-dependent factor without altering its linear scaling with system size. At the same time, it produces a very broad distribution of magic over trajectories, with a sizable fraction of trajectories retaining Haar-random magic. Since the cost of stabilizer-based classical simulation grows exponentially with the magic of the state, these high-magic trajectories, rather than the average, control the simulation cost. Our results delineate the potential and the limitations of unraveling optimization as a route to the classical simulation of noisy quantum dynamics with stabilizer methods.",
+      "external_ids": [
+        "arxiv:2610.22318"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-16T13:26:42+08:00",
+      "last_seen_at": "2026-10-16T13:26:42+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.22342",
+      "arxiv_version": "v1",
+      "title": "Spark-0: Scaling Spatially Aligned Tactile Pretraining for Robot Dexterous Manipulation",
+      "authors": [
+        "Tianxing Chen",
+        "Wenwei Lin",
+        "Chuqiao Lyu",
+        "Peicheng Xiang",
+        "Junyuan Tang",
+        "Tian Nian",
+        "Zijian Cai",
+        "Kehe Ye",
+        "Chenze Yu",
+        "Wenxuan Zhu",
+        "Eric J. Chen",
+        "Yan Qin",
+        "Yue Chen",
+        "Tongyu Wu",
+        "Junhao Gong",
+        "Kai-Chong Lei",
+        "Jiahao Zhang",
+        "Kailun Su",
+        "Qiwei Liang",
+        "Renjing Xu",
+        "Ping Luo",
+        "Wenbo Ding"
+      ],
+      "published": "2026-10-15",
+      "url": "https://arxiv.org/abs/2610.22342",
+      "abstract": "Generalist robot policies benefit from large-scale visual pretraining but often struggle with contact-rich dexterous manipulation, where force, compliance, and incipient slip are hard to observe from images. We present Spark-0, a spatially aligned vision-tactile-language-action (VTLA) model that uses touch in two complementary ways. During pretraining, image-space contact maps derived from tactile gloves, together with features from a frozen 3D geometry teacher, supervise the visual tokens; these objectives are removed at inference. In parallel, a tactile pathway encodes regional force histories and 3D taxel states to condition the action expert. A single checkpoint therefore supports both vision-only and tactile-conditioned deployment. To scale this supervision, we build HumanTouch, a 1,000-hour dataset of full-hand tactile human manipulation, and pretrain Spark-0 on it together with egocentric video, robot data, and simulation. We also release SparkArena, which pairs vision-only simulated tasks with tactile-conditioned real-robot tasks on one dexterous embodiment. Spark-0 achieves the highest mean success rate on both SparkArena tracks and ranks first on all eight aggregate metrics of the Ego Humanoid Manipulation Benchmark. Compared with vision-only pretraining on the same data and compute with touch discarded, retaining the touch of 1,000 hours of HumanTouch raises vision-only success on Ego Humanoid from 52.5% to 71.7%, and success on SparkArena-Real, where touch is also used at deployment, from 44.0% to 52.0%, indicating that touch serves not only as a policy input but also as scalable supervision for dexterous visuomotor pretraining. The Website is available at: https://xsparkai.com/Spark-0.",
+      "external_ids": [
+        "arxiv:2610.22342"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-16T13:26:42+08:00",
+      "last_seen_at": "2026-10-16T13:26:42+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.22340",
+      "arxiv_version": "v1",
+      "title": "Dexterity from Supervised Play",
+      "authors": [
+        "Botao He",
+        "Yiming Dou",
+        "Yiannis Aloimonos",
+        "Jitendra Malik",
+        "Akash Sharma",
+        "Ruoshi Liu"
+      ],
+      "published": "2026-10-15",
+      "url": "https://arxiv.org/abs/2610.22340",
+      "abstract": "How can robots autonomously collect the contact-rich experience needed to learn dexterous manipulation? We present DSP: Dexterity from supervised play, a framework in which a robot learns a play policy from minutes of human play through behavior cloning, then deploys it autonomously to collect hours of interaction data to train a world model. During inference, the same play policy then guides model-predictive control (MPC) by proposing candidate action sequences for evaluation under the learned world model. To accelerate inference, we also introduce a method for distilling a closed-loop, goal-conditioned policy through self-play within the learned world model. We evaluate this framework on underactuated pushing and any-to-any in-hand pose reorientation with a multifingered hand, in simulation and real world. In real world experiment, our method outperforms hindsight behavior cloning by 69.6% in success rate and achieves comparable success to reinforcement learning with 490 times less interaction data. These results demonstrate that supervised play can autonomously collect interaction data, guide model-based planning, and enable policy learning without any task-specific demonstrations or sim-to-real transfer.",
+      "external_ids": [
+        "arxiv:2610.22340"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact",
+        "real-time fluid simulation graphics",
+        "global illumination real-time"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-16T13:26:42+08:00",
+      "last_seen_at": "2026-10-16T13:26:42+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.22338",
+      "arxiv_version": "v1",
+      "title": "Identifying deformed exoplanets with JWST and Ariel: A target selection metric for phase curve observations",
+      "authors": [
+        "Vanesa Ramirez",
+        "Yamila Miguel",
+        "Billy Edwards",
+        "Babatunde Akinsanmi",
+        "Deivy Mercado"
+      ],
+      "published": "2026-10-15",
+      "url": "https://arxiv.org/abs/2610.22338",
+      "abstract": "The shape of an exoplanet encodes fundamental information about its internal structure. For close-in giant planets, strong stellar tidal forces induce measurable deformations that can be probed through high-precision photometry. These deformations are quantified by the fluid Love numbers, which characterise a planet's response to external perturbations and are directly linked to its internal density distribution. In this work, we assess the potential of JWST and the future Ariel mission to constrain the Love numbers of hot Jupiters through full-orbit phase curve observations. To identify the most promising targets for this science case, we introduce a new detection metric, the deformation metric (D), which combines the expected deformation amplitude with the anticipated photometric signal-to-noise ratio. We apply this metric to the Ariel target list and identify WASP-33 b, WASP-76 b, and HAT-P-32 b as the three most favourable targets that currently lack Love number measurements. Using WASP-76 b as a benchmark case, we perform end-to-end retrieval simulations and show that a single continuous JWST phase curve observation can constrain the Love number $h_{2f}$ to a precision of $σ_{h_2f} \\approx 0.09$, while a single Ariel visit could achieve $σ_{h_{2f}} \\approx 0.18$. Such precision is likely sufficient for Love number measurements to provide meaningful constraints on planetary interior models and to distinguish between competing interior-structure scenarios, opening a new observational avenue for probing the deep interiors of exoplanets.",
+      "external_ids": [
+        "arxiv:2610.22338"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-16T13:26:42+08:00",
+      "last_seen_at": "2026-10-16T13:26:42+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.22372",
+      "arxiv_version": "v1",
+      "title": "LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation",
+      "authors": [
+        "Zhixu Li",
+        "Keqian Tang",
+        "Litian Gong",
+        "Jingyu Yao",
+        "Wenqian Zhang",
+        "Tianze Xu",
+        "Zehao Wang",
+        "Yuping Wang",
+        "Junge Zhang",
+        "Jiachen Li"
+      ],
+      "published": "2026-10-15",
+      "url": "https://arxiv.org/abs/2610.22372",
+      "abstract": "Personalization is essential for general-purpose robots to transition into household environments and achieve true practicality. While general robotic manipulation has been extensively studied, personalized robotic manipulation (PeRM) lacks a controlled benchmark for separating task completion from preference satisfaction. We introduce LIBERO-PeRM, a benchmark for preference learning in embodied agents. LIBERO-PeRM studies five questions: 1) how policies follow preferences in zero-shot settings; 2) how they learn single preferences from demonstrations; 3) how efficiently they acquire preferences as demonstrations increase; 4) how learned preferences generalize across layouts and tasks; and 5) how policies compose preferences and behave under conflicts. We propose a controlled formulation and taxonomy of observable preferences in simulation, covering motion, skill, and user-profile choices. This formulation is restricted to language-expressible preferences that can be instantiated in LIBERO without changing the task goal, evaluated automatically, and reused across tasks. Building on LIBERO, our procedural pipeline generates paired demonstrations with and without preferences. We create five task suites (312 tasks) with high-quality demonstrations, rich metadata, and preference-satisfaction metrics. Experiments show that current VLA policies struggle with zero-shot personalization, while SFT makes preferences learnable. Mixed training achieves better no-preference retention than sequential adaptation and improves performance with contextual prompts compared with preference-only training, but can weaken motion-preference learning; preference generalization, decomposition, and conflict handling remain difficult. The code, datasets, and demos can be found on the project website: https://libero-perm.github.io/.",
+      "external_ids": [
+        "arxiv:2610.22372"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-16T13:26:42+08:00",
+      "last_seen_at": "2026-10-16T13:26:42+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.22367",
+      "arxiv_version": "v1",
+      "title": "Discovering state-of-the-art quantum circuits with large language models",
+      "authors": [
+        "Andi Gu",
+        "Alek H. Kemeny",
+        "Susanne F. Yelin",
+        "Mikhail D. Lukin"
+      ],
+      "published": "2026-10-15",
+      "url": "https://arxiv.org/abs/2610.22367",
+      "abstract": "Significant efforts are currently being directed toward the implementation of large-scale quantum information processors, but realizing useful quantum advantage also requires the development of efficient quantum algorithms. While for many practical problems the dominant resource costs are associated with a small set of computational primitives, optimizing them in the quantum setting presents unique challenges, including a reversibility constraint absent from ordinary classical computation. Here we introduce an evolutionary framework in which large language models (LLMs) propose circuit designs and an independent evaluator verifies and scores them. We apply this framework to tasks spanning numerical computation, chemistry, optimization, quantum simulation, and number theory. In seven of the eight tasks, the discovered circuits significantly reduce both Toffoli and qubit counts relative to the state of the art. In the eighth, the search discovers a new reversible architecture for prime-field modular inversion. By handling reversibility differently, the architecture makes divsteps -- a classical algorithm previously impractical for reversible integer arithmetic -- viable and substantially improves the Toffoli-qubit trade-off for modular inversion. These results open the door for evaluator-guided LLM co-design of new algorithmic structures for quantum computation.",
+      "external_ids": [
+        "arxiv:2610.22367"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-16T13:26:42+08:00",
+      "last_seen_at": "2026-10-16T13:26:42+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.22355",
+      "arxiv_version": "v1",
+      "title": "OmniVerifier-C1: Decomposed Graded Verifier for Rule-Governed Generative World Modeling",
+      "authors": [
+        "Bowei Liu",
+        "Xinchen Zhang",
+        "Xuhuan Li",
+        "Tianlin Zhang",
+        "Kaian Jiang",
+        "Jingwei Liu",
+        "Congyang Zhao",
+        "Yifei Qian",
+        "Junhong Liu",
+        "Zhiheng Li",
+        "Yujiu Yang",
+        "Yang Cai",
+        "Ling Yang"
+      ],
+      "published": "2026-10-15",
+      "url": "https://arxiv.org/abs/2610.22355",
+      "abstract": "Generative visual verifiers play a crucial role in advancing multimodal intelligence. To enhance the robustness of visual verifiers in complex multimodal scenarios involving compositional requirements, we move beyond conventional binary verifiers that produce only True/False discrete judgments and introduce a verifier that automatically decomposes complex prompts or environmental rules into fine-grained components and assigns pointwise scores to provide a continuous and more informative critique signal. Our experiments further demonstrate that these structured and interpretable outputs improve the verifier's generalization to out-of-domain multimodal critic tasks. To train this verifier, we introduce a Decoupled RL training strategy that jointly optimizes sub-question-level binary judgment and global alignment scoring, using precise local feedback to develop fine-grained verification capabilities that provide a foundation for reliable continuous scoring at the global level. Under a general reinforcement learning framework, we first empirically demonstrate that the proposed pointwise graded verifier significantly outperforms binary verifiers in traditional text-to-image scenarios. We then extend our investigation to rule-governed generative world modeling where generative models are leveraged for world simulation and world reasoning under explicit rules. From a theoretical standpoint, we further show that a pairwise verification paradigm yields more accurate critiques than the pointwise formulation when ground-truth images are available, with empirical results on diverse structured world-modeling tasks such as Maze and Sudoku further validating the effectiveness of our approach. Overall, our findings suggest a key insight: the transition from generative models to structured world-modeling agents critically hinges on the availability of accurate pairwise graded visual verifiers.",
+      "external_ids": [
+        "arxiv:2610.22355"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics",
+        "global illumination real-time",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-16T13:26:42+08:00",
+      "last_seen_at": "2026-10-16T13:26:42+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.22337",
+      "arxiv_version": "v1",
+      "title": "Sim-to-Real Reinforcement Learning for Path-Safe Target Reaching in Robotic Harvesting of Hydroponic Lettuce",
+      "authors": [
+        "Al Bashir",
+        "Partho Ghose",
+        "Yibin Wang",
+        "Robert G. Hardin",
+        "Joshua Peeples",
+        "Genhua Niu",
+        "Azlan Zahid"
+      ],
+      "published": "2026-10-15",
+      "url": "https://arxiv.org/abs/2610.22337",
+      "abstract": "Robotic harvesting requires precise manipulation to ensure accurate positioning of the end-effector, especially in a constraint workspace. This study introduces the Path-Safe Approach Proximal Policy Optimization (PSA-PPO), a target-conditioned local reaching framework designed for robotic harvesting of nutrient film technique (NFT)-hydroponic lettuce in greenhouses. The proposed PSA-PPO preserves the standard clipped PPO objective while introducing a harvesting-oriented policy formulation that integrates target-conditioned observations, corridor-aware spatial constraints, trajectory-history-based safety encoding, and task-specific success criteria for constrained robotic manipulation. PSAPPO was trained entirely in Isaac Lab and successfully transferred to a physical UR10e robotic arm without any real-world policy fine-tuning. In a controlled physical benchmark against 150 scheduled targets, PSA-PPO achieved the highest reaching rate of 94.7%, outperforming Cartesian+TOTG (86.0%), RRTConnect (88.0%), and RRT* (80.0%), while reducing median RMS jerk by 39.8 to 73.0% relative to the classical planners during the final approach segment. A formulation ablation evaluated over 200 simulation targets demonstrates that path-safety and side-corridor shaping are the principal drivers of harvesting-compatible performance: removing either term substantially degrades strict success even when terminal endpoint accuracy is preserved or improved, confirming that optimization toward the endpoint alone is an insufficient objective for constrained crop-proximal manipulation. Finally, PSA-PPO was integrated with an RGB-D vision module and an end-effector and evaluated as a complete greenhouse harvesting system across 144 lettuce harvesting attempts, achieving 94.4% vision-guided target reaching and 86.1% complete harvesting success.",
+      "external_ids": [
+        "arxiv:2610.22337"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-16T13:26:42+08:00",
+      "last_seen_at": "2026-10-16T13:26:42+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.22335",
+      "arxiv_version": "v1",
+      "title": "Illumination-Aware Active Perception for Spacecraft Inspection",
+      "authors": [
+        "Sagarika Rao Valluri",
+        "Benjamin Riviere"
+      ],
+      "published": "2026-10-15",
+      "url": "https://arxiv.org/abs/2610.22335",
+      "abstract": "Harsh and rapidly varying orbital illumination introduces failure modes during spacecraft inspection. Existing planners rely on line-of-sight inspection metrics which perform occlusion checks against a known target and conflate geometric visibility with task-relevant information. These metrics overlook illumination effects including eclipse, self-shadowing, and specular reflection from spacecraft materials and tend to declare components as inspected despite the corresponding images lacking sufficient information. We propose an inspection-planning framework that replaces geometric visibility with a learned measure of camera information derived from a classifier variational autoencoder (VAE) that operates directly on the captured image. The encoder model is trained to classify spacecraft surface components from rendered patches, and its total latent variance is used to learn the varying illumination of said components, replacing binary visibility checks with a continuous, image-grounded quantity. We evaluate the approach by implementing a Guidance, Navigation, and Control architecture in a photorealistic physics simulator, and vary lighting and viewing geometries with multiple orbits. We show that, although all approaches successfully maximize their own objective, our approach results in better illumination: a mean brightness of $0.57$, with $81.6\\%$ of observations above $0.25$, compared with $0.02$ ($3.0\\%$) for geometric planning with an illumination band and $0.04$ ($6.0\\%$) for purely geometric planning.",
+      "external_ids": [
+        "arxiv:2610.22335"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "global illumination real-time",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-16T13:26:42+08:00",
+      "last_seen_at": "2026-10-16T13:26:42+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.22315",
+      "arxiv_version": "v1",
+      "title": "Magna: simulating magic state factories as cheaply as Clifford circuits",
+      "authors": [
+        "Yifei Wang",
+        "Yingfei Gu"
+      ],
+      "published": "2026-10-15",
+      "url": "https://arxiv.org/abs/2610.22315",
+      "abstract": "Classical simulation of magic state factories, including distillation, cultivation, and code switching, is challenging because of their substantial non-Clifford content. We introduce $\\texttt{magna}$ (magic-state-factory assessment via global network algebra), a classical simulator that simulates such protocols as cheaply as Clifford circuits. $\\texttt{magna}$ expresses the figures of merit of a protocol, namely the acceptance rate and the fidelity of the accepted states, as tensor networks, which it reduces globally by exploiting a structural correspondence with transversal gates on quantum codes. $\\texttt{magna}$ further supports feedforward conditioned on arbitrary functions of mid-circuit measurement outcomes, including decoder outputs. We simulate Bravyi--Haah distillation with up to 100 output magic states at a cost that does not grow exponentially in the number of outputs, and achieve state-of-the-art sampling times for distance-5 magic state cultivation on both color codes and RP$^2$ surface codes. Finally, we validate nonlinear feedforward on a logical-level distillation protocol with 15 rounds of decoder-dependent feedforward. $\\texttt{magna}$ aims to contribute to the key infrastructure for the large-scale evaluation and optimization of magic state factories.",
+      "external_ids": [
+        "arxiv:2610.22315"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "global illumination real-time",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-16T13:26:42+08:00",
+      "last_seen_at": "2026-10-16T13:26:42+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.22357",
+      "arxiv_version": "v1",
+      "title": "Stability of Quantum LDPC States under Local Pauli Noise",
+      "authors": [
+        "Tai-Hsuan Yang",
+        "Andrew D. Kim",
+        "Akash Vijay",
+        "Jong Yeon Lee"
+      ],
+      "published": "2026-10-15",
+      "url": "https://arxiv.org/abs/2610.22357",
+      "abstract": "Quantum low-density parity-check (qLDPC) codes have a canonical mixed state---the normalized projector onto the code space---that lies at the intersection of quantum error correction and quantum many-body physics, yet the stability of its information-theoretic structure under local noise remains poorly understood. Recent progress on mixed-state phases of matter has identified the spatial decay of conditional mutual information (CMI) $I(A:C|B)$ as a key diagnostic of such stability, analogous to the role of the spectral gap for quantum ground states. We prove that, for the normalized code-projector state of a $\\mathbb{Z}_d$ qLDPC stabilizer code under local Pauli noise, the CMI across a buffer $B$ separating $A$ from $C$ decays exponentially with the width of $B$ in two complementary noise regimes independent of system size. At weak noise, this holds for full-system tripartitions, where correlations between the two sides require an error cluster to cross the buffer, an exponentially unlikely event. At strong noise, exponential decay holds whenever the buffer supports no logical operator, since correlations can persist only along rare chains of buffer qudits that remain informative. Under an additional space-uniformity assumption, we establish the robustness of Levin--Wen topological entropy. On finite-dimensional lattices of size $n$, the weak-noise bound further implies a constant-layer quasi-local Petz recovery channel of range $O(\\poly(\\log n)/\\varepsilon)$ that recovers the noiseless state within trace-distance error $\\varepsilon$. Both CMI bounds apply to general qLDPC interaction graphs, including geometries where such constant-depth quasi-local recovery need not exist. Thus, the exponential decay of the noise-induced CMI provides a general criterion for mixed-state phase stability.",
+      "external_ids": [
+        "arxiv:2610.22357"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-16T13:26:42+08:00",
+      "last_seen_at": "2026-10-16T13:26:42+08:00"
+    },
     {
       "source": "arxiv",
       "arxiv_id": "2610.20605",
@@ -978,7 +1445,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-13T15:24:18+08:00",
-      "last_seen_at": "2026-10-13T15:24:18+08:00"
+      "last_seen_at": "2026-10-16T13:26:42+08:00"
     },
     {
       "source": "semanticscholar",
@@ -1009,7 +1476,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-13T15:24:18+08:00",
-      "last_seen_at": "2026-10-13T15:24:18+08:00"
+      "last_seen_at": "2026-10-16T13:26:42+08:00"
     },
     {
       "source": "semanticscholar",
@@ -1039,7 +1506,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-13T15:24:18+08:00",
-      "last_seen_at": "2026-10-13T15:24:18+08:00"
+      "last_seen_at": "2026-10-16T13:26:42+08:00"
     },
     {
       "source": "semanticscholar",
@@ -1065,7 +1532,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-13T15:24:18+08:00",
-      "last_seen_at": "2026-10-13T15:24:18+08:00"
+      "last_seen_at": "2026-10-16T13:26:42+08:00"
     },
     {
       "source": "semanticscholar",
@@ -1092,7 +1559,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-13T15:24:18+08:00",
-      "last_seen_at": "2026-10-13T15:24:18+08:00"
+      "last_seen_at": "2026-10-16T13:26:42+08:00"
     },
     {
       "source": "arxiv",
@@ -4986,7 +5453,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-15T13:33:34+08:00"
+      "last_seen_at": "2026-10-16T13:26:42+08:00"
     },
     {
       "source": "arxiv",
@@ -5019,7 +5486,7 @@
       "doi": "10.48550/arXiv.2601.06451",
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-15T13:33:34+08:00"
+      "last_seen_at": "2026-10-16T13:26:42+08:00"
     },
     {
       "source": "semanticscholar",
@@ -5048,7 +5515,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-05T14:35:06+08:00"
+      "last_seen_at": "2026-10-16T13:26:42+08:00"
     },
     {
       "source": "semanticscholar",
@@ -5133,7 +5600,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-05T14:35:06+08:00"
+      "last_seen_at": "2026-10-16T13:26:42+08:00"
     },
     {
       "source": "semanticscholar",
@@ -5220,7 +5687,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-15T13:33:34+08:00"
+      "last_seen_at": "2026-10-16T13:26:42+08:00"
     },
     {
       "source": "semanticscholar",
@@ -5251,7 +5718,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-05T14:35:06+08:00"
+      "last_seen_at": "2026-10-16T13:26:42+08:00"
     },
     {
       "source": "arxiv",
@@ -5281,7 +5748,7 @@
       "doi": "10.1145/3731155",
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-15T13:33:34+08:00"
+      "last_seen_at": "2026-10-16T13:26:42+08:00"
     },
     {
       "source": "semanticscholar",
@@ -5335,7 +5802,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-15T13:33:34+08:00"
+      "last_seen_at": "2026-10-16T13:26:42+08:00"
     },
     {
       "source": "semanticscholar",
@@ -5365,7 +5832,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-05T14:35:06+08:00"
+      "last_seen_at": "2026-10-16T13:26:42+08:00"
     },
     {
       "source": "semanticscholar",
@@ -5393,7 +5860,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-05T14:35:06+08:00"
+      "last_seen_at": "2026-10-16T13:26:42+08:00"
     },
     {
       "source": "semanticscholar",
@@ -5419,7 +5886,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-05T14:35:06+08:00"
+      "last_seen_at": "2026-10-16T13:26:42+08:00"
     },
     {
       "source": "arxiv",
@@ -5449,7 +5916,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-15T13:33:34+08:00"
+      "last_seen_at": "2026-10-16T13:26:42+08:00"
     },
     {
       "source": "semanticscholar",
@@ -5482,7 +5949,7 @@
     }
   ],
   "last_run": {
-    "at": "2026-10-15T13:33:34+08:00",
+    "at": "2026-10-16T13:26:42+08:00",
     "sources": [
       "arxiv",
       "semanticscholar",
@@ -5499,8 +5966,8 @@
       "projective dynamics cloth"
     ],
     "fetched": 112,
-    "merged": 24,
-    "new": 13
+    "merged": 32,
+    "new": 15
   },
   "topic": "game technology: physics simulation, real-time rendering, global illumination",
   "schema_version": 1
