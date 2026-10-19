@@ -1,6 +1,693 @@
 {
-  "updated_at": "2026-10-18T13:26:06+08:00",
+  "updated_at": "2026-10-19T13:42:02+08:00",
   "candidates": [
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.23825",
+      "arxiv_version": "v1",
+      "title": "ENFR: Evidence Networks with Flow-Matched References for Amortized Simulation-Based Model Inference",
+      "authors": [
+        "Kai Lehman",
+        "Jameson Dong",
+        "Carolina Cuesta-Lazaro",
+        "Niall Jeffrey",
+        "Benjamin D. Wandelt",
+        "Francisco Villaescusa-Navarro",
+        "Sven Krippendorf",
+        "Jochen Weller"
+      ],
+      "published": "2026-10-16",
+      "url": "https://arxiv.org/abs/2610.23825",
+      "abstract": "The evidence, $\\mathcal{Z} = p(x | \\mathcal{M})$, of a data-generating model $\\mathcal{M}$ is a powerful tool in Bayesian frameworks: it enables model inference, model misspecification tests, and goodness-of-fit assessment as an alternative to standard discrepancy statistics, e.g. $χ^2$. While versatile, the evidence is notoriously difficult to compute, even when the likelihood is available. In both likelihood-based and simulation-based inference, estimating $\\mathcal{Z}$ provides an immediate solution to high-dimensional goodness-of-fit or model misspecification tests: using $\\mathcal{Z}(x)$ as the test statistic induces a minimum-volume level-$α$ test. Such tests are essential to assess model fidelity, which is necessary to trust simulation-based parameter inference. Existing learned approaches largely target Bayes factors, which only measure evidence ratios. Instead, we provide accurate, fast, and amortized estimates of the absolute evidence. We present ENFR: Evidence Networks with Flow-matched References. Building on the Evidence Network framework of Jeffrey & Wandelt (2024), the proposed method first learns Bayes factors with respect to a flow-matched reference, from which the absolute evidence is recovered. We show improvement in estimation of $\\mathcal{Z}$ over the flow-based baseline in all applications considered and the best performance of all density estimation methods considered in our benchmarks. We furthermore introduce and provide the proof for an architecture that jointly learns the individual evidences of a set of models $\\{\\mathcal{M}_i\\}$. We demonstrate the performance and scaling behavior of these approaches on data from a variety of scientific applications.",
+      "external_ids": [
+        "arxiv:2610.23825"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-19T13:42:02+08:00",
+      "last_seen_at": "2026-10-19T13:42:02+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.23822",
+      "arxiv_version": "v1",
+      "title": "A generalised and modular proof-theoretic semantics for sequent systems",
+      "authors": [
+        "Victor Barroso-Nascimento",
+        "Arghya Chakrabarty",
+        "Elaine Pimentel"
+      ],
+      "published": "2026-10-16",
+      "url": "https://arxiv.org/abs/2610.23822",
+      "abstract": "Base-extension semantics explains logical consequence via derivability in atomic systems. Extending this approach across logics requires careful control of structural principles and contexts. We present a modular sequent-based framework in which support is indexed by multisets of atomic resources and the semantic clauses for connectives are guided by their left introduction rules. The framework separates additive from multiplicative behaviour and makes explicit the contributions of structural rules and restrictions on sequents. We establish soundness and completeness for classical and intuitionistic propositional logic and for multiplicative-additive fragments of classical and intuitionistic linear logic. We then investigate axiomatic extensions of intuitionistic logic through Jankov logic. Two classes of atomic bases yield sound and complete semantics. Completeness is proven using two novel and modular methods using simulation bases, one of which is constructive. These results provide a common semantic treatment of several logical systems while identifying the additional conditions needed to extend the framework beyond structural variations.",
+      "external_ids": [
+        "arxiv:2610.23822"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-19T13:42:02+08:00",
+      "last_seen_at": "2026-10-19T13:42:02+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.23821",
+      "arxiv_version": "v1",
+      "title": "Learning without relearning physical symmetry: an SO(3)-equivariant convolutional network (CNN) on the sphere",
+      "authors": [
+        "Joshua Williamson",
+        "Niall Jeffrey",
+        "Lorne Whiteway"
+      ],
+      "published": "2026-10-16",
+      "url": "https://arxiv.org/abs/2610.23821",
+      "abstract": "Many of the most important datasets in the physical sciences live natively on the sphere, and these data often carry no preferred position or orientation. Using methods that do not reflect this symmetry leads to far higher simulation requirements, which can be catastrophic for scientific analyses (forcing reliance on cheap, imperfect models that bias results). We present a novel spherical implementation of a gauge equivariant mesh architecture that is specifically designed for the Hierarchical Equal Area isoLatitude Pixelization (\\healpix{}) of the sphere. The $\\mathrm{SO}(3)$-equivariant convolution is built from steerable filters, parallel transport and spin-weighted features. The architecture supplies the exact symmetry, so the network does not spend training data learning it. The convolution operations are constructed to give provably exact equivariance, given a band-limit. Our full CNNs can achieve SO(3)-invariance error at per-cent-level and lower, which is controlled through well-understood hyperparameters. On benchmarks, our technique gives the most accurate dense gradient regression and competitive cosmic microwave background foreground removal and denoising. The improved simulation efficiency matters most in simulation-based inference (SBI), where high-fidelity simulations are expensive and neural compressors require large training sets, so a fixed budget forces analyses with less accurate simulators. In cosmology lensing SBI, our technique yields the tightest posteriors at matched simulation count. This approach is a novel method that will enable new convolutional neural network analyses, including generative and inference tasks, for processes and data on the sphere.",
+      "external_ids": [
+        "arxiv:2610.23821"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-19T13:42:02+08:00",
+      "last_seen_at": "2026-10-19T13:42:02+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.23779",
+      "arxiv_version": "v1",
+      "title": "Mesoscopic learning dynamics of extensive-width neural networks",
+      "authors": [
+        "Shu Zhou",
+        "Jean Barbier",
+        "Sebastian Goldt"
+      ],
+      "published": "2026-10-16",
+      "url": "https://arxiv.org/abs/2610.23779",
+      "abstract": "Understanding how stochastic gradient descent learns internal representations in wide neural networks trained on rich target functions is a central problem in machine learning. We study this question in two-layer neural networks learning target functions represented by networks of the same architecture, with arbitrary nonlinearity, and with network width and input dimension growing proportionally. In this regime, standard approaches for describing the learning dynamics require tracking a diverging number of overlaps, which measure correlations between learned and target features, leaving no obvious description in terms of a few order parameters. Here, we develop a mesoscopic description of learning by characterizing the distribution of overlaps. In the early stages of learning, we find that a Gaussian description of overlap statistics reduces the learning dynamics to a few collective variables that track learning of the target function's linear and quadratic components. We then estimate the timescale of specialization, when Gaussian closure breaks down and individual learned features begin to strongly correlate with specific target features. We find that specialization in extensive-rank networks is accelerated via a quadratic shielding mechanism, whereby learning the linear and quadratic components of the target function filters gradient fluctuations. We finally describe how the activation function determines the pattern of specialization and characterize the subsequent refinement of learned features. Together, these results show how collective learning gives way to individual feature discovery and clarify when learning in large neural networks admits a simple statistical description.",
+      "external_ids": [
+        "arxiv:2610.23779"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-19T13:42:02+08:00",
+      "last_seen_at": "2026-10-19T13:42:02+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.23776",
+      "arxiv_version": "v1",
+      "title": "Active Learning for Interatomic Potentials: A Review of Uncertainty-Driven Data Efficiency",
+      "authors": [
+        "Ilya V. Chepkasov",
+        "Alexander V. Shapeev",
+        "Alexander G. Kvashnin"
+      ],
+      "published": "2026-10-16",
+      "url": "https://arxiv.org/abs/2610.23776",
+      "abstract": "Developing a machine learning interatomic potential (MLIP) that is accurate for the specific conditions under which it will be applied, rather than simply for the predefined configurations chosen by the model developer, is a significant challenge in atomistic simulation. Active learning (AL) addresses this challenge by closing the loop between candidate generation, data selection, reference calculation, and model updating. Here, we survey more than seventy studies, with an emphasis on work from 2020 to 2026, to understand how active learning has evolved from a niche, on-the-fly training technique for query-by-committee and Gaussian process force fields into a diverse family of data-efficient strategies. he reviewed examples include on-the-fly molecular dynamics, active data selection for fine-tuning pretrained models, kernel- and representation-based acquisition using frozen pretrained models, and reaction-aware sampling for chemical systems far from equilibrium. We explore the use of active learning in elemental and alloy mechanics, hydrogen and ion diffusion, ferroelectrics and effective Hamiltonians of functional materials, reactive and photochemical dynamics, high-entropy and compositionally disordered materials, as well as generative and autonomous material discovery pipelines. Drawing on a growing body of critical, methodologically self-aware literature, we also show that this achievement carries systematic caveats. Uncertainty estimates are not interchangeable across model architectures and are frequently the least reliable exactly where they matter most. We close by discussing the outlook for standardized, uncertainty-calibrated, and observable-targeted active-learning workflows in the foundation-model era.",
+      "external_ids": [
+        "arxiv:2610.23776"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-19T13:42:02+08:00",
+      "last_seen_at": "2026-10-19T13:42:02+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.23772",
+      "arxiv_version": "v1",
+      "title": "Video Diffusion Avatars: Taming Video Diffusion Models into Controllable 3D Avatars",
+      "authors": [
+        "Simon Giebenhain",
+        "Tobias Kirschstein",
+        "Liam Schoneveld",
+        "Davide Davoli",
+        "Zhe Chen",
+        "Matthias Nießner"
+      ],
+      "published": "2026-10-16",
+      "url": "https://arxiv.org/abs/2610.23772",
+      "abstract": "Video diffusion models (VDMs) trained on internet-scale data encode a rich prior on appearance, motion, and physics that is difficult to replicate with explicit 3D rendering and costly 3D data capture. We introduce Video Diffusion Avatars (VDAs), a method that creates photo-realistic, multi-view consistent avatars from a single image by fine-tuning a VDM for precise control over camera viewpoint, facial expression, and upper-body pose. Departing from 3D morphable models (3DMMs), VDAs use a learned expression space that lifts the expressiveness ceiling of 3DMMs, e.g., for the tongue and mouth interior. However, learned expression codes exhibit heavy viewpoint bias, as our DISTRACT benchmark reveals. We show that this bias can be removed through disentanglement, enabling their use as driving signals for multi-view consistent avatars. Camera and upper-body pose are controlled jointly via proxy-mesh renderings, giving independent control over expression, pose, and viewpoint. A camera-triplet training strategy makes the approach efficient: our models train for 34 hours on a single A100 using only public multi-view data. VDAs outperform state-of-the-art single-image 3D avatars on novel-view reenactment, reducing face LPIPS by 29% and improving perceptual quality (JOD) by 66% on BecomingLit. A static 3DGS reconstruction probe further confirms that our generations are the most multi-view consistent. Built on a video prior, VDAs produce effects beyond the reach of explicit renderers, including physically plausible hair dynamics, shadows, reflections, and refractions.",
+      "external_ids": [
+        "arxiv:2610.23772"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-19T13:42:02+08:00",
+      "last_seen_at": "2026-10-19T13:42:02+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.23763",
+      "arxiv_version": "v1",
+      "title": "Limits from nonlinear loss of spin-orbit-torque control of magnon transport",
+      "authors": [
+        "Lerato Takana",
+        "Katya Mikhailova",
+        "Charles Zheng",
+        "Sauviz Alaei",
+        "Xiangcheng Liu",
+        "Junwei Tong",
+        "Kwangyul Hu",
+        "Michael Flatté",
+        "Xiaoqin Li",
+        "Yuri Suzuki"
+      ],
+      "published": "2026-10-16",
+      "url": "https://arxiv.org/abs/2610.23763",
+      "abstract": "Controlling magnon currents is central to the development of magnonic devices, which exploit spin excitations for information transport without charge flow. Here, we use the spin-orbit torque (SOT) from a Pt gate to control the effective magnon damping in three-terminal devices fabricated from low-damping lithium aluminum ferrite (LAFO) thin films and identify the nonlinear damping that ultimately limits the gate response. With increasing gate current, the nonlocal magnon signal initially increases, but saturates and subsequently decreases above a critical gate current density. Brillouin light scattering microscopy reveals that this turnover coincides with the emergence of an SOT-driven auto-oscillation mode localized beneath the gate, whose frequency continuously redshifts with increasing gate current, characteristic of large-amplitude nonlinear dynamics, and with a suppression of the propagating magnon population away from the gate. Micromagnetic simulations reproduce the observed nonmonotonic gate response only when an amplitude-dependent effective damping is included, indicating that nonlinear losses, rather than saturation of spin injection, limit the degree of magnon modulation. Our results show that SOT compensation of magnon damping is ultimately limited by nonlinear damping attributed to auto-oscillations, providing a framework for understanding the limits of magnon current modulation in magnetic insulators.",
+      "external_ids": [
+        "arxiv:2610.23763"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-19T13:42:02+08:00",
+      "last_seen_at": "2026-10-19T13:42:02+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.23850",
+      "arxiv_version": "v1",
+      "title": "Entering the Era of Circumplanetary Ring Detection with Direct Imaging",
+      "authors": [
+        "Samantha N. Hasler",
+        "Alexandra Z. Greenbaum",
+        "Geoffrey Bryden",
+        "Vanessa Bailey",
+        "Jorge Llop-Sayson",
+        "Elizabeth Lane",
+        "Mary Anne Limbach",
+        "Logan Pearce",
+        "James G. Ingalls",
+        "Patrick Lowrance"
+      ],
+      "published": "2026-10-16",
+      "url": "https://arxiv.org/abs/2610.23850",
+      "abstract": "Rings are ubiquitous among the giant planets in the Solar System, yet their presence around exoplanets remains observationally unconstrained. As direct imaging missions such as the Nancy Grace Roman Space Telescope approach first light, understanding the influence of circumplanetary rings on reflected light photometry is critical for the accurate interpretation and follow-up of direct imaging observations. We present a hybrid forward model for reflected light phase curves of ringed exoplanets, coupling a ray casting framework for computing mutual planet-ring shadowing with empirical reflectance spectra from Cassini observations of Saturn's rings. We model Jupiter-like planets with opaque, icy rings spanning 1 - 10x the radial extent of Saturn's A, B, and C rings across a grid of inclinations and ring obliquities. Our simulations show that rings enhance the flux ratios at favorable ring geometries. Saturn-equivalent rings increase peak flux by a factor of 3.1 in the visible, while more extended rings produce enhanced contrasts exceeding an order of magnitude more. The flux contribution of a ring is highly sensitive to obliquity and orbital location. At certain geometries, rings can suppress total system brightness below that of a ringless planet. We highlight multi-band observations as a complementary route for diagnosing the presence of an exoring. We also apply the model to $\\upsilon$ Andromedae d as an observational test case and discuss the implications for exoring detectability with the Roman Coronagraph. Exorings have the potential to bias inferred planetary properties from direct images and must be properly accounted for in observation preparation and interpretation.",
+      "external_ids": [
+        "arxiv:2610.23850"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact",
+        "real-time fluid simulation graphics",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-19T13:42:02+08:00",
+      "last_seen_at": "2026-10-19T13:42:02+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.23849",
+      "arxiv_version": "v1",
+      "title": "Blind Precise Assembly: Proprioceptive Sim-to-Real Peg-in-Hole for Diverse Parts",
+      "authors": [
+        "Antonia Bronars",
+        "Younghyo Park",
+        "Kushal Kedia",
+        "Pulkit Agrawal"
+      ],
+      "published": "2026-10-16",
+      "url": "https://arxiv.org/abs/2610.23849",
+      "abstract": "Every robot already carries high-resolution contact sensors: its own joints. Legged robots and humanoids exploit them to walk, run, and track whole-body motions without vision, but there the contacts are large and forceful. Is joint sensing also enough for precise, contact-rich assembly, where the robot must find a millimeter-scale opening, mesh gear teeth, or catch a thread through light contact? We study this question by training blind assembly policies that observe only a short history of joint positions, velocities, and their own actions, without visual, force, torque, or tactile sensing. The poses of both the fixture and the part are unknown to the policy, and the grasp is randomized substantially. The policy must therefore assemble the parts through contact, sensed exclusively through its own proprioception. Trained with reinforcement learning entirely in simulation over randomized parts, grasps, and contacts, such policies learn peg insertion, gear meshing, and nut threading. The peg insertion policy transfers zero-shot to the real world and inserts pegs of different shapes and sizes in 73% of trials. Controlled comparisons with matched visual policies in simulation show that blind policies generalize far better to unseen part shapes and sizes, though they can be slower. Training such policies needs thousands of different assemblies, each simulated with its clearance intact, so we also release an open-source generator that builds them procedurally from exact convex pieces for MuJoCo; it is more accurate and faster than convex decomposition or MuJoCo's signed-distance collision. Videos and interactive simulations are at https://younghyopark.me/blind-proprioceptive-assembly/.",
+      "external_ids": [
+        "arxiv:2610.23849"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-19T13:42:02+08:00",
+      "last_seen_at": "2026-10-19T13:42:02+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.23813",
+      "arxiv_version": "v1",
+      "title": "MOSS: Multimodal Origami Swamp Robot System",
+      "authors": [
+        "T. Lan",
+        "A. Babgei",
+        "L. Romanello",
+        "M. Kovac",
+        "S. F. Armanini"
+      ],
+      "published": "2026-10-16",
+      "url": "https://arxiv.org/abs/2610.23813",
+      "abstract": "Robotic systems for environmental monitoring and ecological surveying in wetlands and swamps must operate across diverse terrestrial and aquatic conditions. Conventional fixed-geometry wheels cannot adapt their contact geometry to these varying conditions. This work presents MOSS (Multimodal Origami Swamp Robot System), a compact amphibious robotic platform with 3D-printed origami wheels. The compact crank mechanism switches the wheel between contracted and expanded configurations, changing its width, body diameter, and fin orientation simultaneously. The contracted configuration is better suited to efficient rolling on firmer ground, whereas the expanded configuration provides greater contact and terrain engagement on softer surfaces. MOSS was evaluated on soil, sand, mud with varying water content, and water, in addition to in-motion morphing and terrestrial-aquatic transition tests. The more energy-efficient wheel configuration depended on terrain. The contracted configuration achieved a lower cost of transport on firmer soil and mud, whereas the expanded configuration performed better on wetter mud, sand, and water, reducing the cost of transport by up to 29%. Expanded wheels also reduced slip in wet mud and reduced both slip and hub sinkage in sand. MOSS successfully completed configuration changes in $1.95 \\pm 0.11$ s and demonstrated continuous locomotion across soil-mud-water transitions. Outdoor trials further demonstrated operation across natural deformable terrain and water. These results show that adaptive wheel geometry provides terrain-dependent locomotion benefits and enables a single compact platform to traverse substantially different terrestrial and aquatic conditions.",
+      "external_ids": [
+        "arxiv:2610.23813"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-19T13:42:02+08:00",
+      "last_seen_at": "2026-10-19T13:42:02+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.23802",
+      "arxiv_version": "v1",
+      "title": "Regularity Aspects of Temperature in Heat-Conducting Fluid Systems via De Giorgi Methods",
+      "authors": [
+        "Nilasis Chaudhuri",
+        "Piotr B. Mucha",
+        "Tomasz Piasecki",
+        "Jiakun Yang"
+      ],
+      "published": "2026-10-16",
+      "url": "https://arxiv.org/abs/2610.23802",
+      "abstract": "This paper is concerned with the conditional Hölder regularity of the temperature for the heat-conducting compressible Navier-Stokes system, where the pressure takes a complete form that includes the Stefan-radiation correction. Under minimal assumptions on the density and velocity, we prove that any weak solution automatically exhibits Hölder continuity in the temperature component. This constitutes the main result of the work and is achieved by an application of the De Giorgi method. As a consequence of this conditional regularity, we establish the global-in-time existence of a regular, unique solution to a simplified system for the compressible potential flow of a heat-conducting fluid, valid for arbitrarily large initial data.",
+      "external_ids": [
+        "arxiv:2610.23802"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact",
+        "global illumination real-time",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-19T13:42:02+08:00",
+      "last_seen_at": "2026-10-19T13:42:02+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.23762",
+      "arxiv_version": "v1",
+      "title": "An exact finite-state representation of viscoelastic memory for accelerated sea-level modeling: SLEvolve v1.0",
+      "authors": [
+        "Xiyuan Bao",
+        "S. Mostafa Mousavi",
+        "Konstantin Latychev",
+        "Jerry X. Mitrovica"
+      ],
+      "published": "2026-10-16",
+      "url": "https://arxiv.org/abs/2610.23762",
+      "abstract": "Glacial Isostatic Adjustment (GIA) models solve the gravitationally self-consistent sea-level equation for the response of the solid Earth and the oceans to changing ice loads. As these models are increasingly embedded in coupled ice-sheet simulations, glacial-cycle calculations, and large ensembles, standard pseudo-spectral 1-D solvers face a steep computational barrier: they evaluate the viscoelastic response by explicitly re-summing every past load increment, scaling quadratically with time steps as $O(N^2)$. Here we show that this computational penalty is an artifact of algorithmic formulation rather than Earth physics. By exploiting the exponential form of the viscoelastic relaxation kernel, we reformulate the viscous response as an exact recursive update of a finite set of modal states, without re-summing the load history. This exact reformulation alone reduces the cost of a run to $O(N)$, yielding a 20.6-fold speed-up relative to a standard full-history 1-D GIA solver for a case study involving a 550-step Antarctic future sea-level projection. Implemented in our open-source solver SLEvolve v1.0, this formulation---combined with fewer, table-free and multithreaded spherical-harmonic transforms, improved file handling, and physics-inspired iteration starts---achieves an end-to-end speed-up of over three orders of magnitude (up to 4,000-fold) against the same 1-D GIA solver, reducing day-long simulations to under thirty seconds on a workstation. Beyond this solid-Earth application, SLEvolve illustrates how human-derived analytical reformulations can be combined with benchmark-harnessed AI-assisted engineering to modernize scientific software. In particular, Numerical regression tests and performance profiling guided the AI agents' implementation choices and helped reject ineffective optimizations.",
+      "external_ids": [
+        "arxiv:2610.23762"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-19T13:42:02+08:00",
+      "last_seen_at": "2026-10-19T13:42:02+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.23844",
+      "arxiv_version": "v1",
+      "title": "ModeCast: One-Shot Prediction of Linear MHD Eigenmodes and Growth Rates in Tokamaks",
+      "authors": [
+        "Alex Higginbottom",
+        "Zara Z. Ercan",
+        "Abetharan Antony",
+        "Guzman Sanchez Gonzalez",
+        "Rafael Grazzini Placucci",
+        "Armand Kassaï Koupaï",
+        "Artur P. Toshev"
+      ],
+      "published": "2026-10-16",
+      "url": "https://arxiv.org/abs/2610.23844",
+      "abstract": "Large-scale magnetohydrodynamic instabilities break plasma confinement, can trigger disruptions, and constrain fusion reactor design; modeling a single configuration against them takes hours with a reference solver such as JOREK, and a design study requires thousands of hours. ModeCast is the first learned surrogate to return the complete linear stability assessment for MHD modes. Trained on a comprehensive dataset of over 45,000 JOREK simulations across thousands of equilibria, it screens stability across toroidal mode numbers n=1-4 and predicts the full spatial structure and growth rate of unstable modes. Excluding the equilibrium solve, inference on a single GPU is over 10,000x faster than multi-core JOREK linear stability runs. The gain comes from building the linear-phase physics into the formulation, objective, and inputs, yielding up to six times more training data. ModeCast misses none of the unstable held-out cases, and its predicted fields reproduce the simulation's measured physics, from magnetic island topology to resistivity trends. On a fixed-geometry resistivity scan outside its training distribution, refitting only the 22k-parameter growth rate head of the 145M-parameter network on four simulation halves the held-out internal kink growth rate error, and fine-tuning the whole network adds little. Because it is differentiable and returns full fields, ModeCast could in the future assimilate experimental measurements, providing a bridge to real devices and accelerating progress toward commercial fusion. Project page: zenithon.ai/research/modecast.",
+      "external_ids": [
+        "arxiv:2610.23844"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics",
+        "global illumination real-time",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-19T13:42:02+08:00",
+      "last_seen_at": "2026-10-19T13:42:02+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.23837",
+      "arxiv_version": "v1",
+      "title": "SparseMax-dSTL: Sound Robustness with Horizon-Independent Gradient Allocation for Temporal Logic Trajectory Optimization",
+      "authors": [
+        "Sai Sandeep Damera",
+        "Ryan Matheu",
+        "John S. Baras",
+        "Calin Belta"
+      ],
+      "published": "2026-10-16",
+      "url": "https://arxiv.org/abs/2610.23837",
+      "abstract": "A gradient-based solver that enforces a Signal Temporal Logic (STL) specification uses a smooth approximation of its quantitative semantics, the robustness. In safety-critical trajectory optimization, this approximation must have two properties. First, it must be sound, that is, nonnegative only on trajectories that satisfy the specification. Second, at each temporal operator, the weight of its gradient on the violating samples must stay bounded away from zero, however long the horizon. The approximations in use, including the log-sum-exp, its sound variant, and the generalized-mean robustness, do not have both. We introduce lower approximations of the minimum and the maximum whose gradients are sparsemax projections, and we prove that the robustness built from them has both. It lies below the exact robustness and is therefore sound, and its error has a bound that is independent of the number of samples and known before optimization. The gradient of each approximation is exactly zero on every sample beyond a data-dependent threshold, so the weight on violating samples a gap beyond the others has a positive lower bound at every horizon. On a planar unicycle and on a seven-joint manipulator beside a person in simulation, the log-sum-exp approximation is positive on a violating trajectory. As the horizon of the manipulator's task grows from 10 to 80 s, the gradient weight of the sound variant on the violating samples falls from 0.22 to 0.04, while that of sparsemax stays at 1. In a constrained trajectory optimization of the unicycle, the constraint on the log-sum-exp robustness returns a violating trajectory, whereas the constraint on the sparsemax robustness returns a trajectory that satisfies the specification with the required margin.",
+      "external_ids": [
+        "arxiv:2610.23837"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-19T13:42:02+08:00",
+      "last_seen_at": "2026-10-19T13:42:02+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.23835",
+      "arxiv_version": "v1",
+      "title": "Detecting Exoplanetary Rings with Roman CGI Reflected Light Phase Curve Observations",
+      "authors": [
+        "Elizabeth Lane",
+        "Mary Anne Limbach",
+        "Logan Pearce",
+        "Samantha Hasler",
+        "Alexandra Z. Greenbaum"
+      ],
+      "published": "2026-10-16",
+      "url": "https://arxiv.org/abs/2610.23835",
+      "abstract": "The Nancy Grace Roman Space Telescope's Coronagraph Instrument (CGI) will provide the first opportunity to directly detect mature giant exoplanets in reflected light. However, most known radial-velocity planets lie near CGI's sensitivity limit. In contrast, Saturn-like rings around these planets may be much more accessible: our models show that rings can outshine their host planets by one to two orders of magnitude or more, making them easier to detect than the planets themselves. However, because the planet and rings would be unresolved in reflected light, unrecognized rings could lead to misinterpretation of the planet's intrinsic brightness and physical properties. To disentangle these blended signals, we model reflected-light phase curves of ringed and ringless planets. Ring systems can produce a distinctive phase-curve morphology, often with four extrema rather than the two expected for unringed planets, enabling robust confirmation with multi-epoch CGI observations. We develop an analytical framework for ringed-planet phase curves using a modern, self-consistent coordinate system and use it to illustrate phase curves for a range of ring configurations. We then simulate observations of $ε$ Eridani b (3.5 AU, 1 M$_{Jup}$), a prime initial CGI target, with a Saturn-like ring system. These simulations show that such a configuration would be detectable and suggest that rings may expand the pool of viable CGI targets to planets previously considered beyond reach. We conclude that CGI is poised to provide the first observational constraints on the prevalence of Saturn-like rings around giant exoplanets.",
+      "external_ids": [
+        "arxiv:2610.23835"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-19T13:42:02+08:00",
+      "last_seen_at": "2026-10-19T13:42:02+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.23832",
+      "arxiv_version": "v1",
+      "title": "Leveraging verifiable structure in quantum circuits to find more efficient compilations with agentic AI",
+      "authors": [
+        "Tanuj Khattar",
+        "Nicholas C. Rubin",
+        "Craig Gidney",
+        "Michael Broughton",
+        "Guang Hao Low",
+        "Ryan Babbush"
+      ],
+      "published": "2026-10-16",
+      "url": "https://arxiv.org/abs/2610.23832",
+      "abstract": "We discuss an effective paradigm of utilizing AI agents to better compile quantum circuits when one can constrain bottleneck subroutines to have some form of classically verifiable structure. For example, when critical subroutines are composed exclusively of reversible classical logic, phasing operations, and measurement based uncomputation, one can efficiently simulate execution for classical inputs. This property facilitates efficient certification of approximate circuit synthesis via a form of fuzz testing, provided suitable assumptions on the input distribution. While this pattern was recently exploited to improve quantum cryptanalysis circuits, here we highlight the flexibility of the broader approach by discussing three important applications. (1) The computation of $1/\\sqrt{x}$ that bottlenecks real space simulations of the Coulomb operator such as those important for modeling inertial confinement fusion reactors. (2) The decoding of Reed-Solomon codes which bottlenecks the decoded quantum interferometry algorithm when used to approximately solve the optimal polynomial intersection problem. And (3) the quantum look-up tables and controlled application of Givens rotations that bottleneck the most performant quantum algorithms for simulating chemistry in second quantization. We discuss reference implementations of these algorithms and how they can be constrained and verified in the interest of seeding a Kaggle competition designed to accelerate AI-based research into the optimization of their compilation.",
+      "external_ids": [
+        "arxiv:2610.23832"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-19T13:42:02+08:00",
+      "last_seen_at": "2026-10-19T13:42:02+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.23827",
+      "arxiv_version": "v1",
+      "title": "Quality-of-Transmission Estimation in Quantum Networks: Compute, Simulate, or Learn?",
+      "authors": [
+        "Anis Bekri",
+        "Amar Abane",
+        "Van Sy Mai",
+        "Abdella Battou",
+        "Saddek Bensalem"
+      ],
+      "published": "2026-10-16",
+      "url": "https://arxiv.org/abs/2610.23827",
+      "abstract": "Future quantum networks will rely on control-plane decisions such as routing, scheduling, entanglement provisioning, purification, and memory allocation. Each decision depends on a timely and reliable estimate of the quality of the entanglement that a candidate path can deliver, with end-to-end fidelity as a central metric. Inspired by the optical-networking experience with quality-of-transmission (QoT) estimation, this article asks when a quantum controller should compute fidelity analytically, simulate it, or learn a surrogate model. The optical analogy is useful but incomplete: optical QoT estimation often predicts a scalar transmission margin, whereas quantum QoT estimation must account for probabilistic entanglement generation, random memory waiting times, decoherence, state consumption, and measurement constraints that can make fidelity a stochastic target. We propose a compute/simulate/learn framework for quantum QoT estimation and illustrate it with a simulation-based proof of concept. Our study shows that analytical composition can be sufficient in simple regimes, that simulation becomes necessary when stochastic memory effects shape the delivered fidelity distribution, and that lightweight learned surrogates can approximate simulator labels at much lower runtime cost for online control. We close with open challenges for deployment, including stochastic targets, sim-to-real transfer, data-generation cost, physics-informed learning, and generalization beyond individual paths to full network topologies.",
+      "external_ids": [
+        "arxiv:2610.23827"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics",
+        "global illumination real-time"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-19T13:42:02+08:00",
+      "last_seen_at": "2026-10-19T13:42:02+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.23819",
+      "arxiv_version": "v1",
+      "title": "Memory effects in the homogenization of a viscous fluid containing elastic particles",
+      "authors": [
+        "J. Casado-Díaz",
+        "A. R. Hormigo-Molina"
+      ],
+      "published": "2026-10-16",
+      "url": "https://arxiv.org/abs/2610.23819",
+      "abstract": "This work deals with a fluid-structure interaction problem involving an incompressible viscous fluid and a periodic array of tiny elastic inclusions in a three-dimensional domain. We focus on a critical regime where the volume fraction of the inclusions tends to zero, but their density and stiffness are scaled so that they still influence the macroscopic behavior. The asymptotic regime depends on the parameter $γ=\\lim_{\\varepsilon\\to 0}r_\\varepsilon/\\varepsilon^3\\in [0,+\\infty]$, where $\\varepsilon$ is the period and $r_\\varepsilon$ the inclusion size. For $γ=0$ the solid and fluid equations uncouple in the limit. For $γ\\in (0,+\\infty]$, we show that the macroscopic fluid velocity satisfies a Stokes system with memory: the standard Stokes equations are augmented by convolution-in-time terms arising from the elastic vibrations of the inclusions. The existence of the convolution kernels is established for both $γ\\in(0,+\\infty)$ and $γ=\\infty$ using semigroup theory. For $γ=\\infty$ the microscopic problem reduces to a purely conservative elastodynamic equation and the kernels can be computed explicitly via spectral decomposition. They are oscillatory and almost-periodic in time, yielding a persistent, non-decaying memory. For $γ\\in(0,+\\infty)$ the microscopic elastodynamic equation is coupled to a local Stokes problem, whose viscous dissipation yields memory kernels that decay to zero at infinity.",
+      "external_ids": [
+        "arxiv:2610.23819"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-19T13:42:02+08:00",
+      "last_seen_at": "2026-10-19T13:42:02+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.23774",
+      "arxiv_version": "v1",
+      "title": "Localizing and quantifying cerebral arterial stenosis from sparse velocity waveforms using a conditional neural operator",
+      "authors": [
+        "Tong Zhu",
+        "Yi Zhu",
+        "Jiawei Liu",
+        "Pipi Hu"
+      ],
+      "published": "2026-10-16",
+      "url": "https://arxiv.org/abs/2610.23774",
+      "abstract": "Cerebral arterial stenosis alters blood flow throughout the vascular network, complicating the estimation of its location and severity from sparse velocity observations. We developed a conditional neural operator that predicts cerebral hemodynamics for candidate stenoses and enables inverse estimation through waveform comparison. Training data were generated using a sequential 0D-1D model that simulates pressure, cross-sectional area, and velocity under varying anatomical, physiological, and stenosis conditions. The operator encodes a single stenosis within vessel tokens and uses global attention to represent its effects across the network. Severity-gated coupling connects these representations to a shared field decoder, while paired healthy simulations constrain baseline predictions. After training, model weights remain fixed, and stenosis location and severity are estimated by minimizing the mismatch between predicted and observed midpoint velocity waveforms. Network-averaged relative validation errors were 0.14% for pressure, 0.59% for area, and 2.79% for velocity. For an eight-vessel observation configuration, localization accuracy across 20 candidate vessels was 99.4% without added noise and 96.0% at the 30% noise setting. Comparisons between configurations with equal numbers of observed vessels showed that measurement placement influenced recovery. Errors and localization ambiguities were greater in selected communicating and distal arteries. These results demonstrate the feasibility of surrogate-based stenosis estimation in simulated cerebral networks and highlight the importance of observation placement. Evaluation was limited to unseen stenosis scenarios within sampled anatomical and physiological conditions. Generalization to new individuals and clinical measurements requires further investigation.",
+      "external_ids": [
+        "arxiv:2610.23774"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "global illumination real-time",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-19T13:42:02+08:00",
+      "last_seen_at": "2026-10-19T13:42:02+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.23769",
+      "arxiv_version": "v1",
+      "title": "Not All Actions Contribute Equally: Learning Precise Progress Estimation from Imprecise Demonstrations",
+      "authors": [
+        "Huanqian Wang",
+        "Boshi Tang",
+        "Botong Xiao",
+        "Jie Zhang",
+        "Yang Yue",
+        "Danhua Tao",
+        "Shiji Song",
+        "Gao Huang"
+      ],
+      "published": "2026-10-16",
+      "url": "https://arxiv.org/abs/2610.23769",
+      "abstract": "Progress estimators play an essential role in providing dense reward signals for reinforcement learning in robotic manipulation, but accurately assessing task progress can be much challenging. Existing methods heavily rely on expert data and naively assume that all actions within a demonstration contribute to task success. This assumption often breaks down in real-world scenarios, especially in high-precision manipulation, where subtle geometric errors can lead to task failure. Therefore, these methods can erroneously interpret human mistakes as meaningful progress, further corrupting progress learning. We argue that a key limitation is the lack of a global prior regarding task evaluation criteria, which is crucial for distinguishing meaningful progress from human mistakes. To this end, we propose PRIME, a novel progress estimator capable of learning precise progress estimation from imprecise demonstrations by aggregating experience across trajectories. PRIME constructs a weighted graph over observed states, connecting states across trajectories based on spatial proximity and visual consistency. Edge weights encode spatial distances as transition costs, and shortest-path search approximates the geodesic distance to success. Changes in this distance naturally distinguish advancement, stagnation, and setbacks without assuming monotonic progress over time. Extensive experiments in both simulation and real world on precise manipulation tasks show that PRIME is consistently effective across diverse tasks, and robust to data with varying degrees of suboptimality. Notably, the advantage of PRIME gets more pronounced in higher-precision scenarios, yielding up to a \\(5\\times\\) improvement in policy success rate over the SFT baselines on charger insertion.",
+      "external_ids": [
+        "arxiv:2610.23769"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "global illumination real-time",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-19T13:42:02+08:00",
+      "last_seen_at": "2026-10-19T13:42:02+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.23706",
+      "arxiv_version": "v1",
+      "title": "Results from the GIF++ Long-Term Study of Eco-Friendly Gas Mixtures for RPCs",
+      "authors": [
+        "D. Ahmadi",
+        "M. Tytgat",
+        "M. Abbrescia",
+        "G. Aielli",
+        "R. Aly",
+        "M. C. Arena",
+        "M. Barroso",
+        "L. Benussi",
+        "S. Bianco",
+        "D. Boscherini",
+        "F. Bordon",
+        "A. Bruni",
+        "S. Buontempo",
+        "M. Busato",
+        "P. Camarri",
+        "R. Cardarelli",
+        "L. Congedo",
+        "D. De Jesus Damiao",
+        "M. De Serio",
+        "F. Debernardis",
+        "A. Di Ciaccio",
+        "L. Di Stante",
+        "P. Dupieux",
+        "J. Eysermans",
+        "N. Ferrara",
+        "A. Ferretti",
+        "G. Galati",
+        "M. Gagliardi",
+        "R. Guida",
+        "G. Iaselli",
+        "B. Joly",
+        "S. A. Juks",
+        "U. Lakshmaiah",
+        "K. S. Lee",
+        "B. Liberti",
+        "D. Lucero Ramirez",
+        "B. Mandelli",
+        "S. P. Manen",
+        "L. Massa",
+        "A. Pastore",
+        "E. Pastori",
+        "D. Piccolo",
+        "L. Pizzimento",
+        "A. Polini",
+        "G. Proto",
+        "G. Pugliese",
+        "L. Quaglia",
+        "D. Ramos",
+        "G. Rigoletti",
+        "A. Rocchi",
+        "M. Romano",
+        "P. Salvini",
+        "R. Santonico",
+        "G. Saviano",
+        "M. Sessa",
+        "S. Simone",
+        "E. Vercellin",
+        "M. Verzeroli",
+        "N. Zaganidis"
+      ],
+      "published": "2026-10-16",
+      "url": "https://arxiv.org/abs/2610.23706",
+      "abstract": "Gaseous detectors play a crucial role in high-energy physics experiments, yet their operation often relies on fluorinated gases with a very high Global Warming Potential (GWP). Resistive Plate Chambers (RPCs) operated in avalanche mode typically use high-performance gas mixtures based on high-GWP F-gases such as C$_2$H$_2$F$_4$ and SF$_6$. As environmental concerns grow and regulations become increasingly stringent, the development of sustainable gas mixtures has become a global priority. Within the RPC ECOGas@GIF++ Collaboration, a long-term R&D program has investigated eco-friendly gas mixtures for RPCs and assessed their performance under irradiation. RPCs operated with an HFO-1234ze/CO$_2$ mixture were exposed to high particle fluxes at CERN GIF++, accumulating $\\mathcal{O}(10^2~\\mathrm{mC/cm^2})$ over three years. This ageing campaign is now complete, and the detector performances have been systematically evaluated across a broad range of particle rates. This paper presents preliminary final results from the campaign, along with future perspectives.",
+      "external_ids": [
+        "arxiv:2610.23706"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "global illumination real-time"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-19T13:42:02+08:00",
+      "last_seen_at": "2026-10-19T13:42:02+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.23828",
+      "arxiv_version": "v1",
+      "title": "Revisiting the Mass and Scale Dependence of the \"Lensing is Low\" Effect with DECADE",
+      "authors": [
+        "Kimiko Queen",
+        "Abigail V. Fisher",
+        "Johannes U. Lange"
+      ],
+      "published": "2026-10-16",
+      "url": "https://arxiv.org/abs/2610.23828",
+      "abstract": "Galaxy-galaxy lensing (GGL) is a critical probe of cosmology and galaxy formation. However, predicted GGL amplitudes tend to be $\\sim 20-40\\%$ higher than observations, primarily on small scales, a tension called the lensing-is-low problem. If not resolved through astrophysics or measurement systematics, this discrepancy may indicate a tension in our cosmological standard model. J. U. Lange et al. (2021), using foreground galaxies from the Baryon Oscillation Spectroscopic Survey (BOSS) and lensing measurements from the Sloan Digital Sky Survey (SDSS), presented evidence that this mismatch extends to large scales where astrophysical explanations are disfavored. We revisit this claim using lensing data from the Dark Energy Camera All Data Everywhere (DECADE) project. Compared to SDSS, the new DECADE measurements reduce the large-scale tension while leaving measurements on small scales mostly unchanged. Ultimately, these new results favor a scale dependence in the lensing-is-low problem.",
+      "external_ids": [
+        "arxiv:2610.23828"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-19T13:42:02+08:00",
+      "last_seen_at": "2026-10-19T13:42:02+08:00"
+    },
     {
       "source": "arxiv",
       "arxiv_id": "2610.22368",
@@ -5453,7 +6140,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-18T13:26:06+08:00"
+      "last_seen_at": "2026-10-19T13:42:02+08:00"
     },
     {
       "source": "arxiv",
@@ -5486,7 +6173,7 @@
       "doi": "10.48550/arXiv.2601.06451",
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-18T13:26:06+08:00"
+      "last_seen_at": "2026-10-19T13:42:02+08:00"
     },
     {
       "source": "semanticscholar",
@@ -5687,7 +6374,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-18T13:26:06+08:00"
+      "last_seen_at": "2026-10-19T13:42:02+08:00"
     },
     {
       "source": "semanticscholar",
@@ -5748,7 +6435,7 @@
       "doi": "10.1145/3731155",
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-18T13:26:06+08:00"
+      "last_seen_at": "2026-10-19T13:42:02+08:00"
     },
     {
       "source": "semanticscholar",
@@ -5802,7 +6489,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-18T13:26:06+08:00"
+      "last_seen_at": "2026-10-19T13:42:02+08:00"
     },
     {
       "source": "semanticscholar",
@@ -5916,7 +6603,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-18T13:26:06+08:00"
+      "last_seen_at": "2026-10-19T13:42:02+08:00"
     },
     {
       "source": "semanticscholar",
@@ -5949,7 +6636,7 @@
     }
   ],
   "last_run": {
-    "at": "2026-10-18T13:26:06+08:00",
+    "at": "2026-10-19T13:42:02+08:00",
     "sources": [
       "arxiv",
       "semanticscholar",
@@ -5965,9 +6652,9 @@
       "MLS-MPM",
       "projective dynamics cloth"
     ],
-    "fetched": 102,
-    "merged": 24,
-    "new": 0
+    "fetched": 92,
+    "merged": 28,
+    "new": 22
   },
   "topic": "game technology: physics simulation, real-time rendering, global illumination",
   "schema_version": 1
