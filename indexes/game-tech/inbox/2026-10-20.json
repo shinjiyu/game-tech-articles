@@ -1,0 +1,289 @@
+{
+  "date": "2026-10-20",
+  "run": {
+    "at": "2026-10-20T13:44:21+08:00",
+    "sources": [
+      "arxiv",
+      "semanticscholar",
+      "dblp"
+    ],
+    "keywords": [
+      "material point method cloth",
+      "\"position based\" dynamics cloth",
+      "incremental potential contact",
+      "real-time fluid simulation graphics",
+      "global illumination real-time",
+      "ray tracing global illumination",
+      "MLS-MPM",
+      "projective dynamics cloth"
+    ],
+    "fetched": 92,
+    "merged": 15,
+    "new": 9
+  },
+  "new_candidates": [
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.26846",
+      "arxiv_version": "v1",
+      "title": "GPT-6 Astra Is a Native Visuo-Tactile Policy for Contact-Rich Manipulation",
+      "authors": [
+        "Chen Yang",
+        "Linzhe Shi",
+        "Hang Zhang",
+        "Mu Xu",
+        "Jiansheng Fan",
+        "Chen Wang"
+      ],
+      "published": "2026-10-19",
+      "url": "https://arxiv.org/abs/2610.26846",
+      "abstract": "Recent advances in multimodal models have enabled GPT-6 Astra to perform robotic manipulation through in-context learning. Yet contact-rich control and tactile perception are often regarded as strengths of specialist policies, leaving open whether Astra can directly understand and use tactile observations. We provide, to our knowledge, the first demonstration that Astra directly interprets vision-based tactile images and uses their contact cues for manipulation. Tactile RGB images enter through its existing visual interface, enabling few-shot closed-loop control on nineteen simulated UniVTAC and OpenViTac tasks with 210 sampled scene seeds per setting. With visuo-tactile input, Astra achieves mean success rates of 93.8% and 81.8%, exceeding the strongest reported specialist baselines in our comparison by 22.9 and 13.1 percentage points, respectively. Vision-only performance also leads these baselines, reaching 76.3% and 80.6%. Trajectory analysis reveals active probing, cautious grasping, contact-guided alignment, and recovery, alongside difficulties with tangential loading and corrective execution. Our findings challenge the exclusivity of specialist policies in contact-rich manipulation and show that fine-grained vision can partially compensate for missing touch. They also identify vision-based tactile sensing as an interface for scaling contact understanding with foundation models and reveal signs of benchmark saturation. These results motivate joint visual-tactile pretraining, harder contact-rich evaluations, and physical-robot validation.",
+      "external_ids": [
+        "arxiv:2610.26846"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "incremental potential contact",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-20T13:44:21+08:00",
+      "last_seen_at": "2026-10-20T13:44:21+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.26842",
+      "arxiv_version": "v1",
+      "title": "Doppler-compensated Space-time Coding for MIMO PMCW Radar",
+      "authors": [
+        "Gabriel Daniel",
+        "Hanqing Wu",
+        "Ashish Pandharipande",
+        "Geert Leus"
+      ],
+      "published": "2026-10-19",
+      "url": "https://arxiv.org/abs/2610.26842",
+      "abstract": "Phase modulated continuous wave (PMCW) radar is an attractive choice for automotive sensing due to its high dynamic range, interference robustness, and support for integrated communication and sensing. In multiple-input multiple-output (MIMO) PMCW radar, code division multiplexing (CDM) separates transmit signals, but non-ideal auto- and cross-correlation properties increase range sidelobes and degrade dynamic range. This paper proposes a Doppler-compensated space-time coding (STC)-based MIMO PMCW radar framework that separates transmit signals before range correlation, eliminating cross-correlation terms under perfect compensation and allowing the same binary sequence to be used across transmit antennas. The Doppler influence on STC decoding is analytically characterized, showing that chip-wise and inter-STC-slot phase distortions increase range sidelobes and generate ghost components in the direction-of-arrival (DOA) spectrum. To mitigate these effects, Doppler is estimated first, followed by joint fast-time and STC-slot compensation before decoding. Residual STC leakage under imperfect Doppler estimation is quantified, and the processing is extended to multiple moving targets through Doppler-bin-dependent compensation. Theoretical analysis and simulation results demonstrate reduced range sidelobes and suppression of DOA ghosts, while maintaining flexibility in code sequence design.",
+      "external_ids": [
+        "arxiv:2610.26842"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-20T13:44:21+08:00",
+      "last_seen_at": "2026-10-20T13:44:21+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.26810",
+      "arxiv_version": "v1",
+      "title": "Bio-inspired Thrust-Assisted Trotting on a legged-Aerial Robot via Real-Time QP-MPC",
+      "authors": [
+        "Shreyansh Pitroda",
+        "Eric Sihite",
+        "Alireza Ramezani",
+        "Morteza Gharib"
+      ],
+      "published": "2026-10-19",
+      "url": "https://arxiv.org/abs/2610.26810",
+      "abstract": "This paper presents the hardware implementation of a quadratic program-based controller on Harpy: thruster-assisted bipedal robot to perform thruster-assisted trotting. This is inspired by wing-assisted locomotion observed in birds such as the chukar partridge, which employ thrust vectoring to manipulate the ground reaction force. The proposed controller formulates the thruster-assisted spring-loaded inverted pendulum dynamics as a condensed QP-based model predictive control problem, enabling simultaneous regulation of ground contact force and active thrust vectoring at 500 Hz. A decoupled control architecture is used, where the robot's sagittal dynamics are controlled using QP-MPC while the frontal dynamics is regulated using a cascade orientation stabilization controller. Two experiments were conducted with different forward reference velocities of 0 m/s and 0.1 m/s. While the instantaneous velocity oscillates, the mean velocities can track their respective reference. Additionally, joint tracking error remains within 1 deg while tracking the desired leg length given by the leg trajectory controller and desired swing trajectory given by Raibert's heuristic. The QP-MPC problem is consistently solved with 0.18ms, which is well within the 2ms computation budget while satisfying the GRF friction cone constraint.",
+      "external_ids": [
+        "arxiv:2610.26810"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "incremental potential contact",
+        "global illumination real-time"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-20T13:44:21+08:00",
+      "last_seen_at": "2026-10-20T13:44:21+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.26806",
+      "arxiv_version": "v1",
+      "title": "Capillary forces between two identical spherical particles",
+      "authors": [
+        "Stefano Onofri",
+        "Thejas Hulikal Chakrapani",
+        "Stefan Luding",
+        "Elke Scholten",
+        "Ahmed Jarray",
+        "Wouter K. den Otter"
+      ],
+      "published": "2026-10-19",
+      "url": "https://arxiv.org/abs/2610.26806",
+      "abstract": "The properties of colloidal suspensions and granular matter change drastically upon adding a small amount of liquid capable of forming capillary bridges between the solid particles. The attractive forces exerted by these liquid bridges induce the formation of particle aggregates and networks, which radically changes the macroscopic mechanical and rheological behaviour. Predicting these forces across bridge sizes, particle separations and wettability is therefore central to particle-scale modelling of capillary suspensions and wet granular matter. While the Young-Laplace equation governing the properties of the liquid bridges is well known, it lacks a convenient analytical solution. Current simulations therefore employ approximate analytic expressions, typically developed for contact angles below ~40° and bridge volumes below ~2.5% of the solid particle's volume. We compare several frequently used expressions from the literature with numerical solutions of the theoretical capillary forces. An overall good agreement is observed in the aforementioned parameter ranges, while the approximate expressions start to deviate outside their intended domains. We propose accurate and computationally efficient expressions for the capillary force that model this behaviour, for contact angles from 5° to 80° and bridge volumes from $10^{-6}$ to 0.15. We also explore mesoscopic 'fluid-scale' simulations of bridges by Multi-body Dissipative Particle Dynamics (MDPD), to ascertain whether this coarse-grained fluid model faithfully captures the continuum capillary forces. Remarkably, a good agreement is observed even for liquid bridges described by a mere few dozen fluid particles. Together, these results offer two approaches, at different resolution scales, for simulating bridges over a wide range of bridge volumes and contact angles.",
+      "external_ids": [
+        "arxiv:2610.26806"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-20T13:44:21+08:00",
+      "last_seen_at": "2026-10-20T13:44:21+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.26852",
+      "arxiv_version": "v1",
+      "title": "CoopUQ: Robust Multi-Robot Social Navigation via Uncertainty-Aware Cooperative Forecasting",
+      "authors": [
+        "Zehao Wang",
+        "Jianpeng Yao",
+        "Yuping Wang",
+        "Yiping Li",
+        "Jiaqi Li",
+        "Zhixu Li",
+        "Kanghoon Lee",
+        "Jinfeng Wang",
+        "Cong Liu",
+        "Zhaowei Tan",
+        "Jinkyoo Park",
+        "Jiachen Li"
+      ],
+      "published": "2026-10-19",
+      "url": "https://arxiv.org/abs/2610.26852",
+      "abstract": "Reinforcement learning enables mobile robots to make fast and scalable navigation decisions in constrained human-shared environments. However, directly extending single-robot approaches to multi-robot settings often fails to ensure safety and efficiency, especially under occlusions and out-of-distribution (OOD) scenarios, where individual robots may overlook potential risks or make inaccurate predictions. Leveraging cooperation effectively for both prediction and navigation remains a major challenge. We propose CoopUQ, a multi-robot social navigation framework that bridges uncertainty-aware cooperative occupancy forecasting and robust decision making. CoopUQ predicts future occupancy grid maps through cross-robot spatiotemporal feature fusion and further leverages forecasts and their uncertainty to guide policy via constrained multi-agent reinforcement learning, where the cost penalizes navigation through regions predicted to be occupied or highly uncertain. This design enables the policy to adapt its risk sensitivity under distribution shifts. Experimental results across multiple Unity3D-based simulation environments with both in-distribution and OOD settings, including diverse layouts, pedestrian densities, and rushing behavior, demonstrate improved prediction performance and safety over representative baselines. Real-robot experiments further demonstrate its robustness across various scenes. Our code and videos are available at https://coopuq.github.io/.",
+      "external_ids": [
+        "arxiv:2610.26852"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-20T13:44:21+08:00",
+      "last_seen_at": "2026-10-20T13:44:21+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.26823",
+      "arxiv_version": "v1",
+      "title": "Elastic knots: compactness, contact, and variational structure",
+      "authors": [
+        "Philipp Reiter",
+        "Heiko von der Mosel"
+      ],
+      "published": "2026-10-19",
+      "url": "https://arxiv.org/abs/2610.26823",
+      "abstract": "We study bending-minimizing sequences of closed curves in a fixed knot class and the self-contact of their limits. A positive matrix-valued measure records a possible loss of curvature energy. Ambient variations, localized on arbitrary coincidence sets, force this measure to vanish and give strong convergence in $H^2$. We then derive the elastic equation on isolated strands and overlap bundles, describe the distribution that remains at contact, and prove balance and rigidity statements under their precise additional hypotheses. Equality in the bridge bound gives constant curvature. Combining strong compactness with quantitative competitors gives an alternative proof that elastic limits in classes with equal bridge and braid indices are covered circles. An independent recovery theorem identifies the strong $H^2$ closure with the regular $H^2$ part of the $C^1$ closure and also implies strong compactness. Finally, a whole-line contact model illustrates which estimates are needed for finer shape selection.",
+      "external_ids": [
+        "arxiv:2610.26823"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-20T13:44:21+08:00",
+      "last_seen_at": "2026-10-20T13:44:21+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.26862",
+      "arxiv_version": "v1",
+      "title": "On Higher-Form Fracton Hydrodynamics with Momentum Conservation",
+      "authors": [
+        "Ben Bobell",
+        "Rahul Nandkishore",
+        "Andrew Lucas"
+      ],
+      "published": "2026-10-19",
+      "url": "https://arxiv.org/abs/2610.26862",
+      "abstract": "Momentum conservation is common in fluids, yet it may be incompatible with the hydrodynamics of theories with exotic conservation laws (such as fracton hydrodynamics) unless symmetries are spontaneously broken. Using the Martin-Siggia-Rose (MSR) effective field theory formalism, we develop a representation-theoretic framework for the hydrodynamics of translationally invariant systems with exotic conservation laws without spontaneous symmetry breaking. Under mild assumptions on the form of hydrodynamics, we show that such theories must satisfy two representation theoretic consistency conditions and a generalized Gauss's law constraint. Higher-form symmetries satisfy these conditions and we derive their ideal hydrodynamics; in three dimensions, the one-form case produces ideal non-relativistic magnetohydrodynamics. Finally, we prove that no other theories are compatible with momentum conservation in SO(3) nor SO($d$), for sufficiently large odd $d$.",
+      "external_ids": [
+        "arxiv:2610.26862"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-20T13:44:21+08:00",
+      "last_seen_at": "2026-10-20T13:44:21+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.26861",
+      "arxiv_version": "v1",
+      "title": "Can It Actually Work? Synthesizing Functional CAD Mechanisms",
+      "authors": [
+        "Wenqian Zhang",
+        "Yangyi Huang",
+        "Zigeng Xu",
+        "Weiyang Liu",
+        "Zhen Liu"
+      ],
+      "published": "2026-10-19",
+      "url": "https://arxiv.org/abs/2610.26861",
+      "abstract": "While LLM agents can generate visually plausible CAD assemblies, these designs often fail to fulfill their intended physical functions. We study functional CAD design, a setting where agents interpret underspecified requests to construct and iteratively revise mechanisms that satisfy functional requirements in physical simulation. Verifying these requirements is nontrivial: different candidate mechanisms may realize the same function through entirely different components, controls, and operating sequences. To bridge this gap, we propose FunCAD-Harness, a framework that translates abstract requirements into candidate-specific physical tests and uses simulation feedback to guide design revisions. To systematically evaluate this capability, we introduce FunCADBench, a benchmark spanning 46 mechanism families with interdependent and multi-step operations. Experiments across frontier LLM agents show that FunCAD-Harness exposes subtle mechanical failures invisible to visual inspection, substantially improving functional success rates over standard simulation-augmented baselines. Ultimately, our work marks a step toward CAD agents capable of translating human intent into working mechanisms.",
+      "external_ids": [
+        "arxiv:2610.26861"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-20T13:44:21+08:00",
+      "last_seen_at": "2026-10-20T13:44:21+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.26836",
+      "arxiv_version": "v1",
+      "title": "Same Simulation, Different Evidence: Where Retrieved Tool Output Costs LLM Agents Accuracy",
+      "authors": [
+        "Ke Zhang",
+        "Sahchit Chundur",
+        "Jerry Peprah Owusu",
+        "Mohammad Javad Abdolhosseini Qomi",
+        "Maziar Raissi"
+      ],
+      "published": "2026-10-19",
+      "url": "https://arxiv.org/abs/2610.26836",
+      "abstract": "LLM agents that compute the right answer can still answer wrongly. Agent harnesses increasingly keep long tool outputs out of the context window, saving them to files that the agent searches or reads on demand. We ask where this costs accuracy with a real scientific tool: PHREEQC, a widely used geochemistry simulator from the USGS, whose reports reach 846.8k characters and whose determinism lets every printed value be traced. Agents use it to answer 158 execution-verified multiple-choice items. When agents read the simulator's report through a section index rather than in context, GPT-5.1 and GPT-5.2 lose 11.3 and 7.9 points of accuracy, while Claude Opus 4.6 and Claude Sonnet 4.6 show no detectable cost. Re-running all 11,007 logged simulator calls shows that both GPT models compute the keyed value about as often as before; what changes is the evidence they answer from. Under retrieval they often skip the report, answer from their own higher-precision output files, and misround to a neighboring option, a failure we call evidence substitution. With the simulation held fixed, retrieval still costs GPT-5.2 9.4 points. For GPT-5.4, more frequent correct simulations mask an evidence-use loss of about ten points, leaving a net change indistinguishable from zero. Naming the authoritative output raises accuracy by 6.3-7.9 points over plain retrieval for the three GPT models; for GPT-5.1 and GPT-5.2, inlining outputs that fit works as well, while asking for correct rounding does not. Context-management choices in agent harnesses should be judged by where accuracy is lost, not only by final accuracy.",
+      "external_ids": [
+        "arxiv:2610.26836"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-20T13:44:21+08:00",
+      "last_seen_at": "2026-10-20T13:44:21+08:00"
+    }
+  ]
+}
