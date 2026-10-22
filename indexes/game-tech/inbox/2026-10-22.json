@@ -1,0 +1,692 @@
+{
+  "date": "2026-10-22",
+  "run": {
+    "at": "2026-10-22T13:45:57+08:00",
+    "sources": [
+      "arxiv",
+      "semanticscholar",
+      "dblp"
+    ],
+    "keywords": [
+      "material point method cloth",
+      "\"position based\" dynamics cloth",
+      "incremental potential contact",
+      "real-time fluid simulation graphics",
+      "global illumination real-time",
+      "ray tracing global illumination",
+      "MLS-MPM",
+      "projective dynamics cloth"
+    ],
+    "fetched": 112,
+    "merged": 36,
+    "new": 23
+  },
+  "new_candidates": [
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.30125",
+      "arxiv_version": "v1",
+      "title": "PhysiCalWorld: In-Context Physics Calibration for World Models",
+      "authors": [
+        "Yunhao Luo",
+        "Wentao He",
+        "Yinpei Dai",
+        "Hyelin Nam",
+        "Hongze Fu",
+        "Joyce Chai",
+        "Nima Fazeli",
+        "Jeong Joon Park"
+      ],
+      "published": "2026-10-21",
+      "url": "https://arxiv.org/abs/2610.30125",
+      "abstract": "Existing world models typically perceive a scene through current visual frame or a narrow history window. However, these observations may not reveal the physics properties that determine transition dynamics, such as an object's mass distribution, joint damping, or surface friction. Without calibrating these physics factors for world models, predictions tend to regress toward an empirical prior and induce severe drift in novel test scenes. To this end, we propose PhysiCalWorld, which calibrates action-conditioned world models to the instance-specific dynamics via in-context prompting, without fine-tuning or analytical physics modeling. Our method encodes an exploratory interaction clip collected within the test scene into a compact physics descriptor token, which grounds subsequent predictions in the scene's actual physical behavior. PhysiCalWorld is trained end-to-end with the latent prediction loss alone, without physics labels. At inference time, the descriptor token is extracted once and can be reused across rollouts with negligible compute overhead. We evaluate PhysiCalWorld across four environments covering diverse physics variations and show that it substantially improves rollout prediction accuracy and visual planning success rate. The learned descriptors also form a physically structured latent space and generalize beyond the physics ranges seen during training.",
+      "external_ids": [
+        "arxiv:2610.30125"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "\"position based\" dynamics cloth",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-22T13:45:57+08:00",
+      "last_seen_at": "2026-10-22T13:45:57+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.30105",
+      "arxiv_version": "v1",
+      "title": "Asymmetric On-Policy Distillation Learns In-Context Exploration",
+      "authors": [
+        "Sriyash Poddar",
+        "Yanda Bao",
+        "Jacob Krantz",
+        "Matthew Chang",
+        "Xavier Puig",
+        "Roozbeh Mottaghi",
+        "Natasha Jaques",
+        "Abhishek Gupta"
+      ],
+      "published": "2026-10-21",
+      "url": "https://arxiv.org/abs/2610.30105",
+      "abstract": "Sequential decision-making under partial observability is difficult because agents must explore to infer hidden, task-relevant information before acting effectively. Learning such information-gathering behaviors tabula rasa via online reinforcement learning is sample-inefficient, whereas offline imitation averages expert actions across hidden states and fails to learn exploration. In this work, we propose ASTEROID, a simple and effective student--teacher supervised learning framework that can learn test-time exploration. Although a privileged expert never needs to explore, we demonstrate that a history-conditioned student can learn to do so when trained with on-policy contexts: the student first collects on-policy context under partial observability, and the privileged expert provides action labels conditioned on that context. By distilling expert actions directly conditioned on the student's on-policy history, the student learns to systematically resolve partial observability, i.e., search while uncertain and exploit once the hidden state is revealed. This enables efficient test-time exploration (similar to Bayesian posterior sampling) without incurring the impractical training-data costs of reinforcement learning. Across a diverse range of eleven different environments, including discrete exploration benchmarks, robotic manipulation, navigation, and Procgen environments, ASTEROID achieves ~2x higher returns under fixed exploration budgets, uses ~100x fewer interactions than RL baselines, and outperforms frontier models at exploration. Finally, our method transfers policies trained in simulation to vision-denied real-world robot manipulation, exhibiting efficient exploration and increasing success by +40% over standard distillation. Overall, it provides a simple yet surprisingly effective framework to learn efficient test-time exploration.",
+      "external_ids": [
+        "arxiv:2610.30105"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "real-time fluid simulation graphics",
+        "global illumination real-time"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-22T13:45:57+08:00",
+      "last_seen_at": "2026-10-22T13:45:57+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.30101",
+      "arxiv_version": "v1",
+      "title": "Machine Learning-Enabled Wireless Power Transfer: A Task-Oriented Review of Structural Optimization, State and Parameter Estimation, and Adaptive Control",
+      "authors": [
+        "Denghao Luo",
+        "Yiheng Jiang",
+        "Jiaqi Zhao",
+        "Yuan Gao",
+        "Changsong Cai",
+        "Weiyi Huang",
+        "Yun Zhang"
+      ],
+      "published": "2026-10-21",
+      "url": "https://arxiv.org/abs/2610.30101",
+      "abstract": "Wireless power transfer (WPT) systems must maintain efficient and safe energy delivery under variations in geometry, coupling, load, alignment, and operating conditions. Machine-learning methods are increasingly applied to accelerate structural design, estimate operating parameters and states, and support adaptive control and scheduling. This review develops a task-oriented framework organized around three interconnected domains: structural design and optimization, parameter and state estimation, and control and optimization. Supervised learning, reinforcement learning, and hybrid or physics-informed methods are compared in terms of data requirements, dependence on physical models, information sources, computational requirements, accuracy, online response, application scope, and optimization objectives. Supervised learning provides rapid surrogate modeling, regression, and classification when representative labeled data are available. Reinforcement learning addresses sequential control and scheduling but introduces challenges in reward design, safe exploration, and simulation-to-reality transfer. Hybrid methods integrate physical knowledge with data-driven models to improve data efficiency and physical consistency. The principal barriers to engineering deployment include limited and biased datasets, weak out-of-distribution generalization, insufficient physical consistency, unsafe online adaptation, embedded-resource constraints, and the absence of standardized benchmarks. Future research should prioritize uncertainty-aware and physics-informed learning, safe simulation-to-reality transfer, lightweight edge deployment, distributed coordination, reproducible evaluation, and digital-twin-assisted development.",
+      "external_ids": [
+        "arxiv:2610.30101"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-22T13:45:57+08:00",
+      "last_seen_at": "2026-10-22T13:45:57+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.30097",
+      "arxiv_version": "v1",
+      "title": "AtomicRL: Atomic Reinforcement Learning for Long-Horizon Robotic Manipulation",
+      "authors": [
+        "Likui Zhang",
+        "Zhe Zhu",
+        "Zhihao Zhan",
+        "Yibo Bai",
+        "Hanlin Wang",
+        "Dongwei Li",
+        "Bin Wang",
+        "Tianle Zhang",
+        "Xiaodan Liang",
+        "Liang Lin"
+      ],
+      "published": "2026-10-21",
+      "url": "https://arxiv.org/abs/2610.30097",
+      "abstract": "Vision-language-action (VLA) models have shown promise in robotic manipulation, but imitation learning (IL) alone often struggles to master complex long-horizon skills. Reinforcement learning (RL) offers an effective avenue for further improving VLA policies. However, existing VLA-RL methods typically suffer from delayed and biased credit assignment due to trajectory-level sparse rewards, while imbalanced subtask mastery creates bottlenecks that limit overall performance. To address these challenges, we propose AtomicRL, an RL post-training framework that leverages atomic task structures for reliable credit assignment and adaptive exploration. AtomicRL introduces Semantic-Aware Policy Optimization (SAPO), which uses semantic-aware gating to constrain TD residuals from failed atomic subtasks from propagating across task boundaries, mitigating credit contamination while preserving intra-subtask credit assignment and value bootstrapping. In addition, Bottleneck-Adaptive Target Exploration (BATE) dynamically coordinates task sampling and local exploration incentives based on the mastery of individual atomic subtasks, directing learning toward the remaining bottlenecks. Finally, we develop a Real2Sim2Real pipeline that bridges online RL in simulation with real-world deployment, facilitating practical transfer to physical robots. On LIBERO-LONG, AtomicRL achieves absolute performance gains of 3.6% and 4.0% over PPO across two VLA architectures. On CALVIN ABC-D, it improves full-task performance by up to 9.5% over PPO. Combined with the Real2Sim2Real pipeline, AtomicRL further improves real-world task performance by an average of 21.3%. These results demonstrate that AtomicRL effectively improves the learning efficiency and manipulation performance of VLA policies on long-horizon tasks.",
+      "external_ids": [
+        "arxiv:2610.30097"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-22T13:45:57+08:00",
+      "last_seen_at": "2026-10-22T13:45:57+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.30095",
+      "arxiv_version": "v1",
+      "title": "Modeling MAD Sgr A* flares and their dependence on spin",
+      "authors": [
+        "Eleni Antonopoulou",
+        "Antonios Nathanail",
+        "Yosuke Mizuno",
+        "Foivos Zanias"
+      ],
+      "published": "2026-10-21",
+      "url": "https://arxiv.org/abs/2610.30095",
+      "abstract": "Aims: This study aims to place constraints on the spin of Sgr A* from recent flare observations. It models the flare kinematics in the vicinity of a supermassive black hole, evaluates their dependence on black hole spin, and assesses the correlation between the spin of the black hole and the astrometric observations in the Galactic center. Methods: Our study extends the work of Antonopoulou et al. 2025 to a range of black hole spins. A prominent flux eruption is identified in the simulation, and the evolution of the active region on the equatorial plane is tracked during the event. The flare model consists of a spherical hot spot ejected along the flux tube with a relativistic velocity. Results: In MAD simulations, the flux tube wraps around the jet funnel in the opposite direction to the black hole's spin. This dependence is imprinted on the flare trajectory and provides a strong correlation between the spin of the black and the flare kinematics. This analysis favors Kerr black holes, with a preference towards larger spin magnitude. Although prograde simulations show a consistent clockwise motion in the sky regardless of disk rotation, retrograde models require a clockwise accretion disk to account for the observations of July 22, 2018. Conclusions: A maximally rotating Kerr black hole is the most promising candidate for reproducing the observed flare trajectory in the vicinity of Sgr A*, illustrating a pass faction surpassing $90\\%$ among the investigated flare models. In particular, determining spin orientation within this model is linked to the rotation of the accretion disk. Assuming a counterclockwise accretion disk, a prograde black hole with $a\\geq1/2$ is able to reproduce the observed flare kinematics in the Galactic center. Conversely, assuming a clockwise rotation for the disk, the observations support both prograde and retrograde Kerr black holes with a large spin.",
+      "external_ids": [
+        "arxiv:2610.30095"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-22T13:45:57+08:00",
+      "last_seen_at": "2026-10-22T13:45:57+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.30124",
+      "arxiv_version": "v1",
+      "title": "Phonon-assisted free-electron recoil control and mechanical sensing",
+      "authors": [
+        "Sunjun Hwang",
+        "Lee Wei Wesley Wong",
+        "Liang Jie Wong",
+        "Leong Chuan Kwek"
+      ],
+      "published": "2026-10-21",
+      "url": "https://arxiv.org/abs/2610.30124",
+      "abstract": "Mechanical vibrations are fundamental to a wide range of physical phenomena and technologies, yet their ability to actively shape free-electron dynamics remains largely unexplored. Here we theoretically show how an optomechanical membrane provides a phonon-assisted optical interface for controlling free-electron recoil and sensing localized forces. Transverse membrane motion scatters cavity light into high-momentum evanescent sidebands that enable phase-matched interaction with electrons traveling in vacuum. Beyond supplying momentum for phase matching, the vibration amplitude controls the electron-light interaction strength and redistributes electron populations among recoil orders. External forces that perturb the vibration are thereby encoded in the electron recoil spectrum. Under the modeled conditions, electron readout of localized stochastic forces can yield a higher signal-to-noise ratio than a Gaussian optical homodyne benchmark at equal detected probe rates. These results provide a theoretical basis for mechanically reconfigurable free-electron optics and mode-selective mechanical sensing.",
+      "external_ids": [
+        "arxiv:2610.30124"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-22T13:45:57+08:00",
+      "last_seen_at": "2026-10-22T13:45:57+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.30094",
+      "arxiv_version": "v1",
+      "title": "Stockmayer Fluid with a Shifted Dipole. III. Ion Solvation",
+      "authors": [
+        "Ananya Venkatachalam",
+        "Pierre J. Walker",
+        "Samuel Varner",
+        "Bilin Zhuang",
+        "Zhen-Gang Wang"
+      ],
+      "published": "2026-10-21",
+      "url": "https://arxiv.org/abs/2610.30094",
+      "abstract": "Though ion solvation is well understood for the standard Stockmayer fluid, the effect of displacing the point dipole of a Stockmayer particle, a simple geometric modification, on ion-solvent structuring and solvation thermodynamics remains less understood. We use molecular dynamics simulations to describe how a dipole shift affects radial and orientational solvent structure around centered ions, how strongly the solvent distinguishes cations and anions, and how the solvent mediates ion-ion pairing. We show that, with a centered dipole, cations and anions have equal preferences for the local solvent environment. Shifting the dipole breaks the fore-aft symmetry of the local electrostatic field, leading to a stronger preference for a Stockmayer particle's dipole to orient towards an anion and a weaker preference to orient away from a cation. These structural asymmetries propagate to the solvation free energies: increasing dipole displacement makes anion solvation more favorable, while cation solvation becomes less favorable overall across dipole strengths. The same asymmetry also manifests in the effective ion-ion interaction-increasing the dipole shift reorganizes the local solvation environment, enhancing solvent shielding of short-range cation-anion contact while weakening screening at longer range. As a result, solvent-separated configurations become comparatively more favorable, whereas increasing dipole strength produces the opposite trend. Such effects cannot be explained by bulk dielectric screening alone, indicating that molecular charge geometry plays an important role in both single-ion solvation and solvent-mediated ion-ion interactions. This work demonstrates that dipole location, not only magnitude, provides a geometric control on ion-specific solvation and ion pairing in general polar fluids.",
+      "external_ids": [
+        "arxiv:2610.30094"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "incremental potential contact",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-22T13:45:57+08:00",
+      "last_seen_at": "2026-10-22T13:45:57+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.30092",
+      "arxiv_version": "v1",
+      "title": "Spatial Control of Compressible Active Fluids",
+      "authors": [
+        "Yu-Chuan Cheng",
+        "Dimitris Krommydas",
+        "Seungwoo Shin",
+        "Paarth Gulati",
+        "Michael F. Hagan",
+        "Aparna Baskaran",
+        "Cristina M. Marchetti",
+        "Zvonimir Dogic"
+      ],
+      "published": "2026-10-21",
+      "url": "https://arxiv.org/abs/2610.30092",
+      "abstract": "We study the response of compressible microtubule-based active fluids to sinusoidally varying activity patterns, using experiments and theory. Microtubules accumulate in low-activity regions and are depleted from high activity ones, with the density difference controlled by the wavelength of the activity pattern. To explain these observations the continuum model needs to account for both active stresses that are proportional to nematic order tensor and the isotropic active pressure. At short wavelengths, active vortices spanning adjacent high and low activity regions suppress density modulation. At larger wavelengths, vortical flows confined to the low or high activity region allow for the emergence of the density contrast. Our work shows that a minimal theoretical model of active compressible fluids accurately reproduces experiments, while elucidating the fundamental constraints on control protocols that seek to tame their chaotic dynamics.",
+      "external_ids": [
+        "arxiv:2610.30092"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-22T13:45:57+08:00",
+      "last_seen_at": "2026-10-22T13:45:57+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.30133",
+      "arxiv_version": "v1",
+      "title": "Optimal galaxy magnification: generalized fundamental-plane residuals and number counts are all you need",
+      "authors": [
+        "Kun Xu",
+        "Ravi K. Sheth"
+      ],
+      "published": "2026-10-21",
+      "url": "https://arxiv.org/abs/2610.30133",
+      "abstract": "Weak-lensing magnification complements cosmic shear through its effects on galaxy fluxes, sizes, and number counts. We derive the optimal magnification statistics from galaxy properties and show that the optimal measurement can be decomposed into an optimal mean statistic and total number counts. The optimal mean statistic can be constructed from the residual distribution of a generalized fundamental plane (GFP), $F(i,\\boldsymbol{X})$, which predicts galaxy size or, equivalently, flux from surface brightness $i$ and additional lensing-invariant properties $\\boldsymbol{X}$. The function $F$ can take any form that reduces the intrinsic scatter and thereby improves magnification precision. For a Gaussian residual distribution, the optimal mean statistic reduces to the inverse-variance-weighted residual, or simply the residual for constant scatter. Together with total number counts, this statistic captures all the magnification Fisher information under Poisson statistics, achieving the same precision as a full-likelihood analysis. This provides a simple and physically intuitive optimal compression of the full magnification likelihood, avoiding the need to model the potentially high-dimensional galaxy-property distribution, particularly when additional observables are incorporated to reduce the GFP scatter. Our results demonstrate that GFP residuals and number counts provide an optimal combination for weak-lensing magnification measurements in galaxy surveys.",
+      "external_ids": [
+        "arxiv:2610.30133"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-22T13:45:57+08:00",
+      "last_seen_at": "2026-10-22T13:45:57+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.30117",
+      "arxiv_version": "v1",
+      "title": "CW-WAM: A Structured Contact-Wrench World Action Model for Force-Sensitive Manipulation",
+      "authors": [
+        "Houzhu Ding",
+        "Xinda Qi",
+        "Luqi Wang",
+        "Ming Yang"
+      ],
+      "published": "2026-10-21",
+      "url": "https://arxiv.org/abs/2610.30117",
+      "abstract": "Force-sensitive manipulation requires contact and load information that is not provided explicitly by visual observations. We present CW-WAM, a world action model that jointly predicts video, motion, and contact wrench. Inspired by hybrid motion-force control, it contains a unified interaction module that treats both motion and contact wrench as modeling targets and predicts time-aligned motion-wrench chunks as control references. A pair-causal attention mechanism structures the motion-wrench dependencies, while a long fixed-length wrench memory retains past interaction information. The predicted wrench chunk acts as a force reference for a 20-Hz outer-loop admittance controller within a slow-fast control system that maintains force feedback and smooth motion between model queries. CW-WAM improves contact prediction and increases the insertion success rate from 25% to 70% for square pegs with 1-mm clearance per side and from 40% to 95% for power adapters, compared with WAM without wrench input. It also improves lifting-height accuracy across different loads. Our framework with an admittance controller reduces force-reference RMSE from 4.8 to 2.7 N for peg insertion and from 2.0 to 1.3 N for wiping, respectively, with smaller force fluctuations during successful execution. Project website: https://cw-wam-project.github.io/",
+      "external_ids": [
+        "arxiv:2610.30117"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-22T13:45:57+08:00",
+      "last_seen_at": "2026-10-22T13:45:57+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.30112",
+      "arxiv_version": "v1",
+      "title": "On ABP Estimates for a Class of Fully Nonlinear Singular-Degenerate Elliptic Equations and Applications",
+      "authors": [
+        "Junyuan Fang",
+        "Jack Peltier",
+        "Tuoc Phan"
+      ],
+      "published": "2026-10-21",
+      "url": "https://arxiv.org/abs/2610.30112",
+      "abstract": "We establish an Alexandrov-Bakelman-Pucci type estimate for a class of fully nonlinear elliptic equations with singular or degenerate coefficients and nonlinear dependence on the gradient. The estimate bounds sub-solutions in terms of their boundary values and weighted integrals of the data. It holds for classical sub-solutions and for viscosity sub-solutions with locally Lipschitz gradients. The assumptions allow general rates of growth in the gradient, with a smallness condition on the data when the associated gradient weight has finite integral. The proof uses the classical weighted contact-set argument. As applications, we obtain sup-norm estimates for viscosity sub-solutions to a class of generalized Monge-Ampère equations, Hessian equations, Hessian quotients under an additional condition on the contact Hessian, and anisotropic mean-curvature-type equations.",
+      "external_ids": [
+        "arxiv:2610.30112"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-22T13:45:57+08:00",
+      "last_seen_at": "2026-10-22T13:45:57+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.30080",
+      "arxiv_version": "v1",
+      "title": "Do Earth-Trained Humanoid Controllers Walk on the Moon? Gravity, Terrain, and Soil Transfer",
+      "authors": [
+        "Guillem Casadesus Vila",
+        "Sri Aditya Deevi",
+        "Grace X. Gao"
+      ],
+      "published": "2026-10-21",
+      "url": "https://arxiv.org/abs/2610.30080",
+      "abstract": "The Moon changes gravity, terrain, and soil at once. Learned locomotion has studied reduced gravity on rigid ground and granular terrain mostly at Earth gravity, but not humanoids under both, generalist-controller transfer, or the Earth cost of lunar adaptation. On a simulated Unitree G1, we train 12 policies with one recipe, varying gravity, terrain geometry, and ground contact (rigid or three-dimensional resistive force theory, 3D RFT), and including Earth-to-Moon fine-tuning and gravity randomization. We test them at both gravities on rigid ground and 3D RFT, and at their training gravity on three held-out soil models. We also test the frozen SONIC, a released generalist humanoid controller, at both gravities on rigid ground only. Gravity transfer is asymmetric. Earth-trained policies keep 0.64 to 0.75 survival at the Moon on flat rigid ground, Moon-trained and fine-tuned policies cannot stand at Earth, and SONIC survives at most 0.10 at the Moon. Rough training lifts combined-tile survival from 0.53 to 0.98 at Earth and 0.80 to 0.99 at the Moon. In 3D RFT, soil training helps on Earth sand, on tiles and for rough-trained policies also on flat sand. On the stiffer lunar soil it helps only flat-trained Earth policies at Earth and changes the survival of Moon-trained policies by at most a few hundredths. In the sampled rollouts of the held-out soil models, Moon-trained policies keep most of their rigid-ground progress on lunar regolith at the low G1 foot pressure, with per-seed progress ratios of 0.84 to 1.39 apart from one seed with a short rigid reference. A gravity-randomized policy trained on rough 3D RFT terrain has a seed-mean survival of at least 0.84 at Earth and 0.96 at the Moon on every key test cell up to 20 degrees. Lunar results are simulation predictions conditional on the contact model and soil stiffness.",
+      "external_ids": [
+        "arxiv:2610.30080"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-22T13:45:57+08:00",
+      "last_seen_at": "2026-10-22T13:45:57+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.30077",
+      "arxiv_version": "v1",
+      "title": "A linear, second-order, unconditionally energy-stable scalar-auxiliary-variable scheme for the CHQ viscoelastic phase-separation model",
+      "authors": [
+        "Ritesh Bhola",
+        "Michael te Vrugt"
+      ],
+      "published": "2026-10-21",
+      "url": "https://arxiv.org/abs/2610.30077",
+      "abstract": "The CHQ model describes viscoelastic phase separation in a polymer--solvent mixture: a Cahn--Hilliard equation for the polymer volume fraction $φ$ is two-way coupled, through a phase-dependent cross-diffusion flux, to a damped relaxation equation for a scalar bulk elastic stress $q$. We propose a scalar-auxiliary-variable (SAV) time discretisation of this system, combining the SAV reformulation of the double-well potential with a second-order backward differentiation formula (BDF2) and a second-order extrapolation of all phase-dependent mobilities: a linear, computationally cheaper complement to the reference scheme's fully nonlinear Newton solve. The resulting method is (i) linear at every time step, with a coupling structure we prove has exactly one solution at every step, for every choice of time-step size; (ii) mass conserving, exactly, as an algebraic identity of the discrete equations themselves (the only drift ever seen numerically traces to the finite tolerance of the iterative linear solver, not a failure of the conservation property); and (iii) unconditionally stable for a modified discrete energy, via an exact one-step energy--dissipation identity. We show the energy identity extends to this filtered variant as well, with two explicit extra non-negative terms. Hence, the scheme actually producing the physics results is itself provably stable for the same energy. A Fourier--Galerkin implementation verifies that the energy identity holds at every time step to within floating-point round-off. It also confirms second-order temporal accuracy, including in the steep-interface regime, and agreement with an independently implemented nonlinear Newton--BDF2 solver. Compared with that independent nonlinear Newton--BDF2 solver, at equal grid resolution, the SAV method uses $2.5$--$3.0\\times$ fewer linear-solver iterations and $1.7$--$2.0\\times$ less wall-clock time.",
+      "external_ids": [
+        "arxiv:2610.30077"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-22T13:45:57+08:00",
+      "last_seen_at": "2026-10-22T13:45:57+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.30091",
+      "arxiv_version": "v1",
+      "title": "An Implicit Conservative Finite Volume Scheme with Poisson Brackets for the Steady-State Transport of Galactic Cosmic Rays",
+      "authors": [
+        "Weihao Liu",
+        "Igor V. Sokolov"
+      ],
+      "published": "2026-10-21",
+      "url": "https://arxiv.org/abs/2610.30091",
+      "abstract": "Galactic cosmic rays (GCRs) pose a persistent radiation hazard to astronauts and spacecraft in the heliosphere. Modeling their transport is essential for understanding how the solar wind and heliospheric magnetic field shape their spatial distributions and energy spectra. Timely predictions require solving for the particle distribution function much faster than real time, but explicit numerical schemes are restricted by the stability limit on the time step. In this Letter, we present an implicit conservative finite-volume scheme for kinetic equations formulated with Poisson brackets. This scheme conserves particle number, maintains the total-variation-diminishing property, achieves second-order spatial accuracy, and remains stable for time steps far beyond the explicit limit, while reaching quasi-steady states in less than ~1/100 of the computational time required for the explicit scheme, as demonstrated by numerical tests. We apply this scheme to the Parker transport equation along magnetic field lines in the background solar wind during Carrington rotation 2211, where it reaches steady-state GCR distributions within 10 iterations, about 1000 times faster than the explicit scheme. The GCR proton spectrum averaged over 27 days agrees with AMS-02 measurements to within 10%. The simulation also yields a realistic radial intensity gradient and captures the Forbush decrease features associated with three stream interaction regions observed at Earth.",
+      "external_ids": [
+        "arxiv:2610.30091"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics",
+        "global illumination real-time",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-22T13:45:57+08:00",
+      "last_seen_at": "2026-10-22T13:45:57+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.30107",
+      "arxiv_version": "v1",
+      "title": "Velocity Ambiguity Profiles: Time-Resolved Bayes-Risk Diagnostics for Flow Matching",
+      "authors": [
+        "Yunpeng Mei",
+        "Xiaowen Zhu",
+        "Chenyu Wang",
+        "Chenbo Xin",
+        "Hongjie Cao",
+        "Jiamin Wang",
+        "Jie Chen",
+        "Gang Wang"
+      ],
+      "published": "2026-10-21",
+      "url": "https://arxiv.org/abs/2610.30107",
+      "abstract": "Flow matching trains a continuum of velocity regression problems but usually reports a loss averaged over interpolation time, obscuring which regions are limited by intrinsic ambiguity and which remain data-limited. We introduce the Velocity Ambiguity Profile (VAP), $\\mathcal{A}_v(t)$, the time-local Bayes-risk floor of velocity prediction, and decompose time-resolved loss as $L_N(t)=\\mathcal{A}_v(t)+R(t;N)$, where only the excess term $R(t;N)$ is reducible by more data or a different estimator. For $N$ training samples and a $K$-component mixture in the structured example, we prove two statistical benchmarks. In an intrinsic local-regression benchmark, $\\mathcal{A}_v(t)$ enters the time-dependent noise factor of the standard nonparametric rate. In separated isotropic Gaussian mixtures, the Bayes velocity becomes locally affine, and a label-oracle residual-regression benchmark has parametric excess-risk scale $K\\mathcal{A}_v(t)/N$, matched within the same separated residual Gaussian-location subproblem. Controlled Gaussian-mixture experiments validate this diagnostic through a dense transition sweep, calibrated oracle-to-blind and empirical-proxy audits, and a local controlled time-sampler stress test in which a frozen reducible-error proxy reduces reducible loss while cross-cell sensitivity delimits aggressive sampling. On CIFAR-100 DINOv2 feature flow, guided time sampling reduces uniformly evaluated velocity loss by $6.78\\%$ and global feature Fréchet distance (FD) by $23.6\\%$, while class-conditional kernel inception distance (KID) shows no improvement. VAP turns an averaged flow-matching objective into a time-resolved diagnostic for locating ambiguity-limited and data-limited regions.",
+      "external_ids": [
+        "arxiv:2610.30107"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "global illumination real-time",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-22T13:45:57+08:00",
+      "last_seen_at": "2026-10-22T13:45:57+08:00"
+    },
+    {
+      "source": "semanticscholar",
+      "arxiv_id": "",
+      "doi": "10.1016/j.cag.2025.104449",
+      "title": "Including reflections in real-time voxel-based global illumination",
+      "authors": [
+        "Alejandro Cosin Ayerbe",
+        "Gustavo Patow"
+      ],
+      "published": "2025-12-01",
+      "url": "https://www.semanticscholar.org/paper/311cc8569bb7e74506af321b81ef004ee5a03d5f",
+      "abstract": "",
+      "external_ids": [
+        "s2:311cc8569bb7e74506af321b81ef004ee5a03d5f",
+        "doi:10.1016/j.cag.2025.104449"
+      ],
+      "sources": [
+        "semanticscholar"
+      ],
+      "matched_keywords": [
+        "global illumination real-time"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-22T13:45:57+08:00",
+      "last_seen_at": "2026-10-22T13:45:57+08:00"
+    },
+    {
+      "source": "semanticscholar",
+      "arxiv_id": "",
+      "doi": "10.25686/978-5-8158-2474-4-2025-105-112",
+      "title": "Gaussians encoding of global illumination in real time applications",
+      "authors": [
+        "К. С. Зубатов",
+        "A. Shcherbakov",
+        "V. Frolov",
+        "В. В. Санжаров"
+      ],
+      "published": "2025-12-01",
+      "url": "https://www.semanticscholar.org/paper/63f16e6285d766c4f38884414f9158aa66b2a85d",
+      "abstract": "В графике реального времени необходимо рассчитывать глобальное (вторичное) освещение – компоненту освещенности, возникающую в результате многократного переотражения света от поверхностей сцены. Вторичное освещение напрямую зависит от материалов сцены, однако его точность в графике реального времени ограничена производительностью пользовательского устройства и требованиями приложения. В данной работе исследуется применение метода гауссовых сплатов (Gaussian splatting) для хранения вторичного освещения сцены. Этот метод реконструирует материалы сцены и позволяет изменять сложность представления сцены в зависимости от требуемой точности. Предложенный метод использует этап предобработки, в ходе которого по набору изображений с диффузным вторичным освещением сцены создается множество гауссиан, аппроксимирующих световую информацию. В результате был получен метод, имеющий высокую точность при сравнении с эталонным методом трассировки путей и позволяющий регулировать точность для изменения скорости рендеринга.\n In real-time graphics, it is necessary to calculate global (secondary) illumination – a component of illumination that occurs as a result of multiple reflections of light from scene surfaces. Secondary illumination directly depends on scene materials, but its accuracy in real-time graphics is limited by the performance of the user's device and application requirements. This paper investigates the use of Gaussian splatting to store secondary scene lighting. This method reconstructs scene materials and allows changing the complexity of scene representation depending on the required accuracy. The proposed method uses a preprocessing stage, during which a set of images with diffuse secondary scene lighting is used to create a set of Gaussians that approximate the light information. The result is a method that is highly accurate when compared to the reference path tracing method and allows changing the accuracy to vary the rendering speed.",
+      "external_ids": [
+        "s2:63f16e6285d766c4f38884414f9158aa66b2a85d",
+        "doi:10.25686/978-5-8158-2474-4-2025-105-112"
+      ],
+      "sources": [
+        "semanticscholar"
+      ],
+      "matched_keywords": [
+        "global illumination real-time"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-22T13:45:57+08:00",
+      "last_seen_at": "2026-10-22T13:45:57+08:00"
+    },
+    {
+      "source": "semanticscholar",
+      "arxiv_id": "",
+      "doi": "10.1109/ICWITE64848.2025.11307155",
+      "title": "Radiance Cascades for Real-Time 2D Global Illumination",
+      "authors": [
+        "Nikhil Kelkar",
+        "Ganesh Bhutkar",
+        "Shriya Nagarkar",
+        "Nandini Naik"
+      ],
+      "published": "2025-09-26",
+      "url": "https://www.semanticscholar.org/paper/5a0c0a215e39079c9e082be76df055e85bea09eb",
+      "abstract": "A considerable amount of research has been devoted to the development of realistic lighting in computer graphics, aiming to render a scene that closely resembles realworld lighting. Global illumination techniques aim to solve the rendering equation to simulate realistic lighting by taking into account direct and indirect lighting. Even though indirect illumination is required for realism in computer graphics, its accurate calculation can be very computationally expensive. The aim of this study is to build a real-time 2D Global Illumination engine with accurate lighting and soft shadows which supports a completely dynamic scene encompassing a multitude of lights and occluders efficiently. The implementation uses ray-marching to compute radiance by sampling the scene's signed distance field and lightmap and also uses “Radiance Cascades”, a data structure that extends light probe methods into multiple layers of probes which allows reuse of directional radiance data. A $4 \\times$ angular resolution branching factor and screen-resolution textures for cascade layers is used, allowing $\\mathbf{O}(\\mathbf{n})$ memory scaling and a GPU-accelerated implementation. The final illumination is obtained by merging cascade levels via bilinear interpolation leveraging hardware support. To demonstrate the viability of this technique, a simple cave scene was implemented containing multiple emissive and occlusive objects. The cave scene runs in real-time, even when lighting is fully recomputed every frame.",
+      "external_ids": [
+        "s2:5a0c0a215e39079c9e082be76df055e85bea09eb",
+        "doi:10.1109/icwite64848.2025.11307155"
+      ],
+      "sources": [
+        "semanticscholar"
+      ],
+      "matched_keywords": [
+        "global illumination real-time"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-22T13:45:57+08:00",
+      "last_seen_at": "2026-10-22T13:45:57+08:00"
+    },
+    {
+      "source": "semanticscholar",
+      "arxiv_id": "",
+      "doi": "10.3724/sp.j.1089.2024-00683",
+      "title": "Overview of Real-Time Global Illumination Rendering Methods without Pre-Processing",
+      "authors": [
+        "Tuo Chen",
+        "Ziheng Zhou",
+        "Zhenyu Wu",
+        "Songhai Zhang"
+      ],
+      "published": "2025-07-01",
+      "url": "https://www.semanticscholar.org/paper/bfa5cd219ec5949ca8ed347638368b44ec4deac3",
+      "abstract": ",",
+      "external_ids": [
+        "s2:bfa5cd219ec5949ca8ed347638368b44ec4deac3",
+        "doi:10.3724/sp.j.1089.2024-00683"
+      ],
+      "sources": [
+        "semanticscholar"
+      ],
+      "matched_keywords": [
+        "global illumination real-time"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-22T13:45:57+08:00",
+      "last_seen_at": "2026-10-22T13:45:57+08:00"
+    },
+    {
+      "source": "semanticscholar",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPRW67362.2025.00065",
+      "title": "G-Buffer Supported Neural Screen-Space Refraction Baking for Real-Time Global Illumination",
+      "authors": [
+        "Zi-Yang Zhang",
+        "Edgar Simo-Serra"
+      ],
+      "published": "2025-06-11",
+      "url": "https://www.semanticscholar.org/paper/7d8f71d4ca4a58d61676ab72155e3731d4ebfb08",
+      "abstract": "We propose a neural screen-space refraction baking method for global illumination rendering, with applicability to realtime 3D games. Existing neural global illumination rendering methods often struggle with refractive objects due to the lack of texture information in G-Buffers. While some existing approaches extend neural global illumination to refractive objects by predicting texture maps (UV maps), they are limited to objects with simple geometry and UV maps. In contrast, our method bakes refracted textures without these assumptions by directly encoding the world coordinates of refracted objects into the neural network instead of UV coordinates. Our experiments demonstrate that our approach performs better on refraction rendering than previous methods. Additionally, we investigate the differences in neural network performance when baking coordinates in different spaces, such as world space, screen space, and UV space, showing the best results yielded by baking in world-space coordinates.",
+      "external_ids": [
+        "s2:7d8f71d4ca4a58d61676ab72155e3731d4ebfb08",
+        "doi:10.1109/cvprw67362.2025.00065"
+      ],
+      "sources": [
+        "semanticscholar"
+      ],
+      "matched_keywords": [
+        "global illumination real-time"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-22T13:45:57+08:00",
+      "last_seen_at": "2026-10-22T13:45:57+08:00"
+    },
+    {
+      "source": "semanticscholar",
+      "arxiv_id": "",
+      "doi": "10.1145/3728296",
+      "title": "Real-Time Markov Chain Path Guiding for Global Illumination and Single Scattering",
+      "authors": [
+        "L. Alber",
+        "J. Hanika",
+        "C. Dachsbacher"
+      ],
+      "published": "2025-05-22",
+      "url": "https://www.semanticscholar.org/paper/1110129809ebd94a22e6d8d6804ca8c11665202b",
+      "abstract": "We present a lightweight and unbiased path guiding algorithm tailored for real-time applications with highly dynamic content. The algorithm demonstrates effectiveness in guiding both direct and indirect illumination. Moreover, it can be extended to guide single scattering events in participating media. Building upon the screen-space approach by Dittebrandt et al. [2023], the incident light distribution is represented as a von Mises-Fisher mixture model, which is controlled by a Markov chain process. To extend the procedure to world space, our algorithm uses a unique Markov chain architecture, which resamples Markov chain states from an ensemble of hash grids. We combine multi-resolution adaptive grids with a static grid, ensuring rapid state exchange without compromising guiding quality. The algorithm imposes minimal prerequisites on scene representation and seamlessly integrates into existing path tracing frameworks. Through continuous multiple importance sampling, it remains independent of the equilibrium distribution of Markov chain and hash grid resampling. We perform an evaluation of the proposed methods across diverse scenarios. Additionally, we explore the algorithm’s viability in offline scenarios, showcasing its effectiveness in rendering volumetric caustics. We demonstrate the application of the proposed methods in a path tracing engine for the original Quake game. The demo project features path traced global illumination and single scattering effects at frame rates over 30 FPS on NVIDIA’s GeForce 20 series or AMD’s Radeon RX 6000 series without upscaling.",
+      "external_ids": [
+        "s2:1110129809ebd94a22e6d8d6804ca8c11665202b",
+        "doi:10.1145/3728296"
+      ],
+      "sources": [
+        "semanticscholar"
+      ],
+      "matched_keywords": [
+        "global illumination real-time"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-22T13:45:57+08:00",
+      "last_seen_at": "2026-10-22T13:45:57+08:00"
+    },
+    {
+      "source": "semanticscholar",
+      "arxiv_id": "",
+      "doi": "10.1007/s41095-023-0367-z",
+      "title": "Real-time all-frequency global illumination with radiance caching",
+      "authors": [
+        "Youxin Xing",
+        "Gaole Pan",
+        "Xiang Chen",
+        "Ji Wu",
+        "Lu Wang",
+        "Beibei Wang"
+      ],
+      "published": "2024-09-21",
+      "url": "https://www.semanticscholar.org/paper/9d6b102d3bd35f812a523dac8e050f1fc1f3e367",
+      "abstract": "Global illumination (GI) plays a crucial role in rendering realistic results for virtual exhibitions, such as virtual car exhibitions. These scenarios usually include all-frequency bidirectional reflectance distribution functions (BRDFs), although their geometries and light configurations may be static. Rendering all-frequency BRDFs in real time remains challenging due to the complex light transport. Existing approaches, including precomputed radiance transfer, light probes, and the most recent path-tracing-based approaches (ReSTIR PT), cannot satisfy both quality and performance requirements simultaneously. Herein, we propose a practical hybrid global illumination approach that combines ray tracing and cached GI by caching the incoming radiance with wavelets. Our approach can produce results close to those of offline renderers at the cost of only approximately 17 ms at runtime and is robust over all-frequency BRDFs. Our approach is designed for applications involving static lighting and geometries, such as virtual exhibitions.",
+      "external_ids": [
+        "s2:9d6b102d3bd35f812a523dac8e050f1fc1f3e367",
+        "doi:10.1007/s41095-023-0367-z"
+      ],
+      "sources": [
+        "semanticscholar"
+      ],
+      "matched_keywords": [
+        "global illumination real-time"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-22T13:45:57+08:00",
+      "last_seen_at": "2026-10-22T13:45:57+08:00"
+    },
+    {
+      "source": "semanticscholar",
+      "arxiv_id": "",
+      "doi": "10.1145/3675382",
+      "title": "Radiance Caching with On-Surface Caches for Real-Time Global Illumination",
+      "authors": [
+        "W. Tatzgern",
+        "A. Weinrauch",
+        "P. Stadlbauer",
+        "J. H. Mueller",
+        "M. Winter",
+        "M. Steinberger"
+      ],
+      "published": "2024-08-09",
+      "url": "https://www.semanticscholar.org/paper/039592952d02f4c696f99a10add14fb0c2690d2b",
+      "abstract": "Achieving global illumination is crucial for delivering realistic lighting in real-time rendering applications. Despite recent advancements in hardware ray tracing, the computational demands of full path tracing remain largely impractical for real-world production scenarios. We introduce a novel two-level radiance caching system that exclusively utilizes on-surface caches, diverging from conventional approaches that combine screen-space and world-space caches. Unlike previous texture space techniques, which mostly prioritize closely matching the resolution to screen space to minimize artifacts, our focus is on achieving optimal visual quality with minimal texture space resolutions. By caching directional radiance information on both primary and secondary hits, our approach delivers high-quality renderings of global illumination while being computationally efficient. Overall, this leads to an up to 5% to 10% improvement in both speed and quality compared to other state-of-the-art approaches. Our proposed method is versatile, handling not only diffuse global illumination but also addressing (glossy) reflections. Furthermore, our approach is well-suited for multi-viewer rendering, as the utilization of on-surface caches enables information sharing among different viewers, making it applicable to cloud-native rendering environments.",
+      "external_ids": [
+        "s2:039592952d02f4c696f99a10add14fb0c2690d2b",
+        "doi:10.1145/3675382"
+      ],
+      "sources": [
+        "semanticscholar"
+      ],
+      "matched_keywords": [
+        "global illumination real-time"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-22T13:45:57+08:00",
+      "last_seen_at": "2026-10-22T13:45:57+08:00"
+    }
+  ]
+}
