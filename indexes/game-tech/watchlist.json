@@ -1,6 +1,454 @@
 {
-  "updated_at": "2026-10-25T13:41:15+08:00",
+  "updated_at": "2026-10-26T13:48:14+08:00",
   "candidates": [
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.32979",
+      "arxiv_version": "v1",
+      "title": "Fréchet Kriging for Metric Space-Valued Spatial Data",
+      "authors": [
+        "Ryo Okano",
+        "Daisuke Kurisu",
+        "Hans-Georg Müller"
+      ],
+      "published": "2026-10-23",
+      "url": "https://arxiv.org/abs/2610.32979",
+      "abstract": "Spatial prediction of non-Euclidean data, such as probability distributions, symmetric positive definite matrices, and networks, arises in many modern applications. Such data are naturally modeled as elements of general metric spaces, where classical kriging methods that rely on vector space structure are no longer directly applicable. We introduce Fréchet kriging, a general framework for spatial prediction of metric space-valued data. Fréchet kriging replaces the weighted average in classical ordinary kriging with a weighted Fréchet mean, while the weights are determined by characterizing the spatial dependence structure through a generalized variogram. This construction allows the proposed method to preserve the intrinsic geometry of the response space without requiring an embedding into a linear space. We establish theoretical properties of the proposed predictor, including a surrogate optimality property and consistency under variogram misspecification for a fixed working variogram under suitable regularity conditions. Simulation studies for univariate distributions and symmetric positive definite matrices demonstrate favorable predictive performance compared with existing approaches. We further illustrate the practical utility of the proposed framework through applications to exceedance probabilities of daily average temperatures, joint probability densities of daily minimum and maximum temperatures, and inter-industry monetary flow networks.",
+      "external_ids": [
+        "arxiv:2610.32979"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-26T13:48:14+08:00",
+      "last_seen_at": "2026-10-26T13:48:14+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.32978",
+      "arxiv_version": "v1",
+      "title": "SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning",
+      "authors": [
+        "Yuhan Liu",
+        "Lianhui Qin",
+        "Shenji Wan"
+      ],
+      "published": "2026-10-23",
+      "url": "https://arxiv.org/abs/2610.32978",
+      "abstract": "Training generalizable embodied agents requires realistic, varied, and simulation-ready indoor environments. Language-guided methods support semantic planning and object-level reasoning, but precise spatial grounding remains difficult. Visual generative models offer rich priors over plausible arrangements, yet their outputs require geometric reasoning to become physically valid 3D scenes. We introduce SceneBloom, an agentic framework that combines visual layout sampling with contract-guided 3D compilation. A hierarchical sampler uses diffusion priors to generate furniture arrangements within functional zones. A compiler then uses relations extracted from each proposal to guide geometric fitting and local pose correction. Across five room types, SceneBloom attains the highest visual quality and physical stability among the compared methods and is the only method with no detected mesh collisions and out-of-bounds objects. Its layouts are also closer to the distribution of real rooms than those of all compared baselines. Object navigation policies trained in these realistic scenes achieve a higher success rate in held-out real scans than those trained on an equal number of real training scans. Code is available at https://github.com/Tinaliu0123/scenebloom.",
+      "external_ids": [
+        "arxiv:2610.32978"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-26T13:48:14+08:00",
+      "last_seen_at": "2026-10-26T13:48:14+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.32974",
+      "arxiv_version": "v1",
+      "title": "Maximal Orbital Entanglement from Non-Interacting Fermions",
+      "authors": [
+        "Damiano Aliverti-Piuri",
+        "Julia Liebert",
+        "Christian Schilling"
+      ],
+      "published": "2026-10-23",
+      "url": "https://arxiv.org/abs/2610.32974",
+      "abstract": "Orbital rotations are used in quantum many-body physics and chemistry to reduce the complexity of quantum states by compressing their correlation into a small set of relevant orbitals. In striking contrast, quantum information processing strives for the opposite: orbitals that maximize entanglement as a resource. Motivated by this, we prove that Slater determinants of $N$ fermions on a lattice of $d_A + d_B = d$ sites, although free of particle correlation, can carry up to $\\min\\{d_A, d_B, N, d-N\\}$ ebits of orbital entanglement. Given enough particles and holes, this equals the maximum over all fermionic states. For arbitrary free states, we derive the maximal orbital total correlation in closed form for all bipartitions, the finest partition, and all partitions of up to five sites, using new majorization relations for Hermitian matrices. Taken together, these results turn mean-field states, the starting point of most many-body methods in physics and chemistry, into a viable resource for quantum information processing.",
+      "external_ids": [
+        "arxiv:2610.32974"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-26T13:48:14+08:00",
+      "last_seen_at": "2026-10-26T13:48:14+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.32973",
+      "arxiv_version": "v1",
+      "title": "Ideal interaction dynamics of defects and background fields in condensed matter",
+      "authors": [
+        "François Gay-Balmaz",
+        "Tudor S. Ratiu",
+        "Cesare Tronci"
+      ],
+      "published": "2026-10-23",
+      "url": "https://arxiv.org/abs/2610.32973",
+      "abstract": "While defect dynamics in condensed matter systems is widely studied and several methods are available to track the defect position over time, the formulation of dynamical models for the coupled evolution of both defect and background field quantities seems to be more challenging. Yet, the overall behavior of a system containing moving defects is strongly influenced by this defect-field interaction. Here, we propose a modeling framework for the conservative coupled evolution of the defect density and the background fields upon focusing on two relevant cases of study: the Gross-Pitaevskii theory of quantum fluids and the Ericksen-Leslie model of nematic liquid crystals. To achieve the coupled evolution, we combine the Euler-Poincaré variational setting of continuum dynamics with the gauge theory of topological defects. While the latter allows us to overcome certain ambiguities in definition of the defect density, the Euler-Poincaré method provides a unified modeling approach in the absence of defect reconnection.",
+      "external_ids": [
+        "arxiv:2610.32973"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-26T13:48:14+08:00",
+      "last_seen_at": "2026-10-26T13:48:14+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.32968",
+      "arxiv_version": "v1",
+      "title": "Distributed Quantum-Centric Supercomputing with Multi-Layered Generative Learning for Intermolecular Interactions",
+      "authors": [
+        "Chayan Patra",
+        "Prayas Ghosh",
+        "Adwait Patkhedkar",
+        "Rahul Maitra"
+      ],
+      "published": "2026-10-23",
+      "url": "https://arxiv.org/abs/2610.32968",
+      "abstract": "Quantum-centric supercomputing (QCSC) approaches, such as sample-based quantum diagonalization (SQD), combine quantum processors with high-performance computers (HPC), offering a promising route toward solving challenging electronic structure problems. However, implementation of QCSC approaches to large active space calculations is constrained by the associated number of qubits, deep quantum circuits, sampling cost, and large-scale Hamiltonian diagonalization. To overcome these limitations, we introduce a distributed QCSC framework that decomposes complex molecular problems into parallel sub-problems requiring fewer qubits, shallower circuits, and reduced shot budgets. A physically motivated, two-step aggregation scheme then reconstructs the global solution: first, a computational bit assignment strategy optimizes a cost function to appropriately map local bit indices to global ones, yielding a mapped tensor product state (MTPS); second, an inter-fragment correlation recovery module restores missing cross-fragment interactions. Herein, we employ a multi-layered generative machine learning architecture, starting with utilizing the recently proposed physics-informed generative SQD (PIGen-SQD) as a distributed QCSC solver, followed by a secondary generative module to model configuration distributions and identify dominant sectors of the global Hilbert space. For water and formamide dimers, our method achieves up to $95\\%$ reduction in the diagonalization dimension while enhancing energy accuracy by an order of magnitude over conventional SQD. Furthermore, application to the water hexamer ($\\mathrm{(H_2O)_6}$) cage successfully decomposes a 120-qubit problem into six 20-qubit monomeric subsystems, and stitches the monomers under a dimeric approximation, demonstrating excellent agreement with the reference classical methods.",
+      "external_ids": [
+        "arxiv:2610.32968"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "global illumination real-time",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-26T13:48:14+08:00",
+      "last_seen_at": "2026-10-26T13:48:14+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.32964",
+      "arxiv_version": "v1",
+      "title": "Flownomaly: Single-Step Conditional-Mean Recovery for Few-Shot Anomaly Detection",
+      "authors": [
+        "Bernardo Perrone Ribeiro",
+        "Erkut Akdag",
+        "Egor Bondarev"
+      ],
+      "published": "2026-10-23",
+      "url": "https://arxiv.org/abs/2610.32964",
+      "abstract": "Few-shot industrial anomaly detection requires modeling category-specific normality from only a handful of defect-free images. Common approaches tie inference to stored exemplars, impose rigid linear structure, or risk reproducing anomalous content. Flownomaly instead casts the problem as normal-counterpart recovery in frozen DINOv2 feature space. Given normal supports, a velocity field is learned through conditional flow matching over frozen patch tokens to transport Gaussian noise toward normal features. Along straight paths, a single recovery step using one evaluation of the optimal field yields the posterior mean of the clean normal token without trajectory integration. The operating time governs how strongly recovery modifies a query token. With no anomalous validation samples available for tuning, a normal-only Jacobian gain-to-noise criterion selects this time from the supports alone. Squared residuals between query tokens and their recovered counterparts yield anomaly signals for both dense localization and image-level detection. Across 1-, 2-, and 4-shot benchmarks on MVTec-AD and VisA, together with sample-shot evaluations on Real-IAD, Flownomaly achieves state-of-the-art performance against recent category-specific methods. In the 1-shot setting, image- and pixel-level AUROC reach 97.8% and 98.0% on MVTec-AD and 95.3% and 98.7% on VisA, with a 2.1-point image-level AUROC improvement over the strongest baseline on VisA. Code is available at https://github.com/b-rbmp/Flownomaly.",
+      "external_ids": [
+        "arxiv:2610.32964"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "real-time fluid simulation graphics",
+        "global illumination real-time"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-26T13:48:14+08:00",
+      "last_seen_at": "2026-10-26T13:48:14+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.32961",
+      "arxiv_version": "v1",
+      "title": "Robotic Optical Coherence Tomography-Guided Geometric Modeling of Soft Tissue: 3D Representations for Data-Driven Closed-Loop Shape Control",
+      "authors": [
+        "Chaoyu Zhang",
+        "Guangshen Ma",
+        "Mark Draelos"
+      ],
+      "published": "2026-10-23",
+      "url": "https://arxiv.org/abs/2610.32961",
+      "abstract": "In medical robotics, data-driven soft-tissue shape control requires deforming tissue toward desired morphologies through sequential physical interactions. This challenge is particularly important in microscale manipulation, where localized deformation is difficult to observe, represent, and control, while physics-based models can be computationally expensive and difficult to adapt to realistic environments. Optical coherence tomography (OCT) provides high-resolution volumetric perception of tissue deformation, but target-conditioned control requires effective representations of both observed and desired tissue states. In this work, we introduce an OCT-guided data-driven framework for tissue shape control, learned from user-guided demonstrations and executed with closed-loop OCT feedback. We study full-volume, tissue-masked sparse-volume, and voxelized point-cloud representations, with or without residual conditioning, using deterministic (Explicit) and generative diffusion (Diffusion) policies. Across 12 configurations and 576 phantom rollouts on 3-DoF depth and 6-DoF directional tasks, OCT-derived 3D representations support both Explicit and Diffusion policies, with performance depending on representation and residual conditioning. Residual conditioning reduces directional Shape RMSE from 0.748 to 0.555 mm for full-volume Diffusion, while voxelized point-cloud Explicit with residuals achieves 0.534 mm for depth and 0.443 mm for directional control, with comparable accuracy at intermediate unseen targets and consistent performance across deployments. We further evaluate the framework in 60 ex vivo porcine rollouts, extending to biological tissue with final geometric errors comparable to human demonstrations. These results establish volumetric OCT as current and goal representations for learned closed-loop tissue shape control across deterministic and generative action models.",
+      "external_ids": [
+        "arxiv:2610.32961"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-26T13:48:14+08:00",
+      "last_seen_at": "2026-10-26T13:48:14+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.32944",
+      "arxiv_version": "v1",
+      "title": "Robustness of Skyrmion-Mediated Magnetization Switching in Perpendicular Magnetic Tunnel Junctions (p-MTJs) to Material Disorder and Elevated Temperature",
+      "authors": [
+        "Prosenjit Das",
+        "Md Mahadi Rajib",
+        "Jayasimha Atulasimha"
+      ],
+      "published": "2026-10-23",
+      "url": "https://arxiv.org/abs/2610.32944",
+      "abstract": "Transient-skyrmion mediated voltage-controlled magnetic anisotropy (VCMA) switching is a fast and energy efficient way to magnetization reversal, but its reliability under realistic material disorder and thermal fluctuations remain unclear. In this work, we use stochastic micromagnetic simulations of a 100 nm perpendicular magnetic tunnel junction to study switching reliability under grain-scale variations in Dzyaloshinskii-Moriya interaction, perpendicular magnetic anisotropy, easy-axis orientation, and intergrain exchange coupling. We find that switching remains robust under moderate disorder, with 100% switching observed in 10^4 stochastic simulations after pulse width optimization at both 300 K and 350 K. Increasing the temperature from 300 to 350 K shifts the optimum VCMA pulse width from ~475 to ~450 ps, indicating that an apparent reduction in switching probability at a fixed pulse duration can be primarily due to pulse detuning. In contrast, strong easy-axis disorder reduces the maximum switching probability even after pulse-width optimization, indicating degradation of the switching dynamics. We further show that, under strong easy-axis disorder a transient skyrmion still forms while the subsequent post-pulse dynamics fails to complete the magnetization reversal. Our study therefore establishes the distinction between recoverable reliability due to timing shifts and permanent disorder-induced degradation that simply cannot be recovered by pulse re-tuning. Finally, for no disorders but at room temperature, 100% switching is observed with 10^6 stochastic simulations with correct pulse shaping.",
+      "external_ids": [
+        "arxiv:2610.32944"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-26T13:48:14+08:00",
+      "last_seen_at": "2026-10-26T13:48:14+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.32938",
+      "arxiv_version": "v1",
+      "title": "Vacancy-enhanced Li solid-solution anodes for solid-state batteries: computational screening enabling high critical current density",
+      "authors": [
+        "Arseniy S. Burov",
+        "Nadezhda A. Ashikhmina",
+        "Nurlan Zhanabayev",
+        "Anton O. Boev",
+        "Aleksandra D. Radina",
+        "Ilya V. Chepkasov",
+        "Alexander G. Kvashnin",
+        "Dmitry A. Aksyonov"
+      ],
+      "published": "2026-10-23",
+      "url": "https://arxiv.org/abs/2610.32938",
+      "abstract": "Sluggish vacancy-mediated self-diffusion in lithium metal limits the critical current density (CCD) of Li anodes in solid-state batteries by promoting interfacial void formation during stripping. To enhance the effective vacancy concentration while preserving the bcc Li host, we screen 50 substitutional solutes using density functional theory (DFT) within a funnel based on automatic phase diagram construction, solution energies, solute-vacancy binding energies, and experimental solubility limits. Using an adaptation of the Lomer model for the dilute limit, we show that only Ag, Ge, and Cd solid solutions are predicted to reach $1~\\mathrm{mA~cm^{-2}}$ within their solubility limits. The thermodynamically estimated CCD of Ag at $\\sim 9$ at.% reaches $\\sim 4~\\mathrm{mA~cm^{-2}}$ at a theoretical capacity of $1522~\\mathrm{mAh~g^{-1}}$. Migration barrier calculations indicate that the enhancement may be partially offset by vacancy trapping, necessitating further validation via molecular dynamics simulations. Notably, Hume-Rothery rules alone prove insufficient as prefilters, whereas machine-learning models trained on the DFT data can eliminate most unsuitable solutes early in the funnel and extend the workflow to related solid-solution searches.",
+      "external_ids": [
+        "arxiv:2610.32938"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-26T13:48:14+08:00",
+      "last_seen_at": "2026-10-26T13:48:14+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.32926",
+      "arxiv_version": "v1",
+      "title": "ZENO: Nonlinear filtering with Zakai Equation Neural Operators",
+      "authors": [
+        "Aaditya Prasad",
+        "Steven W. Flavell",
+        "Brian DePasquale"
+      ],
+      "published": "2026-10-23",
+      "url": "https://arxiv.org/abs/2610.32926",
+      "abstract": "State inference and parameter learning for nonlinear filters is a core computation for scientific machine learning with varied applications in engineering and neuroscience. The unnormalized filtering distribution is governed by the Zakai equation, a stochastic partial differential equation (SPDE) that combines the forward Kolmogorov operator (known as the Fokker-Planck equation) with observed likelihood updates. Although solving these high-dimensional SPDEs is often impossible analytically and intractable numerically, advances in operator learning and physics-informed machine learning have made it feasible. Harnessing these advances, we introduce the Zakai Equation Neural Operator (ZENO), a model that optimizes a neural operator against a Zakai Equation based physics-informed loss to approximate the exact unnormalized filtering distribution for latent stochastic dynamical systems. We use this ZENO-inferred posterior distribution in an expectation-maximization (EM) framework to perform parameter learning and state inference. We demonstrate ZENO's ability to accurately infer the posterior distribution and learn its corresponding SDE parameters in three simulated stochastic dynamical systems (Double-Well bistable system, Van Der Pol (VDP) oscillator, and Lorenz system) and compare its performance against established methods for latent SDE inference and learning. We show that ZENO recovers previously observed limit cycles representing forward and backward locomotion from a whole-brain imaging dataset of immobilized \\textit{C. elegans} nematodes. ZENO is a novel approach to the problem of nonlinear filtering and dynamical inference through the lens of partial differential equations and operator theory.",
+      "external_ids": [
+        "arxiv:2610.32926"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-26T13:48:14+08:00",
+      "last_seen_at": "2026-10-26T13:48:14+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.32955",
+      "arxiv_version": "v1",
+      "title": "Measure Before You Train: Typed Decision Models vs. a Classical Baseline vs. a Generative LLM for Routing a Personal Multilingual Inbox",
+      "authors": [
+        "Federico Lucca"
+      ],
+      "published": "2026-10-23",
+      "url": "https://arxiv.org/abs/2610.32955",
+      "abstract": "Personal email agents decide, for every message, what it is, whether it is urgent, whether to draft a reply, create a task, or ignore it. Their error rate is rarely measured: the stored labels were written by the system itself. We present Foyer, a self-hosted personal inbox agent in daily use, and a measurement protocol (stratified sampling, frozen snapshots, thread-grouped splits, pre-registered hypotheses, human labels in the agent's review loop) that yields ground truth before any training. On 739 real Italian/English emails labelled by the owner (231 unbiased, 500 adversarially sampled), we compare nine systems under thread-grouped cross-validation: the production keyword rules, a TF-IDF + logistic-regression baseline, local typed decision models (Tev1, Nimble), a hosted decision model (Nimble v4-max), and hosted generative LLMs (Qwen2.5-7B, Gemma 4 26B/31B). Four results. The production rules score 28% on message type against a 58% majority class: the field shown most prominently carried no information. With ~200 labels, logistic regression has the highest accuracy on every field (type 0.79, urgency 0.74, needs-reply 0.83, is-noise 0.90), though it never predicts the two rarest classes and is statistically tied with Gemma 4 on type; few-shot prompting does not close the gap. The sender's relationship (client, supplier, service) is recovered from other emails of the same contact with 98.6% accuracy where the contact has been seen, and is not inferable from a single message by any model: it belongs in the contact graph, not the prompt. Finally, accuracy is not the product metric: composed into actions, the most accurate system most often ignores emails needing action (18% vs 4% for the best LLM); a cost-chosen threshold on its noise probability halves that rate and makes it the cheapest system.",
+      "external_ids": [
+        "arxiv:2610.32955"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-26T13:48:14+08:00",
+      "last_seen_at": "2026-10-26T13:48:14+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.32905",
+      "arxiv_version": "v1",
+      "title": "Combining Simulations and Spectroscopy to Design Protective Coatings on Sulfide Solid Electrolytes",
+      "authors": [
+        "Zhiyi Wang",
+        "Leonie Braks",
+        "Michele Ceriotti",
+        "Ali Coskun",
+        "Hanna Türk",
+        "Davide Tisi"
+      ],
+      "published": "2026-10-23",
+      "url": "https://arxiv.org/abs/2610.32905",
+      "abstract": "Sulfide solid electrolytes are attractive for all-solid-state batteries because of their high Li-ion conductivity and favorable processability, but their practical use is limited by electrochemical instability and moisture-induced degradation. Molecular surface coatings offer a scalable strategy to improve humidity tolerance and interfacial stability, yet there is limited understanding of the molecular-level factors governing surface interactions. By combining large-scale atomistic simulations enabled by a machine-learning potential with targeted experiments, we present a comprehensive framework for designing molecular coatings on Li$_6$PS$_5$Cl (LPSCl). Using a PET-MAD interatomic potential fine-tuned on an r$^2$SCAN reference dataset covering LPSCl surfaces, molecular adsorbates, and their interactions, we model surface adsorption of carboxylic (CA), sulfonic (SA), and phosphonic (PA) acids with alkyl chains of varying lengths and the interaction of these coated surfaces with water at finite temperature. The simulations show that lithiated head groups generally exhibit more favorable adsorption energies. Impedance spectroscopy shows that the lithiated coatings maintain 40--55\\% of the initial ionic conductivity after powder processing. While adsorption strength is largely controlled by head-group chemistry and lithiation state, coating morphology depends primarily on alkyl-chain length and surface coverage. In particular, long-chain lithiated carboxylates form dense, brush-like hydrophobic layers that reduce water access to reactive Li surface sites, with protection setting in at a coating thickness of approximately 0.8 nm. Consistent with these predictions, longer carboxylate chains suppress H$_2$S evolution more effectively. Because thicker coatings also hinder Li-ion transport, intermediate chain lengths offer the best balance between moisture protection and ionic conductivity.",
+      "external_ids": [
+        "arxiv:2610.32905"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-26T13:48:14+08:00",
+      "last_seen_at": "2026-10-26T13:48:14+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.32970",
+      "arxiv_version": "v1",
+      "title": "On the continuity of conditional distributions and stratification for derivative pricing",
+      "authors": [
+        "Aleksandar Arandjelovic",
+        "Patrick Cheridito"
+      ],
+      "published": "2026-10-23",
+      "url": "https://arxiv.org/abs/2610.32970",
+      "abstract": "Stratification can reduce the estimator variance in Monte Carlo simulations by partitioning the sample space according to a low-dimensional factor and sampling separately within the resulting strata, making it well suited to the valuation of path-dependent claims in high-dimensional financial models. Its performance, however, depends critically on the choice of the stratification factor, and effective low-dimensional factors are generally difficult to identify in complex continuous-time models. Neural networks provide a flexible approximation class for this purpose and have proved useful in related variance-reduction problems in quantitative finance. In this paper, we study the construction of neural stratification factors for derivative pricing under proportional allocation in continuous-time models. Since the numerical construction of a stratification factor typically involves approximation, we establish continuity results for the associated conditional expectations and, more generally, conditional distributions, and provide several counterexamples showing the limits of this continuity theory. Combined with density results for neural networks, our findings yield a universal approximation theorem for admissible stratification factors. We conclude with numerical experiments involving a constant-maturity-swap range accrual in a two-factor Gaussian short-rate model and a worst-of autocallable in a Wishart stochastic covariance model, where the learned factors outperform all considered benchmarks.",
+      "external_ids": [
+        "arxiv:2610.32970"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-26T13:48:14+08:00",
+      "last_seen_at": "2026-10-26T13:48:14+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.32953",
+      "arxiv_version": "v1",
+      "title": "Low-Complexity Wideband Channel Estimation for ISAC in Analog Millimeter-Wave Systems",
+      "authors": [
+        "Hamza Touati",
+        "Raffaele Viterbo",
+        "Mattia Brambilla",
+        "Sandra Roger",
+        "Carmen Botella-Mascarell"
+      ],
+      "published": "2026-10-23",
+      "url": "https://arxiv.org/abs/2610.32953",
+      "abstract": "Accurate wideband channel estimation is a key enabler for millimeter-wave (mmWave) integrated sensing and communication (ISAC) systems. In the narrowband scenario, the Transformed Spatial Domain Channel Estimation (TSDCE) method was previously shown to provide fast and accurate angle estimation with substantially lower complexity than conventional compressed-sensing approaches based on orthogonal matching pursuit (OMP). However, wideband ISAC scenarios additionally require delay estimation, making joint angle-delay sparse recovery computationally expensive due to the multidimensional dictionary search. In this paper, we propose a wideband extension of TSDCE, namely TSDCE-TD, which incorporates time-domain support and decouples angle and delay estimation. Two variations are proposed for delay estimation: TSDCE-TD (Dict), which uses a one-dimensional delay dictionary, and TSDCE-TD (FFT), which applies Fast Fourier Transform (FFT) zero-padding interpolation. Path estimates are iteratively refined through successive interference cancellation and alternating angle-delay updates. Simulation results show that the proposed methods outperform OMP-based baselines under practical dictionary sizes, while achieving comparable performance at high-resolution settings with substantially lower computational complexity. Moreover, the angle-delay estimates obtained using the proposed approach enable accurate single-anchor indoor localization in a ray-traced environment, achieving sub-20 cm positioning errors and satisfying practical indoor positioning requirements.",
+      "external_ids": [
+        "arxiv:2610.32953"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-26T13:48:14+08:00",
+      "last_seen_at": "2026-10-26T13:48:14+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.32946",
+      "arxiv_version": "v1",
+      "title": "Low-frustration block encodings by patch routing",
+      "authors": [
+        "Minzhao Liu",
+        "Abeynaya Gnanasekaran",
+        "Ananth Kaushik",
+        "Siddharth Hariprakash",
+        "Alireza Marefat Khah",
+        "Martin Roetteler",
+        "Grant Salton"
+      ],
+      "published": "2026-10-23",
+      "url": "https://arxiv.org/abs/2610.32946",
+      "abstract": "Block-encoding has emerged as a core primitive in many quantum algorithms, including quantum simulation. In this work, we design efficient and extensible methods for generating low-frustration block encodings of frustrated lattice Hamiltonians built from repeated local interaction patches through a technique we call \"patch routing\". We construct block encodings for a full Hamiltonian by first block-encoding a small local patch and then using a SWAP-style routing network to coherently apply the local patch encoding across the lattice. The expensive, local block-encoding cost is paid only once per query and is independent of lattice size, whereas the comparatively inexpensive routing network grows linearly with the lattice size, dominating at large sizes. Our method allows for a hierarchical structure in which larger patches can be block-encoded with small normalization factors, albeit at a higher (local, non-extensive) block-encoding cost, thereby reducing overall query complexity in an algorithm. We exploit symmetries and algebraic structures in local interactions to construct efficient block encodings, and we apply these techniques to the Heisenberg, Fermi-Hubbard, and honeycomb spin-liquid models. For a $120\\times 120$ square-lattice $J_1$-$J_2$ Heisenberg model near maximal frustration ($J_2/J_1=0.4-0.6$), our methods result in a $15-17\\times$ reduction in the leading $T$ cost per qubitized-QPE run (ignoring initial state preparation and overlap) relative to prior state-of-the-art Pauli LCU constructions. Corresponding reductions are approximately $3\\times$ for the $120\\times120$ Fermi-Hubbard model at half-filling. For time evolution of the honeycomb spin-liquid model on $120\\times120$ unit cells, the leading cost is reduced by $5\\times$. Our framework provides a systematic way forward for larger and more accurate fault-tolerant simulations of real-world quantum systems.",
+      "external_ids": [
+        "arxiv:2610.32946"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics",
+        "global illumination real-time"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-26T13:48:14+08:00",
+      "last_seen_at": "2026-10-26T13:48:14+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.32907",
+      "arxiv_version": "v1",
+      "title": "A Highly Efficient Depth-Averaged Material Point Method for Geophysical Mass Flows",
+      "authors": [
+        "Johann Kammholz",
+        "Yidong Zhao",
+        "Lars Blatny",
+        "Thomas Pauze",
+        "Johan Gaume"
+      ],
+      "published": "2026-10-23",
+      "url": "https://arxiv.org/abs/2610.32907",
+      "abstract": "Probabilistic hazard assessment of geophysical mass flows requires large simulation ensembles and thus fast and robust numerical models. We present an open-source depth-averaged material point method formulated in global Cartesian coordinates, using Lagrangian particles to track the flow margin. A separate basal friction step based on the Coulomb, Voellmy, or $μ(I)$-rheology brings the flow to rest without artificial stopping criteria. Our model reproduces analytical solutions for a sliding block and dam-break problems and matches the deposit of a laboratory granular column collapse. A back-calculation of the 2023 Brienz/Brinzauls rockslide (Switzerland) at 1m resolution (190'000 particles) runs faster than real time on a single CPU core. Calibrated to the observed runout, the three friction laws yield very similar results, but Coulomb friction shows a slightly wider affected area than Voellmy and $μ(I)$. A probabilistic 1632-simulation ensemble at 5m resolution was computed in 76s. The model is one to two orders of magnitude faster than established depth-averaged models used in engineering practice, making catchment-style ensemble simulations feasible on a desktop computer.",
+      "external_ids": [
+        "arxiv:2610.32907"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "global illumination real-time",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-26T13:48:14+08:00",
+      "last_seen_at": "2026-10-26T13:48:14+08:00"
+    },
     {
       "source": "arxiv",
       "arxiv_id": "2610.31660",
@@ -1692,7 +2140,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-21T13:44:43+08:00",
-      "last_seen_at": "2026-10-21T13:44:43+08:00"
+      "last_seen_at": "2026-10-26T13:48:14+08:00"
     },
     {
       "source": "semanticscholar",
@@ -1727,7 +2175,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-21T13:44:43+08:00",
-      "last_seen_at": "2026-10-21T13:44:43+08:00"
+      "last_seen_at": "2026-10-26T13:48:14+08:00"
     },
     {
       "source": "semanticscholar",
@@ -1755,7 +2203,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-21T13:44:43+08:00",
-      "last_seen_at": "2026-10-21T13:44:43+08:00"
+      "last_seen_at": "2026-10-26T13:48:14+08:00"
     },
     {
       "source": "semanticscholar",
@@ -1786,7 +2234,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-21T13:44:43+08:00",
-      "last_seen_at": "2026-10-21T13:44:43+08:00"
+      "last_seen_at": "2026-10-26T13:48:14+08:00"
     },
     {
       "source": "semanticscholar",
@@ -1819,7 +2267,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-21T13:44:43+08:00",
-      "last_seen_at": "2026-10-21T13:44:43+08:00"
+      "last_seen_at": "2026-10-26T13:48:14+08:00"
     },
     {
       "source": "semanticscholar",
@@ -1850,7 +2298,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-21T13:44:43+08:00",
-      "last_seen_at": "2026-10-21T13:44:43+08:00"
+      "last_seen_at": "2026-10-26T13:48:14+08:00"
     },
     {
       "source": "semanticscholar",
@@ -1880,7 +2328,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-21T13:44:43+08:00",
-      "last_seen_at": "2026-10-21T13:44:43+08:00"
+      "last_seen_at": "2026-10-26T13:48:14+08:00"
     },
     {
       "source": "arxiv",
@@ -4866,7 +5314,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-11T14:50:02+08:00",
-      "last_seen_at": "2026-10-15T13:33:34+08:00"
+      "last_seen_at": "2026-10-26T13:48:14+08:00"
     },
     {
       "source": "semanticscholar",
@@ -4897,7 +5345,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-11T14:50:02+08:00",
-      "last_seen_at": "2026-10-15T13:33:34+08:00"
+      "last_seen_at": "2026-10-26T13:48:14+08:00"
     },
     {
       "source": "arxiv",
@@ -8284,7 +8732,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-25T13:41:15+08:00"
+      "last_seen_at": "2026-10-26T13:48:14+08:00"
     },
     {
       "source": "arxiv",
@@ -8317,7 +8765,7 @@
       "doi": "10.48550/arXiv.2601.06451",
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-25T13:41:15+08:00"
+      "last_seen_at": "2026-10-26T13:48:14+08:00"
     },
     {
       "source": "semanticscholar",
@@ -8518,7 +8966,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-25T13:41:15+08:00"
+      "last_seen_at": "2026-10-26T13:48:14+08:00"
     },
     {
       "source": "semanticscholar",
@@ -8579,7 +9027,7 @@
       "doi": "10.1145/3731155",
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-25T13:41:15+08:00"
+      "last_seen_at": "2026-10-26T13:48:14+08:00"
     },
     {
       "source": "semanticscholar",
@@ -8633,7 +9081,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-25T13:41:15+08:00"
+      "last_seen_at": "2026-10-26T13:48:14+08:00"
     },
     {
       "source": "semanticscholar",
@@ -8747,7 +9195,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-25T13:41:15+08:00"
+      "last_seen_at": "2026-10-26T13:48:14+08:00"
     },
     {
       "source": "semanticscholar",
@@ -8780,7 +9228,7 @@
     }
   ],
   "last_run": {
-    "at": "2026-10-25T13:41:15+08:00",
+    "at": "2026-10-26T13:48:14+08:00",
     "sources": [
       "arxiv",
       "semanticscholar",
@@ -8796,9 +9244,9 @@
       "MLS-MPM",
       "projective dynamics cloth"
     ],
-    "fetched": 92,
-    "merged": 18,
-    "new": 0
+    "fetched": 112,
+    "merged": 31,
+    "new": 16
   },
   "topic": "game technology: physics simulation, real-time rendering, global illumination",
   "schema_version": 1
