@@ -1,6 +1,495 @@
 {
-  "updated_at": "2026-10-26T13:48:14+08:00",
+  "updated_at": "2026-10-27T13:57:05+08:00",
   "candidates": [
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.35854",
+      "arxiv_version": "v1",
+      "title": "FL4N: Feed-forward Latent Model for 4D Novel View Synthesis",
+      "authors": [
+        "Eunbeen Hong",
+        "Hyeonseo Yu",
+        "Honggyu An",
+        "Jooho Son",
+        "Hyunah Ko",
+        "Soowon Son",
+        "Chaehyun Kim",
+        "Jahyeok Koo",
+        "Jisoo Kim",
+        "Junhwa Hur",
+        "Seungryong Kim"
+      ],
+      "published": "2026-10-26",
+      "url": "https://arxiv.org/abs/2610.35854",
+      "abstract": "4D novel view synthesis (NVS) aims to render dynamic scenes across viewpoints and timestamps, which requires jointly inferring 3D structure and temporal dynamics. Existing monocular feed-forward methods often rely on explicit 4D Gaussian representations, which are prone to temporal inconsistency and severe rendering artifacts. We present FL4N, the first feed-forward latent 4D NVS model. Instead of relying on explicit 4D primitives, FL4N encodes a 4D scene prior into a unified latent representation across space and time. Our core insight is that learning temporal dynamics as residuals on top of a pretrained static latent prior enables effective 4D modeling with limited dynamic training data. To this end, we introduce a lightweight dynamic encoder that leverages static scene features to disentangle object motion from camera-induced parallax. Trained solely with an image synthesis objective, FL4N achieves state-of-the-art 4D NVS quality while rendering in real time. Its learned latent representation generalizes to real-world videos and disentangles viewpoint from time.",
+      "external_ids": [
+        "arxiv:2610.35854"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics",
+        "global illumination real-time",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-27T13:57:05+08:00",
+      "last_seen_at": "2026-10-27T13:57:05+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.35852",
+      "arxiv_version": "v1",
+      "title": "Differentiable Contact Dynamics for Legged Locomotion: Policy Learning and Contact-Implicit Trajectory Optimization",
+      "authors": [
+        "Gijeong Kim",
+        "Seungbin Oh",
+        "Dongyun Kang",
+        "Hae-Won Park"
+      ],
+      "published": "2026-10-26",
+      "url": "https://arxiv.org/abs/2610.35852",
+      "abstract": "This paper proposes a smooth analytic gradient for frictional contact and applies it to policy learning and contact-implicit trajectory optimization for legged locomotion. The exact contact sensitivity is available in closed form but describes changes within the current contact mode, providing no first-order information toward neighboring contact modes. The proposed gradient replaces this sensitivity only in the backward pass, leaving the hard-contact forward solve unchanged and the realized rollout feasible. A central-path relaxation of the de Saxcé-corrected second-order-cone complementarity problem for Coulomb friction smooths the conditions defining the separating, clamping, and sliding modes. The relaxed sensitivity is evaluated at a point on the central path obtained by a Newton iteration initialized from the hard-contact solution. The sensitivity remains continuous through contact-mode transitions and converges to the exact sensitivity as the relaxation vanishes. Using 100,000 samples and less than 2 min of training on a desktop PC, policy learning with the proposed gradient produces a policy that transfers to hardware without fine-tuning. On hardware, the robot under a trotting policy withstands pushes and traverses debris and slippery ground. In trajectory optimization, the proposed gradient reaches contact-rich solutions missed by exact and Signorini-relaxed gradients. Project page: https://diffcontact.github.io",
+      "external_ids": [
+        "arxiv:2610.35852"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "\"position based\" dynamics cloth",
+        "incremental potential contact",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-27T13:57:05+08:00",
+      "last_seen_at": "2026-10-27T13:57:05+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.35849",
+      "arxiv_version": "v1",
+      "title": "Interaction of Strong X-mode Waves with Magnetized Pair Plasmas",
+      "authors": [
+        "Navin Sridhar"
+      ],
+      "published": "2026-10-26",
+      "url": "https://arxiv.org/abs/2610.35849",
+      "abstract": "The interaction of strong ($a_0>1$), superluminal X-mode electromagnetic waves with magnetized pair plasma falls into two regimes set by $\\varepsilon_{\\rm B}\\equiv a_0ω_{\\rm B}/ω_0$, the ratio of the wave strength parameter to its frequency, in units of cyclotron frequency. For $\\varepsilon_{\\rm B}<1$ the wave propagates until induced scattering disrupts it. Using analytical theory and kinetic simulations, we show that the background magnetic field introduces a restoring frequency $Ω_{\\rm B}$ to scattering; when $Ω_{\\rm B}$ exceeds the scattering rate, the unattenuated length grows from $\\simeq\\varepsilon_{\\rm p}^{-2/3}$ to $\\simeq\\varepsilon_{\\rm B}^{1/2}/\\varepsilon_{\\rm p}$ wavelengths ($\\varepsilon_{\\rm p}\\equiv a_0ω_{\\rm p}/ω_0$; $ω_{\\rm p}$ is the plasma frequency). When $a_0^2>\\varepsilon_{\\rm B}>1$, the plasma current is nonlinear, and the wave is damped while riding a motional electric field, so one half-cycle appears attenuated. This framework has implications for the duration of fast radio bursts and whether they can escape their surroundings.",
+      "external_ids": [
+        "arxiv:2610.35849"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-27T13:57:05+08:00",
+      "last_seen_at": "2026-10-27T13:57:05+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.35824",
+      "arxiv_version": "v1",
+      "title": "Sparse Carleman Embeddings for Nonlinear Discrete Dynamical Systems",
+      "authors": [
+        "Hsuan-Cheng Wu",
+        "Xiantao Li"
+      ],
+      "published": "2026-10-26",
+      "url": "https://arxiv.org/abs/2610.35824",
+      "abstract": "Discrete nonlinear dynamical systems arise in population models, iterative optimization, and numerical simulations, where computing many iterations can be costly in high dimensions. We study Carleman embedding for forced quadratic discrete systems and its application to quantum state preparation. Under explicit stability and initial-state assumptions, we prove that the truncation error decreases geometrically with the embedding degree, uniformly over all iterations. A central obstacle in discrete time is that the lifted update can become dense even when the original coefficient maps are sparse. We overcome this obstacle by constructing an exact auxiliary linear-system representation that applies the coefficient maps one tensor factor at a time, with row and column sparsities bounded independently of the truncation degree. After rescaling, the associated history system has a condition number that grows linearly with the iteration count, uniformly in the truncation degree. These results yield a quantum algorithm for preparing an approximation to the normalized $n$th iterate with constant success probability. Under coherent input-access assumptions, and for fixed sparsity, stability parameters, and a known positive lower bound on the final-state norm, the oracle query complexity is linear in $n$ and polylogarithmic in the inverse accuracy. Numerical experiments in one and three dimensions illustrate the convergence of the truncated embedding.",
+      "external_ids": [
+        "arxiv:2610.35824"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-27T13:57:05+08:00",
+      "last_seen_at": "2026-10-27T13:57:05+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.35813",
+      "arxiv_version": "v1",
+      "title": "World Model for Energy Efficiency Maximization in Dynamic Metasurface Antennas",
+      "authors": [
+        "Abdolrasoul Sakhaei Gharagezlou",
+        "Mehdi Monemi",
+        "Matti Latva-aho",
+        "Mehdi Rasti"
+      ],
+      "published": "2026-10-26",
+      "url": "https://arxiv.org/abs/2610.35813",
+      "abstract": "Dynamic metasurface antennas (DMAs) have emerged as a promising technology for realizing large-scale antenna arrays in next-generation wireless networks owing to their ability to enable dense and energy-efficient antenna architectures. However, jointly optimizing digital beamforming and DMA element weights under time-varying channel conditions remains challenging due to their coupled effects on the received signal and interference powers. We formulate this problem to maximize time-averaged energy efficiency (EE) under time-varying channel conditions, subject to transmit power constraints, Lorentzian phase limitations, and minimum rate requirements. To enable long-term planning and improve sample efficiency compared with model-free reinforcement learning, we develop a world model framework that learns latent system dynamics from interactions with the environment and jointly optimizes digital beamforming and DMA element weights through imagined trajectories. Furthermore, we incorporate feasibility-preserving action mappings and safety cost signals to ensure constraint satisfaction during policy learning. Simulation results demonstrate that the proposed framework improves the time-averaged EE by approximately 20% compared with the deep Q-network baseline, while achieving higher sample efficiency and more reliable constraint satisfaction.",
+      "external_ids": [
+        "arxiv:2610.35813"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-27T13:57:05+08:00",
+      "last_seen_at": "2026-10-27T13:57:05+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.35805",
+      "arxiv_version": "v1",
+      "title": "The Impact of Flyby Interactions on the Rotation of Open Clusters",
+      "authors": [
+        "Kyle R. Tregoning",
+        "Jeff J. Andrews"
+      ],
+      "published": "2026-10-26",
+      "url": "https://arxiv.org/abs/2610.35805",
+      "abstract": "The Gaia astrometric mission has provided the first evidence for the bulk rotation of open clusters. While this rotation may arise from residual spin inherited from a cluster's parent molecular cloud, it is unclear whether this explanation always suffices, as angular momentum is carried away by escaping stars on the timescale of two-body relaxation. In particular, the recent observance of significant rotation ($v_{\\rm rot} = 0.81 \\pm 0.06$ km s$^{-1}$) in the dynamically old ($\\approx 4$ Gyr) open cluster M67 motivates a study of another potential source of spin for Solar neighborhood clusters: tidal torquing from gravitational encounters with passing giant molecular clouds (GMCs). We derive an analytic estimate for the change in angular momentum of a cluster due to an impulsive interaction with a passing GMC, and verify this expectation by performing $N$-body simulations over a range of encounter parameters using REBOUND. For highly energetic encounters, significant angular momentum can be transferred, but the stars that receive the most angular momentum are ejected, leaving the cluster remnant with negligible net rotation. Even when considering a random walk of many GMC-cluster encounters, the integrated effects of these interactions cannot explain observations of dynamically old rotating open clusters. However, we find that within $\\sim 5$ Myr post-encounter, some disrupted clusters could be confused as rotating clusters while their stars are still dispersing. Using the local density of GMCs, we estimate that up to $\\approx 1\\%$ of open clusters in the Milky Way may carry this faux-rotation signal.",
+      "external_ids": [
+        "arxiv:2610.35805"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "incremental potential contact",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-27T13:57:05+08:00",
+      "last_seen_at": "2026-10-27T13:57:05+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.35862",
+      "arxiv_version": "v1",
+      "title": "Learning Force-Reactive Humanoid Loco-Manipulation",
+      "authors": [
+        "Sihang Li",
+        "Xiaofeng Guo",
+        "Jinkun Cao",
+        "Charlie Cheng",
+        "Ruihan Yang",
+        "Chen Feng",
+        "Guanya Shi",
+        "Haozhi Qi"
+      ],
+      "published": "2026-10-26",
+      "url": "https://arxiv.org/abs/2610.35862",
+      "abstract": "Many everyday tasks require controlling contact force as well as motion. On a humanoid, this force must often be coordinated across both hands and the whole body, and cannot be specified by kinematic trajectories alone. Therefore, we present FLORE, a framework for learning force-reactive humanoid loco-manipulation. We collect robot-free demonstrations using two force-sensing UMI-style handheld grippers for hand motion and contact wrenches, and wearable trackers for body motion. A force-reactive diffusion policy takes vision, proprioception, and measured wrenches as input, then predicts actions and per-hand force commands. A hybrid compliance whole-body controller with force tracking executes these commands while maintaining balance: an integral of the force error measured by real force/torque (F/T) sensors lets each hand track force accurately along the commanded direction and remain compliant along the others. In simulation, the controller tracks per-hand force commands of varied magnitude and direction, with little loss in whole-body motion accuracy. Across three contact-rich tasks on the robot, the force-reactive policy succeeds in 80% of rollouts, compared with 26.7% for a position-only policy trained on the same demonstrations and executed by the same controller. For more details, please visit our website: https://louis-leee.github.io/FLoRe/.",
+      "external_ids": [
+        "arxiv:2610.35862"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-27T13:57:05+08:00",
+      "last_seen_at": "2026-10-27T13:57:05+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.35851",
+      "arxiv_version": "v1",
+      "title": "Nonprehensile Robotic Catching Using Virtual Constraints",
+      "authors": [
+        "Aakash Khandelwal",
+        "Ranjan Mukherjee"
+      ],
+      "published": "2026-10-26",
+      "url": "https://arxiv.org/abs/2610.35851",
+      "abstract": "The problem of nonprehensile robotic catching is addressed using virtual nonholonomic constraints (VNHCs); the motion of the robot end-effector is designed and controlled directly in terms of the states of the object before it is caught on the surface of the end-effector. In contrast to contemporary approaches, our approach avoids the need for object trajectory prediction, and consequent time-varying robot trajectory generation. With a focus on the planar case, we demonstrate that our VNHC approach can be used to catch an object on an end-effector at a desired height, with minimal relative normal velocity at the contact instant. Moreover, the VNHC function depends only on the desired catching height, and the same VNHC can be used for a range of initial conditions. We use model predictive control (MPC) to bring the object and end-effector to rest at a desired location after contact is made. The approach is validated in simulation.",
+      "external_ids": [
+        "arxiv:2610.35851"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-27T13:57:05+08:00",
+      "last_seen_at": "2026-10-27T13:57:05+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.35832",
+      "arxiv_version": "v1",
+      "title": "Profiling a Frontier Agent with EBench: From Direct Control to Harness with Policy",
+      "authors": [
+        "Yifei Yao",
+        "Yude Zou",
+        "Guanbo Jiao",
+        "Xing Gao",
+        "Ning Gao",
+        "Yukai Wang",
+        "Jiantong Chen",
+        "Zihou Zhu",
+        "Xinyu Li",
+        "Ningyu Yan",
+        "Shuai Wang",
+        "Jianming Ma",
+        "Haoyu Guo",
+        "Weinan Zhang",
+        "Chunhua Shen"
+      ],
+      "published": "2026-10-26",
+      "url": "https://arxiv.org/abs/2610.35832",
+      "abstract": "Frontier multimodal large language models (MLLMs) can control robots without robot-specific training, but how their capabilities compare and interact with post-trained vision-language-action (VLA) and world action model (WAM) policies across manipulation demands remains to be thoroughly evaluated. In this report, we evaluate GPT-6-Astra on EBench as the core of an agent that controls a robot through an agent harness under the same visual and proprioceptive observation protocol as post-trained policies. We study two agent configurations: direct control, in which the agent generates waypoint commands directly, and harness with policy, in which it can also invoke a post-trained VLA or WAM policy for action execution. Under direct control, the agent achieves competitive overall performance relative to post-trained policies. It leads on short-horizon tasks and exhibits the least performance variation across generalization dimensions, whereas it underperforms post-trained policies on long-horizon tasks, tabletop manipulation, and high-precision contact-rich tasks. In the harness with policy, invoking a post-trained VLA or WAM combines the complementary strengths of both components, raising overall task success to the level of the strongest compared post-trained policies while substantially reducing token cost. However, performance remains below the per-task upper bound of the standalone components due to suboptimal policy invocation, fixed-instruction execution without subgoals, and grasp disruption when the agent resumes control. Overall, our study characterizes the capability boundary of a frontier MLLM agent and suggests directions for improving future agent harness design. Project page: https://internrobotics.github.io/EBench-Astra-Tech-Report/",
+      "external_ids": [
+        "arxiv:2610.35832"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-27T13:57:05+08:00",
+      "last_seen_at": "2026-10-27T13:57:05+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.35808",
+      "arxiv_version": "v1",
+      "title": "Operator limits of random matrices: Edge universality and sharp approximations",
+      "authors": [
+        "Hyung-Gil Kwak"
+      ],
+      "published": "2026-10-26",
+      "url": "https://arxiv.org/abs/2610.35808",
+      "abstract": "We establish operator universality at the spectral edge of general Wigner matrices by showing that their suitably rescaled Lanczos tridiagonalizations, constructed from deterministic initial vectors, converge to the stochastic Airy operator with Dirichlet boundary condition. The result requires control of the entire tridiagonal structure on the scale relevant to the limiting differential operator. The Lanczos coefficients for non-Gaussian Wigner matrices are strongly dependent. We analyze their fluctuations by combining multi-resolvent local laws with quantitative control of Krylov subspaces and a comparison of the resulting Jacobi coefficients with those of the Gaussian ensembles. This approach identifies the limiting Brownian potential directly from the original matrix entries, without invoking Dyson Brownian motion in the step of Green function comparison. The resolvent limit yields joint convergence of edge eigenvalues, embedded eigenfunctions, and spectral measures. For Gaussian, Laguerre and circular $β$-ensembles we construct sharp couplings to the stochastic Airy, Bessel and Sine operators, preserving the finite-matrix laws. For fixed $β> 0$, their squared Hilbert-Schmidt inverse errors have almost-sure orders $n^{-1/3}, n^{-1}$ and $n^{-1}$, respectively, with $a > 0$ in the hard-edge upper bound. We also identify the positive leading order coefficient for the circular ensemble, whose second derivative jumps at $β= 2$.",
+      "external_ids": [
+        "arxiv:2610.35808"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-27T13:57:05+08:00",
+      "last_seen_at": "2026-10-27T13:57:05+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.35800",
+      "arxiv_version": "v1",
+      "title": "An Ab Initio Quantum-Chemistry-Based Three-Temperature Approach for Non-Equilibrium Hypersonic Flows: Application to Homogeneous 0-D Chemical Systems",
+      "authors": [
+        "Aakanksha Notey",
+        "Sung Min Jo",
+        "Marco Panesi"
+      ],
+      "published": "2026-10-26",
+      "url": "https://arxiv.org/abs/2610.35800",
+      "abstract": "This work presents an ab initio quantum-chemistry-based one-bin, three-temperature (1-bin 3T) model for non-equilibrium thermochemistry of homogeneous chemical systems in their electronic ground state, derived using the multi-group maximum-entropy principle. The proposed framework captures both vibrational and rotational non-equilibrium effects, thereby enabling an accurate representation of thermochemical behavior in high-temperature gases. To account for departures from equilibrium dissociation, a non-equilibrium correction factor derived from ro-vibrational State-to-State (StS) analysis is incorporated into the population distribution. Because this correction is constructed from the quasi-steady-state (QSS) distribution, the resulting model is valid only for systems and conditions under which the QSS assumption holds. The proposed 1-bin 3T model is validated across a broad range of zero-dimensional test cases through comparisons with high-fidelity StS simulations and Direct Molecular Simulations (DMS). The results demonstrate excellent agreement between the reduced-order model and high-fidelity approaches for both dissociating and recombining environments. Overall, the 1-bin 3T model shows strong potential as an efficient and accurate framework for modeling non-equilibrium thermochemical behavior, while keeping computational costs orders of magnitude lower than the high fidelity ro-vibrational StS simulations.",
+      "external_ids": [
+        "arxiv:2610.35800"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-27T13:57:05+08:00",
+      "last_seen_at": "2026-10-27T13:57:05+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.35778",
+      "arxiv_version": "v1",
+      "title": "Quantum Field Theory on the Tangent Bundle",
+      "authors": [
+        "Joachim Herrmann"
+      ],
+      "published": "2026-10-26",
+      "url": "https://arxiv.org/abs/2610.35778",
+      "abstract": "We develop a quantum-field-theoretical framework on the tangent bundle in which gravitational and internal gauge structures are associated with different sectors of an affine tangent-fiber geometry. The translational sector supplies the coframe and its relation to teleparallel gravity. A reduced vertical spectral problem is based on the centrally extended Euclidean group \\(E^{c}(2)\\), motivated by projective representations of the stabilizer of a nonzero null vector. Twofold multiplicities of equivalent vertical representations in selected left-chiral sectors admit weak \\(SU(2)\\) actions, while an assumed threefold quark multiplicity admits a locally gauged color \\(SU(3)_c\\) symmetry. A proposed global quotient correlates the color center with vertical rotations on a threefold rotation cover. Together with the selected chiral spectrum and anomaly conditions, this construction reproduces the observed fractional quark charge assignments. We formulate matter and gauge-field quantization, BRST symmetry, and anomaly constraints. Under the stated projection assumptions, the color sector has the standard local QCD structure, including its one-loop beta function and asymptotic freedom. Additional gauge bosons and dark-matter states are proposed as hypothetical sectors. We also formulate a structural action for possible couplings between teleparallel torsion and additional Lorentz-sector potentials. The framework relates selected structures of particle physics and gravity within a common geometric setting; their further dynamical and phenomenological development remains open.",
+      "external_ids": [
+        "arxiv:2610.35778"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact",
+        "global illumination real-time",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-27T13:57:05+08:00",
+      "last_seen_at": "2026-10-27T13:57:05+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.35760",
+      "arxiv_version": "v1",
+      "title": "Endpoint gradient bounds for centered convex maximal operators and probability kernels",
+      "authors": [
+        "Zhouyu Long"
+      ],
+      "published": "2026-10-26",
+      "url": "https://arxiv.org/abs/2610.35760",
+      "abstract": "We establish the endpoint gradient estimate for centered homothetic maximal averages in every dimension $d\\ge2$ over each fixed convex body with $C^{1,θ}$ boundary, $0<θ\\le1$. In particular, the centered ball maximal operator satisfies the $W^{1,1}$ gradient bound in every dimension. Neither strict convexity nor a lower bound on the support gap is required. The geometric argument combines concentration in gradient values with nonhomogeneous calibrated rows and a summable radial correction. It extends the scalar refinement, direction-history construction and global assembly of the planar centered-disk proof of OpenAI. A separate transfer theorem gives sharp singular-derivative identities for bounded compact probability kernels once local BV output is known, and gradient continuity under an additional spatial-tail condition. Quantitative contact and translation estimates yield further profile and kernel examples. The estimates retain the fixed body's regularity data; the endpoint for arbitrary $C^1$ and nonsmooth convex bodies remains open here.",
+      "external_ids": [
+        "arxiv:2610.35760"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact",
+        "global illumination real-time",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-27T13:57:05+08:00",
+      "last_seen_at": "2026-10-27T13:57:05+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.35821",
+      "arxiv_version": "v1",
+      "title": "Recertifying decisions via e-closure: uniform improvements of conformal risk control and randomized e-BH",
+      "authors": [
+        "Tian Bai",
+        "Aaditya Ramdas"
+      ],
+      "published": "2026-10-26",
+      "url": "https://arxiv.org/abs/2610.35821",
+      "abstract": "Statistical procedures often control expected loss at a prescribed level while leaving part of their risk budget unused. Building on the e-value representation of risk-controlled decisions and the e-closure principle for multiple testing, we formulate recertification, a general paradigm for improving procedures by exploiting computable slack in their validity certificates. A valid procedure's losses normalized by their risk budgets form a state-indexed e-value collection; conversely, decisions whose normalized losses are bounded by this collection inherit its risk guarantees. Recertification uses distributional structure to quantify slack, enlarge the certifying e-values while preserving validity, and construct less conservative decisions. We develop two applications. For conformal risk control (CRC) with a known loss family, recertification redistributes unused risk budget among the held-out points of each hypothetical augmented sample. The resulting controller is valid under every finite exchangeable law and no more conservative than CRC on any calibration sample. For convex losses on an interval of actions, repeated recertification converges geometrically to an admissible controller. For false discovery rate control with arbitrarily dependent e-values, recertification exploits unused conditional budgets in randomized e-BH. It yields a closed-form randomized procedure whose rejection set contains that of randomized e-BH for every realization of the shared randomization and whose expected number of rejections is maximal subject to the same conditional budget constraints. Recertifying with the larger e-collection of closed e-BH gives a second closed-form procedure whose rejection set contains that of the first. Experiments on CIFAR-100 hierarchical classification and multiple testing simulations demonstrate improved budget utilization, informativeness and power over the baselines.",
+      "external_ids": [
+        "arxiv:2610.35821"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-27T13:57:05+08:00",
+      "last_seen_at": "2026-10-27T13:57:05+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.35817",
+      "arxiv_version": "v1",
+      "title": "Pretraining Knows What, Simulation Teaches How: Compositional Generalization in a Sim-Trained Robot Agent",
+      "authors": [
+        "Benjamin Pikus",
+        "Daniel Saunders",
+        "Mircea Mironenco",
+        "Salman Mohammadi",
+        "Mathew Mathew",
+        "Sirou Zhu",
+        "Divya Makkar",
+        "Xuhua Huang",
+        "Qinbo Li",
+        "Supreeth Narasimhaswamy",
+        "Siyuan Cen",
+        "Thomas Neff",
+        "Dejia Xu",
+        "Shyamal Buch"
+      ],
+      "published": "2026-10-26",
+      "url": "https://arxiv.org/abs/2610.35817",
+      "abstract": "A robot policy needs to understand what a task is asking for in a scene, and how to move the robot to accomplish that task. To achieve these two skills, we introduce Zero-real Agent Policy (ZAP), a recipe that teaches a small off-the-shelf vision-language model to control a robot via a simple tool harness. We use a pretrained 27B parameter model to bootstrap world understanding and reasoning, followed by supervised fine-tuning and GRPO on simple simulated tasks to teach it how to move the robot. Without any real-world robot data during training, ZAP reaches 96.7% success on real-world tasks, matching GPT-6 Astra in our harness and outperforming the MolmoAct2 VLA (33.3%), while running 3x faster and 17x cheaper than GPT-6 Astra. We demonstrate that ZAP also generalizes to completely new objects, goals, strategies, and language by seating a test tube in a rack (and choosing a different hole in the rack when prompted), handing a test tube between arms mid-air, drawing an X on a tic-tac-toe board, and playing chess. These goals and types of manipulation don't appear in our training data. Furthermore, ZAP also transfers to an unseen embodiment. On a single-arm Franka, ZAP reaches 55.9% on RoboLab-120, 4.9 percentage points ahead of the leading VLA/WAM baseline.",
+      "external_ids": [
+        "arxiv:2610.35817"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-27T13:57:05+08:00",
+      "last_seen_at": "2026-10-27T13:57:05+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.35802",
+      "arxiv_version": "v1",
+      "title": "Game theory of academic effort and hiring in the age of AI",
+      "authors": [
+        "Saptarshi Pal",
+        "Peter S. Park"
+      ],
+      "published": "2026-10-26",
+      "url": "https://arxiv.org/abs/2610.35802",
+      "abstract": "Many academic disciplines (in particular, mathematics and the theoretical sciences) face difficult questions about how to adapt their practices to the rise of highly capable artificial intelligence (AI). Before AI, a well-written research paper with a strong theoretical result acted as a reliable signal that its authors understood their field in depth. Now that AI is widely accessible, such signals have become cheaper to produce. As a result, they no longer reliably sort academics by their level of understanding. This has direct consequences for academic hiring. The age of AI raises a question for each side of the academic job market. Should an early-career researcher invest in a deep understanding of their field, or instead use AI to build a longer resume with many papers? Should a recruiter favor applicants with fewer papers who pass an interview aimed at probing understanding, or insist on both publication volume and a pass? In this paper, we develop a game-theoretic model of this two-sided dilemma. We classify all pure-strategy equilibria that can arise in this game and use learning simulations to identify the behaviors that populations of applicants and recruiters may learn to adopt. Our analysis provides a framework for reasoning about how academic hiring can adapt to AI and for evaluating practices that preserve the value of deep understanding.",
+      "external_ids": [
+        "arxiv:2610.35802"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-27T13:57:05+08:00",
+      "last_seen_at": "2026-10-27T13:57:05+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.35772",
+      "arxiv_version": "v1",
+      "title": "On the Nash equilibrium for a model of traffic flow",
+      "authors": [
+        "Alberto Bressan",
+        "Daniel Lee Harmon",
+        "Elio Marconi"
+      ],
+      "published": "2026-10-26",
+      "url": "https://arxiv.org/abs/2610.35772",
+      "abstract": "The paper consider a conservation law model of traffic flow on a highway, where each driver chooses an optimal departure time $τ^d$, based on a departure cost $\\varphi(τ^d)$ and an arrival cost $ψ(τ^a)$. Nash equilibria are studied, where no driver can reduce his own cost by changing his departure time. The first results provide continuity estimates on the arrival time, depending on the distribution of departures. In terms of the ${\\bf L}^1$ distance, we show that the corresponding map is Hölder continuous with exponent $1/2$ in Lagrangian variables (labelling individual drivers), and Lipschitz continuous in Eulerian space variables. Concerning the regularity of the a Nash equilibrium, our results show that, when the total number of drivers is sufficiently large, a queue alway forms at the entrance of the highway and the corresponding traffic density contains a shock. Moreover, for any number of drivers (possibly small), we prove that for generic $\\mathcal C^2$ cost functions $\\varphi, ψ$ the Nash equilibrium solution still contains a shock. In the last section of the paper, assuming that the initial departure rate is not a Nash equilibrium, we consider an evolution equation for the departure rate, where each driver keeps changing his daily departure time in order to reduce his own cost. It is proved that this nonlocal integro-differential evolution equation admits a unique solution, globally in time. This provides some theoretical support to earlier numerical simulations, which indicated the dynamic instability of the Nash equilibrium and the possible existence of a chaotic attractor.",
+      "external_ids": [
+        "arxiv:2610.35772"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "global illumination real-time",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-27T13:57:05+08:00",
+      "last_seen_at": "2026-10-27T13:57:05+08:00"
+    },
     {
       "source": "arxiv",
       "arxiv_id": "2610.32979",
@@ -2140,7 +2629,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-21T13:44:43+08:00",
-      "last_seen_at": "2026-10-26T13:48:14+08:00"
+      "last_seen_at": "2026-10-27T13:57:05+08:00"
     },
     {
       "source": "semanticscholar",
@@ -2175,7 +2664,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-21T13:44:43+08:00",
-      "last_seen_at": "2026-10-26T13:48:14+08:00"
+      "last_seen_at": "2026-10-27T13:57:05+08:00"
     },
     {
       "source": "semanticscholar",
@@ -2203,7 +2692,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-21T13:44:43+08:00",
-      "last_seen_at": "2026-10-26T13:48:14+08:00"
+      "last_seen_at": "2026-10-27T13:57:05+08:00"
     },
     {
       "source": "semanticscholar",
@@ -2234,7 +2723,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-21T13:44:43+08:00",
-      "last_seen_at": "2026-10-26T13:48:14+08:00"
+      "last_seen_at": "2026-10-27T13:57:05+08:00"
     },
     {
       "source": "semanticscholar",
@@ -2267,7 +2756,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-21T13:44:43+08:00",
-      "last_seen_at": "2026-10-26T13:48:14+08:00"
+      "last_seen_at": "2026-10-27T13:57:05+08:00"
     },
     {
       "source": "semanticscholar",
@@ -2298,7 +2787,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-21T13:44:43+08:00",
-      "last_seen_at": "2026-10-26T13:48:14+08:00"
+      "last_seen_at": "2026-10-27T13:57:05+08:00"
     },
     {
       "source": "semanticscholar",
@@ -2328,7 +2817,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-21T13:44:43+08:00",
-      "last_seen_at": "2026-10-26T13:48:14+08:00"
+      "last_seen_at": "2026-10-27T13:57:05+08:00"
     },
     {
       "source": "arxiv",
@@ -5314,7 +5803,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-11T14:50:02+08:00",
-      "last_seen_at": "2026-10-26T13:48:14+08:00"
+      "last_seen_at": "2026-10-27T13:57:05+08:00"
     },
     {
       "source": "semanticscholar",
@@ -5345,7 +5834,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-11T14:50:02+08:00",
-      "last_seen_at": "2026-10-26T13:48:14+08:00"
+      "last_seen_at": "2026-10-27T13:57:05+08:00"
     },
     {
       "source": "arxiv",
@@ -8732,7 +9221,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-26T13:48:14+08:00"
+      "last_seen_at": "2026-10-27T13:57:05+08:00"
     },
     {
       "source": "arxiv",
@@ -8765,7 +9254,7 @@
       "doi": "10.48550/arXiv.2601.06451",
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-26T13:48:14+08:00"
+      "last_seen_at": "2026-10-27T13:57:05+08:00"
     },
     {
       "source": "semanticscholar",
@@ -8794,7 +9283,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-24T13:24:20+08:00"
+      "last_seen_at": "2026-10-27T13:57:05+08:00"
     },
     {
       "source": "semanticscholar",
@@ -8879,7 +9368,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-24T13:24:20+08:00"
+      "last_seen_at": "2026-10-27T13:57:05+08:00"
     },
     {
       "source": "semanticscholar",
@@ -8966,7 +9455,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-26T13:48:14+08:00"
+      "last_seen_at": "2026-10-27T13:57:05+08:00"
     },
     {
       "source": "semanticscholar",
@@ -8997,7 +9486,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-24T13:24:20+08:00"
+      "last_seen_at": "2026-10-27T13:57:05+08:00"
     },
     {
       "source": "arxiv",
@@ -9027,7 +9516,7 @@
       "doi": "10.1145/3731155",
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-26T13:48:14+08:00"
+      "last_seen_at": "2026-10-27T13:57:05+08:00"
     },
     {
       "source": "semanticscholar",
@@ -9081,7 +9570,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-26T13:48:14+08:00"
+      "last_seen_at": "2026-10-27T13:57:05+08:00"
     },
     {
       "source": "semanticscholar",
@@ -9111,7 +9600,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-24T13:24:20+08:00"
+      "last_seen_at": "2026-10-27T13:57:05+08:00"
     },
     {
       "source": "semanticscholar",
@@ -9139,7 +9628,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-24T13:24:20+08:00"
+      "last_seen_at": "2026-10-27T13:57:05+08:00"
     },
     {
       "source": "semanticscholar",
@@ -9165,7 +9654,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-24T13:24:20+08:00"
+      "last_seen_at": "2026-10-27T13:57:05+08:00"
     },
     {
       "source": "arxiv",
@@ -9195,7 +9684,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-26T13:48:14+08:00"
+      "last_seen_at": "2026-10-27T13:57:05+08:00"
     },
     {
       "source": "semanticscholar",
@@ -9228,7 +9717,7 @@
     }
   ],
   "last_run": {
-    "at": "2026-10-26T13:48:14+08:00",
+    "at": "2026-10-27T13:57:05+08:00",
     "sources": [
       "arxiv",
       "semanticscholar",
@@ -9244,9 +9733,9 @@
       "MLS-MPM",
       "projective dynamics cloth"
     ],
-    "fetched": 112,
-    "merged": 31,
-    "new": 16
+    "fetched": 122,
+    "merged": 38,
+    "new": 17
   },
   "topic": "game technology: physics simulation, real-time rendering, global illumination",
   "schema_version": 1
