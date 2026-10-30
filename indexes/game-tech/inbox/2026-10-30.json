@@ -1,0 +1,450 @@
+{
+  "date": "2026-10-30",
+  "run": {
+    "at": "2026-10-30T14:47:00+08:00",
+    "sources": [
+      "arxiv",
+      "semanticscholar",
+      "dblp"
+    ],
+    "keywords": [
+      "material point method cloth",
+      "\"position based\" dynamics cloth",
+      "incremental potential contact",
+      "real-time fluid simulation graphics",
+      "global illumination real-time",
+      "ray tracing global illumination",
+      "MLS-MPM",
+      "projective dynamics cloth"
+    ],
+    "fetched": 122,
+    "merged": 41,
+    "new": 15
+  },
+  "new_candidates": [
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.40657",
+      "arxiv_version": "v1",
+      "title": "Variational wavefunctions for ideal anyon gas: superfluid and skyrmion Hall crystal",
+      "authors": [
+        "Ya-Hui Zhang"
+      ],
+      "published": "2026-10-29",
+      "url": "https://arxiv.org/abs/2610.40657",
+      "abstract": "The ground state of an ideal gas of anyons with statistical angle $θ\\in(0,π)$ is a long-standing open problem, with renewed interest from the recent observations of fractional Chern insulators. In this work we construct variational wavefunctions that build in the exact anyon statistics and combine theory-guided composite-boson, composite-fermion and parton wavefunctions with neural-network correlations on the sphere. For spinless and SU(2) semions we confirm the paired anyon superfluid, well below the best crystal states. At $θ=π/3$ liquids and crystals are closer in energy for the spinless case. For $θ=π/3$ anyons with SU(3) flavor, we find two candidates. One is a skyrmion Hall crystal, in which the anyons form an integer quantum Hall state in the effective magnetic field from the spin texture. The other is a chiral color superconductor of six-anyon clusters, the color-flavor-locked pairing descendant of a holon metal with SU(3) color gauge symmetry and SU(3) flavor symmetry; its wavefunction is a hyperdeterminant rather than a product of parton determinants. Within our variational ansatz the color superconductor has better energy than both crystals and the color-flavor locked phases with U(1)$^2$ and Z$_3$ gauge groups. For twisted MoTe$_2$ this suggests that the reentrant integer quantum anomalous Hall phase is the skyrmion Hall crystal of the doped anyons, and that the observed superconductivity may be the color superconductor, which can undergo a transition to an $f+if$ BCS superconductor with a jump of the chiral central charge by 3.",
+      "external_ids": [
+        "arxiv:2610.40657"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-30T14:47:00+08:00",
+      "last_seen_at": "2026-10-30T14:47:00+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.40649",
+      "arxiv_version": "v1",
+      "title": "Rethinking Neural Thickets Without Weight Perturbations",
+      "authors": [
+        "Nicolas Dufour",
+        "Elouan Gardès",
+        "Amil Dravid",
+        "Patrick Pérez",
+        "Loic Landrieu"
+      ],
+      "published": "2026-10-29",
+      "url": "https://arxiv.org/abs/2610.40649",
+      "abstract": "The Neural Thickets hypothesis posits that pretrained language models lie in dense neighborhoods of task-specific experts in weight space, which random Gaussian perturbations can uncover. We reproduce the reported gains, but show that they do not require this geometric explanation. Perturbing a single decoder block already recovers much of the improvement, while keeping the model entirely frozen and adding a random bias to its output logits matches or exceeds full-weight perturbations on most reasoning tasks. This suggests an alternative explanation based on output diversity, validation-based selection, and voting. We formalize this view as Perturb-Select-Vote (PSV), a general procedure that generates perturbed predictors, selects high-performing members on a small validation set, and aggregates their predictions. This interpretation connects Neural Thickets to established inference-time methods, including sampling, self-consistency, and verifier-guided selection. A first-order analysis further shows that small weight perturbations act primarily through their induced logit shifts. We extend this analysis to vision, where logit PSV substantially improves performance under domain shift, including on Earth observation, while full-weight perturbations provide little additional benefit. Together, these results suggest that the gains attributed to nearby weight-space experts can instead be obtained through output diversity, selection, and voting. Logit PSV realizes these benefits with a fully frozen model, providing a simple, training-free alternative to full-weight perturbation ensembles across language and vision.",
+      "external_ids": [
+        "arxiv:2610.40649"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-30T14:47:00+08:00",
+      "last_seen_at": "2026-10-30T14:47:00+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.40646",
+      "arxiv_version": "v1",
+      "title": "SwapBot: Tool-Centric Robot Manipulation via Interchangeable End-Effectors and Tactile Sensing",
+      "authors": [
+        "Yunchu Zhang",
+        "Ray Song",
+        "Junhan Jiao",
+        "Liyiming Ke",
+        "Yuchen Yang",
+        "Ruihan Gao",
+        "Emma Romig",
+        "Siddhartha Srinivasa",
+        "Yiyue Luo"
+      ],
+      "published": "2026-10-29",
+      "url": "https://arxiv.org/abs/2610.40646",
+      "abstract": "Robot manipulation in everyday environments inherently involves substantial tool usage. Seemingly simple household tasks, such as cooking pan-fried tofu, require forceful cutting, delicate brushing, and precise placement using different tools under contact-rich interaction. Thus, the ability to autonomously swap and use task-appropriate tools is important for tool-centric manipulation. We introduce SwapBot, a modular, tool-centric end effector system featuring low-cost adapters that quickly convert common household tools into robot end effectors. Rather than pursuing a single universal gripper, SwapBot adopts a unified design principle that combines a fixed robot-side coupling interface with low-cost, tool-side adapters, enabling compatibility with diverse tools, including articulated ones, and multiple robot platforms. Each adapter integrates compact tactile sensors, supports fast autonomous swapping, and interfaces with an intuitive teleoperation system for efficient demonstration collection. User studies show that, during teleoperation, SwapBot reduces task completion time and operator workload. Using collected demonstrations on the robot, we train imitation learning policies to successfully perform tool-centric tasks like cooking tofu, stirring salad, flipping meat. Our ablation study shows that using tactile-augmented demonstrations improves policy performance across contact-rich skills, increasing success rates by 15 to 25 percentage points over RGB-only policies. These results highlight modular, tactile-equipped tools as a practical and extensible pathway toward robust and capable robot manipulation. Project website https://personalrobotics.github.io/SwapBot.",
+      "external_ids": [
+        "arxiv:2610.40646"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "incremental potential contact",
+        "ray tracing global illumination",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-30T14:47:00+08:00",
+      "last_seen_at": "2026-10-30T14:47:00+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.40613",
+      "arxiv_version": "v1",
+      "title": "TextSeal2: Distortion-Free LLM Watermarking with Copula Mixing and Memoryless Races",
+      "authors": [
+        "Tom Sander",
+        "Pierre Fernandez",
+        "Itai Gat",
+        "Haiming Bao",
+        "Jiaxin Shi",
+        "Jason Park",
+        "Valeriu Lacatusu",
+        "Sylvestre-Alvise Rebuffi",
+        "Hongyan Chang",
+        "Hady Elsahar",
+        "Tomáš Souček",
+        "Tuan Tran",
+        "Surya Parimi",
+        "Alexandre Mourachko"
+      ],
+      "published": "2026-10-29",
+      "url": "https://arxiv.org/abs/2610.40613",
+      "abstract": "We present TextSeal2, a distortion-free watermark for large language models that keeps its signal under speculative decoding: tokens that replace rejected drafts remain watermarked with the same keys, and the acceptance rate is unchanged. It also preserves output diversity and adds no measurable inference latency. Its predecessor, TextSeal, restores diversity in the Gumbel-max scheme by routing each token to one of two keys via a coin flip. This is suboptimal because the detector averages the scores from both keys without knowing which key was used. TextSeal2 instead merges two or more keys into a single virtual key and couples it to fresh noise through AutoMark's Gaussian copula. Any number of keys, including publicly shared keys, can be merged this way without diluting detection. Under speculative decoding, TextSeal2 verifies keyed drafts with one more exponential race, run on the leftovers of the draft races. By memorylessness, this race reproduces block verification, so the output follows the target model exactly. We evaluate TextSeal2 on three LLMs. At equal output token diversity, TextSeal2 detects 8 to 22 percentage points more 100-token answers than TextSeal at a false-positive rate of $10^{-3}$, and is comparable to textGrain while requiring no post-logits optimization. Under speculative decoding, it detects 18 and 22 percentage points more 200-token answers than TextSeal and textGrain, respectively, at the same acceptance rate.",
+      "external_ids": [
+        "arxiv:2610.40613"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-30T14:47:00+08:00",
+      "last_seen_at": "2026-10-30T14:47:00+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.40612",
+      "arxiv_version": "v1",
+      "title": "Exceptional Points as Witnesses of Non-Gaussian Noise",
+      "authors": [
+        "Aritra Ghosh",
+        "Subhashish Banerjee",
+        "M. Bhattacharya"
+      ],
+      "published": "2026-10-29",
+      "url": "https://arxiv.org/abs/2610.40612",
+      "abstract": "Efficient control of quantum devices requires the knowledge of their environmental noise, yet the commonly measured power spectrum does not fully characterize non-Gaussian fluctuations of realistic environments. Here we show that exceptional points (EPs) in the noise-averaged dephasing response can expose observable signatures of non-Gaussian statistics, distinguishing environments with identical lower-order statistics. We also introduce a theoretical model that describes dephasing environments in terms of identical independent noise sources while preserving the power spectrum. Given a calibrated single-source model, the largest EP order extracted from the measured dephasing response determines the number of sources and predicts the higher-order statistics of the combined noise. We illustrate an atomtronic readout that maps distinct EP signatures onto an evolving ensemble-averaged atomic interference pattern. Our results connect non-Hermitian dynamics to environmental noise statistics, providing a route to characterize noise in quantum devices used in computing, metrology, and precision measurement.",
+      "external_ids": [
+        "arxiv:2610.40612"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "\"position based\" dynamics cloth",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-30T14:47:00+08:00",
+      "last_seen_at": "2026-10-30T14:47:00+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.40581",
+      "arxiv_version": "v1",
+      "title": "Odd Elasticity in Strain-Gradient Continua: Anisotropy Classification and Non-Hermitian Elastodynamics",
+      "authors": [
+        "Payam Poorsolhjouy"
+      ],
+      "published": "2026-10-29",
+      "url": "https://arxiv.org/abs/2610.40581",
+      "abstract": "Odd elasticity extends continuum mechanics to active nonconservative systems containing internal energy sources, such as robotic active metamaterials with nonreciprocal feedback. Modeling these systems as effective continua requires relaxing Maxwell-Betti reciprocity, which results in stiffness tensors lacking major symmetry. In this contribution, we extend this framework to 3D strain-gradient odd elasticity to incorporate the length scales inherent in these heterogeneous systems. By applying the full hierarchy of 3D point-group symmetries along chiral and achiral branches, we derive the exhaustive set of fourth-, fifth-, and sixth-order odd elastic stiffness tensors. Further, utilizing the dynamic principle of virtual work, we formulate the equilibrium equations, higher-order boundary conditions, and the generalized acoustic tensor for elastodynamic analysis. The results demonstrate that nonreciprocal moduli survive even under full isotropy in the sixth-order stiffness, under hemitropy in the fifth-order stiffness, and under cubic symmetry in fourth-order stiffness. In contrast, the elastodynamic analysis reveals that under isotropic and hemitropic limits, despite the underlying odd stiffness moduli, the acoustic tensor remains unconditionally Hermitian. Non-Hermitian elastodynamics is shown to require anisotropy. By numerically analyzing a transversely hemitropic odd elastic continuum, we demonstrate that this symmetry reduction results in non-Hermitian elastodynamic phenomena including exceptional points in the dispersion spectra and active energy exchange through simultaneous amplification and attenuation of the elastic wave components. These results provide the necessary theoretical foundation for future multiscale homogenization frameworks for anisotropic strain-gradient active microstructures, and for the design of nonreciprocal strain-gradient metamaterials.",
+      "external_ids": [
+        "arxiv:2610.40581"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-30T14:47:00+08:00",
+      "last_seen_at": "2026-10-30T14:47:00+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.40617",
+      "arxiv_version": "v1",
+      "title": "Field-level inference under pressure: the information content of the thermal Sunyaev-Zel'dovich field",
+      "authors": [
+        "Carmen Embil Villagra",
+        "Adrian E. Bayer",
+        "William R. Coulton",
+        "Alina Sabyr",
+        "Francisco Villaescusa-Navarro",
+        "Blake D. Sherwin",
+        "Anthony Challinor",
+        "J. Colin Hill",
+        "Nicholas Battaglia"
+      ],
+      "published": "2026-10-29",
+      "url": "https://arxiv.org/abs/2610.40617",
+      "abstract": "The thermal Sunyaev--Zel'dovich (tSZ) field is highly non-Gaussian and contains cosmological information that cannot be fully captured by its angular power spectrum. In this work, we investigate the information content of this field using a convolutional neural network (CNN), and compare to simple and interpretable summary statistics, in a simulation-based inference (SBI) framework. We perform the first field-level analysis of the tSZ field, using a suite of $10{,}000$ simulated Compton-$y$ maps, where we jointly vary the cosmological parameters $Ω_c$ and $σ_8$ (the density fraction for cold dark matter and the matter clustering amplitude, respectively) and two parameters describing the amplitude and shape of the electron pressure profile, $P_0$ and $β$, that aim to capture astrophysical uncertainties. We consider both noiseless simulations and simulations including realistic Simons Observatory (SO) noise after component separation. We use SBI to compare the constraints obtained from the CNN with those from the three Minkowski functionals (MFs), individually and in combination, as well as the angular power spectrum. This is the first application of SBI to the MFs of the tSZ field. We find that the CNN provides tighter constraints than conventional summary statistics in the noiseless case. However, at SO-like noise levels, the combination of MFs and the power spectrum recovers constraints comparable to those obtained with the CNN. Our results highlight the potential of these interpretable summary statistics, as well as field-level inference, for extracting information from the tSZ field, motivating efforts toward their application to real data.",
+      "external_ids": [
+        "arxiv:2610.40617"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-30T14:47:00+08:00",
+      "last_seen_at": "2026-10-30T14:47:00+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.40604",
+      "arxiv_version": "v1",
+      "title": "Some remarks on robust features of surfaces in 4-space",
+      "authors": [
+        "Jorge Luiz Deolindo-Silva"
+      ],
+      "published": "2026-10-29",
+      "url": "https://arxiv.org/abs/2610.40604",
+      "abstract": "We study robust features of smooth surfaces in 4-space associated with contact with lines and hyperplanes. We investigate the local and multi-local singularities of orthogonal projections and height functions that describe these contacts and their corresponding geometric loci on the surface. At an $A_4$-singularity of a height function, we show that the $A_3$-curve and the $A_1A_2$-curve are generically tangent with contact of order $2$. We further establish criteria for the versality of the families of height functions and orthogonal projections in terms of the regularity of the $B_2$-curve and $S_2$-curve, respectively. Finally, we obtain the $[A_2]$- and $(A_0S_0)_2$-curves arising from multi-local singularities of orthogonal projections and describe their tangency properties at the $B_3$- and $H_3$-singularities.",
+      "external_ids": [
+        "arxiv:2610.40604"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-30T14:47:00+08:00",
+      "last_seen_at": "2026-10-30T14:47:00+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.40563",
+      "arxiv_version": "v1",
+      "title": "Comparing Human Role-Players and LLM-Simulated Clients in Online Counselling Training: An Analysis of Counselling Patterns",
+      "authors": [
+        "Eric Rudolph",
+        "Philipp Steigerwald",
+        "Jens Albrecht"
+      ],
+      "published": "2026-10-29",
+      "url": "https://arxiv.org/abs/2610.40563",
+      "abstract": "This study investigates the capabilities of Large Language Models to simulate counselling clients in educational role-plays in comparison to human role-players. Initially, we recorded role-playing sessions, where novice counsellors interacted with human peers acting as clients, followed by role-plays between humans and clients simulated by Mistrals Mixtral 8x7b using 4-bit quantization. These interactions were analysed with a counselling communication pattern system at sentence level. We investigated two key questions: (1) to what extent LLM-generated responses replicate authentic conversational dynamics and (2) whether counsellors' communication behaviour differs when interacting with human versus LLM-simulated clients. The findings highlight both similarities and differences in the application of counselling patterns across scenarios, showing the potential of LLM-based role-playing exercises to enhance counselling competencies and to identify areas for further refinement in virtual client simulations.",
+      "external_ids": [
+        "arxiv:2610.40563"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-30T14:47:00+08:00",
+      "last_seen_at": "2026-10-30T14:47:00+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.40537",
+      "arxiv_version": "v1",
+      "title": "DAWN: Diffusion-based Alignment and unfastening Workflow Network",
+      "authors": [
+        "Hemant Kumar",
+        "Piyush Goenka",
+        "Nikhil Chopra"
+      ],
+      "published": "2026-10-29",
+      "url": "https://arxiv.org/abs/2610.40537",
+      "abstract": "We present DAWN (Diffusion-based Alignment and unfastening Workflow Network), a hierarchical robotic framework designed to perform real-world, unfastening tasks through multi-modal sensory integration. Autonomous robotic unfastening is crucial for improving recycling processes, enhancing safety, and reducing operational costs; yet, it remains predominantly manual due to inherent challenges in precise screwdriver engagement with fasteners, detailed force execution, and robustness to environmental variability. To address the complexity of learning long-horizon, contact-rich manipulation tasks, we subdivide the unfastening task procedure into two sequential stages: (1) alignment & insertion, and (2) unfastening. DAWN consists of three key components: AlignNet, a diffusion-based policy ensuring precise screwdriver tip engagement; LatchNet, a multi-modal classifier reliably detecting successful stage transitions; and UnfastNet, which achieves stable, force-controlled screw removal. Experimental validation on a Franka Emika robot demonstrates that DAWN achieves alignment & insertion success rates comparable to trained human operators, robustly transitions between stages, and attains an impressive success rate in unfastening across various unseen scenarios. Ablation studies further elucidate critical input modalities and effective training strategies, highlighting DAWN's scalability, robustness, and data efficiency.",
+      "external_ids": [
+        "arxiv:2610.40537"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-30T14:47:00+08:00",
+      "last_seen_at": "2026-10-30T14:47:00+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.40634",
+      "arxiv_version": "v1",
+      "title": "Hyaluronic acid over-expression drives tissue architecture in both healthy and diseased states",
+      "authors": [
+        "Kyungeun Kim",
+        "Brittany E. Schutrum",
+        "Claudia Fischbach",
+        "J. M. Schwarz"
+      ],
+      "published": "2026-10-29",
+      "url": "https://arxiv.org/abs/2610.40634",
+      "abstract": "Tissue architecture is shaped by a variety of biomechanical and biochemical mechanisms, including morphogen patterning, differential growth, and spatial variations in cellular contractility. These mechanisms typically emphasize forces generated within cells. Here, we explore a complementary mechanism in which intercellular space itself exerts forces that shape tissue architecture. More specifically, we focus on hyaluronic acid (HA), a glycosaminoglycan of the extracellular matrix, that draws fluid into the spaces between cells through osmotic pressure, allowing these spaces to expand and mechanically deform the surrounding tissue. We propose that spatial patterning of HA-mediated extracellular forces, acting together with tissue geometry and junctional mechanics, provides a common physical framework capable of generating distinct tissue architectures. We test this hypothesis using a computational framework coupling a cell-based extended vertex model for biological tissues to a flow network representing HA and extracellular fluid in the extracellular space. This coupled model demonstrates a range of architectural responses spanning changes in tissue topology and morphology: global HA overexpression drives fluid accumulation and cell-cell junction rupture to produce multiple lumens in nontrivial patterns; a localized HA-rich region generates pressure gradients that drive budding; {\\it multiple localized HA-rich regions generate branching;} and {\\it extended HA-rich patterns can drive tubular structures.} Our results have direct experimental implications and establish the spatial patterning of HA-mediated intercellular forces as a mechanical morphogen helping shape tissue architecture.",
+      "external_ids": [
+        "arxiv:2610.40634"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics",
+        "global illumination real-time",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-30T14:47:00+08:00",
+      "last_seen_at": "2026-10-30T14:47:00+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.40614",
+      "arxiv_version": "v1",
+      "title": "L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory",
+      "authors": [
+        "Jinhyeok Choi",
+        "JoungBin Lee",
+        "Jongmin Lee",
+        "Minkyeong Jeon",
+        "Jiyoung Kim",
+        "Kaeun Han",
+        "Yoonjin Yoon",
+        "Seungryong Kim"
+      ],
+      "published": "2026-10-29",
+      "url": "https://arxiv.org/abs/2610.40614",
+      "abstract": "Interactive world models generate visual content conditioned on user actions, yet maintaining spatial consistency over long-horizon exploration in real time remains challenging. Existing approaches rely on either temporal context or explicit 3D memory, both of which scale poorly because memory grows with the length of the generated stream. Moreover, explicit 3D memories condition latent video generators by re-encoding RGB renderings, which precludes real-time generation. In this paper, we introduce a Latent 3D Gaussian Memory (L3G) that combines the efficiency of feed-forward reconstruction with a compact, rapidly renderable scene representation. Building on this memory, we propose L3G-World, in which a memory updater and a video diffusion transformer (DiT) alternate autoregressively to generate spatially consistent worlds. The memory updater spawns Gaussians in newly observed regions and refines existing ones, so that the memory grows with scene extent rather than stream length. Each Gaussian further stores a VAE latent feature, allowing the memory to be rendered directly into the DiT's latent space without VAE re-encoding. Experiments show that L3G-World achieves state-of-the-art generation quality and long-horizon spatial consistency, with up to $38.6\\times$ fewer 3D primitives, $3.2\\times$ faster memory updates, and $359\\times$ faster memory rendering relative to the most efficient prior 3D-memory baseline for each metric, enabling real-time world generation at 9 FPS.",
+      "external_ids": [
+        "arxiv:2610.40614"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics",
+        "global illumination real-time"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-30T14:47:00+08:00",
+      "last_seen_at": "2026-10-30T14:47:00+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.40567",
+      "arxiv_version": "v1",
+      "title": "Algebraic strong-to-weak symmetry breaking and partial decodability in the surface code",
+      "authors": [
+        "Stephen W. Yan",
+        "Yimu Bao",
+        "Sagar Vijay"
+      ],
+      "published": "2026-10-29",
+      "url": "https://arxiv.org/abs/2610.40567",
+      "abstract": "Coherent noise can give rise to unconventional regimes of quantum information recovery and mixed-state order. We study these phenomena in two settings related by Wegner duality: the triangular-lattice surface code subject to single-qubit Pauli-$Z$ rotations followed by syndrome measurements, and a $\\mathbb{Z}_2$ paramagnet subject to strongly symmetric decoherence. Increasing the rotation angle drives a transition from a decodable phase to a \\emph{partially decodable} critical phase in the code, and from a strongly symmetric phase to a phase with \\emph{algebraic} $\\mathbb{Z}_2$ strong-to-weak spontaneous symmetry breaking (SWSSB) in the dual paramagnet. We develop a common description of these phenomena in terms of a weakly coupled $\\mathrm{SO}(n)$ nonlinear sigma model in the replica limit $n\\to1$. Taking this replica limit analytically, we derive universal signatures of the critical phase: an optimal Pauli decoding fidelity that approaches a universal function of the system's aspect ratio in the thermodynamic limit, and a dual fidelity correlator that decays as a universal power law. These observables relate to correlations of twist operators in the sigma model description. Large-scale numerical simulations confirm these analytical predictions. We also argue that the algebraic SWSSB phase cannot be realized by any Pauli dephasing channel acting on the $\\mathbb{Z}_{2}$ paramagnet. We probe this \"non-classical\" character through the output state's sensitivity to well-separated $\\mathbb{Z}_{2}$ fluxes inserted in the initial state, which reveals persistent coherence between distinct $\\mathbb{Z}_{2}$ charge trajectories at long distances.",
+      "external_ids": [
+        "arxiv:2610.40567"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-30T14:47:00+08:00",
+      "last_seen_at": "2026-10-30T14:47:00+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.40565",
+      "arxiv_version": "v1",
+      "title": "Gym-Anything for Robotics: Scaling physical simulations with digital agents",
+      "authors": [
+        "Pranjal Aggarwal",
+        "Sean Welleck"
+      ],
+      "published": "2026-10-29",
+      "url": "https://arxiv.org/abs/2610.40565",
+      "abstract": "Realistic, fast robotics simulations could enable large-scale training of embodied AI models that transfer to the real world. However, despite decades of progress, available simulations cover only a narrow range of real-world tasks and physical phenomena. The core bottleneck is that creating better simulations requires significant expert effort and therefore does not scale. To address this, we introduce Gym-Anything for Robotics, a framework in which coding agents create realistic robotics simulations. Our core insight is that simulation creation is a coding agent task, so improvements in coding agents translate directly into richer and more faithful simulations. We select simulations based on U.S. GDP data to cover economically valuable physical work, define what makes a good simulation and a good task, and develop an adversarial creation-audit loop that checks each simulation and task against these definitions. Using this pipeline, we build RoboWorld, a set of 25 simulations with 25 test and 175 training RL environments of varying difficulty. Even the best frontier models fail on every RoboWorld test task, achieving an average reward of only 0.06. Building on RoboWorld, we introduce several new ways for frontier models to improve, including in-context learning across repeated attempts, a privileged teacher that reads the simulator state and teaches a student in context, self-assisted learning from the model's own privileged experience, and code policies that generate demonstrations across varied scenes to train vision-language-action models (VLAs) such as $π_{0.5}$. Each of these substantially improves performance. We release our pipeline, RL environments, and benchmark to facilitate future research. Code and data are available at https://gym-anything.github.io/robotics",
+      "external_ids": [
+        "arxiv:2610.40565"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-30T14:47:00+08:00",
+      "last_seen_at": "2026-10-30T14:47:00+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.40558",
+      "arxiv_version": "v1",
+      "title": "Power Adjusting Games Under Block-Dependent Pool Payout Schemes",
+      "authors": [
+        "Mustafa Doger",
+        "Sennur Ulukus"
+      ],
+      "published": "2026-10-29",
+      "url": "https://arxiv.org/abs/2610.40558",
+      "abstract": "Advanced power adjusting block withholding attacks such as PAW and T-PAW have been analyzed so far under a global-reset version of the proportional scheme (GRP), which is rarely used in practice. In this paper, we analyze T-PAW, which contains FAW and PAW as special cases, under the block-dependent payout schemes deployed in practice: Pay-Per-Last-N-Shares (PPLNS), round-based Proportional (PROP) and exponential-decay (EXP). We derive the revenue ratios analytically, by renewal arguments for PPLNS and through the stationary carry process of an open round for PROP and EXP. We further introduce Power Adjusting Hopping (PAH), where an adversary of any size adjusts its power allocation towards the pool according to the blockwork age of the round without withholding any block, and derive its revenue ratios under PROP and EXP. We show that GRP misestimates the T-PAW gain in a scheme-dependent direction: it overstates the gain under PROP up to an order of magnitude and understates it under EXP for the original slush decay rate. PROP is highly vulnerable to PAH, while EXP faces a trade-off: a slow decay invites PAH and a fast decay invites T-PAW. PPLNS is the least vulnerable scheme: it is immune to PAH and it mitigates, but does not eliminate, T-PAW. All analytical results are verified by Monte Carlo simulations.",
+      "external_ids": [
+        "arxiv:2610.40558"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "global illumination real-time"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-30T14:47:00+08:00",
+      "last_seen_at": "2026-10-30T14:47:00+08:00"
+    }
+  ]
+}
