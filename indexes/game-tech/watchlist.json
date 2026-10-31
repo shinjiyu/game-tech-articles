@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-10-30T14:47:00+08:00",
+  "updated_at": "2026-10-31T14:39:07+08:00",
   "candidates": [
+    {
+      "source": "semanticscholar",
+      "arxiv_id": "",
+      "doi": "10.37789/icusi.2026.36",
+      "title": "A Stochastic Ray Tracing Solution for Perceptually Stable Real-Time Global Illumination",
+      "authors": [
+        "Paul Iordache",
+        "Constantin I. Nandra"
+      ],
+      "published": "2026",
+      "url": "https://www.semanticscholar.org/paper/8b835890bf34f9eb54ce5a7b1e0885a4f33266ea",
+      "abstract": "",
+      "external_ids": [
+        "s2:8b835890bf34f9eb54ce5a7b1e0885a4f33266ea",
+        "doi:10.37789/icusi.2026.36"
+      ],
+      "sources": [
+        "semanticscholar"
+      ],
+      "matched_keywords": [
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-10-31T14:39:07+08:00",
+      "last_seen_at": "2026-10-31T14:39:07+08:00"
+    },
     {
       "source": "arxiv",
       "arxiv_id": "2610.40657",
@@ -23,7 +49,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-30T14:47:00+08:00",
-      "last_seen_at": "2026-10-30T14:47:00+08:00"
+      "last_seen_at": "2026-10-31T14:39:07+08:00"
     },
     {
       "source": "arxiv",
@@ -51,7 +77,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-30T14:47:00+08:00",
-      "last_seen_at": "2026-10-30T14:47:00+08:00"
+      "last_seen_at": "2026-10-31T14:39:07+08:00"
     },
     {
       "source": "arxiv",
@@ -86,7 +112,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-30T14:47:00+08:00",
-      "last_seen_at": "2026-10-30T14:47:00+08:00"
+      "last_seen_at": "2026-10-31T14:39:07+08:00"
     },
     {
       "source": "arxiv",
@@ -123,7 +149,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-30T14:47:00+08:00",
-      "last_seen_at": "2026-10-30T14:47:00+08:00"
+      "last_seen_at": "2026-10-31T14:39:07+08:00"
     },
     {
       "source": "arxiv",
@@ -151,7 +177,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-30T14:47:00+08:00",
-      "last_seen_at": "2026-10-30T14:47:00+08:00"
+      "last_seen_at": "2026-10-31T14:39:07+08:00"
     },
     {
       "source": "arxiv",
@@ -175,7 +201,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-30T14:47:00+08:00",
-      "last_seen_at": "2026-10-30T14:47:00+08:00"
+      "last_seen_at": "2026-10-31T14:39:07+08:00"
     },
     {
       "source": "arxiv",
@@ -208,7 +234,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-30T14:47:00+08:00",
-      "last_seen_at": "2026-10-30T14:47:00+08:00"
+      "last_seen_at": "2026-10-31T14:39:07+08:00"
     },
     {
       "source": "arxiv",
@@ -233,7 +259,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-30T14:47:00+08:00",
-      "last_seen_at": "2026-10-30T14:47:00+08:00"
+      "last_seen_at": "2026-10-31T14:39:07+08:00"
     },
     {
       "source": "arxiv",
@@ -260,7 +286,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-30T14:47:00+08:00",
-      "last_seen_at": "2026-10-30T14:47:00+08:00"
+      "last_seen_at": "2026-10-31T14:39:07+08:00"
     },
     {
       "source": "arxiv",
@@ -286,7 +312,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-30T14:47:00+08:00",
-      "last_seen_at": "2026-10-30T14:47:00+08:00"
+      "last_seen_at": "2026-10-31T14:39:07+08:00"
     },
     {
       "source": "arxiv",
@@ -315,7 +341,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-30T14:47:00+08:00",
-      "last_seen_at": "2026-10-30T14:47:00+08:00"
+      "last_seen_at": "2026-10-31T14:39:07+08:00"
     },
     {
       "source": "arxiv",
@@ -347,7 +373,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-30T14:47:00+08:00",
-      "last_seen_at": "2026-10-30T14:47:00+08:00"
+      "last_seen_at": "2026-10-31T14:39:07+08:00"
     },
     {
       "source": "arxiv",
@@ -373,7 +399,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-30T14:47:00+08:00",
-      "last_seen_at": "2026-10-30T14:47:00+08:00"
+      "last_seen_at": "2026-10-31T14:39:07+08:00"
     },
     {
       "source": "arxiv",
@@ -398,7 +424,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-30T14:47:00+08:00",
-      "last_seen_at": "2026-10-30T14:47:00+08:00"
+      "last_seen_at": "2026-10-31T14:39:07+08:00"
     },
     {
       "source": "arxiv",
@@ -423,7 +449,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-30T14:47:00+08:00",
-      "last_seen_at": "2026-10-30T14:47:00+08:00"
+      "last_seen_at": "2026-10-31T14:39:07+08:00"
     },
     {
       "source": "arxiv",
@@ -10244,7 +10270,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-30T14:47:00+08:00"
+      "last_seen_at": "2026-10-31T14:39:07+08:00"
     },
     {
       "source": "arxiv",
@@ -10277,7 +10303,7 @@
       "doi": "10.48550/arXiv.2601.06451",
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-30T14:47:00+08:00"
+      "last_seen_at": "2026-10-31T14:39:07+08:00"
     },
     {
       "source": "semanticscholar",
@@ -10338,7 +10364,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-03T14:04:29+08:00"
+      "last_seen_at": "2026-10-31T14:39:07+08:00"
     },
     {
       "source": "semanticscholar",
@@ -10364,7 +10390,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-03T14:04:29+08:00"
+      "last_seen_at": "2026-10-31T14:39:07+08:00"
     },
     {
       "source": "semanticscholar",
@@ -10424,7 +10450,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-03T14:04:29+08:00"
+      "last_seen_at": "2026-10-31T14:39:07+08:00"
     },
     {
       "source": "semanticscholar",
@@ -10453,7 +10479,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-30T14:47:00+08:00"
+      "last_seen_at": "2026-10-31T14:39:07+08:00"
     },
     {
       "source": "arxiv",
@@ -10478,7 +10504,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-30T14:47:00+08:00"
+      "last_seen_at": "2026-10-31T14:39:07+08:00"
     },
     {
       "source": "semanticscholar",
@@ -10539,7 +10565,7 @@
       "doi": "10.1145/3731155",
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-30T14:47:00+08:00"
+      "last_seen_at": "2026-10-31T14:39:07+08:00"
     },
     {
       "source": "semanticscholar",
@@ -10566,7 +10592,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-03T14:04:29+08:00"
+      "last_seen_at": "2026-10-31T14:39:07+08:00"
     },
     {
       "source": "arxiv",
@@ -10593,7 +10619,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-30T14:47:00+08:00"
+      "last_seen_at": "2026-10-31T14:39:07+08:00"
     },
     {
       "source": "semanticscholar",
@@ -10707,7 +10733,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-30T14:47:00+08:00"
+      "last_seen_at": "2026-10-31T14:39:07+08:00"
     },
     {
       "source": "semanticscholar",
@@ -10736,11 +10762,11 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-03T14:04:29+08:00"
+      "last_seen_at": "2026-10-31T14:39:07+08:00"
     }
   ],
   "last_run": {
-    "at": "2026-10-30T14:47:00+08:00",
+    "at": "2026-10-31T14:39:07+08:00",
     "sources": [
       "arxiv",
       "semanticscholar",
@@ -10756,9 +10782,9 @@
       "MLS-MPM",
       "projective dynamics cloth"
     ],
-    "fetched": 122,
-    "merged": 41,
-    "new": 15
+    "fetched": 102,
+    "merged": 28,
+    "new": 1
   },
   "topic": "game technology: physics simulation, real-time rendering, global illumination",
   "schema_version": 1
