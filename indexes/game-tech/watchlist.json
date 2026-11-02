@@ -1,6 +1,385 @@
 {
-  "updated_at": "2026-11-01T15:09:36+08:00",
+  "updated_at": "2026-11-02T15:08:33+08:00",
   "candidates": [
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.42151",
+      "arxiv_version": "v1",
+      "title": "Model-Independent Assessments of Tidal Alignment and Density-Weighting Dependence in Galaxy Intrinsic Alignments",
+      "authors": [
+        "Paul Rogozenski",
+        "Sukhdeep Singh",
+        "Jonathan Blazek",
+        "Rachel Mandelbaum",
+        "Hung-Jin Huang",
+        "Ananth Tenneti"
+      ],
+      "published": "2026-10-30",
+      "url": "https://arxiv.org/abs/2610.42151",
+      "abstract": "Intrinsic alignments (IA) of galaxies are an important source of systematic uncertainty in weak gravitational lensing measurements and also serve as a test for models of galaxy formation and evolution. These galaxy alignments are usually modeled assuming that the IA are sourced by the tidal fields around the galaxies. However, galaxy properties, like their proximity to other galaxies and their mass, provide alignment contributions beyond the tidal field. In this work, we perform novel model-agnostic tests to determine the impact of density-weighting on the IA of galaxies using data from the IllustrisTNG cosmological hydrodynamical simulation and SDSS-III (BOSS). We show that the primary effect of density-weighting is an increase of the alignment amplitude at large scales, whereas the small-scale impact is sample-dependent. We also assess the tidal alignment paradigm for IllustrisTNG galaxies using two-point correlation functions of galaxy shapes, tidal fields, and the sampled background tidal field of the simulation box. We find, given the precision of our measurements, that central galaxies align linearly to the underlying (non-linear) tidal field well into the 1-halo regime.",
+      "external_ids": [
+        "arxiv:2610.42151"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-02T15:08:33+08:00",
+      "last_seen_at": "2026-11-02T15:08:33+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.42145",
+      "arxiv_version": "v1",
+      "title": "SemEllipsoid: Semantic-aware Shape Abstraction with Ellipsoid",
+      "authors": [
+        "Kuankuan Cheng",
+        "Haocheng Yuan",
+        "Changjian Li"
+      ],
+      "published": "2026-10-30",
+      "url": "https://arxiv.org/abs/2610.42145",
+      "abstract": "Representing 3D shapes using a set of primitives - known as shape abstraction - is an actively studied problem in computer graphics with wide applications in shape understanding, analysis, and simulation due to the compactness and computational efficiency of the primitive-based representation. Prior work has primarily focused on geometry-aware shape abstraction, where the objective is to approximate the input shape with a minimal set of primitives while preserving geometric fidelity. However, these methods often overlook semantic consistency, inevitably leading to primitives that span across multiple semantic parts. Such inconsistency can cause undesirable artifacts in downstream tasks such as part-level shape editing or manipulation. In this paper, we introduce a new task - semantic-aware shape abstraction, where the goal is to produce abstractions that are both geometrically faithful and semantically consistent, ensuring that each primitive adheres strictly to a single semantic part without crossing semantic boundaries. We propose SemEllipsoid, a novel method to address this problem using ellipsoidal primitives. The core idea is to inject semantic constraints into the primitive optimization process leveraging the availability of semantic cues from large-scale foundation models. We design a fully differentiable projection-blending-evaluation scheme to measure semantic divergence against input semantic masks, and formulate an alternating optimization strategy to iteratively solve for optimal semantic assignment and primitive configurations. Our method is non-learning-based, requiring no data collection or network training, and generalizes well to shapes from arbitrary categories. It also supports different levels of abstraction according to user demand. Extensive experiments and evaluations validate the effectiveness of our approach across several 3D shape collections.",
+      "external_ids": [
+        "arxiv:2610.42145"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-02T15:08:33+08:00",
+      "last_seen_at": "2026-11-02T15:08:33+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.42118",
+      "arxiv_version": "v1",
+      "title": "Gradient Descent on Two ReLU Neurons: Global Landscape and Bifurcation Dynamics",
+      "authors": [
+        "Binghua Li",
+        "Mengzhe Li",
+        "Denny Wu",
+        "Tianhao Wang"
+      ],
+      "published": "2026-10-30",
+      "url": "https://arxiv.org/abs/2610.42118",
+      "abstract": "Understanding how gradient descent learns features remains a central challenge in neural network theory. We study this question in a minimal multi-index setting that already exhibits rich multi-phase gradient dynamics: a well-specified two-neuron ReLU teacher-student model under isotropic Gaussian inputs, trained by population gradient flow from small initialization. We show that the dynamics are organized by two directions: the \"easy\" bisector direction, which carries the leading signal, and the \"hard\" splitting direction, which governs specialization. To characterize the loss structure and learning behavior, we analyze the population squared-loss landscape and show that every critical point with both student weights nonzero is either a global minimum or a saddle. We then track the gradient-flow trajectory, showing that student neurons first collapse toward a bisector saddle before escaping and specializing to teacher neurons. Our results provide both a landscape and dynamics account of the multi-phase symmetry-breaking behavior that arises in a simple multi-index model and under standard algorithmic and architectural choices.",
+      "external_ids": [
+        "arxiv:2610.42118"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "global illumination real-time",
+        "ray tracing global illumination",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-02T15:08:33+08:00",
+      "last_seen_at": "2026-11-02T15:08:33+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.42114",
+      "arxiv_version": "v1",
+      "title": "Topologically Protected Edge States in a Single Flux Qubit",
+      "authors": [
+        "Pablo Perez-Fernandez",
+        "Manuel Pino"
+      ],
+      "published": "2026-10-30",
+      "url": "https://arxiv.org/abs/2610.42114",
+      "abstract": "We show that topological edge states can be realized in a simple superconducting circuit composed of an inductively shunted flux qubit. The Josephson potential of that qubit forms a honeycomb lattice similar to the case of graphene. The additional shunting element produces a quartic potential along one flux direction, which effectively creates a boundary in flux space. We map analytically the low-energy dynamics of the circuit to an extended Su--Schrieffer--Heeger (SSH) chain, in which a quartic potential is added to the usual SSH Hamiltonian. This mapping is confirmed by numerical simulations of the full superconducting circuit. We argue that chiral symmetry still holds for the edge states of the extended model around a chiral point in parameter space. Close to this point, we numerically find that edge states in our superconducting circuit are topologically protected against perturbations that obey chiral symmetry, as is the case for charge noise. Our results show that topological effects previously thought to occur in multi-qubit systems, such as protection against decoherence, can also be found in much simpler single superconducting qubits.",
+      "external_ids": [
+        "arxiv:2610.42114"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "incremental potential contact",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-02T15:08:33+08:00",
+      "last_seen_at": "2026-11-02T15:08:33+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.42106",
+      "arxiv_version": "v1",
+      "title": "Hard Constraint Projection in a Physics Informed Neural Network (Burgers)",
+      "authors": [
+        "Miranda J S Horne",
+        "Peter K Jimack",
+        "Amirul Khan",
+        "He Wang"
+      ],
+      "published": "2026-10-30",
+      "url": "https://arxiv.org/abs/2610.42106",
+      "abstract": "Physics informed machine learning provides a framework to study and simulate fluid dynamics, potentially at a fraction of the computational cost of traditional numerical methods, with the goal of improving the explainability, accuracy and robustness of purely data driven machine learning methods. In this work, we extend the hard constraint projection (HCP) method developed by Chen et al. [Journal of Computational Physics, 445, 110624, 2021] from a linear partial differential equation (PDE) to a nonlinear PDE: the 1D Burgers' equation. To strictly impose a discrete approximation of the governing equation, the Burgers' equation is first locally discretised (using a finite difference stencil) then decomposed into a constraint matrix and a prediction matrix. Using tools from linear algebra, the constraint matrix is used to construct a projection matrix. A physics informed neural network (PINN) [Raissi et al. Journal of Computational Physics, 378, 686, 2019] is used to predict the velocity, and a final unlearnable layer projects the velocity prediction to the hyperplane of exact solutions to a discretised form of the Burgers' equation. Our initial results indicate that the HCP-PINN initially trains similarly to an equivalent PINN, and as the PINN loss plateaus, the HCP-PINN loss continues to decline. When tested on a previously unseen uniform grid of points covering the domain, the HCP-PINN exhibits higher accuracy, converging to a data error approximately an order of magnitude lower than the comparable PINN. We also observe that the inclusion of the HCP layer results in better observance of the governing PDE. Our findings suggest that the HCP-PINN can be more robust to the selection of physics collocation points, and less dependent on collocation point quantity.",
+      "external_ids": [
+        "arxiv:2610.42106"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "incremental potential contact",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-02T15:08:33+08:00",
+      "last_seen_at": "2026-11-02T15:08:33+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.42089",
+      "arxiv_version": "v1",
+      "title": "Onset of Radiatively Driven Convection in Ice-Covered Freshwater Lakes",
+      "authors": [
+        "Benjamin J. Smith",
+        "Bingfei Yan",
+        "Till J. W. Wagner",
+        "Nimish Pujara",
+        "Jennifer A. Franck"
+      ],
+      "published": "2026-10-30",
+      "url": "https://arxiv.org/abs/2610.42089",
+      "abstract": "This work investigates the formation and growth of Rayleigh-Taylor instabilities (RTIs) during the onset of radiatively driven convection (RDC) in seasonally ice-covered freshwater lakes. Two-dimensional direct numerical simulations (DNS) and linear analysis allow for the investigation of how environmental factors, including thermal stratification, water clarity, and solar forcing influence RTI formation. It is found that for strongly stratified lakes, there is a period of dormancy before the water column forms a gravitationally unstable layer that allows RTI growth. Conversely, for weakly stratified lakes the water column can become unstable almost immediately, allowing for rapid RTI growth. A linear analysis is performed to investigate the early RTI growth dynamics, and its results compare well with DNS. Notably, the wavelengths and depths of RTIs, and their associated time-dependent growth rates, are all captured by the linearised dynamics. Predictions of RDC onset obtained using the linear model show good agreement with DNS results. When the analysis is applied to field measurements of ice-covered lakes, it is found that weakly stratified lakes may take a few hours before RDC onset whereas strongly stratified lakes may not see RDC onset after a full day of clear-sky spring conditions.",
+      "external_ids": [
+        "arxiv:2610.42089"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-02T15:08:33+08:00",
+      "last_seen_at": "2026-11-02T15:08:33+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.42119",
+      "arxiv_version": "v1",
+      "title": "Functional Tensor Trains for High-Order Greeks and Exposure Tails of Multi-Asset Structured Products",
+      "authors": [
+        "Javier Lopez-Piqueres",
+        "Atithi Acharya",
+        "Yue Sun",
+        "Niraj Kumar"
+      ],
+      "published": "2026-10-30",
+      "url": "https://arxiv.org/abs/2610.42119",
+      "abstract": "Risk management of worst-of autocallables needs price sensitivities (Greeks) up to third order and the potential future exposure, a tail quantile of the note's future value. In Monte Carlo, each order of differentiation multiplies the sampling noise by a factor that grows with the observation frequency, and nested simulation turns the noise of its inner paths into a bias of the quantile. We instead solve the backward pricing recursion, storing the continuation value as an $hp$ functional tensor train (hp-FTT) whose piecewise-polynomial cores are split at the barriers, so that worst-of barrier events act exactly, with rank one. For Gaussian transitions we show that the polynomial degree sufficient for an error $\\varepsilon$ grows only as $\\sqrt{\\log(1/\\varepsilon)}$. One solve then gives every Greek at any spot without sampling noise, by integrating the likelihood-ratio weight against the stored value, and the values it stores at future dates replace inner simulation. Against the strongest Monte Carlo estimators we could build or find published, on worst-of autocallables observed monthly on three to five assets, the order of the Greek and the accuracy decide which method is cheaper. At $1\\%$ accuracy Monte Carlo is more than an order of magnitude cheaper for deltas, second-order Greeks go either way, and hp-FTT is cheaper for every third-order Greek, by up to two orders of magnitude. At $0.1\\%$ hp-FTT is cheaper for every Greek we could check, under geometric Brownian motion and local volatility alike. For the exposure alone Monte Carlo is cheaper at $1\\%$ and hp-FTT at $0.1\\%$, and a solve run for the Greeks yields it for little more than scenario sampling. Sampling pays in variance for each derivative and hp-FTT in rank for each asset, so Monte Carlo keeps low-order Greeks at percent accuracy, rarely observed contracts and many assets.",
+      "external_ids": [
+        "arxiv:2610.42119"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-02T15:08:33+08:00",
+      "last_seen_at": "2026-11-02T15:08:33+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.42097",
+      "arxiv_version": "v1",
+      "title": "ROOF: Learning Humanoid Fall Recovery under Overhead Constraints",
+      "authors": [
+        "Yidan Lu",
+        "Jiayuan Yu",
+        "Zongrui Cai",
+        "Jingwen Sun",
+        "Jinrui Han",
+        "Jing Wang",
+        "Ping Luo",
+        "Peng Lu"
+      ],
+      "published": "2026-10-30",
+      "url": "https://arxiv.org/abs/2610.42097",
+      "abstract": "A fallen humanoid beneath an overhead obstacle faces a coupled recovery problem. It must create clearance while organizing support for a stable rise, since attempting to stand before making room can further increase obstruction. We introduce a reinforcement learning method with contact-supported geometric escape guidance, which rewards incremental reduction of robot-obstacle overlap without prescribing an escape path. To achieve this, a learned motion prior, together with posture-dependent support and joint-stall costs, is proposed to shape a single policy that learns when to clear the obstacle, how to establish support, and when to complete the rise, all using proprioception alone. In simulation, it recovers in 88.5% of trials beneath plates that can only be lifted, compared with 18.9% without geometric guidance, and in 98.6% of trials beneath free plates with randomized size, mass and placement. On a Unitree G1, the deployed policy recovered in 95 of 150 attempts across seven real-world obstacle scenes, including furniture and multi-object arrangements absent from training. Project page: https://lu-yidan.github.io/ROOF/",
+      "external_ids": [
+        "arxiv:2610.42097"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-02T15:08:33+08:00",
+      "last_seen_at": "2026-11-02T15:08:33+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.42122",
+      "arxiv_version": "v1",
+      "title": "Co-sufficient weighting: leveraging sparsity for more powerful variable selection in the linear model",
+      "authors": [
+        "Souhardya Sengupta",
+        "Lucas Janson"
+      ],
+      "published": "2026-10-30",
+      "url": "https://arxiv.org/abs/2610.42122",
+      "abstract": "We show that for the problem of controlled variable selection in the Gaussian linear model, informative and p-value-independent weights (for weighted multiple testing) can be derived entirely from sufficient statistics and a belief in sparsity using only the data itself and no external quantitative side information. Using these weights, which we call \\emph{co-sufficient weights} (CSW), in weighted versions of Holm's procedure and the Benjamini--Hochberg (BH) procedure results in substantially higher power than their unweighted analogues when the true coefficient vector is sparse, while retaining Holm's exact validity and BH's highly robust empirical validity regardless of sparsity. We demonstrate the superior performance of our proposed weighted methods compared to their unweighted analogues and other competing methods in a wide range of simulations and an application to HIV drug resistance.",
+      "external_ids": [
+        "arxiv:2610.42122"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-02T15:08:33+08:00",
+      "last_seen_at": "2026-11-02T15:08:33+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.42108",
+      "arxiv_version": "v1",
+      "title": "Quantum 3xplorer: AI-Native Engine for Next-Generation Quantum Materials Modeling",
+      "authors": [
+        "Vsevolod Biryukov",
+        "Sergey V. Barabash",
+        "Pranab Kumar Das",
+        "Jack Deslippe",
+        "Mauro Del Ben",
+        "Felipe H. da Jornada",
+        "Yuming Shi",
+        "Johannes Voss",
+        "Zhenglu Li",
+        "Piero Altoe",
+        "Kamal Choudhary",
+        "Ruth Pachter",
+        "Steven G. Louie",
+        "Marvin L. Cohen",
+        "Timur Bazhirov"
+      ],
+      "published": "2026-10-30",
+      "url": "https://arxiv.org/abs/2610.42108",
+      "abstract": "Quantum-mechanical approaches, such as density functional theory (DFT), underpin much of modern computational materials science and are the primary source of data for AI-driven discovery. Yet the established electronic-structure codes today represent decades-old software architectures, making new physical models slow and costly to implement, validate, and deploy on emerging hardware. We present Quantum 3xplorer (Q3, pronounced \"Quantum Explorer\"), an AI-native quantum simulation engine written from scratch by AI coding agents under the direction and supervision of domain scientists. As a first and demanding validation case, we implement plane-wave pseudopotential DFT end to end: norm-conserving, ultrasoft, and projector-augmented-wave formalisms, spin polarization, DFT+U, and dispersion corrections, together with forces, stresses, structural relaxation, and electronic-structure analysis. Q3 reproduces established reference implementations, runs faster on a single core in representative benchmarks, and scales across GPU-accelerated supercomputers. It was developed in weeks rather than years. Its layered, physics-first architecture separates abstract quantum-mechanical concepts from their numerical representations, making its framework extendable beyond plane waves to other basis sets and levels of theory. Its inputs and outputs follow structured, schema-validated data standards, making every result AI-ready. Q3 is open source under Apache 2.0 and built to be reused, extended, and improved by the research community. Q3 points to a paradigm shift in how computational quantum science is done. Scientists define the physics, formulate the models, and set the criteria for validation; AI agents write, test, and optimize the code. The decades-long path from a new theory to a trusted, high-performance implementation can thus collapse to days, significantly accelerating scientific discovery.",
+      "external_ids": [
+        "arxiv:2610.42108"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-02T15:08:33+08:00",
+      "last_seen_at": "2026-11-02T15:08:33+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.42103",
+      "arxiv_version": "v1",
+      "title": "Charge Pumping Leptogenesis from the Symmetric Mass Generation Phase on a Four-Leg Ladder Lattice",
+      "authors": [
+        "Runze Chi",
+        "Meng Zeng",
+        "Tao Xiang",
+        "Yi-Zhuang You",
+        "Bertrand I. Halperin",
+        "Juven Wang"
+      ],
+      "published": "2026-10-30",
+      "url": "https://arxiv.org/abs/2610.42103",
+      "abstract": "Quantized charge pumping in quantum Hall systems is a bulk topological property, typically manifesting on gapless boundaries as spectral flow through chiral edge modes upon flux insertion. When the boundary is anomaly-free, it can be symmetrically gapped by symmetric mass generation (SMG) interactions. However, the effects on quantized charge pumping at an interacting gapped boundary are unclear. We address this using density-matrix renormalization group simulations of a four-leg ladder quasi-(2+1)d realization of the (1+1)d 3-4-5-0 lattice chiral fermion model with six-fermion interactions at one edge. We find gapless modes near the interacting edge for both weak and strong couplings, but the edge can be in a fully gapped SMG phase at intermediate coupling. We also identify spontaneous breaking of the model's $\\mathbb{Z}_2$ symmetry above a critical interaction strength. Across all three boundary phases, we find quantized charge pumping with the same pumped charge per flux quantum. The spatial distribution of the pumped charge varies between phases. Besides charge pumping, we study how a single injected fermion propagates under open boundary conditions. In the SMG phase, an interaction-induced flavor-mixing current develops at the endpoints of the gapped edge, which is absent in the weak- and strong-coupling limits. This current reveals a charge-redistribution mechanism unique to the SMG phase. Additionally, we propose an analogy between charge pumping in this model and a topological leptogenesis scenario in the (3+1)d Standard Model. The anomaly-free chiral U(1) symmetries of the 3-4-5-0 model play a role analogous to the baryon-minus-lepton symmetry of the Standard Model. In both settings, charge pumping can be associated with a continuous deformation along a classically defined but quantum-anomalous direction, while a discrete subgroup remains an exact quantum symmetry.",
+      "external_ids": [
+        "arxiv:2610.42103"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-02T15:08:33+08:00",
+      "last_seen_at": "2026-11-02T15:08:33+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.42049",
+      "arxiv_version": "v1",
+      "title": "A Hybrid Path Planning Framework for Assistive Wheelchair Navigation in Dynamic Pedestrian Environments",
+      "authors": [
+        "Damla Leblebicioğlu",
+        "Rachel Barume",
+        "Taşkın Padır"
+      ],
+      "published": "2026-10-30",
+      "url": "https://arxiv.org/abs/2610.42049",
+      "abstract": "Autonomous wheelchairs can improve the quality of life for individuals with mobility impairments by providing greater independence. However, reliable navigation especially in human environments is a major challenge due to factors such as dynamic obstacles, unpredictable pedestrian behavior, and the users' need to complete multiple stops along the way before reaching their final destination. This paper presents a hybrid path planning framework for multi-goal navigation in dynamic environments. The framework integrates the Traveling Salesman Problem (TSP) for global task ordering with the Potential Field (PF) method and heuristic local planners such as Rapidly-exploring Random Tree (RRT) and A-star (A*) to achieve collision-free navigation. Within this hybrid framework, TSP determines the visiting order of intermediate stations, PF transfers global path information, and local planners avoid obstacles while guiding the robot to the stations. The local planners generate feasible paths that allow the robot to follow the global trajectory and reroute to avoid static and dynamic obstacles. For this purpose, two algorithms have been developed: (i) TSP-PF-RRT and (ii) TSP-PF-A*. The performance of the proposed algorithms are evaluated using Monte Carlo simulations in crowded and extra-crowded scenarios that contain heterogeneous dynamic and static obstacles. Experimental results demonstrate that the proposed hybrid framework enables efficient multi-goal navigation while maintaining safe operation in dynamic environments with humans, with TSP-PF-RRT achieving fewer or no collisions and shorter travel distances.",
+      "external_ids": [
+        "arxiv:2610.42049"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-02T15:08:33+08:00",
+      "last_seen_at": "2026-11-02T15:08:33+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2610.42034",
+      "arxiv_version": "v1",
+      "title": "A Momentum-weighted Interface Stabilization Approach for Fluid-Structure Interaction with Strong Added-Mass Effects",
+      "authors": [
+        "Nihar Bhardwaj Darbhamulla",
+        "Xiaoyu Mao",
+        "Aditya Narkhede",
+        "David Brown",
+        "Rajeev K. Jaiman"
+      ],
+      "published": "2026-10-30",
+      "url": "https://arxiv.org/abs/2610.42034",
+      "abstract": "Partitioned fluid-structure interaction (FSI) schemes permit the reuse of optimized standalone solvers but can become unstable under strong fluid added-mass effects, particularly when structural inertia is small relative to fluid inertia. This work traces the instability to the discrepancy between the interface pressure Schur complements of the monolithic and Dirichlet- Neumann partitioned systems, as revealed by a fixed-point analysis of the linearized FSI problem. Motivated by this analysis, a momentum-weighted interface stabilization (MWIS) is proposed, in which the interface pressure block of the fluid subproblem is augmented by an operator constructed from the fluid and structural interface momentum operators. The augmentation is consistent by construction, vanishing at convergence so that the monolithic solution is recovered. A sparse diagonal approximation of the operator, derived from element metrics, limits intersolver data exchange to quantities comparable in size to standard interface coupling data while requiring minimal modifications to the standalone solvers. Numerical experiments, spanning a linear model and established nonlinear FSI benchmarks, demonstrate improved coupling robustness in regimes of strong added-mass where the standard Dirichlet-Neumann scheme diverges.",
+      "external_ids": [
+        "arxiv:2610.42034"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-02T15:08:33+08:00",
+      "last_seen_at": "2026-11-02T15:08:33+08:00"
+    },
     {
       "source": "semanticscholar",
       "arxiv_id": "",
@@ -6262,7 +6641,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-13T15:24:18+08:00",
-      "last_seen_at": "2026-10-17T13:31:03+08:00"
+      "last_seen_at": "2026-11-02T15:08:33+08:00"
     },
     {
       "source": "semanticscholar",
@@ -6293,7 +6672,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-13T15:24:18+08:00",
-      "last_seen_at": "2026-10-17T13:31:03+08:00"
+      "last_seen_at": "2026-11-02T15:08:33+08:00"
     },
     {
       "source": "semanticscholar",
@@ -6323,7 +6702,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-13T15:24:18+08:00",
-      "last_seen_at": "2026-10-17T13:31:03+08:00"
+      "last_seen_at": "2026-11-02T15:08:33+08:00"
     },
     {
       "source": "semanticscholar",
@@ -6349,7 +6728,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-13T15:24:18+08:00",
-      "last_seen_at": "2026-10-17T13:31:03+08:00"
+      "last_seen_at": "2026-11-02T15:08:33+08:00"
     },
     {
       "source": "semanticscholar",
@@ -6376,7 +6755,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-13T15:24:18+08:00",
-      "last_seen_at": "2026-10-17T13:31:03+08:00"
+      "last_seen_at": "2026-11-02T15:08:33+08:00"
     },
     {
       "source": "arxiv",
@@ -10270,7 +10649,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-11-01T15:09:36+08:00"
+      "last_seen_at": "2026-11-02T15:08:33+08:00"
     },
     {
       "source": "arxiv",
@@ -10303,7 +10682,7 @@
       "doi": "10.48550/arXiv.2601.06451",
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-11-01T15:09:36+08:00"
+      "last_seen_at": "2026-11-02T15:08:33+08:00"
     },
     {
       "source": "semanticscholar",
@@ -10332,7 +10711,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-27T13:57:05+08:00"
+      "last_seen_at": "2026-11-02T15:08:33+08:00"
     },
     {
       "source": "semanticscholar",
@@ -10417,7 +10796,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-27T13:57:05+08:00"
+      "last_seen_at": "2026-11-02T15:08:33+08:00"
     },
     {
       "source": "semanticscholar",
@@ -10504,7 +10883,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-11-01T15:09:36+08:00"
+      "last_seen_at": "2026-11-02T15:08:33+08:00"
     },
     {
       "source": "semanticscholar",
@@ -10535,7 +10914,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-27T13:57:05+08:00"
+      "last_seen_at": "2026-11-02T15:08:33+08:00"
     },
     {
       "source": "arxiv",
@@ -10565,7 +10944,7 @@
       "doi": "10.1145/3731155",
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-11-01T15:09:36+08:00"
+      "last_seen_at": "2026-11-02T15:08:33+08:00"
     },
     {
       "source": "semanticscholar",
@@ -10619,7 +10998,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-11-01T15:09:36+08:00"
+      "last_seen_at": "2026-11-02T15:08:33+08:00"
     },
     {
       "source": "semanticscholar",
@@ -10649,7 +11028,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-27T13:57:05+08:00"
+      "last_seen_at": "2026-11-02T15:08:33+08:00"
     },
     {
       "source": "semanticscholar",
@@ -10677,7 +11056,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-27T13:57:05+08:00"
+      "last_seen_at": "2026-11-02T15:08:33+08:00"
     },
     {
       "source": "semanticscholar",
@@ -10703,7 +11082,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-10-27T13:57:05+08:00"
+      "last_seen_at": "2026-11-02T15:08:33+08:00"
     },
     {
       "source": "arxiv",
@@ -10733,7 +11112,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-11-01T15:09:36+08:00"
+      "last_seen_at": "2026-11-02T15:08:33+08:00"
     },
     {
       "source": "semanticscholar",
@@ -10766,7 +11145,7 @@
     }
   ],
   "last_run": {
-    "at": "2026-11-01T15:09:36+08:00",
+    "at": "2026-11-02T15:08:33+08:00",
     "sources": [
       "arxiv",
       "semanticscholar",
@@ -10782,9 +11161,9 @@
       "MLS-MPM",
       "projective dynamics cloth"
     ],
-    "fetched": 102,
-    "merged": 28,
-    "new": 0
+    "fetched": 112,
+    "merged": 30,
+    "new": 13
   },
   "topic": "game technology: physics simulation, real-time rendering, global illumination",
   "schema_version": 1
