@@ -1,0 +1,504 @@
+{
+  "date": "2026-11-04",
+  "run": {
+    "at": "2026-11-04T15:16:05+08:00",
+    "sources": [
+      "arxiv",
+      "semanticscholar",
+      "dblp"
+    ],
+    "keywords": [
+      "material point method cloth",
+      "\"position based\" dynamics cloth",
+      "incremental potential contact",
+      "real-time fluid simulation graphics",
+      "global illumination real-time",
+      "ray tracing global illumination",
+      "MLS-MPM",
+      "projective dynamics cloth"
+    ],
+    "fetched": 102,
+    "merged": 33,
+    "new": 17
+  },
+  "new_candidates": [
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.05375",
+      "arxiv_version": "v1",
+      "title": "Quantum Error Correction in Nearly Critical Toric Codes",
+      "authors": [
+        "Zack Weinstein",
+        "Samuel J. Garratt"
+      ],
+      "published": "2026-11-03",
+      "url": "https://arxiv.org/abs/2611.05375",
+      "abstract": "We investigate quantum error correction protocols for topological codes deformed away from their stabilizer limits, particularly as they are pushed towards quantum phase transitions into trivial phases. Our focus is primarily on quantum information stored within the ground-state manifold of the transverse-field toric code (TFTC), subjected to independent bit-flip and phase-flip decoherence. Although the transverse field induces strong quantum fluctuations of $m$ anyons in the ground states, we show that projective measurements of the \"bare\" toric code stabilizers can nevertheless be used to construct an efficient decoding algorithm which exhibits a finite threshold to both types of decoherence, even when the transverse field is tuned infinitesimally close to the quantum critical point. Our construction of the optimal postmeasurement decoders---that is, the optimal decoders assuming that the stabilizers are first measured---crucially relies on the stoquastic nature of the TFTC Hamiltonian, which affords a description of its ground states in terms of a classical lattice gauge theory. Using stoquasticity, we first prove that stabilizer measurements act unitarily on the undecohered TFTC ground states to excellent approximation, and that the optimal postmeasurement decoder can be efficiently implemented via Monte Carlo simulation of a constrained lattice gauge theory. We then construct the optimal postmeasurement decoder for the TFTC states under bit-flip and phase-flip decoherence, where we numerically demonstrate a finite threshold close to the quantum critical point. We provide theoretical evidence (without a rigorous proof) that stabilizer measurements constitute an optimal decoding strategy in this setting. For phase-flip decoherence, we further prove that the optimal postmeasurement decoding threshold is independent of the transverse field strength throughout the topological phase.",
+      "external_ids": [
+        "arxiv:2611.05375"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-04T15:16:05+08:00",
+      "last_seen_at": "2026-11-04T15:16:05+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.05368",
+      "arxiv_version": "v1",
+      "title": "GUILD: Guided Iterative Data Collection for Imitation Learning",
+      "authors": [
+        "Shivin Dass",
+        "Kevin Nguyen",
+        "Rohan Yelandur",
+        "Junhong Xu",
+        "Roberto Martín-Martín"
+      ],
+      "published": "2026-11-03",
+      "url": "https://arxiv.org/abs/2611.05368",
+      "abstract": "Imitation learning policies in robotics are trained on datasets collected through costly real-world teleoperation. Often, the data-collection process is unguided, relying on the teleoperator's intuition, resulting in data that contributes little to overall policy performance. Recent work has shown that curating such unguided datasets can substantially improve policy performance, but these approaches operate by filtering existing datasets after collection and therefore do not prevent the acquisition of uninformative data. In this work, we propose GUILD, a novel Guided Data Collection (GDC) method that actively reasons about which data should be collected to maximize downstream policy performance. We introduce an iterative framework that alternates between 1) task proposal and data collection and 2) data evaluation to close the loop. For task proposal, we leverage semantic priors from vision-language models to identify relevant environments, object configurations, and goals for data collection. However, since semantic relevance does not imply policy improvement, we perform data evaluation. By leveraging predictive data attribution we approximate how the collected trajectories influence policy performance on a target deployment setting. This signal is then used as feedback to guide subsequent data collection, closing the data collection loop. We evaluate our approach in simulation and real robot settings, demonstrating that guided data collection substantially improves sample efficiency and deployment performance compared to passive data collection strategies, multiple baselines and experienced roboticists. More information at https://robin-lab.cs.utexas.edu/guild2026/",
+      "external_ids": [
+        "arxiv:2611.05368"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-04T15:16:05+08:00",
+      "last_seen_at": "2026-11-04T15:16:05+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.05367",
+      "arxiv_version": "v1",
+      "title": "SBi3PCF: cosmology with Dark Energy Survey Year 3 cosmic shear",
+      "authors": [
+        "David Gebauer",
+        "Anik Halder",
+        "Zhengyangguang Gong",
+        "Cora Uhlemann"
+      ],
+      "published": "2026-11-03",
+      "url": "https://arxiv.org/abs/2611.05367",
+      "abstract": "We present the first cosmic shear data analysis of the integrated 3-point correlation function (i3PCF), a higher-order weak lensing statistic, and the first simulation-based inference (SBI) analysis of a three-point cosmic shear correlation function on survey data. Using SBi3PCF, our previously developed SBI framework for the i3PCF, we jointly constrain the $w$CDM parameter space with the cosmic shear 2-point correlation functions $ξ_\\pm$ (2PCFs) and the i3PCFs $ζ_\\pm$ from the Dark Energy Survey Year 3 (DES Y3) weak lensing shape catalogue, from which we detect $ζ_\\pm$ with a signal-to-noise ratio of 12.8. Our forward model is built on the CosmoGridV1 N-body simulations and includes the survey mask, shape noise, intrinsic alignment, baryonic feedback, photometric redshift uncertainty and shear calibration bias. The analysis was carried out blind, with all choices frozen, and only unblinded once coverage tests, tests of the accuracy of the learned likelihoods, and internal consistency tests had been passed. For the joint $ξ_\\pm$ + $ζ_\\pm$ analysis we obtain $Ω_m = 0.272^{+0.038}_{-0.033}$, $S_8 = 0.784^{+0.024}_{-0.021}$ and $w_0 = -1.04^{+0.25}_{-0.19}$. Adding $ζ_\\pm$ improves the figure of merit in the $Ω_m$-$S_8$-$w_0$ parameter space by a factor of $1.59$ over $ξ_\\pm$ alone, as predicted by simulated i3PCF analyses. This gain comes from third-order information on angular scales $\\geq 15'$ and aperture radii $\\geq 50'$, a regime where baryonic effects are subdominant. The constraints are consistent with the other DES Y3 analyses of the same catalogue and with independent lensing analyses, and differ by at most $2.4σ$ from CMB and BAO data (Planck 2018 + BAO, in $Ω_m$-$S_8$-$w_0$). This shows that $ζ_\\pm$ can be analysed on cosmological survey data with a fully simulation-based approach, an important step towards Stage-IV surveys.",
+      "external_ids": [
+        "arxiv:2611.05367"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-04T15:16:05+08:00",
+      "last_seen_at": "2026-11-04T15:16:05+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.05365",
+      "arxiv_version": "v1",
+      "title": "A wider state, not wider arithmetic, for single-precision time integration",
+      "authors": [
+        "Michael F. Barad"
+      ],
+      "published": "2026-11-03",
+      "url": "https://arxiv.org/abs/2611.05365",
+      "abstract": "Single precision (FP32) halves the memory and data movement of double precision (FP64), and on accelerators is often several times faster. Its rounding errors are harmless except in the stored state. A modified equation for Runge-Kutta methods in Shu-Osher form and linear multistep methods separates the rounding of the stored state, a forcing proportional to $1/Δt$, from truncation and from right-hand-side rounding, which sets a $Δt$-independent floor. We bound this forcing for strong-stability-preserving schemes and identify two mechanisms that keep its sign fixed, so it accumulates as a bias: past a turnaround step, refining the step increases the error, in FP64 as in FP32. For a model oscillator the analysis predicts the floor and the FP32-to-FP64 ratios of turnaround step and minimum error within 30%. Our remedy needs no FP64 arithmetic: each state variable is stored as the unevaluated sum of two FP32 numbers, updated with error-free transformations, while every right-hand-side evaluation stays in FP32. Unlike compensated summation, it needs no rewriting of the scheme. In model problems from geophysical flow, mechanical dynamics and celestial mechanics, with five Runge-Kutta and multistep schemes, it restores design-order convergence to the floor. In large-eddy simulations of a high-lift airplane wing on three refined grids, up to 544 million cells, with time steps $Δt$, $Δt/2$ and $Δt/4$, FP32 overpredicts the lift by 2.1, 4.5 and 7.7%, while the two-float lift agrees with FP64 within 0.3% on every grid, and on graphics processing units the production solver runs 1.6 to 2.7 times faster than FP64.",
+      "external_ids": [
+        "arxiv:2611.05365"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-04T15:16:05+08:00",
+      "last_seen_at": "2026-11-04T15:16:05+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.05359",
+      "arxiv_version": "v1",
+      "title": "GSCV++: Lightweight 3D Gaussian Splatting Sequence Compression via Standard Video Codecs",
+      "authors": [
+        "Qi Yang",
+        "Yingzhan Xu",
+        "Kai Zhang",
+        "Li Zhang"
+      ],
+      "published": "2026-11-03",
+      "url": "https://arxiv.org/abs/2611.05359",
+      "abstract": "This paper presents GSCV++, a lightweight pipeline for 3D {G}aussian {S}platting (GS) sequences {C}ompression with standard {V}ideo codecs. To meet the requirements of low-complexity and hardware compatibility from the industry, GSCV++ jointly improves preprocessing, 3D-to-2D mapping, and practical video compression configuration of GS compression. First, for preprocessing, energy-adaptive inter-frame spherical harmonic (SH) alternative current (AC) dimensionality reduction (EA-SHDR) is proposed to produces a compact and stable temporal SH AC feature space. It can reduce the data volume of following mapping and practical compression, as well as less complexity while eliminating redundant information. Second, for 3D-to-2D mapping, prior-based Inter-MiniPLAS (P-MiniPLAS) is designed to generate smooth 2D feature maps through prior-based weighting factor inference and small scale remapping. Compared with vanilla Parallel Linear Assignment Sorting (PLAS) and Morton scan, P-MiniPLAS ensures the generated 2D maps are more suitable for the video codec while maintaining a low level of computational complexity. Third, for practical compression, content-aware generalized compression (CA-GC) is developed to use a non-uniform bit-depth split for coordinate map generation, and a coding unit size selection is introduced for efficient compression complexity control, which fully exploits the performance of video codecs without involving normative changes. Experiments demonstrate that GSCV++ reports over 20\\% in intra- and 60\\% in inter-prediction rate-distortion gains compared with state-of-the-art (SOTA) methods. GSCV++ also achieves faster 2D map generation, encoding, and decoding than other SOTA methods using the same type of video codecs. Ablation studies verify the effectiveness and robustness of the proposed modules and provide insights for subsequent research.",
+      "external_ids": [
+        "arxiv:2611.05359"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-04T15:16:05+08:00",
+      "last_seen_at": "2026-11-04T15:16:05+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.05310",
+      "arxiv_version": "v1",
+      "title": "Mitigating Return Drag and Regime Whipsaws in Sector Rotation: An Asymmetric Downside-Aware Nested Clustered Optimization Framework",
+      "authors": [
+        "Supriadi"
+      ],
+      "published": "2026-11-03",
+      "url": "https://arxiv.org/abs/2611.05310",
+      "abstract": "Hierarchical clustering and Nested Clustered Optimization (NCO) mitigate the mathematical ill-conditioning of classical Markowitz covariance matrices. However, two structural vulnerabilities persist in equity markets: (1) symmetric variance penalizes upside and downside return dispersion identically, inducing acute return drag against soaring momentum sectors; and (2) unconstrained Hidden Markov Models (HMM) exhibit hyper-active regime switching (whipsaw instability), incurring excessive turnover and transaction drag. We propose Asymmetric Downside-Risk Nested Clustered Optimization with Sticky Regime Dynamics (Asym-Sticky-NCO) for tactical sector rotation across all 11 S&P 500 GICS sectors. The framework substitutes symmetric covariance with the Bawa-Lindenberg downside semi-covariance matrix across both hierarchical tree clustering and two-stage allocation. Furthermore, we introduce a Sticky Gaussian HMM incorporating a diagonal self-transition persistence prior (\\k{appa}) and confidence-adaptive boundaries (δ) to enforce macroeconomic persistence. Strictly non-anticipative walk-forward backtesting across 65 out-of-sample months (August 2020 to December 2025) demonstrates that the architecture elevates CAGR from 10.65% (Plain NCO) to 13.41% (+276 bps/year), delivers a 97.74% total return versus 72.99%, suppresses maximum drawdown to 14.22% (versus 23.93% for the S&P 500), and achieves a Calmar ratio of 0.94 (+38.2% over S&P 500; +84.3% over Baseline Regime-NCO). Crucially, sticky dynamics cut regime whipsaws by 75.0% (from 16 to 4 switches) and reduce monthly turnover from 60.78% to 30.48%, addressing core limitations of machine learning asset allocation.",
+      "external_ids": [
+        "arxiv:2611.05310"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-04T15:16:05+08:00",
+      "last_seen_at": "2026-11-04T15:16:05+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.05284",
+      "arxiv_version": "v1",
+      "title": "Crossover duality for the quantum long-range Ising chain: perturbation theory around the short-range endpoint and a DMRG test",
+      "authors": [
+        "Junchen Rong"
+      ],
+      "published": "2026-11-03",
+      "url": "https://arxiv.org/abs/2611.05284",
+      "abstract": "We propose a weakly coupled description of the long-range transverse-field Ising chain near its short-range crossover at $s_*=7/4$, where the couplings decay as $r^{-1-s}$. The Ising conformal field theory is coupled to an instantaneous Gaussian field through $σχ$, extending the classical long-range Ising duality to quantum chains. The equal-time interaction generates a stress-tensor deformation that causes the velocity to run and renormalizes the dynamical critical exponent $z$. Conformal perturbation theory gives $z=1-0.720\\,δ+O(δ^2)$, $1/ν=(1+z)/2+O(δ^2)$, and $ω=δ+O(δ^2)$, with $δ=s_*-s$. DMRG calculations on periodic chains of up to $128$ sites provide a consistency test using theoretical inputs for $1/ν$ and $ω$. After accounting for slow finite-size corrections, static and dynamical estimates of $z$ agree, supporting the crossover expansion at $s=1.5$ and a two-sided Padé interpolation at $s=1$, $1.25$, and $1.5$.",
+      "external_ids": [
+        "arxiv:2611.05284"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-04T15:16:05+08:00",
+      "last_seen_at": "2026-11-04T15:16:05+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.05282",
+      "arxiv_version": "v1",
+      "title": "Lagrangian Irreversibility in Stratified Turbulence",
+      "authors": [
+        "Mrinal Jyoti Powdel",
+        "Samriddhi Sankar Ray"
+      ],
+      "published": "2026-11-03",
+      "url": "https://arxiv.org/abs/2611.05282",
+      "abstract": "Stable stratification reorganizes turbulence, suppressing vertical motion and altering the balance between vortical and strain-dominated flow structures. How these changes affect the temporal asymmetry of kinetic-energy exchange along fluid-particle trajectories remains incompletely understood. Using direct numerical simulations of homogeneous Boussinesq turbulence, we investigate Lagrangian power statistics across four local velocity-gradient topology classes and three nonzero stratification strengths, with an unstratified reference case. With increasing stratification, the global power variance decreases while the standardized skewness becomes more negative, indicating enhanced asymmetry despite weaker fluctuations. Conditioning on local topology reveals distinct responses: axial-strain-dominated regions exhibit the most negative total-power skewness at all stratification strengths, whereas biaxial-strain-dominated regions change sign from positive to negative under stratification. Horizontal and vertical component powers also respond differently, revealing directional dependence. Among the dynamical contributions to power, the pressure contribution, nearly symmetric in the unstratified case, becomes more negatively skewed with increasing stratification. Energy-conditioned pressure statistics further indicate altered pressure-mediated energy redistribution. Finally, tracer persistence-time distributions exhibit exponential tails, with time scales that differ across topology classes and respond differently to stratification. Increasing stratification is thus accompanied by three concurrent changes: enhanced asymmetry of Lagrangian power, modified energy redistribution by pressure, and altered temporal sampling of local flow structures by tracers. These co-occurring signatures characterize the response to stratification, though their causal relations remain to be established.",
+      "external_ids": [
+        "arxiv:2611.05282"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-04T15:16:05+08:00",
+      "last_seen_at": "2026-11-04T15:16:05+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.05362",
+      "arxiv_version": "v1",
+      "title": "Deconfinement Confined to the Heaviest Neutron Stars: Strange Quark Matter from a Flavor-Dressed Contact Interaction",
+      "authors": [
+        "Aftab Ahmad",
+        "Noreen Akhter",
+        "Alfredo Raya"
+      ],
+      "published": "2026-11-03",
+      "url": "https://arxiv.org/abs/2611.05362",
+      "abstract": "We study cold, electrically neutral, beta-equilibrated quark matter with u, d, and s quarks described by a symmetry-preserving contact interaction whose parameters are fixed in vacuum. The vector repulsion is varied as a fraction 0 < eta < 3/2 of the scalar coupling, and results are given with and without the flavor dressing of the effective coupling. Pure quark matter is not self-bound in this model, and no value of eta produces a star that reaches two solar masses while satisfying the tidal constraint from GW170817; the heaviest configurations owe their mass to an envelope of constituent quarks. We then construct hybrid stars with a relativistic mean-field hadronic phase fitted to GM1 saturation properties, using both Maxwell and Gibbs constructions and a deconfinement bag shift. Tying deconfinement to chiral restoration and requiring a continuous pressure yields an upper bound on this shift. Within that bound, quark matter appears inside stable stars only for eta < 1/2, never below about 4 n0, and only in stars between 2.2 and 2.35Msun, over a stable mass window of at most 0.02Msun. The vector strength that pure quark stars need to become massive prevents deconfinement in hybrid stars. Radii and tidal deformabilities of intermediate-mass stars are therefore set by the hadronic EoS alone; with the softer SLy4 EoS the transition moves to the maximum-mass configuration itself.",
+      "external_ids": [
+        "arxiv:2611.05362"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-04T15:16:05+08:00",
+      "last_seen_at": "2026-11-04T15:16:05+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.05338",
+      "arxiv_version": "v1",
+      "title": "Bright Siren Cosmology Beyond Fisher: DALI Forecasts for Third-Generation Gravitational Wave Observatories",
+      "authors": [
+        "Mayara H. Pacheco",
+        "Josiel M. S. de Souza",
+        "Odylio D. Aguiar",
+        "Márcio E. S. Alves"
+      ],
+      "published": "2026-11-03",
+      "url": "https://arxiv.org/abs/2611.05338",
+      "abstract": "In this work we assess non-Gaussian extensions of Fisher forecasting based on the Derivative Approximation for Likelihoods (DALI). We simulate ensembles of bright siren catalogs for third-generation observatories, adopting a Cosmic Explorer (CE) and a triangular Einstein Telescope (ET) network, frequency-domain inspiral waveforms, and selection-motivated priors for counterpart detection. We reconstruct approximate likelihoods using Fisher and the first DALI correction (Doublet), and propagate the inferred distance information to cosmological inference in a w0waCDM model. We find that the Doublet approximation provides tighter cosmological constraints than the Fisher approximation, reducing the inferred uncertainties by approximately a factor of two in agreement with non-approximate likelihood (called Exact) results. For our GW network onfiguration, 300 bright-siren detections up to z=1 yield an H0 precision of ~2.7% with the Doublet approximation, compared with ~2.5% for the exact likelihood. The adopted non-Gaussian GW priors induce a systematic displacement of the inferred luminosity distances from the fiducial values, which is also present in the exact GW reconstruction and propagates into the cosmological parameters. Compared with the exact cosmological likelihood, the Doublet results differ by only ~10% on average in the parameter uncertainties, compared with ~195% for the traditional Fisher approximation. The Doublet approximation also substantially reduces the computational cost, by a factor of ~55 for the GW analysis and by ~12 for cosmological likelihood evaluations, yielding an estimated reduction of ~55 in the total computational cost of the combined analysis. Our results show the potential of DALI-based approximations to provide accurate and computationally efficient tools for forecasting in bright siren cosmology.",
+      "external_ids": [
+        "arxiv:2611.05338"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-04T15:16:05+08:00",
+      "last_seen_at": "2026-11-04T15:16:05+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.05276",
+      "arxiv_version": "v1",
+      "title": "De Rham cohomological architectures for PINNs and PDEs with topological holes",
+      "authors": [
+        "Andrew Gracyk"
+      ],
+      "published": "2026-11-03",
+      "url": "https://arxiv.org/abs/2611.05276",
+      "abstract": "We attempt to alleviate failure modes of classical physics-informed neural networks (PINNs) in scenarios of topological pathologies corresponding to punctures, holes, poles, and voids by introducing de Rham cohomological augmentations, or Hodge-de Rham PINNs. Vanilla PINNs often encounter pitfalls in hole-based settings due to discontinuous interfaces, nonzero closed path integration, path dependence, correspondence to exact forms via the exterior derivative, etc., therefore we absolve traditional failures via parameterizing a 1-form by the Hodge-Morrey-Friedrichs (HMF) decomposition for manifolds with boundary, drawing a connection to de Rham cohomology such as through the HMF isomorphism theorem. 1-forms can act as representations of scalar-valued PDE solutions through integral operator mappings. We propose performing a PINN-based loss on the parameterized 1-form through an associated PDE, which subsequently solves the potential-based PINN problem and moreover remedies the failures of vanilla PINNs via the Sobolev-regular operator under a Fréchet differentiation interconnection. The operator relationship often has a nontrivial closed-form and often requires integration or a case-by-case analysis, which we address thoroughly in our experiments. When an integrability condition is not met on our losses, we can equip exhaustion functions to train the networks. We demonstrate our methods on the Aharonov-Bohm effect, which, to our understanding, is largely nonexistent in PINN literature. We develop theoretical guarantees of our methods and demonstrate our pathological safeguards on a broad selection of topologically-adverse problems, including scenarios of inexact forms, and those of nontrivial harmonics and coexact terms.",
+      "external_ids": [
+        "arxiv:2611.05276"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-04T15:16:05+08:00",
+      "last_seen_at": "2026-11-04T15:16:05+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.05222",
+      "arxiv_version": "v1",
+      "title": "Fairness Metrics based on the AUC in Clinical Predictive AI",
+      "authors": [
+        "João Matos",
+        "Ben Van Calster",
+        "Richard D. Riley",
+        "Paula Dhiman",
+        "Gary S. Collins"
+      ],
+      "published": "2026-11-03",
+      "url": "https://arxiv.org/abs/2611.05222",
+      "abstract": "Fairness evaluation of clinical prediction models for binary outcomes often involves fairness metrics that compare the area under the receiver operating characteristic curve (AUC, or c-statistic) across subgroups. However, the AUC has been shown to be a non-collapsible metric, meaning that its subgroup specific and overall values are not directly comparable as often implicitly assumed. This raises important questions about how existing AUC-based fairness metrics should be used and interpreted. We examine eight AUC-based fairness metrics proposed in the literature, including: within-group AUC parity; cross-group AUC (xAUC) parity; gap-to-overall AUC; equity-scaled AUC; minimum-based metrics; $\\mathrm{xAUC}^1$; $\\mathrm{xAUC}^0$; and $\\mathrm{xAUC}^1$ or $\\mathrm{xAUC}^0$ parity. We characterise their estimands, relate them to the decomposition of overall AUC (into within- and cross-group components), and critically appraise them. We then illustrate their behaviour using simulations based on the EuroSCORE II, a clinical prediction model for in-hospital mortality. We recommend reporting an AUC matrix, containing the overall AUC and all within- and cross-group AUC components, alongside population characteristics. When fairness metrics are needed, we recommend reporting the within-group AUC parity, with cross-group AUC parity providing supplementary information but requiring caution due to its potential conflict with calibration. Metrics involving $\\mathrm{xAUC}^1$ and $\\mathrm{xAUC}^0$ have merit, summarising within- and cross-group AUCs into single values, but their interpretation is non-trivial, and they should be used with caution. Gap-to-overall AUC, equity-scaled AUC, and minimum-based metrics compare quantities that should not be compared and it is unclear how to operationalise them, making them not fit for purpose and generally not recommended.",
+      "external_ids": [
+        "arxiv:2611.05222"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-04T15:16:05+08:00",
+      "last_seen_at": "2026-11-04T15:16:05+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.05372",
+      "arxiv_version": "v1",
+      "title": "PolicyIK: High-Precision Inverse Kinematics for Robot Arms with Reinforcement Learning",
+      "authors": [
+        "Yuhan Liu",
+        "Xinqi Liu",
+        "Zixuan Dong",
+        "Keith W. Ross",
+        "Shenji Wan"
+      ],
+      "published": "2026-11-03",
+      "url": "https://arxiv.org/abs/2611.05372",
+      "abstract": "Inverse kinematics (IK) converts end-effector pose commands into joint motion, and many vision-language-action (VLA) policies rely on it to act on a given arm and to transfer across embodiments. Precise IK remains laborious: redundancy and singularities complicate the inverse mapping, execution depends on hand-tuned controllers, and training data on physical robots are costly to collect. We present PolicyIK, a goal-conditioned reinforcement learning policy for high-precision IK. It updates joint-position references from pose feedback and observes its accumulated reference relative to the measured joints, so it can retain the offset that the position controller needs at rest. Two-scale pose errors with an error-dependent action gain resolve millimeter residuals while preserving large motions. Progress and dwell rewards teach it to both reach the tolerance and stay within it. In simulation, a single attempt by the trained PPO policy keeps the mean errors over the final second within 1 mm and 0.2° on 93.5% of held-out tasks, and a deployment protocol raises success to 98.9%. When trained directly on a physical arm with an off-policy RL learner, PolicyIK achieves higher reaching and holding success than all four classical IK controllers under the same time budgets. In simulated pick-and-place, PolicyIK executes the end-effector commands of the $π_{0.5}$ VLA policy with 95.7% success. These results show that reinforcement learning can provide high-precision inverse kinematics for robot arms. Code is available at https://github.com/Tinaliu0123/PolicyIK.",
+      "external_ids": [
+        "arxiv:2611.05372"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-04T15:16:05+08:00",
+      "last_seen_at": "2026-11-04T15:16:05+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.05351",
+      "arxiv_version": "v1",
+      "title": "Mapping large-scale structure without galaxy formation - combining fast radio bursts with CMB lensing",
+      "authors": [
+        "James M. Sullivan",
+        "Kiyoshi Masui",
+        "Ryan Raikman",
+        "Shion Andrew",
+        "Haochen Wang"
+      ],
+      "published": "2026-11-03",
+      "url": "https://arxiv.org/abs/2611.05351",
+      "abstract": "Fast radio bursts (FRBs) are an emerging precision probe of cosmological fluctuations. The amount and quality of observed FRB data will grow enormously over the next decade. FRB dispersion data directly probe the free electron distribution up to intergalactic scales. Precision models of the free electron distribution are necessary to exploit this exciting new probe of large-scale structure. We show that the free electron distribution almost exactly follows the total matter distribution. We confirm this fact by estimating the electron field-level bias parameters for the first time from the FLAMINGO simulations. With simulation-based knowledge of a handful of electron free parameters, the electron distribution largely acts as a second realization of the matter distribution. Working on large scales, we can leverage this fact to combine FRB correlations with those of Cosmic Microwave Background (CMB) weak lensing to constrain cosmological parameters. Assuming access to localized FRBs with redshifts, we perform cosmological forecasts using these two large-scale matter probes, which have no strong dependence on baryonic feedback models nor on parameters that encode galaxy formation. We show that the parameters $σ_8$ and $Ω_m$ are constrained at a level similar to or better than that obtained by combining FRB dispersion with weak lensing of galaxy shapes under conservative assumptions. These results motivate the use of FRB data as a complementary probe of cosmic structure and will be especially compelling as redshifts become available for localized FRB host galaxies.",
+      "external_ids": [
+        "arxiv:2611.05351"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-04T15:16:05+08:00",
+      "last_seen_at": "2026-11-04T15:16:05+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.05349",
+      "arxiv_version": "v1",
+      "title": "UV spectra of little red dots: Broad-line N/C, gas recycling and black hole masses",
+      "authors": [
+        "Albert Sneppen",
+        "Darach Watson",
+        "Lucy R. Ivey",
+        "Kasper E. Heintz",
+        "Alex J. Cameron",
+        "Joris Witstok",
+        "Vadim Rusakov",
+        "James H. Matthews",
+        "Rasmus Damgaard",
+        "Georgios Nikopoulos",
+        "Vasily Belokurov"
+      ],
+      "published": "2026-11-03",
+      "url": "https://arxiv.org/abs/2611.05349",
+      "abstract": "Radiative-transfer models of supermassive black holes accreting inside dense gas cocoons reproduce the X-ray-to-near-infrared spectral energy distribution of \"little red dots\" (LRDs) using the code Sirocco. In the ultraviolet, these models also predict weak broad emission lines and a series of metal absorption lines, which deep spectroscopy from the JWST SPURS survey now detects in several LRDs. Here we use the models to interpret these features. We find that N and C ions of equal charge (3+ or 2+) occupy largely the same gas in the simulations, such that the combination of the broad N IV]/C IV and N III]/C III] flux ratios simultaneously constrains both the electron density and the N/C abundance ratio of the gas in the LRD proper. The nitrogen and carbon emission of SPURS-GN-2, an LRD at $z=7.19$, requires an order of magnitude nitrogen excess compared to the solar value, N/C $= 12^{+3}_{-2}$ (N/C)$_\\odot$, in the broad-line gas with electron density $\\log n_e = 9.7^{+0.3}_{-0.5}$ cm$^{-3}$. Thus, around half the broad-line CNO nuclei have passed through hydrogen burning. Because the ionised gas is replaced on a century timescale, sustaining this enrichment favours gas recycling. UV absorption lines test this independently. In two of the four LRDs, line blueshift velocities clearly increase with the photon energy required to ionise the absorber gas. In the models the absorption lines are spatially stratified, indicating that the gas is launched near the escape speed and slowed by gravity. In GN-2, where the measurement can be made, the inferred deceleration requires radiation pressure close to the Eddington limit of a $10^{6-7}$ M$_\\odot$ black hole. The lines are also typically strongly saturated, making inferences of direct abundance ratios misleading.",
+      "external_ids": [
+        "arxiv:2611.05349"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-04T15:16:05+08:00",
+      "last_seen_at": "2026-11-04T15:16:05+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.05327",
+      "arxiv_version": "v1",
+      "title": "Remap for ALE Hydrodynamics via Direct Interpolation and Constraint Optimization",
+      "authors": [
+        "Brendan Keith",
+        "Dohyun Kim",
+        "Boyan Lazarov",
+        "Ketan Mittal",
+        "Cosmin G. Petra",
+        "Mathias R. Schmidt",
+        "Vladimir Z. Tomov"
+      ],
+      "published": "2026-11-03",
+      "url": "https://arxiv.org/abs/2611.05327",
+      "abstract": "This work presents an optimization-based remap approach for arbitrary Lagrangian-Eulerian (ALE) hydrodynamics that preserves sharp features and physical bounds while conserving global quantities such as volume, mass, momentum, and total energy. Achieving these properties is the main challenge in remap methods. The presented approach is well-suited for high-order finite element (FE) discretizations and ALE methods that allow for large, purely Lagrangian displacements between successive remeshing and remapping steps. Recent advances in parallel, GPU-capable interpolation routines enable the initial transfer of all fields via direct physical-space interpolation, avoiding computationally costly and diffusive pseudo-transient PDE-based advection. The interpolation produces bounded fields with minimal numerical diffusion. However, it may violate the desired conservation of global properties. Thus, a subsequent optimization step restores conservation while preserving physical bounds. The presented method provides minimally diffusive remapping of finite element fields of arbitrary order. Moreover, it directly remaps quantities defined at integration points, eliminating the need for projection onto finite element spaces. The approach also mitigates typical challenges associated with synchronizing primal variables and conserved quantities in advection-based remap methods. The proposed optimization-based remap method is evaluated using standard two- and three-dimensional remap benchmarks and full ALE hydrodynamics simulations.",
+      "external_ids": [
+        "arxiv:2611.05327"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics",
+        "global illumination real-time",
+        "ray tracing global illumination",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-04T15:16:05+08:00",
+      "last_seen_at": "2026-11-04T15:16:05+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.05320",
+      "arxiv_version": "v1",
+      "title": "PyRUA-DataFarm: LLM Agent as a Cost-Efficient Teleoperator for Real-Ready Robot Data",
+      "authors": [
+        "Kewei Zhang",
+        "Juncheng Ma",
+        "Guodong Lv",
+        "Duomin Wang",
+        "Feixiang Ruan",
+        "Ruiyang Si",
+        "Chuanrui Zhang",
+        "Yuxuan Chen",
+        "Hao Chen",
+        "Yichen Liu",
+        "Yintianrun Zhang",
+        "Yufan Deng",
+        "Enze Xie",
+        "Daquan Zhou"
+      ],
+      "published": "2026-11-03",
+      "url": "https://arxiv.org/abs/2611.05320",
+      "abstract": "Teleoperation remains the default way to collect robot demonstrations, but every episode costs robot and operator time, and every new task starts from scratch. We ask whether a coding agent can take over the teleoperator's job. In our DataFarm, the agent receives a data request and one calibration episode of the robot in the target scene and rebuilds the task in simulation: it writes the scene, an expert controller, and a success judge. The simulator supplies exact actions, and a video model conditioned on real images renders each rollout as photographic video, generating all camera views together consistently. The output is real-ready data: synchronized camera views labelled with the robot's actions, on which a policy can be trained directly and deployed on the real robot. Independent judges certify the expert and every rendered episode before admission. On five real-robot tasks, policies trained only on farm data match policies trained on as many teleoperated episodes (93 vs. 84 successes in 100 trials), and under an unseen tablecloth and coloured light they keep 87 successes where the teleoperation-trained policies fall to 46. Adapting a task is fully automatic and costs \\$21 of API usage on average, paid once per task, plus \\$5 for a render contract; every further episode costs \\$0.80 on average for simulation, rendering, and review, with no robot or operator. One hour of three-view data for a task costs \\$107 on average, these costs included, slightly below a quote of \\$117 for teleoperation in China and below \\$290 in labour alone in North America.",
+      "external_ids": [
+        "arxiv:2611.05320"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "global illumination real-time"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-04T15:16:05+08:00",
+      "last_seen_at": "2026-11-04T15:16:05+08:00"
+    }
+  ]
+}
