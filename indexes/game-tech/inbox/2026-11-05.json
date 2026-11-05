@@ -1,0 +1,345 @@
+{
+  "date": "2026-11-05",
+  "run": {
+    "at": "2026-11-05T15:45:09+08:00",
+    "sources": [
+      "arxiv",
+      "semanticscholar",
+      "dblp"
+    ],
+    "keywords": [
+      "material point method cloth",
+      "\"position based\" dynamics cloth",
+      "incremental potential contact",
+      "real-time fluid simulation graphics",
+      "global illumination real-time",
+      "ray tracing global illumination",
+      "MLS-MPM",
+      "projective dynamics cloth"
+    ],
+    "fetched": 92,
+    "merged": 17,
+    "new": 11
+  },
+  "new_candidates": [
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.06885",
+      "arxiv_version": "v1",
+      "title": "On Natural Exponential Families with Log-Affine Generalized Variance",
+      "authors": [
+        "Zeyu Cao",
+        "Shaosai Huang"
+      ],
+      "published": "2026-11-04",
+      "url": "https://arxiv.org/abs/2611.06885",
+      "abstract": "We study natural exponential families whose generalized variance, the determinant of the covariance matrix, is log-affine in the natural parameter. Without any assumption on the natural parameter domain, we show that every such family is regular and that it is Gaussian when its generalized variance is constant. Consequently, a sample of size $n>d$ in $\\mathbb{R}^d$ comes from a non-degenerate normal law exactly when the conditional expectation of the sample generalized variance given the sample mean is a positive constant. Every non-Gaussian family puts mass on a facet of its convex support, and, as for a Poisson count, its height above that facet takes only integer multiples of a fixed step. More generally, its displacement away from any exposed face that carries mass has nonnegative integer coordinates in a suitable basis. A local inequality between third and fourth cumulants singles out the Poisson--Gaussian families and yields a complete classification of the infinitely divisible ones. Geometrically, a semi-flat Kähler tube, whose potential has constant Hessian determinant, is flat if some multiple of its metric is projectively induced near a point.",
+      "external_ids": [
+        "arxiv:2611.06885"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "incremental potential contact",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-05T15:45:09+08:00",
+      "last_seen_at": "2026-11-05T15:45:09+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.06882",
+      "arxiv_version": "v1",
+      "title": "Odd Capillarity",
+      "authors": [
+        "Nadia Bihari Padhan",
+        "Axel Voigt"
+      ],
+      "published": "2026-11-04",
+      "url": "https://arxiv.org/abs/2611.06882",
+      "abstract": "Capillarity governs interfacial relaxation and hydrodynamic motion in binary fluids through parity-even mechanical stresses. Here, we introduce \\emph{odd capillarity}, a parity-breaking interfacial mechanical response, by incorporating a symmetric, nonvariational, parity-odd capillary stress into the Cahn--Hilliard--Navier--Stokes (CHNS) equations. This stress generates forces along interfaces, transverse to ordinary capillary forces, and performs mechanical work that is not balanced by changes in the composition free energy. Direct numerical simulations reveal that odd capillarity arrests domain coarsening while sustaining turbulent fluid motion without a conventional inertial energy cascade, as energy injection is predominantly balanced by viscous dissipation. In asymmetric mixtures, odd capillarity driven deformation and breakup interrupt droplet growth, producing dynamically arrested emulsions with composition hyperuniformity and suppressed large-scale vorticity fluctuations. These findings establish odd capillarity as a distinct interfacial mechanism for controlling phase separation and sustaining nonequilibrium fluid motion.",
+      "external_ids": [
+        "arxiv:2611.06882"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-05T15:45:09+08:00",
+      "last_seen_at": "2026-11-05T15:45:09+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.06872",
+      "arxiv_version": "v1",
+      "title": "Magnetohydrodynamics During Reheating",
+      "authors": [
+        "Sovan Sau",
+        "Subhasis Maiti",
+        "Sahel Dey",
+        "Alberto Roper Pol",
+        "Debaprasad Maity"
+      ],
+      "published": "2026-11-04",
+      "url": "https://arxiv.org/abs/2611.06872",
+      "abstract": "Reheating is a crucial phase that connects inflation with the hot Big Bang Universe. During this phase, the nonlinear interactions among the inflaton, the radiation plasma, and the primordial magnetic fields can influence the subsequent evolution of cosmic structures we observe today. In this paper, we develop a multifluid framework to investigate the evolution of three dimensional nonlinear magnetohydrodynamics (MHD) during the non instantaneous reheating phase driven by the perturbative decay of the inflaton into the radiation plasma. For the present paper, we consider the simplest scenario where the inflaton field homogeneously injects energy into the radiation sector. We study the MHD evolution of the coupled inflaton radiation system during the reheating phase, including the evolution of their individual kinetic energies, the velocity perturbations, vorticity, magnetic fields, and gravitational waves. We find that homogeneous energy transfer from the inflaton to the radiation sector increases the radiation and kinetic energy densities but does not significantly amplify the initial magnetic field perturbations. Consequently, the magnetic spectrum remains largely unchanged with respect to the instantaneous reheating scenario, while the velocity perturbations undergo a scale redistribution that affects the resulting GW spectrum. Our results demonstrate the importance of nonlinear multifluid MHD dynamics in understanding the evolution of primordial fields during reheating and provide a framework for exploring more realistic scenarios involving inhomogeneous decay processes and detailed thermalization effects.",
+      "external_ids": [
+        "arxiv:2611.06872"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-05T15:45:09+08:00",
+      "last_seen_at": "2026-11-05T15:45:09+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.06908",
+      "arxiv_version": "v1",
+      "title": "Perceptive Humanoid Motion from Simulation",
+      "authors": [
+        "Siyuan Hu",
+        "Abulikemu Abuduweili",
+        "Yue Meng",
+        "Shipeng Liu",
+        "Quentin Leboutet",
+        "Chen Chen",
+        "Matthias Müller",
+        "Vladlen Koltun"
+      ],
+      "published": "2026-11-04",
+      "url": "https://arxiv.org/abs/2611.06908",
+      "abstract": "Humanoid robots have the potential to automate a wide range of physical tasks. Progress toward generalist humanoid autonomy, however, remains constrained by a data bottleneck: mapping pixels and free-form language to low-level joint commands requires paired supervision, and no corpus of such data exists at sufficiently large scale. Some approaches rely on human teleoperation and wearable capture devices, which require at least an hour of human time to produce an hour of data. We present HALO, a humanoid autonomy system powered by a pipeline that synthesizes vision-language-motion data across a thousand procedurally generated homes. The corpus scales with compute rather than human labor. HALO acquires a repertoire of physical skills, including sitting on chairs, navigating to named objects, stepping sideways through half-open doors, crouching and crawling beneath tables, and pushing boxes. It orchestrates these skills to solve composite, long-horizon tasks. Without ever seeing a real home during training, HALO transfers zero-shot to the physical world, achieving a 91% success rate across 360 trials in six unmapped real-world environments. See https://apple-aiml-research.github.io/ml-halo/ for code and videos.",
+      "external_ids": [
+        "arxiv:2611.06908"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact",
+        "real-time fluid simulation graphics",
+        "global illumination real-time"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-05T15:45:09+08:00",
+      "last_seen_at": "2026-11-05T15:45:09+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.06787",
+      "arxiv_version": "v1",
+      "title": "Cosmological Backreaction and the Separate Universe Conjecture: Dynamical volume partitioning of Newtonian cosmologies",
+      "authors": [
+        "Thomas Buchert",
+        "Jan J. Ostrowski",
+        "Alfred Bovon"
+      ],
+      "published": "2026-11-04",
+      "url": "https://arxiv.org/abs/2611.06787",
+      "abstract": "We provide a description of general Newtonian cosmologies for collisionless matter in terms of an exact and dynamical volume partitioning of global realizations of Newtonian models. Employing the formalism for the description of cosmological backreaction, an interaction between the inhomogeneities of the formation of structures in the Universe and their average properties can be analyzed. Our results can be regarded as a tool for many potential applications in the context of Newtonian simulations, but they also provide an exact way to assume analytical properties of the universe models on regional scales in conformity with global integral constraints on their average properties. We discuss approaches in relation to `separate Universe conjectures' in the literature and examine their consistency with the exact partitioning framework. In particular, using the Average Expansion Rate Approximation (AvERA) as an example, we show that identifying locally assigned Friedmannian rates with physical regional expansion rates is constrained by the global Newtonian 3-torus condition. Alternatively, when the simulation cells are interpreted as non-material control volumes, Reynolds transport introduces mass flux and flux-backreaction terms, so that their dynamics is not in general that of independent Friedmann domains. We also discuss the corresponding consistency conditions for stable clustering prescriptions.",
+      "external_ids": [
+        "arxiv:2611.06787"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-05T15:45:09+08:00",
+      "last_seen_at": "2026-11-05T15:45:09+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.06914",
+      "arxiv_version": "v1",
+      "title": "A Framework for Context Enrichment and Selective Robustness in LLM Social Agents",
+      "authors": [
+        "Mattia Greiche",
+        "Reihaneh Rabbany",
+        "Maximilian Puelma Touzel"
+      ],
+      "published": "2026-11-04",
+      "url": "https://arxiv.org/abs/2611.06914",
+      "abstract": "Researchers use large language models as agents in social simulations, where agents are prompted with observations and background information intended to shape their actions. Yet LLM agents have been shown to substantially change their behavior under meaning-preserving prompt variations, creating a validation problem for social simulation. One plausible hypothesis is that this brittleness reflects a lack of grounding and can be reduced by enriching the context provided to the agents. Whether richer context improves robustness remains unclear, in part because context richness and robustness are rarely defined in ways that support controlled comparisons. We address the first need with controlled context enrichment, a set of prompt substitution rules that systematically enriches distinct types of context: neutral padding, generic social background, descriptive decision grounding, and normative decision grounding. We address the second by introducing selective robustness as a validation criterion: insensitivity to meaning-preserving prompt variation combined with a directional response to decision-relevant changes in the social world. We demonstrate the framework in a Prisoner's Dilemma-like game, showing how it can be used to identify which forms of context enrichment produce more desirable and robust agent behavior. We find that these forms of enrichment produce distinct behavioral patterns that vary between the two models tested.",
+      "external_ids": [
+        "arxiv:2611.06914"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-05T15:45:09+08:00",
+      "last_seen_at": "2026-11-05T15:45:09+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.06884",
+      "arxiv_version": "v1",
+      "title": "Charged Three-Dimensional Solitons in a Ferroelectric Nematic Liquid Crystal",
+      "authors": [
+        "Netra Prasad Dhakal",
+        "Zakaria Siddiquee",
+        "Hiroya Nishikawa",
+        "Fumito Araoka",
+        "James Gleeson",
+        "Samuel Sprunt",
+        "Antal Jakli"
+      ],
+      "published": "2026-11-04",
+      "url": "https://arxiv.org/abs/2611.06884",
+      "abstract": "Experimental observations and computer simulation of formation and structural properties of so far experimentally never seen electrically charged propagating 3D solitons are reported. The propagating solitons appear spontaneously without an external field in a ferroelectric nematic (NF) liquid crystal under rapid cooling from the antiferroelectric (SmZA) phase. The observed solitons propagate either parallel or antiparallel to the ferroelectric polarization and annihilate when they collide with each other. They are attributed to either positively or negatively charged propagating local polarization splay formed to screen excess negative or positive mobile charge lumps in the NF phase. The presence of mobile charge is attributed to a spatially periodic charge distribution present in the antiferroelectric phase that temporarily remains after the temperature is quenched through the antiferroelectric- ferroelectric phase transition.",
+      "external_ids": [
+        "arxiv:2611.06884"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-05T15:45:09+08:00",
+      "last_seen_at": "2026-11-05T15:45:09+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.06881",
+      "arxiv_version": "v1",
+      "title": "VABAR: A Variational Automation Benchmark for Agentic Robotics",
+      "authors": [
+        "Shuangyu Xie",
+        "Kaiyuan Chen",
+        "Uksang Yoo",
+        "Xinyue Zhu",
+        "Meadow Shen",
+        "Jaimyn Drake",
+        "Eugen Solowjow",
+        "Lionel Gulich",
+        "Alexander Millane",
+        "Rafael Cathomen",
+        "Tuur Stuyck",
+        "Sangeeta Subramanian",
+        "Yichao Pan",
+        "Bruce McGowan",
+        "Michael Benedict",
+        "Linxi Fan",
+        "Yuke Zhu",
+        "Spencer Huang",
+        "Ken Goldberg"
+      ],
+      "published": "2026-11-04",
+      "url": "https://arxiv.org/abs/2611.06881",
+      "abstract": "For robots to operate reliably in commercial and industrial applications, they must persistently perform specific tasks with known variations in object shape and pose. We call this Variational Automation (VA) to differentiate these settings from fixed automation. Inspired by recent papers on Agentic Robotics, where pretrained LLM and VLM coding agents combine interpretable robot programming with the open-world adaptability of model free policies, we propose a general set of agentic robotics benchmark design criteria that includes accessibility, repeatability, diversity, relevance to agentic robotics and practical applications, physical realizability, resistance to benchmark saturation, and computational efficiency. We instantiate these principles in six manipulation task classes spanning industrial, medical, and infrastructure applications: tool sorting, tool hanging, gear meshing, syringe packing, cable insertion, and cable routing. We introduce the Variational Automation Benchmark for Agentic Robotics (VABAR), an open, easily replicable, simulation-based manipulation benchmark to systematically evaluating agentic robotics systems. Built fully on open-source tools, VABAR features detailed implementations using the Newton physics engine, standardized task variations, difficulty tiers, success metrics, and a library of 33 generalizable skills with human-authored programmatic reference solutions. We provide initial baseline evaluations using an open agentic manipulation harness, Graph-as-Policy (GaP), and Isaac Lab Arena.",
+      "external_ids": [
+        "arxiv:2611.06881"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-05T15:45:09+08:00",
+      "last_seen_at": "2026-11-05T15:45:09+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.06880",
+      "arxiv_version": "v1",
+      "title": "Simulating a chiral gauge theory",
+      "authors": [
+        "Laurens Lootens",
+        "Hersh Singh"
+      ],
+      "published": "2026-11-04",
+      "url": "https://arxiv.org/abs/2611.06880",
+      "abstract": "Chiral gauge theories underlie the Standard Model, yet none has been simulated nonperturbatively. Lattice constructions that evade the Nielsen-Ninomiya obstruction entail complex fermion measures or infinite-dimensional local Hilbert spaces. Here we provide a gauge-invariant Hamiltonian lattice regularization of 1+1-dimensional abelian chiral gauge theories built from clock-and-shift qudits with $\\mathbb{Z}_N$ gauge fields, in which the global chiral symmetry and its 't Hooft anomaly survive exactly mod $N$. Anomaly cancellation on the lattice lets the Gauss laws be imposed and solved exactly, reducing the theory to an unconstrained qudit chain. Using infinite matrix product states, we simulate the canonical 1+1-dimensional chiral gauge theory, the 34-50 model, and find excellent agreement with analytic predictions, showing that a finite-dimensional local Hilbert space at $N=6$ reproduces the expected infrared physics of the continuum 34-50 model. This provides an efficient and practical solution to the problem of simulating general abelian chiral gauge theories in 1+1 dimensions, both on classical and quantum computers.",
+      "external_ids": [
+        "arxiv:2611.06880"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics",
+        "global illumination real-time",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-05T15:45:09+08:00",
+      "last_seen_at": "2026-11-05T15:45:09+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.06847",
+      "arxiv_version": "v1",
+      "title": "Inherited Local Shrinkage for Adaptive Functional Form Discovery",
+      "authors": [
+        "Jacob C. Schultz",
+        "Daniel Taylor-Rodriguez"
+      ],
+      "published": "2026-11-04",
+      "url": "https://arxiv.org/abs/2611.06847",
+      "abstract": "Statistical models frequently employ nonlinear effects, interactions, and multiresolution basis expansions to represent complex relationships between predictors and responses. Determining the appropriate level of model complexity, however, remains a fundamental challenge. This paper introduces \\textit{Inherited Local Shrinkage} (ILS), a Bayesian global-local shrinkage framework for adaptive functional form discovery that incorporates strong heredity among hierarchically related predictors. ILS propagates shrinkage through directed acyclic graphs (DAGs) encoding relationships among predictors, allowing increasingly complex terms to contribute only when supported by their simpler ancestors. This construction provides a common prior framework for a broad class of hierarchical regression models. We demonstrate its application to polynomial regression, as well as multiresolution modeling with two-dimensional Haar wavelet and eigenvalue-ordered spline (EVOS) bases. Although these examples illustrate specific basis systems, ILS is not tied to any particular basis construction and can be applied to any regression model in which relationships among predictors can be represented by a DAG, regardless of the graph's size or topology. Simulation studies demonstrate that ILS achieves competitive predictive performance relative to existing heredity-constrained methods while recovering underlying functional structure. Spatial applications further illustrate its ability to adaptively regulate model complexity across multiple resolutions, identifying where finer-scale detail is supported by the data. Together, these results establish ILS as a flexible framework for hierarchical complexity control and adaptive functional form discovery in Bayesian regression.",
+      "external_ids": [
+        "arxiv:2611.06847"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics",
+        "global illumination real-time",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-05T15:45:09+08:00",
+      "last_seen_at": "2026-11-05T15:45:09+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.06819",
+      "arxiv_version": "v1",
+      "title": "GFlowQEC: Generative Flow Networks that Learn to Sample Quantum LDPC Codes",
+      "authors": [
+        "Nuno Batista",
+        "Gabriel Falcao",
+        "Penousal Machado"
+      ],
+      "published": "2026-11-04",
+      "url": "https://arxiv.org/abs/2611.06819",
+      "abstract": "Choosing a quantum error-correcting code for a real device means scoring candidates with circuit-level simulations so slow that only a few hundred can be run. So every evaluation counts, and a search is judged by how many good codes it finds per paid evaluation. Quantum LDPC codes built from a few group elements protect many logical qubits, but good ones are rare in a huge space. We introduce GFlowQEC, to our knowledge the first generative flow network (GFlowNet) for quantum code design. It builds a code one group element at a time and learns to propose codes in proportion to a power of their score. We train it once on scores from earlier searches, freeze it, and let it propose lifted-product codes with 180 physical qubits, scored by their distances. Ranking ten of its draws per paid call, it finds more than twice as many new top-scoring codes (inequivalent to any it was trained on) as tuned parallel tempering, even when tempering starts from GFlowQEC's training codes. It finds more than three and a half times as many as a supervised screen ranking ten random candidates per call. When both rank a hundred, the screen beats GFlowQEC, and does best ranking GFlowQEC's draws. Soft Q-learning, which shares the GFlowNet's optimal policy, does as well at one noise bias and better at the other, so the gain does not depend on the GFlowNet's training loss. Trained proposers can make a budget of expensive evaluations go further when good codes are rare.",
+      "external_ids": [
+        "arxiv:2611.06819"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "global illumination real-time"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-05T15:45:09+08:00",
+      "last_seen_at": "2026-11-05T15:45:09+08:00"
+    }
+  ]
+}
