@@ -1,6 +1,393 @@
 {
-  "updated_at": "2026-11-05T15:45:09+08:00",
+  "updated_at": "2026-11-06T15:38:41+08:00",
   "candidates": [
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.08468",
+      "arxiv_version": "v1",
+      "title": "An Accelerated Proximal Gradient Method for Bures-Wasserstein Space",
+      "authors": [
+        "Jakob Nylöf",
+        "Sloan Nietert",
+        "Julien Pallage",
+        "Giancarlo Ferrari-Trecate",
+        "Daniel Kuhn",
+        "John Lygeros"
+      ],
+      "published": "2026-11-05",
+      "url": "https://arxiv.org/abs/2611.08468",
+      "abstract": "We study composite optimization over the Bures--Wasserstein (BW) space of Gaussian measures. Our main observation is that a useful class of BW problems can be lifted into the Euclidean space of affine transport maps, such that the lifted problems can be solved efficiently using accelerated proximal gradient methods. For objectives whose smooth and nonsmooth components admit convex smooth and convex proximable affine lifts, respectively, our algorithm BW-FISTA achieves minimax-optimal objective gap $O(k^{-2})$ after $k$ iterations. We verify these regularity conditions for potential and interaction energies together with common spectral regularizers, and we treat stochastic gradients under a suitable noise model. As a principal application, we consider Gaussian variational inference with a log-concave, log-smooth target. Here, the resulting entropy term is handled by an efficient, exact proximal step, and we improve the previous rate of $O(k^{-1})$ to $O(k^{-2})$. We numerically verify this predicted boost with synthetic experiments.",
+      "external_ids": [
+        "arxiv:2611.08468"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-06T15:38:41+08:00",
+      "last_seen_at": "2026-11-06T15:38:41+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.08458",
+      "arxiv_version": "v1",
+      "title": "Latent RL Priors for Data-Efficient Dexterous Manipulation",
+      "authors": [
+        "Yixiao Wang",
+        "Peiyi Chen",
+        "Mustafa Mukadam",
+        "Shreekant Gayaka",
+        "Masayoshi Tomizuka",
+        "Son Tran"
+      ],
+      "published": "2026-11-05",
+      "url": "https://arxiv.org/abs/2611.08458",
+      "abstract": "Learning dexterous manipulation from limited visual demonstrations is challenging because policies must acquire both perceptual grounding and precise control, while reinforcement learning (RL) in simulation can acquire rich control behaviors from large-scale interaction with privileged information. We introduce \\textbf{Latent RL Prior}, a two-stage framework that reuses this control knowledge for data-efficient visual policy learning. During privileged pretraining, we distill large-scale RL rollouts into a flow-matching action decoder conditioned on proprioception and latent task context. During visual adaptation, we freeze the decoder and learn a visual interface that maps images to its latent context using action supervision alone, without privileged labels or latent targets. The same decoder can further be shared across arms by learning coordinated visual contexts for bimanual manipulation. Across three simulated tasks, our method outperforms full-parameter fine-tuning of $π_{0.5}$ and GR00T N1.7 in the low-data regime; on door lifting and bimanual assembly, it surpasses full-data baselines using $10\\times$ and $5\\times$ fewer demonstrations, respectively. Further analysis shows that direct visual-to-latent conditioning improves adaptation performance and training stability over routing visual predictions through the pretrained state encoder. Robustness to unseen mass variation and greater linear accessibility of contact-force information in decoder representations further provide evidence of retained RL-acquired control knowledge. Project website: https://yixiaowang7.github.io/latent-rl-prior-page/.",
+      "external_ids": [
+        "arxiv:2611.08458"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "incremental potential contact",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-06T15:38:41+08:00",
+      "last_seen_at": "2026-11-06T15:38:41+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.08455",
+      "arxiv_version": "v1",
+      "title": "Tusnády's problem and online two-sample thinning",
+      "authors": [
+        "Yuhao Lei"
+      ],
+      "published": "2026-11-05",
+      "url": "https://arxiv.org/abs/2611.08455",
+      "abstract": "We determine the sharp order of discrepancy in Tusnády's problem in every fixed dimension $d\\ge 2$. The largest combinatorial discrepancy of $N$ points in $\\mathbb{R}^d$ with respect to axis-parallel boxes is $Θ_d((\\log N)^{d-1/2})$, extending Wei's planar result and matching Nikolov's upper bound. More strongly, with high probability, this lower bound holds simultaneously for every subset obtained by deleting at most a sufficiently small fixed fraction of a uniform $N$-point sample. We apply this geometric estimate to online thinning of two independent samples of size $n$ from an unknown common distribution, where observations must be kept or discarded upon arrival. For every fixed dimension $k\\ge 1$ and expected deletion budget $ρn$, with $0<ρ<2$, we prove that the minimax expected prefix discrepancy over lower orthants is $Θ_{k,ρ}((\\log n)^{k+1/2})$. In dimension one, the optimal terminal discrepancy is instead $Θ_ρ((\\log\\log n)^{3/2})$, giving a sharp separation between the prefix and terminal objectives. For $k\\ge 2$, we obtain terminal bounds differing by a factor of $\\log n$. The lower bounds are based on Gaussian small-ball estimates for box-incidence matrices, while the upper bounds use stationary Metropolis thinning and, in one dimension, a terminal cancellation procedure.",
+      "external_ids": [
+        "arxiv:2611.08455"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-06T15:38:41+08:00",
+      "last_seen_at": "2026-11-06T15:38:41+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.08479",
+      "arxiv_version": "v1",
+      "title": "Flat-band systems: A platform to realize the moments of Quantum Metric",
+      "authors": [
+        "Rishi Gangadhar",
+        "Binayyak Roy",
+        "Vito Scarola",
+        "Sumanta Tewari"
+      ],
+      "published": "2026-11-05",
+      "url": "https://arxiv.org/abs/2611.08479",
+      "abstract": "The quantum metric is a fundamental geometric property of Bloch bands that governs a wide range of physical phenomena, yet experimentally accessing it remains challenging. We show that the momentum-space variation of the quantum metric can be probed through the real-space dynamics of a Gaussian wave packet prepared in an isolated flat band. Following the application of a weak constant force, we demonstrate analytically that the leading order change in the wave-packet variance is linear in time and contains a contribution proportional to the wave-packet averaged gradient of the quantum-metric trace. This geometric contribution remains finite despite the absence of band dispersion. We illustrate the effect using a gapped Lieb lattice with an exactly flat middle band and vanishing Berry curvature, allowing the quantum-metric contribution to the spreading to be isolated. The numerical results agree with the analytical prediction and confirm the quantum-metric contribution to the wave-packet spreading. The required lattice preparation, tunable hopping amplitudes, applied force, and density measurements are compatible with established ultracold-atom techniques, providing a possible platform for observing the predicted response. Our results establish wave-packet spreading as a dynamical probe of quantum geometry in flat-band systems.",
+      "external_ids": [
+        "arxiv:2611.08479"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics",
+        "global illumination real-time",
+        "ray tracing global illumination",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-06T15:38:41+08:00",
+      "last_seen_at": "2026-11-06T15:38:41+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.08459",
+      "arxiv_version": "v1",
+      "title": "Testing the Spin of New Physics with Top Precision Measurements",
+      "authors": [
+        "André Lessa",
+        "Vinícius Rocca",
+        "Veronica Sanz"
+      ],
+      "published": "2026-11-05",
+      "url": "https://arxiv.org/abs/2611.08459",
+      "abstract": "Precision measurements can reveal not only the presence of new physics, but also information about the dynamics that generated it. We study this question in top-pair production by comparing three top-philic scenarios: a colored scalar top partner, a colored vector-like fermion, and a spin-one $Z^\\prime$ mediator. The first two contribute through loop corrections, while the $Z^\\prime$ contributes at tree level. We show that the scalar and vector-like fermion scenarios match onto the same effective operator structure at low energies,making their distinction unfeasible using the EFT approach. However, near or above threshold their full loop amplitudes develop distinct momentum-dependent interference patterns. Using the top transverse momentum spectrum we find that resonant and loop-induced effects are relatively easy to distinguish, whereas separating the scalar and vector-like hypotheses is substantially more challenging. Nevertheless, their different analytic structures leave measurable information in the shape of the distribution. These results illustrate how precision differential measurements can probe the spin and dynamics of virtual new states even when they are not directly reconstructed, and motivate more powerful multidimensional analyses.",
+      "external_ids": [
+        "arxiv:2611.08459"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-06T15:38:41+08:00",
+      "last_seen_at": "2026-11-06T15:38:41+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.08426",
+      "arxiv_version": "v1",
+      "title": "Dynamics Aware Past-Future Information Bottleneck",
+      "authors": [
+        "Wooyoung Chung",
+        "Stas Tiomkin"
+      ],
+      "published": "2026-11-05",
+      "url": "https://arxiv.org/abs/2611.08426",
+      "abstract": "The simplification of complex dynamical systems is essential for efficient estimation and control. A principled approach to this task is through the lens of information-theoretic compression. The Past-Future Information Bottleneck (PF-IB) provides a theoretical framework for compressing linear dynamical systems. However, the standard formulation often lacks structural consistency, yielding representations that are not realizable as dynamical systems. By constraining the objective to a specific manifold of block Hankel matrices, which we prove is a Lie group, we bridge the gap between PF-IB and realization theory. Our approach ensures that the resulting compressed dynamics are realizable, thereby enabling its direct application to estimation and control. We demonstrate our approach in numerical simulations.",
+      "external_ids": [
+        "arxiv:2611.08426"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-06T15:38:41+08:00",
+      "last_seen_at": "2026-11-06T15:38:41+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.08476",
+      "arxiv_version": "v1",
+      "title": "Defect Anomalies at a Distance",
+      "authors": [
+        "Oleksandr Diatlyk",
+        "Zimo Sun",
+        "Yifan Wang"
+      ],
+      "published": "2026-11-05",
+      "url": "https://arxiv.org/abs/2611.08476",
+      "abstract": "Surface defects carry Weyl and gravitational anomalies that generalize the central charges of two-dimensional conformal field theories (CFTs) and characterize the anomalous response of gapless surface modes to background geometry. These anomalies usually appear as contact terms on the defect. We explain how they are encoded at a distance, in scheme-independent integrated bulk stress-tensor correlators. We derive sum rules for them in terms of defect operator data, establish a lower bound on the boundary Weyl anomaly in three-dimensional CFTs, and illustrate our results with explicit examples.",
+      "external_ids": [
+        "arxiv:2611.08476"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-06T15:38:41+08:00",
+      "last_seen_at": "2026-11-06T15:38:41+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.08435",
+      "arxiv_version": "v1",
+      "title": "Trapping and Fracture of Particles in Three-Sphere Ball-Milling Collisions",
+      "authors": [
+        "Ziyi Cui",
+        "Qiong Zhang",
+        "Suwei Liu",
+        "Richard M. Lueptow"
+      ],
+      "published": "2026-11-05",
+      "url": "https://arxiv.org/abs/2611.08435",
+      "abstract": "We numerically investigate the collision and fracture processes of ball milling based on a minimal model of a three-sphere geometry using discrete element method (DEM) simulations combined with Christensen-type and Weibull-type normalized fracture criteria. The outcome of the brittle target particle (ejected versus trapped, fractured versus intact) depends on the impact geometry and velocity. We develop a reduced three-sphere collision description in which trapping is governed by impact geometry and friction, while fracture inside the trapping regime is evaluated from DEM output using stress-based and contact-force-based normalized criteria. The trapping regime follows a closed-form geometric condition, while the critical conditions for fracture vary with impact angle, obliquity angle, impact velocity, and particle size ratio. Head-on collisions with larger size ratios require lower critical impact velocities for fracture.",
+      "external_ids": [
+        "arxiv:2611.08435"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-06T15:38:41+08:00",
+      "last_seen_at": "2026-11-06T15:38:41+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.08407",
+      "arxiv_version": "v1",
+      "title": "Social Humanoid: Socially Responsive Human-Humanoid Interaction",
+      "authors": [
+        "Vongani H. Maluleke",
+        "James Ni",
+        "Kie Horiuchi",
+        "Lea Wilken",
+        "Jiahui Lei",
+        "Evonne Ng",
+        "Roei Herzig",
+        "Jitendra Malik",
+        "Trevor Darrell",
+        "Angjoo Kanazawa"
+      ],
+      "published": "2026-11-05",
+      "url": "https://arxiv.org/abs/2611.08407",
+      "abstract": "Humanoid robots are typically trained as solitary agents, leaving them unable to coordinate physically with human partners who naturally anticipate and adjust to one another. To bridge this gap, we present Social Humanoid, a hierarchical system that generates and executes socially responsive whole-body motion on a 29-DoF Unitree G1 conditioned on a human partner's motion. Its high-level policy performs flexible sequence modeling of human and humanoid motion through a shared tokenized representation, generating reactive humanoid motion and anticipating the partner's motion when they are occluded, while a low-level whole-body tracking controller executes the generated motion on the robot. To train the system, we introduce a two-phase adaptive retargeting procedure that retargets one interaction partner to the robot while morphing the other partner to preserve contact dynamics, reachability, and relative body scale. We apply this procedure across five motion-capture datasets to produce a new Human-Humanoid Interaction (HHI) benchmark of 260 hours of human-humanoid interactions. Our results demonstrate that Social Humanoid produces coordinated, human-aligned behavior across diverse interaction types in simulation and the real world. Project page: https://von31.github.io/social-humanoid/",
+      "external_ids": [
+        "arxiv:2611.08407"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-06T15:38:41+08:00",
+      "last_seen_at": "2026-11-06T15:38:41+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.08399",
+      "arxiv_version": "v1",
+      "title": "Scaling Up Analog CIM: A Simulation Framework for Topology-Aware Mapping",
+      "authors": [
+        "Yuxin Ren",
+        "Danella Zhao",
+        "Huanrui Yang"
+      ],
+      "published": "2026-11-05",
+      "url": "https://arxiv.org/abs/2611.08399",
+      "abstract": "Analog compute-in-memory (CIM) enables energy-efficient AI inference by performing in-situ matrix multiplication. The growing demand for deploying larger models motivates chiplet integration to expand CIM capacity. However, simulation abstractions based on local operator costs and aggregate communication metrics obscure the impact of weight-mapping topology when CIM system scales up. We develop a phase analysis that quantifies how strongly mapping topology affects system performance across hardware configurations and how mapping optimization translates into latency gains. To evaluate and exploit this design space, we present Isobar, a simulation platform integrating CIM decompositions, heterogeneous execution, and resource modeling. Validated against silicon measurements and cycle-accurate simulation, Isobar provides reliable cost estimates that enable effective mapping search across model and hardware configurations. For Gemma-7B prefill, Isobar-guided mapping reduces communication time by 23.3% and end-to-end latency by 18.6% relative to the strongest baseline. Isobar's system-level modeling show that analog CIM retains energy-efficiency potential relative to GPU when scaled to thousands of dies, and identify topology-aware mapping as a key design dimension for efficient execution.",
+      "external_ids": [
+        "arxiv:2611.08399"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-06T15:38:41+08:00",
+      "last_seen_at": "2026-11-06T15:38:41+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.08481",
+      "arxiv_version": "v1",
+      "title": "Joint analysis of the Macquart relation and the dispersion measure power spectrum: cross-covariance and redshift self-calibration",
+      "authors": [
+        "Amy Wayland",
+        "Robert Reischke"
+      ],
+      "published": "2026-11-05",
+      "url": "https://arxiv.org/abs/2611.08481",
+      "abstract": "The dispersion measures (DMs) of fast radio bursts (FRBs) trace ionised baryons along the line of sight, probing baryonic feedback. Two complementary observables can be constructed from an FRB catalogue: the DM-redshift (Macquart) relation of host-identified FRBs, and the angular power spectrum of the DM field of the full catalogue. Their joint analysis requires their cross-covariance. We derive it within the halo model and show it is a super-sample effect: only the monopole of an individual DM correlates with the angular power spectrum, yielding an exact, model-independent bound on the correlation coefficient. We validate the calculation against log-normal forward simulations of $10^4$ FRBs. For individual DMs, the correlation with the bandpowers is at the per cent level. Neglecting the cross-covariance changes the width of the $χ^2$ distribution by only 0.8 per cent, so the two observables can be treated as effectively independent for wide-area surveys. In a joint forecast with an LSST-like weak lensing survey, adding the Macquart relation tightens constraints on the physical baryon density by 32 per cent and on the mean host contribution by a factor of 4.1, while improving baryonification parameters by only about 5 per cent, indirectly through the host contribution. Finally, we show that the redshift distribution of FRBs without identified hosts, which enters every DM power spectrum, can be reconstructed by inverting their DMs with the jointly fitted mean relation without biasing the inferred parameters, whereas a 20 per cent error in the mean relation biases the DM power spectrum by up to 2$σ$ per band for $5\\times 10^5$ FRBs.",
+      "external_ids": [
+        "arxiv:2611.08481"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-06T15:38:41+08:00",
+      "last_seen_at": "2026-11-06T15:38:41+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.08444",
+      "arxiv_version": "v1",
+      "title": "Polynomial-time classical simulation of boson and fermion sampling under thermal loss",
+      "authors": [
+        "Armando Angrisani",
+        "Hela Mhiri"
+      ],
+      "published": "2026-11-05",
+      "url": "https://arxiv.org/abs/2611.08444",
+      "abstract": "Sampling experiments are a leading approach to demonstrating quantum computational advantage, yet their robustness to experimental noise is not completely understood. We develop a common framework for classical simulation of boson and fermion sampling under thermal loss, including pure loss. For Fock-state boson sampling, Gaussian boson sampling with fixed uniform squeezing, and fermion sampling with magic inputs, we obtain polynomial-time sampling at inverse-polynomial total variation error, for any fixed nonzero overall loss rate, and with high probability over Haar-random interferometers. A milder flatness assumption on the ideal output distribution suffices for quasipolynomial-time simulation without Haar randomness. With constant thermal loss per layer, the same flatness assumption gives polynomial-time simulation at logarithmic depth. Our bounds for Fock-state boson sampling cover both dilute and saturated regimes and become stronger near full input filling: when only a bounded number of input modes are empty, the noisy output for Haar-random interferometers converges, as the number of modes grows, to a distribution independent of the interferometer.",
+      "external_ids": [
+        "arxiv:2611.08444"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-06T15:38:41+08:00",
+      "last_seen_at": "2026-11-06T15:38:41+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.08370",
+      "arxiv_version": "v1",
+      "title": "Modelling and analysis of a cocktail phage therapy with coinfection",
+      "authors": [
+        "Xavier Bardina",
+        "Marc Cano",
+        "Silvia Cuadrado"
+      ],
+      "published": "2026-11-05",
+      "url": "https://arxiv.org/abs/2611.08370",
+      "abstract": "We analyze a delay differential model for phage therapy in which a cocktail of $n$ different types of bacteriophages, each with its own latency period, is administered and coinfection is allowed. We prove the global existence, uniqueness and nonnegativity of solutions, and the existence of an invariant region, under suitable conditions, in which the bacteria are eradicated exponentially fast. We determine the stability of the bacteria-free equilibrium in terms of the administered doses and give sufficient conditions for the nonexistence of coexistence equilibria, showing that coinfection may allow bacteria and phages to coexist even when the doses are large. For a cocktail of two phage types with the same latency period, we obtain a complete description of the biologically feasible coexistence equilibria, which may be zero, one or two. Numerical simulations illustrate the theoretical results.",
+      "external_ids": [
+        "arxiv:2611.08370"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "global illumination real-time",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-06T15:38:41+08:00",
+      "last_seen_at": "2026-11-06T15:38:41+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.08355",
+      "arxiv_version": "v1",
+      "title": "Global solutions for continuous-time Burgers equations and infinite-volume polymer measures",
+      "authors": [
+        "Liying Li"
+      ],
+      "published": "2026-11-05",
+      "url": "https://arxiv.org/abs/2611.08355",
+      "abstract": "We study the stochastic Burgers equation on the whole space, driven by space-homogeneous Gaussian noises that are white in time and colored in space, for both positive and zero viscosity. We show that in dimension one, for any fixed average velocity, there is a unique ergodic global solution to the Burgers equation for all nonnegative viscosities, and that the One Force---One Solution principle holds. We also describe the basin of attraction and show that these global solutions are one-point pullback attractors. Moreover, the viscous global solution converges to the inviscid global solution as the viscosity tends to zero. Our technique relies on the study of polymer measures; accordingly, we establish the existence and uniqueness of infinite-volume polymer measures in a given asymptotic direction, as well as their convergence to semi-infinite minimizers in the zero-temperature limit. We also establish the existence part of all these results in arbitrary dimension larger than one.",
+      "external_ids": [
+        "arxiv:2611.08355"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "global illumination real-time",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-06T15:38:41+08:00",
+      "last_seen_at": "2026-11-06T15:38:41+08:00"
+    },
     {
       "source": "arxiv",
       "arxiv_id": "2611.06885",
@@ -2625,7 +3012,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-28T14:36:44+08:00",
-      "last_seen_at": "2026-11-04T15:16:05+08:00"
+      "last_seen_at": "2026-11-06T15:38:41+08:00"
     },
     {
       "source": "arxiv",
@@ -4383,7 +4770,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-22T13:45:57+08:00",
-      "last_seen_at": "2026-11-04T15:16:05+08:00"
+      "last_seen_at": "2026-11-06T15:38:41+08:00"
     },
     {
       "source": "semanticscholar",
@@ -4411,7 +4798,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-22T13:45:57+08:00",
-      "last_seen_at": "2026-11-04T15:16:05+08:00"
+      "last_seen_at": "2026-11-06T15:38:41+08:00"
     },
     {
       "source": "semanticscholar",
@@ -4439,7 +4826,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-22T13:45:57+08:00",
-      "last_seen_at": "2026-11-04T15:16:05+08:00"
+      "last_seen_at": "2026-11-06T15:38:41+08:00"
     },
     {
       "source": "semanticscholar",
@@ -4467,7 +4854,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-22T13:45:57+08:00",
-      "last_seen_at": "2026-11-04T15:16:05+08:00"
+      "last_seen_at": "2026-11-06T15:38:41+08:00"
     },
     {
       "source": "semanticscholar",
@@ -4493,7 +4880,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-22T13:45:57+08:00",
-      "last_seen_at": "2026-11-04T15:16:05+08:00"
+      "last_seen_at": "2026-11-06T15:38:41+08:00"
     },
     {
       "source": "semanticscholar",
@@ -4520,7 +4907,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-22T13:45:57+08:00",
-      "last_seen_at": "2026-11-04T15:16:05+08:00"
+      "last_seen_at": "2026-11-06T15:38:41+08:00"
     },
     {
       "source": "semanticscholar",
@@ -4550,7 +4937,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-22T13:45:57+08:00",
-      "last_seen_at": "2026-11-04T15:16:05+08:00"
+      "last_seen_at": "2026-11-06T15:38:41+08:00"
     },
     {
       "source": "semanticscholar",
@@ -4580,7 +4967,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-22T13:45:57+08:00",
-      "last_seen_at": "2026-11-04T15:16:05+08:00"
+      "last_seen_at": "2026-11-06T15:38:41+08:00"
     },
     {
       "source": "arxiv",
@@ -7839,7 +8226,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-13T15:24:18+08:00",
-      "last_seen_at": "2026-11-02T15:08:33+08:00"
+      "last_seen_at": "2026-11-06T15:38:41+08:00"
     },
     {
       "source": "semanticscholar",
@@ -7870,7 +8257,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-13T15:24:18+08:00",
-      "last_seen_at": "2026-11-02T15:08:33+08:00"
+      "last_seen_at": "2026-11-06T15:38:41+08:00"
     },
     {
       "source": "semanticscholar",
@@ -7900,7 +8287,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-13T15:24:18+08:00",
-      "last_seen_at": "2026-11-02T15:08:33+08:00"
+      "last_seen_at": "2026-11-06T15:38:41+08:00"
     },
     {
       "source": "semanticscholar",
@@ -7926,7 +8313,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-13T15:24:18+08:00",
-      "last_seen_at": "2026-11-02T15:08:33+08:00"
+      "last_seen_at": "2026-11-06T15:38:41+08:00"
     },
     {
       "source": "semanticscholar",
@@ -7953,7 +8340,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-13T15:24:18+08:00",
-      "last_seen_at": "2026-11-02T15:08:33+08:00"
+      "last_seen_at": "2026-11-06T15:38:41+08:00"
     },
     {
       "source": "arxiv",
@@ -11847,7 +12234,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-11-05T15:45:09+08:00"
+      "last_seen_at": "2026-11-06T15:38:41+08:00"
     },
     {
       "source": "arxiv",
@@ -11880,7 +12267,7 @@
       "doi": "10.48550/arXiv.2601.06451",
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-11-05T15:45:09+08:00"
+      "last_seen_at": "2026-11-06T15:38:41+08:00"
     },
     {
       "source": "semanticscholar",
@@ -12056,7 +12443,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-11-04T15:16:05+08:00"
+      "last_seen_at": "2026-11-06T15:38:41+08:00"
     },
     {
       "source": "arxiv",
@@ -12081,7 +12468,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-11-05T15:45:09+08:00"
+      "last_seen_at": "2026-11-06T15:38:41+08:00"
     },
     {
       "source": "semanticscholar",
@@ -12142,7 +12529,7 @@
       "doi": "10.1145/3731155",
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-11-05T15:45:09+08:00"
+      "last_seen_at": "2026-11-06T15:38:41+08:00"
     },
     {
       "source": "semanticscholar",
@@ -12196,7 +12583,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-11-05T15:45:09+08:00"
+      "last_seen_at": "2026-11-06T15:38:41+08:00"
     },
     {
       "source": "semanticscholar",
@@ -12310,7 +12697,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-11-05T15:45:09+08:00"
+      "last_seen_at": "2026-11-06T15:38:41+08:00"
     },
     {
       "source": "semanticscholar",
@@ -12343,7 +12730,7 @@
     }
   ],
   "last_run": {
-    "at": "2026-11-05T15:45:09+08:00",
+    "at": "2026-11-06T15:38:41+08:00",
     "sources": [
       "arxiv",
       "semanticscholar",
@@ -12359,9 +12746,9 @@
       "MLS-MPM",
       "projective dynamics cloth"
     ],
-    "fetched": 92,
-    "merged": 17,
-    "new": 11
+    "fetched": 112,
+    "merged": 35,
+    "new": 14
   },
   "topic": "game technology: physics simulation, real-time rendering, global illumination",
   "schema_version": 1
