@@ -1,6 +1,373 @@
 {
-  "updated_at": "2026-11-08T14:59:42+08:00",
+  "updated_at": "2026-11-09T15:37:15+08:00",
   "candidates": [
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.09882",
+      "arxiv_version": "v1",
+      "title": "FlowMoP: Stochastic Multi-Person Motion Prediction",
+      "authors": [
+        "Aadya Agrawal",
+        "Ho Kei Cheng",
+        "Alexander Schwing"
+      ],
+      "published": "2026-11-06",
+      "url": "https://arxiv.org/abs/2611.09882",
+      "abstract": "Predicting the future motion of multiple people is inherently stochastic: the same observed history admits many plausible continuations depending on intent, coordination, and social context. Yet the dominant paradigm in multi-person 3D motion prediction remains deterministic, with existing methods producing a fixed number of outputs per agent. In contrast, we present a conditional flow matching framework that jointly generates diverse future motions for multiple agents, modeling both global trajectories and root-relative poses. A B-spline reparameterization compresses the generative state space while enforcing temporal smoothness, and a dual-stream transformer conditions each agent's predictions on observed neighbor motion for interaction-aware forecasting. Our method achieves state-of-the-art performance on CMU-Mocap (UMPM) and 3DPW, outperforming deterministic baselines on joint position error, pose error, and final displacement error despite producing a full predictive distribution. We additionally establish the first motion prediction baseline on WorldPose, a large-scale professional soccer dataset, where social conditioning demonstrably concentrates predictive uncertainty along interaction-constrained directions.",
+      "external_ids": [
+        "arxiv:2611.09882"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "global illumination real-time",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-09T15:37:15+08:00",
+      "last_seen_at": "2026-11-09T15:37:15+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.09864",
+      "arxiv_version": "v1",
+      "title": "Grasp-TAGS: Task-Aware Grasp Selection via Critic Distillation for Prehensile Loco-Manipulation",
+      "authors": [
+        "Xun Tu",
+        "Minghao Zou",
+        "Karthik Desingh"
+      ],
+      "published": "2026-11-06",
+      "url": "https://arxiv.org/abs/2611.09864",
+      "abstract": "Loco-manipulation, which requires mobile manipulators to coordinate locomotion and manipulation over long horizons, is a key capability for large-object rearrangement in applications such as service robotics and warehouse automation. Despite recent progress, reliably executing these tasks remains challenging because performance depends on complex robot-object and object-environment interaction dynamics. Existing approaches address this challenge either through model-based methods, which often require accurate dynamics models, or through learning-based methods, which reduce this requirement but typically assume a fixed or predefined initial grasp. However, different geometrically stable grasps can lead to substantially different downstream manipulation performance. Therefore, we propose Grasp-TAGS, a task-aware grasp selection framework for goal-conditioned large-object rearrangement. We train a unified PPO-based reinforcement learning policy across multiple initial grasp configurations and distill the learned critic into a lightweight grasp utility network that ranks candidate grasps using only the candidate grasp configuration and goal information. At inference time, we select the grasp with the highest predicted downstream utility for the downstream policy to complete the task, before even making a contact. Experiments demonstrate that Grasp-TAGS improves rearrangement success over both fixed single-grasp policies and random grasp selection, achieving an average success rate of 89.84% compared with 79.87% for the best-performing single-grasp policies, an improvement of 9.97 percentage points. Grasp-TAGS also reduces final orientation errors across all evaluated objects. For more qualitative results, refer to the supplementary webpage: https://rpm-lab-umn.github.io/Grasp-TAGS-web-page/",
+      "external_ids": [
+        "arxiv:2611.09864"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "\"position based\" dynamics cloth",
+        "incremental potential contact",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-09T15:37:15+08:00",
+      "last_seen_at": "2026-11-09T15:37:15+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.09865",
+      "arxiv_version": "v1",
+      "title": "Emergence and polymer physics of the center-vortex network: Confronting SU(4) lattice Yang-Mills theory",
+      "authors": [
+        "Luis E. Oxman",
+        "Jackson A. Mickley",
+        "Derek B. Leinweber"
+      ],
+      "published": "2026-11-06",
+      "url": "https://arxiv.org/abs/2611.09865",
+      "abstract": "The geometric organization and statistical properties of center-vortex networks provide a window into the infrared dynamics underlying confinement in Yang-Mills theory. Motivated by this connection, we investigate new consequences of a previously proposed confinement mechanism based on physically equivalent elementary Cartan fluxes. We show that, in the percolating phase, these fluxes dynamically reorganize into center-charge sectors whose dominant vortex tensions satisfy a Casimir scaling law, similar to that observed for confining string tensions. We then confront this result with the first nontrivial Yang-Mills case: the doubly charged vortex chains recently observed in SU(4) lattice simulations. To extract the parameters needed to connect the lattice ensemble with the effective description, we characterize how center-vortex chains grow and bend in SU(3) and SU(4) using polymer-inspired techniques not previously applied to center vortices. We find good quantitative agreement for the SU(4) doubly charged sector, providing further evidence for the proposed mechanism.",
+      "external_ids": [
+        "arxiv:2611.09865"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-09T15:37:15+08:00",
+      "last_seen_at": "2026-11-09T15:37:15+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.09861",
+      "arxiv_version": "v1",
+      "title": "A Quantum Mechanical Description of Active Matter",
+      "authors": [
+        "Ghansham Chandel",
+        "Siddhartha Das"
+      ],
+      "published": "2026-11-06",
+      "url": "https://arxiv.org/abs/2611.09861",
+      "abstract": "The natural environments habitable to life are inseparable from dissipative and entropic forces, which mandate active matter to operate on constant fluxes of energy and momentum to survive and propagate through spacetime. In contrast to fundamental particles which are characterized by energy and momentum, we postulate that energy expenditure rate and momentum generation rate are the fundamental dynamical quantities driving this evolution of swimming active matter and accordingly construct the corresponding Lagrangian and Hamiltonian of motion of the active matter. Furthermore, living systems broadly employ periodic, non-repeating motion for both locomotion and various biological functions, with meaningful information stored in the periods of these functions. Consequently, analyzing these dynamics in the Fourier space lands us at the familiar tools of the operator based, quantum mechanics. This is accomplished by introducing a complex field to describe the evolving probability distribution of a single unit, as well as the population density of mutually non-interacting active particles under the constraint of scarce resources. The resulting single-unit wavefunction evolves analogously to the Dirac equation with minimal coupling, wherein gauge symmetry reflects the generality of the governing equations across arbitrary resource landscapes. Additionally, we present a Schrödinger-like equation where the effective potential term represents the environmentally mandated, non-motile base metabolic rate. Finally, we formalize the bidirectional coupling between active swimmers and the surrounding fluid via a multipole expansion of the active force with an emphasis on force monopoles and dipoles, where each pole corresponds to a distinct mode of active motility.",
+      "external_ids": [
+        "arxiv:2611.09861"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "incremental potential contact",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-09T15:37:15+08:00",
+      "last_seen_at": "2026-11-09T15:37:15+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.09852",
+      "arxiv_version": "v1",
+      "title": "The AIDA-TNG project: Galactic bar pattern speeds in self-interacting dark matter",
+      "authors": [
+        "Asiyeh Habibi",
+        "Mahmood Roshan",
+        "Giulia Despali",
+        "Mark Vogelsberger",
+        "Amir Ghari",
+        "Lauro Moscardini"
+      ],
+      "published": "2026-11-06",
+      "url": "https://arxiv.org/abs/2611.09852",
+      "abstract": "Cosmological simulations within the standard cold dark matter (CDM) paradigm systematically predict higher values of the dimensionless bar-speed parameter, $\\boldsymbol{R} \\equiv R_{\\mathrm{cr}}/R_{\\mathrm{bar}}$ (where $R_{\\mathrm{cr}}$ and $R_{\\mathrm{bar}}$ denote the corotation radius and the bar radius, respectively), than those inferred from observations of local galaxies, a discrepancy known as the fast-bar tension. Since bar slowdown is primarily driven by dynamical friction with the dark matter halo, bar dynamics is inherently sensitive to the properties of dark matter particles. We aim to determine whether dark matter self-interactions alleviate or exacerbate the fast-bar tension, and to identify the physical mechanism behind the differences in bar dynamics between CDM and self-interacting dark matter (SIDM) models. We use the $51.7\\,\\mathrm{Mpc}$ box of the AIDA-TNG cosmological simulations, run with three different dark matter models: standard CDM, and two SIMD models one with a constant cross-section model (SIDM1), and the other with a velocity-dependent model (vSIDM). We identify barred disk galaxies with stellar mass $M_* > 10^{10}\\,M_{\\odot}$ at redshifts $z=0.2,\\,1.0,\\,1.5,$ and $2.0$, and measure the bar fraction, bar strength, bar length, pattern speed $Ω_{\\mathrm{p}}$, and the ratio $\\boldsymbol{R}=R_{\\mathrm{cr}}/R_{\\mathrm{bar}}$. The pattern speeds in the SIDM1 and vSIDM models are generally lower than in CDM at nearly all redshifts probed in this study. The subsequent slowdown proceeds with nearly 10\\% more effective in the SIDM models likely due to velocity-anisotropy. Consequently, at low redshift the mean value of $\\boldsymbol{R}$ is significantly higher in the SIDM models, indicating that the fas-bar tension is further exacerbated in these scenarios.",
+      "external_ids": [
+        "arxiv:2611.09852"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-09T15:37:15+08:00",
+      "last_seen_at": "2026-11-09T15:37:15+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.09850",
+      "arxiv_version": "v1",
+      "title": "Classical control of quantum-state relaxation in confined molecular hydrogen",
+      "authors": [
+        "Nathan McLane",
+        "Richard C. Remsing",
+        "Leah G. Dodson"
+      ],
+      "published": "2026-11-06",
+      "url": "https://arxiv.org/abs/2611.09850",
+      "abstract": "Quantum-state conversion between the ortho and para nuclear-spin states of H$_2$ is forbidden in the isolated molecule but these states can become connected through interactions with a surrounding environment. How that same environment governs the dynamics of the newly connected states remains poorly understood. Here, we investigate this problem using H$_2$ confined in crystalline molecular solids, where the host environment selectively enables conversion between a pair of otherwise disconnected ortho-H$_2$ and para-H$_2$ states. Rotationally resolved infrared spectroscopy directly determines the state-specific conversion dynamics in crystalline CO$_2$ and N$_2$O at 10 K, revealing that increasing H$_2$ concentration suppresses nuclear-spin conversion by nearly an order of magnitude, reaching complete suppression by 20% H$_2$ loading. Molecular dynamics and Monte Carlo simulations identify two complementary origins of this concentration dependence: changes in the thermally populated phonon modes available to mediate relaxation, and strain-driven H$_2$ clustering that progressively removes molecules from the host crystal field responsible for enabling conversion. The resulting picture connects a classical collective response of the host to microscopic quantum-state dynamics: H$_2$ loading generates strain that reorganizes the local molecular environment, thereby modifying both the phonon bath and the molecular coupling to that bath. These results establish a multiscale mechanism by which condensed-phase environments can govern the connectivity and dynamics of an effective two-level system.",
+      "external_ids": [
+        "arxiv:2611.09850"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-09T15:37:15+08:00",
+      "last_seen_at": "2026-11-09T15:37:15+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.09877",
+      "arxiv_version": "v1",
+      "title": "Locating Contact on Tendon-Driven Continuum Robots From Tendon Measurements Alone via Constrained Moving Horizon Estimation",
+      "authors": [
+        "Haitham El-Hussieny"
+      ],
+      "published": "2026-11-06",
+      "url": "https://arxiv.org/abs/2611.09877",
+      "abstract": "Tendon-driven continuum robots can reach through constrained spaces, but contact along their bodies is invisible to the sensors at their motors. We show that this is a structural limitation rather than a tuning problem: the map from contact forces to tendon measurements has a null space of dimension at least seven, so no estimator that leaves the contact support free can locate contact. When the obstacle geometry is known, however, non-penetration and complementarity make the contact force locally identifiable, and we prove that the resulting system with unknown contact inputs is locally exponentially strongly detectable. We present a constrained moving horizon estimator (MHE) that encodes these conditions and runs in real time as one quadratic program per sample, and we give a local, mode-wise robust stability result for it. In a finite- element benchmark of a two-section robot pressing and sliding on a wall, the estimator located contact to 0.9 mm and estimated contact force to 0.22 N, compared with 65 mm and 0.72 N for a tuned extended Kalman filter (EKF) with state projection. The estimator tolerated millimeter- level errors in the obstacle position and unmodeled wall friction, under which the projected EKF failed. Under randomized model mismatch over 40 trials, including unmodeled tendon friction, it remained better in force and location in every trial. Without contact, the MHE offered no advantage over the EKF, which confirms that its benefit comes from the contact constraints. This report extends a letter submitted to IEEE Control Systems Letters with complete proofs and additional experiments.",
+      "external_ids": [
+        "arxiv:2611.09877"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact",
+        "real-time fluid simulation graphics",
+        "global illumination real-time",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-09T15:37:15+08:00",
+      "last_seen_at": "2026-11-09T15:37:15+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.09839",
+      "arxiv_version": "v1",
+      "title": "Gibbsian Entropy for General Wigner Distributions",
+      "authors": [
+        "Gabriel Rabelo-Soares",
+        "Yevgeniy Kovchegov",
+        "Giorgio Torrieri"
+      ],
+      "published": "2026-11-06",
+      "url": "https://arxiv.org/abs/2611.09839",
+      "abstract": "We propose a definition of non-equilibrium Gibbsian entropy applicable to general quantum systems, computable from Wigner functions, for both Gaussian and non-Gaussian states. We show that while the Wigner function is a quasi-probability distribution, fundamental results linking observables in repeated observations to the function, such as the law of large numbers, the central limit theorem and, crucially, the relation between the entropy and the cumulant generating function continue to apply. This ideas are the core of the large deviation theory, which allow to formulate a positive-definite definition of entropy based on our ignorance of the underlying state structure after repeated measurements of cumulants. This new definition is a parallel to the Gibbs entropy formulation, but it can also be used in out-of-equilibrium regimes. Some important properties of this entropy are discussed. In addition we derive some information theory quantities such as relative entropy, conditional entropy, mutual information and Rényi entropy. We then compare the results with Wehrl entropy for the 1D harmonic oscillator, for pure and mixed states. We conclude the the work discussing potential applications of this new formalism, ranging from quantum correlations beyond entanglement to thermalization in closed quantum systems.",
+      "external_ids": [
+        "arxiv:2611.09839"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-09T15:37:15+08:00",
+      "last_seen_at": "2026-11-09T15:37:15+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.09823",
+      "arxiv_version": "v1",
+      "title": "Regular multi-types and the Bloom conjecture II",
+      "authors": [
+        "Jiaqing Chen",
+        "Xiaojun Huang",
+        "Wanke Yin",
+        "Pingsan Yuan"
+      ],
+      "published": "2026-11-06",
+      "url": "https://arxiv.org/abs/2611.09823",
+      "abstract": "Let $M\\subset\\mathbb{C}^n$ $(n\\geq2)$ be a smooth pseudoconvex real hypersurface. We prove that, for every $1\\leq s\\leq n-1$, the regular $s$-contact type, the $s$-commutator type, and the $s$-Levi type coincide at every point of $M$, thereby resolving Bloom's conjecture in any dimension. The solution in dimension three was obtained in 2021 by the second and the third authors. Moreover, for any smooth rank $s$ subbundle $B\\subset T^{1,0}M$, we establish the equality of the commutator type and the Levi type associated with $B$, giving an affirmative answer to the generalized D'Angelo conjecture.",
+      "external_ids": [
+        "arxiv:2611.09823"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-09T15:37:15+08:00",
+      "last_seen_at": "2026-11-09T15:37:15+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.09888",
+      "arxiv_version": "v1",
+      "title": "Scenario Orchestration for Closed-loop Policy Evaluation of Autonomous Driving",
+      "authors": [
+        "Frieda Rong",
+        "Zhaoyue Wang",
+        "Veer Kapadia",
+        "Vishaka Rajani",
+        "Aren A. Babikian",
+        "Xujie Si",
+        "Mahsa Golchoubian",
+        "Raquel Urtasun",
+        "Igor Gilitschenski"
+      ],
+      "published": "2026-11-06",
+      "url": "https://arxiv.org/abs/2611.09888",
+      "abstract": "Scenario-based simulation is central to evaluating autonomous-driving policies, but a scenario scripted before execution (i.e., with predetermined, fixed actor routes and speeds) may not preserve its intended interaction once the tested ego policy responds in closed loop. Scripted scenarios cannot adapt to unanticipated ego behavior, while learned traffic actors may remain reactive without reliably realizing a particular scenario intent. We introduce a scenario orchestrator that continuously monitors the joint traffic state and adapts non-ego actors through re-timing, re-routing, and role reassignment for creating a specific scenario intent. At each step, the orchestrator solves a constrained optimization problem that preserves the intended interaction while limiting interventions and maintaining traffic feasibility. We further distinguish scenario realization from policy failure, allowing a test to first be judged based on whether the intended interaction occurred and then by how the ego policy responded. Experiments in the CARLA simulator across multiple scenario families and driving policies show that orchestration realizes targeted interactions more reliably than scripted and learned actor-level baselines, particularly under variations in initial conditions and ego behavior. These results support closed-loop scenario orchestration as a tool for controlled and reproducible policy evaluation.",
+      "external_ids": [
+        "arxiv:2611.09888"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-09T15:37:15+08:00",
+      "last_seen_at": "2026-11-09T15:37:15+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.09876",
+      "arxiv_version": "v1",
+      "title": "Novikov-Magnus Master Equation for Driven Quantum Systems under Classical Correlated Noise",
+      "authors": [
+        "Nada Khogeer",
+        "Jerison Parra",
+        "Caroline Desgranges",
+        "Hugo Ribeiro"
+      ],
+      "published": "2026-11-06",
+      "url": "https://arxiv.org/abs/2611.09876",
+      "abstract": "We introduce a modular framework for deriving time-local quantum master equations for driven systems subject to temporally correlated classical noise. The construction combines the Donsker-Furutsu-Novikov relation with the Magnus expansion: Functional response closes the noise average, while nested commutators retain the noncommuting chronological action of noise-induced perturbations along the controlled quantum trajectory. For zero-mean Gaussian noise, we derive the resulting Novikov-Magnus quantum master equation through fourth order in the noise strength. The same response hierarchy suggests a natural extension beyond Gaussian noise, with connected higher-order noise correlations weighting higher functional derivatives of the stochastic map. For a driven qubit under Ornstein-Uhlenbeck and band-limited $1/f$ noise, the second- and fourth-order maps remain CPTP throughout the perturbative regime and accurately reproduce stochastic simulations. Their diamond-norm errors are comparable to those of the cumulant-based pseudo-Lindblad master equation, with a modest fourth-order improvement for Ornstein-Uhlenbeck noise.",
+      "external_ids": [
+        "arxiv:2611.09876"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-09T15:37:15+08:00",
+      "last_seen_at": "2026-11-09T15:37:15+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.09831",
+      "arxiv_version": "v1",
+      "title": "Quantifying the importance of equation of state and transport property compatibility in supercritical fluids",
+      "authors": [
+        "Tyler Fara",
+        "Shashank Yellapantula",
+        "Bruce Perry",
+        "Hari Sitaraman",
+        "Marc Day",
+        "Michael James Martin"
+      ],
+      "published": "2026-11-06",
+      "url": "https://arxiv.org/abs/2611.09831",
+      "abstract": "High-fidelity simulation of supercritical flows requires accurate values of thermodynamic properties including the density (rho), specific heat cp, enthalpy h, and entropy s as well as transport properties such as the viscosity (eta) and thermal conductivity (lambda) as functions of the temperature T and pressure P. In simulations of mixtures, such as supercritical carbon dioxide (sCO2) with contaminants, a generalized equation of state (EoS) is often used, leading to errors in rho(T,P) when compared to results from correlations developed specifically for individual species. Similarly, generalized correlations for eta and lambda are often used, with a corresponding decrease in accuracy. However, a second source of error is introduced in calculations of transport properties. These correlations are created and computed as functions of T and rho instead of as functions of T and P. Because of this, when eta(T,rho )and lambda(T,rho) are calculated, errors in rho(T,P) propagate through the calculation. This work creates a procedure for tracking both errors caused by using a generalized correlation for eta(T,rho) and lambda(T,rho), and for tracking the errors caused by using a generalized correlation for rho(T,P) in these calculations. The viscosity and thermal conductivity of supercritical CO2, N2, andCH4 are used as examples to demonstrate how to separate the errors due to the generalized property correlations and the errors due to the generalized EoS. Both sources of error are largest near the critical temperature Tc. These errors are large enough to impact both the numeric stability and the accuracy of simulations.",
+      "external_ids": [
+        "arxiv:2611.09831"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-09T15:37:15+08:00",
+      "last_seen_at": "2026-11-09T15:37:15+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.09795",
+      "arxiv_version": "v1",
+      "title": "AR-Edit: Training-Free Autoregressive Video Editing without Inversion",
+      "authors": [
+        "Hovhannes Margaryan",
+        "Quentin Bammey",
+        "Christian Sandor",
+        "Vicky Kalogeiton"
+      ],
+      "published": "2026-11-06",
+      "url": "https://arxiv.org/abs/2611.09795",
+      "abstract": "Editing a video stream in real time, without access to future frames, is essential for interactive applications. Existing training-free video editing methods, however, assume full offline access to the entire sequence, while streaming approaches either rely on additional training or are limited to specific editing techniques. We show that this limitation can be removed by analyzing the self-attention dynamics of DMD-distilled autoregressive (AR) video diffusion models. We uncover a key asymmetry: queries and keys remain stable and aligned with their source counterparts across denoising timesteps, while values diverge and encode the evolving content. Inherited from the non-distilled bidirectional teacher, this asymmetry is strongest at high noise, where few-step streaming models operate. The resulting mechanism is simple: a single forward pass suffices to capture source identity in the value features, which can be reused throughout generation. Starting from pure Gaussian noise and injecting only these source values reconstructs the input with fidelity matching or surpassing inversion-based methods, effectively eliminating inversion. Based on this insight, we introduce AR-Edit, a training-free, inversion-free method that caches source values once and selectively injects them during denoising. Across multiple AR backbones, AR-Edit enables real-time streaming editing with superior source preservation and tonal fidelity at minimal overhead.",
+      "external_ids": [
+        "arxiv:2611.09795"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "global illumination real-time"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-09T15:37:15+08:00",
+      "last_seen_at": "2026-11-09T15:37:15+08:00"
+    },
     {
       "source": "arxiv",
       "arxiv_id": "2611.08468",
@@ -1989,7 +2356,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-31T14:39:07+08:00",
-      "last_seen_at": "2026-11-07T14:51:40+08:00"
+      "last_seen_at": "2026-11-09T15:37:15+08:00"
     },
     {
       "source": "arxiv",
@@ -11485,7 +11852,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-01T14:50:40+08:00",
-      "last_seen_at": "2026-11-01T15:09:36+08:00"
+      "last_seen_at": "2026-11-09T15:37:15+08:00"
     },
     {
       "source": "semanticscholar",
@@ -11512,7 +11879,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-01T14:50:40+08:00",
-      "last_seen_at": "2026-11-01T15:09:36+08:00"
+      "last_seen_at": "2026-11-09T15:37:15+08:00"
     },
     {
       "source": "semanticscholar",
@@ -11539,7 +11906,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-01T14:50:40+08:00",
-      "last_seen_at": "2026-11-01T15:09:36+08:00"
+      "last_seen_at": "2026-11-09T15:37:15+08:00"
     },
     {
       "source": "semanticscholar",
@@ -11564,7 +11931,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-01T14:50:40+08:00",
-      "last_seen_at": "2026-11-01T15:09:36+08:00"
+      "last_seen_at": "2026-11-09T15:37:15+08:00"
     },
     {
       "source": "semanticscholar",
@@ -11592,7 +11959,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-01T14:50:40+08:00",
-      "last_seen_at": "2026-11-01T15:09:36+08:00"
+      "last_seen_at": "2026-11-09T15:37:15+08:00"
     },
     {
       "source": "semanticscholar",
@@ -11619,7 +11986,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-01T14:50:40+08:00",
-      "last_seen_at": "2026-11-01T15:09:36+08:00"
+      "last_seen_at": "2026-11-09T15:37:15+08:00"
     },
     {
       "source": "semanticscholar",
@@ -11644,7 +12011,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-10-01T14:50:40+08:00",
-      "last_seen_at": "2026-11-01T15:09:36+08:00"
+      "last_seen_at": "2026-11-09T15:37:15+08:00"
     },
     {
       "source": "arxiv",
@@ -12234,7 +12601,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-11-08T14:59:42+08:00"
+      "last_seen_at": "2026-11-09T15:37:15+08:00"
     },
     {
       "source": "arxiv",
@@ -12267,7 +12634,7 @@
       "doi": "10.48550/arXiv.2601.06451",
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-11-08T14:59:42+08:00"
+      "last_seen_at": "2026-11-09T15:37:15+08:00"
     },
     {
       "source": "semanticscholar",
@@ -12328,7 +12695,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-11-07T14:51:40+08:00"
+      "last_seen_at": "2026-11-09T15:37:15+08:00"
     },
     {
       "source": "semanticscholar",
@@ -12354,7 +12721,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-11-07T14:51:40+08:00"
+      "last_seen_at": "2026-11-09T15:37:15+08:00"
     },
     {
       "source": "semanticscholar",
@@ -12414,7 +12781,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-11-07T14:51:40+08:00"
+      "last_seen_at": "2026-11-09T15:37:15+08:00"
     },
     {
       "source": "semanticscholar",
@@ -12443,7 +12810,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-11-07T14:51:40+08:00"
+      "last_seen_at": "2026-11-09T15:37:15+08:00"
     },
     {
       "source": "arxiv",
@@ -12468,7 +12835,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-11-08T14:59:42+08:00"
+      "last_seen_at": "2026-11-09T15:37:15+08:00"
     },
     {
       "source": "semanticscholar",
@@ -12529,7 +12896,7 @@
       "doi": "10.1145/3731155",
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-11-08T14:59:42+08:00"
+      "last_seen_at": "2026-11-09T15:37:15+08:00"
     },
     {
       "source": "semanticscholar",
@@ -12556,7 +12923,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-11-07T14:51:40+08:00"
+      "last_seen_at": "2026-11-09T15:37:15+08:00"
     },
     {
       "source": "arxiv",
@@ -12583,7 +12950,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-11-08T14:59:42+08:00"
+      "last_seen_at": "2026-11-09T15:37:15+08:00"
     },
     {
       "source": "semanticscholar",
@@ -12697,7 +13064,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-11-08T14:59:42+08:00"
+      "last_seen_at": "2026-11-09T15:37:15+08:00"
     },
     {
       "source": "semanticscholar",
@@ -12726,11 +13093,11 @@
       ],
       "status": "new",
       "first_seen_at": "2026-09-30T16:12:32+08:00",
-      "last_seen_at": "2026-11-07T14:51:40+08:00"
+      "last_seen_at": "2026-11-09T15:37:15+08:00"
     }
   ],
   "last_run": {
-    "at": "2026-11-08T14:59:42+08:00",
+    "at": "2026-11-09T15:37:15+08:00",
     "sources": [
       "arxiv",
       "semanticscholar",
@@ -12746,9 +13113,9 @@
       "MLS-MPM",
       "projective dynamics cloth"
     ],
-    "fetched": 92,
-    "merged": 20,
-    "new": 0
+    "fetched": 112,
+    "merged": 33,
+    "new": 13
   },
   "topic": "game technology: physics simulation, real-time rendering, global illumination",
   "schema_version": 1
