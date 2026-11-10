@@ -1,0 +1,588 @@
+{
+  "date": "2026-11-10",
+  "run": {
+    "at": "2026-11-10T16:02:33+08:00",
+    "sources": [
+      "arxiv",
+      "semanticscholar",
+      "dblp"
+    ],
+    "keywords": [
+      "material point method cloth",
+      "\"position based\" dynamics cloth",
+      "incremental potential contact",
+      "real-time fluid simulation graphics",
+      "global illumination real-time",
+      "ray tracing global illumination",
+      "MLS-MPM",
+      "projective dynamics cloth"
+    ],
+    "fetched": 122,
+    "merged": 46,
+    "new": 19
+  },
+  "new_candidates": [
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.12885",
+      "arxiv_version": "v1",
+      "title": "World In-Context Learning for Agentic Robot Manipulation",
+      "authors": [
+        "Heng Fang",
+        "Zehui Guo",
+        "Yuehan Zhang",
+        "Mingyang Du",
+        "Dingkang Liang",
+        "Xiang Bai"
+      ],
+      "published": "2026-11-09",
+      "url": "https://arxiv.org/abs/2611.12885",
+      "abstract": "Trained action policies write manipulation skill into network weights, tying what is learned to the distribution it is learned from. In-context learning (ICL) avoids this coupling but has not matched trained policies, because a demonstration recorded in another scene carries no feedback from the world the robot currently faces. We observe that what an agent learns in context is semantic, recording task steps and object roles rather than visual appearance, so experience gathered in one world transfers to another. Based on this insight, we propose World In-Context Learning (WICL), a paradigm in which a frozen model starts from a demonstration, rehearses the task in a world such as a simulator, and writes the feedback into its context rather than its weights. We build RoboScript, a modular infrastructure that implements WICL for agentic manipulation. From a single demonstration, RoboScript learns each task through rehearsal in simulation, freezes the learned knowledge as a Task Memory, and deploys the frozen memory on new scenes with data isolation that ensures every deployment input is available on a real robot. On all 50 tasks of RoboTwin 2.0, RoboScript reaches 83.4% mean success across clean and randomized settings with one demonstration per task and no gradient updates, exceeding the strongest trained action policy by over 20 points. The method generalizes across visual distributions, improves through reflection, scales with the foundation model, and transfers to a physical dual-arm robot through cross-embodiment memory adaptation. With a world in the loop, a robot can learn a manipulation task in its context as well as it learns one in its weights. All code is available at https://github.com/ArcheOne-AI/RoboScript",
+      "external_ids": [
+        "arxiv:2611.12885"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-10T16:02:33+08:00",
+      "last_seen_at": "2026-11-10T16:02:33+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.12880",
+      "arxiv_version": "v1",
+      "title": "Kolmogorov-Chapman Maps: Trajectory-Free Learning for Simulating Molecular Dynamics",
+      "authors": [
+        "Majdi Hassan",
+        "Marta Skreta",
+        "Dominique Beaini",
+        "Kirill Neklyudov"
+      ],
+      "published": "2026-11-09",
+      "url": "https://arxiv.org/abs/2611.12880",
+      "abstract": "Stochastic differential equations (SDEs) describe stochastic processes across a wide range of scientific domains, including physics, biology, and finance. Although individual numerical integration steps are inexpensive, observing meaningful events or transitions can require millions of sequential steps, resulting in substantial wall-clock simulation time and poor hardware utilization. Deep learning offers an alternative by amortizing many integration steps into a single neural network forward pass, potentially enabling much faster simulation. However, existing supervised approaches typically require long simulated trajectory data, which restricts their applicability. In this work, we introduce Kolmogorov-Chapman Maps (KC-Maps), a method for learning the transition kernel of an SDE that relies only on the trajectory-free marginal samples together with the known drift and diffusion coefficients. Given an initial time and state of a process, KC-Maps models its distribution integrated to any given time, corresponding to the weak solution of the SDE. To recover the correct dynamics, KC-Maps satisfies two key properties: (i) it satisfies the boundary conditions, which we incorporate directly into the neural network architecture, and (ii) it respects the Kolmogorov--Chapman equation, which provides an efficient training objective. We empirically demonstrate that KC-Maps learns to integrate the dynamics of peptide molecular systems and outperforms classical molecular dynamics in terms of GPU-hours.",
+      "external_ids": [
+        "arxiv:2611.12880"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "\"position based\" dynamics cloth",
+        "incremental potential contact",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-10T16:02:33+08:00",
+      "last_seen_at": "2026-11-10T16:02:33+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.12876",
+      "arxiv_version": "v1",
+      "title": "The simulability frontiers of photonic quantum computing",
+      "authors": [
+        "Jean Senellart",
+        "Benjamin Stott",
+        "Stephen Wein",
+        "Esperanza Cuenca Gomez",
+        "Pascale Senellart",
+        "Shane Mansfield",
+        "Pierre-Emmanuel Emeriau"
+      ],
+      "published": "2026-11-09",
+      "url": "https://arxiv.org/abs/2611.12876",
+      "abstract": "Estimates of when photonic devices outgrow classical simulation are hard to compare: even for single-photon boson sampling, quoted thresholds range from 50 to 98 photons, as they rest on different tasks and assumptions. We propose as a common unit the time a classical computer needs to draw one sample from the device's exact output distribution, up to floating-point rounding. Only exactness applies equally to every kind of light, since the cost of approximate sampling depends on the accuracy required. The simulability frontier is the device size at which our fastest exact sampler produces one sample per second on a fixed machine; this device size increases with better hardware and algorithms. As the time per sample grows exponentially with the number of detected photons, doubling the machine speed moves the frontier by about one photon, whereas a better algorithm changes the growth rate. We measure the frontier with photonic-engines, an open-source GPU library of exact samplers for single photons, entangled photons from quantum emitters, vacuum-single-photon superpositions and squeezed light. Each sampler is validated against a simulator sharing no code with it. On one NVIDIA H100 GPU, with Haar-random interferometers, twice as many modes as photonic inputs and photon-number-resolving detectors, the frontier lies at 38.3 single photons and at 31.0 entangled photons from one emitter. For squeezed light, a timing model fitted to measurements places it at 41.5 squeezed photonic inputs of mean photon number 0.5. For our samplers, coherence alone makes simulation harder: sources that emit a photon with probability one half reach 64.2 when vacuum and photon are mixed incoherently, as for lossy single photons, but only 50.0 when they are in coherent superposition. Feed-forward from mid-circuit measurement of up to three modes lowers the single-photon frontier only from 38.3 to 38.1.",
+      "external_ids": [
+        "arxiv:2611.12876"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-10T16:02:33+08:00",
+      "last_seen_at": "2026-11-10T16:02:33+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.12857",
+      "arxiv_version": "v1",
+      "title": "Mapping of Spacetimes with Neural Networks",
+      "authors": [
+        "Estuti Shukla",
+        "David Radice",
+        "Rossella Gamba",
+        "Sebastiano Bernuzzi"
+      ],
+      "published": "2026-11-09",
+      "url": "https://arxiv.org/abs/2611.12857",
+      "abstract": "Gauge freedom in numerical relativity complicates the interpretation of simulation coordinates and the comparison of different descriptions of the same spacetime. We present a data-driven neural network method for learning coordinate maps from numerical metric data to a prescribed target gauge. The network is trained by matching the transformed source metric to the target metric, without assuming a functional form for the coordinate transformation. We first validate the method on analytical Schwarzschild and Kerr geometries, recovering known transformations up to the isometries of the target spacetime. We then apply it to numerical black hole evolutions in moving-puncture coordinates. For a non-spinning black hole, the learned map relates the time-dependent numerical metric to a stationary Schwarzschild metric in ingoing Eddington-Finkelstein coordinates. For a spinning puncture, the method provides an approximate identification with a Kerr background despite departures from Kerr in the numerical spacetime. We use this identification to construct curvature perturbations and evolve them with the Teukolsky equation, obtaining waveforms that closely match those extracted from the full nonlinear simulation. These results demonstrate that learned coordinate maps can relate numerical spacetimes to analytical backgrounds, with potential applications to cross-code validation and black hole perturbation theory.",
+      "external_ids": [
+        "arxiv:2611.12857"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "incremental potential contact",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-10T16:02:33+08:00",
+      "last_seen_at": "2026-11-10T16:02:33+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.12862",
+      "arxiv_version": "v1",
+      "title": "Quantitative global regularity for Navier--Stokes equations with odd viscosity on the cubic three-torus",
+      "authors": [
+        "Jinzheng Li",
+        "Yuqi Li",
+        "Hao-Yu Sun"
+      ],
+      "published": "2026-11-09",
+      "url": "https://arxiv.org/abs/2611.12862",
+      "abstract": "We study the three-dimensional incompressible Navier--Stokes equation on the cubic torus with a constant odd-viscosity operator given by the vertical derivative of the curl. Arbitrary real, mean-zero, divergence-free initial data and an independent steady force, both in the second-order Sobolev space, admit a unique global strong solution when the magnitude of one fixed odd-viscosity coefficient is at least a norm-uniform sufficient threshold. In the unforced case the solution is smooth at positive times. The qualitative argument adapts the resonant-averaging framework for rapidly rotating fluids to the different odd-viscous dispersion. Weighted lattice counts and signed corrected-energy estimates yield a sufficient bound for the odd-to-ordinary viscosity ratio that is polynomial in the normalized initial-data radius at each fixed normalized force radius, together with a separate bound in a specified force-dominated regime. No optimality is claimed for the polynomial exponents or prefactors; determining the sharp viscosity threshold for the original equation remains open. Direct kinetic and weighted enstrophy barriers also give regularity for every coefficient on explicit bounded data and force regions, including the closed unforced ball of homogeneous second-order Fourier Sobolev radius ninety-seven fortieths times the viscosity and seven closed forced rectangles. We specify how finite certificates enter the analytic argument and distinguish minimization of a sufficient formula from sharpness for the original equation. All three main theorems are formally verified in Lean 4 with Mathlib.",
+      "external_ids": [
+        "arxiv:2611.12862"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics",
+        "global illumination real-time",
+        "ray tracing global illumination",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-10T16:02:33+08:00",
+      "last_seen_at": "2026-11-10T16:02:33+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.12851",
+      "arxiv_version": "v1",
+      "title": "Distributed Global Pose Synchronization for Heterogeneous Multiple Rigid Body Systems on SE(3)",
+      "authors": [
+        "Fengyu Lin",
+        "Miaomiao Wang",
+        "Housheng Su",
+        "Zhigang Zeng",
+        "Abdelhamid Tayebi"
+      ],
+      "published": "2026-11-09",
+      "url": "https://arxiv.org/abs/2611.12851",
+      "abstract": "This paper addresses the problem of global pose synchronization for heterogeneous multiple rigid-body systems evolving on the matrix Lie group $\\SE(3)$. We first construct a new potential function on $\\SE(3) \\times \\mathbb{R}$ with a generalized non-diagonal weighting matrix, together with a set of switching variables governed by continuous-discrete hybrid dynamics. Based on this new potential function and these switching variables, we propose a distributed hybrid feedback control scheme that uses relative pose on $\\SE(3)$ and group velocity measurements, endowed with global asymptotic stability guarantees. We then further propose a distributed velocity-free hybrid feedback control scheme that uses relative and absolute pose measurements, without requiring group velocity measurements, while preserving global asymptotic stability. Numerical simulations are presented to demonstrate the performance of the proposed distributed hybrid control schemes.",
+      "external_ids": [
+        "arxiv:2611.12851"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "incremental potential contact",
+        "real-time fluid simulation graphics",
+        "global illumination real-time",
+        "ray tracing global illumination",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-10T16:02:33+08:00",
+      "last_seen_at": "2026-11-10T16:02:33+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.12840",
+      "arxiv_version": "v1",
+      "title": "High Pressure Material Phase Identification with Gaussian Kernel Neural Networks",
+      "authors": [
+        "Cameron Ryan",
+        "Yasantha Pasindu Hetti Kankanamalage",
+        "Shuai Zhang"
+      ],
+      "published": "2026-11-09",
+      "url": "https://arxiv.org/abs/2611.12840",
+      "abstract": "Phase identification is a computational task involving the classification of material structure using the positions of atoms. Using data from Molecular Dynamics (MD) simulations, our task is to identify the material phase of a set of atoms, based on how the simulations predict their positioning relative to each other. By leveraging existing research on mechanistic neural network theory, particularly Neural Tangent Kernels (NTK), we develop a new and efficient method for classifying simulated material samples. Our method involves defining a set of \"atom detectors\" that are given positions around the origin in cartesian coordinates. The sum of Gaussians centered at each atom is calculated at each atom detector, and is used as the input to a neural network. We present theoretical and experimental evidence to show that this method is highly effective and efficient at the task. Our method obtains better or similar accuracy scores to commonly used methods while having a major computational speedup.",
+      "external_ids": [
+        "arxiv:2611.12840"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-10T16:02:33+08:00",
+      "last_seen_at": "2026-11-10T16:02:33+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.12831",
+      "arxiv_version": "v1",
+      "title": "Numerical-Relativity Particle-in-Cell Simulations: Self-Gravitating Collisionless Matter in Dynamical Spacetimes",
+      "authors": [
+        "Jiaxi Wu",
+        "Elias R. Most"
+      ],
+      "published": "2026-11-09",
+      "url": "https://arxiv.org/abs/2611.12831",
+      "abstract": "Gravitational collapse and instability, black-hole dynamics in systems with large scale separations, and questions surrounding extremal black hole formation require full nonlinear studies using accurate and adapted numerical tools. To this end, we present a new algorithm to study collisionless relativistic systems using a fully kinetic description of matter coupled to the evolving spacetime. In detail, we present a numerical-relativity particle-in-cell (NRPIC) framework for solving the Einstein--Vlasov system in three spatial dimensions. Implemented on top of the performance-portable \\texttt{AthenaK} code, the method couples particle dynamics to Z4c spacetime evolution in moving puncture gauge through conservative stress-energy deposition on adaptively refined meshes. Our implementation makes use of advances in the computational modeling of relativistic plasmas using modern PIC models, now made available to general-relativistic gravity via an equivalent electrodynamic formulation. We introduce a Boris-type particle pusher that exploits the electrodynamic (Lorentz force) form of the geodesic force. We validate the coupled evolution against spherical dust collapse, follow prolate collapse through collisionless caustics into black-hole formation, and investigate the stability and nonlinear migration of relativistic clusters. Highlighting its potential to study gravitational instability in NR, we simulate the collapse of two overdensities within a common collisionless envelope, following black-hole formation, binary inspiral and merger, and subsequent mass accretion onto the remnant.",
+      "external_ids": [
+        "arxiv:2611.12831"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "incremental potential contact",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-10T16:02:33+08:00",
+      "last_seen_at": "2026-11-10T16:02:33+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.12784",
+      "arxiv_version": "v1",
+      "title": "Quantum Simulation of Quantum Channels and Applications",
+      "authors": [
+        "Lúcio S. Fassarella"
+      ],
+      "published": "2026-11-09",
+      "url": "https://arxiv.org/abs/2611.12784",
+      "abstract": "We review the basic theory of quantum channels and develop a strategy for simulating them on digital quantum computers, drawing upon the \\emph{Choi-Kraus operator-sum representation} and Stinespring dilation to provide a unified approach for various applications. We discuss three types of applications, offering explicit examples for each: the preparation of mixed states, measurements described by positive operator-valued measures (POVMs), and the simulation of the evolution of Markovian quantum systems. We recover fundamental concepts from quantum theory, such as the purification of a mixed state and the Naimark dilation associated with a POVM. Regarding the simulation of the evolution of a Markovian quantum system, we introduce an operator, termed the residual operator, to construct, from the system's Liouvillian, a quantum channel that serves as a first-order approximation of the quantum dynamical semigroup. This allows the simulation of quantum dynamics to be performed in a manner analogous to the Euler method for ordinary differential equations, avoiding Trotterization. We prove all the theoretical results mentioned, with the exception of the fundamental Choi-Kraus theorem concerning the operator-sum representation of quantum channels, for which we provide the appropriate references. The explicit simulations discussed were implemented using the AerSimulator from IBM's Qiskit SDK, with the corresponding code available on GitHub.",
+      "external_ids": [
+        "arxiv:2611.12784"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-10T16:02:33+08:00",
+      "last_seen_at": "2026-11-10T16:02:33+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.12773",
+      "arxiv_version": "v1",
+      "title": "An efficient classical algorithm for OTOCs in chaotic quantum dynamics",
+      "authors": [
+        "Yunchao Liu",
+        "Yihui Quek",
+        "Shreya Vardhan",
+        "Tianci Zhou"
+      ],
+      "published": "2026-11-09",
+      "url": "https://arxiv.org/abs/2611.12773",
+      "abstract": "Estimating out-of-time-ordered correlators (OTOCs) in individual instances of random quantum circuits has been proposed as a candidate for verifiable quantum advantage, and demonstrated to be hard for conventional classical algorithms such as tensor networks and Monte Carlo. Using insights from quantum chaos, we develop and implement a polynomial-time classical algorithm for the four-point ${\\rm OTOC}^{(1)}$ and the eight-point ${\\rm OTOC}^{(2)}$ in typical instances of one-dimensional (1D) quantum circuits. Our results demonstrate average-case classical tractability of estimating OTOCs in the sensitive regime where circuit-to-circuit fluctuations are large. Our algorithm organizes the OTOC into a rapidly converging series, where the leading term includes contributions from histories within permutation degrees of freedom in the replicated Hilbert space, and subleading terms arise from excursions outside this space. Although chaos is often viewed as an insurmountable barrier to classical simulation, our algorithm exploits a form of dephasing caused by chaos, which suppresses the subleading terms. We provide strong theoretical and numerical evidence to support this suppression. Further, we demonstrate that practical implementations of our algorithm estimate ${\\rm OTOC}^{(1)}$ and ${\\rm OTOC}^{(2)}$ in 1D circuits with high accuracy, achieving higher signal-to-noise ratio at larger circuit depths compared to recent 2D experiments by Google. Extending our algorithm to higher dimensions, and resolving the status of quantum advantage in 2D OTOCs, remain open problems.",
+      "external_ids": [
+        "arxiv:2611.12773"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-10T16:02:33+08:00",
+      "last_seen_at": "2026-11-10T16:02:33+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.12887",
+      "arxiv_version": "v1",
+      "title": "Legendre manifolds generated by the Barenblatt equations",
+      "authors": [
+        "Svetlana Mukhina"
+      ],
+      "published": "2026-11-09",
+      "url": "https://arxiv.org/abs/2611.12887",
+      "abstract": "The paper is devoted to the construction of exact general solutions of the equations of oil filtration in a porous medium under the action of an active reagent injected into the reservoir. The choice of the reagent solution determines the control process of chemical oil flooding in hard-to-recover fields. The problem is described by a system of two first-order nonlinear partial differential equations (the Barenblatt model). Conditions are found on the Buckley--Leverett function, the adsorption function, and the distribution function of the reagent in oil under which the original system, by means of a nonlinear change of variables on a five-dimensional manifold endowed with a contact structure, is reduced to a linear wave system with constant coefficients. Six families of such functions are indicated. For them, contact transformations and Legendre surfaces corresponding to general solutions in implicit form are constructed.",
+      "external_ids": [
+        "arxiv:2611.12887"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-10T16:02:33+08:00",
+      "last_seen_at": "2026-11-10T16:02:33+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.12879",
+      "arxiv_version": "v1",
+      "title": "Grasping the Future: Joint 3D Hand-Object Forecasting From Internet Videos",
+      "authors": [
+        "Rustin Soraki",
+        "Matthew Wallingford",
+        "Ryan Aby",
+        "Brandon Chee",
+        "Jason Ren",
+        "Ali Farhadi",
+        "Homanga Bharadhwaj",
+        "Roozbeh Mottaghi"
+      ],
+      "published": "2026-11-09",
+      "url": "https://arxiv.org/abs/2611.12879",
+      "abstract": "To interact with an object, we need to anticipate both how it will move and how our hands should move with it. Human videos capture these relationships across everyday activities, offering a natural source for learning to predict future interactions. Learning from them requires recovering motion from completed interactions and using it to anticipate what could happen next. We present $\\textit{Grasping-the-Future}$, a unified generative model of joint 3D hand-object motion, including wrist motion, finger articulation, and object position and orientation. Through masked spatiotemporal completion and flow matching, we train a single model for several prediction tasks: forecasting future interactions, predicting hand motion given object motion or vice versa, generating both trajectories toward a desired final object pose, and completing partially observed interactions. We explicitly model hand-object relations and incorporate contact constraints to help preserve grasp relationships during motion. To obtain 3D supervision from internet videos, we develop a scalable pipeline that combines pretrained perception models with joint geometric optimization to reconstruct completed interactions. We combine these recovered trajectories with annotated interaction datasets as training data for all tasks. We demonstrate strong performance across all tasks, outperforming released forecasters on datasets with 3D annotations. Moreover, we show geometric and physical plausibility of the predicted trajectories by retargeting them to a robotic embodiment. Videos are available at https://grasping-the-future.github.io.",
+      "external_ids": [
+        "arxiv:2611.12879"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-10T16:02:33+08:00",
+      "last_seen_at": "2026-11-10T16:02:33+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.12845",
+      "arxiv_version": "v1",
+      "title": "AGN Feedback Turbulence in Cool-core Clusters: Evidence from XRISM",
+      "authors": [
+        "Congyao Zhang",
+        "Eugene Churazov",
+        "Irina Zhuravleva",
+        "Hannah McCall",
+        "Annie Heinrich",
+        "William R. Forman",
+        "Ildar Khabibullin",
+        "Michal Zajaček",
+        "Norbert Werner"
+      ],
+      "published": "2026-11-09",
+      "url": "https://arxiv.org/abs/2611.12845",
+      "abstract": "The XRISM X-ray Observatory has revealed evidence for a \"double-cascade\" scenario in the Perseus cluster, in which active galactic nucleus (AGN) feedback and mergers drive turbulence over distinct radial ranges and spatial scales. Whether this gas kinematic feature is common among cool-core clusters remains unclear. Here, we revisit XRISM observations of A1795 and A2029 to investigate the signatures of AGN feedback and their contribution to the gas velocity fields. In A1795, AGN feedback dominates the velocity dispersion in the core, similar to Perseus, and may provide turbulent heating at a rate comparable to radiative cooling. In contrast, we obtain only an upper limit on the AGN feedback contribution in A2029, where merger-driven motions dominate. Tailored simulations indicate that an off-axis minor merger $\\simeq1.6$ Gyr ago displaced the central low-entropy gas in A2029, potentially suppressing AGN activity. This gas is now returning to the center, possibly facilitating the re-establishment of AGN feedback. We propose an evolutionary view of the double-cascade scenario, in which merger-driven motions dominate during and shortly after significant mergers, while feedback-driven turbulence re-emerges in cluster cores as systems relax. This framework provides a basis for interpreting XRISM kinematic measurements of (weak) cool-core clusters. Our findings highlight the importance of spatially resolved gas kinematics and detailed modeling for identifying double-cascade features and disentangling the contributions of AGN feedback and mergers.",
+      "external_ids": [
+        "arxiv:2611.12845"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact",
+        "real-time fluid simulation graphics",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-10T16:02:33+08:00",
+      "last_seen_at": "2026-11-10T16:02:33+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.12811",
+      "arxiv_version": "v1",
+      "title": "NS 1987A: A Potential Probe of Crustal Superfluidity with Future X-ray Observations",
+      "authors": [
+        "Akira Dohi",
+        "Keita Izumi",
+        "Asuka Ito",
+        "Emanuele Greco",
+        "Marco Miceli",
+        "Salvatore Orlando",
+        "Shigehiro Nagataki"
+      ],
+      "published": "2026-11-09",
+      "url": "https://arxiv.org/abs/2611.12811",
+      "abstract": "Several indirect observations imply that the central compact object in the supernova SN 1987A is likely to be the youngest neutron star identified to date, NS 1987A. We investigate how a future detection of its thermal X-ray emission could constrain neutron-star interiors, using cooling models and a generic high-resolution, large-area X-ray observatory with \\textit{Lynx}-like capabilities as a sensitivity benchmark. For the adopted sensitivity and observing window, NS 1987A is detectable at $t\\sim60~{\\rm yr}$ (roughly 2047) unless rapid neutrino cooling operates, such as the direct Urca process. If the neutron superfluidity in the inner crust is weak, the temperature profile inside NS 1987A is likely not to be isothermal at the detection. In that case, the future direct observation of NS 1987A is a potential probe of the properties inside the inner crust. We compare alternative X-ray observatories and emphasize that both effective area and angular resolution, needed to reduce contamination from the surrounding remnant, determine whether this diagnostic can be realized.",
+      "external_ids": [
+        "arxiv:2611.12811"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-10T16:02:33+08:00",
+      "last_seen_at": "2026-11-10T16:02:33+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.12806",
+      "arxiv_version": "v1",
+      "title": "Learning Heterogeneous Tactile Representation for General Dexterous Manipulation",
+      "authors": [
+        "Bing Han",
+        "Yichuan Peng",
+        "Haoyu Dong",
+        "Yuanmeng Hu",
+        "Yongyi Jia",
+        "Fangjing Wang",
+        "Kecheng Zheng",
+        "Yiming Zhang",
+        "Yanhong Zeng",
+        "Xiaoqing Zhang",
+        "Chen Song",
+        "Rundong Zou",
+        "Anqi Dong",
+        "Yuan Guan",
+        "Ka Leong Cheng",
+        "Xing Zhu",
+        "Yujun Shen",
+        "Nan Xue",
+        "Wei Ning"
+      ],
+      "published": "2026-11-09",
+      "url": "https://arxiv.org/abs/2611.12806",
+      "abstract": "Tactile sensing is an indispensable modality for contact-rich dexterous manipulation, a capability that hints at the ultimate frontiers of embodied intelligence. However, commercially available tactile sensors are still at a relatively early stage of development, with each type of sensor offering irreplaceable strengths alongside its own drawbacks. A key challenge is thus to free tactile understanding from sensor-specific physics, so that embodied models can effectively leverage heterogeneous tactile data. To this end, we develop LingBot-Touch, a tactile foundation model characterized by the following properties. (i) Our model yields a unified representation across different tactile sensors (i.e., piezoresistive, magnetic, and visuotactile sensors), and is easily extensible to new sensor types. (ii) The resulting tactile tokens are plug-and-play: they can be seamlessly integrated into policy models across paradigms, from diffusion policy to vision-language-action (VLA) models such as $π_{0.5}$ and LingBot-VLA, consistently enhancing manipulation dexterity. (iii) Extensive experiments, spanning simulation and real-robot deployments across multiple hardware platforms, demonstrate that our tactile representation substantially benefits complex manipulation tasks while maintaining strong computational efficiency. We believe the findings in this work demonstrate the potential of leveraging cross-sensor data to scale tactile learning, and offer encouraging insights for the design of future hardware and embodied models.",
+      "external_ids": [
+        "arxiv:2611.12806"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-10T16:02:33+08:00",
+      "last_seen_at": "2026-11-10T16:02:33+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.12850",
+      "arxiv_version": "v1",
+      "title": "Enhancing valley splitting in Si/SiGe Wiggle Well quantum dots through integrated stressor-gate architectures",
+      "authors": [
+        "E. S. Joseph",
+        "Talise Oh",
+        "D. E. Savage",
+        "D. S. Stone",
+        "DeAnna Campbell",
+        "Benjamin D. Woods",
+        "Mark Friesen",
+        "M. A. Eriksson"
+      ],
+      "published": "2026-11-09",
+      "url": "https://arxiv.org/abs/2611.12850",
+      "abstract": "Engineering large and reproducible valley splittings is essential for the scalable operation of silicon spin qubits. In Si/SiGe quantum dot devices, valley splitting arises predominantly from atomic-scale disorder and is therefore inherently random, motivating approaches that introduce a large deterministic contribution. Strain-assisted Wiggle Wells provide a route to deterministic valley splitting by combining an oscillatory Ge concentration in the Si well with shear strain; however, generating the required strain in a manner compatible with large-scale architectures remains a challenge. Here, we propose patterned stressed thin films as a scalable approach for generating shear strain in the quantum well of Si/SiGe quantum dot devices. Finite-element simulations show that compressively stressed TiN films can generate shear strains exceeding 0.1\\% at the quantum well, sufficient for deterministic valley splittings of hundreds of $μ\\text{eV}$ in strain-assisted Wiggle Wells. We show that this strain can extend across multiple quantum dots and is maintained in realistic gate geometries, providing a fabrication-compatible approach for scaling deterministic valley splitting to quantum dot arrays.",
+      "external_ids": [
+        "arxiv:2611.12850"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-10T16:02:33+08:00",
+      "last_seen_at": "2026-11-10T16:02:33+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.12837",
+      "arxiv_version": "v1",
+      "title": "Change-point analysis of textual data: a flexible approach",
+      "authors": [
+        "Bojana Milošević",
+        "Luka Perović"
+      ],
+      "published": "2026-11-09",
+      "url": "https://arxiv.org/abs/2611.12837",
+      "abstract": "We propose a CUSUM-based change-point procedure for word-frequency vectors that accounts for the variation in the amount of observed textual information over time. Under a multinomial model, we derive the asymptotic null distribution of the proposed statistic, allowing for varying document numbers and lengths. With trimming based on cumulative word counts, the limiting null distribution does not depend on the temporal distribution of textual information. We also consider parametric and nonparametric bootstrap procedures for finite-sample calibration. A simulation study examines their performance under both multinomial sampling and Dirichlet mixtures of multinomial distributions. The results demonstrate the advantages of the proposed approach under increasing document intensity and show that resampling entire documents provides more reliable calibration in the presence of document-level heterogeneity. Finally, we apply the procedure, combined with binary segmentation, to 68,542 abstracts from the arXiv category stat.ML spanning 2007-2025, identifying multiple changes in word-usage patterns.",
+      "external_ids": [
+        "arxiv:2611.12837"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-10T16:02:33+08:00",
+      "last_seen_at": "2026-11-10T16:02:33+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.12805",
+      "arxiv_version": "v1",
+      "title": "2D Gum-Net: Unsupervised Dense Elastic Image Registration via Symmetric Correlation and Spectral Pooling",
+      "authors": [
+        "Aarya Bhave",
+        "Anushka Ajay Bhave"
+      ],
+      "published": "2026-11-09",
+      "url": "https://arxiv.org/abs/2611.12805",
+      "abstract": "Dense non-rigid registration, the recovery of a pixel-wise deformation field that warps one image into geometric agreement with another, is fundamental across medical imaging, structural biology, and correspondence estimation, yet learning-based approaches face a severe bottleneck: ground-truth deformation fields are notoriously difficult to obtain for real data. We present 2D Gum-Net, an end-to-end architecture that predicts dense elastic deformation fields fully unsupervised. We transfer the Geometric Unsupervised Matching Network (Gum-Net), originally developed for 3D subtomogram alignment in cryo-electron tomography, to 2D elastic registration: all three modules are redesigned in 2D, and the rigid transformation head is replaced by a Dense Spatial Transformer that regresses a sparse control-point grid, lifted to a full-resolution field $Φ$ by bicubic interpolation. Downsampling uses DCT spectral pooling, implemented as frozen-basis matrix multiplications ($\\approx 50\\times$ GPU speedup), preserving the fine, quasi-periodic structure that max and average pooling destroy. We evaluate on contact-based fingerprints, a challenging testbed for this task: locally self-similar ridge patterns make correspondence maximally ambiguous, skin pressed against a sensor generates authentic large-displacement elastic distortion, and minutiae act as precise landmarks through which an independent matcher externally verifies the topological correctness of predicted fields. Trained purely on synthetic impressions and evaluated zero-shot on real benchmarks, our method improves structural correlation by up to 15.7% on FVC2004 and raises genuine match scores under an independent matcher while leaving imposter scores essentially unchanged. This suggests that the predicted deformations restore true structure without fabricating correspondences.",
+      "external_ids": [
+        "arxiv:2611.12805"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "global illumination real-time"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-10T16:02:33+08:00",
+      "last_seen_at": "2026-11-10T16:02:33+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.12772",
+      "arxiv_version": "v1",
+      "title": "Gravitational waves and the exit from de Sitter in Inflation without an Inflaton",
+      "authors": [
+        "Daniele Bertacca",
+        "Raul Jimenez",
+        "Sabino Matarrese",
+        "Mariam Abdelaziz",
+        "Marisol Traforetti"
+      ],
+      "published": "2026-11-09",
+      "url": "https://arxiv.org/abs/2611.12772",
+      "abstract": "In Inflation without an Inflaton (IWI), second-order de Sitter (dS) gravitons generate primordial curvature as the Coulomb-type potential of their gradient stress. Each pair contributes $(p/k)^2$, yielding exponential enhancement over the contributing e-folds. With exact Bunch-Davies evolution, this solution satisfies all four scalar second-order Einstein equations in pure dS. The retarded transverse-traceless solution instead has a UV kernel of order unity, $(k/p)^2$ below the scalar kernel, and a one-loop correction $Δ^2_{h,2}/Δ^2_h\\simeq0.04\\,Δ^2_h$. Its source acts before internal freeze-out, but oscillatory cancellations prevent tensor enhancement. We evolve the curvature through a smooth exit into radiation domination. Conserved curvature resides on the vacuum-decay hypersurface. A global depletion clock holds each scale on zero-shear time for $N_{\\rm w}$ e-folds after horizon exit before local release, giving all scales equal enhancement. Energy-momentum conservation feeds the depleted vacuum energy into a non-vacuum sector, modeled as radiation. Deep in radiation domination, $Δ^2_ζ=c_wΔ_h^4e^{N_{\\rm w}}/20$, with clock-dependent $c_w$, $n_s-1=-4ε$, and $n_T=-2ε$. The spectrum is adiabatic and Gaussian; super-horizon $ζ$ is conserved to better than $10^{-4}$, and changing the adiabatic exit fluid alters it by less than $0.2\\%$. A direct radiation exit requires $31\\lesssim N_{\\rm w}\\lesssim50$, or $3\\times10^{-6}\\lesssim r\\lesssim0.036$. At interferometer frequencies, $Ω_{\\rm GW}h^2\\simeq2\\times10^{-21}$--$3\\times10^{-17}$, accessible to BBO for $r\\gtrsim0.01$ and ultimate DECIGO for $r\\gtrsim10^{-5}$; CMB B-mode searches probe $r\\gtrsim10^{-3}$. Above $k_{\\rm end}e^{-N_{\\rm w}}$, the scalar spectrum steepens to $k^{-1}$, suppressing $μ$-distortions for sharp release when $N_{\\rm w}\\gtrsim45$.",
+      "external_ids": [
+        "arxiv:2611.12772"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "global illumination real-time"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-10T16:02:33+08:00",
+      "last_seen_at": "2026-11-10T16:02:33+08:00"
+    }
+  ]
+}
