@@ -1,6 +1,402 @@
 {
-  "updated_at": "2026-11-10T16:02:33+08:00",
+  "updated_at": "2026-11-11T15:33:59+08:00",
   "candidates": [
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.14484",
+      "arxiv_version": "v1",
+      "title": "Nonperturbative string dynamics in a (2+1)D lattice gauge theory on a superconducting quantum processor",
+      "authors": [
+        "Sanziana Stelea",
+        "Anthony Gandon",
+        "Francesco Tacchino",
+        "Jad C. Halimeh",
+        "Ivano Tavernelli"
+      ],
+      "published": "2026-11-10",
+      "url": "https://arxiv.org/abs/2611.14484",
+      "abstract": "Electric flux strings underpin confinement in gauge theories. In two spatial dimensions, their evolution involves competing processes of charge motion, pair creation, and transverse deformation. Accessing these dynamics beyond perturbative limits challenges classical approaches, as entanglement growth restricts the times accessible to tensor-network simulations. Here we use quantum simulation to investigate a (2+1)D Z2 lattice gauge theory with dynamical matter and an explicit magnetic plaquette interaction, spanning strongly confined and nonperturbative deconfined regimes. Using 63 superconducting qubits, including 12 ancillas, we evolve initially localized strings with static or dynamical endpoint charges. Spatially resolved measurements reveal rapid charge and flux spreading in the deconfined regime, enhanced matter occupation in the string interior near the pair-creation resonance, and suppressed spreading at strong electric fields. String-path occupations further probe transverse rearrangements between configurations connected by plaquette operations. Retaining separate matter and gauge degrees of freedom makes local Gauss-law constraints directly accessible for error detection. Combining these constraints with ancilla checks and noise rescaling, we measure dynamics in circuits containing up to 15 second-order Trotter steps. Our results establish quantum simulation as a practical approach to exploring nonperturbative string dynamics in two spatial dimensions, with gauge redundancy serving as an experimental resource.",
+      "external_ids": [
+        "arxiv:2611.14484"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-11T15:33:59+08:00",
+      "last_seen_at": "2026-11-11T15:33:59+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.14435",
+      "arxiv_version": "v1",
+      "title": "A Statistical Analysis of Lopsidedness in Disk Galaxies",
+      "authors": [
+        "Abbos Omonov",
+        "Karomat Mirtadjieva",
+        "Salakhutdin Nuritdinov",
+        "Dario Dottorini"
+      ],
+      "published": "2026-11-10",
+      "url": "https://arxiv.org/abs/2611.14435",
+      "abstract": "We present a statistical analysis of Fourier lopsidedness in disk galaxies based on a deduplicated compilation of 606 unique objects: 442 have a measured m = 1 amplitude (A1), and 302 of these also have a measured m = 2 amplitude (A2), with no entry carrying A2 alone. The sample is a factor of approximately 3 larger than earlier homogeneous A1-A2 datasets. Our main results are: (i) Both A1 and A2 follow log-normal distributions (KS D = 0.046 and 0.048) which are strongly preferred over Rayleigh or exponential forms, pointing to a multiplicative amplification process rather than random-phase superposition. (ii) The m = 1 and m = 2 modes are correlated as A2 = 0.29 A1 + 0.11 (Spearman rho = 0.501, p less than 10^-19). (iii) A1 rises monotonically with morphological T-type from approximately 0.07 in E/S0 to approximately 0.37 in Sm/Im galaxies (Kendall tau = 0.234, p approximately 10^-12). (iv) A1 anti-correlates with gas rotation velocity (Spearman rho = -0.432) and, in a stellar-mass cross-matched subsample of 246 galaxies with independent stellar-mass estimates, with stellar mass (rho = -0.395). The weaker lopsidedness of massive, fast-rotating disks indicates that the observed m = 1 amplitude is regulated by internal dynamics rather than set by tidal perturbations alone. (v) The TNG50-1 simulation, analysed through the TNGGalaxyLab Fourier pipeline, reproduces the observed A1-stellar-mass anti-correlation with a nearly identical Spearman coefficient, although its median A1 is approximately 1.4 times lower, an offset consistent with the heterogeneous target selection of the observational compilation.",
+      "external_ids": [
+        "arxiv:2611.14435"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-11T15:33:59+08:00",
+      "last_seen_at": "2026-11-11T15:33:59+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.14500",
+      "arxiv_version": "v1",
+      "title": "The expected number of holes of the planar Wiener sausage",
+      "authors": [
+        "Tristan Guillaume"
+      ],
+      "published": "2026-11-10",
+      "url": "https://arxiv.org/abs/2611.14500",
+      "abstract": "```text Let $β_1^T(r)$ be the number of holes, that is, the first Betti number, of the Wiener sausage of radius $r$ of a planar Brownian motion run up to time $T$. We prove that $\\mathbb{E}[β_1^T(r)]$ is of order $T/(r^2(\\log T)^2)$ as $T\\to\\infty$, for each fixed $r>0$, which completes the lower bound obtained in a companion paper from a law for the inradii of the cavities of the path. We also identify which parts of the complement of the path contribute at leading order. At unit time and radius $\\varepsilon$, the holes lying in the unbounded component of the complement have expected number $O(\\varepsilon^{-2+θ_0})$ for an absolute $θ_0>0$, whereas the additional holes created when a cavity fragments under erosion have expected number of exact order $\\varepsilon^{-2}(\\log(1/\\varepsilon))^{-2}$. In particular the one-pocket constant of the lower bound is strictly improved. The upper bound is obtained by pricing the contact configurations that pin near-critical pockets along the two independent arms of the path from a deterministic time, each arm contributing one factor $1/\\log(1/\\varepsilon)$. The outer estimate combines a stratified form of this first-moment bound with a packing argument near the frontier of the path, and the splitting lower bound forces a dumbbell-shaped cavity by a local construction followed by two logarithmic avoidance probabilities. The upper bound and the two structural estimates use no limit theorem for the shapes of cavities; the shape law enters only through the lower bound of the companion paper. ```",
+      "external_ids": [
+        "arxiv:2611.14500"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-11T15:33:59+08:00",
+      "last_seen_at": "2026-11-11T15:33:59+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.14476",
+      "arxiv_version": "v1",
+      "title": "BoviShift: A Six-Year Multi-Attribute Audit of Visual Cattle Phenotyping Across Animals and Time",
+      "authors": [
+        "Mobasshir Bhuiya Shagor",
+        "Nilambar Halder Tonmoy",
+        "Md Saef Ullah Miah"
+      ],
+      "published": "2026-11-10",
+      "url": "https://arxiv.org/abs/2611.14476",
+      "abstract": "Computer vision offers a scalable, non-contact means of estimating livestock traits, but correlated images and video frames make reliable evaluation difficult. Image-random splitting can place views of the same animal in both training and test sets, while deployment further requires transfer to animals captured in future years. We introduce BoviShift, a corpus reconstructed from six consecutive annual cohorts of an operational cattle marketplace collected from 2021 to 2026. It contains 2{,}657 cattle, 10{,}610 still images, and 2{,}566 walk-around videos across nine recorded breed categories. We evaluate three splitting strategies through four configurations: image-random and pooled cattle-disjoint splits over the same development cohorts, followed by separate future-2025 and locked future-2026 evaluations. Using a fixed ResNet-50 multi-task baseline, we assess weight, age, height, breed, and coat color. Differences between image-random and cattle-disjoint splitting are task-dependent rather than a universal leakage penalty. Future-cohort behavior is also attribute- and cohort-specific: breed declines relative to pooled evaluation; mean weight and age performance fails to beat constant baselines in 2025; height remains above baseline; and color transfers well to 2025 but degrades in 2026. Multi-task training improves all five point estimates in a single-seed ablation, still-view aggregation helps selectively, and zero-shot video-frame aggregation exposes a still-to-video domain gap. To our knowledge, BoviShift is the longest-spanning cattle-vision resource combining consecutive annual cohorts with physical and visual attributes.",
+      "external_ids": [
+        "arxiv:2611.14476"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-11T15:33:59+08:00",
+      "last_seen_at": "2026-11-11T15:33:59+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.14449",
+      "arxiv_version": "v1",
+      "title": "On the symplectic cohomology of orbifold divisor complements",
+      "authors": [
+        "Bogdan Simeonov",
+        "Elliot Gathercole"
+      ],
+      "published": "2026-11-10",
+      "url": "https://arxiv.org/abs/2611.14449",
+      "abstract": "This article studies the symplectic cohomology of Liouville domains whose contact boundaries admit a periodic Reeb flow, with a particular focus on affine varieties which arise as orbifold divisor complements. We describe a computation of the transverse Conley-Zehnder indices which allows for a simple computation of the positive equivariant symplectic cohomology in cases when the inertia orbifold of the compactifying divisor has only even cohomology. This is then applied to the classification of orbifold compactifications of $\\mathbb{C}^n$. Moreover, we study the action of multiplication by the principal orbit on V-shaped symplectic cohomology and prove that if the compactification $(\\mathcal{X},\\mathcal{D})$ is positively monotone, then this class induces a periodic structure on symplectic cohomology, reducing the problem of computing an infinite-dimensional group to a finite-dimensional repeating portion. We combine the index computations and this periodic structure to compute the symplectic cohomology of various Milnor fibers of surface singularities, the rational homology balls $B_{p,1}$ as well as complements of star-shaped configurations of rational curves in K3 surfaces, which includes the Milnor fibers of the exceptional unimodal singularities.",
+      "external_ids": [
+        "arxiv:2611.14449"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-11T15:33:59+08:00",
+      "last_seen_at": "2026-11-11T15:33:59+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.14448",
+      "arxiv_version": "v1",
+      "title": "Phase transitions in the hard-wall large deviations for the Gaussian free field",
+      "authors": [
+        "Xinyi Li",
+        "Jialu Shi"
+      ],
+      "published": "2026-11-10",
+      "url": "https://arxiv.org/abs/2611.14448",
+      "abstract": "We study the probability that the Gaussian free field on $\\mathbb{Z}^d$, $d\\ge3$, stays above a level $-h_N$ throughout the lattice $N$-blow-up of a bounded Lipschitz domain, when $h_N$ is close to the entropic-repulsion height $\\sqrt{4g_0\\log N}$. Two mechanisms compete: a collective upward displacement of the field, whose cost is governed by capacity, and the suppression of the remaining local violations, whose cost is their expected number, both of which are of order $N^{d-2}/\\log N$ exactly in the window $h_N(β)^2=g_0(4\\log N+\\log\\log N+2β)$. We obtain a sharp asymptotic rate expressed through a variational problem combining a Dirichlet energy with an exponential potential inside this critical window. Outside this window we obtain the asymptotics at the appropriate moving speeds: capacity alone governs the cost as $β\\to-\\infty$, and the expected number of violations as $β\\to+\\infty$. As an application, we derive lower-deviation bounds for the cover level of a macroscopic body by random interlacements, which determine the order of decay at the transition.",
+      "external_ids": [
+        "arxiv:2611.14448"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-11T15:33:59+08:00",
+      "last_seen_at": "2026-11-11T15:33:59+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.14423",
+      "arxiv_version": "v1",
+      "title": "Cotangent-lift inference of stochastic microbial dynamics",
+      "authors": [
+        "José A. Capitán",
+        "Alberto Megías",
+        "Cristina Sardón"
+      ],
+      "published": "2026-11-10",
+      "url": "https://arxiv.org/abs/2611.14423",
+      "abstract": "We study the parameter estimation for the stochastic logistic and Lotka--Volterra diffusions from discrete, irregularly spaced observations corrupted by measurement noise, a setting typical of microbiome time series. For the logistic equation, the growth rate acts as a time change and does not enter the stationary law, so it can be identified only from the temporal structure of the data. We prove that the maximum-likelihood estimator of the Euler scheme, with the observations taken as the states, coincides with the regression of log-increments on abundances used in the literature, and we characterise what this estimator cannot see under measurement noise: for the linearised dynamics, the law of consecutive pairs of observations is invariant along an explicit one-parameter family of relaxation rates and noise levels, and the regression converges to a limit set by the noise. Treating the true abundances as latent, we compute the likelihood with a Gaussian moment filter and show that measurement noise is precisely what couples the filter states across samples. The exact gradient is then the backward recursion of the discrete cotangent lift, whose cost, two to three likelihood evaluations, does not depend on the number of parameters, and we give the covector map of each filter step in closed form. In simulations, the latent estimator recovers the relaxation times, noise levels and interaction strengths that the regression biases, while larger communities require prior information on the interactions. In gut microbiome time series it attributes most of the variability of a dominant genus to measurement noise and estimates its relaxation time at about $64$ hours, with a large standard error.",
+      "external_ids": [
+        "arxiv:2611.14423"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-11T15:33:59+08:00",
+      "last_seen_at": "2026-11-11T15:33:59+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.14403",
+      "arxiv_version": "v1",
+      "title": "Scattering thresholds for the NLS equation with polynomially decaying damping",
+      "authors": [
+        "Makram Hamouda",
+        "Mohamed Majdoub"
+      ],
+      "published": "2026-11-10",
+      "url": "https://arxiv.org/abs/2611.14403",
+      "abstract": "We study the focusing nonlinear Schrödinger equation with a linear damping of strength $a(1+t)^{-θ}$, where $a>0$ and $θ\\ge0$, in the whole energy-subcritical range. For $θ>0$, the time-averaged damping vanishes, so that the scattering theory developed in our previous work does not apply. We show that the long-time dynamics is governed by the time integrability of an effective coupling, which decays faster than any power when $θ<1$, polynomially when $θ=1$, and not at all when $θ>1$. In the mass-subcritical case, all solutions are global. They scatter when $θ<1$ and, for $θ=1$, above an explicit exponent depending on $a$. On the other hand, no non-trivial solution is asymptotically free below a second explicit exponent when $θ=1$, and below the short-range exponent $1+2/N$ when $θ>1$. In the mass-critical case, solutions are global below the ground state. Moreover, for $θ\\le1$, every solution which survives until its decaying mass becomes subcritical is global and scatters. In the intercritical case, we prove small data scattering and, for $θ\\le1$, a dichotomy between scattering and grow-up of the gradient. Finally, in the scale-invariant case $θ=1$, we analyze the range between the two thresholds. We reduce the equation exactly to a nonlinear Schrödinger equation with a decaying repulsive harmonic potential, and we construct approximate solitary waves with an integrable error. This leads to a conjecture, supported by numerical simulations, on the sharpness of the scattering threshold.",
+      "external_ids": [
+        "arxiv:2611.14403"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact",
+        "global illumination real-time"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-11T15:33:59+08:00",
+      "last_seen_at": "2026-11-11T15:33:59+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.14495",
+      "arxiv_version": "v1",
+      "title": "SkipLane: Write-Once, Conflict-Free Accumulation for Zero-Skipping CNN Engines on FPGAs",
+      "authors": [
+        "Aditya Saboo",
+        "Pratibha Verma"
+      ],
+      "published": "2026-11-10",
+      "url": "https://arxiv.org/abs/2611.14495",
+      "abstract": "Skipping zero activations saves multiplications in CNN accelerators, but it complicates accumulation: the products in a compressed input window belong to different output columns and must be merged. In our earlier engine, this merging was done by read-modify-write (RMW) of a row buffer, which made sparse inputs slower than dense ones even at 87% sparsity. Existing designs either merge kernel rows through RMW or reduce bank conflicts with extra hardware, without eliminating them. SkipLane makes the entire accumulation path write-once. Each kernel row is processed in its own lane, which holds partial sums in three registers and retires up to three finished columns per cycle into memory banks that cannot conflict. Lanes and input channels are summed only at readout, so no partial sum is ever read back. Multipliers left idle by zero weights compute a second filter in the same pass. In RTL simulation, the engine stays within 0.5% of its frontend bound up to 70% sparsity and is 1.10-1.26$\\times$ faster than an SCNN-style scatter accumulator with 18 banks and ideal RMW at 50-80% sparsity. Six engines meet 140 MHz on a PYNQ-Z2 using 21.1k LUTs and run LeNet-5 bit-exact on the board. For conv1, the engine needs 1.94$\\times$ fewer cycles than a dense engine (1.26$\\times$ faster end to end); for conv2, whose rows are only 13 pixels wide, it reaches 0.87$\\times$ the dense speed.",
+      "external_ids": [
+        "arxiv:2611.14495"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-11T15:33:59+08:00",
+      "last_seen_at": "2026-11-11T15:33:59+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.14482",
+      "arxiv_version": "v1",
+      "title": "Singustars: Between Black Holes and Compact Stars",
+      "authors": [
+        "Pablo Laguna"
+      ],
+      "published": "2026-11-10",
+      "url": "https://arxiv.org/abs/2611.14482",
+      "abstract": "The Tolman--Oppenheimer--Volkoff equations admit singular solutions in which a negative point mass is surrounded by a self-gravitating fluid. For a $Γ$-law polytropic equation of state, these solutions, which we call singustars, are thick shells bounded by two zero-pressure surfaces around a naked, repulsive, negative-mass singularity, with a Schwarzschild exterior. They form a two-parameter family, labeled by the mass $M$ and the compactness $C\\equiv M/R$. Singustars join regular polytropes as the central negative mass vanishes and reach compactness beyond the Buchdahl bound. From exact equilibria and their radial modes, we find that singustars with $Γ= 2$ are stable only for $M\\lesssim0.63$ and $C\\lesssim0.25$, a region that nonetheless contains configurations more compact than any stable regular polytrope, although none with a light ring. In the numerically resolved parameter space, unstable singustars have a single unstable radial mode; many are energetically unbound. Nonlinear evolutions in ingoing null coordinates show that the end state depends on the perturbation. For the collapsing models studied, backward tracing of outgoing null rays identifies an event-horizon generator with a past endpoint on the singularity, before the first trapped surface appears. Outward perturbations disperse unbound shells and leave the singularity naked, while a bound shell migrates toward, and oscillates about, a stable configuration with the same conserved masses.",
+      "external_ids": [
+        "arxiv:2611.14482"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-11T15:33:59+08:00",
+      "last_seen_at": "2026-11-11T15:33:59+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.14472",
+      "arxiv_version": "v1",
+      "title": "r-Process Abundance Variations in Globular Clusters as Fossils of Turbulent Mixing",
+      "authors": [
+        "Lailani Kenoly",
+        "Isabelle Connor",
+        "Melinda Soares-Furtado",
+        "Evan N. Kirby",
+        "Nia Imara",
+        "Enrico Ramirez-Ruiz"
+      ],
+      "published": "2026-11-10",
+      "url": "https://arxiv.org/abs/2611.14472",
+      "abstract": "Several metal-poor Galactic globular clusters exhibit substantial star-to-star $r$-process abundance variations at nearly fixed [Fe/H], with the ensemble suggesting smaller variations toward increasing metallicity. We investigate whether this chemical structure can be inherited from incomplete mixing in the galactic environments in which the clusters formed. Using parsec-scale simulations of rare-element transport in a supernova-driven turbulent disk, we follow the redistribution of $r$-process ejecta and characterize the abundance structure of gas selected to trace star-forming environments. Rare enrichment events generate strong [Eu/Fe] inhomogeneities that persist across a range of physical scales. As chemical evolution proceeds, the available abundance variance decreases, while spatial averaging over larger regions reduces the differences between their characteristic abundances. The simulations provide substantial pre-collapse $r$-process variance at low [Fe/H] and show the same broad decline toward higher metallicity suggested by the globular-cluster measurements. Our results support an interpretation in which at least some of the observed $r$-process variations are inherited from pre-existing chemical structure in the natal environment, allowing globular clusters to preserve a fossil record of the mixing history between rare enrichment and star formation.",
+      "external_ids": [
+        "arxiv:2611.14472"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-11T15:33:59+08:00",
+      "last_seen_at": "2026-11-11T15:33:59+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.14457",
+      "arxiv_version": "v1",
+      "title": "Measuring Kaplan--Meier Overestimation Under Competing Risks: Event Ordering, Quantification, and Exact Inference",
+      "authors": [
+        "Ferran Espuny-Pujol"
+      ],
+      "published": "2026-11-10",
+      "url": "https://arxiv.org/abs/2611.14457",
+      "abstract": "Competing risks arise when individuals may experience multiple mutually exclusive event types. Competing events are frequently treated as censoring and analysed using Kaplan--Meier (KM) methods, which overestimate real-world event risks. While the existence of KM overestimation is well known, its determinants, magnitude, and inferential properties remain poorly characterised. We develop a nonparametric framework that treats competing risks overestimation as a statistical quantity in its own right. We show that competing event frequency alone is insufficient to characterise KM overestimation and develop an event ordering theory describing how temporal event allocation influences overestimation. Based on these results, we derive a closed-form Total Overestimation Diagnostic (TOD) that quantifies total KM overestimation directly from routine survival analysis output. We establish exact error equivalence results for both cause-specific and total overestimation. In particular, Product Limit Error Equivalence shows that inference for TOD reduces exactly to ordinary overall survival estimation. Simulation experiments validate the theoretical results and show that independent censoring primarily affects precision rather than overestimation magnitude. Across six benchmark competing risks datasets, cause-specific overestimation is characterised by both total overestimation and temporal event allocation. These results provide a practical framework for assessing competing risks relevance and determining when cumulative incidence methods should be preferred to naïve KM risks. The proposed framework transforms competing risks overestimation from a qualitative warning into a measurable quantity that can be routinely quantified, interpreted, and incorporated into reporting practice.",
+      "external_ids": [
+        "arxiv:2611.14457"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-11T15:33:59+08:00",
+      "last_seen_at": "2026-11-11T15:33:59+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.14456",
+      "arxiv_version": "v1",
+      "title": "Connecting field-level and n-point function measurements of galaxy bias",
+      "authors": [
+        "Hsiang-Ming Huang",
+        "Henrique Rubira",
+        "Fabian Schmidt"
+      ],
+      "published": "2026-11-10",
+      "url": "https://arxiv.org/abs/2611.14456",
+      "abstract": "Precise measurements of galaxy bias parameters are essential for extracting cosmological information from galaxy surveys. Field-level analyses infer bias coefficients at a finite cutoff $Λ$, typically related to the lattice resolution, while $n$-point function analyses typically adopt renormalization conditions defined in the low-$k$ limit. In this work, we use the renormalization group (RG) to relate field-level measurements at different cutoffs and connect them to $n$-point function measurements. We generate mock galaxy fields with a Lagrangian perturbation theory forward model and a galaxy bias expansion, and then measure the bias parameters across a range of cutoffs. We show that the RG predictions describe the measured running and, in the limit $Λ\\to 0$, agree with the (tree-level) $n$-point function measurements of first-order $b_δ$ and second-order $b_{δ^2}, b_{{G}_2}$. We also measure the running on halo catalogs based on full $N$-body simulations and show that the RG prediction describes the measurements well within the predicted systematic errors. Our results establish the RG flow as a natural formulation for relating galaxy bias measurements at different cutoffs and connecting the schemes used in field-level and $n$-point function analyses.",
+      "external_ids": [
+        "arxiv:2611.14456"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-11T15:33:59+08:00",
+      "last_seen_at": "2026-11-11T15:33:59+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.14437",
+      "arxiv_version": "v1",
+      "title": "Dwarf galaxy simulations with stellar-core mass- and metallicity-dependent core-collapse supernova explosion energies",
+      "authors": [
+        "Natalia Lahén",
+        "Kiril Maltsev",
+        "Thorsten Naab",
+        "Hans-Thomas Janka"
+      ],
+      "published": "2026-11-10",
+      "url": "https://arxiv.org/abs/2611.14437",
+      "abstract": "Core-collapse supernovae (CCSNe) are a critical source of thermal and kinetic energy and chemically enriched material in galaxies. Leveraging recent advances in CCSN modelling, we implement a novel core-mass- and metallicity-dependent prescription for stellar explodability and CCSN explosion energies, $E_\\mathrm{expl}$, in the SPHGal galaxy evolution code. It accounts for black hole (BH) formation via SN failures and via partial fallback of ejecta mass, and adopts an explosion-progenitor connection calibrated to three-dimensional CCSN simulations, such that $E_\\mathrm{expl}$ varies between $<0.1$-$2\\, \\mathrm{B}$. We ran simulations of isolated low-metallicity galaxies with variations in the input stellar feedback models. With the new explodability prescription nearly three times more BHs form compared to the canonical CCSN-model, but the reduced number of successful CCSNe has minimal impact on galactic star formation owing to the low fraction of failed CCSNe. While BH formation contributes to removal of matter from the galactic baryon cycle, the latter remains driven by galactic outflows, and most compact remnant mass is stored in white dwarves. The most significant change is instead brought about by the new average-$E_\\mathrm{expl}$ that amounts to $\\sim33$\\% of the $1\\,\\mathrm{B}=10^{51}\\, \\mathrm{erg}$ traditionally assumed in sub-resolution CCSN-models. This reduction results in increased and less bursty star formation, reduced outflows and mass-loading factors, increased star cluster formation efficiency, and enhanced chemical enrichment and metal-recycling in star-forming regions. These results stand in contrast with outflow-launching and baryon cycle modelling in lower-resolution galaxy simulations in which canonical (i.e., $1\\, \\mathrm{B}$) CCSN feedback is typically assumed to produce galaxy models that match observed scaling relations.",
+      "external_ids": [
+        "arxiv:2611.14437"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-11T15:33:59+08:00",
+      "last_seen_at": "2026-11-11T15:33:59+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.14428",
+      "arxiv_version": "v1",
+      "title": "Convergence and global optimality of Wasserstein--Fisher--Rao descent for Gaussian mixtures",
+      "authors": [
+        "Xingzhou Wang",
+        "Ziyang Jiang",
+        "Zheng Li",
+        "Mingyan Liu",
+        "Yiling Wang",
+        "Jingze Yang"
+      ],
+      "published": "2026-11-10",
+      "url": "https://arxiv.org/abs/2611.14428",
+      "abstract": "We study explicit Wasserstein--Fisher--Rao descent for fitting Gaussian location mixtures by nonparametric maximum likelihood. The full sequence converges weakly and has finite length in the bounded-Lipschitz metric throughout the original step-size range. These conclusions hold for any fixed data set in any dimension and any initial probability measure. By an earlier conditional optimality theorem, the limit maximizes the likelihood under full-support initialization. Fix any particle step size in $(0,1]$. Initialize the particles by resampling the observations. For an open set of triples of points in the plane, the probability of convergence to a strictly suboptimal fixed point tends to one exponentially as the particle count grows. Without reweighting, a centered Gaussian initialization can give a strictly suboptimal limit. Every finite iterate has a smooth, strictly positive density. The limit assigns positive mass to a nonglobal local maximum of the associated Gaussian sum. We also give the exact pure-transport limit for a one-dimensional initialization with full support and an atom. An exact finite-dimensional representation preserves the truncated likelihood moments and the retained region's contribution to the current dissipation. This lets us transfer an analytic gradient inequality to the measure trajectory.",
+      "external_ids": [
+        "arxiv:2611.14428"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "global illumination real-time"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-11T15:33:59+08:00",
+      "last_seen_at": "2026-11-11T15:33:59+08:00"
+    },
     {
       "source": "arxiv",
       "arxiv_id": "2611.12885",
@@ -565,7 +961,7 @@
     }
   ],
   "last_run": {
-    "at": "2026-11-10T16:02:33+08:00",
+    "at": "2026-11-11T15:33:59+08:00",
     "sources": [
       "arxiv",
       "semanticscholar",
@@ -581,9 +977,9 @@
       "MLS-MPM",
       "projective dynamics cloth"
     ],
-    "fetched": 122,
-    "merged": 46,
-    "new": 19
+    "fetched": 92,
+    "merged": 21,
+    "new": 15
   },
   "topic": "game technology: physics simulation, real-time rendering, global illumination",
   "schema_version": 1
