@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T15:33:59+08:00",
+  "updated_at": "2026-11-12T16:00:21+08:00",
   "candidates": [
     {
       "source": "arxiv",
@@ -29,7 +29,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-11-11T15:33:59+08:00",
-      "last_seen_at": "2026-11-11T15:33:59+08:00"
+      "last_seen_at": "2026-11-12T16:00:21+08:00"
     },
     {
       "source": "arxiv",
@@ -57,7 +57,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-11-11T15:33:59+08:00",
-      "last_seen_at": "2026-11-11T15:33:59+08:00"
+      "last_seen_at": "2026-11-12T16:00:21+08:00"
     },
     {
       "source": "arxiv",
@@ -81,7 +81,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-11-11T15:33:59+08:00",
-      "last_seen_at": "2026-11-11T15:33:59+08:00"
+      "last_seen_at": "2026-11-12T16:00:21+08:00"
     },
     {
       "source": "arxiv",
@@ -107,7 +107,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-11-11T15:33:59+08:00",
-      "last_seen_at": "2026-11-11T15:33:59+08:00"
+      "last_seen_at": "2026-11-12T16:00:21+08:00"
     },
     {
       "source": "arxiv",
@@ -132,7 +132,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-11-11T15:33:59+08:00",
-      "last_seen_at": "2026-11-11T15:33:59+08:00"
+      "last_seen_at": "2026-11-12T16:00:21+08:00"
     },
     {
       "source": "arxiv",
@@ -157,7 +157,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-11-11T15:33:59+08:00",
-      "last_seen_at": "2026-11-11T15:33:59+08:00"
+      "last_seen_at": "2026-11-12T16:00:21+08:00"
     },
     {
       "source": "arxiv",
@@ -183,7 +183,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-11-11T15:33:59+08:00",
-      "last_seen_at": "2026-11-11T15:33:59+08:00"
+      "last_seen_at": "2026-11-12T16:00:21+08:00"
     },
     {
       "source": "arxiv",
@@ -209,7 +209,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-11-11T15:33:59+08:00",
-      "last_seen_at": "2026-11-11T15:33:59+08:00"
+      "last_seen_at": "2026-11-12T16:00:21+08:00"
     },
     {
       "source": "arxiv",
@@ -234,7 +234,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-11-11T15:33:59+08:00",
-      "last_seen_at": "2026-11-11T15:33:59+08:00"
+      "last_seen_at": "2026-11-12T16:00:21+08:00"
     },
     {
       "source": "arxiv",
@@ -259,7 +259,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-11-11T15:33:59+08:00",
-      "last_seen_at": "2026-11-11T15:33:59+08:00"
+      "last_seen_at": "2026-11-12T16:00:21+08:00"
     },
     {
       "source": "arxiv",
@@ -289,7 +289,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-11-11T15:33:59+08:00",
-      "last_seen_at": "2026-11-11T15:33:59+08:00"
+      "last_seen_at": "2026-11-12T16:00:21+08:00"
     },
     {
       "source": "arxiv",
@@ -313,7 +313,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-11-11T15:33:59+08:00",
-      "last_seen_at": "2026-11-11T15:33:59+08:00"
+      "last_seen_at": "2026-11-12T16:00:21+08:00"
     },
     {
       "source": "arxiv",
@@ -339,7 +339,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-11-11T15:33:59+08:00",
-      "last_seen_at": "2026-11-11T15:33:59+08:00"
+      "last_seen_at": "2026-11-12T16:00:21+08:00"
     },
     {
       "source": "arxiv",
@@ -366,7 +366,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-11-11T15:33:59+08:00",
-      "last_seen_at": "2026-11-11T15:33:59+08:00"
+      "last_seen_at": "2026-11-12T16:00:21+08:00"
     },
     {
       "source": "arxiv",
@@ -395,7 +395,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-11-11T15:33:59+08:00",
-      "last_seen_at": "2026-11-11T15:33:59+08:00"
+      "last_seen_at": "2026-11-12T16:00:21+08:00"
     },
     {
       "source": "arxiv",
@@ -961,7 +961,7 @@
     }
   ],
   "last_run": {
-    "at": "2026-11-11T15:33:59+08:00",
+    "at": "2026-11-12T16:00:21+08:00",
     "sources": [
       "arxiv",
       "semanticscholar",
@@ -977,9 +977,9 @@
       "MLS-MPM",
       "projective dynamics cloth"
     ],
-    "fetched": 92,
-    "merged": 21,
-    "new": 15
+    "fetched": 112,
+    "merged": 26,
+    "new": 0
   },
   "topic": "game technology: physics simulation, real-time rendering, global illumination",
   "schema_version": 1
