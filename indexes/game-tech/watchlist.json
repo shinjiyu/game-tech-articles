@@ -1,6 +1,423 @@
 {
-  "updated_at": "2026-11-12T16:00:21+08:00",
+  "updated_at": "2026-11-13T15:38:47+08:00",
   "candidates": [
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.17324",
+      "arxiv_version": "v1",
+      "title": "K2V: Generative Keyframing For Physically Plausible Video Generation",
+      "authors": [
+        "Felix O'Mahony",
+        "Daniel Olmeda Reino",
+        "Roberto Cipolla",
+        "Ayush Tewari"
+      ],
+      "published": "2026-11-12",
+      "url": "https://arxiv.org/abs/2611.17324",
+      "abstract": "Video diffusion models are able to generate samples with high-quality appearance and textural qualities. However, content produced by these methods is known to exhibit significant physical errors. This is because, in a classical video generation setting, all physical reasoning must take place simultaneously and exclusively within the diffusion process.We propose to resolve these issues by redistributing the task of physical reasoning onto a language model-backed keyframe generation module, which allows for explicit reasoning in language, and fine-grained control over the appearance of the video at important moments in the video. We then condition a video generation model with these keyframes, reducing the role of the diffusion model to the simpler task of interpolating between physically-correct intermediate states, rather than inferring an entire sequence with diffusion. Results demonstrate that our approach significantly outperforms existing approaches, achieving state-of-the-art performance on the Physics-IQ Verified benchmark and PhyGenBench.",
+      "external_ids": [
+        "arxiv:2611.17324"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-13T15:38:47+08:00",
+      "last_seen_at": "2026-11-13T15:38:47+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.17333",
+      "arxiv_version": "v1",
+      "title": "Discrete Time Crystals from Anti-Unitary Floquet Driving and Dynamical Freezing",
+      "authors": [
+        "Anirban Das",
+        "Asmi Haldar",
+        "Arnab Das"
+      ],
+      "published": "2026-11-12",
+      "url": "https://arxiv.org/abs/2611.17333",
+      "abstract": "We show anti-unitary periodic drive paves a direct path for stabilizing a Discrete Time-Crystal by Dynamical Freezing (DF). The magnetization appears as an emergent conserved operator, and an exact pairing of two-cycle quasi-energies pins the subharmonic response. DF keeps the effective Hamiltonian $\\textit{quasi-local}$; infinite-chain simulations show no detectable decay for a generic state with any finite magnetization. We outline an experimental realization of the anti-unitary drive.",
+      "external_ids": [
+        "arxiv:2611.17333"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-13T15:38:47+08:00",
+      "last_seen_at": "2026-11-13T15:38:47+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.17301",
+      "arxiv_version": "v1",
+      "title": "DiSKO: Distribution Steering for Nonlinear Systems using the Koopman Operator",
+      "authors": [
+        "Dimitrios Moustroufis",
+        "Panagiotis Tsiotras"
+      ],
+      "published": "2026-11-12",
+      "url": "https://arxiv.org/abs/2611.17301",
+      "abstract": "This paper studies the problem of data-driven covariance steering for stochastic, nonlinear dynamical systems. We utilize Koopman operator theory to learn, directly from data, an approximate linear representation of the nonlinear dynamics in a lifted space of observable functions of the state. By exploiting this linear model, we design controllers for the mean and covariance of the underlying nonlinear system by utilizing linear distribution steering algorithms. To account for approximation errors in the learned dynamics and the ambiguity in the disturbance distribution induced in the lifted space, we formulate the problem as a distributionally robust covariance steering problem. Furthermore, we leverage a deep neural network (DNN) to simultaneously learn the Koopman observables and the linear model parameters, thus eliminating the need for manual observables basis selection while also reducing the dimensionality of the lifted representation. Additionally, we can promote desirable model properties, such as stability, during DNN training. We demonstrate the effectiveness of the proposed framework via numerical simulations.",
+      "external_ids": [
+        "arxiv:2611.17301"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-13T15:38:47+08:00",
+      "last_seen_at": "2026-11-13T15:38:47+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.17319",
+      "arxiv_version": "v1",
+      "title": "The Cauchy problem for skew-torsion-parallel spinors with applications to supergravity",
+      "authors": [
+        "C. S. Shahbazi"
+      ],
+      "published": "2026-11-12",
+      "url": "https://arxiv.org/abs/2611.17319",
+      "abstract": "We solve the Cauchy problem for an irreducible real spinor parallel with respect to a metric connection with skew-symmetric torsion on a globally hyperbolic Lorentzian four-manifold, proving that it is well-posed modulo an obstruction that we identify explicitly, and obtaining an initial-data characterization of such spinors. Our proof relies on the theory of spinorial forms, which we use to explicitly integrate the coupled flow for the spinor and underlying metric via a rotated pull-back action of the flow generated by a vector field on the Cauchy hypersurface $Σ$. We characterize the corresponding constraint equations as an explicit exterior differential system and describe all its solutions in terms of contact structures and flat foliations, obtaining a complete classification in the compact case. In particular, we conclude that every oriented compact three-manifold arises as the Cauchy hypersurface of a globally hyperbolic Lorentzian four-manifold equipped with a skew-torsion parallel spinor. Building on these results, we study the interaction between the four-dimensional Neveu-Schwarz supergravity evolution flow on an abelian bundle gerbe and the spinorial evolution flow determined by its supersymmetric conditions, which we prove to be well-posed and compatible. This establishes the well-posedness of the supersymmetric Neveu-Schwarz system in four dimensions and provides an initial-data characterization of supersymmetry. Furthermore, we obtain a strong rigidity result stating that every globally hyperbolic supersymmetric Neveu-Schwarz solution with a compact Cauchy hypersurface is flat and has vanishing bundle-gerbe curvature.",
+      "external_ids": [
+        "arxiv:2611.17319"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact",
+        "global illumination real-time",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-13T15:38:47+08:00",
+      "last_seen_at": "2026-11-13T15:38:47+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.17289",
+      "arxiv_version": "v1",
+      "title": "Well-Balanced WE-PINNs for the Shallow Water Equations over Smooth and Discontinuous Bathymetries",
+      "authors": [
+        "Ismail Oubarka",
+        "Imad Kissami",
+        "Mohamed Boubekeur",
+        "Imad Elmahi",
+        "Fayssal Benkhaldoun"
+      ],
+      "published": "2026-11-12",
+      "url": "https://arxiv.org/abs/2611.17289",
+      "abstract": "Physics-informed neural networks (PINNs) solve partial differential equations without a mesh, but they do not in general preserve the steady states that well-balanced schemes reproduce exactly. We present a well-balanced extension of the weak and entropy PINN (WE-PINN) framework to the shallow water equations over smooth and discontinuous bathymetry. The residual is a weak space--time control-volume identity enforced on randomly placed control volumes that may overlap, so no mesh is needed. In free-surface variables, the geometric source is integrated by parts onto the bed, so that the network is never differentiated, and a cell-local bed-slope correction makes the quadrature reproduce the exact bed increment. Bed discontinuities, located from the bathymetry alone, separate sub-domains carrying independent networks, coupled through conservation of discharge and total head. We prove that the fully discrete residual vanishes identically on the lake at rest for any control-volume family, quadrature order and nominal bed slope, so that the equilibrium is an exact global minimiser of the training objective; that the continuous residual characterises weak solutions; that the slope correction is consistent; and that no approximation with a continuous free surface can satisfy the head condition at a step with non-zero discharge, so that the decomposition is necessary. Numerically, the residual vanishes to round-off on four lake-at-rest configurations over smooth, discontinuous, compound and tabulated beds, and the trained network reaches the equilibrium to round-off under an extended training budget. On seven Riemann problems at a bottom step, covering sub-, super- and critical transitions, the network attains relative $L^1$ free-surface errors between $6.9\\times10^{-4}$ and $3.5\\times10^{-3}$, and reaches critical states without prescribing them.",
+      "external_ids": [
+        "arxiv:2611.17289"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact",
+        "global illumination real-time",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-13T15:38:47+08:00",
+      "last_seen_at": "2026-11-13T15:38:47+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.17280",
+      "arxiv_version": "v1",
+      "title": "Synthesis Smuggling: Maliciously Hiding Inferred Personal Attributes in LLM Outputs",
+      "authors": [
+        "Gautam Galada",
+        "Supreeth Shastri",
+        "Sagnik Ray Choudhury"
+      ],
+      "published": "2026-11-12",
+      "url": "https://arxiv.org/abs/2611.17280",
+      "abstract": "We propose Synthesis Smuggling, a novel threat model in which an adversarial LLM infers sensitive information about a user from routine assistance-seeking interactions and steganographically encodes that into innocuous-looking model-generated content. The user may then unknowingly transmit that information by sharing the generated artifact, say as an email, social-media post, or message, through ordinary communication channels. An adversary monitoring these channels can discover this information. We demonstrate this threat by training two open-weight models to infer gender and age-group labels from conversational cues and encode their predictions using invisible characters or word choices. These results show that user-shared model outputs can become a covert channel for personal inferences, even when the model itself has no direct means of contacting an adversary.",
+      "external_ids": [
+        "arxiv:2611.17280"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-13T15:38:47+08:00",
+      "last_seen_at": "2026-11-13T15:38:47+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.17266",
+      "arxiv_version": "v1",
+      "title": "Global Fit Inference for LISA with samsara++",
+      "authors": [
+        "Lorenzo Valbusa Dall'Armi",
+        "Gabriele Astorino",
+        "Riccardo Buscicchio",
+        "Angelo Ricciardone",
+        "Walter Del Pozzo"
+      ],
+      "published": "2026-11-12",
+      "url": "https://arxiv.org/abs/2611.17266",
+      "abstract": "The Laser Interferometer Space Antenna (LISA) will observe a superposition of gravitational-wave signals, requiring joint inference of an unknown number of sources, parameters, and instrumental noise. To disentangle these contributions, that overlap in both time and frequency, a Global Fit (GF) analysis is needed. We present samsara++, a C++/CUDA sampler designed to address this trans-dimensional GF problem. Building on the continuous-time MCMC framework of samsara, the algorithm combines birth-death processes for adding and removing sources, with mutation moves for parameter estimation. Birth and death are selected through posterior-dependent rates. Shared-memory parallelism, incremental likelihood updates, and indexed storage reduce the computational and memory costs, while parallel tempering improves the exploration of multimodal posteriors. We assess the performance using simulated one-year LISA datasets containing Galactic double white dwarf binaries and stationary Gaussian instrumental noise. Analyses of populations containing 143 and 866 binaries start from empty source models, without preliminary searches or proposals tailored to the injected population. These tests demonstrate source reconstruction and catalog generation, highlighting, at the same time, the importance of source-count, overlapping signals, and incomplete mixing on joint source and noise inference. Then we perform a separate stress test, initialized at the injected parameters, exploring a population of 16,435 binaries, corresponding to 131,480 source parameters. This run completes 15 million iterations in approximately 16 hours using about 3 GB of RAM. All together, these benchmarks show the computational feasibility of birth-death sampling for large Galactic-binary populations, and provide a foundation for extending samsara++ toward a comprehensive LISA global fit.",
+      "external_ids": [
+        "arxiv:2611.17266"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact",
+        "real-time fluid simulation graphics",
+        "global illumination real-time"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-13T15:38:47+08:00",
+      "last_seen_at": "2026-11-13T15:38:47+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.17258",
+      "arxiv_version": "v1",
+      "title": "JOINTS: Classification and analytical evaluation of detachable dry connections for reusable concrete elements",
+      "authors": [
+        "Julius Fründt",
+        "Vladislav Gudžulić",
+        "Günther Meschke",
+        "Roger A. Sauer"
+      ],
+      "published": "2026-11-12",
+      "url": "https://arxiv.org/abs/2611.17258",
+      "abstract": "This paper presents a systematic classification for detachable dry joints suitable for the structural reuse of reinforced concrete elements, together with an analytical evaluation of representative configurations. The classification, named JOINTS and applicable to concrete connections beyond the reuse context, organizes the design space along five categories whose initials spell JOINT: the Juxtaposition (spatial arrangement of the paired elements), the Origin (their prior structural function), the Interface geometry, the Newly introduced materials at the joint, and the force-Transfer mechanism. A sixth category, the Score, completes the acronym and evaluates each configuration for sustainability, cost-efficiency, and mechanical performance. From this design space, three representative configurations are evaluated analytically under active post-tensioning, differing in both their joint geometry (planar, stepped, and angled) and their tendon inclination. The evaluation covers failure of the anchorage of the post-tensioning member, the contact limit of the interface, and the material limit of the concrete adjacent to the interface. Although complex joint geometries theoretically enhance interlocking, their benefit is limited by the compressive-shear strength of the concrete. The reinforcement of the reused elements may be damaged near the cut, and the splitting reinforcement that a conventional design would require is not guaranteed to exist. The present analysis therefore conservatively assumes that the concrete at the joint face alone resists the combined compression and shear, neglecting any residual contribution from the existing reinforcement. This analytical evaluation represents a first step toward quantifying the score over a parametric range of connections, here focusing on the mechanical criterion.",
+      "external_ids": [
+        "arxiv:2611.17258"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-13T15:38:47+08:00",
+      "last_seen_at": "2026-11-13T15:38:47+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.17299",
+      "arxiv_version": "v1",
+      "title": "Simulation-Based Priors and BAO Shifts from the Lyman-$α$ Forest at the Field Level",
+      "authors": [
+        "Divij Sharma",
+        "Roger de Belsunce",
+        "Mikhail M. Ivanov"
+      ],
+      "published": "2026-11-12",
+      "url": "https://arxiv.org/abs/2611.17299",
+      "abstract": "We present an analytic forward model for the Lyman-alpha (Ly-alpha) forest flux field based on cubic-order large-scale structure perturbation theory (effective field theory) calculations. We validate our cubic model on two sets of hydrodynamic simulations spanning $2 \\leq z \\leq 4$: the small-volume CAMELS suite, which spans a wide range of cosmological and astrophysical parameters, and the large-volume, high-resolution Sherwood simulations. We find qualitatively similar results for both at the power-spectrum level. The perturbative model reproduces the three-dimensional flux power spectrum of the simulations to $\\sim 5\\%$ down to $k \\simeq 1$-$1.5\\,h\\,{\\rm Mpc}^{-1}$, depending on the redshift. This improves compared to previous quadratic perturbative forward models by up to 40%. Exploiting cosmic-variance cancellation in the field-level approach, we carry out precision measurements of the Lyman-alpha forest bias parameters from the CAMELS simulation suite. We use these measurements to analytically predict the shifts in the Baryon Acoustic Oscillations (BAO) scaling parameters induced by nonlinearities in the three-dimensional Lyman-alpha forest clustering as a function of cosmological parameters. We find sub-percent shifts in both the radial and transverse directions with a noticeable dependence on cosmology and redshift. Finally, from the field-level fits we construct simulation-based priors that can be used for cosmological analyses of the Lyman-alpha forest with the currently observing Dark Energy Spectroscopic Instrument (DESI). In addition, our cubic model captures the connected four-point function (trispectrum) of the forest, which opens up novel opportunities for accurate covariance matrix estimation for DESI and its successor, DESI-II.",
+      "external_ids": [
+        "arxiv:2611.17299"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-13T15:38:47+08:00",
+      "last_seen_at": "2026-11-13T15:38:47+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.17290",
+      "arxiv_version": "v1",
+      "title": "Radiation, Thermochemistry, and Stellar Feedback in DISPATCH",
+      "authors": [
+        "William Lake",
+        "Paolo Padoan",
+        "Åke Nordlund",
+        "Troels Haugbølle"
+      ],
+      "published": "2026-11-12",
+      "url": "https://arxiv.org/abs/2611.17290",
+      "abstract": "The growth of massive stars depends on whether their accretion flows survive radiation and outflow feedback from the forming stellar population. We present an extension of DISPATCH that couples directional stellar radiation, diffuse infrared transport, and thermochemistry to self-gravitating magnetohydrodynamics, individual stellar accretion, and protostellar jets. This AMR-based method uses DISPATCH's local timestepping, allowing stellar environments and their larger scale cluster environments to step on separate timescales, and providing the framework needed to scale to long-duration simulations of GMCs. Direct radiation is transported in multiple bands, including both ionizing and nonionizing radiation, and uses short characteristics to maintain source directions and shadowing. Diffuse radiation is implemented for IR reprocessed light, with M1 and stationary ray options for transport. The thermochemical model includes atomic and molecular hydrogen and helium chemistry, and metal cooling and dust. It also includes a composition-dependent equation of state. Stellar masses grow through accretion of gas rather than a prescribed IMF, allowing stellar masses to respond to the evolving gas supply and feedback. In tests, multiple-source illumination retains geometric shadows while diffuse reprocessing heats shielded material, and tests of jets, ionization fronts, and radiation pressure demonstrate expected behavior and convergence. Ionization fronts also cross asynchronous refinement boundaries with late-time propagation speeds within a few percent of analytic predictions. Together, these developments provide a framework for determining how radiative and mechanical feedback modify the duration and efficiency of accretion from turbulent clouds, connecting the gas supply to individual stars with the high-mass stellar initial mass function.",
+      "external_ids": [
+        "arxiv:2611.17290"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics",
+        "global illumination real-time",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-13T15:38:47+08:00",
+      "last_seen_at": "2026-11-13T15:38:47+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.17283",
+      "arxiv_version": "v1",
+      "title": "SiC-BN composites with extreme thermal and environmental stability",
+      "authors": [
+        "Abhijit Biswas",
+        "Eugenio Garcia-Granados",
+        "Saman Zare",
+        "Mozhdeh Mirakhory",
+        "JungHun Park",
+        "Shuvodeep De",
+        "Jessica Reyes",
+        "Hunter B. Schonfeld",
+        "Noah A. Burke",
+        "William Riffe",
+        "Michael S. Lafferty",
+        "Sudaice Kazibwe",
+        "Maryam Amiri",
+        "Shreyasi Chattopadhyay",
+        "Mingrui Xu",
+        "Gelu Costin",
+        "Tanguy Terlier",
+        "Jianhua Li",
+        "Ching-Wu Chu",
+        "Liangzi Deng",
+        "Bharat K. Jasthi",
+        "Manoj Tripathi",
+        "Venkataramana Gadhamshetty",
+        "Gi-Dong Sim",
+        "Kathy Lu",
+        "Adri C. T. van Duin",
+        "Patrick E. Hopkins",
+        "Sanjay Sampath",
+        "Pulickel M. Ajayan"
+      ],
+      "published": "2026-11-12",
+      "url": "https://arxiv.org/abs/2611.17283",
+      "abstract": "Ceramic materials that maintain structural integrity and resist thermal-shock under extreme conditions are critical for many applications. Here we show that spark plasma sintered composites containing equal weight fractions of hexagonal silicon carbide (6H-SiC) and boron nitride (h-BN) exhibit exceptional stability under extreme high-temperature oxidizing conditions and unusually stable temperature-independent thermal conductivity across a broad temperature range. Under high-velocity oxygen-fuel torch exposure in air, it withstands prolonged heating and thermal-cycling at surface temperatures reaching >1500 °C, whereas pure 6H-SiC and h-BN rapidly fractures or erodes. Microstructural evaluation shows the formation of a multi-phase surface silica layer that further protects the material from oxidation. Finite-element analysis heat-flux map shows that intrinsic porosity mitigates thermal stress, while ReaxFF molecular dynamics simulations reveal thermally driven interfacial reconstruction and the formation of a Si-N/C-B-rich bonding network, enhancing the interfacial cohesion at elevated temperatures. This lightweight, easily machinable ceramic composite will be a promising structural material in extreme environment applications.",
+      "external_ids": [
+        "arxiv:2611.17283"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-13T15:38:47+08:00",
+      "last_seen_at": "2026-11-13T15:38:47+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.17279",
+      "arxiv_version": "v1",
+      "title": "On stimulated scattering including harmonic generation in an unmagnetized pair plasma for arbitrary pump strengths",
+      "authors": [
+        "Vijay Patel",
+        "Thomas Grismayer",
+        "Samuel Sebastian",
+        "Xinlu Xu",
+        "John Palastro",
+        "Paulo Alves",
+        "Warren B. Mori"
+      ],
+      "published": "2026-11-12",
+      "url": "https://arxiv.org/abs/2611.17279",
+      "abstract": "A fully nonlinear analysis for the growth rate of the stimulated backscatter instability of an intense electromagnetic (EM) wave with arbitrary polarization in an unmagnetized pair plasma is presented. The connection of this instability to the FEL process is discussed and utilized. An intense EM wave causes an initially stationary pair plasma to drift forward with a speed near the speed of light. The resulting distribution function for both cold and warm pair plasmas is presented. It is shown that the frequency of the reflected light is thus Doppler downshifted from that of the incident wave. For a linearly polarized EM wave there is also an additional contribution to the forward drift at its second harmonic which leads to backscattered light at all odd harmonics of the Doppler downshifted frequency for sufficiently cold pair plasmas. Fully nonlinear particle-in-cell simulations confirm the theoretical growth rates and show how the instability depends on the pair plasma temperature. The effect of the intensity profile of the incoming EM wave as well as implications for astrophysical pair plasmas is discussed.",
+      "external_ids": [
+        "arxiv:2611.17279"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-13T15:38:47+08:00",
+      "last_seen_at": "2026-11-13T15:38:47+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.17265",
+      "arxiv_version": "v1",
+      "title": "A deployed four-city entanglement-based QKD network with real-time key delivery, benchmarked against finite-key security bounds",
+      "authors": [
+        "Gilberto Borges",
+        "Saeid Salari",
+        "Ekta Panwar",
+        "Samgeeth Puliyil",
+        "Kartik Kakade",
+        "Peter Rapčan",
+        "Mario Ziman",
+        "Djeylan Aktas"
+      ],
+      "published": "2026-11-12",
+      "url": "https://arxiv.org/abs/2611.17265",
+      "abstract": "Quantum key distribution (QKD) generates shared secret keys whose security rests on the laws of physics rather than on computational assumptions. We report the entanglement-based segment of the Slovak national quantum communication infrastructure, connecting four cities in western Slovakia over deployed telecommunication fiber. Polarization-entangled photons generated at a central node are passively routed by wavelength to form a trusted-node-free, fully meshed sub-network of three cities, with the fourth connected through the central node and all links operated simultaneously. We also introduce a matrix formalism for passive wavelength routing that enables the algorithmic construction of uniquely and fully connected topologies. Unlike most previous demonstrations, which estimate key rates from raw coincidences, all rates reported here are obtained after the complete post-processing chain, with keys delivered in real time via ETSI GS QKD 014. With partial non-local chromatic dispersion compensation, we obtain 13.5 bit/s over 109 km, and 4.3 bit/s over 32.1 dB of accumulated loss between two cities without a direct fiber link. Benchmarking against finite-key security bounds shows that the implemented heuristic privacy amplification can exceed the finite-key bound, and that replacing detect-and-discard with error correction would increase the finite-key rate by a factor of 4.1-6.6, and yield a positive finite-key rate on the 142.9 km link where the implemented scheme yields none.",
+      "external_ids": [
+        "arxiv:2611.17265"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-13T15:38:47+08:00",
+      "last_seen_at": "2026-11-13T15:38:47+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.17262",
+      "arxiv_version": "v1",
+      "title": "Scalable Pauli propagation through $\\mathbb{F}_2$-linear partitioning",
+      "authors": [
+        "Alev Orfi",
+        "Andrew Kille",
+        "J. Clayton Peacock",
+        "Jack Dunham",
+        "Lukas Devos"
+      ],
+      "published": "2026-11-12",
+      "url": "https://arxiv.org/abs/2611.17262",
+      "abstract": "Pauli propagation simulates quantum circuits and many-body dynamics by evolving observables in the Heisenberg picture as sparse sums of Pauli strings. As Pauli-string operations reduce to bit manipulations, its performance is limited by memory bandwidth and capacity rather than computational throughput. Pooling the memory of many cores and nodes is hindered by the deduplication step after every gate, which can require global synchronization. We avoid this bottleneck by partitioning the strings with an $\\mathbb{F}_2$-linear hash function, which guarantees that a $k$-qubit channel couples each partition to at most $4^k$ partitions fixed by the gate, decomposing gate application into independent tasks with bounded communication. Benchmarks of our open-source implementation demonstrate efficient parallel scaling within and across compute nodes, enabling simulations with over $10^{11}$ Pauli strings and extending the accessible timescales of quantum many-body dynamics.",
+      "external_ids": [
+        "arxiv:2611.17262"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-13T15:38:47+08:00",
+      "last_seen_at": "2026-11-13T15:38:47+08:00"
+    },
     {
       "source": "arxiv",
       "arxiv_id": "2611.14484",
@@ -961,7 +1378,7 @@
     }
   ],
   "last_run": {
-    "at": "2026-11-12T16:00:21+08:00",
+    "at": "2026-11-13T15:38:47+08:00",
     "sources": [
       "arxiv",
       "semanticscholar",
@@ -977,9 +1394,9 @@
       "MLS-MPM",
       "projective dynamics cloth"
     ],
-    "fetched": 112,
-    "merged": 26,
-    "new": 0
+    "fetched": 102,
+    "merged": 27,
+    "new": 14
   },
   "topic": "game technology: physics simulation, real-time rendering, global illumination",
   "schema_version": 1
