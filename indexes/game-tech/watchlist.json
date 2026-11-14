@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T15:38:47+08:00",
+  "updated_at": "2026-11-14T15:21:46+08:00",
   "candidates": [
     {
       "source": "arxiv",
@@ -26,7 +26,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-11-13T15:38:47+08:00",
-      "last_seen_at": "2026-11-13T15:38:47+08:00"
+      "last_seen_at": "2026-11-14T15:21:46+08:00"
     },
     {
       "source": "arxiv",
@@ -54,7 +54,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-11-13T15:38:47+08:00",
-      "last_seen_at": "2026-11-13T15:38:47+08:00"
+      "last_seen_at": "2026-11-14T15:21:46+08:00"
     },
     {
       "source": "arxiv",
@@ -81,7 +81,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-11-13T15:38:47+08:00",
-      "last_seen_at": "2026-11-13T15:38:47+08:00"
+      "last_seen_at": "2026-11-14T15:21:46+08:00"
     },
     {
       "source": "arxiv",
@@ -107,7 +107,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-11-13T15:38:47+08:00",
-      "last_seen_at": "2026-11-13T15:38:47+08:00"
+      "last_seen_at": "2026-11-14T15:21:46+08:00"
     },
     {
       "source": "arxiv",
@@ -137,7 +137,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-11-13T15:38:47+08:00",
-      "last_seen_at": "2026-11-13T15:38:47+08:00"
+      "last_seen_at": "2026-11-14T15:21:46+08:00"
     },
     {
       "source": "arxiv",
@@ -163,7 +163,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-11-13T15:38:47+08:00",
-      "last_seen_at": "2026-11-13T15:38:47+08:00"
+      "last_seen_at": "2026-11-14T15:21:46+08:00"
     },
     {
       "source": "arxiv",
@@ -193,7 +193,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-11-13T15:38:47+08:00",
-      "last_seen_at": "2026-11-13T15:38:47+08:00"
+      "last_seen_at": "2026-11-14T15:21:46+08:00"
     },
     {
       "source": "arxiv",
@@ -220,7 +220,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-11-13T15:38:47+08:00",
-      "last_seen_at": "2026-11-13T15:38:47+08:00"
+      "last_seen_at": "2026-11-14T15:21:46+08:00"
     },
     {
       "source": "arxiv",
@@ -246,7 +246,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-11-13T15:38:47+08:00",
-      "last_seen_at": "2026-11-13T15:38:47+08:00"
+      "last_seen_at": "2026-11-14T15:21:46+08:00"
     },
     {
       "source": "arxiv",
@@ -275,7 +275,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-11-13T15:38:47+08:00",
-      "last_seen_at": "2026-11-13T15:38:47+08:00"
+      "last_seen_at": "2026-11-14T15:21:46+08:00"
     },
     {
       "source": "arxiv",
@@ -327,7 +327,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-11-13T15:38:47+08:00",
-      "last_seen_at": "2026-11-13T15:38:47+08:00"
+      "last_seen_at": "2026-11-14T15:21:46+08:00"
     },
     {
       "source": "arxiv",
@@ -357,7 +357,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-11-13T15:38:47+08:00",
-      "last_seen_at": "2026-11-13T15:38:47+08:00"
+      "last_seen_at": "2026-11-14T15:21:46+08:00"
     },
     {
       "source": "arxiv",
@@ -388,7 +388,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-11-13T15:38:47+08:00",
-      "last_seen_at": "2026-11-13T15:38:47+08:00"
+      "last_seen_at": "2026-11-14T15:21:46+08:00"
     },
     {
       "source": "arxiv",
@@ -416,7 +416,7 @@
       ],
       "status": "new",
       "first_seen_at": "2026-11-13T15:38:47+08:00",
-      "last_seen_at": "2026-11-13T15:38:47+08:00"
+      "last_seen_at": "2026-11-14T15:21:46+08:00"
     },
     {
       "source": "arxiv",
@@ -1378,7 +1378,7 @@
     }
   ],
   "last_run": {
-    "at": "2026-11-13T15:38:47+08:00",
+    "at": "2026-11-14T15:21:46+08:00",
     "sources": [
       "arxiv",
       "semanticscholar",
@@ -1394,9 +1394,9 @@
       "MLS-MPM",
       "projective dynamics cloth"
     ],
-    "fetched": 102,
-    "merged": 27,
-    "new": 14
+    "fetched": 112,
+    "merged": 31,
+    "new": 0
   },
   "topic": "game technology: physics simulation, real-time rendering, global illumination",
   "schema_version": 1
