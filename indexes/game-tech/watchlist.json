@@ -1,6 +1,536 @@
 {
-  "updated_at": "2026-11-15T15:30:44+08:00",
+  "updated_at": "2026-11-16T15:37:40+08:00",
   "candidates": [
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.18552",
+      "arxiv_version": "v1",
+      "title": "Real-time simulation of scattering in $φ^4$ theory: localized excitation, scalable wave packet preparation, and peak-generating artifacts",
+      "authors": [
+        "Boyu Gao",
+        "Natalie Klco"
+      ],
+      "published": "2026-11-13",
+      "url": "https://arxiv.org/abs/2611.18552",
+      "abstract": "Probing real-time dynamics is essential for understanding non-perturbative scattering and interactions in quantum field theory. A common challenge in real-time simulation is preparing accurate asymptotic incoming states. Through efficiently solvable eigenvalue problems, we jointly optimize a superposition of single particle momentum eigenstates and a single site interpolating operator to maximize preparation fidelity from the interacting vacuum. This leads to a localized excitation in the interacting theory analogous to a position eigenstate. Weighted sums of the resulting interpolating operator over lattice sites prepare wave packets of arbitrary spatial extent. To ensure that this construction produces the correct continuum limit, relative phases among single particle momentum eigenstates in this superposition are calibrated using a relation derived from Lorentz symmetry. Analyzing single particle wave packet propagation through the position space profile reveals oscillatory Airy distortions, which originate from interference between saddle point contributions at different momenta that share the same lattice group velocity. These oscillations systematically weaken when approaching the continuum limit, and reliable regimes are identified as a function of simulation time and wave packet momentum profile. Two-particle scattering simulations in interacting scalar field theory are also implemented, revealing artificial inelasticity arising from coarse local field digitization or deviation from the Nyquist-Shannon sampling point. With these artifacts under control, present simulations provide emerging evidence for physical inelastic processes in $φ^4$ theory. The constructions introduced in this work may provide new understanding of state preparation for the quantum simulation of scattering.",
+      "external_ids": [
+        "arxiv:2611.18552"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics",
+        "global illumination real-time",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-16T15:37:40+08:00",
+      "last_seen_at": "2026-11-16T15:37:40+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.18535",
+      "arxiv_version": "v1",
+      "title": "A Surrogate Boundary Condition for Improved Accuracy and Performance of Local Modeling in Radiation Transport Simulations",
+      "authors": [
+        "Jonathan Trieloff",
+        "Ethan Peterson"
+      ],
+      "published": "2026-11-13",
+      "url": "https://arxiv.org/abs/2611.18535",
+      "abstract": "Monte Carlo neutronics analysis of tokamak designs is computationally expensive due to the complex CAD geometries required to accurately model them. Design iteration of port plugs using global transport in the full model is impractical because of the computational cost. To circumvent this, local modeling methods are used. In the local modeling method, a boundary condition is assumed on the port plug, such that particles that leave the port plug do not require transport in the surrounding global model. For this purpose, vacuum and reflective boundaries are assumed, both of which provide poor approximation of the true transport physics in the global model. To improve on current techniques, a surrogate model is presented that provides a physics-informed boundary condition for the component. A neural network is trained to reproduce the boundary condition on the component that represents the behavior of particles returning from the surrounding geometry. Monte Carlo transport is only necessary within the component, and approximate physics from the surrounding region are retained. This approach allows the design in the component to be iterated without requiring full model transport and joining of the component mesh to the global mesh in each iteration. In this work, the surrogate model is evaluated against vacuum and reflective boundaries-- outperforming both in accuracy, with surrogate predictions of the flux in the port plug differing less than 12% from the global transport solution in any given energy bin. The surrogate boundary condition is also demonstrated to be more performant than global transport for the simplified benchmark geometry.",
+      "external_ids": [
+        "arxiv:2611.18535"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "real-time fluid simulation graphics",
+        "global illumination real-time",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-16T15:37:40+08:00",
+      "last_seen_at": "2026-11-16T15:37:40+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.18510",
+      "arxiv_version": "v1",
+      "title": "Complex fluid flow dynamics by bright scattershot boson sampling",
+      "authors": [
+        "Robert Schade",
+        "Shailendra K. Rathor",
+        "Tim J. Bartley",
+        "Benjamin Brecht",
+        "Christian Plessl",
+        "Jan Sperling",
+        "Michael Stefszky",
+        "Christine Silberhorn",
+        "Jörg Schumacher"
+      ],
+      "published": "2026-11-13",
+      "url": "https://arxiv.org/abs/2611.18510",
+      "abstract": "Boson sampling machines have become a fruitful tool for establishing new concepts, which connect fundamental physics with computer science applications. Here, we exploit the intrinsically high-dimensional correlations generated by the measurement outcomes of a multiphoton boson sampling machine and demonstrate how a reconfigurable architecture can be programmed to autonomously model the time evolution of nonlinear dynamical systems that describe complex fluid flows. By extending on the original scattershot boson sampling (SBS) scheme to include higher photon number components -- a scheme which we label bright scattershot boson sampling (BSBS) --- this scheme overcomes scaling issues inherent to SBS-based schemes by utilizing all randomly generated input photon number distributions. We illustrate the capability of this scheme for two complex fluid-flow models: an eight-dimensional Lorenz-type model of two-dimensional thermally driven convection and a 16-dimensional model of global atmospheric circulation. Using a digital twin of the BSBS architecture based on multiphoton statistics, we show that the photonic approach accurately reproduces the temporal dynamics of both systems while being resilient to photon losses of up to 50 per cent. We also verified that the BSBS case outperforms a comparable run with coherent light. Moreover, its prediction horizon exceeds that of a classical reservoir-computing model with the same query complexity. These results highlight the potential of near-term photonic quantum computing for addressing relevant real-world tasks on noisy intermediate-scale devices.",
+      "external_ids": [
+        "arxiv:2611.18510"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "incremental potential contact",
+        "global illumination real-time",
+        "ray tracing global illumination",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-16T15:37:40+08:00",
+      "last_seen_at": "2026-11-16T15:37:40+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.18509",
+      "arxiv_version": "v1",
+      "title": "An All-Digital Coherent AFSK Demodulator for CubeSat Applications",
+      "authors": [
+        "Rubem Vasconcelos Pacelli",
+        "Rodrigo de Lima Florindo",
+        "Felix Antreich",
+        "Antônio Macilio Pereira de Lucena"
+      ],
+      "published": "2026-11-13",
+      "url": "https://arxiv.org/abs/2611.18509",
+      "abstract": "Audio frequency-shift keying (AFSK) is a widely adopted modulation scheme for CubeSat systems due to its favorable bandwidth efficiency and implementation simplicity. However, coherent detection usually is avoided because synchronization impairments, caused by intense line-of-sight (LOS) dynamics inherent in low Earth orbit (LEO), may significantly degrade the bit error rate (BER). This paper presents a new all-digital coherent AFSK demodulator based on a Kalman filter (KF) for carrier phase and timing delay synchronization and the Viterbi algorithm for bit detection. The Viterbi algorithm is employed for maximum likelihood sequence detection, and the detected bit statistics are fed back to the KF to estimate phase shift, Doppler frequency shift, and Doppler drift induced by the LOS dynamics. Original mathematical analyses are derived to provide a theoretical foundation for the proposed demodulator's operation, specifically addressing its synchronization accuracy in dynamic LEO environments. The proposed demodulator is evaluated considering an additive white Gaussian noise channel with real CubeSat orbits. The performance results obtained through computer simulations demonstrate that the proposed model can withstand such scenarios with a gain of 5 dB in terms of BER compared to the conventional noncoherent AFSK demodulator. The KF performance is assessed using a moving root-mean-square error (MRMSE) statistic and the trace of its state error covariance matrix estimate.",
+      "external_ids": [
+        "arxiv:2611.18509"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "global illumination real-time",
+        "ray tracing global illumination",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-16T15:37:40+08:00",
+      "last_seen_at": "2026-11-16T15:37:40+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.18505",
+      "arxiv_version": "v1",
+      "title": "Disturbance-Aware Informative Planning in Spatiotemporal Environments",
+      "authors": [
+        "Kaleb Ben Naveed",
+        "Haejoon Lee",
+        "Anouck Girard",
+        "Dimitra Panagou"
+      ],
+      "published": "2026-11-13",
+      "url": "https://arxiv.org/abs/2611.18505",
+      "abstract": "Autonomous robots are widely used for persistent monitoring of spatiotemporal environments, where quantities of interest (QoI) change across space and time and require repeated measurements. In practice, robot motion can be affected by external disturbances that vary across the environment. When such external disturbances are not considered in trajectory optimization, it can lead to inaccurate predictions of robot motion and, consequently, the information acquired about the QoI during execution. However, estimating disturbances throughout the environment can be inefficient, as disturbances in regions with little overlap with monitoring trajectories have limited impact on monitoring performance. We therefore propose a two-stage informative planning framework for unknown, spatially varying but time-invariant disturbances, combining informed disturbance sampling with disturbance-aware trajectory optimization. First, we identify where QoI measurements are needed and generate alternative paths to these locations using the environment geometry. We then prioritize disturbance measurements based on their expected reduction of disturbance uncertainty along these paths. Second, rather than optimizing information acquisition based on nominal robot motion, we incorporate the learned disturbance belief into trajectory optimization to account for its effects on robot motion and information acquisition. Across four simulation scenarios, the proposed method reduces disturbance-learning time by 25.0--52.3 percent compared with environment-wide estimation and identifies paths that appear costly under nominal dynamics but become preferable when disturbances are considered.",
+      "external_ids": [
+        "arxiv:2611.18505"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-16T15:37:40+08:00",
+      "last_seen_at": "2026-11-16T15:37:40+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.18492",
+      "arxiv_version": "v1",
+      "title": "Blind in-memory arithmetic with confined skyrmions: doubling and successor functions on a skyrmion byte",
+      "authors": [
+        "Joan Reverté",
+        "Nuria Del-Valle",
+        "Jaume Cunill-Subiranas",
+        "Natanael Bort-Soldevila",
+        "Carles Navau"
+      ],
+      "published": "2026-11-13",
+      "url": "https://arxiv.org/abs/2611.18492",
+      "abstract": "We present a skyrmionic-based computation platform, able to perform fully in-memory computing by collectively manipulating the skyrmions that serve as bits of the binary memory. The computation protocols are implemented through driving currents and adequately located anisotropy defects that modify the dynamics of the skyrmions along a magnetic track. Simulations demonstrating the feasibility of such an in-memory computing system are shown for several basic and simple mathematical operations with natural numbers, such as doubling and adding one (the successor function). We also discuss how further optimization of the geometry, barrier profiles, current amplitudes, and timing parameters could improve both the robustness and the overall practical feasibility of the system.",
+      "external_ids": [
+        "arxiv:2611.18492"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-16T15:37:40+08:00",
+      "last_seen_at": "2026-11-16T15:37:40+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.18475",
+      "arxiv_version": "v1",
+      "title": "The effect of particle shape on sunlight exposure in a wind-driven free-surface flow",
+      "authors": [
+        "Lucia Baker",
+        "Julio Chávez-Dorado",
+        "Anusha Aggarwal",
+        "Inessa Garrey",
+        "Michelle DiBenedetto"
+      ],
+      "published": "2026-11-13",
+      "url": "https://arxiv.org/abs/2611.18475",
+      "abstract": "We investigate how nonspherical marine particles, such as microplastics, phytoplankton, and ice, are exposed to sunlight near the water surface in wind-driven surface boundary layer conditions. We measure the depth and orientation of these particles in a laboratory wind-wave tank, then use this data to model how much sunlight the particles would be exposed to in an aquatic environment. In particular, we explore how their orientation affects their sunlight exposure in these conditions, since most studies to date do not account for orientation, turbulent shear flow, and wind-waves at the water surface. We find that in all cases, particles prefer certain orientations, and this causes the average sunlight exposure of the particles to be 5 to 40\\% higher than would be expected if their orientations were random. Further, we find that the mean irradiance depends on the ratio of the particle mixing length $L_m$ to the light decay lengthscale $λ$, and the nature of this dependence differs between disks and rods. Disks experience disproportionately greater mean irradiance at smaller $L_m/λ$ due to the vertical variation in their orientations. These results have important implications for accurately estimating the sunlight exposure of particles in the surface boundary layer.",
+      "external_ids": [
+        "arxiv:2611.18475"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-16T15:37:40+08:00",
+      "last_seen_at": "2026-11-16T15:37:40+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.18546",
+      "arxiv_version": "v1",
+      "title": "Modeling the Frictional Contact of Continuum Robots with Environments through Linear Complementarity Problem",
+      "authors": [
+        "Jia Shen",
+        "Junhyoung Ha",
+        "Yue Chen"
+      ],
+      "published": "2026-11-13",
+      "url": "https://arxiv.org/abs/2611.18546",
+      "abstract": "Accurate friction modeling in continuum robots is essential for precise motion control and path planning. However, current approaches make predictions only for the mechanism's internal friction that is limited by the boundary forces of the Coulomb friction cone, which fail to characterize the static friction and motion hysteresis. In this paper, we propose a novel friction model based on complementarity constraints under the Coulomb friction assumption. This model predicts various friction effects caused by environmental interactions, including both static and sliding frictions and hysteresis behavior, as well as the corresponding robot deformation induced by these interactions, which are crucial for the practical motion planning and control of continuum robots. Additionally, real-time implementation of this model can be achieved, meeting the demand for computational efficiency in robotic applications. Experimental validations demonstrated that this model is able to reduce the maximum tip position error from 45.4 mm in the frictionless model to 5.85 mm in our friction-included model with a 287.9 mm-long tendon-driven continuum robot.",
+      "external_ids": [
+        "arxiv:2611.18546"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact",
+        "real-time fluid simulation graphics",
+        "global illumination real-time"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-16T15:37:40+08:00",
+      "last_seen_at": "2026-11-16T15:37:40+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.18519",
+      "arxiv_version": "v1",
+      "title": "Box-conditional Hypothesis Testing for Out-of-Distribution Object Detection",
+      "authors": [
+        "Donghoon Lee",
+        "Jusung Park",
+        "Shinjin Kang"
+      ],
+      "published": "2026-11-13",
+      "url": "https://arxiv.org/abs/2611.18519",
+      "abstract": "Detecting out-of-distribution (OOD) objects is essential for ensuring the reliability and safety of object detectors in real-world deployment. We treat the decision on a detected box as a hypothesis test with the null hypothesis that the box covers an object of an in-distribution (ID) class. The null distribution changes with the size of the box and its contact with the image border, and the detector observes both. The test can therefore rank a box only against ID boxes of the same size and border contact, which gives a distribution-free bound on the false-alarm rate for each of them and uncovers the separation that one null distribution hides. The power of the test also rests on the layer it reads. Layers built only for the ID classes have no reason to keep what sets an unknown object apart, so the test reads the features before them. We propose \\textbf{PLUM}, a training-free score that pools the last backbone stage inside the box and ranks its distance to the ID classes among ID boxes of the same size and border contact. On the standard benchmark, PLUM reaches the highest AUROC among the compared methods without external models, with 91.5 and 94.5 on PASCAL-VOC and 95.1 and 97.5 on BDD100K. Code: https://github.com/DDOZMI/PLUM",
+      "external_ids": [
+        "arxiv:2611.18519"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-16T15:37:40+08:00",
+      "last_seen_at": "2026-11-16T15:37:40+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.18491",
+      "arxiv_version": "v1",
+      "title": "When Will You Hand It Over? A Hidden Start Delay Makes Self-Play Handover Robust to Unfamiliar Partners",
+      "authors": [
+        "Mohammad Khoshnazar",
+        "Mike Degany",
+        "Deyuan Qu",
+        "Qing Yang",
+        "Matyas Szanto"
+      ],
+      "published": "2026-11-13",
+      "url": "https://arxiv.org/abs/2611.18491",
+      "abstract": "Cooperative self-play can teach a humanoid to receive an object without any human data, but the partner it meets after training is never the one it trained with; we show that a fluent self-play handover policy breaks with unfamiliar partners, identify the main cause, and repair it. In a physics-based parcel handover between a Unitree G1 and a learned giver, both trained by alternating PPO self-play, the receiver completes 95% and 90% of handovers with its own partner (two training seeds) but only 31% with scripted partners it has never met. Paired interventions isolate the cause: under a shared reward the learned giver always starts its offer at once, so the receiver learns a single rendezvous, and delaying its own partner by one second cuts success from 95% to 6% (87% to 34% in the second seed). We introduce hidden start-delay randomisation (HSD), a one-line rule on the learned partner that the receiver never observes. After 300 further updates, success with unseen scripted partners rises from 31% to 80% in both seeds, against 35--41% for a budget-matched control. The gain holds on a fresh scenario seed, on eleven held-out partner conditions and on partners that start later than any training delay; it cuts high-force contact three- to five-fold and needs no retraining of the partner.",
+      "external_ids": [
+        "arxiv:2611.18491"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-16T15:37:40+08:00",
+      "last_seen_at": "2026-11-16T15:37:40+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.18562",
+      "arxiv_version": "v1",
+      "title": "Training Reasoning Models in Simulation to Natively Use Real Robots",
+      "authors": [
+        "Jiaming Tang",
+        "Zhuoyang Zhang",
+        "Junxian Guo",
+        "Fangzhou Zhao",
+        "Yilong Zhao",
+        "Zekai Li",
+        "Xingyang Li",
+        "Yuyang Zhao",
+        "Song Bian",
+        "Zhijian Liu",
+        "Song Han"
+      ],
+      "published": "2026-11-13",
+      "url": "https://arxiv.org/abs/2611.18562",
+      "abstract": "Robot-use agents (RUAs) have emerged as a promising approach to general-purpose robot control. However, strong performance has so far been achieved only by frontier proprietary models such as GPT-6 Astra and Claude Fable 5.2, whereas open-weight models remain substantially less capable. We show that an open-weight 27B reasoning model can be trained to use real robots natively through reinforcement learning, entirely in simulation and without demonstrations. Like a computer-use agent (CUA), the model observes the environment, reasons in a chain of thought, and generates the next end-effector pose, without any harness. We build a Post-training Engine for Agentic Robotics (PEAR) and use it to train the model on simulated robot tasks at scale with robot-use reinforcement learning (RURL), mirroring how frontier models acquire computer use. We find that the skills acquired in simulation generalize well beyond the training tasks: they transfer to an unseen robot, to the real world, and to novel instructions. After training on LIBERO and RoboDojo in simulation, the model succeeds in 60% of our trials on a real dual-arm robot, whereas the base model succeeds in none. On LIBERO, training raises the success rate from 1.6% to 74.4%, approaching GPT-6 Astra and GPT-6.1 Sol at maximum reasoning effort. Compared with $π_{0.5}$, a vision-language-action model fine-tuned on demonstrations, our model is substantially more robust to changes in the task itself. On LIBERO-Pro, $π_{0.5}$ succeeds in only 0.75% of episodes when assigned a new task in a familiar scene whereas our model succeeds in 57.4%. Finally, the model retains its general capabilities, with no measurable degradation on nine reasoning, coding and vision benchmarks. These results highlight robot-use reinforcement learning as a promising component of foundation-model post-training.",
+      "external_ids": [
+        "arxiv:2611.18562"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-16T15:37:40+08:00",
+      "last_seen_at": "2026-11-16T15:37:40+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.18554",
+      "arxiv_version": "v1",
+      "title": "Sharp nonuniqueness for the Vlasov--Navier--Stokes system",
+      "authors": [
+        "Xingyu Li"
+      ],
+      "published": "2026-11-13",
+      "url": "https://arxiv.org/abs/2611.18554",
+      "abstract": "We consider the Vlasov--Navier--Stokes system on $\\mathbb T^d\\times\\mathbb R^d$, $d\\ge2$. For smooth data and every $p<2$, $q<\\infty$, we construct infinitely many weak solutions with velocity in $L^p_tL^\\infty\\cap L^1_tW^{1,q}$ and bounded, renormalized distribution function; infinitely many of them violate the energy inequality. For smooth velocity data, weak solutions with velocity in $L^2_tL^\\infty$ are unique, so the result is sharp at the endpoint of the Ladyzhenskaya--Prodi--Serrin scale. The fluid carries the nonuniqueness, through the convex integration scheme of Cheskidov and Luo, and the kinetic equation is solved exactly. The main new difficulty is the memory of the particles: the kinetic state at time $t$ depends on the whole past of the velocity, so a modification on a short interval changes the system at all later times. We overcome it by a causal gluing, carried out from left to right in time, which re-solves the system on every interval of regularity. This yields wild solutions that are strong outside a closed set of times of arbitrarily small Hausdorff dimension. A causal mollification extends the construction to rough data, including every finite-energy velocity datum in dimensions two and three; in two dimensions the energy class is thus exactly the borderline of uniqueness. Finally, in three dimensions we construct Leray solutions satisfying the strong energy inequality and show that they are strong outside a closed set of times of vanishing $\\mathcal H^{1/2}$ measure.",
+      "external_ids": [
+        "arxiv:2611.18554"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-16T15:37:40+08:00",
+      "last_seen_at": "2026-11-16T15:37:40+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.18524",
+      "arxiv_version": "v1",
+      "title": "EventSpikeSeg: Memory-Aware Mixed-Signal Architecture for Event-Camera Spiking Segmentation",
+      "authors": [
+        "Amir Mohammad Khadem Hosseini",
+        "Sattar Mirzakuchaki"
+      ],
+      "published": "2026-11-13",
+      "url": "https://arxiv.org/abs/2611.18524",
+      "abstract": "Event-camera segmentation requires persistent neural state despite sparse input events, making memory organization a central constraint on embedded implementation. We present EventSpikeSeg, a mixed-signal architecture combining resident capacitor memory with shared analog processing in GF180MCU 180-nm CMOS. Its 25-population spiking encoder-decoder has 143,824 synaptic weights but requires 30,976,000 membrane states at 440 x 640 resolution. The mapping specifies chronological 5-ms model updates, digital event/address services and 64-state capacitor banks. Characterization covers 22 module families and 74 operating points, distinguishing transistor simulations from digital-library estimates. Nominal results include 41.711 microwatts biased neuron-core power, 3.338-pJ positive terminal energy for a 1.4-microsecond cell read, and 0.531-mV selected-state drift over a 5-ms extracted-tile hold. Commit and coupling errors are reported separately. The software checkpoint records 27.976% mean intersection-over-union on a held-out six-class DSEC split; this is not hardware accuracy. Component layouts and simulation evidence quantify local implementation costs and expose storage replication and service scheduling as scaling constraints. A detailed SPICE-calibrated behavioral forward simulation of one full-resolution DSEC frame achieves 24.26% mean intersection-over-union, versus 26.22% for the matched PyTorch reference, using a compact 5-fF bank variant and external count/voltage calibration. Physical full-network operation, system energy and mismatch robustness remain unverified.",
+      "external_ids": [
+        "arxiv:2611.18524"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-16T15:37:40+08:00",
+      "last_seen_at": "2026-11-16T15:37:40+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.18522",
+      "arxiv_version": "v1",
+      "title": "Patient-specific Modeling of the Tricuspid Valve from 3D Transesophageal Echocardiography",
+      "authors": [
+        "Davide Tondi",
+        "Vijay K. Dubey",
+        "Collin E. Haese",
+        "Colton J. Kostelnik",
+        "Mrudang Mathur",
+        "Sumedh Seetharam",
+        "Amin Silvani",
+        "Alison M. Pouch",
+        "Jakob Christoph Voran",
+        "Felix Kreidel",
+        "Marnie Goldmann",
+        "Adrian Buganza Tepole",
+        "William D. Meador",
+        "Marcin Malinowski",
+        "Magda Piekarska",
+        "Austin Goodyke",
+        "Issam D. Moussa",
+        "Matthew R. Summers",
+        "Robyn Fong",
+        "Matthew M. Duda",
+        "Kelly C. Higa",
+        "William Hiesinger",
+        "Tomasz A. Timek",
+        "Jan N. Fuhg",
+        "Emiliano Votta",
+        "Manuel K. Rausch"
+      ],
+      "published": "2026-11-13",
+      "url": "https://arxiv.org/abs/2611.18522",
+      "abstract": "Purpose: Image-based patient-specific simulations of the tricuspid valve (TV) could support repair planning. However, clinical images incompletely resolve the chordal anatomy and cannot directly determine tissue properties, which hinders the development of such models. We developed and evaluated a framework that simulates the TV from clinical images and addresses these limitations using measurements on explanted human valves. Methods: We reconstructed ten functionally competent human TVs from 3D transesophageal echocardiography. Following manual segmentation, we automatically built finite element models with synthetic chordae and with leaflet thickness, chordal insertion density, and tissue properties informed by ex vivo human measurements. Next, we used shape matching and force-based chordal-length adjustment to simulate valve closure. We also assessed inter-observer segmentation variability and sensitivity to chordal insertion density, leaflet stiffness, leaflet thickness, and chordal size and material properties. Results: Per-valve median geometric errors were 0.61-1.13 mm relative to the morphed references and 0.55-0.95 mm relative to the image-derived surfaces. Coaptation covered 20-42% of the leaflet area, and median leaflet stresses ranged from 7.6 to 16.9 kPa. Inter-observer variability in segmentation most strongly affected coaptation area. Of the population-based inputs, insertion density and leaflet stiffness most affected geometric error. Thickness primarily affected stress, whereas chordal size and material properties had limited effects. Conclusion: Clinical echocardiography, supplemented with ex vivo human tissue data, enabled patient-specific simulation of ten human TVs. This framework provides a foundation for investigating valve mechanics and developing repair-planning tools, while sensitivity analyses identify priorities for model refinement and uncertainty assessment.",
+      "external_ids": [
+        "arxiv:2611.18522"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-16T15:37:40+08:00",
+      "last_seen_at": "2026-11-16T15:37:40+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.18512",
+      "arxiv_version": "v1",
+      "title": "Probing baryonic feedback using fast radio bursts and galaxy surveys",
+      "authors": [
+        "Haruki Ebina",
+        "Martin White"
+      ],
+      "published": "2026-11-13",
+      "url": "https://arxiv.org/abs/2611.18512",
+      "abstract": "The dispersion measure (DM) of fast radio bursts (FRB) provides a noisy measure of the free-electron column density to the burst. With next-generation FRB surveys the number of bursts will drastically increase and measurements of the baryon distribution will be possible on the Mpc scales most relevant to Stage IV weak lensing surveys. Comparing the DM auto-spectrum, DM-shear cross-spectrum and the kinetic Sunyaev-Zel'dovich effect, we argue that the cross-correlation of FRB catalogs with galaxy surveys offers many advantages. Hybrid Effective Field Theory (HEFT), often used in large-scale structure cosmology, is capable of modeling the clustering of electrons jointly with galaxies and matter to small scales. Using HEFT with the Padé model of baryonic feedback, we forecast that next-generation FRB surveys (combined with galaxy samples) will be able to constrain feedback at a level informative for Stage IV weak lensing surveys. In particular we should not be limited by modeling the manner in which galaxies trace the matter field. Rather constraints of the higher-order electron biases and the electron-galaxy cross-stochasticity provide the dominant limitation, and are an obvious target for improvement in order to reach percent-level constraints. The same measurements also provide a valuable means of constraining feedback in hydrodynamic simulations of galaxy formation in a way that is not tied to the modeling of particular galaxy samples.",
+      "external_ids": [
+        "arxiv:2611.18512"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-16T15:37:40+08:00",
+      "last_seen_at": "2026-11-16T15:37:40+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.18508",
+      "arxiv_version": "v1",
+      "title": "Restoring Consistency with Poynting's Theorem in Numerical MHD and RMHD",
+      "authors": [
+        "Dinshaw S. Balsara",
+        "Deepak Bhoriya"
+      ],
+      "published": "2026-11-13",
+      "url": "https://arxiv.org/abs/2611.18508",
+      "abstract": "For perfectly conducting plasmas, Poynting's theorem states that the time rate of change of electromagnetic energy density equals the negative of the divergence of the Poynting flux. To the best of our knowledge, this involutive theorem has never been mimetically incorporated in codes. We show that there is an inconsistency in MHD and RMHD codes that evolve face-centered magnetic fields in globally-divergence-free fashion. This is because the face-centered flux of energy density, which incorporates a Poynting vector, is evaluated using one-dimensional Riemann solvers that are applied at face-centers. However, the face-centered magnetic fields are evolved according to edge-centered electric fields that come from two-dimensional Riemann solvers that are applied to the edges of a zone. While edge-centered electric fields are used to evolve the magnetic field, they have no influence on the face-centered Poynting flux. For situations where the magnetic energy is much larger than the thermal energy, this causes a negative pressure to be evaluated at the zone-centers. This paper restores consistency by using edge-centered variables to evaluate a face-centered Poynting flux. A simple accuracy-preserving correction is made to the face-centered flux of energy density. We show that it helps considerably in simulations that have very strong magnetic fields.",
+      "external_ids": [
+        "arxiv:2611.18508"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "global illumination real-time",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-16T15:37:40+08:00",
+      "last_seen_at": "2026-11-16T15:37:40+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.18503",
+      "arxiv_version": "v1",
+      "title": "Solution of the Qubit Marginal Problem from Fermionic Representability",
+      "authors": [
+        "David A. Mazziotti"
+      ],
+      "published": "2026-11-13",
+      "url": "https://arxiv.org/abs/2611.18503",
+      "abstract": "Whether local reduced states are compatible with a global quantum state---the quantum marginal problem---is central to quantum information and simulation. Here we present a solution to the ensemble marginal problem for qubits based on the representability theory of fermions. Encoding each qubit as one fermion in two orbitals, we prove that the representable qubit marginals form an exposed face of the set of $N$-representable fermionic reduced density matrices, selected by the vanishing of every site-occupation variance. Complete hierarchies of fermionic representability conditions therefore transfer exactly to qubits. Applications to frustrated Heisenberg and transverse-field Ising rings show that the $(2,3)$-positivity conditions are exact at the Majumdar--Ghosh point and accurate to about 0.5% at criticality. Because the conditions hold for any quantum state, they also provide a framework for mitigating measurement errors on qubit-based quantum devices.",
+      "external_ids": [
+        "arxiv:2611.18503"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-16T15:37:40+08:00",
+      "last_seen_at": "2026-11-16T15:37:40+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.18487",
+      "arxiv_version": "v1",
+      "title": "Precise Deep-Learning Reconstruction of Galaxy Cluster Mass Maps and Substructures from Optical Observations",
+      "authors": [
+        "Atulit Srivastava",
+        "Weiguang Cui",
+        "Daniel de Andres",
+        "Guillaume Bonnet",
+        "Romeel Davé",
+        "Stefano Ettori",
+        "Massimo Meneghetti",
+        "Carlo Giocoli",
+        "Gustavo Yepes"
+      ],
+      "published": "2026-11-13",
+      "url": "https://arxiv.org/abs/2611.18487",
+      "abstract": "Accurately mapping the total mass distribution within galaxy clusters, including dark matter, is fundamental to understanding structure formation and constraining cosmological parameters. Conventional mass-mapping techniques rely predominantly on gravitational lensing and often produce smooth mass distributions based on analytical profiles, potentially missing important internal substructures. We introduce a complementary, simulation-based inference approach to reconstruct detailed galaxy cluster mass maps and resolve their internal substructures directly from optical imaging. We trained deep learning models on realistic hydrodynamical simulations of galaxy clusters to infer their mass distributions from optical observations. We subsequently applied this framework to observations of real galaxy clusters obtained with the Hubble Space Telescope (HST) as part of the Cluster Lensing And Supernova survey with Hubble (CLASH) programme. The reconstructed mass maps successfully reproduce the overall shapes and radial mass profiles of the CLASH clusters, showing strong agreement with independent gravitational lensing measurements. Furthermore, the subhalo mass functions derived from the reconstructed maps exhibit power-law behaviour broadly consistent with predictions from numerical simulations. Our results demonstrate that combining optical imaging with deep learning provides a scalable and physically meaningful approach to mapping galaxy cluster mass distributions. This framework opens a new avenue for exploiting upcoming wide-field imaging surveys to systematically investigate dark matter substructures across large cluster samples, complementing traditional gravitational lensing techniques. Moreover, the model is inherently flexible and can incorporate multi-wavelength observations, including X-ray and Sunyaev--Zel'dovich data, to further improve total mass predictions.",
+      "external_ids": [
+        "arxiv:2611.18487"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-16T15:37:40+08:00",
+      "last_seen_at": "2026-11-16T15:37:40+08:00"
+    },
     {
       "source": "arxiv",
       "arxiv_id": "2611.17324",
@@ -1378,7 +1908,7 @@
     }
   ],
   "last_run": {
-    "at": "2026-11-15T15:30:44+08:00",
+    "at": "2026-11-16T15:37:40+08:00",
     "sources": [
       "arxiv",
       "semanticscholar",
@@ -1394,9 +1924,9 @@
       "MLS-MPM",
       "projective dynamics cloth"
     ],
-    "fetched": 142,
-    "merged": 49,
-    "new": 0
+    "fetched": 112,
+    "merged": 38,
+    "new": 18
   },
   "topic": "game technology: physics simulation, real-time rendering, global illumination",
   "schema_version": 1
