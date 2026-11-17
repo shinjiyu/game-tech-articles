@@ -1,0 +1,594 @@
+{
+  "date": "2026-11-17",
+  "run": {
+    "at": "2026-11-17T16:50:45+08:00",
+    "sources": [
+      "arxiv",
+      "semanticscholar",
+      "dblp"
+    ],
+    "keywords": [
+      "material point method cloth",
+      "\"position based\" dynamics cloth",
+      "incremental potential contact",
+      "real-time fluid simulation graphics",
+      "global illumination real-time",
+      "ray tracing global illumination",
+      "MLS-MPM",
+      "projective dynamics cloth"
+    ],
+    "fetched": 112,
+    "merged": 32,
+    "new": 19
+  },
+  "new_candidates": [
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.21610",
+      "arxiv_version": "v1",
+      "title": "Hyperkagome antiferromagnetism in the iron garnet Almandine Fe$_3$Al$_2$Si$_3$O$_{12}$",
+      "authors": [
+        "Minnong Zhang",
+        "Harald O. Jeschke",
+        "Daniel Guterding"
+      ],
+      "published": "2026-11-16",
+      "url": "https://arxiv.org/abs/2611.21610",
+      "abstract": "Antiferromagnets on the hyperkagome lattice provide a three-dimensional route to strong magnetic frustration, but experimentally accessible realizations with well-established microscopic Hamiltonians remain scarce. Garnets are a broad family of materials in which magnetic ions can form two interpenetrating hyperkagome lattices, giving rise to spin glass, spin-liquid and hidden-order physics. Here we identify the iron aluminosilicate garnet almandine, Fe$_3$Al$_2$Si$_3$O$_{12}$, as a spin-$2$ hyperkagome antiferromagnet. Using density functional theory energy mapping, we determine a Heisenberg Hamiltonian for the high-spin Fe$^{2+}$ moments and find dominant nearest-neighbor antiferromagnetic exchange, as well as significant longer-range interactions. Classical Monte Carlo simulations of this Hamiltonian, combined with quantum-to-classical rescaling of the spin length, show a transition to antiferromagnetic order at $T_{\\rm N}\\approx9.8$K, in excellent agreement with specific heat experiments. The resulting non-collinear magnetic state is naturally described by magnetic toroidal octupolar order, which we connect to known results for the highly frustrated hyperkagome antiferromagnet gadolinium gallium garnet, Gd$_3$Ga$_5$O$_{12}$. We also calculate magnetic neutron diffraction amplitudes as well as static and dynamic structure factors using semiclassical dynamics, providing quantitative predictions for future neutron scattering experiments. Our results establish almandine as a chemically accessible realization of frustrated hyperkagome magnetism in the garnet family.",
+      "external_ids": [
+        "arxiv:2611.21610"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-17T16:50:45+08:00",
+      "last_seen_at": "2026-11-17T16:50:45+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.21606",
+      "arxiv_version": "v1",
+      "title": "The Shape of the Strongly Coupled MQM Ground State",
+      "authors": [
+        "Alexander Frenkel"
+      ],
+      "published": "2026-11-16",
+      "url": "https://arxiv.org/abs/2611.21606",
+      "abstract": "We study a surprisingly efficient family of variational ansatze for the ground state of bosonic matrix quantum mechanics at large $N$. These are ansatze whose norm-squared probability distributions are themselves matrix integrals with single-trace actions, and so have their own independent `t Hooft expansions. They are efficient in the sense that optimizing over a small number of parameters produces many digits of accuracy for the energy, single-trace moments, and connected correlators. For infinite-$N$ planar data our results rapidly converge to within published bootstrap intervals and stabilize to a few digits of precision beyond them. We also demonstrate that we can efficiently capture $1/N$ corrections by computing connected two-point functions. These are matched against resummed quantum perturbation theory and Monte Carlo simulations.",
+      "external_ids": [
+        "arxiv:2611.21606"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "real-time fluid simulation graphics",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-17T16:50:45+08:00",
+      "last_seen_at": "2026-11-17T16:50:45+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.21598",
+      "arxiv_version": "v1",
+      "title": "Mitigating Catastrophic Forgetting with Physics-Indexed Specialist Memory: the Evolutionary Neuroplastic Agent",
+      "authors": [
+        "Blas Eugenio Vicco Zarate",
+        "Miguel Hernán Vicco"
+      ],
+      "published": "2026-11-16",
+      "url": "https://arxiv.org/abs/2611.21598",
+      "abstract": "Continual reinforcement learning requires adaptation to changing conditions while preserving performance under previously encountered dynamics. It was investigated whether specialists generated by evolutionary search can provide a reusable memory when combined with environment detection and failure-driven search. The Evolutionary Neuroplastic Agent (ENA) evolves small neural networks without gradients, archives selected policies by detected dynamic regime, and retrieves them through Bayesian policy reuse. The architecture was evaluated in non-stationary CartPole and HalfCheetah environments. In the 30-replicate CartPole ablation, the complete architecture achieved a mean success rate of 83.2% across the five test environments. Among variants that learned the harder CartPole environments, the complete architecture showed the most consistent retention. A selection ablation also showed that the retrieval rule affected performance. In the evaluated sequences, ENA adapted more slowly than PPO on CartPole and achieved lower returns than SAC on HalfCheetah. The evidence concerns the complete architecture and does not isolate gradient-free optimization as the cause of retention or establish superiority over other continual-learning methods.",
+      "external_ids": [
+        "arxiv:2611.21598"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "\"position based\" dynamics cloth",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-17T16:50:45+08:00",
+      "last_seen_at": "2026-11-17T16:50:45+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.21588",
+      "arxiv_version": "v1",
+      "title": "Recent Advances and Precision Measurements with the JYFLTRAP Double Penning Trap Mass Spectrometer",
+      "authors": [
+        "Zhuang Ge",
+        "Natalia Ambrosio-Macias",
+        "Anita Candiello",
+        "Saikumar Chinthakayala",
+        "Tommi Eronen",
+        "Arthur Jaries",
+        "Anu Kankainen",
+        "Angelos Karadimas",
+        "Brian Kootte",
+        "Maxime Mougeot",
+        "Iain Moore",
+        "Luis Miguel Motilla Martinez",
+        "Heikki Penttilä",
+        "Stefanos Pelonis",
+        "Prince Shaheen Parvez",
+        "Mikael Reponen",
+        "Simon Rausch",
+        "Jouni Ruotsalainen",
+        "Alexandre Roger",
+        "Wirunchana Rattanasakuldilok",
+        "Jan Saren",
+        "Marek Stryjczyk",
+        "Jouni Suhonen",
+        "Ville Virtanen",
+        "Miikka Winter",
+        "the IGISOL Collaboration"
+      ],
+      "published": "2026-11-16",
+      "url": "https://arxiv.org/abs/2611.21588",
+      "abstract": "High-precision atomic-mass measurements with the JYFLTRAP double Penning-trap mass spectrometer at the IGISOL facility provide direct information on decay energies, nuclear binding and shell evolution, isomer excitation energies, and masses relevant to nuclear astrophysics. Recent work has combined the phase-imaging ion-cyclotron-resonance (PI-ICR) method with established ion-purification and selective ion-production techniques to study low-yield nuclei and resolve isomeric states. At JYFLTRAP/IGISOL, mass-selective buffer-gas cooling, Ramsey cleaning, resonance ionization spectroscopy (RIS), phase-dependent cleaning, and species-resolved PI-ICR analysis are used in complementary combinations according to the ion yield and the required separation. Laser-frequency tagging correlates individual ion events with the corresponding laser frequency and enables state-resolved resonance-ionization spectra. Selected ion bunches are used for direct mass measurements with PI-ICR or time-of-flight ion-cyclotron resonance (TOF-ICR), for ion counting, or for post-trap decay spectroscopy. When multiple species or states are present, resolved PI-ICR phase spots allow the mass-measurement data to be assigned to the corresponding component. Examples from the recent program include high-precision $Q$-value measurements, neutron-deficient nuclei below $^{100}$Sn, neutron-rich fission fragments, rapid structural evolution around $N\\approx60$, and rare-earth nuclei relevant to the astrophysical $r$ process.",
+      "external_ids": [
+        "arxiv:2611.21588"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-17T16:50:45+08:00",
+      "last_seen_at": "2026-11-17T16:50:45+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.21581",
+      "arxiv_version": "v1",
+      "title": "Emptiness formation in quantum fluids: a hydrodynamic solution",
+      "authors": [
+        "Alexander G. Abanov",
+        "Boris A. Khanikati"
+      ],
+      "published": "2026-11-16",
+      "url": "https://arxiv.org/abs/2611.21581",
+      "abstract": "We develop an auxiliary-kernel method for constructing the hydrodynamic instantons that govern macroscopic emptiness formation in one-dimensional Galilean quantum fluids. The key step is to represent the equation of state by an auxiliary integral kernel inspired by the Bethe ansatz. For equations of state admitting such a representation, we reduce the imaginary-time hydrodynamic problem to a single integral equation. Its solution determines the full density and current profiles, the vacuum boundary, and the leading emptiness rate. Notably, the construction does not require microscopic integrability. For the Lieb--Liniger gas, we derive the previously conjectured integral equation for the leading rate and use a known elliptic solution to obtain explicit expressions for the rate and vacuum boundary. Direct hydrodynamic numerics support the predicted boundary. We also recover known instanton solutions for a family of polytropic fluids.",
+      "external_ids": [
+        "arxiv:2611.21581"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-17T16:50:45+08:00",
+      "last_seen_at": "2026-11-17T16:50:45+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.21601",
+      "arxiv_version": "v1",
+      "title": "Open Heavy Flavor in Nuclear Collisions: From Lattice QCD to Observables",
+      "authors": [
+        "Yu Fu",
+        "Steffen A. Bass",
+        "Tharun Krishna",
+        "Ralf Rapp",
+        "Weiyao Ke"
+      ],
+      "published": "2026-11-16",
+      "url": "https://arxiv.org/abs/2611.21601",
+      "abstract": "Heavy quarks serve as excellent probes of the Quark-Gluon-Plasma (QGP) produced in ultra-relativistic heavy-ion collisions. Here, we report on a comprehensive framework that transports charm quarks from their initial production through the QGP medium, hadronization, and the hadronic phase to final observables in experiments. For the transport through the QGP fireball, which is described by 2+1D relativistic viscous fluid dynamics, we employ an extended Langevin equation that combines elastic diffusion processes with medium-induced radiation, including interference effects. The charm-quark transport coefficients are derived from nonperturbative $T$-matrix interactions, which are constrained by lattice QCD and also produce an equation of state for the thermal medium which is consistent with the one employed in the hydrodynamic simulations. Pre-hadronic resonant states which emerge in the $T$-matrix near the QGP transition temperature naturally lead to a transition to hadronic degrees of freedom. This transition is realized in two different approaches: a coalescence model augmented with 4-momentum conservation and the resonance recombination model, both supplemented with fragmentation functions constrained by charm-hadron spectra in proton-proton collisions at the LHC and RHIC. The late-stage rescattering of charm hadrons is assessed with schematic heavy-light cross sections implemented into a hadronic transport model. We report results for the nuclear modification factors and elliptic flows of $D^0$ and $D_s^+$ mesons and $Λ_c^+$ baryons, together with the $D_s^+/D^0$ and $Λ_c^+/D^0$ yield ratios. The calculations are compared with measurements from the ALICE and CMS collaborations in Pb--Pb collisions at $\\sqrt{s_{\\NN}}=5$\\,TeV and with STAR data in Au-Au collisions at $\\sqrt{s_{\\NN}}=200$\\,GeV.",
+      "external_ids": [
+        "arxiv:2611.21601"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-17T16:50:45+08:00",
+      "last_seen_at": "2026-11-17T16:50:45+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.21580",
+      "arxiv_version": "v1",
+      "title": "Gravitational Waves from Population III Black Hole Mergers in Primordial Gas Disks: Constraining Astrophysical Scenarios with the Laser Interferometer Space Antenna and the Einstein Telescope",
+      "authors": [
+        "Maulik Bhatt",
+        "Lucio Mayer",
+        "Pedro R. Capelo",
+        "Simona Gallerani",
+        "Andrea Pallottini"
+      ],
+      "published": "2026-11-16",
+      "url": "https://arxiv.org/abs/2611.21580",
+      "abstract": "The first generation of metal-free Population III (Pop~III) stars provides a possible formation channel for the black hole (BH) seeds in the early Universe. Their remnants may grow through gas accretion and mergers, producing gravitational wave (GW) signals detectable by future observatories. We develop a semi-analytical model of fragmentation in a primordial self-gravitating gas disk within minihaloes at $z > 15$, motivated by high-resolution cosmological simulations. The resulting Pop~III stars form around a central primary, some leaving massive BH remnants that migrate towards the central BH through dynamical friction from gas and dark matter, while the central BH grows through accretion and mergers. For a $10^6~{\\rm M_\\odot}$ halo at $z=20$, we explore how the initial mass function (IMF) and BH accretion efficiency affect detectability with the Laser Interferometer Space Antenna (LISA) and the Einstein Telescope (ET). We find that both detectors can potentially reveal mergers of Pop III remnant BHs, but favor different astrophysical conditions. LISA pinpoints more massive central BHs ($\\sim10^3$-$10^4 {\\rm M_\\odot}$), grown rapidly through mutual mergers alongside efficient gas accretion ($f_{\\rm Edd}=1$), and a relatively top-heavy IMF ($α=0.8$). In contrast, detectability with ET favors lower-mass BHs, with less efficient accretion ($f_{\\rm Edd}=0.01$) and a steeper IMF ($α=1.5$). These results highlight the potential of LISA and ET to probe Pop~III BH formation, growth, and mergers across different regions of parameter spaces, jointly constraining Pop~III star formation and early BH seed evolution.",
+      "external_ids": [
+        "arxiv:2611.21580"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "incremental potential contact",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-17T16:50:45+08:00",
+      "last_seen_at": "2026-11-17T16:50:45+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.21536",
+      "arxiv_version": "v1",
+      "title": "Failure of Mean-Field Critical Scaling and Two Distinct Dissipation Regimes in La$_2$SmNi$_2$O$_{7-δ}$",
+      "authors": [
+        "Yongze Ye",
+        "Feiyu Li",
+        "Di Peng",
+        "Junjie Zhang",
+        "Hai-Hu Wen"
+      ],
+      "published": "2026-11-16",
+      "url": "https://arxiv.org/abs/2611.21536",
+      "abstract": "Recently, superconductivity with an onset transition temperature ($T_{\\mathrm{c}}^{\\mathrm{onset}}$) up to 96 K has been observed in the $\\mathrm{La}_{2-x}\\mathrm{Sm}_{1+x}\\mathrm{Ni}_2\\mathrm{O}_{7-δ}$ system under pressure, providing an attractive platform for investigating superconducting mechanisms in nickelates. Here, we systematically analyzed the critical scaling and vortex dynamics for the $\\mathrm{La}_2\\mathrm{Sm}\\mathrm{Ni}_2\\mathrm{O}_{7-δ}$ single crystal with $T_{\\mathrm{c}}^{\\mathrm{onset}}=92.5$ K under pressure. Within the Ullah--Dorsey framework, neither the two-dimensional nor three-dimensional scaling provides a good collapse near $T_{\\mathrm{c}}^{\\mathrm{MF}}$. This failure may be associated with the multiband composite order parameter of bilayer nickelates, in which pairing is mainly driven by antiferromagnetic exchange in the $d_{z^2}$ orbital, whereas the superfluid stiffness is mainly governed by the $d_{x^2-y^2}$ orbital. The two-step decrease in the logarithmic resistivity reveals two distinct dissipative regimes. The low-temperature regime is well described by the thermally assisted flux flow (TAFF) model, whereas the high-temperature regime cannot be explained by the vortex dynamics involved with the superconducting fluctuation. The crossover between the two regimes may be associated with the orbital-dependent evolution of vortex cores. These results suggest the significant role of the composite order parameter in critical fluctuations and vortex-motion dissipation in nickelates.",
+      "external_ids": [
+        "arxiv:2611.21536"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-17T16:50:45+08:00",
+      "last_seen_at": "2026-11-17T16:50:45+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.21533",
+      "arxiv_version": "v1",
+      "title": "Incentive Alignment for Electricity Data Assets in China: A Blockchain-Enabled Contribution-Credit Framework",
+      "authors": [
+        "Jiazheng Zhang",
+        "Shouwei Li",
+        "Yutian Deng",
+        "Wei Wei",
+        "John Cartlidge"
+      ],
+      "published": "2026-11-16",
+      "url": "https://arxiv.org/abs/2611.21533",
+      "abstract": "Modern electricity markets increasingly rely on reported operational contributions to allocate incentives, recognise cooperation, and coordinate activities across multiple organisations. However, supporting evidence for many reported contributions becomes available only after subsequent metering, dispatch, settlement, or auditing processes, making it difficult to reward genuine contributions while discouraging strategic over-reporting. Existing approaches largely address data sharing, performance verification, blockchain record management, or incentive allocation in isolation, providing limited support for integrating delayed evidence into a unified incentive mechanism. This paper proposes a blockchain-enabled contribution-credit framework for truthful reporting under delayed evidence. The framework links authenticated evidence to contribution recognition through dynamic credit updating, escrow, report-linked penalties, and automated incentive execution. Developed using the Chinese electricity market as the primary setting, it is demonstrated through two representative coordination scenarios, with adaptations illustrating its applicability to UK and US electricity-market structures. A controlled heterogeneous-agent simulation evaluates the behavioural effects of the proposed mechanism, while security analysis, public-data workflow analysis, and blockchain implementation experiments assess its practical feasibility. The results show that integrating delayed evidence with dynamic credit, escrow, and report-linked penalties promotes truthful reporting while providing a transparent and auditable process for translating verified operational contributions into incentive allocation. The proposed framework offers a practical mechanism for improving accountability, coordination, and incentive compatibility in collaborative electricity markets.",
+      "external_ids": [
+        "arxiv:2611.21533"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-17T16:50:45+08:00",
+      "last_seen_at": "2026-11-17T16:50:45+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.21607",
+      "arxiv_version": "v1",
+      "title": "ScaleVLA: Scaling Vision-Language-Action Models to 552 Billion Parameters",
+      "authors": [
+        "Ruixi Yu",
+        "Dairu Liu",
+        "Xuchuan Chen",
+        "Zekun Qi",
+        "Zekai Li",
+        "Zhuo Cao",
+        "Luyang Niu",
+        "Yingsheng Zhang",
+        "Sikai Liang",
+        "Ke Fan",
+        "He Wang",
+        "Li Yi"
+      ],
+      "published": "2026-11-16",
+      "url": "https://arxiv.org/abs/2611.21607",
+      "abstract": "Frontier Vision-Language Models (VLMs) such as GPT-6 Astra have demonstrated remarkable capabilities in robot control, suggesting that broad pretraining provides knowledge valuable for physical action. Yet most Vision-Language-Action (VLA) policies still rely on much smaller VLM backbones, leaving this potential largely untapped. We ask whether frontier-scale representations can provide a stronger foundation for robot learning. We introduce ScaleVLA, which connects a 552B DeepSeek-V4.1-Flash backbone to a trainable action DiT, and systematically compare VLMs from 2B to 552B under a shared training setup. We evaluate three fundamental capabilities of robot foundation models. In sample efficiency, just 10 demonstrations outperform a 2B backbone trained with 50 (87.8% vs. 85.6%). In generalization, LIBERO-PRO success reaches 45.1%, compared with at most 31.3% for smaller backbones. In precise manipulation, real-world charger insertion improves from 4/10 to 9/10 successes, with gains concentrated in contact-sensitive alignment. Despite its scale, ScaleVLA achieves 216 ms median latency per action chunk. Our findings suggest that frontier VLMs can serve not only as reasoning agents, but also as powerful representational foundations for efficient and generalizable robot policies.",
+      "external_ids": [
+        "arxiv:2611.21607"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-17T16:50:45+08:00",
+      "last_seen_at": "2026-11-17T16:50:45+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.21585",
+      "arxiv_version": "v1",
+      "title": "Hyperbolic systems with non-diagonalisable principal part and variable multiplicities, IV: time-dependent characteristics, representation of solutions and regularity",
+      "authors": [
+        "Michael Ruzhansky",
+        "Bolys Sabitbek"
+      ],
+      "published": "2026-11-16",
+      "url": "https://arxiv.org/abs/2611.21585",
+      "abstract": "We consider first-order linear hyperbolic systems with time-dependent pseudo-differential principal symbols and characteristic roots of variable multiplicity. Building on the time-independent work of Kamotski and the first author, we introduce a finite-type condition along the lifted bicharacteristic flow that accounts for the contact of time-dependent characteristic roots. Under this condition, we construct a representation of solutions using time-dependent Fourier integral operators and a Picard series whose terms become increasingly smooth. This leads to an asymptotic expansion in smoothness and local \\(L^p\\) regularity estimates with the expected loss of derivatives. We also apply these results to higher-order scalar weakly hyperbolic equations with involutive characteristics and time-dependent principal symbols. Finally, we consider upper triangular systems with possibly non-diagonalisable principal parts and derive a representation formula involving integrated Fourier integral operators. This extends the earlier results of Garetto, Jäh and the first author to time-dependent principal parts.",
+      "external_ids": [
+        "arxiv:2611.21585"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-17T16:50:45+08:00",
+      "last_seen_at": "2026-11-17T16:50:45+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.21560",
+      "arxiv_version": "v1",
+      "title": "Optimal Quantum Sensing Algorithms for Discrete-Frequency Spectroscopy",
+      "authors": [
+        "Yu-Jie Liu",
+        "Richard R. Allen",
+        "Ruohan Shen",
+        "Bingtian Ye",
+        "Timothy T. Chang",
+        "Joonhee Choi",
+        "Soonwon Choi"
+      ],
+      "published": "2026-11-16",
+      "url": "https://arxiv.org/abs/2611.21560",
+      "abstract": "Spectroscopy is a versatile tool that drives scientific discovery and underpins modern technologies. Quantum sensing offers promising opportunities to advance spectroscopy through enhanced sensitivity and spectral and spatial resolution. However, existing approaches largely focus on improving general measurement capabilities, often overlooking the structure of specific sensing tasks and leaving potential performance gains untapped. Here, we develop an algorithmic approach to quantum sensing tailored to various spectroscopic tasks, providing new avenues for improvement. Specifically, we consider general time-varying signals supported on a known set of $N$ candidate frequencies, a setting we call discrete-frequency spectroscopy. We formulate three types of practically motivated sensing tasks---Detection, Search, and Learning---that require progressively more spectral information. For all tasks, we design optimal quantum sensing algorithms achieving a $\\sqrt{N}$ speedup over conventional frequency-scanning approaches. Optimal Detection and Search need only a single-qubit sensor under $π$-pulse control, whereas optimal Learning provably requires coherent processing with a quantum computer. End-to-end numerical simulations incorporating various experimental imperfections predict up to two-orders-of-magnitude speedup in Detection. As an example, we analyze the feasibility of our Detection and Search algorithms for real-world molecular screening based on state-of-the-art nitrogen-vacancy centers. We also show how quantum-computing-enhanced Learning enables wireless communication in a weak-signal regime where conventional methods fail. Our results establish a practical route toward realizing quantum advantages via designing task-specific sensing algorithms.",
+      "external_ids": [
+        "arxiv:2611.21560"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact",
+        "real-time fluid simulation graphics",
+        "global illumination real-time"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-17T16:50:45+08:00",
+      "last_seen_at": "2026-11-17T16:50:45+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.21487",
+      "arxiv_version": "v1",
+      "title": "A conditional quadrature method of moments for populations of oblate spheroidal particles",
+      "authors": [
+        "Mohamed Amine Bouguezzoul",
+        "Bianca Viggiano",
+        "Bruno Blais",
+        "Fabian Denner"
+      ],
+      "published": "2026-11-16",
+      "url": "https://arxiv.org/abs/2611.21487",
+      "abstract": "Non-spherical particle populations are encountered in numerous industrial processes, where particle size, shape, and velocity jointly influence transport, breakage, and classification dynamics. The resulting coupled distributions of geometric and kinematic particle properties evolve within a high-dimensional phase space whose accurate representation remains a significant challenge. We present a conditional quadrature method of moments (CQMOM) for oblate spheroidal particles described by a five-dimensional phase space that includes their size, aspect ratio, and velocity. The dimensionality of the problem is reduced by assuming that the particles continuously adopt their drag-maximizing orientation. In the solution algorithm, the resulting conditional quadrature representation of the particle phase space is combined with a Strang splitting of the continuous and discontinuous mathematical operators governing the moment transport. We verify this CQMOM framework against Monte Carlo simulations of the same particle model for representative test cases of increasing complexity, including drag, breakage, recoil, and attrition, at different Stokes numbers. With two nodes per coordinate, the particle number, the mean size, and the mean aspect ratio agree with the Monte Carlo solution within its statistical uncertainty, and the velocity statistics to within 7 %. Time-step and quadrature resolution studies identify the conditional velocity quadrature as the main source of the remaining deviations, for which we discuss potential remedies. Overall, the results demonstrate that the conditional quadrature representation preserves the geometric-kinematic correlations of the particle population in a five-dimensional phase space, at a cost more than 60 times lower than that of a single Monte Carlo realization.",
+      "external_ids": [
+        "arxiv:2611.21487"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-17T16:50:45+08:00",
+      "last_seen_at": "2026-11-17T16:50:45+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.21475",
+      "arxiv_version": "v1",
+      "title": "Energy spectrum of trions in semiconductors",
+      "authors": [
+        "Pavel A. Belov",
+        "Lucas Happ",
+        "Stefan Scheel",
+        "Evgeny A. Yarevsky"
+      ],
+      "published": "2026-11-16",
+      "url": "https://arxiv.org/abs/2611.21475",
+      "abstract": "Energy levels of trions in a bulk semiconductor crystal are calculated by two different numerical methods. On the one hand, we construct the finite-element solution of the Schrödinger equation in the total angular momentum representation. On the other hand, we use the Gaussian expansion method (GEM), applied to each of the three Faddeev components of the wave function. The results for the total angular momenta $J=0$ and $J=1$ of the trion were obtained for a wide range of the hole-to-electron mass ratios covering most existing semiconductor compounds. The dependencies of the energies on the mass ratio for trions in a bulk crystal qualitatively agree with the results for a simplified model of a trion in a 1D quantum wire, for which the three-body energies can be calculated with arbitrary precision as well as easily approximated using Born-Oppenheimer potential-energy curves. A comparison of our results with data from other publicly available three-body codes as well as with the energies of well-known atomic counterparts, in particular, with vibrational energy levels of the molecular hydrogen ion, shows a good agreement and confirms the accuracy of the numerical data. We found that GEM significantly improves the precision of the obtained trion energies compared to previous calculations. Our calculations demonstrate that, for most semiconductor compounds, only one trion state with zero total angular momentum exists.",
+      "external_ids": [
+        "arxiv:2611.21475"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-17T16:50:45+08:00",
+      "last_seen_at": "2026-11-17T16:50:45+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.21594",
+      "arxiv_version": "v1",
+      "title": "Surrogate-Assisted Compact-Model Extraction for SKY130 CMOS at 77 K",
+      "authors": [
+        "Aaron Wang",
+        "Olivia Gzamouranis",
+        "Vaibhav Lohia",
+        "Hershel Fei Xun Weiner",
+        "Olivia Seidel",
+        "Richard Cavanaugh",
+        "Giuseppe Di Guglielmo",
+        "Nhan Tran",
+        "Davide Braga"
+      ],
+      "published": "2026-11-16",
+      "url": "https://arxiv.org/abs/2611.21594",
+      "abstract": "Cryogenic circuit design requires compact transistor models that reproduce measured low-temperature behavior and run in standard circuit simulators. We fit BSIM4 parameters to measured I-V curves of SkyWater 130 nm (SKY130) transistors at 77 K using a neural surrogate of NGSpice. The surrogate maps compact-model parameters and device geometry to the complete set of output and transfer characteristics. Extraction is a bounded least-squares search: a bank of NGSpice simulations supplies initial candidates, finite differences of the surrogate supply the local Jacobian, and NGSpice re-simulates the resulting cards before selection. On 18 measured geometries, we compare a search over seven card parameters with a search over 43 parameters selected by NGSpice sensitivity. Relative to NGSpice re-simulations of the previously released cards, the two searches reduce the in-sample mean relative root-mean-square error (RRMS) by 17% and 26%, respectively. The 43-parameter search has the lower overall error, but the seven-parameter search has the lower mean on high-bias curves, and some individual curves have higher error than with the released cards under both searches.",
+      "external_ids": [
+        "arxiv:2611.21594"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-17T16:50:45+08:00",
+      "last_seen_at": "2026-11-17T16:50:45+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.21593",
+      "arxiv_version": "v1",
+      "title": "Electrostatic and magnetic control of the anomalous Josephson phase in ferromagnetic hybrid junctions",
+      "authors": [
+        "D. Rana",
+        "O. S. Kurapati",
+        "N. Vanjarapu",
+        "J. Zhao",
+        "J. B. F. Wolters",
+        "Y. Liu",
+        "P. Krogstrup",
+        "A. L. R. Manesco",
+        "S. D. Escribano",
+        "E. Prada",
+        "S. Vaitiekėnas"
+      ],
+      "published": "2026-11-16",
+      "url": "https://arxiv.org/abs/2611.21593",
+      "abstract": "We report phase-sensitive measurements of Josephson junctions formed in InAs nanowires with epitaxial ferromagnetic EuS and superconducting Al shells. Using a superconducting interferometer, we observe a continuous, hysteretic anomalous phase shift under axial magnetic-field sweeps. A remanent phase bias persists at zero applied field and depends on magnetic history. Electrostatic gating strongly modifies the magnitude of the phase response, revealing its sensitivity to the transverse electronic structure of the nanowire. Self-consistent electrostatic simulations show that the effective Rashba spin-orbit coupling follows the measured gate-dependent phase response, suggesting its central role in the electrostatic control of the anomalous Josephson phase.",
+      "external_ids": [
+        "arxiv:2611.21593"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-17T16:50:45+08:00",
+      "last_seen_at": "2026-11-17T16:50:45+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.21575",
+      "arxiv_version": "v1",
+      "title": "Scaling of impact ripples across planetary conditions",
+      "authors": [
+        "C. W. Lester",
+        "O. Duran",
+        "A. B. Murray"
+      ],
+      "published": "2026-11-16",
+      "url": "https://arxiv.org/abs/2611.21575",
+      "abstract": "Ubiquitous wind-driven (aeolian) ripples have been thought to emerge solely from grain collisions with the bed during saltation. Recent findings, however, have shown that there are two scales of aeolian ripples, with the larger scale having a hydrodynamic origin, akin to water ripples, and the smaller scale ('impact ripples') being hypothesized to emerge from the grain-bed collision mechanism. Still, there are several instances where only one ripple scale is found and the formation mechanism is not clear. Here we compare numerical simulations of only impact ripples with observations, over a broad range of planetary conditions, to clarify their defining characteristics. We find two main regimes for the scaling of impact ripple wavelengths based on transport intensity: for low-intensity transport ('saltation' regime), impact ripple wavelengths scale with grain size regardless of the fluid density; whereas for high-intensity transport ('collisional' regime) wavelengths scale with the average hoplength and thus increase with the fluid velocity. In contrast, impact ripple migration speeds strongly depend on the grain-fluid density ratio, grain size and fluid velocity. Finally, we find that impact ripple speeds become zero or negative (denoting stationary ripples and antiripples, respectively) for grain-fluid density ratios below a threshold that depends on the grain size. In particular, for low density ratios, like those found on Venus, or millimeter-scale grains on Earth, we find only antiripples. Our results thus provide a general framework for interpreting ripple emergence across environments and for identifying impact ripples in ambiguous field or experimental data.",
+      "external_ids": [
+        "arxiv:2611.21575"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-17T16:50:45+08:00",
+      "last_seen_at": "2026-11-17T16:50:45+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.21564",
+      "arxiv_version": "v1",
+      "title": "Assessing Distributional Covariate Balance After Weighting: A Practical Guide",
+      "authors": [
+        "Ariel Linden"
+      ],
+      "published": "2026-11-16",
+      "url": "https://arxiv.org/abs/2611.21564",
+      "abstract": "Health researchers commonly use weighting methods to improve covariate balance when estimating program and intervention effects from observational data. Standardized mean differences (SMDs) and variance ratios assess particular features of balance but may overlook residual differences elsewhere in the covariate distribution. This paper provides practical guidance for using Kolmogorov-Smirnov (KS), Anderson-Darling (AD), and Cramer-von Mises (CVM) statistics as complementary distributional balance diagnostics. In an empirical evaluation of a disease management program, weighting based on a main-effects propensity-score model produced SMD and KS statistics below commonly used or proposed balance thresholds of 0.10 for two continuous covariates, which would conventionally be interpreted as indicating acceptable balance. Nevertheless, permutation tests identified residual distributional differences. Adding quadratic terms for these covariates approximately halved their KS statistics, improved variance balance, and eliminated evidence of residual distributional differences, while leaving the estimated program effect substantively unchanged. Supporting simulations showed that KS, AD, and CVM differed in sensitivity to different forms of distributional discrepancy and that the calibration of resampling-based p-values depended on how the reference distribution was constructed. These findings support a practical approach that combines conventional balance measures, graphical assessment, complementary distributional diagnostics, weighting-model refinement, and outcome adjustment when important residual imbalance remains.",
+      "external_ids": [
+        "arxiv:2611.21564"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-17T16:50:45+08:00",
+      "last_seen_at": "2026-11-17T16:50:45+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.21480",
+      "arxiv_version": "v1",
+      "title": "RESILAGENT: A Three-Pillar Architecture for Cyber-Physical Resilience in Electrical Power and Energy Systems",
+      "authors": [
+        "Nikolaos Kekatos",
+        "Georgios Koutidis",
+        "Konstantinos Antonakopoulos",
+        "Stylianos Basagiannis",
+        "Sokratis Katsikas",
+        "Georgios Kavallieratos",
+        "Alexios Lekidis",
+        "Tom Nianios",
+        "Elpiniki Papageorgiou"
+      ],
+      "published": "2026-11-16",
+      "url": "https://arxiv.org/abs/2611.21480",
+      "abstract": "Electrical Power and Energy Systems face hybrid threats that combine cyber intrusions, physical sabotage and climate-driven stress, and routinely outpace today's siloed monitoring stacks. We present RESILAGENT, a concept architecture organised around three operational pillars, Sensing & Data Intelligence, Resilience Analytics & Reporting, and Incident Response & Recovery, mediated by a Cloud-based Orchestrator and exercised through a closed Detect-Simulate-Decide-Sign loop. The framework fuses agentic artificial intelligence and multimodal large language models for cross-modal detection, real-time digital twins for what-if simulation, and a permissioned blockchain anchor for tamper-evident threat intelligence and CER/NIS2-aligned evidence. We instantiate it on two scenarios, a transmission operator under coordinated cyber compromise, sabotage and heatwave, and a distribution operator under a supply-chain compromise during a storm, and report an IEEE-bus micro-benchmark that quantifies each pillar through false-data-injection attack detection, cyber-physical fusion lift, N-1 contingency screening and anchor cost.",
+      "external_ids": [
+        "arxiv:2611.21480"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "global illumination real-time"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-17T16:50:45+08:00",
+      "last_seen_at": "2026-11-17T16:50:45+08:00"
+    }
+  ]
+}
