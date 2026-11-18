@@ -1,6 +1,366 @@
 {
-  "updated_at": "2026-11-17T16:50:45+08:00",
+  "updated_at": "2026-11-18T16:13:13+08:00",
   "candidates": [
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.23230",
+      "arxiv_version": "v1",
+      "title": "On the multiplicity of crossing limit cycles of double diagonalizable piecewise linear vector fields",
+      "authors": [
+        "Lucas Queiroz Arakaki",
+        "Daniel Panazzolo"
+      ],
+      "published": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.23230",
+      "abstract": "We consider planar piecewise linear vector fields with two zones separated by a straight line and having two diagonalizable components, which we call the \\emph{double diagonalizable configuration}. In this configuration, the Poincaré half-maps correspond to separatrices of saddle points in the foliations of symmetric differential forms $ω_r(x)-ω_r(y)$, where $ω_r$ is a rational $1$-form with exactly three simple poles. Limit cycles correspond to non-diagonal intersections of two such separatrices, and the multiplicity of a limit cycle is precisely the order of contact at the intersection point. We prove that two distinct separatrices which are not nested segments of the same straight line have a contact of order at most $4$ at a diagonal point and at most $2$ at a non-diagonal point. As a consequence, we obtain that the multiplicity of limit cycles in the double diagonalizable configuration is at most two, this bound being sharp.",
+      "external_ids": [
+        "arxiv:2611.23230"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-18T16:13:13+08:00",
+      "last_seen_at": "2026-11-18T16:13:13+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.23223",
+      "arxiv_version": "v1",
+      "title": "Equilibrium Statistics and Stability in Random Two-Population and Three-Population Evolutionary Games",
+      "authors": [
+        "Zhao Song",
+        "Manh Hong Duong",
+        "The Anh Han"
+      ],
+      "published": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.23223",
+      "abstract": "Multi-population matrix evolutionary games provide a framework for studying adaptation and strategic interactions among heterogeneous agents. When payoffs are uncertain, however, analysing a specified game does not reveal how frequently different evolutionary outcomes occur or how their probabilities depend on modelling assumptions. We study two- and three-population games with two strategies per population and both within- and between-population pairwise interactions, with payoffs fixed during each evolutionary trajectory. For two populations, we derive equilibrium-existence probabilities and analytical stability results for generic games and three structured classes: diversity, exclusive, and avoidance games. For generic two-population games, independent Gaussian sampling of payoff entries and of replicator coefficients produces different equilibrium statistics. Interaction structure further distinguishes coexistence from attraction: diversity and exclusive games share the same interior-existence probability, but only exclusive games admit asymptotically stable interior equilibria. Avoidance games admit transversely attracting equilibrium families without locally asymptotically stable individual points. For generic three-population games under independent payoff sampling, we obtain existence probabilities for all equilibrium types and joint existence-and-stability probabilities for boundary equilibria. Monte Carlo simulations support the analytical predictions and quantify multistability, while phase portraits illustrate initial-condition dependence. Under the same Gaussian payoff-sampling protocol, simulations show a lower frequency of fully mixed equilibria but a higher frequency of multistability for three populations than for two.",
+      "external_ids": [
+        "arxiv:2611.23223"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-18T16:13:13+08:00",
+      "last_seen_at": "2026-11-18T16:13:13+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.23215",
+      "arxiv_version": "v1",
+      "title": "Feedback-Linearised Trajectory Tracking via Model-Informed Robust Geometric DDPC",
+      "authors": [
+        "Pranav Gupta",
+        "Deepan Muthirayan",
+        "Ravi Banavar"
+      ],
+      "published": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.23215",
+      "abstract": "Data-driven predictive control (DDPC) predicts system responses from recorded trajectories, but nonlinear dynamics can limit the accuracy of fixed linear predictors. This paper studies geometric robust DDPC for trajectory tracking of a fully actuated manipulator using model-based feedback linearisation. A mechanical model maps virtual acceleration commands into joint torques, while recorded data capture residual dynamics arising from imperfect model parameters. The controller minimises worst-case prediction error over an open Grassmannian ball centred at the fitted trajectory subspace. Simulations on a planar 2R manipulator under gravity compare the proposed method with double-integrator model predictive control (MPC) and direct regularised data-enabled predictive control (DeePC). Results show improved tracking over double-integrator MPC despite increased torque effort, while performance relative to DeePC depends on the reference trajectory.",
+      "external_ids": [
+        "arxiv:2611.23215"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-18T16:13:13+08:00",
+      "last_seen_at": "2026-11-18T16:13:13+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.23213",
+      "arxiv_version": "v1",
+      "title": "Modeling quantum information scrambling in realistic protein NMR experiments",
+      "authors": [
+        "Alec F. White",
+        "Joseph Haslehurst",
+        "Daniel R. Moberg",
+        "Justin Provazza",
+        "Nicholas C. Rubin",
+        "Thomas E. O'Brien",
+        "Christian Bengs"
+      ],
+      "published": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.23213",
+      "abstract": "Out-of-time-order correlators (OTOCs) are important probes of operator spreading and information scrambling, and have recently been proposed as a means of extracting molecular structural information through nuclear magnetic resonance (NMR). Realizing this potential requires accurate modeling of OTOCs in complex molecular environments within experimentally relevant settings. Here, we develop an end-to-end computational pipeline connecting molecular structures to OTOC dynamics in protein systems. Our framework incorporates molecular motion through molecular dynamics simulations, orientational averaging appropriate for powder samples, and spin-network truncation, using an experimentally realizable double-quantum effective Hamiltonian. We apply this framework to a dataset of over 350 carbon-carbon spin pairs across 10 protein systems, spanning interspin distances of 5-17 A. We find that OTOC arrival times scale approximately linearly with interspin distance, revealing system-dependent operator-spreading velocities that enable correlations to propagate over extended distances within milliseconds. Our sensitivity analysis further shows that individual OTOCs predominantly constrain a single structural parameter, primarily associated with interspin distance. Together, these findings highlight the potential of OTOCs to probe spatially extended spin correlations on timescales compatible with solid-state NMR experiments.",
+      "external_ids": [
+        "arxiv:2611.23213"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "incremental potential contact",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-18T16:13:13+08:00",
+      "last_seen_at": "2026-11-18T16:13:13+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.23196",
+      "arxiv_version": "v1",
+      "title": "Nonlinearity-preserving quantum simulation of flows in the early fault-tolerant regime",
+      "authors": [
+        "Hansol Noh",
+        "Unam Oh",
+        "Sangkyu Baek",
+        "Doyeol",
+        "Ahn"
+      ],
+      "published": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.23196",
+      "abstract": "Ensemble prediction of nonlinear dynamics propagates a probability density whose linear transport equation retains the nonlinear drift, but grid-dependent circuit costs leave end-to-end feasibility in early fault-tolerant quantum computing unresolved. We couple polynomial reduced-order models fitted by sparse identification of nonlinear dynamics to Walsh-synthesized Koopman-von Neumann (KvN) transport and surface-code resource estimation. At fixed model dimension and drift degree, per-step transport rotation counts scale polylogarithmically with cells per reduced coordinate. Balancing model accuracy against circuit costs makes reduced-model polynomial degree a design variable for early fault-tolerant quantum simulation. For a cylinder wake approaching saturation, preparation, propagation and sampling to 1% relative root-mean-square field error against the radial model are estimated to take 1.62 h on about 560,000 physical qubits. Estimated three-coordinate wake runtimes span hours to weeks below one million qubits. IBM hardware experiments demonstrate nonlinear radial KvN transport for this wake, using reference circuits to mitigate noise.",
+      "external_ids": [
+        "arxiv:2611.23196"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-18T16:13:13+08:00",
+      "last_seen_at": "2026-11-18T16:13:13+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.23175",
+      "arxiv_version": "v1",
+      "title": "Finding Patient Zero in Temporal Contact Networks: A Comparative Study",
+      "authors": [
+        "Nathan Cincera Brack",
+        "Martin Sterchi",
+        "Lorenz Hilfiker",
+        "Abraham Bernstein"
+      ],
+      "published": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.23175",
+      "abstract": "Identifying the source of an epidemic, i.e., the patient zero, in a temporal contact network is important for effective outbreak containment and resource allocation. While several methods have been proposed for this task, they have rarely been evaluated under comparable conditions, and no systematic comparison exists for temporal contact networks. We address this gap with a comparative study of seven major methods, namely Steiner Tree (ST), Individual-Based Approximation (IBA), Dynamic Message Passing (DMP), Monte Carlo Mean-Field (MCMF), Soft Margin Estimator (SME), Backtracking Network (BN, a graph neural network), and Belief Propagation (BP). We unify all methods under a single problem formulation and evaluate them on eight diverse temporal networks. In the main experiment, we compare source detection performance for varying basic reproduction numbers. Three complementary experiments on a subset of networks study (i) learning curves, (ii) partial observability, and (iii) parameter misspecification. We find that BP and BN are the strongest source detectors overall. SME is strong under partial observation but mediocre otherwise. IBA, DMP, and MCMF share a common weakness rooted in their factorized-likelihood assumption, leading to overconfident predictions. We identify scaling these methods to larger networks as the most pressing direction for future work.",
+      "external_ids": [
+        "arxiv:2611.23175"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-18T16:13:13+08:00",
+      "last_seen_at": "2026-11-18T16:13:13+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.23174",
+      "arxiv_version": "v1",
+      "title": "Inference after coding agents",
+      "authors": [
+        "Florian Gunsilius",
+        "David Van Dijcke",
+        "Kaspar Wüthrich"
+      ],
+      "published": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.23174",
+      "abstract": "Empirical research is changing rapidly as AI coding agents are becoming increasingly proficient in every step of it, from writing code to manipulating data. We argue that while the potential of coding agents for science is vast, their use in hypothesis testing poses a substantial threat to classical inference, as these agents enable a supercharged form of selective inference. In particular, we argue that coding agents carrying out empirical research introduce a new type of post-selection inference that combines human-like, open-ended search over an implicit space of estimators with programmatic replayability of both the selection and the estimation process. Indeed, we find that on simulated data with zero effects, four frontier agents report significant p-values between 54% and 98% of the time when asked to produce a compelling finding. We propose a simple procedure for detecting and correcting these distortions. After an agent has completed its analysis, we reset and replay it on subsamples of the data to estimate the agent's relative probability of selecting that analysis when it looks statistically favorable. For agents with stable selection behavior, the resulting corrected test is asymptotically valid and consistent conditional on selection. Importantly, the correction is learned from the black-box agent's actual choices rather than a model of how it searches, so it remains valid even as AI technology continues to evolve rapidly. In simulations, the correction robustly lowers the high false rejection rates to near the nominal 5%. We illustrate the method on applications from two published papers.",
+      "external_ids": [
+        "arxiv:2611.23174"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-18T16:13:13+08:00",
+      "last_seen_at": "2026-11-18T16:13:13+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.23171",
+      "arxiv_version": "v1",
+      "title": "Richtmyer-Meshkov instability induced by a Gaussian-kicked rotor-like potential in a three-component Bose-Einstein condensate",
+      "authors": [
+        "Susovan Giri"
+      ],
+      "published": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.23171",
+      "abstract": "This research investigates the Richtmyer-Meshkov instability within a three-component Bose-Einstein condensate. We offer a kicking potential that replicates the impulsive shock across both interfaces of the three-component BEC to trigger the Richtmyer-Meshkov instability. We propose a hydrodynamic model that indicates the essential criteria for the onset of hydrodynamic instability in the BEC through the application of the hydrodynamic pressure equation. We utilise the split-step Crank-Nicolson method to numerically solve the coupled Gross-Pitaevskii equations, with the objective of obtaining the immiscible ground state of all components in a quasi-2D harmonic trap. Following this, we introduce a Gaussian-like disruption instigated by the kick rotor model at both interfaces of the confined three-component BEC to explore the time-dependent development of nonlinear hydrodynamic instability patterns, culminating in quantum turbulence and nonlinear configurations at the interfaces. The kinetic energy spectra of both the incompressible and compressible elements of the system exhibit scaling in the low-wavenumber domain with power-law exponents of $-5/3$ and $1$, respectively. Conversely, the high-wavenumber domain is defined by $k^{-4}$ and $k^{-7/2}$ scaling for the incompressible and compressible elements, respectively, aligning with the established spectral characteristics of quantum turbulence. This research offers fresh perspectives on the mechanisms of hydrodynamic instability, vortex generation, non-equilibrium pattern evolution, and quantum turbulence in superfluid systems comprising multiple interacting elements.",
+      "external_ids": [
+        "arxiv:2611.23171"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-18T16:13:13+08:00",
+      "last_seen_at": "2026-11-18T16:13:13+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.23146",
+      "arxiv_version": "v1",
+      "title": "Electromagnetic form factors of the hidden-charm pentaquarks in a coupled-channel unitary approach",
+      "authors": [
+        "Nongnapat Ponkhuha",
+        "Ratirat Suntharawirat",
+        "Daris Samart"
+      ],
+      "published": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.23146",
+      "abstract": "We study the electromagnetic form factors of the hidden-charm pentaquarks $P_c(4312)$, $P_c(4440)$ and $P_c(4457)$ and of their four heavy-quark spin partners, treated as $\\bar D^{(*)}Σ_c^{(*)}$ hadronic molecules. The states are poles of a coupled-channel unitary amplitude with a vector-meson exchange kernel that respects heavy-quark spin symmetry. The form factors are the residues at the double pole of the photon-coupled amplitude. The current consists of one-body currents and a photon--four-hadron vertex, which we construct for this channel space. Its gauged-kernel part ensures the charge normalization through the compositeness sum rule, while its contact parts contain couplings that the model does not determine. For $J^P=\\tfrac12^-$, $\\tfrac12^-$, $\\tfrac32^-$ and pointlike constituents, the mean squared distances between the constituents of the three observed states are $0.85-0.47i$, $0.35-0.18i$ and $1.76-0.57i\\,\\mathrm{fm}^2$. Within $2\\%$, they equal the zero-range value $1/(4μ_{\\rm red} B_c)$, with reduced mass $μ_{\\rm red}$ and complex binding energy $B_c$, times the effective-range factor of the amplitude. The real parts of the magnetic moments are $1.7$, $-0.9$ and $1.3\\,μ_N$, within $11\\%$ of the additive moments of the constituents. Variations of the constituent moments and of the magnetic contact couplings within bounds from dimensional analysis give the ranges $0.8$ to $2.0$, $-1.3$ to $-0.2$ and $0.2$ to $1.8\\,μ_N$. The charge radii depend also on the constituent structure and on electric contact currents. The photon loops of open channels have a triangle singularity at spacelike momentum transfer. We specify the analytic continuation of the residue in $Q^2$ and give the difference between its two adjacent branches in closed form.",
+      "external_ids": [
+        "arxiv:2611.23146"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact",
+        "global illumination real-time"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-18T16:13:13+08:00",
+      "last_seen_at": "2026-11-18T16:13:13+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.23226",
+      "arxiv_version": "v1",
+      "title": "FastFrames: Video Generation at Interactive Latency",
+      "authors": [
+        "Gene Chou",
+        "Guandao Yang",
+        "Fujun Luan",
+        "Lars Mescheder",
+        "Wei Dong",
+        "Stephan Richter",
+        "Vladlen Koltun"
+      ],
+      "published": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.23226",
+      "abstract": "Autoregressive video diffusion models generate frames based on new observations and inputs, making them a promising medium for interactive visual experiences. However, existing models are orders of magnitude too slow for fluid interaction. This paper introduces FastFrames, a family of fast autoregressive video diffusion models that achieves interactive latency without compromising quality. We profile the inference pipeline of state-of-the-art models and find that operations often treated as fixed implementation details, such as VAE decoding and KV cache updates, in fact account for over half of end-to-end inference latency. We challenge the assumption that these components are indispensable and replace them with lightweight alternatives. Our 1.3B variant runs at 36 ms per frame, or 28 responses per second (RPS), on a single B200 GPU while matching the generation quality of a state-of-the-art model that is nearly 8x slower. Our 14B variant runs at 45 ms per frame, or 22 RPS, on an 8x B200 GPU node and yields significantly better visual quality and realism. We show that FastFrames enables real-time interaction in applications such as camera-conditioned and physics-conditioned video generation.",
+      "external_ids": [
+        "arxiv:2611.23226"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics",
+        "global illumination real-time"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-18T16:13:13+08:00",
+      "last_seen_at": "2026-11-18T16:13:13+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.23130",
+      "arxiv_version": "v1",
+      "title": "A Neural Envelope Method for Rapid Gradient-based Optimum Takeoff Trajectory Design",
+      "authors": [
+        "Samuel Sisk",
+        "Xiaosong Du"
+      ],
+      "published": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.23130",
+      "abstract": "Urban air mobility arises to mitigate ground traffic congestion. Multidisciplinary analysis and optimization (MDAO) has been introduced to reduce the energy consumption, thereby expanding aircraft performance. Surrogate-based MDAO lowers the cost of optimization, but multimodality disrupts global optimum search for both simulation-based and surrogate-based optimizations. Convex envelopes convert multimodal spaces into unimodal spaces, permitting efficient convex optimization; however, convexifying a design space may produce infeasible \"optimal\" designs due to complex design constraints. To address these challenges, this work proposes the coupling of a physics-constrained generative adversarial networks (physicsGAN) and neural envelope to transform original, constrained, non-convex optimizations into unconstrained, convex optimizations. Specifically, the physicsGAN discovers a feasible design space where all design candidates inherently satisfy all constraints, by penalizing surrogate-predicted constraint violations during training. Moreover, the neural envelope constructs a neural network-based convex envelope for the transformed objective function within the physicsGAN-discovered feasible space. Note that the neural envelope only needs to deal with objective function since constraints are inherently satisfied in the feasible space. The neural envelope is demonstrated on takeoff trajectory optimizations of the Airbus A3 Vahana eVTOL aircraft. Results show that neural envelopes achieve a 99.91% mean accuracy within a flight-condition space compared with reference convex envelopes. Neural-envelope-enabled optimizations achieve 99.84% accuracy on the global optimum design, costing only 0.04 seconds on average. The neural envelope accelerates the trajectory optimization by 53 and 162 times on average compared to the physicsGAN-enabled gradient-based and global optimizations, respectively.",
+      "external_ids": [
+        "arxiv:2611.23130"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "global illumination real-time",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-18T16:13:13+08:00",
+      "last_seen_at": "2026-11-18T16:13:13+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.23156",
+      "arxiv_version": "v1",
+      "title": "Quantum simulation of neutral-meson mixing and decay on a reprogrammable photonic processor",
+      "authors": [
+        "Mohd Abu Bakar Siddique",
+        "Abrar Al Shadid Abir",
+        "A. K. M. Rakib",
+        "Mohammad Abrar Kabir",
+        "Aseer Imad Keats",
+        "Rakibul Hasan Sagor"
+      ],
+      "published": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.23156",
+      "abstract": "Neutral mesons oscillate into their antiparticles while decaying, so their dynamics is generated by a non-Hermitian effective Hamiltonian which a quantum simulator restricted to unitary operations cannot implement directly. We propose a reprogrammable photonic processor that simulates this open-system evolution through dilation and analyze it at the circuit level. The effective Hamiltonian is reconstructed exactly from measured lifetimes, mass and width differences, and the CP-violation parameter $|q/p|$. Through a singular-value decomposition and a single ancilla that encodes the total decay probability, its propagator is embedded in a four-mode unitary, which is compiled at each time step into a rectangular interferometer on a hexagonal mesh of tunable Mach-Zehnder units. Circuit simulations including coupler, propagation, and bend losses show that one fixed device, reprogrammed only through its control voltages, reproduces the flavor oscillation and decay of neutral kaons and of $B_d$ and $B_s$ mesons, with $x=Δm/Γ$ from 0.77 to 26.9. Over 500 time steps per system, the mean fidelity lies between 0.99979 and 0.99982, and no step falls below 0.9996. Because every optical path crosses nine tunable units, uniform insertion loss reduces only the transmitted power, whereas unit-to-unit loss variations lower the fidelity quadratically, $1-\\langle F\\rangle \\simeq 0.08σ^2$ for a loss standard deviation $σ$ in dB. A leading-order analysis traces this coefficient to the routing of light through the mesh, reproduces the fitted value to within 2%, and explains why it is the same for all three mesons; a mean fidelity of 0.999 tolerates $σ\\approx 0.11$ dB. The ancillary outputs encode the total decay probability without postselection, and the reported probabilities are normalized to the collected optical power.",
+      "external_ids": [
+        "arxiv:2611.23156"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-18T16:13:13+08:00",
+      "last_seen_at": "2026-11-18T16:13:13+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.23117",
+      "arxiv_version": "v1",
+      "title": "Tropicalization and slow manifolds: A case study of the Michaelis--Menten reaction",
+      "authors": [
+        "Kristian Uldal Kristiansen",
+        "Peter Szmolyan"
+      ],
+      "published": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.23117",
+      "abstract": "We present a case study of a recently developed approach to multiple-scale systems based on exponential scaling and tropicalization (Kristiansen and Sarantaris, \\emph{On a tropicalization of planar polynomial ODEs}). Parameters and variables are scaled exponentially with respect to a small parameter $ε$, so that orders of magnitude become a genuine non-smooth singular limit $ε\\to 0$. Tropical geometry, via subdivisions of the Newton polygon, classifies the asymptotic regimes and locates the candidates for slow manifolds on all scales of the variables simultaneously. Here we combine this framework with blow-up and geometric singular perturbation theory. {In particular,} the non-smooth singular limit is resolved by spherical and cylindrical blow-ups, and degeneracies caused by exponentially small terms with flat contact are treated by adding the exponential quantities as new variables {(following Kristiansen, \\emph{Blowup for flat slow manifolds})}. As the case study, we take the Michaelis--Menten reaction. The tropical classification yields three asymptotic regimes of parameters. In two of these, we find a sequence of blowups and desingularizations where the system has a {global} normally hyperbolic critical manifold on the blown up space. In the remaining case, we obtain a similar result, but only for a subcase. In particular, there is an asymptotic regime of parameters where there is no global slow manifold of the Michaelis--Menten reaction.",
+      "external_ids": [
+        "arxiv:2611.23117"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-18T16:13:13+08:00",
+      "last_seen_at": "2026-11-18T16:13:13+08:00"
+    },
     {
       "source": "arxiv",
       "arxiv_id": "2611.21610",
@@ -2476,7 +2836,7 @@
     }
   ],
   "last_run": {
-    "at": "2026-11-17T16:50:45+08:00",
+    "at": "2026-11-18T16:13:13+08:00",
     "sources": [
       "arxiv",
       "semanticscholar",
@@ -2493,8 +2853,8 @@
       "projective dynamics cloth"
     ],
     "fetched": 112,
-    "merged": 32,
-    "new": 19
+    "merged": 34,
+    "new": 13
   },
   "topic": "game technology: physics simulation, real-time rendering, global illumination",
   "schema_version": 1
