@@ -1,0 +1,443 @@
+{
+  "date": "2026-11-19",
+  "run": {
+    "at": "2026-11-19T16:23:45+08:00",
+    "sources": [
+      "arxiv",
+      "semanticscholar",
+      "dblp"
+    ],
+    "keywords": [
+      "material point method cloth",
+      "\"position based\" dynamics cloth",
+      "incremental potential contact",
+      "real-time fluid simulation graphics",
+      "global illumination real-time",
+      "ray tracing global illumination",
+      "MLS-MPM",
+      "projective dynamics cloth"
+    ],
+    "fetched": 92,
+    "merged": 20,
+    "new": 14
+  },
+  "new_candidates": [
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.24941",
+      "arxiv_version": "v1",
+      "title": "UltraTex: Aligning Physical Knowledge for High-Fidelity PBR Texture Generation",
+      "authors": [
+        "Jingzhi Bao",
+        "Xiaohe Ma",
+        "Hong Li",
+        "Yuanming Hu",
+        "Xiaoguang Han"
+      ],
+      "published": "2026-11-18",
+      "url": "https://arxiv.org/abs/2611.24941",
+      "abstract": "Generating physically based rendering (PBR) texture maps for a 3D mesh from a single reference image is highly ambiguous, as the observed appearance entangles material identity, surface reflectance, and illumination. While current generative methods produce realistic albedo maps, they still struggle to infer accurate metallic and roughness attributes for relighting. We present UltraTex, a cascaded multi-view framework that moves beyond appearance matching by integrating physical knowledge into multi-view diffusion-based PBR generation. UltraTex first jointly predicts albedo and world-space shading normals to generate more detailed albedo maps, and then predicts metallic-roughness (MR) maps conditioned on the generated albedo, reference image, and material semantic priors. To inject material semantics, a lightweight adapter transforms hidden-layer features of a vision-language model (VLM) into intrinsic material representation tokens, providing part-level knowledge anchors for MR estimation. To model material-light interaction, photometric representation alignment guides intermediate diffusion features toward ground-truth material renderings under controlled lighting. This makes metallic and roughness variations observable through highlight intensity, specular sharpness, and local reflectance contrast, providing stronger guidance for fine-grained material prediction without explicit lighting supervision. Extensive experiments show that UltraTex generates high-quality textures and outperforms existing open-source and commercial methods in visual fidelity, material accuracy, and physical plausibility.",
+      "external_ids": [
+        "arxiv:2611.24941"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "real-time fluid simulation graphics",
+        "global illumination real-time",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-19T16:23:45+08:00",
+      "last_seen_at": "2026-11-19T16:23:45+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.24908",
+      "arxiv_version": "v1",
+      "title": "Decomposing SGD Dynamics in Neural Networks: Teacher-Induced Spikes and Variance Inflation",
+      "authors": [
+        "Samet Demir",
+        "Zafer Dogan"
+      ],
+      "published": "2026-11-18",
+      "url": "https://arxiv.org/abs/2611.24908",
+      "abstract": "We study two-layer neural networks trained by stochastic gradient descent (SGD) on a multi-index teacher model, focusing on how first-layer parameters orthogonal to the teacher subspace affect generalization. We decompose the first-layer weights into a signal component aligned with the teacher and an orthogonal complement, and analyze their joint SGD dynamics together with the second layer in the proportional limit. We show that although SGD updates to the complement are initially isotropic, the training dynamics induce teacher-dependent spectral spikes in the complement Gram matrix. This emergent anisotropy provides a concrete mechanism by which representation variance is amplified, and generalization degrades. To isolate this effect, we introduce Decomposed Dynamics, an analytically tractable surrogate whose asymptotic test-error dynamics coincide with those of SGD. In simulations with a ReLU student, freezing the directions of the orthogonal complement improves generalization relative to training them. Finally, we show that the signal component rapidly aligns with the second-layer weights, revealing strong cross-layer coupling even in this shallow setting. Together, our results provide a dynamical explanation for how feature learning outside the teacher subspace harms generalization.",
+      "external_ids": [
+        "arxiv:2611.24908"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-19T16:23:45+08:00",
+      "last_seen_at": "2026-11-19T16:23:45+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.24885",
+      "arxiv_version": "v1",
+      "title": "Quantum Simulation of First-Quantised Chemistry with a Sum-of-Squares Representation",
+      "authors": [
+        "Aleksei V. Ivanov",
+        "Christoph Sünderhauf",
+        "Jon Kunjummen",
+        "Nick S. Blunt",
+        "Róbert Izsák"
+      ],
+      "published": "2026-11-18",
+      "url": "https://arxiv.org/abs/2611.24885",
+      "abstract": "Calculating molecular energies is expected to be an important application of quantum computers, but the most efficient algorithms to achieve this typically have significant space requirements. Scaling quantum processors to thousands of logical qubits is a daunting engineering challenge, so developing algorithms that run with reduced qubit requirements is of particular importance. Moreover, most algorithms are benchmarked on active spaces with about as many orbitals as electrons, missing dynamical correlation which is necessary to describe real chemistry. Capturing this correlation requires several times more orbitals than electrons, even in compact atomic-orbital basis sets. This low-filling regime favours first quantisation, where each electron is represented by a number of qubits that grows only logarithmically with the number of orbitals. Whether this approach translates into a practical advantage in orbital basis sets of realistic size, however, has been unclear. Here, we develop a first-quantised phase estimation algorithm for generic orbital basis sets, based on a non-convex sum-of-squares representation of the Hamiltonian and spectral-gap amplification. We compare it with the state-of-the-art second-quantised algorithm, compiling both with the same techniques at the logical level. For six molecules with 4 to 24 electrons in 5 to 14 times as many orbitals, our first-quantised method needs up to 16 times fewer Toffoli gates than the second-quantised algorithm in the low-qubit regime, where only a few hundred logical qubits are available. It stays cheaper up to between several hundred and about 1\\,400 qubits, and its smallest qubit count is 1.4 to 2 times lower than in second quantisation. In the low-qubit and low-filling regime, our algorithm is therefore the method of choice for chemistry in orbital basis sets.",
+      "external_ids": [
+        "arxiv:2611.24885"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics",
+        "global illumination real-time",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-19T16:23:45+08:00",
+      "last_seen_at": "2026-11-19T16:23:45+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.24876",
+      "arxiv_version": "v1",
+      "title": "Learning to Interact in Multi-Agent Self-Play for Controllable Autonomous Driving Scenario Generation",
+      "authors": [
+        "Beyazit Yalcinkaya",
+        "Ethan Pronovost",
+        "Maximilian Naumann",
+        "Marcell Vazquez-Chanlatte"
+      ],
+      "published": "2026-11-18",
+      "url": "https://arxiv.org/abs/2611.24876",
+      "abstract": "Large-scale, multi-agent self-play trains robust driving policies effectively in simulation, but controlling these models to generate specific, safety-critical edge cases remains a key challenge. Existing goal-conditioned self-play frameworks rely primarily on static map-location goals and fail to reliably produce complex agent interactions such as aggressive tailgating or adversarial cut-offs. These agent interactions are necessary for rigorous autonomous vehicle (AV) testing. To address this, we present an extended multi-agent self-play framework that introduces agent-relative dynamic goals. By conditioning policies on this extended goal representation, our framework enables targeted, controllable scenario synthesis. We demonstrate that our approach successfully generates interactive driving behaviors that static-goal baselines cannot simulate, providing a flexible tool for long-tail scenario generation in AV testing.",
+      "external_ids": [
+        "arxiv:2611.24876"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-19T16:23:45+08:00",
+      "last_seen_at": "2026-11-19T16:23:45+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.24870",
+      "arxiv_version": "v1",
+      "title": "Kinetic study of Reaction-Control-Jet Interference in Rarefied Hypersonic Crossflow",
+      "authors": [
+        "Alexis Theofilis",
+        "Martin Grabe"
+      ],
+      "published": "2026-11-18",
+      "url": "https://arxiv.org/abs/2611.24870",
+      "abstract": "A 1975 wind-tunnel study at the German Aerospace Center (DLR) of a helium jet blowing from a flat plate into a Mach 11 to 12 air crossflow at three freestream densities is revisited using two- and three-dimensional Direct Simulation Monte Carlo (DSMC) computations at Knudsen numbers 0.021 to 0.125. The planar slot used in two-dimensional model computations reproduces the shock topology, the sign and two-lobed structure of the interference pressure and its trend with rarefaction, and its plate-alone boundary layer is consistent with the three-dimensional one and with a similarity solution with slip and temperature jump. However, two-dimensional simulations overpredict the peak interference pressure about twelvefold at every condition and carry it farther upstream. A resolution sweep at the most rarefied condition converges the planar interference to within 1% of its extrapolated limit. Three-dimensional DSMC reproduces the measured interference pressure at all three densities, within 25% at the lobe peak and 3 mm in its position, although two- and three-dimensional simulations overpredict the plate-alone wall pressure by 50 to 75%. Continuum breakdown around the jet persists even at the lowest Knudsen number examined. Fully three-dimensional kinetic simulations are underway to extend the present validation to a comparison of jet strength and forces over wider Knudsen number ranges, and to an examination of lateral relief as a reason for the discrepancy.",
+      "external_ids": [
+        "arxiv:2611.24870"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-19T16:23:45+08:00",
+      "last_seen_at": "2026-11-19T16:23:45+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.24866",
+      "arxiv_version": "v1",
+      "title": "Consistent interfacial flow numerics - Part II: The momentum convection term",
+      "authors": [
+        "Johan Roenby"
+      ],
+      "published": "2026-11-18",
+      "url": "https://arxiv.org/abs/2611.24866",
+      "abstract": "The two-phase Volume-of-Fluid solvers of OpenFOAM overpredict the horizontal water velocity near the crest of a water wave, and the error grows as the wave propagates. Part I of this series removed the spurious air velocities caused by the gravity term but left this error unchanged. Here we show that it is caused by the momentum convection term. Its mass flux is computed in the interface advection step from the velocity at the start of the time step, whereas the convected velocity is taken at the end of the step, because convection is discretised implicitly. In a progressive wave, where the horizontal and vertical velocities are 90 degrees out of phase, this time lag produces an upward flux of horizontal momentum, proportional to the time step, which accumulates in a spurious current near the surface. The same mismatch makes the response to a force depend on the density at the wrong time level. Explicit convection removes the lag and makes the response consistent with the gravity force, but requires the convected face velocity at the interface to be taken from the upwind cell. Only then is the new velocity of a cell a weighted average of old velocities, whatever the density ratio. We demonstrate both requirements with prescribed flows and with the full solver. For a progressive wave, explicit convection with upwind face velocities at the interface reduces the overprediction of the crest velocity from 26-31 % to within 1 % and removes the near-surface current. The resulting solver, fluxinator, is meant for maximum Courant numbers of 0.1 and below, where it keeps the wave height within 1.5 % over 15 periods on meshes with six or more cells per wave height. Because the spurious velocities that limit the time step are removed, it needs 34-42 % less wall-clock time than interFoam for the tested wave.",
+      "external_ids": [
+        "arxiv:2611.24866"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-19T16:23:45+08:00",
+      "last_seen_at": "2026-11-19T16:23:45+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.24864",
+      "arxiv_version": "v1",
+      "title": "NereidVLA: Learning to Understand and Navigate the Underwater World",
+      "authors": [
+        "Chenjie Zhao",
+        "Zhiliang Zhu",
+        "Quan Chen",
+        "Yuquan Xue",
+        "Xingxue Shi",
+        "Puyue Wang",
+        "Zhiqiang Zhao",
+        "Kangye Zheng",
+        "Boyang Xu",
+        "Mingwei Lin",
+        "Dejun Li"
+      ],
+      "published": "2026-11-18",
+      "url": "https://arxiv.org/abs/2611.24864",
+      "abstract": "Underwater navigation requires translating visual spatial cues into motion, yet marine vision-language datasets rarely include paired robot trajectories. We present NereidVLA, a vision-language-action model that transfers marine spatial knowledge to language-conditioned 3D navigation. We first train Sea2Know on approximately two million marine examples to learn target grounding, spatial relations, and scene structure without paired robot-motion supervision. We then adapt it using expert trajectories executed under simulated underwater vehicle dynamics. Given RGB histories and a language instruction, NereidVLA predicts discrete motion tokens that decode into local 3D trajectories for closed-loop tracking. Evaluation combines an independent six-dimensional underwater navigation understanding benchmark with offline prediction and closed-loop navigation. Under matched navigation training and execution settings, marine spatial pretraining increases simulation success from 72.4% to 84.4%. Without fine-tuning on the real test environment, NereidVLA achieves 78.75% success in laboratory-pool robot trials, compared with 47.50% for InternVLA-N1. These results show that marine spatial supervision can support downstream motion learning and physical underwater navigation.",
+      "external_ids": [
+        "arxiv:2611.24864"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-19T16:23:45+08:00",
+      "last_seen_at": "2026-11-19T16:23:45+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.24878",
+      "arxiv_version": "v1",
+      "title": "From geometric curvature to effective backgrounds: a dictionary for Dirac fermions in one, two and three spatial dimensions",
+      "authors": [
+        "David Valenzuela",
+        "Alfredo Raya"
+      ],
+      "published": "2026-11-18",
+      "url": "https://arxiv.org/abs/2611.24878",
+      "abstract": "Dirac equation on curved backgrounds can be rewritten as a flat-space equation in which geometry appears as a tensorial Fermi velocity together with a set of background fields. We derive this correspondence from a single Clifford-algebra identity and follow it through one, two, and three spatial dimensions. Once the spin connection is written in terms of Ricci rotation coefficients, only two contractions can occur. The trace produces a term with the index structure of a vector potential in every dimensionality; it enters with an imaginary factor i and is precisely the term that keeps the operator Hermitian when the Fermi velocity depends on position. The totally antisymmetric contraction produces an object that depends on the number of indices available to the Levi-Civita symbol: a trace on a line, a pseudoscalar mass on a surface, and an axial vector potential in a volume. Neither contraction is invariant under local rotations of the frame, and we give the transformation laws. On a surface, the curl of the trace term can always be removed by a frame rotation, while its divergence is proportional to the Gaussian curvature. We apply the correspondence to a Gaussian bump, where the local density of states at the center falls below its flat value and obeys a closed form at low energy; to a wire, where a nonuniform lapse binds states inside the gap and a nonuniform velocity cannot; to stationary frames on a surface, where a circulating drag shifts the Dirac mass locally with either sign; and to twisted and rotating frames in a volume, where the axial term takes the form of a chiral chemical potential produced by the frame alone, or separates Weyl nodes in a rotating sample. We separate the geometric contribution from the lattice pseudogauge field that dominates the response of strained samples",
+      "external_ids": [
+        "arxiv:2611.24878"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-19T16:23:45+08:00",
+      "last_seen_at": "2026-11-19T16:23:45+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.24939",
+      "arxiv_version": "v1",
+      "title": "Map-Level Inference of Primordial Gravitational Waves from the CMB with Spherical Neural Networks",
+      "authors": [
+        "Anto I. Lonappan",
+        "Adrian E. Bayer",
+        "Brian Keating",
+        "Kam Arnold",
+        "Giuseppe Puglisi",
+        "Ethan O. Nadler"
+      ],
+      "published": "2026-11-18",
+      "url": "https://arxiv.org/abs/2611.24939",
+      "abstract": "We train a spherical graph convolutional network to infer the tensor-to-scalar ratio $r$ directly from multifrequency cosmic microwave background (CMB) $B$-mode maps on the cut sky. We test the network on simulations of a generic ground-based experiment including lensed CMB, inhomogeneous noise, and stochastic Galactic dust and synchrotron emission. We compare the network with a multifrequency bandpower likelihood built from the same 20,000 simulations used to train it. Working directly on the maps, with no power-spectrum estimation or component separation, the network reduces the root-mean-square error on $r$ by a factor of 1.3 and gives well-calibrated 68% intervals 1.2 times narrower than the likelihood with the same prior. Saliency maps show that the network learns to favor the deepest regions of the sky and the cleanest frequency channels without being given the survey depth. Both approaches are tied to the foreground model they are built on: the network generalizes to some alternative foreground models without retraining, but not to a three-dimensional dust model with line-of-sight variations. The network can be extended to marginalize over foreground models by training on a broad family, making direct map-level neural inference a promising route to $r$ for future $B$-mode analyses.",
+      "external_ids": [
+        "arxiv:2611.24939"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-19T16:23:45+08:00",
+      "last_seen_at": "2026-11-19T16:23:45+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.24938",
+      "arxiv_version": "v1",
+      "title": "Phoenix: Learning Scene Structure Representations for Generalizable World-Action Models",
+      "authors": [
+        "Yupeng Zheng",
+        "Chaoyue Li",
+        "Linbo Wang",
+        "Xiang Li",
+        "Yuhang Zheng",
+        "Xiaotong Su",
+        "Songen Gu",
+        "Yichen Zhang",
+        "Zebin Xing",
+        "Shuai Tian",
+        "Jingxiang Guo",
+        "Jing Li",
+        "Zhiyong Zhao",
+        "Zhongpu Xia",
+        "Qichao Zhang",
+        "Haoran Li",
+        "Shuicheng Yan",
+        "Dongbin Zhao"
+      ],
+      "published": "2026-11-18",
+      "url": "https://arxiv.org/abs/2611.24938",
+      "abstract": "World-action models jointly predict future observations and actions, yet reconstruction-oriented visual representations do not explicitly emphasize the spatial relationships and object-state changes needed for manipulation. We introduce Phoenix, which learns representations of scene structure for world-action modeling. Specifically, Phoenix Encoder enriches DINOv3's general visual semantics through dual-teacher distillation of geometric and spatiotemporal semantic knowledge. Next, CS-VAE causally aggregates and compresses Phoenix Encoder features into generative latents while preserving scene information and spatial layout. Finally, Phoenix jointly predicts these latents, complementary appearance latents, and robot actions, linking scene evolution with action generation. To study pretraining data efficiency, we curate approximately 39,000 hours of egocentric and robot manipulation data for representation learning and use the robot demonstration subset for WAM pretraining. Following benchmark-specific post-training, Phoenix achieves state-of-the-art performance across simulation and real-robot benchmarks spanning single-arm, bimanual, and dexterous manipulation. It demonstrates strong robustness to perturbations, achieving success rates of 94.8% on LIBERO-Plus and 72.4% on RoboTwin 2.0 C2R, alongside strong cross-embodiment transfer and real-world manipulation performance on Bench2Dex and RoboDojo-RealWorld, respectively. Pretraining-scale analysis shows larger performance gains from data scaling than a video-VAE-only baseline, indicating stronger scaling benefits and more effective data utilization. Moreover, Phoenix maintains high success rates when adapted with limited downstream demonstrations, demonstrating strong few-shot adaptation. Our code, pretraining data, and models are available on the project page to help the community reproduce our results.",
+      "external_ids": [
+        "arxiv:2611.24938"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-19T16:23:45+08:00",
+      "last_seen_at": "2026-11-19T16:23:45+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.24929",
+      "arxiv_version": "v1",
+      "title": "Improving External Prediction in New Clusters with Mixed-Effects Models: Implications for Multicenter Studies",
+      "authors": [
+        "Jiawa Zhang",
+        "Hyungrok Do",
+        "Myeonggyun Lee"
+      ],
+      "published": "2026-11-18",
+      "url": "https://arxiv.org/abs/2611.24929",
+      "abstract": "Prediction models developed from multicenter data are often applied to new centers. A linear mixed model (LMM) captures between-center heterogeneity through random effects. However, a new center's random effect is unknown, so the LMM predicts from fixed effects alone, as does a standard linear model (LM) that ignores clustering. The two models thus differ only in how fixed effects are estimated, and it is unclear whether the LMM predicts better. We decompose the prediction error in a new center into fixed-effect estimation error, between-center variation, and residual variation. Because the last two components are identical for both models, any LMM advantage must come from more precise fixed-effect estimates. In simulations across diverse designs and random-effect structures, the LMM generally achieved lower mean squared error than the LM. Relative gains increased with the number of predictors, between-center heterogeneity, and imbalance in center sizes, and decreased as training data grew. Modeling a random slope yielded additional gains that increased with between-center variation in the predictor effect. In a stress test using held-out eICU hospitals selected for strong outcome heterogeneity, a random-intercept LMM predicted ICU length of stay more accurately than an LM. These findings clarify the conditions under which mixed models can improve prediction in new centers and can inform model development for multicenter studies.",
+      "external_ids": [
+        "arxiv:2611.24929"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-19T16:23:45+08:00",
+      "last_seen_at": "2026-11-19T16:23:45+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.24914",
+      "arxiv_version": "v1",
+      "title": "The role of externally-driven density fluctuations in the enhancement of beam spray",
+      "authors": [
+        "Kyle R. McMillen",
+        "Ian D. Min-Roberts",
+        "Russell K. Follett",
+        "Avram L. Milder",
+        "Joseph Katz",
+        "Daniel J. Haberberger",
+        "Julieta Hernandez Gordillo",
+        "Pierre A. Michel",
+        "Hans G. Rinderknecht",
+        "David Turnbull",
+        "John P. Palastro",
+        "Dustin H. Froula",
+        "Wojciech Rozmus",
+        "Jessica L. Shaw"
+      ],
+      "published": "2026-11-18",
+      "url": "https://arxiv.org/abs/2611.24914",
+      "abstract": "Speckled laser beams, commonly used to ionize and heat plasma for inertial confinement fusion and high-energy-density experiments, are shown to drive long-wavelength plasma-density fluctuations that induce beam spray in other laser beams. Experiments show that a 1053 nm beam undergoes increased beam spray when 351 nm speckled heater beams are on. These observations indicate that the high-intensity speckles sustain an increased level of steady-state density fluctuations. Modeling of these fluctuations predicts amplitudes that are orders of magnitude larger than the level of thermal fluctuations. Beam propagation simulations show increased beam spray due to self-focusing and filamentation when heater-driven density fluctuations are included.",
+      "external_ids": [
+        "arxiv:2611.24914"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-19T16:23:45+08:00",
+      "last_seen_at": "2026-11-19T16:23:45+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.24884",
+      "arxiv_version": "v1",
+      "title": "Bar formation and secular evolution in live Milky Way-like galaxies",
+      "authors": [
+        "Eva Durán-Camacho",
+        "Sioree Ansar",
+        "Paula D. López",
+        "Johan H. Knapen",
+        "Jesus Falcón-Barroso",
+        "Adriana de Lorenzo-Cáceres",
+        "Jairo Méndez-Abreu"
+      ],
+      "published": "2026-11-18",
+      "url": "https://arxiv.org/abs/2611.24884",
+      "abstract": "Context. Bars and their boxy/peanut (B/P) shapes drive the secular evolution of disc galaxies, redistributing angular momentum and reshaping the radial and vertical structure of stellar discs. Bars occur in bulgeless to bulge-dominated hosts. Bars are known to grow and slow down, but how this relates to host galaxy structure remains poorly understood. Aims. We investigate how the formation and evolution of bars and B/P structures depend on the initial stellar mass and bulge fraction of Milky Way (MW)-like galaxies, and explore the links between disc kinematic settling, bar formation, resonance structure, and vertical thickening. Methods. We analyse fifteen isolated MW-like hydrodynamical simulations run with AREPO for 3 Gyr, spanning three stellar masses and five bulge fractions, with live stellar, bulge, and dark matter components. We measure bar properties via Fourier decomposition, locate resonances from circular and epicyclic frequencies, and quantify B/P evolution from the vertical stellar distribution. Results. Bar formation timing depends strongly on galaxy structure. Low-mass galaxies generally form bars only after global disc kinematics have settled, whereas the most massive systems can form bars while the orbital distribution is still evolving. All bars slow down and grow in strength and size, and remain in the slow-bar regime. B/P structures form shortly after the bar and keep growing, appearing much earlier in more massive and disc-dominated galaxies. Only one model shows a clear buckling event; the rest form B/P bulges through smooth secular evolution. Conclusions. Initial stellar mass and bulge fraction strongly regulate the timing of bar and B/P formation. We find a coherent evolutionary sequence linking bar growth, bar slowdown, and B/P assembly, whose timing is set by the initial disc structure rather than by its global kinematic settling.",
+      "external_ids": [
+        "arxiv:2611.24884"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "global illumination real-time",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-19T16:23:45+08:00",
+      "last_seen_at": "2026-11-19T16:23:45+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.24880",
+      "arxiv_version": "v1",
+      "title": "Local AI Agents in Power Electronics Simulation: Deployment, Measurements and Costs",
+      "authors": [
+        "Yuzhuo Li",
+        "Pasan Gunawardena",
+        "Yunwei Li"
+      ],
+      "published": "2026-11-18",
+      "url": "https://arxiv.org/abs/2611.24880",
+      "abstract": "Agentic artificial intelligence (AI) is emerging in power electronics, where it drives the simulation loop that engineers used to close largely by hand. In this loop, a converter design, or a study of the network it connects to, is built, run, measured and revised until it satisfies its specification. Such an agent can be served from a cloud API or from an inference device on the premises. For organizations whose designs, customer data or export-controlled material cannot leave the site, and whose simulators are licensed there, local deployment is the natural choice. In such a deployment, the agent becomes an electrical load on the organization's own equipment, i.e., every run consumes power and energy on a local device, generates tokens and takes time. However, existing work focuses mainly on what the agent can achieve with cloud-hosted models. What a local deployment costs in power, energy, tokens and time on real simulation tasks, and what its choices trade against one another, has received little quantitative investigation under comparable conditions. To address this gap, a systematic evaluation framework is presented in this paper. It applies locally served models to agentic power electronics tasks, from the converter level to the system level, and measures their power, energy, token and time costs. Based on these measurements, the capability boundary of a local agent on such tasks and the cost per solved task are characterized. The results are expected to provide practical insight for the use of agentic AI in power electronics and the power systems it serves.",
+      "external_ids": [
+        "arxiv:2611.24880"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "global illumination real-time"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-19T16:23:45+08:00",
+      "last_seen_at": "2026-11-19T16:23:45+08:00"
+    }
+  ]
+}
