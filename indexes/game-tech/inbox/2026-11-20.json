@@ -1,0 +1,425 @@
+{
+  "date": "2026-11-20",
+  "run": {
+    "at": "2026-11-20T16:03:04+08:00",
+    "sources": [
+      "arxiv",
+      "semanticscholar",
+      "dblp"
+    ],
+    "keywords": [
+      "material point method cloth",
+      "\"position based\" dynamics cloth",
+      "incremental potential contact",
+      "real-time fluid simulation graphics",
+      "global illumination real-time",
+      "ray tracing global illumination",
+      "MLS-MPM",
+      "projective dynamics cloth"
+    ],
+    "fetched": 112,
+    "merged": 29,
+    "new": 13
+  },
+  "new_candidates": [
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.26629",
+      "arxiv_version": "v1",
+      "title": "Posterior Matching Distillation",
+      "authors": [
+        "Hidir Yesiltepe",
+        "Julius Berner",
+        "Arash Vahdat",
+        "Pinar Yanardag"
+      ],
+      "published": "2026-11-19",
+      "url": "https://arxiv.org/abs/2611.26629",
+      "abstract": "Diffusion distillation accelerates image and video generation by compressing a pretrained teacher's iterative sampling process into a few network evaluations. Distribution-based methods achieve this by matching the student's output distribution to the teacher's. This matching is often driven by reverse-KL objectives, whose mode-seeking bias favors dominant teacher modes at the expense of diversity across samples. We introduce Posterior Matching Distillation (PMD), a new member of the distribution-based distillation family that combines mode-covering posterior sampling with any-step generation. At zero population loss, PMD recovers the teacher's full posterior of clean images at each trained noise level. Its stochastic student supports any-step sampling budgets within the trained timestep grid without further training. To learn these posteriors, PMD matches exponentially reweighted averages of student samples conditioned on a fixed noisy state to corresponding teacher posterior means. Under Gaussian corruption, exponentially tilted posterior mean is a single teacher evaluation at a shifted input. We prove that, matching tilted means over an open neighborhood uniquely identifies the full posterior. PMD thus supervises the entire conditional distribution through a family of mean constraints, without any auxiliary student-score network. Experiments on SDXL and FLUX.2 [klein] 4B demonstrate that PMD achieves the best FID among 4-step methods on both models, while maintaining competitive or leading performance across prompt-alignment and perceptual-quality metrics.",
+      "external_ids": [
+        "arxiv:2611.26629"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-20T16:03:04+08:00",
+      "last_seen_at": "2026-11-20T16:03:04+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.26600",
+      "arxiv_version": "v1",
+      "title": "A Tutorial on Complementarity-Based Contact Models for Robotics",
+      "authors": [
+        "Onur Beker",
+        "A. René Geist",
+        "Michael Posa",
+        "Marc Toussaint",
+        "Justin Carpentier",
+        "Georg Martius"
+      ],
+      "published": "2026-11-19",
+      "url": "https://arxiv.org/abs/2611.26600",
+      "abstract": "Simulating rigid-body dynamics with contact is fundamental to robotics, from motion synthesis and control to mechanism design. Many widely used simulators rely on cone complementarity formulations, whose physical assumptions and numerical solution require substantial background. While excellent surveys, monographs, and course notes exist, they mostly address computational mechanics or computer graphics or document a single simulator. To the best of our knowledge, a self-contained pedagogical treatment for robotics, bringing these formulations and their solvers together with complete derivations and a unified notation, does not yet exist. This tutorial addresses this gap by connecting rigid-body dynamics, conic optimization, and frictional contact. In particular, we explain how complementarity conditions encode non-penetration and frictional dissipation, determining separation, sticking, and sliding without prescribed contact modes. We distinguish equivalent transcriptions from convex relaxations, showing how the latter can introduce artifacts such as lift-off and creep. We examine the existence and uniqueness of motion and contact forces, including the solver's role in selecting among multiple solutions. We then compare first-order and Newton-based methods, explain regularization and proximal strategies, and discuss trade-offs between computational cost, robustness, and physical fidelity. Connections to widely used simulators, optimal control, and differentiable simulation help readers interpret simulation results, choose suitable formulations and solvers, and develop their own contact dynamics routines.",
+      "external_ids": [
+        "arxiv:2611.26600"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "\"position based\" dynamics cloth",
+        "incremental potential contact",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-20T16:03:04+08:00",
+      "last_seen_at": "2026-11-20T16:03:04+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.26599",
+      "arxiv_version": "v1",
+      "title": "Local orbital magnetization and Chern markers from equilibrium local currents",
+      "authors": [
+        "Henrique P. Veiga",
+        "Aires Ferreira",
+        "Caio H. Lewenkopf",
+        "João M. Viana Parente Lopes"
+      ],
+      "published": "2026-11-19",
+      "url": "https://arxiv.org/abs/2611.26599",
+      "abstract": "Local currents carry the orbital magnetization of a macroscopic sample and are key for modeling inhomogeneous magnetic materials and for understanding magnetoelectric and topological responses. However, producing realistic simulated images of local currents in inhomogeneous systems remains challenging. Building upon recent work on stochastic estimation methods for tight-binding models, we show that all matrix elements of positive semidefinite operators defined on a lattice can be obtained at once from a single set of filtered random vectors. This eliminates the need for independent simulations previously required for off-diagonal elements, which significantly speeds up the calculation of spatial maps of local currents. Further, we express bond currents in terms of loop currents that obey a discrete Poisson equation, with the current vorticity acting as the source term. Its solution yields a local orbital magnetization. In analogy with the global Středa relation, the derivative of this magnetization with respect to the chemical potential defines a new local Chern marker. Built entirely from bond currents, it requires no position operator and is not bound by the zero-sum rule of projector markers in open samples. Hence, it is free of boundary-compensation artifacts, and its sample average converges to the bulk Chern number in a controlled fashion.",
+      "external_ids": [
+        "arxiv:2611.26599"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "incremental potential contact",
+        "real-time fluid simulation graphics",
+        "global illumination real-time",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-20T16:03:04+08:00",
+      "last_seen_at": "2026-11-20T16:03:04+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.26578",
+      "arxiv_version": "v1",
+      "title": "Activity-driven motion and deformation of a circular membrane domain",
+      "authors": [
+        "Gonzalo Ferrandez Quinto",
+        "Sho Kawakami",
+        "Petia M. Vlahovska"
+      ],
+      "published": "2026-11-19",
+      "url": "https://arxiv.org/abs/2611.26578",
+      "abstract": "Lipid bilayer membranes are nanometer-thin fluid interfaces characterized by both in-plane fluidity and lateral compositional heterogeneity. Cholesterol-rich liquid domains (\"lipid rafts\") are thought to regulate the spatial organization of membrane proteins and numerous cellular processes. While the passive diffusion and equilibrium shape fluctuations of membrane domains are well understood, much less is known about how the activity of molecular machines, such as protein pumps and enzymes, influences their mobility and deformation. Here, we analyze the dynamics of a membrane domain driven by an embedded molecular machine within the framework of two-dimensional Stokes flow. The molecular machine is modeled as a point singularity of the two-dimensional Stokes equations, including both rotational and irrotational singularities corresponding to force and source multipoles. We show that, despite being force-free, both force and source dipoles generate active flows that propel the membrane domain. For a force dipole undergoing rotational diffusion, the domain motion is diffusive at long times but exhibits a transient superdiffusive regime at intermediate times.",
+      "external_ids": [
+        "arxiv:2611.26578"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "\"position based\" dynamics cloth",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-20T16:03:04+08:00",
+      "last_seen_at": "2026-11-20T16:03:04+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.26608",
+      "arxiv_version": "v1",
+      "title": "Local velocimetry for atomic superfluids: from Riemann rarefaction waves to quantized vortices",
+      "authors": [
+        "Yansheng Zhang",
+        "Yi Jiang",
+        "Feiyang Wang",
+        "Louis Depaepe",
+        "J. Q. Matthew Chia",
+        "Christoph Eigen",
+        "Gehrig Carlse",
+        "Zoran Hadzibabic"
+      ],
+      "published": "2026-11-19",
+      "url": "https://arxiv.org/abs/2611.26608",
+      "abstract": "We demonstrate local velocimetry for atomic superfluids in two dimensions (2D). Using matter-wave interferometry based on Raman--Bragg beam splitters, we map the local gradient of the phase of the superfluid's wavefunction onto displacement of the interference fringes and reconstruct the 2D velocity field. We illustrate the capabilities of this technique by applying it to two canonical problems. First, we directly observe the self-similar evolution of the velocity field in 1D Riemann rarefaction flows. Second, we map out the full 2D velocity field around quantized vortices, explicitly demonstrating the quantization of velocity circulation.",
+      "external_ids": [
+        "arxiv:2611.26608"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-20T16:03:04+08:00",
+      "last_seen_at": "2026-11-20T16:03:04+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.26596",
+      "arxiv_version": "v1",
+      "title": "PGX: Physically Grounded Execution for Long-Horizon Humanoid Loco-Manipulation",
+      "authors": [
+        "Kai Lu",
+        "Chenyang Ma",
+        "Ioannis Havoutis"
+      ],
+      "published": "2026-11-19",
+      "url": "https://arxiv.org/abs/2611.26596",
+      "abstract": "Robotic vision-language-action (VLA) models can execute diverse individual manipulation skills, yet they still struggle with long-horizon loco-manipulation tasks, where temporal structure, skills, and precision are tightly coupled within a monolithic model. We propose Physically Grounded Execution (PGX), a framework that offloads temporal and precision control to two classical training-free components, allowing the VLA to focus on stage-specific skill dynamics. PGX decomposes long-horizon loco-manipulation into three layers: (i) a predicate-based state machine governs task progression, using physical predicates to gate phase transitions, trigger recovery, and coordinate navigation and waiting. Shared predicate semantics connect offline demonstration segmentation, online execution, and stage-wise evaluation; (ii) VLA skills operate within active manipulation phases, with flat or stage-trained models concentrating on task-relevant actions; and (iii) world-coordinate locking (WCL) maintains spatial consistency through base station keeping, object-relative positioning, and world-anchored contact targets. We demonstrate the effectiveness of PGX with extensive experiments conducted on three simulated tasks and one real-world task using a Unitree G1 humanoid robot for long-horizon loco-manipulation, showing improvements in stage progression and task success rates. Project page is available at: https://kl-research.github.io/pgx",
+      "external_ids": [
+        "arxiv:2611.26596"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "incremental potential contact",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-20T16:03:04+08:00",
+      "last_seen_at": "2026-11-20T16:03:04+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.26595",
+      "arxiv_version": "v1",
+      "title": "Coda-DaVinci: Reimagining Video Generation with Code2Video",
+      "authors": [
+        "Yiyan Ji",
+        "Qixun Wang",
+        "Yang Shi",
+        "Zhuoran Zhang",
+        "Yifan Xu",
+        "Tengfei Liu",
+        "Yuqi Tang",
+        "Xiaohan Zhang",
+        "Shujie Li",
+        "Jiafu Tang",
+        "Xuanyu Zhu",
+        "Xinyu Liu",
+        "Yan He",
+        "Yushuo Guan",
+        "Zihao Wang",
+        "Xianghua Ying",
+        "Shixuan Liu",
+        "Haotian Wang",
+        "Wenjing Yang",
+        "Zhaoxiang Zhang",
+        "Yuanxing Zhang",
+        "Pengfei Wan",
+        "Jiaheng Liu"
+      ],
+      "published": "2026-11-19",
+      "url": "https://arxiv.org/abs/2611.26595",
+      "abstract": "Code2Video uses agent-authored 3D proxies to guide video generation, enabling explicit control over structure and dynamics. However, how to construct proxies and prompts for optimal downstream quality remains underexplored, as do the capabilities and limitations of this paradigm. Through controlled experiments and blinded human evaluation, we study proxy granularity, physics simulation, and prompting. The results reveal task-dependent trade-offs: coarse proxies favor natural motion, while medium-grained proxies favor consistency. Physics simulation and proxy-aligned prompting further improve average quality. Guided by these findings, we introduce Coda-DaVinci, a task-adaptive agentic framework for Code2Video generation that selects between proxy-guided and direct generation, adapts modeling granularity to each entity, and coordinates simulation with proxy-grounded prompting. Its multi-agent harness preserves scene assets and guides repairs through visual inspection and independent review. Experiments demonstrate leading instruction following on VTR and scene consistency on R2M, improved physical plausibility over direct generation, and higher visual realism than the compared Code2Video baselines. Long-video evaluations further show gains in event structure and consistency across successive interactions, while revealing limitations in transition stability and adherence to scene settings.",
+      "external_ids": [
+        "arxiv:2611.26595"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-20T16:03:04+08:00",
+      "last_seen_at": "2026-11-20T16:03:04+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.26575",
+      "arxiv_version": "v1",
+      "title": "Stochastic counterpart of Nesterov's method for sampling and provable non-acceleration of samplers with heavy-ball structure",
+      "authors": [
+        "A. Sharma"
+      ],
+      "published": "2026-11-19",
+      "url": "https://arxiv.org/abs/2611.26575",
+      "abstract": "Polyak's heavy-ball method and Nesterov's method are two momentum-based methods that have inspired many optimization techniques used in applied fields, including machine learning. Momentum also provides a connection with sampling, and interestingly, many kinetic Langevin samplers reduce to the heavy-ball recurrence when velocity is eliminated and noise is removed. This observation motivates a natural question: what is the corresponding sampler for Nesterov's method? We propose a sampler whose deterministic part is exactly Nesterov's recurrence, driven by temporally correlated Gaussian noise and requires one new gradient evaluation per step. Noise correlation provides $\\mathcal{O}(h^2)$ bias for smooth observables. We establish geometric ergodicity for possibly non-convex potentials. For strongly convex potentials with Lipschitz continuous gradients, we obtain contraction rates and show that, up to an additive constant, the energy decays at a rate of order $κ^{-1/2}$, where $κ$ is the condition number. For Gaussian targets, we show that relaxation has square-root dependence on $κ$. We further prove that any sampler based on heavy-ball dynamics with additive noise cannot achieve accelerated convergence uniformly over the class of strongly convex functions. Finally, we compare the proposed sampler with OBABO, BAOAB, HMC, MALA, BPS, and NUTS in numerical experiments and demonstrate the better performance of proposed sampler.",
+      "external_ids": [
+        "arxiv:2611.26575"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-20T16:03:04+08:00",
+      "last_seen_at": "2026-11-20T16:03:04+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.26565",
+      "arxiv_version": "v1",
+      "title": "PhyDEX: A Benchmark for Physical Reasoning in Vision-Language-Action Models via Dynamic Extrinsic Dexterity",
+      "authors": [
+        "Hao Vo",
+        "Taisei Hanyu",
+        "Yuki Ikebe",
+        "Pham Tri Quang",
+        "Sreevenkata Anjani Tishita Godavarthi",
+        "Nghi D. Q. Bui",
+        "Daniel Sonntag",
+        "Chase Rainwater",
+        "Duy Minh Ho Nguyen",
+        "Anh Nguyen",
+        "Ngan Le"
+      ],
+      "published": "2026-11-19",
+      "url": "https://arxiv.org/abs/2611.26565",
+      "abstract": "Vision-Language-Action (VLA) models have advanced rapidly in language-conditioned robotic manipulation, yet existing benchmarks mainly evaluate gripper--object contact and largely ignore how objects interact with the environment through gravity, friction, inertia, and mass distribution. As a result, it remains unclear whether current policies truly understand physics or merely interpolate from their training data. We address this gap through the lens of dynamic extrinsic dexterity and introduce PhyDEX, a throwing benchmark in which a robot must infer an object's mass, center of mass, and friction to send it to a destination beyond its kinematic workspace. PhyDEX contains 35K trajectories (143 hours) across nine tasks and 100 scenes, covering uniform, irregular, and dynamic-mass objects with static, multiple, and moving destinations. All data are generated by a scalable, fully automatic pipeline that combines grasp generation, motion planning, and closed-loop throw optimization under randomized physical properties. We evaluate three representative VLAs, GR00T N1.7, DynamicVLA, and ForceVLA, and find that all achieve success rates below 3\\%. Our analysis reveals two key bottlenecks: limited robustness of pretrained models, which causes most failures before the throw, and physical blindness, as providing ground-truth physical properties roughly doubles success. Experiments on a humanoid robot and in the real world show the same failure patterns. We hope PhyDEX will drive the development of physically grounded robot policies.",
+      "external_ids": [
+        "arxiv:2611.26565"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-20T16:03:04+08:00",
+      "last_seen_at": "2026-11-20T16:03:04+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.26592",
+      "arxiv_version": "v1",
+      "title": "Realized versus Population Reliability: Anytime-Valid Self-Consistency Certification under Correlated Reasoning",
+      "authors": [
+        "Terence D. Agbeyegbe",
+        "Toneukarin G. Agbeyegbe"
+      ],
+      "published": "2026-11-19",
+      "url": "https://arxiv.org/abs/2611.26592",
+      "abstract": "Self-consistency certification treats repeated sampling from a language model as sequential evidence accumulation and stops when an anytime-valid e-process crosses a threshold, guaranteeing finite-sample Type I error control by Ville's inequality. Prior constructions assume sampled rollouts are conditionally independent. We show this assumption fails in practice: reasoning streams are positively correlated through shared reasoning prefixes or across-prompt heterogeneity, changing not merely certificate efficiency but the hypothesis certified. Modeling dependence via a per-unit latent state (the random-effects / intraclass-correlation structure) induces exchangeable, equi-correlated increments with correlation $ρ$. Correlation splits the single null into a realized null about the drawn belief and a population null about average model behavior, which coincide only when $ρ=0$. We show: (i) the standard betting e-process remains anytime-valid for the realized null, not the population null; (ii) read as a population-null test, a suitable mixture has asymptotic crossing probability at least $π=P(μ(Z)>0)$, potentially exceeding nominal $ε$; (iii) the within-unit mean's effective sample size saturates at $1/ρ$, so extra within-unit rollouts cannot restore population validity; and (iv) a prompt-level e-process restores population validity, with optimal allocation at one rollout per prompt under a pure rollout budget. Simulations and Claude Haiku 4.5 rollouts confirm this regime dependence: on GSM8K ($\\hatρ=0.435$, $\\hatθ=+0.96$) the gap is dormant, whereas on AIME ($\\hatρ=0.480$, $\\hatθ=-0.15$) the single-unit rule crosses on 24% of prompts at nominal $ε=0.05$, while the prompt-level procedure declines (0.00). This correctness result identifies which reliability claim an anytime-valid certificate actually supports under dependence.",
+      "external_ids": [
+        "arxiv:2611.26592"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-20T16:03:04+08:00",
+      "last_seen_at": "2026-11-20T16:03:04+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.26576",
+      "arxiv_version": "v1",
+      "title": "Modeling the gravitational wave spectrum from slowly-evolving sources in the early Universe: constant-in-time and coherent-decay models",
+      "authors": [
+        "Antonino S. Midiri",
+        "Alberto Roper Pol",
+        "Madeline Salomé",
+        "Chiara Caprini"
+      ],
+      "published": "2026-11-19",
+      "url": "https://arxiv.org/abs/2611.26576",
+      "abstract": "We study the production of gravitational wave (GW) backgrounds from slowly-evolving sources in the early Universe, following the Constant-in-Time (CiT) model, presented and validated against simulations of decaying turbulence in arXiv:2201.05630. We extend the CiT model to account for the source decay using a coherent description for the unequal-time correlator (UETC) of the source. We present a generic framework that allows us to study different types of sources. As examples, we discuss the applicability of this framework to the production of GWs from decaying MHD turbulence, sound waves, and bubble collisions in first-order phase transitions. We show that the validity of the CiT and the coherent-decay models presented in this work relies on long decorrelation times of the source. However, as the decorrelation timescale of the UETC becomes short, a resonant term grows on top of the GW spectrum predicted by the CiT model, as found, for example, in earlier analytical studies of GW production from turbulence and sound waves. This model is compatible with previous numerical results and explains why sound waves in a radiation-dominated fluid are more efficient than subrelativistic MHD turbulence in producing GWs, which is no longer the case for relativistic turbulence. The CiT model predicts a generic spectrum that scales as $k^3$ in the IR regime, develops a linear $k$ at intermediate frequencies, and decays as $k^{1-b_Π}$ at frequencies above the inverse correlation length scale of the source, where $b_Π$ is uniquely determined by the type of source and the UV slope of its spectrum. Since the $k^3$ and $k$ scalings always appear for slowly-evolving sources and they are commonly found in studies of GW production, we motivate checking the potential applicability of the CiT to other sources of GWs.",
+      "external_ids": [
+        "arxiv:2611.26576"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-20T16:03:04+08:00",
+      "last_seen_at": "2026-11-20T16:03:04+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.26551",
+      "arxiv_version": "v1",
+      "title": "GraphEP: A Calibrated Data System and Benchmark for Learning Cardiac Electrophysiology",
+      "authors": [
+        "Matteo Baldan",
+        "Chiara D'Ercoli",
+        "James Rowbottom",
+        "Pietro Liò",
+        "Stefania Fresca"
+      ],
+      "published": "2026-11-19",
+      "url": "https://arxiv.org/abs/2611.26551",
+      "abstract": "High-fidelity simulations generate spatiotemporal data that are difficult to obtain experimentally, yet their outputs are rarely ready for scientific machine learning. Cardiac electrophysiology (EP) exemplifies this challenge: data reside on anatomy-dependent volumetric meshes, propagation follows anisotropic material fields, and relevant events span multiple temporal scales. We introduce GraphEP, a calibrated data system that converts cardiac meshes and simulation protocols into compact, graph-native trajectories of full-field transmembrane potential. GraphEP includes 732 left-ventricular simulations across 20 anatomies, with healthy and scarred substrates of varying severity and multiple pacing configurations. Each sample provides geometry, tissue and material features, stimulation, connectivity, derived activation targets, and provenance in PyTorch Geometric format. We benchmark four inductive biases for predicting transmembrane potential Vm(t): local message passing, global neural operators, multi-scale hierarchical graph transformers (HGT), and physiology-informed models. The latter include HGT-Lag, which separates activation timing from action-potential morphology, and the stateful Graph Aliev-Panfilov Action-Potential ODE (GAP2ODE), which evolves excitation and recovery autoregressively with frame-wise stimulation and graph diffusion. Results show that wider spatial communication improves on local message passing, while physiological structure provides the strongest inductive bias: HGT-Lag and GAP2ODE lead on complementary metrics by explicitly modeling propagation, recovery, and temporal state. GraphEP offers a reproducible pathway from mechanistic cardiac EP simulations to analysis-ready data and a controlled benchmark for learning on irregular anatomical geometries.",
+      "external_ids": [
+        "arxiv:2611.26551"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact",
+        "global illumination real-time",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-20T16:03:04+08:00",
+      "last_seen_at": "2026-11-20T16:03:04+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.26604",
+      "arxiv_version": "v1",
+      "title": "Scalable Simulation of Strongly Correlated Fermions with Neural Gaussian Tensor Networks",
+      "authors": [
+        "Runze Chi",
+        "Ao Chen",
+        "Garnet Kin-Lic Chan"
+      ],
+      "published": "2026-11-19",
+      "url": "https://arxiv.org/abs/2611.26604",
+      "abstract": "Accurate simulations of strongly correlated electrons remain a central challenge in computational physics. We introduce neural-network Gaussian projected entangled-pair states (NN-GPEPS), which exploit the locally-entangled subspace of Gaussian states to give an architecture more compatible with modern neural networks and an exact contraction cost of $O(N^{3/2})$ on two-dimensional lattices. For the Hubbard model at $U/t=8$ and $1/8$ hole doping, we obtain state-of-the-art variational energies in large lattices of up to 1024 sites. These results demonstrate an accurate approach to strongly correlated fermions by connecting neural networks with Gaussian tensor networks.",
+      "external_ids": [
+        "arxiv:2611.26604"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-20T16:03:04+08:00",
+      "last_seen_at": "2026-11-20T16:03:04+08:00"
+    }
+  ]
+}
