@@ -1,6 +1,575 @@
 {
-  "updated_at": "2026-11-23T16:35:24+08:00",
+  "updated_at": "2026-11-24T18:43:03+08:00",
   "candidates": [
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.31241",
+      "arxiv_version": "v1",
+      "title": "A Boundary Comparison Method for Gaussian Fluctuations in Planar Euclidean Optimization",
+      "authors": [
+        "Zi-Yao Su"
+      ],
+      "published": "2026-11-23",
+      "url": "https://arxiv.org/abs/2611.31241",
+      "abstract": "We develop a boundary comparison method for Gaussian fluctuations of optimization costs on planar random points, including traveling-salesman length, minimum perfect-matching length, and the Held--Karp relaxation. A local change can alter an optimal solution far from the modified points, making a direct decomposition into local contributions difficult. Our criterion requires the difference between the changes in the full and local costs caused by the same replacement to be controlled at the boundary scale, allowing a smaller-order $L^2$ excess. Under this condition, the centered difference between the total cost and the sum of independent cell costs vanishes in $L^2$. The multiscale argument shows that a nonvanishing variance of the cutting error would produce Gaussian tails incompatible with the boundary control. We obtain joint Gaussian limits for the three centered costs, using a conditional version for matching, and prove that the limiting covariance is positive definite in the Euclidean case. Convergence holds in quadratic Wasserstein distance for Poisson and fixed sample sizes. The results extend jointly to finitely many planar norms and to fixed sampling laws whose absolutely continuous component has a density positive almost everywhere on the square, with an arbitrary singular component.",
+      "external_ids": [
+        "arxiv:2611.31241"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-24T18:43:03+08:00",
+      "last_seen_at": "2026-11-24T18:43:03+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.31235",
+      "arxiv_version": "v1",
+      "title": "The Simons Observatory: Analysis of methods for polarization calibration of multiple instruments",
+      "authors": [
+        "The Simons Observatory Collaboration",
+        "Anto I. Lonappan",
+        "Patricia Diego-Palazuelos",
+        "Carlos Hervías-Caimapo",
+        "Kam Arnold",
+        "Susanna Azzoni",
+        "Carlo Baccigalupi",
+        "Matteo Billi",
+        "Erminia Calabrese",
+        "Yuji Chinone",
+        "Matthew Chu",
+        "Mark Devlin",
+        "Josquin Errard",
+        "Nicholas Galitzki",
+        "Bradley R. Johnson",
+        "Brian Keating",
+        "Andréa Landais",
+        "Toshiya Namikawa",
+        "Federico Nati",
+        "Giuseppe Puglisi",
+        "Christian L. Reichardt",
+        "Kevin Wolz"
+      ],
+      "published": "2026-11-23",
+      "url": "https://arxiv.org/abs/2611.31235",
+      "abstract": "Cosmic birefringence, the rotation of the CMB linear polarization plane across the Universe, is a powerful test of parity-violating physics beyond the Standard Model. Static isotropic rotation, however, is limited by an instrument's absolute polarization-angle calibration. We present a method for transferring absolute calibration between Simons Observatory (SO) instruments, validated on map-level simulations of the Large Aperture Telescope (LAT) and Small Aperture Telescopes (SATs) with lensed CMB polarization, polarized Galactic foregrounds, correlated instrumental noise, and polarization-angle miscalibration. We develop two pipelines: a joint LAT+SAT likelihood transferring calibration through their overlap, and the Minami-Komatsu foreground-based method, which separates cosmic birefringence from instrumental miscalibration using Galactic dust polarization without an external angle prior. We derive a general variance budget showing that calibration transfer improves sensitivity only when the combined reference and overlap transfer uncertainties remain below the receiving instrument's calibration uncertainty. While transfer does not lower the absolute-angle floor for isotropic $β$, it anchors the receiving instrument's multipole range. The relative-angle uncertainty is $\\sim 0.1^\\circ$ for $\\ell_{\\max}^{\\mathrm{SAT}}=300$, improving to $\\sim 0.04^\\circ$ at $\\ell_{\\max}^{\\mathrm{SAT}}=600$, subject to SAT beam and transfer-function control. Finally, for $β=0.3^\\circ$, we show how the LAT's $\\ell$-range distinguishes scale-independent dark-energy rotation from scale-dependent axion dark-matter models via $C_\\ell^{EB}$.",
+      "external_ids": [
+        "arxiv:2611.31235"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-24T18:43:03+08:00",
+      "last_seen_at": "2026-11-24T18:43:03+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.31226",
+      "arxiv_version": "v1",
+      "title": "Analytical solution of general interface problems for reaction-advection-diffusion equations",
+      "authors": [
+        "Andreas Chatziafratis",
+        "Guenbo Hwang",
+        "Georgia Karali"
+      ],
+      "published": "2026-11-23",
+      "url": "https://arxiv.org/abs/2611.31226",
+      "abstract": "We obtain novel integral representations, expressed as contour integrals in the complex Fourier plane, for the solution of fully nonhomogeneous interface problems for classical reaction-advection-diffusion (RAD) equations with arbitrary initial data on the line and general interface conditions at the origin. Such problems of applied mathematics emerge in a spectacular variety of physical phenomena in mathematical physics, chemistry, continuum mechanics, biology, pharmacokinetics, as well as mathematical finance. A suitable implementation of Fokas' unified transform method is in force herein, with particular challenges arising due to inclusion in the model of lower-order terms, and the generality of interface problems under consideration. To our knowledge, this careful analysis has not appeared in (nor does it follow easily from) literature published so far. Our explicit formulae directly lend themselves to explorations of solutions' qualitative properties such as regularity, asymptotic behavior and well-posedness. This work has also been of utility in the investigation of nonlinear counterparts as well as in the study of phase-transition phenomena, moving-interface and diffuse-interface problems. Such results for RAD and high-order PDEs will soon appear in a series of separate papers.",
+      "external_ids": [
+        "arxiv:2611.31226"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-24T18:43:03+08:00",
+      "last_seen_at": "2026-11-24T18:43:03+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.31242",
+      "arxiv_version": "v1",
+      "title": "Quantum-geometry-tuned Mott transition and emergent heavy fermions in a topological flat band",
+      "authors": [
+        "Ya-Hui Zhang"
+      ],
+      "published": "2026-11-23",
+      "url": "https://arxiv.org/abs/2611.31242",
+      "abstract": "A flat band with a nonzero Chern number has no localized Wannier orbitals, which raises the question of whether Mott physics is still possible. We place a Hubbard interaction $U$ on coherent orbitals, which are localized but overcomplete, and develop a single-site dynamical mean-field theory (DMFT) for this model. Within the flat band alone, DMFT reproduces the experimentally observed cascade and inverse-compressibility sawtooth without invoking Dirac revival or remote-band electrons. At nonzero integer filling we find an insulator-to-metal transition tuned by $s^2$, the fraction of the Brillouin zone that carries the Berry curvature. For $N_f=8$ flavors the Mott transition at $ν=-2$ occurs at $s^2_c\\approx0.025$, where the top of the lower Hubbard band reaches the Fermi level and the local moments are Kondo screened, forming a heavy Fermi liquid (HFL). The HFL extends to the hole-doped side, $ν=-2-x$, but above the small Kondo temperature $T_K$ the state is an incoherent bad metal without a Fermi surface. At low temperature, an anti-Hund's coupling $J_A\\sim0.1U$ replaces the HFL with a pseudogap metal that has a small Fermi surface and is dominated by spin-polaron excitations at small $x$. We propose this pseudogap metal as the parent state of superconductivity in TBG. The framework may also be applied to other topological bands, such as those of twisted WSe$_2$.",
+      "external_ids": [
+        "arxiv:2611.31242"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-24T18:43:03+08:00",
+      "last_seen_at": "2026-11-24T18:43:03+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.31212",
+      "arxiv_version": "v1",
+      "title": "Flood forecasting using a physics-guided conditional denoising diffusion probabilistic model",
+      "authors": [
+        "Omar Sallam",
+        "David Coe",
+        "Jeremy Feinstein",
+        "Hugo Torres",
+        "Sofia Sahagun Covarrubias",
+        "Eugene Yan"
+      ],
+      "published": "2026-11-23",
+      "url": "https://arxiv.org/abs/2611.31212",
+      "abstract": "High-resolution flood forecasting with full two-dimensional shallow water equation (SWE) solvers remains computationally expensive, even on GPUs. We develop a conditional denoising diffusion probabilistic model (DDPM) that forecasts the evolution of 30 m water-depth fields over a four-day horizon for the Des Plaines River watershed, Illinois. The model is trained on SynxFlow SWE simulations of 113 historical storms observed across twelve Midwestern states (2003-2024), each under three antecedent-wetness scenarios, and can optionally be conditioned on coarse 100 m or 150 m hydrodynamic simulations. Because reverse diffusion is stochastic, every forecast is a 20-member ensemble drawn from the same trained model. Coarse conditioning reduces the four-day mean water-depth RMSE of the ensemble mean from 0.170 m to 0.054 m (100 m) and 0.048 m (150 m). The coarser 150 m conditioning also gives the best critical success index (0.839), false alarm ratio, CRPS and Brier score at lower cost, so finer conditioning does not guarantee better skill. Averaging members reduces error by 5-11% relative to a single realization, and the ensemble provides spatially explicit exceedance probabilities, although the ensembles are under-dispersive (spread-to-error ratios 0.35-0.73). On a single GPU, a four-day forecast over 26 non-overlapping patches is 7.8x, 11.0x and 16.3x faster than the 30 m simulation for the 100 m, 150 m and unconditioned configurations, and projected speedups for a 14-day forecast reach 12-49x for one member and 48-58x for 20 members. Physics-guided diffusion models are thus promising probabilistic surrogates for regional-scale flood forecasting.",
+      "external_ids": [
+        "arxiv:2611.31212"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-24T18:43:03+08:00",
+      "last_seen_at": "2026-11-24T18:43:03+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.31197",
+      "arxiv_version": "v1",
+      "title": "A centered finite-volume method with explicit pressure relaxation for weakly compressible single- and two-phase flows",
+      "authors": [
+        "Shintaro Matsushita",
+        "Suhas S. Jain",
+        "Andrei G. Fedorov",
+        "Tetsuya Suekane"
+      ],
+      "published": "2026-11-23",
+      "url": "https://arxiv.org/abs/2611.31197",
+      "abstract": "We present a non-dissipative centered finite-volume method for weakly compressible single- and two-phase flows. The method couples kinetic-energy-preserving advection to conservative diffuse-interface regularization and explicit pressure relaxation on structured collocated grids. To control excessive phase-mass outflow when neighboring cells have different intrinsic densities, we construct phase-mass fluxes using harmonic face densities. This connects phase-volume and phase-mass transport without altering the advective kinetic-energy identity, yielding a sufficient positivity condition and an inverse-density transport identity at finite velocity divergence. To retain the benefit of low-dissipation transport in the coupled calculation, a pressure-increment formulation incorporates the existing pressure gradient in the predictor. Compatible cell and face operators give a conditional energy estimate for additional pressure iterations, while fully discrete budgets separate advection, predictor pressure work, and the final correction. In inviscid homogeneous isotropic turbulence on $128^3$ cells, the relative kinetic-energy change remains below $1.2\\times10^{-7}$ in magnitude at $t^*=8$ in both single-phase and density-ratio-$1000$ two-phase calculations. Matched upwind calculations retain only $3.60\\%$ and $30.72\\%$ of their initial energies, respectively. Shear layers, cavities, rising bubbles, and dam breaks demonstrate applicability to incompressible-regime flows. In a three-dimensional dam break, harmonic averaging retains positive phase masses where arithmetic averaging produces negative values. With centered advection, a prescribed subgrid-scale stress supplies the principal dissipation. The local pressure algorithm and collocated finite-volume form support future large-scale multiphase large-eddy simulation on GPUs with adaptive mesh refinement.",
+      "external_ids": [
+        "arxiv:2611.31197"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "incremental potential contact",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-24T18:43:03+08:00",
+      "last_seen_at": "2026-11-24T18:43:03+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.31195",
+      "arxiv_version": "v1",
+      "title": "VITA-WAM: Manifold-Aligned World-Action Modeling for Real-Time Robot Control",
+      "authors": [
+        "Boqi Zhao",
+        "Dechen Gao",
+        "Hanchu Zhou",
+        "Hang Wang",
+        "Junshan Zhang"
+      ],
+      "published": "2026-11-23",
+      "url": "https://arxiv.org/abs/2611.31195",
+      "abstract": "World action model (WAM) is a promising paradigm for visuomotor control by jointly modeling world dynamics and actions. Notably, existing WAMs often rely on large generative models and iterative sampling which incur substantial latency for action generation, limiting real-time deployment. In particular, there are two root causes of inefficiency in conventional flow matching or diffusion based action models in WAMs: 1) transporting uninformative Gaussian noise into precise actions necessitating multiple ODE steps, and 2) repeatedly injecting task context through expensive cross-attention modules. Our key insight is that jointly learning and aligning the source and action manifolds streamlines the transport between them, substantially accelerating action generation. Building on this insight, we introduce VITA-WAM, a WAM architecture with manifold-aligned flow-matching (VITA flow matching) that directly transports latent observation representations containing visual, language, and proprioceptive information into latent actions. More specifically, a flow latent alignment (FLA) mechanism is employed to facilitate manifold alignment between latent observation and action representations, enabling accurate generation with few ODE steps. The resulting architecture also eliminates costly attention for observation conditioning during repeated denoising steps. Notably, with a single ODE step, VITA-WAM outperforms 10-step FastWAM by 21.47 pp on LIBERO-Plus and by 1.65 pp on LIBERO, achieving these gains through the FLA objective without distillation, while inferring at 55.67~ms latency, a $2.10\\times$ speedup compared to FastWAM.",
+      "external_ids": [
+        "arxiv:2611.31195"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics",
+        "global illumination real-time",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-24T18:43:03+08:00",
+      "last_seen_at": "2026-11-24T18:43:03+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.31180",
+      "arxiv_version": "v1",
+      "title": "Polynomial mixing for 2D Ising with plus boundary conditions",
+      "authors": [
+        "Shirshendu Ganguly",
+        "Reza Gheissari"
+      ],
+      "published": "2026-11-23",
+      "url": "https://arxiv.org/abs/2611.31180",
+      "abstract": "We study the Glauber dynamics of the 2D Ising model at low temperatures. In the absence of boundary conditions, the mixing time on an $n\\times n$ box is exponential in $n$ due to a bottleneck between metastable plus and minus phases. When the symmetry is broken via all-plus boundary conditions, it has been predicted in the physics literature since work of Lifshitz (1962) that from an all-minus initialization, the minus droplet shrinks via mean-curvature flow on timescales that are quadratic in $n$, and thus, the system equilibrates in polynomial time. On the rigorous side, the strongest result was a quasi-polynomial mixing time upper bound due to Lubetzky, Martinelli, Sly and Toninelli (2013); a proof of polynomial mixing remained one of the major challenges in the field. We prove this polynomial mixing time bound at all low temperatures. The key step is to establish fast mixing of the interface separating the plus and minus phases on a box with Dobrushin boundary conditions. In simpler models of height functions, polynomial bounds tend to rely on exact harmonic properties and connections to a discrete heat equation. However, the Ising interface exhibits microscopic defects that necessitate the development of a more robust method. We address this via a new multiscale approach to bound mixing times of general disordered random-walk bridges that homogenize to a Brownian bridge at mesoscopic scales. Another notable ingredient is a novel application of censoring to reduce the mixing time problem to proving only a weak Poincaré inequality, or warm-start mixing bound, allowing us to assume suitable regularity conditions on the interface and bubbles.",
+      "external_ids": [
+        "arxiv:2611.31180"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-24T18:43:03+08:00",
+      "last_seen_at": "2026-11-24T18:43:03+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.31230",
+      "arxiv_version": "v1",
+      "title": "Simple design of adaptive protocols for quantum metrology with limited data",
+      "authors": [
+        "Ricard Ravell Rodríguez",
+        "Jesús Rubio"
+      ],
+      "published": "2026-11-23",
+      "url": "https://arxiv.org/abs/2611.31230",
+      "abstract": "Recent sensing experiments have used a Bayesian notion of precision gain to adapt control parameters for fixed measurements. Here, we advocate a simple design principle based on Personick's minimum mean square loss formalism to extend this procedure in order to include measurement optimisation, determining the optimal measurement for each probe and providing a prior-dependent precision gain to optimise the probe itself. This offers a Bayesian counterpart to protocol design based on the Fisher information, with a similar algebraic structure but incorporating the full prior. We apply this principle to adaptive phase estimation with single-mode Gaussian probes, showing that joint optimisation outperforms both adaptive homodyne detection and a fixed-probe strategy optimised for the initial prior, with a maximum reduction of 32% in mean posterior variance relative to homodyne detection. Our results illustrate the potential of simple Bayesian design for quantum metrology with limited data when measurement bases can be controlled.",
+      "external_ids": [
+        "arxiv:2611.31230"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-24T18:43:03+08:00",
+      "last_seen_at": "2026-11-24T18:43:03+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.31211",
+      "arxiv_version": "v1",
+      "title": "Verifying the Outputs of PDE Solvers: From Finite Elements to Neural Surrogates",
+      "authors": [
+        "Konstantinos Dovelos"
+      ],
+      "published": "2026-11-23",
+      "url": "https://arxiv.org/abs/2611.31211",
+      "abstract": "Physics simulation outputs increasingly come from solvers that no expert inspects, such as third-party packages in automated pipelines, programs written by large language models (LLMs), and learned surrogates. In earlier work on cardiac pulsed field ablation, we proposed that solvers return a certificate with their answers. The certificate consists of an admissible potential and an exactly charge-conserving current, and a small independent checker turns it into guaranteed error bounds against a written specification of the physics. Here, the same checker verifies the outputs of other solvers on the same problem. Specifically, FEniCSx computes both fields and receives the same bounds as our own solver. Five plausible bugs in a correct solver, one of them about 0.2% from the true impedance, all converge and pass a grid convergence study, yet the certificate rejects or refutes all five. Of three solvers written by LLMs, one is correct and certified to 0.1%, and one never solves the equation but converges. Neural networks that predict the coefficients of a reduced basis emit admissible fields and receive valid per-prediction bounds, at most 0.0021% wide inside their training range and 0.3-25% wide outside it, where 90% conformal intervals cover none of 14 tests. Untuned Fourier neural operators with free nodal outputs receive valid but uninformative bounds. On a uniform grid, interpolation onto the certificate grid limits them, and on the certificate grid, thin cells turn small nodal errors into large energy errors. Energy-norm training narrows the certified interval tenfold, and projecting the nodal-loss outputs onto the reduced basis narrows it by two to four orders of magnitude, still uninformative. The guarantee concerns the stated model and holds for any output, wherever its input lies. It is informative only when the output is accurate in energy on a grid that resolves the problem.",
+      "external_ids": [
+        "arxiv:2611.31211"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-24T18:43:03+08:00",
+      "last_seen_at": "2026-11-24T18:43:03+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.31130",
+      "arxiv_version": "v1",
+      "title": "The Sensitivity of Gamma-Ray Searches for Dark Matter Annihilation in Milky Way Dwarf Galaxies: the LSST Era and Beyond",
+      "authors": [
+        "Ilumi Chavez",
+        "Aditya Ghosh",
+        "Chris Kelso",
+        "Dan Hooper",
+        "Alex Drlica-Wagner",
+        "Ethan O. Nadler"
+      ],
+      "published": "2026-11-23",
+      "url": "https://arxiv.org/abs/2611.31130",
+      "abstract": "We forecast the sensitivity of gamma-ray searches to dark matter annihilation in Milky Way satellite dwarf galaxies using BabyBison, a Monte Carlo pipeline combining cosmological satellite simulations and observational selection functions with a joint likelihood analysis of gamma-ray data. Although LSST is expected to substantially expand the catalog of known satellite galaxies, we find that these discoveries are likely to produce only modest improvements in the resulting dark matter annihilation constraints, typically below 20\\%. Much more substantial gains are possible, however, in relatively rare realizations that contain yet-to-be-discovered satellites with large $J$-factors. These results reinforce the fact that indirect detection analyses using the population of dwarf galaxies are typically driven in large part by a small number of high-$J$-factor systems rather than by the total satellite count. We present projections for the sensitivity of Fermi-LAT and the proposed Advanced Particle-astrophysics Telescope (APT) to dark matter annihilation, finding that a complete census of the Milky Way dwarf sample could enable such instruments to probe dark matter with masses up to the TeV scale. We also investigate the dark matter discovery potential of these instruments and project their ability to measure the properties of an annihilating dark matter particle.",
+      "external_ids": [
+        "arxiv:2611.31130"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-24T18:43:03+08:00",
+      "last_seen_at": "2026-11-24T18:43:03+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.31115",
+      "arxiv_version": "v1",
+      "title": "RUIBench: What Makes a Good Robot-Use Interface?",
+      "authors": [
+        "Yanzhe Chen",
+        "Zhijun Cao",
+        "Zechen Bai",
+        "Wenzheng Zeng",
+        "Kevin Yuchen Ma",
+        "Yiqi Lin",
+        "Guoqiang Liang",
+        "Xiaokang Liu",
+        "Ke Sun",
+        "Kevin Qinghong Lin",
+        "Mike Zheng Shou"
+      ],
+      "published": "2026-11-23",
+      "url": "https://arxiv.org/abs/2611.31115",
+      "abstract": "Foundation models can reason about complex physical tasks, yet translating this intelligence into reliable robot execution remains challenging. We argue that a critical, often overlooked factor is the robot-use interface (RUI), which determines how agents express and execute physical actions. To systematically study its impact, we introduce RUIBench, comprising 30 manipulation tasks across five suites spanning world knowledge, in-context learning, discovery, dynamic interaction, and contact-rich manipulation. We further develop RUIKit, a unified framework that crosses six action abstractions with two interaction forms, yielding 13 interfaces under shared perception and control. In simulation, changing only the RUI shifts a frontier agent's success rate from 45% to 81%, and that of a fine-tuned 4B model from 13% to 47%. Our analysis reveals that effective interfaces reduce unnecessary decisions while preserving essential feedback, with their benefits shaped by agent behavior and physical uncertainty. We further uncover a verification gap, where agents frequently declare success despite observable failures, revealing the need for task-level verification beyond individual actions. Together, these findings establish RUI design as a critical factor in embodied agent reliability.",
+      "external_ids": [
+        "arxiv:2611.31115"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-24T18:43:03+08:00",
+      "last_seen_at": "2026-11-24T18:43:03+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.31206",
+      "arxiv_version": "v1",
+      "title": "Solute-Aware Stochastic Korhonen Model of Electromigration in Wide vs Near-Bamboo Al-Cu Lines",
+      "authors": [
+        "Narahara Chari Dingari",
+        "David R. Heskett"
+      ],
+      "published": "2026-11-23",
+      "url": "https://arxiv.org/abs/2611.31206",
+      "abstract": "We couple an evolving Cu field to the one-dimensional Korhonen stress equation on random grain maps for wide (10 $μ$m), narrow (3 $μ$m) and near-bamboo Al-Cu lines. Earlier random-microstructure simulations fixed the Cu effect, and most continuum solute models used prescribed structures with all Cu mobile; we join the two and let only dissolved Cu move, the excess staying as immobile precipitate. With $10^3$ maps per condition at 200 $^\\circ$C, we report nucleation times and sites, immortal fractions and Black's-law parameters. In cathode-limited lines Cu depletion shortens the median nucleation time 1.15- to 1.20-fold relative to immobile Cu for the cited Cu diffusivity; treating all Cu as mobile overstates this a further 2.24- to 2.36-fold at 2 wt%; the exponent stays near 2. In wide lines with reservoir ends, Cu steps left by the immobile precipitate become the failure sites, removing their Cu-free immortality if a quarter or more of the precipitate blocks Al diffusion. With Cu above the solvus the lifetime is not Arrhenius, as the dissolved fraction rises with temperature: a Black's-law fit at 250 to 300 $^\\circ$C overestimates the median nucleation time at 150 $^\\circ$C up to 2.33-fold at 2 wt% Cu with an exponent near 2. At the test durations the model qualitatively matches the cathode-side damage in narrow lines and the Cu build-up and mid-line peaks in wide lines but not the cathode-side Cu peaks or longer lives of narrow lines.",
+      "external_ids": [
+        "arxiv:2611.31206"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-24T18:43:03+08:00",
+      "last_seen_at": "2026-11-24T18:43:03+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.31186",
+      "arxiv_version": "v1",
+      "title": "Self-guided estimation of the stabilizer fidelity with single-copy Pauli measurements",
+      "authors": [
+        "M. Torres",
+        "J. Gidi",
+        "L. Pereira"
+      ],
+      "published": "2026-11-23",
+      "url": "https://arxiv.org/abs/2611.31186",
+      "abstract": "The stabilizer fidelity quantifies the non-stabilizerness of pure states, but it is hard to estimate because it requires optimizing over $2^{O(n^2)}$ stabilizer states for $n$ qubits. Here, we propose a self-guided estimation protocol for the stabilizer fidelity of an unknown state, pure or mixed, which requires only Pauli measurements on single copies. The protocol moves through the graph of neighboring stabilizer states, obtains the fidelities of a whole stabilizer basis from a single direct fidelity estimation, and reuses previous outcomes, which also provide a restart point that mitigates the barren plateau of a random start. In addition, it certifies the global optimum when the lower confidence bound of the estimated fidelity exceeds $\\cos^2(π/8)$. In numerical simulations of up to 14 qubits, the protocol reached the optimum in all runs, with the number of iterations remaining small and increasing only slightly with $n$.",
+      "external_ids": [
+        "arxiv:2611.31186"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics",
+        "global illumination real-time",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-24T18:43:03+08:00",
+      "last_seen_at": "2026-11-24T18:43:03+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.31172",
+      "arxiv_version": "v1",
+      "title": "Enhancing eccentricity through tidal resonance in binary neutron star systems",
+      "authors": [
+        "Ivan Markin",
+        "Natalie Williams",
+        "Tim Dietrich"
+      ],
+      "published": "2026-11-23",
+      "url": "https://arxiv.org/abs/2611.31172",
+      "abstract": "Orbital eccentricity of binary neutron star systems is a key parameter to reveal their formation history. Since binaries formed in isolation are expected to circularize long before merger, measurable eccentricity suggests dynamical formation in dense stellar environments. However, using numerical-relativity simulations, we show that eccentricity can be introduced in the late inspiral of an initially quasicircular binary, due to the $f$-mode resonance of one of the stars. We simulate the merger of two highly spinning neutron stars, one star spinning prograde and the other retrograde. Persistent tidal resonance with the $f$ mode of the retrograde-spinning star is observed, accompanied by a gradual change of its spin due to angular momentum transfer from the orbit. This spin change can be well explained by a simple resonance locking model that accounts for the spin-dependent shift of the $f$-mode frequency. These findings reveal an origin of eccentricity in binary neutron stars that is independent of their formation history and provide important information for modeling binary neutron star dynamics with rapidly spinning stars.",
+      "external_ids": [
+        "arxiv:2611.31172"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-24T18:43:03+08:00",
+      "last_seen_at": "2026-11-24T18:43:03+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.31170",
+      "arxiv_version": "v1",
+      "title": "Vortex rings shape the feeding-efficiency landscape of jellyfish",
+      "authors": [
+        "Harry Walden",
+        "Ashutosh Tripathi",
+        "Teo Lara",
+        "Brandon Weissbourd",
+        "Jörn Dunkel"
+      ],
+      "published": "2026-11-23",
+      "url": "https://arxiv.org/abs/2611.31170",
+      "abstract": "Fluid flows enable and limit the feeding and locomotion of sea creatures across a wide range of scales. Although much is known about how microorganisms navigate life at low Reynolds numbers, the effect of inertial flows on the feeding-efficiency of larger marine organisms remains less well understood. Here, using jellyfish as an archetypal example, we study the trade-off between prey capture rate and energy expended to generate inertial flows by surface deformations. We develop a feeding-efficiency landscape that predicts an optimal feeding regime at the transition from Stokes pumping to inertial prey transport, mediated by a self-generated vortex ring. These predictions provide a unifying biophysical explanation of size and beat frequencies reported for jellyfish species from different taxa, with vortex-ring-dominated transport supported by our experimental observations for the moon jellyfish \\textit{Aurelia aurita}. More broadly, our results demonstrate how centimetric marine predators can exploit inertial flows for efficient prey capture.",
+      "external_ids": [
+        "arxiv:2611.31170"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-24T18:43:03+08:00",
+      "last_seen_at": "2026-11-24T18:43:03+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.31167",
+      "arxiv_version": "v1",
+      "title": "Interpretable morphology-based marked statistics",
+      "authors": [
+        "Federico Semenzato",
+        "Benjamin D. Wandelt",
+        "Michele Liguori",
+        "Alvise Raccanelli"
+      ],
+      "published": "2026-11-23",
+      "url": "https://arxiv.org/abs/2611.31167",
+      "abstract": "The shapes and environments of cosmic structures carry cosmological information beyond the matter power spectrum. Recovering this information while retaining a physical understanding is a central challenge for cosmological inference. We construct an interpretable, rotation-equivariant neural marking scheme that reweights the matter field, combining learned density responses with explicit measures of local morphology. This approach enables direct inspection of the learned transformations, while retaining the advantages of a two-point function analysis. We employ a contrastive learning framework to align the marked summaries with the respective cosmological parameters. In real-space matter simulations, the learned marked spectra recover information beyond the ordinary power spectrum, tightening marginalized Fisher constraints on $σ_8$ and $Ω_m$ by factors of $1.7\\times$ and $1.5\\times$ relative to the power spectrum plus bispectrum at $k_{\\mathrm{max}}=0.3\\,h\\,\\mathrm{Mpc}^{-1}$. Without retraining, our mark also improves a neutrino-mass forecast by a factor of $1.5\\times$ relative to the power spectrum at the same scale cut. Across the cosmological prior, our marking scheme also improve the prediction errors in both parameters by $1.3\\times$ over the best tested classical mark at $k_{\\mathrm{max}}=0.2\\,h\\,\\mathrm{Mpc}^{-1}$. A qualitative comparison with neural forecasts motivates the possibility that these different compressions approach a common information level. Neural marked statistics thus offer a route to extracting non-Gaussian information from cosmological surveys, combining interpretable, physically motivated transformations with the practical advantages of two-point estimators.",
+      "external_ids": [
+        "arxiv:2611.31167"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics",
+        "global illumination real-time"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-24T18:43:03+08:00",
+      "last_seen_at": "2026-11-24T18:43:03+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.31140",
+      "arxiv_version": "v1",
+      "title": "HoloSplat: Real-Time Token Streaming for Feed-Forward Human Reconstruction",
+      "authors": [
+        "Chaofan Li",
+        "Qihan Ding",
+        "Shihan Wang",
+        "Zhehao Shen",
+        "Boyu Shen",
+        "Quanyu Chen",
+        "Haoyu Wu",
+        "Lan Xu",
+        "Xin Lou"
+      ],
+      "published": "2026-11-23",
+      "url": "https://arxiv.org/abs/2611.31140",
+      "abstract": "Live free-viewpoint video streaming of humans enables immersive telepresence and interactive XR applications. However, this requires reconstructing each frame in real time, transmitting the data within strict bandwidth budgets, and decoding it on lightweight client GPUs. Existing approaches, whether relying on per-frame optimization or feed-forward inference, generate massive 3D Gaussian payloads that exceed practical streaming limits, while aggressive compression severely degrades rendering quality. In this work, we present HoloSplat, a real-time streaming framework for human-centric volumetric video. HoloSplat splits a feed-forward reconstructor before its Gaussian head, introducing a multi-rate streaming codec driven by server-side token compression and client-side token restoration. On the server side, we apply opacity-guided token pruning, PCA-based dimensionality reduction, and lossless geometry coding for token anchors. On the client side, a feature reconstruction hypernetwork is fused into the Gaussian head to recover compression-induced quality loss. Furthermore, we introduce Neural Session Calibration (NSC), which rapidly fine-tunes the Gaussian head online using incoming camera views during a warm-up phase. This resolves quality degradation from novel camera parameters and varying capture conditions with zero per-frame overhead. In our evaluations, HoloSplat averages 32.2 FPS on four RTX 5090 GPUs at 50 Mbit/s. It decodes each frame into 3D Gaussians in 22.1 ms on an RTX 3050 Ti laptop GPU, transmitting 22.8$\\times$ less data than uncompressed float32 Gaussians, while calibrated decoding improves PSNR by 1.050 dB.",
+      "external_ids": [
+        "arxiv:2611.31140"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "global illumination real-time"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-24T18:43:03+08:00",
+      "last_seen_at": "2026-11-24T18:43:03+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.31116",
+      "arxiv_version": "v1",
+      "title": "A Quantum Model from the Riemann-Siegel Formula",
+      "authors": [
+        "Germán Sierra"
+      ],
+      "published": "2026-11-23",
+      "url": "https://arxiv.org/abs/2611.31116",
+      "abstract": "We construct a two-component quantum model in which destructive interference selects the critical-line zeros of a regularized zeta function within a continuous spectrum. Starting from the exact Riemann--Siegel integral representation, we define $ζ_{\\rm reg}(s)$ by subtracting the contribution of the pole at the origin. The two remaining contour integrals supply the interfering amplitudes. A Dirichlet heat filter suppresses high spatial frequencies, and an arithmetic dressing has a profile generated by prime-power dilations. These transformations map the dilation generator to a self-adjoint, parity--time ($PT$) symmetric Hamiltonian on a physical Hilbert space with a positive metric. Its spectrum is real and continuous. The computed lower critical-line zeros of $ζ_{\\rm reg}(s)$ lie close to the corresponding Riemann zeros and exhibit spacing and pair-correlation statistics consistent with the Gaussian unitary ensemble over the sampled range. Whether every analytic zero in the lower half of the critical strip belongs to the physical spectral family remains open.",
+      "external_ids": [
+        "arxiv:2611.31116"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "global illumination real-time"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-24T18:43:03+08:00",
+      "last_seen_at": "2026-11-24T18:43:03+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.31138",
+      "arxiv_version": "v1",
+      "title": "Score-aware nonparametric adaptation of prediction-powered inference",
+      "authors": [
+        "Xin Lu",
+        "Xuming He",
+        "Bo Li"
+      ],
+      "published": "2026-11-23",
+      "url": "https://arxiv.org/abs/2611.31138",
+      "abstract": "Prediction-powered inference supplements labelled data with unlabelled data and external predictions to improve statistical efficiency. For inference on generalized linear model (GLM) coefficients, optimal use of these predictions generally requires estimating a conditional mean given the covariates and the external prediction, which can be challenging when the labelled data are limited or the covariates are multi-dimensional. We address this challenge through dimension reduction. We first fit an augmented generalized linear model combining the covariates and external prediction to obtain a scalar index, and then approximate the conditional mean by a univariate function of this index. Based on this construction, we develop a class of estimators for GLM coefficients and select the proposed estimator by minimizing the estimated asymptotic covariance trace. Under regularity conditions, the proposed estimator is asymptotically normal and has an asymptotic covariance trace no greater than that of the labelled-only estimator, even when the dimension reduction is insufficient. We also establish conditions under which the dimension reduction is sufficient. Simulations show that the proposed estimator is generally close to the best feasible estimator in root mean squared error, with confidence interval coverage close to the nominal level.",
+      "external_ids": [
+        "arxiv:2611.31138"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-24T18:43:03+08:00",
+      "last_seen_at": "2026-11-24T18:43:03+08:00"
+    },
     {
       "source": "arxiv",
       "arxiv_id": "2611.27932",
@@ -4062,7 +4631,7 @@
     }
   ],
   "last_run": {
-    "at": "2026-11-23T16:35:24+08:00",
+    "at": "2026-11-24T18:43:03+08:00",
     "sources": [
       "arxiv",
       "semanticscholar",
@@ -4078,9 +4647,9 @@
       "MLS-MPM",
       "projective dynamics cloth"
     ],
-    "fetched": 102,
-    "merged": 23,
-    "new": 14
+    "fetched": 122,
+    "merged": 44,
+    "new": 20
   },
   "topic": "game technology: physics simulation, real-time rendering, global illumination",
   "schema_version": 1
