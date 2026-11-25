@@ -1,0 +1,519 @@
+{
+  "date": "2026-11-25",
+  "run": {
+    "at": "2026-11-25T17:33:24+08:00",
+    "sources": [
+      "arxiv",
+      "semanticscholar",
+      "dblp"
+    ],
+    "keywords": [
+      "material point method cloth",
+      "\"position based\" dynamics cloth",
+      "incremental potential contact",
+      "real-time fluid simulation graphics",
+      "global illumination real-time",
+      "ray tracing global illumination",
+      "MLS-MPM",
+      "projective dynamics cloth"
+    ],
+    "fetched": 112,
+    "merged": 37,
+    "new": 17
+  },
+  "new_candidates": [
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.33158",
+      "arxiv_version": "v1",
+      "title": "OmniAct: One Policy, One Million Embodiments",
+      "authors": [
+        "Xiang Fan",
+        "Yuheng Wang",
+        "Jiayuan Yan",
+        "Bohan Fang",
+        "Wisdom Oluchi Ikezogwo",
+        "Ainaz Eftekhar",
+        "Max Argus",
+        "Jason Ren",
+        "Jiafei Duan",
+        "Ranjay Krishna"
+      ],
+      "published": "2026-11-24",
+      "url": "https://arxiv.org/abs/2611.33158",
+      "abstract": "A single policy that controls diverse robots must not only transfer task knowledge across embodiments, but also adapt its behavior to each robot's capabilities. Existing approaches facilitate transfer through shared action representations, but these representations do not necessarily capture how differences in robot morphology should shape manipulation strategies. We introduce OmniAct, a cross-embodiment manipulation policy that conditions directly on each robot's kinematics in a specific scene to produce embodiment-specific behavior. This kinematic graph represents the robot's joint positions, motion axes, and connectivity to its visual observation, allowing the policy to account for how its embodiment related to objects and surfaces in the scene. A flow-matching policy predicts relative joint motions for each node, enabling control across robots with different degrees of freedom and kinematic configurations. To learn how physical structure shapes behavior at scale, we procedurally design and filter one million physically feasible robot embodiments; next, we develop algorithms to generate robot trajectories in simulation for all embodiments; finally, we train across diverse simulated manipulation tasks. On 2,000 embodiment-scene-held-out evaluation episodes, OmniAct achieves 63.0% success, compared to 17.8% for pi 0.5 and 57.9% for the strongest baseline; on the task families GPT-6 Astra was evaluated on, it achieves 64.7% against GPT-6 Astra's 41.1%. On a previously unseen real-world robot, it achieves nearly twice the success rate of the next best method, MolmoAct2. Beyond task success, we observe that OmniAct learns distinct manipulation strategies that exploit the capabilities and accommodate the limitations of different morphologies. Project: https://omniact.github.io/",
+      "external_ids": [
+        "arxiv:2611.33158"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-25T17:33:24+08:00",
+      "last_seen_at": "2026-11-25T17:33:24+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.33157",
+      "arxiv_version": "v1",
+      "title": "PointX: Multi-View Consistent Intrinsics by Querying Surface Points",
+      "authors": [
+        "Miguel Farinha",
+        "Sam Sartor",
+        "Iliyan Georgiev",
+        "Giuseppe Vecchio",
+        "Ronald Clark",
+        "Michael Fischer"
+      ],
+      "published": "2026-11-24",
+      "url": "https://arxiv.org/abs/2611.33157",
+      "abstract": "The appearance of a scene is determined by the albedo, roughness, metallicity and normal of every point on its surface, and by the light that reaches it, its irradiance. Recovering these intrinsics from images is ambiguous, and methods that predict them per pixel give the same surface point a different decomposition in every view. We introduce PointX, a simple feed-forward model that predicts intrinsics per 3D surface point instead. A multi-view transformer encodes a set of unposed images, and for any queried surface point, PointX pools the point's tokens across the views in which it appears and decodes the point's intrinsics once. Each point of a 3D reconstruction of the scene, such as a point cloud or a mesh, thus receives a single prediction, which is exactly consistent across views by construction and enables view-consistent relighting and editing. The same model also predicts per-view maps, from one image or many, by querying the point seen at every pixel. These maps agree across views up to the precision of the estimated geometry and correspondences. PointX is significantly more consistent than existing methods, while remaining competitive in accuracy from a single image and improving as views are added. Project page: https://pointx-paper.github.io/",
+      "external_ids": [
+        "arxiv:2611.33157"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-25T17:33:24+08:00",
+      "last_seen_at": "2026-11-25T17:33:24+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.33150",
+      "arxiv_version": "v1",
+      "title": "Parametric neural-network wavefunctions across a bosonic phase transition",
+      "authors": [
+        "Daniil S. Antonenko",
+        "Liang Fu",
+        "Leonid I. Glazman"
+      ],
+      "published": "2026-11-24",
+      "url": "https://arxiv.org/abs/2611.33150",
+      "abstract": "We propose Boseformer, a universal attention-based neural-network architecture for representing the wavefunctions of particles with bosonic quantum statistics, including superfluid and crystal phases. The model is trained to generate the wavefunction as a function of a Hamiltonian parameter across the quantum phase transition between these phases. Once trained with variational Monte Carlo optimization, it can serve as a foundation model describing the phase transition without the need to retrain it for individual parameter values. We demonstrate our method on a system of two-dimensional bosons with $1/r^3$ repulsive interaction.",
+      "external_ids": [
+        "arxiv:2611.33150"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-25T17:33:24+08:00",
+      "last_seen_at": "2026-11-25T17:33:24+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.33139",
+      "arxiv_version": "v1",
+      "title": "On Euclidean Diameter in Dynamic Streams",
+      "authors": [
+        "Jeff Giliberti",
+        "MohammadTaghi Hajiaghayi"
+      ],
+      "published": "2026-11-24",
+      "url": "https://arxiv.org/abs/2611.33139",
+      "abstract": "We give a streaming algorithm for maintaining the diameter of a high-dimensional Euclidean point set under arbitrary insertions and deletions that achieves update time polylogarithmic in the number of points and polynomial in the dimension. For every fixed $c>\\sqrt3$, there is an $ε_c > 0$ such that our one-pass algorithm uses $\\tilde O(N^{1-ε_c}\\poly(d))$ space, has worst-case update time $\\poly(d,\\log N)$, and maintains a factor-$c$ pair witness. On the hardness side, we prove that every constant-factor approximation requires polynomial memory even on short dynamic streams: a factor-$c$ approximation needs $N^{Ω(1/(c^2\\log(c+1)))}$ space on streams of at most $2N-1$ updates. Our upper bound combines a geometric hull, Gaussian hashing through successively smaller caps, and local and global rebuilding schedules. Every update changes only one leaf of the hash hierarchy, while the answer is maintained through small variance certificates. The lower bound is based on a communication complexity argument. Together, these results separate the polynomial memory regime from the time needed to process an update.",
+      "external_ids": [
+        "arxiv:2611.33139"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "material point method cloth",
+        "\"position based\" dynamics cloth",
+        "global illumination real-time",
+        "ray tracing global illumination",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-25T17:33:24+08:00",
+      "last_seen_at": "2026-11-25T17:33:24+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.33103",
+      "arxiv_version": "v1",
+      "title": "Self-arresting vortex rearrangements in pinned spinning-down superfluids",
+      "authors": [
+        "Anantharaman Sekharipuram Viswanathan",
+        "Dipankar Bhattacharya"
+      ],
+      "published": "2026-11-24",
+      "url": "https://arxiv.org/abs/2611.33103",
+      "abstract": "Superfluids, in a spinning-down container with pinning centres, exhibit sudden collective migration of quantized vortices. The onset, progress, and termination of this process remain poorly understood. Here, we show that: 1) the first exodus of vortices occurs when a sector of the vortex array, having a minimum opening angle, is vacated close to the wall; 2) driven by this exodus, the superfluid flow near the boundary continually decreases in strength and arrests the exit; and 3) the resultant depletion region has well-defined dimensions---governed primarily by the critical unpinning velocity, the container size, and the initial rotation rate---that limit the angular momentum transferred to the container. We conclude by discussing the relevance to pulsar glitches.",
+      "external_ids": [
+        "arxiv:2611.33103"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "real-time fluid simulation graphics",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-25T17:33:24+08:00",
+      "last_seen_at": "2026-11-25T17:33:24+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.33089",
+      "arxiv_version": "v1",
+      "title": "Anharmonic enhancement of thermal conductivity in amorphous Ge$_2$Sb$_2$Te$_5$: A consistent picture from molecular dynamics and Wigner transport",
+      "authors": [
+        "Luiz Felipe C. Pereira",
+        "Kamil Iwanowski",
+        "Michele Simoncelli",
+        "Omar Abou El Kheir",
+        "Marco Bernasconi",
+        "Riccardo Mazzarello",
+        "Francesco Mauri"
+      ],
+      "published": "2026-11-24",
+      "url": "https://arxiv.org/abs/2611.33089",
+      "abstract": "Anharmonicity limits heat conduction in crystals, but its role in amorphous solids, where heat is carried mainly by tunneling between quasi-degenerate vibrations, remains unsettled. Here we disentangle the contributions of structural disorder, quantum statistics, and anharmonicity to the thermal conductivity of amorphous Ge$_2$Sb$_2$Te$_5$ (aGST), the prototypical phase-change memory material. Using a single machine-learned potential trained on first-principles data, we compare classical equilibrium and nonequilibrium molecular dynamics (MD), which include anharmonicity to all orders, with harmonic Allen-Feldman theory and the anharmonic Wigner transport equation, both of which include quantum statistics. Four MD approaches agree on a conductivity of 0.171-0.181 W m$^{-1}$ K$^{-1}$ at room temperature, about 16% above the harmonic Allen-Feldman value for the same model, and the Wigner formulation bridges the two: with classical statistics, it agrees with MD to within 5%. We trace this anharmonic enhancement to vibrational couplings that grow with the frequency difference between modes, so that anharmonic broadening opens additional channels for heat conduction. A comparison with silica, alumina, and disordered carbons reveals three regimes, in which anharmonicity reduces, barely affects, or enhances the conductivity. The predicted glass-like increase of the conductivity with temperature is consistent with thermoreflectance measurements. These results show that anharmonicity has no universal effect in disordered solids, and can promote rather than limit heat transport in strongly disordered materials.",
+      "external_ids": [
+        "arxiv:2611.33089"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth",
+        "incremental potential contact",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-25T17:33:24+08:00",
+      "last_seen_at": "2026-11-25T17:33:24+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.33049",
+      "arxiv_version": "v1",
+      "title": "Nonlinear non-modal stability and minimal perturbations in electroconvection driven by unipolar injection",
+      "authors": [
+        "Pedro A. Vázquez",
+        "A. T. Pérez"
+      ],
+      "published": "2026-11-24",
+      "url": "https://arxiv.org/abs/2611.33049",
+      "abstract": "Electroconvection in a dielectric liquid subjected to unipolar charge injection is subcritical. Convection can be sustained well below the threshold of linear stability theory, and experiments report onset far below it. We use nonlinear non-modal optimization to determine the smallest charge perturbations that trigger convection below the linear threshold. The method, based on a direct--adjoint formulation of the full electrohydrodynamic equations, recovers the classical linear threshold in the limit of small amplitudes. At finite amplitude, the most dangerous perturbations are localized charge deficits rather than excesses, because a deficit relaxes more slowly under Coulomb repulsion. The minimal perturbation needed for transition grows from about 0.5% of the injected charge near the linear threshold to 3% at two thirds of it, where the convective branch ends, in agreement with direct numerical simulations. Near the critical amplitude, trajectories approach an unstable steady state, the edge state, that separates the basins of attraction of rest and convection and originates from the critical linear mode. The damped oscillatory modes involved in the growth of the optimal perturbations are transit-time modes of the ion drift. The convective mode is the first of them, made stationary by the coupling with the flow, which explains why the instability sets in as a steady motion. Small charge fluctuations can therefore lower the onset of electroconvection to about two thirds of the linear threshold, helping to explain the discrepancy between linear theory and experiments.",
+      "external_ids": [
+        "arxiv:2611.33049"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "\"position based\" dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-25T17:33:24+08:00",
+      "last_seen_at": "2026-11-25T17:33:24+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.33091",
+      "arxiv_version": "v1",
+      "title": "A model colloidal gel former for the measurement of inter-particle forces",
+      "authors": [
+        "Rui Cheng",
+        "Kristian Thijssen",
+        "Abraham Mauleon Amieva",
+        "Tanniemola B. Liverpool",
+        "Malcolm A. Faers",
+        "Robert L. Jack",
+        "C. Patrick Royall"
+      ],
+      "published": "2026-11-24",
+      "url": "https://arxiv.org/abs/2611.33091",
+      "abstract": "Tracking of particle coordinates in colloidal model systems is an established technique. Recently, an emulsion system has been introduced where not only the coordinates, but also contacts and compressive forces between the droplets can be determined [Dong <em>et al. J. Chem. Phys.</em> <strong>156</strong> 214907 (2022). Here we develop this system to control both the density mismatch and refractive index contrast between the emulsion droplets and the solvent. The former is important in minimizing sedimentation due to gravity and the latter is necessary for 3d imaging with confocal microscopy. By mapping our system carefully to computer simulation, we quantify interdroplet forces and packing geometries in depletion gels and probe the relationship between local structure and compressive stress. The simulations also provide ensemble measurements of the attractive part of the force between droplets and related quantities such as the stress tensor. Finally, we implement an improved measure of local stress in our experiments, which can be directly compared with the corresponding quantity in simulations. We find that locally rigid minimum energy clusters are associated with regions of higher stress in the gel network.",
+      "external_ids": [
+        "arxiv:2611.33091"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-25T17:33:24+08:00",
+      "last_seen_at": "2026-11-25T17:33:24+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.33083",
+      "arxiv_version": "v1",
+      "title": "Initial Conditions and Wave-Phase Resolution for Scalar-Field Dark Matter Simulations",
+      "authors": [
+        "Hafiz Inam Ullah",
+        "Muhammad Awais",
+        "Yourong Frank Wang",
+        "Tonatiuh Matos"
+      ],
+      "published": "2026-11-24",
+      "url": "https://arxiv.org/abs/2611.33083",
+      "abstract": "Wave-based cosmological simulations of scalar-field dark matter (SFDM) require accurate initialization of both density and complex-wavefunction phase. We develop and validate a matched $Λ$CDM--SFDM initialization framework connecting CLASS-SFDM, MUSIC, and AxioNyx. For quadratic SFDM with $m_φ=3.1623\\times10^{-22}\\,\\mathrm{eV}$ at $z_{\\rm ini}=120$, the scalar-component half-power scale is $k_{50}^φ\\simeq10.54\\,h\\,\\mathrm{Mpc}^{-1}$. An independent AxiECAMB comparison gives a normalized RMS deviation of $0.328\\%$ in the synchronous-gauge SFDM velocity divergence over $0.20944\\leq k\\leq13.4\\,h\\,\\mathrm{Mpc}^{-1}$. A $256^3$ MUSIC realization reproduces the CLASS density power spectrum over $8\\leq k\\leq13.404\\,h\\,\\mathrm{Mpc}^{-1}$ with a median ratio of $1.00131$ and an RMS fractional deviation of $0.138\\%$. Despite this agreement, full-volume phase diagnostics show that the fraction of velocity-implied phase increments violating the Nyquist criterion decreases from $46.7\\%$ at $256^3$ to $13.685\\%$ at $512^3$ and $0.124060\\%$ at $1024^3$. A separately generated realization yields $13.7299\\%$ and $0.124983\\%$ at $512^3$ and $1024^3$, respectively, with relative differences below $1\\%$. In a common-parent $512^3$--$1024^3$ comparison, the central-plane density fields remain strongly correlated ($r_δ=0.9989$). The median absolute circular phase difference is $0.264$ rad without masking and $0.246$ rad for $86.6\\%$ of blocks satisfying $R\\geq0.5$, with 90th percentiles $0.826$ and $0.753$ rad. These results demonstrate that accurate linear density recovery does not guarantee adequate wave-phase resolution and provide validation criteria for SFDM initial conditions prior to nonlinear evolution.",
+      "external_ids": [
+        "arxiv:2611.33083"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-25T17:33:24+08:00",
+      "last_seen_at": "2026-11-25T17:33:24+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.33077",
+      "arxiv_version": "v1",
+      "title": "Quaternionic geometry of symplectic and contact pairs",
+      "authors": [
+        "Gianluca Bande",
+        "Beniamino Cappelletti-Montano"
+      ],
+      "published": "2026-11-24",
+      "url": "https://arxiv.org/abs/2611.33077",
+      "abstract": "We introduce quaternionic analogues of symplectic pairs, contact--symplectic pairs and contact pairs. A hyper symplectic pair consists of three symplectic pairs whose sums form a positive quaternionic triple, while the contact analogues are defined through single or double symplectization. We prove that radial invariance of the induced complex structures is equivalent to the coincidence of the characteristic distributions, yielding a local product decomposition. Under a natural normalization, hyper contact--symplectic pairs are locally products of a $3$-Sasakian and a hyper-Kähler manifold and induce canonical $3$-quasi-Sasakian structures, whereas hyper contact pairs are locally products of two $3$-Sasakian manifolds. We construct compact examples for which these local decompositions are not global. Finally, compact normalized hyper contact pairs have finite fundamental group and are finite quotients of products of compact $3$-Sasakian manifolds, in contrast with normalized hyper contact--symplectic pairs, which may have infinite fundamental group.",
+      "external_ids": [
+        "arxiv:2611.33077"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "incremental potential contact",
+        "global illumination real-time",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-25T17:33:24+08:00",
+      "last_seen_at": "2026-11-25T17:33:24+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.33143",
+      "arxiv_version": "v1",
+      "title": "ROAM-Bench: Evaluating Embodied Active Spatial Intelligence through Evidence Verification",
+      "authors": [
+        "Xingjian Ran",
+        "Xiaoye Mo",
+        "Sihao Liu",
+        "Li Luo",
+        "Taiqiang Wu",
+        "Ji Zhao",
+        "Wenqi Shao",
+        "Hongyang Li",
+        "Jiaqi Wang",
+        "Bo Dai"
+      ],
+      "published": "2026-11-24",
+      "url": "https://arxiv.org/abs/2611.33143",
+      "abstract": "Embodied spatial intelligence requires agents to gather information through exploration and interaction, then use it to reason and act. Existing benchmarks insufficiently distinguish correct outcomes from completion of these task requirements. We introduce ROAM-Bench to evaluate these abilities under robot motion and collision constraints. Independent checks use simulation state and episode records to assess outcomes and task requirements, with stronger checks of geometry, coverage, or placement. It comprises 250 manually validated tasks across 11 types in five groups and 27 indoor environments, covering object and room search, counting, geometric judgments, direction reasoning, and relocation. Human evaluators achieve 84% strict task success on 100 sampled tasks, with every correct outcome satisfying the required checks. Across seven frontier vision-language models, we identify two complementary failure modes: correct outcomes with unmet task requirements, and incorrect outcomes despite passing stronger checks. Oracle-input diagnostics show that more complete target observations and calibrated feedback improve final spatial judgments.",
+      "external_ids": [
+        "arxiv:2611.33143"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-25T17:33:24+08:00",
+      "last_seen_at": "2026-11-25T17:33:24+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.33130",
+      "arxiv_version": "v1",
+      "title": "Exploratory Midtraining for Robot Policies",
+      "authors": [
+        "Kshitiz",
+        "Zheyuan Hu",
+        "Robyn Wu",
+        "Yizhou Li",
+        "Yunchu Zhang",
+        "Vattanary Tevy",
+        "Kavya Tayal",
+        "Shawn Yin",
+        "Aykut Onol",
+        "Kushal Arora",
+        "Dhruv Shah",
+        "Abhishek Gupta",
+        "Zackory Erickson",
+        "Aviral Kumar"
+      ],
+      "published": "2026-11-24",
+      "url": "https://arxiv.org/abs/2611.33130",
+      "abstract": "Robot policies predominantly learn from human-collected data emphasizing competent behavior, limiting coverage of the low-level behaviors needed to support autonomous improvement. We study how a form of midtraining can be used to build coverage over diverse low-level behaviors that connect challenging states of the robot and its environment to states from which further progress is possible (\"connected behavioral coverage\"). We also examine how this coverage supports downstream adaptation and online improvement. To this end, we introduce $β$-Data, a dataset collected via adversarial teleoperation, where a human adversary reversibly perturbs the environment while a human operator continues toward completion without resetting. We relabel trajectory segments with local outcomes in natural language and finetune a pretrained policy conditioned on recent action history. The resulting policy exhibits sustained use of more low-level behaviors. Across manipulation tasks in simulation and on three real-robot platforms, our approach yields more favorable data scaling laws, better zero-shot generalization, and more effective use of additional rollout time than training on standard demonstrations. During online finetuning, these policies need fewer rollouts to collect successful experience and reach higher success rates, suggesting that midtraining can prepare robots for both more robust task execution and continued autonomous improvement. Our project page and robot videos are available at https://kshitiz-1225.github.io/exploratory-midtraining-robot-policies/.",
+      "external_ids": [
+        "arxiv:2611.33130"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics",
+        "global illumination real-time",
+        "projective dynamics cloth"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-25T17:33:24+08:00",
+      "last_seen_at": "2026-11-25T17:33:24+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.33128",
+      "arxiv_version": "v1",
+      "title": "Classical algorithms for sparse random Hamiltonians via free probability",
+      "authors": [
+        "Matthew Ding",
+        "Robbie King",
+        "Thomas Schuster"
+      ],
+      "published": "2026-11-24",
+      "url": "https://arxiv.org/abs/2611.33128",
+      "abstract": "The search for quantum advantage in average-case problems is a pressing open question in physics and computer science. The widest conjectured example of such an advantage is in simulation of quantum many-body systems, where sign problems and entanglement growth cause the breakdown of many classical methods. Nonetheless, theoretical evidence for or against such an advantage remains scarce. Here, we investigate this in sparse random non-local Hamiltonians. We design a classical algorithm for such Hamiltonians that enables accurate computation of spectral fluctuations, thermal values, and time-ordered and out-of-time-order correlation functions. For any subexponential precision $\\varepsilon$, our algorithm runs in time $(1/\\varepsilon)^{2+o(1)}$, nearly identical to a quantum simulation. Crucially, this applies even at late evolution times, low temperatures, and near critical points, where existing classical methods require exponential time. Rather than directly simulating a quantum state or operator, our algorithm first computes the model's mean behavior and then a short hierarchy of instance-dependent corrections. These corrections predict long-time behavior based on short-time data using free probability theory.",
+      "external_ids": [
+        "arxiv:2611.33128"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-25T17:33:24+08:00",
+      "last_seen_at": "2026-11-25T17:33:24+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.33094",
+      "arxiv_version": "v1",
+      "title": "Bayesian Learning of Spatially Heterogeneous Causal Structure in Spatial Transcriptomics",
+      "authors": [
+        "Kyungwook Back",
+        "Junsouk Choi"
+      ],
+      "published": "2026-11-24",
+      "url": "https://arxiv.org/abs/2611.33094",
+      "abstract": "Spatial transcriptomics preserves the location of each expression profile, making it possible to study how gene regulatory networks differ within a tissue. Across regions of a tissue, regulatory relationships may vary and even reverse direction, so identifying the causal relationships in a specific pathological region can provide insight into therapeutic targets. We propose SpaDAG, a Bayesian method for learning spatially varying causal directed acyclic graphs. By defining the graphs on a triangulation of the tissue, SpaDAG allows each edge to have its own spatial pattern and even to reverse direction across regions. We show that the graphs nonetheless remain fully identifiable, and develop an MCMC sampler that explores them efficiently by reversing an edge over an entire connected region in a single move. SpaDAG outperforms competing methods in simulations with and without direction reversals. In a section spanning a renal cell carcinoma and the adjacent kidney, SpaDAG finds largely different relationships in the two tissues, with those in the tumor concentrated on genes associated with therapeutic targets. Between two of these genes, it identifies a relationship whose direction reverses across the tumor boundary, generating hypotheses about their region-specific coupling. Supplementary materials and code for this article are available online.",
+      "external_ids": [
+        "arxiv:2611.33094"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "real-time fluid simulation graphics"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-25T17:33:24+08:00",
+      "last_seen_at": "2026-11-25T17:33:24+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.33097",
+      "arxiv_version": "v1",
+      "title": "From dispersal to patrol: the extracellular matrix shapes an annealing-like search by Drosophila embryonic macrophages",
+      "authors": [
+        "Nickolay Korabel",
+        "Tom H. Millard",
+        "Thomas Andrew Waigh"
+      ],
+      "published": "2026-11-24",
+      "url": "https://arxiv.org/abs/2611.33097",
+      "abstract": "Hemocytes, the macrophages of Drosophila, disperse through the embryo and then patrol its tissues, moving along basement membranes that they help to build. Because the persistence (H) and amplitude (D) of hemocyte motion vary along each track, it is difficult to describe how movement changes during development and how it depends on basement membrane composition. We analysed trajectories, obtained by selective plane illumination microscopy, of hemocytes in control embryos and in embryos deficient in the basement membrane components laminin (LanB1-deficient) or collagen IV (collagen-deficient). A physics-informed neural network estimates H and D in short windows, each with a calibrated uncertainty. From them we construct an effective diffusivity Deff, defined for any anomalous diffusion as the diffusivity of the unpredictable part of the motion. Its error is uncorrelated with that of H and acts as an effective temperature. Cells decelerate during development by cooling (falling Deff) and forgetting (falling H). Control cells cool gradually while staying persistent. LanB1-deficient cells cool further, forget, lose the coupling between speed and persistence and become nearly Brownian. Collagen-deficient cells cool but keep most of their persistence. Hemocyte movement thus resembles an annealed search, in which laminin, rather than collagen IV, keeps patrolling cells persistent.",
+      "external_ids": [
+        "arxiv:2611.33097"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "global illumination real-time",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-25T17:33:24+08:00",
+      "last_seen_at": "2026-11-25T17:33:24+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.33045",
+      "arxiv_version": "v1",
+      "title": "A Bernstein-Type Variance-Adaptive PMW Mechanism for DP Query Release",
+      "authors": [
+        "Mohamed Aniss Benstaali",
+        "Habib Louafi",
+        "Naima Bessah"
+      ],
+      "published": "2026-11-24",
+      "url": "https://arxiv.org/abs/2611.33045",
+      "abstract": "Private Multiplicative Weights (PMW) is a central mechanism for the differentially private release of adaptive linear statistics over a finite universe. Its classical analysis uses a fixed multiplicative-weights learning rate and does not exploit the local variance of the current hypothesis. This paper presents PMW-Bernstein, a variance-adaptive refinement in which the update step is determined by the relationship between the privately estimated query error and the variance under the current hypothesis. The mechanism retains the standard PMW privacy architecture based on Sparse Vector screening, Gaussian numerical measurements, sequential composition, and post-processing. Through a potential-based analysis, we prove a one-step progress bound that yields a global weighted energy bound, recovers the classical $O(1/α2)$ update regime in general, and establishes an $O(1/α)$ update regime under a Bernsteintype condition on updated rounds. Controlled simulations over synthetic finite-universe distributions and query workloads show that the adaptive rule reduces the number of updates in the low-variance regime, remains competitive in the high-variance regime, and succeeds within the prescribed update budget in the heterogeneous regime where the fixed-step baseline fails.",
+      "external_ids": [
+        "arxiv:2611.33045"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "global illumination real-time",
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-25T17:33:24+08:00",
+      "last_seen_at": "2026-11-25T17:33:24+08:00"
+    },
+    {
+      "source": "arxiv",
+      "arxiv_id": "2611.33042",
+      "arxiv_version": "v1",
+      "title": "Spectrify: Framework for Hyperspectral Image Generation Using Computer Graphics",
+      "authors": [
+        "Yasin Mamedov",
+        "Daniil Vladimirov",
+        "Sofiia Dorogova",
+        "Bakhtiyar Khalfin",
+        "Egor Ershov"
+      ],
+      "published": "2026-11-24",
+      "url": "https://arxiv.org/abs/2611.33042",
+      "abstract": "Hyperspectral images (HSIs) record the full spectrum of light at every pixel, so projecting an HSI through a camera's spectral sensitivities gives that camera's RAW image, and one HSI can supply training data for hyperspectral reconstruction and camera-pipeline methods. Real HSIs, however, are slow and expensive to capture, and the largest datasets hold only about 1,000 images. High-level vision commonly replaces scarce real data with images rendered from 3D scenes. Low-level tasks, however, need physically correct spectra, which requires spectral rendering with a measured spectrum for every material in a scene, and existing spectral renderings cover only a handful of scenes, mostly with a simplified image formation model. We present Spectrify, a framework that converts 3D scene datasets into HSIs, together with a library of reflectance spectra labeled by material and compiled from close-range hyperspectral datasets and spectrophotometer measurements. In Spectrify, spectra follow the material: each object receives a physically based optical model and measured reflectance spectra or optical constants from its material category, each lamp an emission spectrum of its type and the sky a modeled daylight spectrum, and Mitsuba 3 path-traces the full light transport of each scene per wavelength. We show that a hyperspectral reconstruction network trained only on our synthetic HSIs generalizes to unseen real datasets better than networks trained on the largest real HSI datasets on most test sets, and that assigning spectra by material category instead of by color alone improves this transfer on every test set. RAW images projected from our HSIs are also useful training data for color constancy, performing on par with existing synthetic RAW generators. We release the 4,500 rendered HSIs, the code of Spectrify and its material-labeled reflectance library.",
+      "external_ids": [
+        "arxiv:2611.33042"
+      ],
+      "sources": [
+        "arxiv"
+      ],
+      "matched_keywords": [
+        "ray tracing global illumination"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-25T17:33:24+08:00",
+      "last_seen_at": "2026-11-25T17:33:24+08:00"
+    }
+  ]
+}
