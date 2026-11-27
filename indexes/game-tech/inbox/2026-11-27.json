@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-27",
+  "run": {
+    "at": "2026-11-27T17:27:54+08:00",
+    "sources": [
+      "arxiv",
+      "semanticscholar",
+      "dblp"
+    ],
+    "keywords": [
+      "material point method cloth",
+      "\"position based\" dynamics cloth",
+      "incremental potential contact",
+      "real-time fluid simulation graphics",
+      "global illumination real-time",
+      "ray tracing global illumination",
+      "MLS-MPM",
+      "projective dynamics cloth"
+    ],
+    "fetched": 102,
+    "merged": 29,
+    "new": 1
+  },
+  "new_candidates": [
+    {
+      "source": "semanticscholar",
+      "arxiv_id": "",
+      "doi": "10.1109/IROS61738.2026.11776447",
+      "title": "TacMagPie: A Fast, High-Fidelity Soft Magnetic Tactile Sensor Simulator for Sim-to-Real Robotic Manipulation",
+      "authors": [
+        "Yi-Jie Luo",
+        "Bing-Ze Du",
+        "Xing-Yu Li",
+        "Wei Wang",
+        "Feng Luan",
+        "Zhi-Peng Wang",
+        "Yan-Min Zhou",
+        "Bin He"
+      ],
+      "published": "2026-09-01",
+      "url": "https://www.semanticscholar.org/paper/abf2bd7b4ecac368ae496ec0ea0f1d994f36f7b5",
+      "abstract": "Tactile perception is a cornerstone of large-scale robot learning. Among various tactile modalities, soft magnetic tactile sensors (sMagTac) stand out by offering rich 3D contact force measurements with exceptional durability and sensitivity. However, obtaining large-scale physical data from sMagTac remains prohibitively costly. While simulation offers a natural remedy, it is severely hindered by the complex magneto-elastic coupling that governs force transduction in these sensors. Existing methods are limited to slow finite element method (FEM) or simplified analytical models based on restrictive assumptions, neither of which supports real-time interaction with modern robot simulators. We present TacMagPie, a real-time simulator that achieves fast, physically consistent simulation of sMagTac. TacMagPie combines Moving Least Squares Material Point Method (MLS-MPM) for hyperelastic modeling of silicone elastomers with Differential Magnetic Microparticle Method (DMM) for accurate magnetic flux computation. Quantitative evaluation shows strong agreement with real-world measurements, achieving a PSNR of 26.21 dB and an SSIM of 0.68, indicating strong structural agreement in contact-position-indexed Hall-response maps. At the same time, TacMagPie runs in under 1 ms per simulation step, 3–4 orders of magnitude faster than FEM, making it suitable for large-scale synthetic tactile data generation. A downstream contact-localization study further demonstrates its potential as a practical simulation backend for learning-based magnetic tactile perception.",
+      "external_ids": [
+        "s2:abf2bd7b4ecac368ae496ec0ea0f1d994f36f7b5",
+        "doi:10.1109/iros61738.2026.11776447"
+      ],
+      "sources": [
+        "semanticscholar"
+      ],
+      "matched_keywords": [
+        "MLS-MPM"
+      ],
+      "status": "new",
+      "first_seen_at": "2026-11-27T17:27:54+08:00",
+      "last_seen_at": "2026-11-27T17:27:54+08:00"
+    }
+  ]
+}
